@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>猫咪实时通话</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <main class="card">
+      <p id="status" class="status">准备通话</p>
+      <div id="cat" class="cat mouth-closed" aria-label="猫咪虚拟人">
+        <span class="ears">▲ ▲</span><span class="face">•ᴥ•</span><span id="mouth">─</span>
+      </div>
+      <p class="hint">本地实时语音虚拟人</p>
+      <button id="callButton" type="button">拨通</button>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

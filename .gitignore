@@ -1,0 +1,14 @@
+# Local model weights and vendor checkouts are provisioned separately.
+pretrained_models/
+third_party/
+
+# Python build and test artefacts.
+*.egg-info/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Local runtime configuration.
+.env
+.venv/
+venv/

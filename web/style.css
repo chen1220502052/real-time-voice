@@ -1,0 +1,7 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: radial-gradient(circle at top, #324259, #111827 60%); }
+.card { width: min(420px, calc(100vw - 48px)); text-align: center; padding: 42px 28px; border: 1px solid #53657d; border-radius: 24px; background: #182334cc; box-shadow: 0 20px 80px #0008; }
+.status { color: #b8d6ff; min-height: 1.5em; }.hint { color: #9aa9bb; }
+.cat { width: 220px; height: 190px; margin: 28px auto 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 48% 48% 42% 42%; background: #9ba4af; color: #202634; transition: transform .08s ease; }
+.ears { font-size: 42px; letter-spacing: 30px; margin-left: 30px; transform: translateY(-10px); }.face { font-size: 64px; line-height: .8; }.cat #mouth { display: block; min-width: 42px; font-size: 36px; line-height: 1; }.mouth-open { transform: scale(1.03); }.mouth-open #mouth { font-size: 28px; color: #671e2c; }.mouth-open #mouth::after { content: "●"; }.mouth-open #mouth { font-size: 0; }.mouth-closed #mouth { font-size: 36px; }
+button { min-width: 150px; padding: 13px 24px; border: 0; border-radius: 999px; color: #fff; background: #3182ce; font-size: 17px; cursor: pointer; } button:disabled { background: #5e7188; cursor: wait; } button.hangup { background: #d64545; }

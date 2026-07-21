@@ -1,0 +1,31 @@
+[project]
+name = "real-time-voice"
+version = "0.1.0"
+description = "Local real-time voice avatar skeleton"
+requires-python = ">=3.11,<3.12"
+dependencies = ["aiohttp>=3.10,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+observability = [
+  "opentelemetry-api>=1.28,<2",
+  "opentelemetry-sdk>=1.28,<2",
+]
+asr = [
+  "funasr>=1.2,<2",
+  "torch==2.2.2",
+  "torchaudio==2.2.2",
+  # Keep the librosa/numba stack on versions that ship Intel macOS wheels for
+  # the project's Python 3.11 runtime; newer llvmlite releases build from
+  # source and require a separately installed LLVM toolchain.
+  "numpy<2",
+  "numba==0.58.1",
+  "llvmlite==0.41.1",
+]
+tts = ["piper-tts>=1.4,<2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["backend*"]
