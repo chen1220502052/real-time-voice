@@ -1,0 +1,465 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页149.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "3f7a1c7bb4c5526846943df8f3a6b150454982a609f84b7d2136efdca5feb0ea",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "himself",
+              "meaning": "他自己",
+              "uncertain": false
+            },
+            {
+              "word": "housework",
+              "meaning": "家务劳动;家务事",
+              "uncertain": false
+            },
+            {
+              "word": "alone",
+              "meaning": "独自",
+              "uncertain": false
+            },
+            {
+              "word": "peephole",
+              "meaning": "(墙或门上等的)窥视孔",
+              "uncertain": false
+            },
+            {
+              "word": "stranger",
+              "meaning": "陌生人",
+              "uncertain": false
+            },
+            {
+              "word": "delivery",
+              "meaning": "递送;传送;交付",
+              "uncertain": false
+            },
+            {
+              "word": "advantage",
+              "meaning": "优点",
+              "uncertain": false
+            },
+            {
+              "word": "cross",
+              "meaning": "穿越;横过",
+              "uncertain": false
+            },
+            {
+              "word": "guard",
+              "meaning": "警卫,看守",
+              "uncertain": false
+            },
+            {
+              "word": "accident",
+              "meaning": "(交通)事故;意外",
+              "uncertain": false
+            },
+            {
+              "word": "noise",
+              "meaning": "噪声",
+              "uncertain": false
+            },
+            {
+              "word": "environment",
+              "meaning": "自然环境;生态环境",
+              "uncertain": false
+            },
+            {
+              "word": "fair",
+              "meaning": "公正的;公道的",
+              "uncertain": false
+            },
+            {
+              "word": "court",
+              "meaning": "球场;法院",
+              "uncertain": false
+            },
+            {
+              "word": "dear",
+              "meaning": "亲爱的",
+              "uncertain": false
+            },
+            {
+              "word": "since",
+              "meaning": "因为;既然",
+              "uncertain": false
+            },
+            {
+              "word": "fight",
+              "meaning": "打架;打仗;努力争取;为……斗争",
+              "uncertain": false
+            },
+            {
+              "word": "mind",
+              "meaning": "头脑;大脑;心思",
+              "uncertain": false
+            },
+            {
+              "word": "herself",
+              "meaning": "她自己",
+              "uncertain": false
+            },
+            {
+              "word": "French",
+              "meaning": "法语;法国人;法国的;法国人的;法语的",
+              "uncertain": false
+            },
+            {
+              "word": "itself",
+              "meaning": "它自己(指施动并受其影响的动物或事物)",
+              "uncertain": false
+            },
+            {
+              "word": "ourselves",
+              "meaning": "我们自己",
+              "uncertain": false
+            },
+            {
+              "word": "break",
+              "meaning": "违反,背弃;(使)破;弄坏;弄破;稍停",
+              "uncertain": false
+            },
+            {
+              "word": "head",
+              "meaning": "头;负责人",
+              "uncertain": false
+            },
+            {
+              "word": "slowly",
+              "meaning": "慢速地;缓慢地",
+              "uncertain": false
+            },
+            {
+              "word": "speak",
+              "meaning": "说话;谈话",
+              "uncertain": false
+            },
+            {
+              "word": "loudly",
+              "meaning": "吵闹地;嘈杂地",
+              "uncertain": false
+            },
+            {
+              "word": "law",
+              "meaning": "法律;法规",
+              "uncertain": false
+            },
+            {
+              "word": "advice",
+              "meaning": "劝告;建议",
+              "uncertain": false
+            },
+            {
+              "word": "attention",
+              "meaning": "注意;专心",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "swimming pool",
+              "meaning": "游泳池;游泳馆",
+              "uncertain": false
+            },
+            {
+              "word": "pool",
+              "meaning": "室内/室外游泳池;水塘,池塘",
+              "uncertain": false
+            },
+            {
+              "word": "mess",
+              "meaning": "混乱;杂乱",
+              "uncertain": false
+            },
+            {
+              "word": "angry",
+              "meaning": "愤怒的;生气的",
+              "uncertain": false
+            },
+            {
+              "word": "loud",
+              "meaning": "大声的;喧闹的",
+              "uncertain": false
+            },
+            {
+              "word": "promise",
+              "meaning": "承诺;诺言",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mean",
+              "meaning": "表示……的意思;吝啬的;小气的",
+              "uncertain": false
+            },
+            {
+              "word": "behavior",
+              "meaning": "行为;举止;态度",
+              "uncertain": false
+            },
+            {
+              "word": "warning",
+              "meaning": "(就可能发生的意外等提出的)警告,警示;先兆",
+              "uncertain": false
+            },
+            {
+              "word": "subway",
+              "meaning": "地铁",
+              "uncertain": false
+            },
+            {
+              "word": "dollar",
+              "meaning": "元(美国、加拿大、澳大利亚等国的货币单位)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "himself",
+              "meaning": "他自己",
+              "uncertain": false
+            },
+            {
+              "word": "housework",
+              "meaning": "家务劳动;家务事",
+              "uncertain": false
+            },
+            {
+              "word": "alone",
+              "meaning": "独自",
+              "uncertain": false
+            },
+            {
+              "word": "peephole",
+              "meaning": "(墙或门上等的)窥视孔",
+              "uncertain": false
+            },
+            {
+              "word": "stranger",
+              "meaning": "陌生人",
+              "uncertain": false
+            },
+            {
+              "word": "delivery",
+              "meaning": "递送;传送;交付",
+              "uncertain": false
+            },
+            {
+              "word": "advantage",
+              "meaning": "优点",
+              "uncertain": false
+            },
+            {
+              "word": "cross",
+              "meaning": "穿越;横过",
+              "uncertain": false
+            },
+            {
+              "word": "guard",
+              "meaning": "警卫,看守",
+              "uncertain": false
+            },
+            {
+              "word": "accident",
+              "meaning": "(交通)事故;意外",
+              "uncertain": false
+            },
+            {
+              "word": "noise",
+              "meaning": "噪声",
+              "uncertain": false
+            },
+            {
+              "word": "environment",
+              "meaning": "自然环境;生态环境",
+              "uncertain": false
+            },
+            {
+              "word": "fair",
+              "meaning": "公正的;公道的",
+              "uncertain": false
+            },
+            {
+              "word": "court",
+              "meaning": "球场;法院",
+              "uncertain": false
+            },
+            {
+              "word": "dear",
+              "meaning": "亲爱的",
+              "uncertain": false
+            },
+            {
+              "word": "since",
+              "meaning": "因为;既然",
+              "uncertain": false
+            },
+            {
+              "word": "fight",
+              "meaning": "打架;打仗;努力争取;为……斗争",
+              "uncertain": false
+            },
+            {
+              "word": "mind",
+              "meaning": "头脑;大脑;心思",
+              "uncertain": false
+            },
+            {
+              "word": "herself",
+              "meaning": "她自己",
+              "uncertain": false
+            },
+            {
+              "word": "French",
+              "meaning": "法语;法国人;法国的;法国人的;法语的",
+              "uncertain": false
+            },
+            {
+              "word": "itself",
+              "meaning": "它自己(指施动并受其影响的动物或事物)",
+              "uncertain": false
+            },
+            {
+              "word": "ourselves",
+              "meaning": "我们自己",
+              "uncertain": false
+            },
+            {
+              "word": "break",
+              "meaning": "违反,背弃;(使)破;弄坏;弄破;稍停",
+              "uncertain": false
+            },
+            {
+              "word": "head",
+              "meaning": "头;负责人",
+              "uncertain": false
+            },
+            {
+              "word": "slowly",
+              "meaning": "慢速地;缓慢地",
+              "uncertain": false
+            },
+            {
+              "word": "speak",
+              "meaning": "说话;谈话",
+              "uncertain": false
+            },
+            {
+              "word": "loudly",
+              "meaning": "吵闹地;嘈杂地",
+              "uncertain": false
+            },
+            {
+              "word": "law",
+              "meaning": "法律;法规",
+              "uncertain": false
+            },
+            {
+              "word": "advice",
+              "meaning": "劝告;建议",
+              "uncertain": false
+            },
+            {
+              "word": "attention",
+              "meaning": "注意;专心",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "swimming pool",
+              "meaning": "游泳池;游泳馆",
+              "uncertain": false
+            },
+            {
+              "word": "pool",
+              "meaning": "室内/室外游泳池;水塘,池塘",
+              "uncertain": false
+            },
+            {
+              "word": "mess",
+              "meaning": "混乱;杂乱",
+              "uncertain": false
+            },
+            {
+              "word": "angry",
+              "meaning": "愤怒的;生气的",
+              "uncertain": false
+            },
+            {
+              "word": "loud",
+              "meaning": "大声的;喧闹的",
+              "uncertain": false
+            },
+            {
+              "word": "promise",
+              "meaning": "承诺;诺言",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mean",
+              "meaning": "表示……的意思;吝啬的;小气的",
+              "uncertain": false
+            },
+            {
+              "word": "behavior",
+              "meaning": "行为;举止;态度",
+              "uncertain": false
+            },
+            {
+              "word": "warning",
+              "meaning": "(就可能发生的意外等提出的)警告,警示;先兆",
+              "uncertain": false
+            },
+            {
+              "word": "subway",
+              "meaning": "地铁",
+              "uncertain": false
+            },
+            {
+              "word": "dollar",
+              "meaning": "元(美国、加拿大、澳大利亚等国的货币单位)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -14,6 +14,25 @@ class ProtocolError(ValueError):
     pass
 
 
+class SequenceValidator:
+    """Validate a monotonically contiguous packet stream.
+
+    After a forward gap we resynchronize to the received packet so one loss
+    does not make every later packet invalid. Duplicates remain rejected.
+    """
+
+    def __init__(self, expected: int = 0) -> None:
+        self.expected = expected
+
+    def validate(self, sequence: int) -> None:
+        if sequence != self.expected:
+            expected = self.expected
+            if sequence > self.expected:
+                self.expected = sequence + 1
+            raise ProtocolError(f"audio sequence discontinuity: expected {expected}, got {sequence}")
+        self.expected += 1
+
+
 @dataclass
 class AudioFrame:
     direction: int
@@ -47,4 +66,3 @@ def decode_audio_frame(data: bytes) -> AudioFrame:
     if direction not in (0, 1):
         raise ProtocolError("invalid direction")
     return AudioFrame(direction, hashed, sequence, timestamp_ms, data[HEADER_SIZE:])
-

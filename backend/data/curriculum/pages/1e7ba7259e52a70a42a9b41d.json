@@ -1,0 +1,904 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页148.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "1e7ba7259e52a70a42a9b41d13adb730161b47092afb154f5e3210e2a68eb9ec",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "kid",
+              "meaning": "n.小孩;年轻人",
+              "uncertain": false
+            },
+            {
+              "word": "own",
+              "meaning": "adj., pron.自己的,本人的 v.拥有,有;承担;负责",
+              "uncertain": false
+            },
+            {
+              "word": "bedroom",
+              "meaning": "n.卧室",
+              "uncertain": false
+            },
+            {
+              "word": "mine",
+              "meaning": "pron.我的 n.矿;矿井",
+              "uncertain": false
+            },
+            {
+              "word": "hers",
+              "meaning": "pron.她的",
+              "uncertain": false
+            },
+            {
+              "word": "ours",
+              "meaning": "pron.我们的",
+              "uncertain": false
+            },
+            {
+              "word": "yard",
+              "meaning": "n.院子",
+              "uncertain": false
+            },
+            {
+              "word": "theirs",
+              "meaning": "pron.他们的,她们的,它们的",
+              "uncertain": false
+            },
+            {
+              "word": "both",
+              "meaning": "pron., det.两个,两个都",
+              "uncertain": false
+            },
+            {
+              "word": "cut",
+              "meaning": "v.切,割;(用刀等将某物)切成,割成;削减,缩减",
+              "uncertain": false
+            },
+            {
+              "word": "event",
+              "meaning": "n.大事;公开活动",
+              "uncertain": false
+            },
+            {
+              "word": "website",
+              "meaning": "n.网站",
+              "uncertain": false
+            },
+            {
+              "word": "nursing",
+              "meaning": "n.护理;看护",
+              "uncertain": false
+            },
+            {
+              "word": "elder",
+              "meaning": "n.长者;长辈",
+              "uncertain": false
+            },
+            {
+              "word": "lady",
+              "meaning": "n.女士,女子",
+              "uncertain": false
+            },
+            {
+              "word": "better",
+              "meaning": "adj.(good 的比较级)较好的;更好的",
+              "uncertain": false
+            },
+            {
+              "word": "housing",
+              "meaning": "n.(统称)住房,住宅",
+              "uncertain": false
+            },
+            {
+              "word": "transportation",
+              "meaning": "n.公共交通运输系统",
+              "uncertain": false
+            },
+            {
+              "word": "nearby",
+              "meaning": "adv.在附近 adj.附近的",
+              "uncertain": false
+            },
+            {
+              "word": "public",
+              "meaning": "adj.公众的,大众的;公共的,公立的 n.民众;百姓(the public)",
+              "uncertain": false
+            },
+            {
+              "word": "space",
+              "meaning": "n.大片空地;太空;空隙;空间",
+              "uncertain": false
+            },
+            {
+              "word": "item",
+              "meaning": "n.项目;物件",
+              "uncertain": false
+            },
+            {
+              "word": "farmer",
+              "meaning": "n.农场主;农人",
+              "uncertain": false
+            },
+            {
+              "word": "farm",
+              "meaning": "n.农场 v.务农,饲养",
+              "uncertain": false
+            },
+            {
+              "word": "drive",
+              "meaning": "v.驾车送(人);驾驶,开车",
+              "uncertain": false
+            },
+            {
+              "word": "goods",
+              "meaning": "n.商品,货品;运载的货物",
+              "uncertain": false
+            },
+            {
+              "word": "business",
+              "meaning": "n.商业;生意",
+              "uncertain": false
+            },
+            {
+              "word": "early",
+              "meaning": "adv.在早期;提前 adj.早期的;早到的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "rule",
+              "meaning": "n.规则;规章;条例",
+              "uncertain": false
+            },
+            {
+              "word": "traffic",
+              "meaning": "n.交通",
+              "uncertain": false
+            },
+            {
+              "word": "respect",
+              "meaning": "v., n.尊敬;尊重",
+              "uncertain": false
+            },
+            {
+              "word": "forget",
+              "meaning": "v.忘记做;忘记",
+              "uncertain": false
+            },
+            {
+              "word": "board",
+              "meaning": "n.板;木板",
+              "uncertain": false
+            },
+            {
+              "word": "polite",
+              "meaning": "adj.有礼貌的",
+              "uncertain": false
+            },
+            {
+              "word": "cause",
+              "meaning": "n.原因;起因 v.造成;引起;导致",
+              "uncertain": false
+            },
+            {
+              "word": "effect",
+              "meaning": "n.结果;影响",
+              "uncertain": false
+            },
+            {
+              "word": "wall",
+              "meaning": "n.墙,墙壁;城墙",
+              "uncertain": false
+            },
+            {
+              "word": "hurt",
+              "meaning": "v.(使)疼痛,受伤",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "kid",
+              "meaning": "n.小孩;年轻人",
+              "uncertain": false
+            },
+            {
+              "word": "own",
+              "meaning": "adj., pron.自己的,本人的 v.拥有,有;承担;负责",
+              "uncertain": false
+            },
+            {
+              "word": "bedroom",
+              "meaning": "n.卧室",
+              "uncertain": false
+            },
+            {
+              "word": "mine",
+              "meaning": "pron.我的 n.矿;矿井",
+              "uncertain": false
+            },
+            {
+              "word": "hers",
+              "meaning": "pron.她的",
+              "uncertain": false
+            },
+            {
+              "word": "ours",
+              "meaning": "pron.我们的",
+              "uncertain": false
+            },
+            {
+              "word": "yard",
+              "meaning": "n.院子",
+              "uncertain": false
+            },
+            {
+              "word": "theirs",
+              "meaning": "pron.他们的,她们的,它们的",
+              "uncertain": false
+            },
+            {
+              "word": "both",
+              "meaning": "pron., det.两个,两个都",
+              "uncertain": false
+            },
+            {
+              "word": "cut",
+              "meaning": "v.切,割;(用刀等将某物)切成,割成;削减,缩减",
+              "uncertain": false
+            },
+            {
+              "word": "event",
+              "meaning": "n.大事;公开活动",
+              "uncertain": false
+            },
+            {
+              "word": "website",
+              "meaning": "n.网站",
+              "uncertain": false
+            },
+            {
+              "word": "nursing",
+              "meaning": "n.护理;看护",
+              "uncertain": false
+            },
+            {
+              "word": "elder",
+              "meaning": "n.长者;长辈",
+              "uncertain": false
+            },
+            {
+              "word": "lady",
+              "meaning": "n.女士,女子",
+              "uncertain": false
+            },
+            {
+              "word": "better",
+              "meaning": "adj.(good 的比较级)较好的;更好的",
+              "uncertain": false
+            },
+            {
+              "word": "housing",
+              "meaning": "n.(统称)住房,住宅",
+              "uncertain": false
+            },
+            {
+              "word": "transportation",
+              "meaning": "n.公共交通运输系统",
+              "uncertain": false
+            },
+            {
+              "word": "nearby",
+              "meaning": "adv.在附近 adj.附近的",
+              "uncertain": false
+            },
+            {
+              "word": "public",
+              "meaning": "adj.公众的,大众的;公共的,公立的 n.民众;百姓(the public)",
+              "uncertain": false
+            },
+            {
+              "word": "space",
+              "meaning": "n.大片空地;太空;空隙;空间",
+              "uncertain": false
+            },
+            {
+              "word": "item",
+              "meaning": "n.项目;物件",
+              "uncertain": false
+            },
+            {
+              "word": "farmer",
+              "meaning": "n.农场主;农人",
+              "uncertain": false
+            },
+            {
+              "word": "farm",
+              "meaning": "n.农场 v.务农,饲养",
+              "uncertain": false
+            },
+            {
+              "word": "drive",
+              "meaning": "v.驾车送(人);驾驶,开车",
+              "uncertain": false
+            },
+            {
+              "word": "goods",
+              "meaning": "n.商品,货品;运载的货物",
+              "uncertain": false
+            },
+            {
+              "word": "business",
+              "meaning": "n.商业;生意",
+              "uncertain": false
+            },
+            {
+              "word": "early",
+              "meaning": "adv.在早期;提前 adj.早期的;早到的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "rule",
+              "meaning": "n.规则;规章;条例",
+              "uncertain": false
+            },
+            {
+              "word": "traffic",
+              "meaning": "n.交通",
+              "uncertain": false
+            },
+            {
+              "word": "respect",
+              "meaning": "v., n.尊敬;尊重",
+              "uncertain": false
+            },
+            {
+              "word": "forget",
+              "meaning": "v.忘记做;忘记",
+              "uncertain": false
+            },
+            {
+              "word": "board",
+              "meaning": "n.板;木板",
+              "uncertain": false
+            },
+            {
+              "word": "polite",
+              "meaning": "adj.有礼貌的",
+              "uncertain": false
+            },
+            {
+              "word": "cause",
+              "meaning": "n.原因;起因 v.造成;引起;导致",
+              "uncertain": false
+            },
+            {
+              "word": "effect",
+              "meaning": "n.结果;影响",
+              "uncertain": false
+            },
+            {
+              "word": "wall",
+              "meaning": "n.墙,墙壁;城墙",
+              "uncertain": false
+            },
+            {
+              "word": "hurt",
+              "meaning": "v.(使)疼痛,受伤",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "6dadffe79a4ab7910e591017a82e1af039f627643ab5ea300377fb866b136c11",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "kid",
+                  "meaning": "n.小孩;年轻人",
+                  "uncertain": false
+                },
+                {
+                  "word": "own",
+                  "meaning": "adj., pron.自己的,本人的 v.拥有,有;承担;负责",
+                  "uncertain": false
+                },
+                {
+                  "word": "bedroom",
+                  "meaning": "n.卧室",
+                  "uncertain": false
+                },
+                {
+                  "word": "mine",
+                  "meaning": "pron.我的 n.矿;矿井",
+                  "uncertain": false
+                },
+                {
+                  "word": "hers",
+                  "meaning": "pron.她的",
+                  "uncertain": false
+                },
+                {
+                  "word": "ours",
+                  "meaning": "pron.我们的",
+                  "uncertain": false
+                },
+                {
+                  "word": "yard",
+                  "meaning": "n.院子",
+                  "uncertain": false
+                },
+                {
+                  "word": "theirs",
+                  "meaning": "pron.他们的,她们的,它们的",
+                  "uncertain": false
+                },
+                {
+                  "word": "both",
+                  "meaning": "pron., det.两个,两个都",
+                  "uncertain": false
+                },
+                {
+                  "word": "cut",
+                  "meaning": "v.切,割;(用刀等将某物)切成,割成;削减,缩减",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "event",
+                  "meaning": "n.大事;公开活动",
+                  "uncertain": false
+                },
+                {
+                  "word": "website",
+                  "meaning": "n.网站",
+                  "uncertain": false
+                },
+                {
+                  "word": "nursing",
+                  "meaning": "n.护理;看护",
+                  "uncertain": false
+                },
+                {
+                  "word": "elder",
+                  "meaning": "n.长者;长辈",
+                  "uncertain": false
+                },
+                {
+                  "word": "lady",
+                  "meaning": "n.女士,女子",
+                  "uncertain": false
+                },
+                {
+                  "word": "better",
+                  "meaning": "adj.(good 的比较级)较好的;更好的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "housing",
+                  "meaning": "n.(统称)住房,住宅",
+                  "uncertain": false
+                },
+                {
+                  "word": "transportation",
+                  "meaning": "n.公共交通运输系统",
+                  "uncertain": false
+                },
+                {
+                  "word": "nearby",
+                  "meaning": "adv.在附近 adj.附近的",
+                  "uncertain": false
+                },
+                {
+                  "word": "public",
+                  "meaning": "adj.公众的,大众的;公共的,",
+                  "uncertain": true
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The final entry 'public' has a truncated meaning ending with a comma; the remainder is cut off at the page edge."
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "kid",
+                  "meaning": "n.小孩;年轻人",
+                  "uncertain": false
+                },
+                {
+                  "word": "own",
+                  "meaning": "adj., pron.自己的,本人的 v.拥有,有;承担;负责",
+                  "uncertain": false
+                },
+                {
+                  "word": "bedroom",
+                  "meaning": "n.卧室",
+                  "uncertain": false
+                },
+                {
+                  "word": "mine",
+                  "meaning": "pron.我的 n.矿;矿井",
+                  "uncertain": false
+                },
+                {
+                  "word": "hers",
+                  "meaning": "pron.她的",
+                  "uncertain": false
+                },
+                {
+                  "word": "ours",
+                  "meaning": "pron.我们的",
+                  "uncertain": false
+                },
+                {
+                  "word": "yard",
+                  "meaning": "n.院子",
+                  "uncertain": false
+                },
+                {
+                  "word": "theirs",
+                  "meaning": "pron.他们的,她们的,它们的",
+                  "uncertain": false
+                },
+                {
+                  "word": "both",
+                  "meaning": "pron., det.两个,两个都",
+                  "uncertain": false
+                },
+                {
+                  "word": "cut",
+                  "meaning": "v.切,割;(用刀等将某物)切成,割成;削减,缩减",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "event",
+                  "meaning": "n.大事;公开活动",
+                  "uncertain": false
+                },
+                {
+                  "word": "website",
+                  "meaning": "n.网站",
+                  "uncertain": false
+                },
+                {
+                  "word": "nursing",
+                  "meaning": "n.护理;看护",
+                  "uncertain": false
+                },
+                {
+                  "word": "elder",
+                  "meaning": "n.长者;长辈",
+                  "uncertain": false
+                },
+                {
+                  "word": "lady",
+                  "meaning": "n.女士,女子",
+                  "uncertain": false
+                },
+                {
+                  "word": "better",
+                  "meaning": "adj.(good 的比较级)较好的;更好的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "housing",
+                  "meaning": "n.(统称)住房,住宅",
+                  "uncertain": false
+                },
+                {
+                  "word": "transportation",
+                  "meaning": "n.公共交通运输系统",
+                  "uncertain": false
+                },
+                {
+                  "word": "nearby",
+                  "meaning": "adv.在附近 adj.附近的",
+                  "uncertain": false
+                },
+                {
+                  "word": "public",
+                  "meaning": "adj.公众的,大众的;公共的,",
+                  "uncertain": true
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The final entry 'public' has a truncated meaning ending with a comma; the remainder is cut off at the page edge."
+          ]
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "ce049c2ec2295f60a2066f0e68de5d3646888211838ba2ad0c904d2ca6d08a82",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "public",
+                  "meaning": "n.民众;百姓(the public)",
+                  "uncertain": false
+                },
+                {
+                  "word": "space",
+                  "meaning": "n.大片空地;太空;空隙;空间",
+                  "uncertain": false
+                },
+                {
+                  "word": "item",
+                  "meaning": "n.项目;物件",
+                  "uncertain": false
+                },
+                {
+                  "word": "farmer",
+                  "meaning": "n.农场主;农人",
+                  "uncertain": false
+                },
+                {
+                  "word": "farm",
+                  "meaning": "n.农场 v.务农,饲养",
+                  "uncertain": false
+                },
+                {
+                  "word": "drive",
+                  "meaning": "v.驾车送(人);驾驶,开车",
+                  "uncertain": false
+                },
+                {
+                  "word": "goods",
+                  "meaning": "n.商品,货品;运载的货物",
+                  "uncertain": false
+                },
+                {
+                  "word": "business",
+                  "meaning": "n.商业;生意",
+                  "uncertain": false
+                },
+                {
+                  "word": "early",
+                  "meaning": "adv.在早期;提前 adj.早期的;早到的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 11,
+              "entries": [
+                {
+                  "word": "rule",
+                  "meaning": "n.规则;规章;条例",
+                  "uncertain": false
+                },
+                {
+                  "word": "traffic",
+                  "meaning": "n.交通",
+                  "uncertain": false
+                },
+                {
+                  "word": "respect",
+                  "meaning": "v., n.尊敬;尊重",
+                  "uncertain": false
+                },
+                {
+                  "word": "forget",
+                  "meaning": "v.忘记做;忘记",
+                  "uncertain": false
+                },
+                {
+                  "word": "board",
+                  "meaning": "n.板;木板",
+                  "uncertain": false
+                },
+                {
+                  "word": "polite",
+                  "meaning": "adj.有礼貌的",
+                  "uncertain": false
+                },
+                {
+                  "word": "cause",
+                  "meaning": "n.原因;起因 v.造成;引起;导致",
+                  "uncertain": false
+                },
+                {
+                  "word": "effect",
+                  "meaning": "n.结果;影响",
+                  "uncertain": false
+                },
+                {
+                  "word": "wall",
+                  "meaning": "n.墙,墙壁;城墙",
+                  "uncertain": false
+                },
+                {
+                  "word": "hurt",
+                  "meaning": "v.(使)疼痛,受伤",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "public",
+                  "meaning": "n.民众;百姓(the public)",
+                  "uncertain": false
+                },
+                {
+                  "word": "space",
+                  "meaning": "n.大片空地;太空;空隙;空间",
+                  "uncertain": false
+                },
+                {
+                  "word": "item",
+                  "meaning": "n.项目;物件",
+                  "uncertain": false
+                },
+                {
+                  "word": "farmer",
+                  "meaning": "n.农场主;农人",
+                  "uncertain": false
+                },
+                {
+                  "word": "farm",
+                  "meaning": "n.农场 v.务农,饲养",
+                  "uncertain": false
+                },
+                {
+                  "word": "drive",
+                  "meaning": "v.驾车送(人);驾驶,开车",
+                  "uncertain": false
+                },
+                {
+                  "word": "goods",
+                  "meaning": "n.商品,货品;运载的货物",
+                  "uncertain": false
+                },
+                {
+                  "word": "business",
+                  "meaning": "n.商业;生意",
+                  "uncertain": false
+                },
+                {
+                  "word": "early",
+                  "meaning": "adv.在早期;提前 adj.早期的;早到的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 11,
+              "entries": [
+                {
+                  "word": "rule",
+                  "meaning": "n.规则;规章;条例",
+                  "uncertain": false
+                },
+                {
+                  "word": "traffic",
+                  "meaning": "n.交通",
+                  "uncertain": false
+                },
+                {
+                  "word": "respect",
+                  "meaning": "v., n.尊敬;尊重",
+                  "uncertain": false
+                },
+                {
+                  "word": "forget",
+                  "meaning": "v.忘记做;忘记",
+                  "uncertain": false
+                },
+                {
+                  "word": "board",
+                  "meaning": "n.板;木板",
+                  "uncertain": false
+                },
+                {
+                  "word": "polite",
+                  "meaning": "adj.有礼貌的",
+                  "uncertain": false
+                },
+                {
+                  "word": "cause",
+                  "meaning": "n.原因;起因 v.造成;引起;导致",
+                  "uncertain": false
+                },
+                {
+                  "word": "effect",
+                  "meaning": "n.结果;影响",
+                  "uncertain": false
+                },
+                {
+                  "word": "wall",
+                  "meaning": "n.墙,墙壁;城墙",
+                  "uncertain": false
+                },
+                {
+                  "word": "hurt",
+                  "meaning": "v.(使)疼痛,受伤",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

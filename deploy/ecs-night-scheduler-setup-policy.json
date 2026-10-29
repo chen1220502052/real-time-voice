@@ -1,0 +1,25 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "oos:StartExecution",
+        "oos:GetExecution",
+        "oos:ListExecutions",
+        "oos:GetTemplate"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "ram:PassRole",
+      "Resource": "acs:ram::1614595363757373:role/ecs-night-scheduler-role",
+      "Condition": {
+        "StringEquals": {
+          "acs:Service": "oos.aliyuncs.com"
+        }
+      }
+    }
+  ]
+}

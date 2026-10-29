@@ -1,0 +1,38 @@
+{
+  "TemplateContent": {
+    "FormatVersion": "OOS-2019-06-01",
+    "Description": "Daily 21:00 Asia/Shanghai economical stop only; no automatic startup",
+    "Parameters": {
+      "role": {
+        "Type": "String"
+      }
+    },
+    "RamRole": "{{ role }}",
+    "Tasks": [
+      {
+        "Name": "timerTrigger",
+        "Action": "ACS::TimerTrigger",
+        "Properties": {
+          "Type": "cron",
+          "Expression": "0 0 13 ? * *",
+          "TimeZone": "UTC",
+          "EndDate": "2099-12-01T00:00:00Z"
+        }
+      },
+      {
+        "Name": "stopInstance",
+        "Action": "ACS::ECS::StopInstance",
+        "Properties": {
+          "regionId": "cn-hongkong",
+          "instanceId": "i-j6ci77fwjtiopeqqxctu",
+          "stoppedMode": "StopCharging"
+        }
+      }
+    ]
+  },
+  "Parameters": {
+    "role": "ecs-night-scheduler-role"
+  },
+  "ClientToken": "ecs-stop-only-2100-20261026-v1",
+  "Description": "Daily 21:00 economical stop only, startup on demand"
+}

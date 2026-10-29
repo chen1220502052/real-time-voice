@@ -1,0 +1,295 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": ".local/curriculum-column-crops/3db43f3221ac004d4302b4df-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "533c879c73e40ecdc2acacf18dcc221569d1293e6a9be7a94e429915f91ef1b9",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "bite",
+              "meaning": "咬;叮",
+              "uncertain": false
+            },
+            {
+              "word": "planter",
+              "meaning": "种植园主",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "colleague",
+              "meaning": "同事,同僚",
+              "uncertain": false
+            },
+            {
+              "word": "motorbike",
+              "meaning": "摩托车",
+              "uncertain": false
+            },
+            {
+              "word": "gasoline",
+              "meaning": "汽油",
+              "uncertain": false
+            },
+            {
+              "word": "anybody",
+              "meaning": "任何人,无论谁",
+              "uncertain": false
+            },
+            {
+              "word": "examine",
+              "meaning": "检查,调查",
+              "uncertain": false
+            },
+            {
+              "word": "marry",
+              "meaning": "嫁;娶;结婚",
+              "uncertain": false
+            },
+            {
+              "word": "weight",
+              "meaning": "重量;分量",
+              "uncertain": false
+            },
+            {
+              "word": "package",
+              "meaning": "一包,一袋,一盒",
+              "uncertain": false
+            },
+            {
+              "word": "product",
+              "meaning": "产品,制品",
+              "uncertain": false
+            },
+            {
+              "word": "excessive",
+              "meaning": "过度的;过分的",
+              "uncertain": false
+            },
+            {
+              "word": "goods",
+              "meaning": "商品;货品",
+              "uncertain": false
+            },
+            {
+              "word": "seriously",
+              "meaning": "严重地;严肃地",
+              "uncertain": false
+            },
+            {
+              "word": "video",
+              "meaning": "录像带;录像",
+              "uncertain": false
+            },
+            {
+              "word": "allow",
+              "meaning": "允许,准许",
+              "uncertain": false
+            },
+            {
+              "word": "quality",
+              "meaning": "质量;品质;人品",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "cartoon",
+              "meaning": "漫画",
+              "uncertain": false
+            },
+            {
+              "word": "character",
+              "meaning": "(书、剧本、电影等中的)人物,角色;(汉)字,字体;品格",
+              "uncertain": false
+            },
+            {
+              "word": "widely",
+              "meaning": "普遍地;广泛地",
+              "uncertain": false
+            },
+            {
+              "word": "throughout",
+              "meaning": "遍及;贯穿",
+              "uncertain": false
+            },
+            {
+              "word": "from now on",
+              "meaning": "从今往后,从现在开始",
+              "uncertain": false
+            },
+            {
+              "word": "foreigner",
+              "meaning": "外国人",
+              "uncertain": false
+            },
+            {
+              "word": "film-maker",
+              "meaning": "电影制作人",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "bite",
+              "meaning": "咬;叮",
+              "uncertain": false
+            },
+            {
+              "word": "planter",
+              "meaning": "种植园主",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "colleague",
+              "meaning": "同事,同僚",
+              "uncertain": false
+            },
+            {
+              "word": "motorbike",
+              "meaning": "摩托车",
+              "uncertain": false
+            },
+            {
+              "word": "gasoline",
+              "meaning": "汽油",
+              "uncertain": false
+            },
+            {
+              "word": "anybody",
+              "meaning": "任何人,无论谁",
+              "uncertain": false
+            },
+            {
+              "word": "examine",
+              "meaning": "检查,调查",
+              "uncertain": false
+            },
+            {
+              "word": "marry",
+              "meaning": "嫁;娶;结婚",
+              "uncertain": false
+            },
+            {
+              "word": "weight",
+              "meaning": "重量;分量",
+              "uncertain": false
+            },
+            {
+              "word": "package",
+              "meaning": "一包,一袋,一盒",
+              "uncertain": false
+            },
+            {
+              "word": "product",
+              "meaning": "产品,制品",
+              "uncertain": false
+            },
+            {
+              "word": "excessive",
+              "meaning": "过度的;过分的",
+              "uncertain": false
+            },
+            {
+              "word": "goods",
+              "meaning": "商品;货品",
+              "uncertain": false
+            },
+            {
+              "word": "seriously",
+              "meaning": "严重地;严肃地",
+              "uncertain": false
+            },
+            {
+              "word": "video",
+              "meaning": "录像带;录像",
+              "uncertain": false
+            },
+            {
+              "word": "allow",
+              "meaning": "允许,准许",
+              "uncertain": false
+            },
+            {
+              "word": "quality",
+              "meaning": "质量;品质;人品",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "cartoon",
+              "meaning": "漫画",
+              "uncertain": false
+            },
+            {
+              "word": "character",
+              "meaning": "(书、剧本、电影等中的)人物,角色;(汉)字,字体;品格",
+              "uncertain": false
+            },
+            {
+              "word": "widely",
+              "meaning": "普遍地;广泛地",
+              "uncertain": false
+            },
+            {
+              "word": "throughout",
+              "meaning": "遍及;贯穿",
+              "uncertain": false
+            },
+            {
+              "word": "from now on",
+              "meaning": "从今往后,从现在开始",
+              "uncertain": false
+            },
+            {
+              "word": "foreigner",
+              "meaning": "外国人",
+              "uncertain": false
+            },
+            {
+              "word": "film-maker",
+              "meaning": "电影制作人",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

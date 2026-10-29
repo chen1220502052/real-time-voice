@@ -1,0 +1,245 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/1548ee9c1556e29420940f58-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "8e7398c2d9fef0a391f7f703e0e18639dab1f9c6b5bd8c7295206474fb6fdd77",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "zookeeper",
+              "meaning": "n.动物园管理员",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "v.(凭长期努力)达到(某目标、地位、标准);完成;成功",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "v.设计;构思;计划",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "n.设计;构思;设计方案",
+              "uncertain": false
+            },
+            {
+              "word": "model",
+              "meaning": "n.模型;模特儿",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "adj.科学(上)的",
+              "uncertain": false
+            },
+            {
+              "word": "knowledge",
+              "meaning": "n.知识;学问",
+              "uncertain": false
+            },
+            {
+              "word": "challenge",
+              "meaning": "n.挑战",
+              "uncertain": false
+            },
+            {
+              "word": "however",
+              "meaning": "adv.然而",
+              "uncertain": false
+            },
+            {
+              "word": "shelf",
+              "meaning": "n.架子,搁板",
+              "uncertain": false
+            },
+            {
+              "word": "reader",
+              "meaning": "n.读者",
+              "uncertain": false
+            },
+            {
+              "word": "record",
+              "meaning": "n.记录;记载",
+              "uncertain": false
+            },
+            {
+              "word": "record",
+              "meaning": "v.记录;记载",
+              "uncertain": false
+            },
+            {
+              "word": "dentist",
+              "meaning": "n.牙科医生",
+              "uncertain": false
+            },
+            {
+              "word": "reason",
+              "meaning": "n.原因;理由",
+              "uncertain": false
+            },
+            {
+              "word": "research",
+              "meaning": "n.研究;调查",
+              "uncertain": false
+            },
+            {
+              "word": "tourist",
+              "meaning": "n.游客",
+              "uncertain": false
+            },
+            {
+              "word": "speech",
+              "meaning": "n.演说;讲话",
+              "uncertain": false
+            },
+            {
+              "word": "term",
+              "meaning": "n.学期",
+              "uncertain": false
+            },
+            {
+              "word": "waitress",
+              "meaning": "n.女服务员",
+              "uncertain": false
+            },
+            {
+              "word": "greet",
+              "meaning": "v.和(某人)打招呼(或问好);欢迎;迎接",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "zookeeper",
+              "meaning": "n.动物园管理员",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "v.(凭长期努力)达到(某目标、地位、标准);完成;成功",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "v.设计;构思;计划",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "n.设计;构思;设计方案",
+              "uncertain": false
+            },
+            {
+              "word": "model",
+              "meaning": "n.模型;模特儿",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "adj.科学(上)的",
+              "uncertain": false
+            },
+            {
+              "word": "knowledge",
+              "meaning": "n.知识;学问",
+              "uncertain": false
+            },
+            {
+              "word": "challenge",
+              "meaning": "n.挑战",
+              "uncertain": false
+            },
+            {
+              "word": "however",
+              "meaning": "adv.然而",
+              "uncertain": false
+            },
+            {
+              "word": "shelf",
+              "meaning": "n.架子,搁板",
+              "uncertain": false
+            },
+            {
+              "word": "reader",
+              "meaning": "n.读者",
+              "uncertain": false
+            },
+            {
+              "word": "record",
+              "meaning": "n.记录;记载",
+              "uncertain": false
+            },
+            {
+              "word": "record",
+              "meaning": "v.记录;记载",
+              "uncertain": false
+            },
+            {
+              "word": "dentist",
+              "meaning": "n.牙科医生",
+              "uncertain": false
+            },
+            {
+              "word": "reason",
+              "meaning": "n.原因;理由",
+              "uncertain": false
+            },
+            {
+              "word": "research",
+              "meaning": "n.研究;调查",
+              "uncertain": false
+            },
+            {
+              "word": "tourist",
+              "meaning": "n.游客",
+              "uncertain": false
+            },
+            {
+              "word": "speech",
+              "meaning": "n.演说;讲话",
+              "uncertain": false
+            },
+            {
+              "word": "term",
+              "meaning": "n.学期",
+              "uncertain": false
+            },
+            {
+              "word": "waitress",
+              "meaning": "n.女服务员",
+              "uncertain": false
+            },
+            {
+              "word": "greet",
+              "meaning": "v.和(某人)打招呼(或问好);欢迎;迎接",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,257 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/04_04_教材页面_7b053dcb7a.jpg",
+  "units": [
+    4
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "5ec23cea270ed99c2de76d3187248aecc7b99c14c6ca9d85af6b00bdc2c94112",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "washing machine",
+              "meaning": "洗衣机",
+              "uncertain": false
+            },
+            {
+              "word": "online",
+              "meaning": "在线的",
+              "uncertain": false
+            },
+            {
+              "word": "radio",
+              "meaning": "收音机",
+              "uncertain": false
+            },
+            {
+              "word": "past",
+              "meaning": "过去",
+              "uncertain": false
+            },
+            {
+              "word": "change",
+              "meaning": "改变",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "生活，生命",
+              "uncertain": false
+            },
+            {
+              "word": "smart",
+              "meaning": "智能的",
+              "uncertain": false
+            },
+            {
+              "word": "computer",
+              "meaning": "电脑",
+              "uncertain": false
+            },
+            {
+              "word": "newspaper",
+              "meaning": "报纸",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "以前，从前",
+              "uncertain": false
+            },
+            {
+              "word": "supermarket",
+              "meaning": "超市",
+              "uncertain": false
+            },
+            {
+              "word": "paper",
+              "meaning": "纸，纸张",
+              "uncertain": false
+            },
+            {
+              "word": "broom",
+              "meaning": "笤帚",
+              "uncertain": false
+            },
+            {
+              "word": "crop",
+              "meaning": "庄稼",
+              "uncertain": false
+            },
+            {
+              "word": "thanks to",
+              "meaning": "由于",
+              "uncertain": false
+            },
+            {
+              "word": "modern",
+              "meaning": "现代的",
+              "uncertain": false
+            },
+            {
+              "word": "team",
+              "meaning": "团队",
+              "uncertain": false
+            },
+            {
+              "word": "hybrid rice",
+              "meaning": "杂交水稻",
+              "uncertain": false
+            },
+            {
+              "word": "grow",
+              "meaning": "种植，成长",
+              "uncertain": false
+            },
+            {
+              "word": "mountain",
+              "meaning": "高山",
+              "uncertain": false
+            },
+            {
+              "word": "sea",
+              "meaning": "大海",
+              "uncertain": false
+            },
+            {
+              "word": "bridge",
+              "meaning": "桥",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "washing machine",
+              "meaning": "洗衣机",
+              "uncertain": false
+            },
+            {
+              "word": "online",
+              "meaning": "在线的",
+              "uncertain": false
+            },
+            {
+              "word": "radio",
+              "meaning": "收音机",
+              "uncertain": false
+            },
+            {
+              "word": "past",
+              "meaning": "过去",
+              "uncertain": false
+            },
+            {
+              "word": "change",
+              "meaning": "改变",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "生活，生命",
+              "uncertain": false
+            },
+            {
+              "word": "smart",
+              "meaning": "智能的",
+              "uncertain": false
+            },
+            {
+              "word": "computer",
+              "meaning": "电脑",
+              "uncertain": false
+            },
+            {
+              "word": "newspaper",
+              "meaning": "报纸",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "以前，从前",
+              "uncertain": false
+            },
+            {
+              "word": "supermarket",
+              "meaning": "超市",
+              "uncertain": false
+            },
+            {
+              "word": "paper",
+              "meaning": "纸，纸张",
+              "uncertain": false
+            },
+            {
+              "word": "broom",
+              "meaning": "笤帚",
+              "uncertain": false
+            },
+            {
+              "word": "crop",
+              "meaning": "庄稼",
+              "uncertain": false
+            },
+            {
+              "word": "thanks to",
+              "meaning": "由于",
+              "uncertain": false
+            },
+            {
+              "word": "modern",
+              "meaning": "现代的",
+              "uncertain": false
+            },
+            {
+              "word": "team",
+              "meaning": "团队",
+              "uncertain": false
+            },
+            {
+              "word": "hybrid rice",
+              "meaning": "杂交水稻",
+              "uncertain": false
+            },
+            {
+              "word": "grow",
+              "meaning": "种植，成长",
+              "uncertain": false
+            },
+            {
+              "word": "mountain",
+              "meaning": "高山",
+              "uncertain": false
+            },
+            {
+              "word": "sea",
+              "meaning": "大海",
+              "uncertain": false
+            },
+            {
+              "word": "bridge",
+              "meaning": "桥",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

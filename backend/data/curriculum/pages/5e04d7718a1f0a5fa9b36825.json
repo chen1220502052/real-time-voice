@@ -1,0 +1,212 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 11,
+  "units": [
+    11
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/116/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/01_教材页面_e271ad4dad.jpg",
+  "sha256": "5e04d7718a1f0a5fa9b368254c41037e8f62c2e16762a088065c69287c028da3",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "kick",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "metres",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "jump",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "two",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "three",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "She",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "swim",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "twenty",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look! He can kick a ball fifteen metres.",
+        "He can jump two metres.",
+        "He can throw a ball three metres.",
+        "She can swim twenty metres."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "kick",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "metres",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "jump",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "two",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "three",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "She",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "swim",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "twenty",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "how",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "far",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look! He can kick a ball fifteen metres.",
+        "He can jump two metres.",
+        "He can throw a ball three metres.",
+        "She can swim twenty metres.",
+        "how far: 多远",
+        "twenty: 二十"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

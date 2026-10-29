@@ -1,0 +1,177 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/08_10_教材页面_cff931870e.jpg",
+  "units": [
+    7
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "019d644d7314d04e1c7704f678f87f931798b5bea576286beb0df3075d063dfa",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "coat",
+              "meaning": "外套",
+              "uncertain": false
+            },
+            {
+              "word": "skipping rope",
+              "meaning": "跳绳",
+              "uncertain": false
+            },
+            {
+              "word": "bottle",
+              "meaning": "瓶子",
+              "uncertain": false
+            },
+            {
+              "word": "umbrella",
+              "meaning": "雨伞",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "乒乓运动，乒乓球",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong bat",
+              "meaning": "乒乓球拍",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙；关键的",
+              "uncertain": false
+            },
+            {
+              "word": "whose",
+              "meaning": "谁的",
+              "uncertain": false
+            },
+            {
+              "word": "tidy up",
+              "meaning": "收拾，整理",
+              "uncertain": false
+            },
+            {
+              "word": "sit",
+              "meaning": "坐",
+              "uncertain": false
+            },
+            {
+              "word": "very much",
+              "meaning": "非常，很",
+              "uncertain": false
+            },
+            {
+              "word": "goat",
+              "meaning": "山羊",
+              "uncertain": false
+            },
+            {
+              "word": "boat",
+              "meaning": "小船",
+              "uncertain": false
+            },
+            {
+              "word": "road",
+              "meaning": "道路，公路",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "coat",
+              "meaning": "外套",
+              "uncertain": false
+            },
+            {
+              "word": "skipping rope",
+              "meaning": "跳绳",
+              "uncertain": false
+            },
+            {
+              "word": "bottle",
+              "meaning": "瓶子",
+              "uncertain": false
+            },
+            {
+              "word": "umbrella",
+              "meaning": "雨伞",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "乒乓运动，乒乓球",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong bat",
+              "meaning": "乒乓球拍",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙；关键的",
+              "uncertain": false
+            },
+            {
+              "word": "whose",
+              "meaning": "谁的",
+              "uncertain": false
+            },
+            {
+              "word": "tidy up",
+              "meaning": "收拾，整理",
+              "uncertain": false
+            },
+            {
+              "word": "sit",
+              "meaning": "坐",
+              "uncertain": false
+            },
+            {
+              "word": "very much",
+              "meaning": "非常，很",
+              "uncertain": false
+            },
+            {
+              "word": "goat",
+              "meaning": "山羊",
+              "uncertain": false
+            },
+            {
+              "word": "boat",
+              "meaning": "小船",
+              "uncertain": false
+            },
+            {
+              "word": "road",
+              "meaning": "道路，公路",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,285 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/6034135bd928ab8f38e5d889-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "8d74faa7c5a737897aaf86ae1022cfa98cff151bc1a62354bd4698e581044ef9",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "目标;宾语",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "adj.太阳的;太阳能的",
+              "uncertain": false
+            },
+            {
+              "word": "warmth",
+              "meaning": "n.温暖;暖和;热情",
+              "uncertain": false
+            },
+            {
+              "word": "man-made",
+              "meaning": "adj.人造的;非天然的",
+              "uncertain": false
+            },
+            {
+              "word": "surface",
+              "meaning": "n.表面;表层",
+              "uncertain": false
+            },
+            {
+              "word": "degree",
+              "meaning": "n.度,度数;学位",
+              "uncertain": false
+            },
+            {
+              "word": "Celsius",
+              "meaning": "adj.摄氏的",
+              "uncertain": false
+            },
+            {
+              "word": "electricity",
+              "meaning": "n.电;电能",
+              "uncertain": false
+            },
+            {
+              "word": "heat",
+              "meaning": "n.热量;热;高温 v.加热;变热",
+              "uncertain": false
+            },
+            {
+              "word": "spoon",
+              "meaning": "n.勺;匙",
+              "uncertain": false
+            },
+            {
+              "word": "telescope",
+              "meaning": "n.望远镜",
+              "uncertain": false
+            },
+            {
+              "word": "appear",
+              "meaning": "v.出现,呈现,显现;显得",
+              "uncertain": false
+            },
+            {
+              "word": "ha",
+              "meaning": "n.哈哈(笑)",
+              "uncertain": false
+            },
+            {
+              "word": "daytime",
+              "meaning": "n.白天;日间",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "diameter",
+              "meaning": "n.直径",
+              "uncertain": false
+            },
+            {
+              "word": "asteroid",
+              "meaning": "n.小行星",
+              "uncertain": false
+            },
+            {
+              "word": "belt",
+              "meaning": "n.环形地带;腰带",
+              "uncertain": false
+            },
+            {
+              "word": "separate",
+              "meaning": "v.(使)分开;划分",
+              "uncertain": false
+            },
+            {
+              "word": "inner",
+              "meaning": "adj.接近中心的;内部的;内心的",
+              "uncertain": false
+            },
+            {
+              "word": "outer",
+              "meaning": "adj.外围的;远离中心的;外边的",
+              "uncertain": false
+            },
+            {
+              "word": "Mercury",
+              "meaning": "n.水星",
+              "uncertain": false
+            },
+            {
+              "word": "Venus",
+              "meaning": "n.金星;太白星",
+              "uncertain": false
+            },
+            {
+              "word": "Mars",
+              "meaning": "n.火星",
+              "uncertain": false
+            },
+            {
+              "word": "include",
+              "meaning": "v.包括;包含",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "目标;宾语",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "adj.太阳的;太阳能的",
+              "uncertain": false
+            },
+            {
+              "word": "warmth",
+              "meaning": "n.温暖;暖和;热情",
+              "uncertain": false
+            },
+            {
+              "word": "man-made",
+              "meaning": "adj.人造的;非天然的",
+              "uncertain": false
+            },
+            {
+              "word": "surface",
+              "meaning": "n.表面;表层",
+              "uncertain": false
+            },
+            {
+              "word": "degree",
+              "meaning": "n.度,度数;学位",
+              "uncertain": false
+            },
+            {
+              "word": "Celsius",
+              "meaning": "adj.摄氏的",
+              "uncertain": false
+            },
+            {
+              "word": "electricity",
+              "meaning": "n.电;电能",
+              "uncertain": false
+            },
+            {
+              "word": "heat",
+              "meaning": "n.热量;热;高温 v.加热;变热",
+              "uncertain": false
+            },
+            {
+              "word": "spoon",
+              "meaning": "n.勺;匙",
+              "uncertain": false
+            },
+            {
+              "word": "telescope",
+              "meaning": "n.望远镜",
+              "uncertain": false
+            },
+            {
+              "word": "appear",
+              "meaning": "v.出现,呈现,显现;显得",
+              "uncertain": false
+            },
+            {
+              "word": "ha",
+              "meaning": "n.哈哈(笑)",
+              "uncertain": false
+            },
+            {
+              "word": "daytime",
+              "meaning": "n.白天;日间",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "diameter",
+              "meaning": "n.直径",
+              "uncertain": false
+            },
+            {
+              "word": "asteroid",
+              "meaning": "n.小行星",
+              "uncertain": false
+            },
+            {
+              "word": "belt",
+              "meaning": "n.环形地带;腰带",
+              "uncertain": false
+            },
+            {
+              "word": "separate",
+              "meaning": "v.(使)分开;划分",
+              "uncertain": false
+            },
+            {
+              "word": "inner",
+              "meaning": "adj.接近中心的;内部的;内心的",
+              "uncertain": false
+            },
+            {
+              "word": "outer",
+              "meaning": "adj.外围的;远离中心的;外边的",
+              "uncertain": false
+            },
+            {
+              "word": "Mercury",
+              "meaning": "n.水星",
+              "uncertain": false
+            },
+            {
+              "word": "Venus",
+              "meaning": "n.金星;太白星",
+              "uncertain": false
+            },
+            {
+              "word": "Mars",
+              "meaning": "n.火星",
+              "uncertain": false
+            },
+            {
+              "word": "include",
+              "meaning": "v.包括;包含",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

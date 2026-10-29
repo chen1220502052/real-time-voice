@@ -1,0 +1,295 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/ef8ed72090c4d92e762462ca-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "7d495c450b9e50c1ecfe6c06171d4caf89d1f0bd46b9ef87738c7af8c8c42eb6",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sore",
+              "meaning": "adj.(发炎)疼痛的;酸痛的",
+              "uncertain": false
+            },
+            {
+              "word": "throat",
+              "meaning": "n.咽喉;喉咙",
+              "uncertain": false
+            },
+            {
+              "word": "headache",
+              "meaning": "n.头痛",
+              "uncertain": false
+            },
+            {
+              "word": "toothache",
+              "meaning": "n.牙痛",
+              "uncertain": false
+            },
+            {
+              "word": "stomachache",
+              "meaning": "n.胃痛",
+              "uncertain": false
+            },
+            {
+              "word": "temperature",
+              "meaning": "n.体温;温度;气温",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "n.药,药物;医学",
+              "uncertain": false
+            },
+            {
+              "word": "junk food",
+              "meaning": "n.垃圾食品",
+              "uncertain": false
+            },
+            {
+              "word": "slim",
+              "meaning": "adj.苗条的",
+              "uncertain": false
+            },
+            {
+              "word": "diet",
+              "meaning": "n.日常饮食",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "n.屏幕;荧屏",
+              "uncertain": false
+            },
+            {
+              "word": "sugar",
+              "meaning": "n.糖;食糖",
+              "uncertain": false
+            },
+            {
+              "word": "ache",
+              "meaning": "n.(身体某部位的)疼痛",
+              "uncertain": false
+            },
+            {
+              "word": "examine",
+              "meaning": "v.检查,检验;审查",
+              "uncertain": false
+            },
+            {
+              "word": "hamburger",
+              "meaning": "n.汉堡包",
+              "uncertain": false
+            },
+            {
+              "word": "chip",
+              "meaning": "n.炸薯条",
+              "uncertain": false
+            },
+            {
+              "word": "fried",
+              "meaning": "adj.油炸的",
+              "uncertain": false
+            },
+            {
+              "word": "pork",
+              "meaning": "n.猪肉",
+              "uncertain": false
+            },
+            {
+              "word": "pepper",
+              "meaning": "n.胡椒粉",
+              "uncertain": false
+            },
+            {
+              "word": "iced",
+              "meaning": "adj.冰镇的;加冰块的",
+              "uncertain": false
+            },
+            {
+              "word": "Coke",
+              "meaning": "n.可乐",
+              "uncertain": false
+            },
+            {
+              "word": "pill",
+              "meaning": "n.药丸;药片",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "outgoing",
+              "meaning": "adj.外向的;友好的;爱交际的",
+              "uncertain": false
+            },
+            {
+              "word": "shy",
+              "meaning": "adj.羞怯的;腼腆的",
+              "uncertain": false
+            },
+            {
+              "word": "snack",
+              "meaning": "n.点心;小吃;快餐",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sore",
+              "meaning": "adj.(发炎)疼痛的;酸痛的",
+              "uncertain": false
+            },
+            {
+              "word": "throat",
+              "meaning": "n.咽喉;喉咙",
+              "uncertain": false
+            },
+            {
+              "word": "headache",
+              "meaning": "n.头痛",
+              "uncertain": false
+            },
+            {
+              "word": "toothache",
+              "meaning": "n.牙痛",
+              "uncertain": false
+            },
+            {
+              "word": "stomachache",
+              "meaning": "n.胃痛",
+              "uncertain": false
+            },
+            {
+              "word": "temperature",
+              "meaning": "n.体温;温度;气温",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "n.药,药物;医学",
+              "uncertain": false
+            },
+            {
+              "word": "junk food",
+              "meaning": "n.垃圾食品",
+              "uncertain": false
+            },
+            {
+              "word": "slim",
+              "meaning": "adj.苗条的",
+              "uncertain": false
+            },
+            {
+              "word": "diet",
+              "meaning": "n.日常饮食",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "n.屏幕;荧屏",
+              "uncertain": false
+            },
+            {
+              "word": "sugar",
+              "meaning": "n.糖;食糖",
+              "uncertain": false
+            },
+            {
+              "word": "ache",
+              "meaning": "n.(身体某部位的)疼痛",
+              "uncertain": false
+            },
+            {
+              "word": "examine",
+              "meaning": "v.检查,检验;审查",
+              "uncertain": false
+            },
+            {
+              "word": "hamburger",
+              "meaning": "n.汉堡包",
+              "uncertain": false
+            },
+            {
+              "word": "chip",
+              "meaning": "n.炸薯条",
+              "uncertain": false
+            },
+            {
+              "word": "fried",
+              "meaning": "adj.油炸的",
+              "uncertain": false
+            },
+            {
+              "word": "pork",
+              "meaning": "n.猪肉",
+              "uncertain": false
+            },
+            {
+              "word": "pepper",
+              "meaning": "n.胡椒粉",
+              "uncertain": false
+            },
+            {
+              "word": "iced",
+              "meaning": "adj.冰镇的;加冰块的",
+              "uncertain": false
+            },
+            {
+              "word": "Coke",
+              "meaning": "n.可乐",
+              "uncertain": false
+            },
+            {
+              "word": "pill",
+              "meaning": "n.药丸;药片",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "outgoing",
+              "meaning": "adj.外向的;友好的;爱交际的",
+              "uncertain": false
+            },
+            {
+              "word": "shy",
+              "meaning": "adj.羞怯的;腼腆的",
+              "uncertain": false
+            },
+            {
+              "word": "snack",
+              "meaning": "n.点心;小吃;快餐",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

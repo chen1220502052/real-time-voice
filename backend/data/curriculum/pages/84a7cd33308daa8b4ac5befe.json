@@ -1,0 +1,415 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页148.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "84a7cd33308daa8b4ac5befe502611b083caa1b46c1a88900c8ea8b90c5731c9",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "amazing",
+              "meaning": "令人大为惊奇的；（尤指）令人惊喜的",
+              "uncertain": false
+            },
+            {
+              "word": "centimetre",
+              "meaning": "厘米",
+              "uncertain": false
+            },
+            {
+              "word": "pull",
+              "meaning": "拉；拖；拽",
+              "uncertain": false
+            },
+            {
+              "word": "shout",
+              "meaning": "大声说；叫",
+              "uncertain": false
+            },
+            {
+              "word": "riverside",
+              "meaning": "河畔；河岸",
+              "uncertain": false
+            },
+            {
+              "word": "riverbank",
+              "meaning": "河堤；河岸",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "标示；标明方位；做记号 符号；记号",
+              "uncertain": false
+            },
+            {
+              "word": "businessman",
+              "meaning": "商界人员；企业家",
+              "uncertain": false
+            },
+            {
+              "word": "explore",
+              "meaning": "探索；考察；勘探",
+              "uncertain": false
+            },
+            {
+              "word": "crowd",
+              "meaning": "人群；一伙人 挤满",
+              "uncertain": false
+            },
+            {
+              "word": "besides",
+              "meaning": "除……之外（还） 而且；再说",
+              "uncertain": false
+            },
+            {
+              "word": "nothing",
+              "meaning": "没有什么；几乎什么也没有",
+              "uncertain": false
+            },
+            {
+              "word": "anybody",
+              "meaning": "任何人",
+              "uncertain": false
+            },
+            {
+              "word": "nobody",
+              "meaning": "没有人；没有任何人",
+              "uncertain": false
+            },
+            {
+              "word": "anything",
+              "meaning": "任何东西，任何事物",
+              "uncertain": false
+            },
+            {
+              "word": "harm",
+              "meaning": "损害；伤害",
+              "uncertain": false
+            },
+            {
+              "word": "somewhere",
+              "meaning": "在某处；到某处",
+              "uncertain": false
+            },
+            {
+              "word": "someone",
+              "meaning": "某人",
+              "uncertain": false
+            },
+            {
+              "word": "anywhere",
+              "meaning": "任何地方",
+              "uncertain": false
+            },
+            {
+              "word": "create",
+              "meaning": "创造",
+              "uncertain": false
+            },
+            {
+              "word": "magical",
+              "meaning": "有魔力的；奇妙的",
+              "uncertain": false
+            },
+            {
+              "word": "real",
+              "meaning": "实际存在的；真实的",
+              "uncertain": false
+            },
+            {
+              "word": "unknown",
+              "meaning": "未知的；无名的",
+              "uncertain": false
+            },
+            {
+              "word": "anytime",
+              "meaning": "在任何时候；随便什么时候",
+              "uncertain": false
+            },
+            {
+              "word": "magic",
+              "meaning": "有魔力的；神奇的 魔法；法术",
+              "uncertain": false
+            },
+            {
+              "word": "impossible",
+              "meaning": "不可能的",
+              "uncertain": false
+            },
+            {
+              "word": "concert",
+              "meaning": "音乐会",
+              "uncertain": false
+            },
+            {
+              "word": "sweet",
+              "meaning": "悦耳的；含糖的，甜的",
+              "uncertain": false
+            },
+            {
+              "word": "fat",
+              "meaning": "肥的；肥胖的 脂肪",
+              "uncertain": false
+            },
+            {
+              "word": "awful",
+              "meaning": "很坏的；极讨厌的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "folk",
+              "meaning": "传统民间的；民俗的",
+              "uncertain": false
+            },
+            {
+              "word": "shape",
+              "meaning": "形状；外形",
+              "uncertain": false
+            },
+            {
+              "word": "character",
+              "meaning": "文字；人物，角色；性格",
+              "uncertain": false
+            },
+            {
+              "word": "upside",
+              "meaning": "正面",
+              "uncertain": false
+            },
+            {
+              "word": "symbol",
+              "meaning": "象征；符号",
+              "uncertain": false
+            },
+            {
+              "word": "clay",
+              "meaning": "黏土；陶土",
+              "uncertain": false
+            },
+            {
+              "word": "immediately",
+              "meaning": "立即；马上；即刻",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "amazing",
+              "meaning": "令人大为惊奇的；（尤指）令人惊喜的",
+              "uncertain": false
+            },
+            {
+              "word": "centimetre",
+              "meaning": "厘米",
+              "uncertain": false
+            },
+            {
+              "word": "pull",
+              "meaning": "拉；拖；拽",
+              "uncertain": false
+            },
+            {
+              "word": "shout",
+              "meaning": "大声说；叫",
+              "uncertain": false
+            },
+            {
+              "word": "riverside",
+              "meaning": "河畔；河岸",
+              "uncertain": false
+            },
+            {
+              "word": "riverbank",
+              "meaning": "河堤；河岸",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "标示；标明方位；做记号 符号；记号",
+              "uncertain": false
+            },
+            {
+              "word": "businessman",
+              "meaning": "商界人员；企业家",
+              "uncertain": false
+            },
+            {
+              "word": "explore",
+              "meaning": "探索；考察；勘探",
+              "uncertain": false
+            },
+            {
+              "word": "crowd",
+              "meaning": "人群；一伙人 挤满",
+              "uncertain": false
+            },
+            {
+              "word": "besides",
+              "meaning": "除……之外（还） 而且；再说",
+              "uncertain": false
+            },
+            {
+              "word": "nothing",
+              "meaning": "没有什么；几乎什么也没有",
+              "uncertain": false
+            },
+            {
+              "word": "anybody",
+              "meaning": "任何人",
+              "uncertain": false
+            },
+            {
+              "word": "nobody",
+              "meaning": "没有人；没有任何人",
+              "uncertain": false
+            },
+            {
+              "word": "anything",
+              "meaning": "任何东西，任何事物",
+              "uncertain": false
+            },
+            {
+              "word": "harm",
+              "meaning": "损害；伤害",
+              "uncertain": false
+            },
+            {
+              "word": "somewhere",
+              "meaning": "在某处；到某处",
+              "uncertain": false
+            },
+            {
+              "word": "someone",
+              "meaning": "某人",
+              "uncertain": false
+            },
+            {
+              "word": "anywhere",
+              "meaning": "任何地方",
+              "uncertain": false
+            },
+            {
+              "word": "create",
+              "meaning": "创造",
+              "uncertain": false
+            },
+            {
+              "word": "magical",
+              "meaning": "有魔力的；奇妙的",
+              "uncertain": false
+            },
+            {
+              "word": "real",
+              "meaning": "实际存在的；真实的",
+              "uncertain": false
+            },
+            {
+              "word": "unknown",
+              "meaning": "未知的；无名的",
+              "uncertain": false
+            },
+            {
+              "word": "anytime",
+              "meaning": "在任何时候；随便什么时候",
+              "uncertain": false
+            },
+            {
+              "word": "magic",
+              "meaning": "有魔力的；神奇的 魔法；法术",
+              "uncertain": false
+            },
+            {
+              "word": "impossible",
+              "meaning": "不可能的",
+              "uncertain": false
+            },
+            {
+              "word": "concert",
+              "meaning": "音乐会",
+              "uncertain": false
+            },
+            {
+              "word": "sweet",
+              "meaning": "悦耳的；含糖的，甜的",
+              "uncertain": false
+            },
+            {
+              "word": "fat",
+              "meaning": "肥的；肥胖的 脂肪",
+              "uncertain": false
+            },
+            {
+              "word": "awful",
+              "meaning": "很坏的；极讨厌的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "folk",
+              "meaning": "传统民间的；民俗的",
+              "uncertain": false
+            },
+            {
+              "word": "shape",
+              "meaning": "形状；外形",
+              "uncertain": false
+            },
+            {
+              "word": "character",
+              "meaning": "文字；人物，角色；性格",
+              "uncertain": false
+            },
+            {
+              "word": "upside",
+              "meaning": "正面",
+              "uncertain": false
+            },
+            {
+              "word": "symbol",
+              "meaning": "象征；符号",
+              "uncertain": false
+            },
+            {
+              "word": "clay",
+              "meaning": "黏土；陶土",
+              "uncertain": false
+            },
+            {
+              "word": "immediately",
+              "meaning": "立即；马上；即刻",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

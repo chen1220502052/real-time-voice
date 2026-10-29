@@ -1,0 +1,47 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/14_15_教材页面_7082c8b28e.jpg",
+  "units": [
+    12
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "15c21a43279261ca3b15035131a477812b4c21f9948045be41e9a2aba450adad",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "back",
+              "meaning": "回到原处",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "back",
+              "meaning": "回到原处",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

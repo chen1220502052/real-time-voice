@@ -1,0 +1,545 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "下册",
+  "book": "下册_2014年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/9年级/下册_2014年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页082.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1968",
+  "sha256": "a2c5970cddd747bbc9870ce6a767e386a517f146aa9fadd76519d4a62b34d0ca",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "conclude",
+              "meaning": "v.推断出;(使)结束",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "first of all",
+              "meaning": "首先",
+              "uncertain": false
+            },
+            {
+              "word": "exchange",
+              "meaning": "v.&n.交换;交流",
+              "uncertain": false
+            },
+            {
+              "word": "chalk",
+              "meaning": "n.粉笔",
+              "uncertain": false
+            },
+            {
+              "word": "dozen",
+              "meaning": "n.十二个,一打",
+              "uncertain": false
+            },
+            {
+              "word": "dozens of",
+              "meaning": "很多,许多",
+              "uncertain": false
+            },
+            {
+              "word": "excellence",
+              "meaning": "n.优秀,卓越",
+              "uncertain": false
+            },
+            {
+              "word": "valuable",
+              "meaning": "adj.很有价值的;很值钱的",
+              "uncertain": false
+            },
+            {
+              "word": "bottom",
+              "meaning": "n.底,底部 adj.底部的;最后的,尽头的",
+              "uncertain": false
+            },
+            {
+              "word": "unforgettable",
+              "meaning": "adj.难以忘怀的;令人难忘的",
+              "uncertain": false
+            },
+            {
+              "word": "joy",
+              "meaning": "n.高兴,愉快,喜悦",
+              "uncertain": false
+            },
+            {
+              "word": "royal",
+              "meaning": "adj.女王的,王室的",
+              "uncertain": false
+            },
+            {
+              "word": "recall",
+              "meaning": "v.回忆起;记起 n.记忆力,记性",
+              "uncertain": false
+            },
+            {
+              "word": "competition",
+              "meaning": "n.比赛,竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "custom",
+              "meaning": "n.风俗,习俗;习性",
+              "uncertain": false
+            },
+            {
+              "word": "principal",
+              "meaning": "n.大学校长 adj.首要的,主要的",
+              "uncertain": false
+            },
+            {
+              "word": "diploma",
+              "meaning": "n.毕业文凭",
+              "uncertain": false
+            },
+            {
+              "word": "congratulate",
+              "meaning": "v.祝贺",
+              "uncertain": false
+            },
+            {
+              "word": "possibility",
+              "meaning": "n.机会,契机;可能(性)",
+              "uncertain": false
+            },
+            {
+              "word": "thankful",
+              "meaning": "adj.感谢的,感激的",
+              "uncertain": false
+            },
+            {
+              "word": "in a hurry",
+              "meaning": "匆忙地",
+              "uncertain": false
+            },
+            {
+              "word": "hug",
+              "meaning": "v.&n.拥抱;搂抱",
+              "uncertain": false
+            },
+            {
+              "word": "in time",
+              "meaning": "及时,来得及",
+              "uncertain": false
+            },
+            {
+              "word": "promise",
+              "meaning": "v.&n.许诺,保证",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pound",
+              "meaning": "n.英镑",
+              "uncertain": false
+            },
+            {
+              "word": "absent",
+              "meaning": "adj.缺席的,不在场的",
+              "uncertain": false
+            },
+            {
+              "word": "alive",
+              "meaning": "adj.活着的,在世的",
+              "uncertain": false
+            },
+            {
+              "word": "sharply",
+              "meaning": "adv.急剧地;猛烈地",
+              "uncertain": false
+            },
+            {
+              "word": "asleep",
+              "meaning": "adj.睡着的",
+              "uncertain": false
+            },
+            {
+              "word": "awake",
+              "meaning": "adj.醒着的",
+              "uncertain": false
+            },
+            {
+              "word": "ant",
+              "meaning": "n.蚂蚁",
+              "uncertain": false
+            },
+            {
+              "word": "hard-working",
+              "meaning": "adj.工作努力的,辛勤的",
+              "uncertain": false
+            },
+            {
+              "word": "unless",
+              "meaning": "conj.除非;除非在……情况下",
+              "uncertain": false
+            },
+            {
+              "word": "truth",
+              "meaning": "n.真相;实情;事实",
+              "uncertain": false
+            },
+            {
+              "word": "operate",
+              "meaning": "v.操作;工作",
+              "uncertain": false
+            },
+            {
+              "word": "instruction",
+              "meaning": "n.用法说明;操作指南",
+              "uncertain": false
+            },
+            {
+              "word": "northwestern",
+              "meaning": "adj.西北的,西北方向的",
+              "uncertain": false
+            },
+            {
+              "word": "flow",
+              "meaning": "v.流,流动",
+              "uncertain": false
+            },
+            {
+              "word": "appearance",
+              "meaning": "n.出现,起源;外观",
+              "uncertain": false
+            },
+            {
+              "word": "muddy",
+              "meaning": "adj.多泥的;浑浊的",
+              "uncertain": false
+            },
+            {
+              "word": "idiom",
+              "meaning": "n.习语,成语",
+              "uncertain": false
+            },
+            {
+              "word": "argument",
+              "meaning": "n.争吵;争论",
+              "uncertain": false
+            },
+            {
+              "word": "slap",
+              "meaning": "v.&n.(用手掌)打,拍,掴",
+              "uncertain": false
+            },
+            {
+              "word": "till",
+              "meaning": "prep.&conj.直到……为止",
+              "uncertain": false
+            },
+            {
+              "word": "mud",
+              "meaning": "n.泥,泥浆",
+              "uncertain": false
+            },
+            {
+              "word": "sink",
+              "meaning": "v.下沉",
+              "uncertain": false
+            },
+            {
+              "word": "reply",
+              "meaning": "v.&n.回答;回应",
+              "uncertain": false
+            },
+            {
+              "word": "erase",
+              "meaning": "v.擦掉,抹去",
+              "uncertain": false
+            },
+            {
+              "word": "response",
+              "meaning": "n.反应;回答",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "conclude",
+              "meaning": "v.推断出;(使)结束",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "first of all",
+              "meaning": "首先",
+              "uncertain": false
+            },
+            {
+              "word": "exchange",
+              "meaning": "v.&n.交换;交流",
+              "uncertain": false
+            },
+            {
+              "word": "chalk",
+              "meaning": "n.粉笔",
+              "uncertain": false
+            },
+            {
+              "word": "dozen",
+              "meaning": "n.十二个,一打",
+              "uncertain": false
+            },
+            {
+              "word": "dozens of",
+              "meaning": "很多,许多",
+              "uncertain": false
+            },
+            {
+              "word": "excellence",
+              "meaning": "n.优秀,卓越",
+              "uncertain": false
+            },
+            {
+              "word": "valuable",
+              "meaning": "adj.很有价值的;很值钱的",
+              "uncertain": false
+            },
+            {
+              "word": "bottom",
+              "meaning": "n.底,底部 adj.底部的;最后的,尽头的",
+              "uncertain": false
+            },
+            {
+              "word": "unforgettable",
+              "meaning": "adj.难以忘怀的;令人难忘的",
+              "uncertain": false
+            },
+            {
+              "word": "joy",
+              "meaning": "n.高兴,愉快,喜悦",
+              "uncertain": false
+            },
+            {
+              "word": "royal",
+              "meaning": "adj.女王的,王室的",
+              "uncertain": false
+            },
+            {
+              "word": "recall",
+              "meaning": "v.回忆起;记起 n.记忆力,记性",
+              "uncertain": false
+            },
+            {
+              "word": "competition",
+              "meaning": "n.比赛,竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "custom",
+              "meaning": "n.风俗,习俗;习性",
+              "uncertain": false
+            },
+            {
+              "word": "principal",
+              "meaning": "n.大学校长 adj.首要的,主要的",
+              "uncertain": false
+            },
+            {
+              "word": "diploma",
+              "meaning": "n.毕业文凭",
+              "uncertain": false
+            },
+            {
+              "word": "congratulate",
+              "meaning": "v.祝贺",
+              "uncertain": false
+            },
+            {
+              "word": "possibility",
+              "meaning": "n.机会,契机;可能(性)",
+              "uncertain": false
+            },
+            {
+              "word": "thankful",
+              "meaning": "adj.感谢的,感激的",
+              "uncertain": false
+            },
+            {
+              "word": "in a hurry",
+              "meaning": "匆忙地",
+              "uncertain": false
+            },
+            {
+              "word": "hug",
+              "meaning": "v.&n.拥抱;搂抱",
+              "uncertain": false
+            },
+            {
+              "word": "in time",
+              "meaning": "及时,来得及",
+              "uncertain": false
+            },
+            {
+              "word": "promise",
+              "meaning": "v.&n.许诺,保证",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pound",
+              "meaning": "n.英镑",
+              "uncertain": false
+            },
+            {
+              "word": "absent",
+              "meaning": "adj.缺席的,不在场的",
+              "uncertain": false
+            },
+            {
+              "word": "alive",
+              "meaning": "adj.活着的,在世的",
+              "uncertain": false
+            },
+            {
+              "word": "sharply",
+              "meaning": "adv.急剧地;猛烈地",
+              "uncertain": false
+            },
+            {
+              "word": "asleep",
+              "meaning": "adj.睡着的",
+              "uncertain": false
+            },
+            {
+              "word": "awake",
+              "meaning": "adj.醒着的",
+              "uncertain": false
+            },
+            {
+              "word": "ant",
+              "meaning": "n.蚂蚁",
+              "uncertain": false
+            },
+            {
+              "word": "hard-working",
+              "meaning": "adj.工作努力的,辛勤的",
+              "uncertain": false
+            },
+            {
+              "word": "unless",
+              "meaning": "conj.除非;除非在……情况下",
+              "uncertain": false
+            },
+            {
+              "word": "truth",
+              "meaning": "n.真相;实情;事实",
+              "uncertain": false
+            },
+            {
+              "word": "operate",
+              "meaning": "v.操作;工作",
+              "uncertain": false
+            },
+            {
+              "word": "instruction",
+              "meaning": "n.用法说明;操作指南",
+              "uncertain": false
+            },
+            {
+              "word": "northwestern",
+              "meaning": "adj.西北的,西北方向的",
+              "uncertain": false
+            },
+            {
+              "word": "flow",
+              "meaning": "v.流,流动",
+              "uncertain": false
+            },
+            {
+              "word": "appearance",
+              "meaning": "n.出现,起源;外观",
+              "uncertain": false
+            },
+            {
+              "word": "muddy",
+              "meaning": "adj.多泥的;浑浊的",
+              "uncertain": false
+            },
+            {
+              "word": "idiom",
+              "meaning": "n.习语,成语",
+              "uncertain": false
+            },
+            {
+              "word": "argument",
+              "meaning": "n.争吵;争论",
+              "uncertain": false
+            },
+            {
+              "word": "slap",
+              "meaning": "v.&n.(用手掌)打,拍,掴",
+              "uncertain": false
+            },
+            {
+              "word": "till",
+              "meaning": "prep.&conj.直到……为止",
+              "uncertain": false
+            },
+            {
+              "word": "mud",
+              "meaning": "n.泥,泥浆",
+              "uncertain": false
+            },
+            {
+              "word": "sink",
+              "meaning": "v.下沉",
+              "uncertain": false
+            },
+            {
+              "word": "reply",
+              "meaning": "v.&n.回答;回应",
+              "uncertain": false
+            },
+            {
+              "word": "erase",
+              "meaning": "v.擦掉,抹去",
+              "uncertain": false
+            },
+            {
+              "word": "response",
+              "meaning": "n.反应;回答",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

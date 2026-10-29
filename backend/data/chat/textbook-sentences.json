@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "sentences": [
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "text": "Some bread for you, Wang Lu.",
+      "evidenceSha256": "5192dba4969f4ad82f59e2cdb8a37c38972411c5b057480e803abdc37fd19390",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/01_教材页面_22c3aba54c.jpg"
+    },
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "text": "Thank you.",
+      "evidenceSha256": "5192dba4969f4ad82f59e2cdb8a37c38972411c5b057480e803abdc37fd19390",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/01_教材页面_22c3aba54c.jpg"
+    },
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "text": "Thank you, Dad.",
+      "evidenceSha256": "e0795f9edd6e49feb6f01ef1058f1e26c53a2d7ebfe4cf2d2920327b812da17a",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/02_教材页面_bcb934ef05.jpg"
+    },
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "text": "Good morning.",
+      "evidenceSha256": "dec642aa5a9716aba2baa22cfbe069153b7cf70016ea4c6b4e584b4bc065dfe2",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/03_教材页面_6189d8a30e.jpg"
+    },
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "text": "Good morning, Mum.",
+      "evidenceSha256": "dec642aa5a9716aba2baa22cfbe069153b7cf70016ea4c6b4e584b4bc065dfe2",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/03_教材页面_6189d8a30e.jpg"
+    },
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "text": "Have some bread and juice.",
+      "evidenceSha256": "dec642aa5a9716aba2baa22cfbe069153b7cf70016ea4c6b4e584b4bc065dfe2",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/03_教材页面_6189d8a30e.jpg"
+    },
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "text": "Thank you, Mum!",
+      "evidenceSha256": "dec642aa5a9716aba2baa22cfbe069153b7cf70016ea4c6b4e584b4bc065dfe2",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/03_教材页面_6189d8a30e.jpg"
+    },
+    {
+      "chapterId": "74e28cc36583e470ddbf9b48",
+      "text": "OK. Can you swim?",
+      "evidenceSha256": "7d745419df4ac577ff3c9bd544cd7a2752908301194d9df530d0eecdd638ab5e",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/03_教材页面_963986363c.jpg"
+    },
+    {
+      "chapterId": "74e28cc36583e470ddbf9b48",
+      "text": "Can you sing?",
+      "evidenceSha256": "7d745419df4ac577ff3c9bd544cd7a2752908301194d9df530d0eecdd638ab5e",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/03_教材页面_963986363c.jpg"
+    },
+    {
+      "chapterId": "74e28cc36583e470ddbf9b48",
+      "text": "Great! Let's sing together.",
+      "evidenceSha256": "7d745419df4ac577ff3c9bd544cd7a2752908301194d9df530d0eecdd638ab5e",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/03_教材页面_963986363c.jpg"
+    },
+    {
+      "chapterId": "74e28cc36583e470ddbf9b48",
+      "text": "Let's play.",
+      "evidenceSha256": "7d745419df4ac577ff3c9bd544cd7a2752908301194d9df530d0eecdd638ab5e",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/03_教材页面_963986363c.jpg"
+    },
+    {
+      "chapterId": "74e28cc36583e470ddbf9b48",
+      "text": "No, I can't.",
+      "evidenceSha256": "7d745419df4ac577ff3c9bd544cd7a2752908301194d9df530d0eecdd638ab5e",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/03_教材页面_963986363c.jpg"
+    },
+    {
+      "chapterId": "74e28cc36583e470ddbf9b48",
+      "text": "Yes, I can.",
+      "evidenceSha256": "7d745419df4ac577ff3c9bd544cd7a2752908301194d9df530d0eecdd638ab5e",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/03_教材页面_963986363c.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "Have some watermelon.",
+      "evidenceSha256": "4b341d883038960056dcba1a0717ae9e5e9a479cbde6eb987c6dcf2992165400",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/01_教材页面_95c23f0dd2.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "Let's have some fruit.",
+      "evidenceSha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "Tim, do you like oranges?",
+      "evidenceSha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "Yes, I do.",
+      "evidenceSha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "OK. Here's an orange for you.",
+      "evidenceSha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "What about you, Amy?",
+      "evidenceSha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "I like bananas.",
+      "evidenceSha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg"
+    },
+    {
+      "chapterId": "995b8c39d3462da38db8826a",
+      "text": "OK. Let's have some bananas.",
+      "evidenceSha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg"
+    },
+    {
+      "chapterId": "92d914eb5ddba4d4f9cc0210",
+      "text": "Tom, what subjects do you like?",
+      "evidenceSha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg"
+    },
+    {
+      "chapterId": "92d914eb5ddba4d4f9cc0210",
+      "text": "I like Music and PE.",
+      "evidenceSha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg"
+    },
+    {
+      "chapterId": "92d914eb5ddba4d4f9cc0210",
+      "text": "What about you, Eve?",
+      "evidenceSha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg"
+    },
+    {
+      "chapterId": "92d914eb5ddba4d4f9cc0210",
+      "text": "I like Chinese, Art and PE.",
+      "evidenceSha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg"
+    },
+    {
+      "chapterId": "92d914eb5ddba4d4f9cc0210",
+      "text": "Sam, do you like PE?",
+      "evidenceSha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg"
+    },
+    {
+      "chapterId": "92d914eb5ddba4d4f9cc0210",
+      "text": "Yes, I do.",
+      "evidenceSha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg"
+    },
+    {
+      "chapterId": "92d914eb5ddba4d4f9cc0210",
+      "text": "We all like PE!",
+      "evidenceSha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg"
+    },
+    {
+      "chapterId": "53bd9fb353f4248638f44e11",
+      "text": "Hi! My name is Jerry.",
+      "evidenceSha256": "a8f702404a6755e7d841b1b647455b6eb4bf3295c9697fdf9d623511e8c52571",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/01_教材页面_de8a57c3d7.jpg"
+    },
+    {
+      "chapterId": "53bd9fb353f4248638f44e11",
+      "text": "I'm eleven years old.",
+      "evidenceSha256": "a8f702404a6755e7d841b1b647455b6eb4bf3295c9697fdf9d623511e8c52571",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/01_教材页面_de8a57c3d7.jpg"
+    },
+    {
+      "chapterId": "53bd9fb353f4248638f44e11",
+      "text": "The number twelve is blue.",
+      "evidenceSha256": "c04ae5b5f18672115b4a20689076f2732256c1a9b8143ae0b6df0d3a92acb113",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/02_教材页面_71d239f32c.jpg"
+    },
+    {
+      "chapterId": "53bd9fb353f4248638f44e11",
+      "text": "Look at the apples.",
+      "evidenceSha256": "2b4b7a3a96845c409702b620f8f50f12fdf46613c8893dfbd0c49bd3df675293",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/03_教材页面_60af844a23.jpg"
+    },
+    {
+      "chapterId": "53bd9fb353f4248638f44e11",
+      "text": "Wow, I like apples!",
+      "evidenceSha256": "2b4b7a3a96845c409702b620f8f50f12fdf46613c8893dfbd0c49bd3df675293",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/03_教材页面_60af844a23.jpg"
+    },
+    {
+      "chapterId": "53bd9fb353f4248638f44e11",
+      "text": "Uncle Li, how many apple trees do you have?",
+      "evidenceSha256": "2b4b7a3a96845c409702b620f8f50f12fdf46613c8893dfbd0c49bd3df675293",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/03_教材页面_60af844a23.jpg"
+    },
+    {
+      "chapterId": "53bd9fb353f4248638f44e11",
+      "text": "I have seventeen apple trees.",
+      "evidenceSha256": "2b4b7a3a96845c409702b620f8f50f12fdf46613c8893dfbd0c49bd3df675293",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/03_教材页面_60af844a23.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "This is the classroom.",
+      "evidenceSha256": "21ed5246170f969e8d63fa2ccb0a033906b52738d4b730214a9d736888601224",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/01_教材页面_39eee0301b.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "This is my school.",
+      "evidenceSha256": "7b888ac799eea46dd30db4519eecc474dfb56459ecaf699bb68201d1d65c376b",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/02_教材页面_e99f7b3077.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "Hurry up! Let's go to the third floor. We can help the teacher in the library.",
+      "evidenceSha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "Where are the art books?",
+      "evidenceSha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "They're on the second bookshelf.",
+      "evidenceSha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "The science books are on the first bookshelf.",
+      "evidenceSha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "You are great!",
+      "evidenceSha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "Where is the library?",
+      "evidenceSha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg"
+    },
+    {
+      "chapterId": "2259e1a7a6125c85bf8e552b",
+      "text": "Where are the science books?",
+      "evidenceSha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Is this your coat?",
+      "evidenceSha256": "d8af56a02737f77006317e3634fd81cbb3cc1f371ac26e8f411c2697435cfdcd",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/01_教材页面_239bdccd0b.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Yes, it is.",
+      "evidenceSha256": "d8af56a02737f77006317e3634fd81cbb3cc1f371ac26e8f411c2697435cfdcd",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/01_教材页面_239bdccd0b.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Yes, it is.",
+      "evidenceSha256": "6fb6c53bb510a3af418b1ca04b0265dc0d5c74a3e540cd7795110fb03a8b0ae9",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/02_教材页面_9165d93ace.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Here you are.",
+      "evidenceSha256": "6fb6c53bb510a3af418b1ca04b0265dc0d5c74a3e540cd7795110fb03a8b0ae9",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/02_教材页面_9165d93ace.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Thank you.",
+      "evidenceSha256": "6fb6c53bb510a3af418b1ca04b0265dc0d5c74a3e540cd7795110fb03a8b0ae9",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/02_教材页面_9165d93ace.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Whose skipping rope is it?",
+      "evidenceSha256": "4890f76bce8596d3dc4629ec77ca66cb1ba5b9a76543c683ab3360bc6cc5c152",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/03_教材页面_4fa0a6d296.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Look at the name!",
+      "evidenceSha256": "4890f76bce8596d3dc4629ec77ca66cb1ba5b9a76543c683ab3360bc6cc5c152",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/03_教材页面_4fa0a6d296.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "It is Tom's skipping rope.",
+      "evidenceSha256": "4890f76bce8596d3dc4629ec77ca66cb1ba5b9a76543c683ab3360bc6cc5c152",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/03_教材页面_4fa0a6d296.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Tom, is this your skipping rope?",
+      "evidenceSha256": "4890f76bce8596d3dc4629ec77ca66cb1ba5b9a76543c683ab3360bc6cc5c152",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/03_教材页面_4fa0a6d296.jpg"
+    },
+    {
+      "chapterId": "f38343c114fa232e361b6db7",
+      "text": "Yes, it is. Thank you.",
+      "evidenceSha256": "4890f76bce8596d3dc4629ec77ca66cb1ba5b9a76543c683ab3360bc6cc5c152",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/03_教材页面_4fa0a6d296.jpg"
+    },
+    {
+      "chapterId": "3557eb704fe75fc9ccab4c4a",
+      "text": "What sports do you like?",
+      "evidenceSha256": "b2b9a9dca78f16424ebe6f593af4739134f305245bc335003f717243bd60e1a6",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/01_教材页面_70ecb5b471.jpg"
+    },
+    {
+      "chapterId": "3557eb704fe75fc9ccab4c4a",
+      "text": "I like volleyball.",
+      "evidenceSha256": "b2b9a9dca78f16424ebe6f593af4739134f305245bc335003f717243bd60e1a6",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/01_教材页面_70ecb5b471.jpg"
+    },
+    {
+      "chapterId": "3557eb704fe75fc9ccab4c4a",
+      "text": "What sports do you like?",
+      "evidenceSha256": "0b5626ead1f3b9e5be1d358f16ce152d78e7b6a7e8a595521af7a618c12ef219",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/02_教材页面_e316a82ba9.jpg"
+    },
+    {
+      "chapterId": "3557eb704fe75fc9ccab4c4a",
+      "text": "Look! Chen Dong is a sports star.",
+      "evidenceSha256": "aac8bc90f444e196f03c0e210feab70f608ba40f60d4c2bbbaa98a8f01878d3c",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/03_教材页面_c9c77c9e99.jpg"
+    },
+    {
+      "chapterId": "3557eb704fe75fc9ccab4c4a",
+      "text": "Yes! He likes ping-pong and volleyball.",
+      "evidenceSha256": "aac8bc90f444e196f03c0e210feab70f608ba40f60d4c2bbbaa98a8f01878d3c",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/03_教材页面_c9c77c9e99.jpg"
+    },
+    {
+      "chapterId": "3557eb704fe75fc9ccab4c4a",
+      "text": "Does he like basketball?",
+      "evidenceSha256": "aac8bc90f444e196f03c0e210feab70f608ba40f60d4c2bbbaa98a8f01878d3c",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/03_教材页面_c9c77c9e99.jpg"
+    },
+    {
+      "chapterId": "3557eb704fe75fc9ccab4c4a",
+      "text": "Yes, he does. It's fun for him to play sports.",
+      "evidenceSha256": "aac8bc90f444e196f03c0e210feab70f608ba40f60d4c2bbbaa98a8f01878d3c",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/03_教材页面_c9c77c9e99.jpg"
+    },
+    {
+      "chapterId": "69e976e7b32a7c69d929220d",
+      "text": "Look! He is strong.",
+      "evidenceSha256": "b00c59eda456c175970e5e31d8016d7061b15ef5e2649e96aab501a5864cf159",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/01_教材页面_24f303b5a7.jpg"
+    },
+    {
+      "chapterId": "69e976e7b32a7c69d929220d",
+      "text": "We have a new music teacher.",
+      "evidenceSha256": "6b0d8ad9b311baa0997948c590edcbb0eca7e0b11610bee0bc002ad25323f338",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/03_教材页面_8edd836b72.jpg"
+    },
+    {
+      "chapterId": "69e976e7b32a7c69d929220d",
+      "text": "What does she look like?",
+      "evidenceSha256": "6b0d8ad9b311baa0997948c590edcbb0eca7e0b11610bee0bc002ad25323f338",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/03_教材页面_8edd836b72.jpg"
+    },
+    {
+      "chapterId": "69e976e7b32a7c69d929220d",
+      "text": "She is young. She has long black hair.",
+      "evidenceSha256": "6b0d8ad9b311baa0997948c590edcbb0eca7e0b11610bee0bc002ad25323f338",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/03_教材页面_8edd836b72.jpg"
+    },
+    {
+      "chapterId": "69e976e7b32a7c69d929220d",
+      "text": "Do you like her class?",
+      "evidenceSha256": "6b0d8ad9b311baa0997948c590edcbb0eca7e0b11610bee0bc002ad25323f338",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/03_教材页面_8edd836b72.jpg"
+    },
+    {
+      "chapterId": "69e976e7b32a7c69d929220d",
+      "text": "Yes. She sings well.",
+      "evidenceSha256": "6b0d8ad9b311baa0997948c590edcbb0eca7e0b11610bee0bc002ad25323f338",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/03_教材页面_8edd836b72.jpg"
+    },
+    {
+      "chapterId": "045fca85045c5aa75a95e89f",
+      "text": "Let me close the window.",
+      "evidenceSha256": "73f16da3b8d0018e20f58a920248a4737c90e6d5cd0ac40c866beb10d0d681df",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 10 Following rules/课文/01_教材页面_4b4ad0af80.jpg"
+    },
+    {
+      "chapterId": "045fca85045c5aa75a95e89f",
+      "text": "Tidy up the classroom.",
+      "evidenceSha256": "0668f81a978ad1d89fea1e57f3b49ab2a08c6d35710eaf1ad221d94c1956d5f5",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 10 Following rules/课文/03_教材页面_f1522e4fc4.jpg"
+    },
+    {
+      "chapterId": "045fca85045c5aa75a95e89f",
+      "text": "Close the window.",
+      "evidenceSha256": "0668f81a978ad1d89fea1e57f3b49ab2a08c6d35710eaf1ad221d94c1956d5f5",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 10 Following rules/课文/03_教材页面_f1522e4fc4.jpg"
+    },
+    {
+      "chapterId": "045fca85045c5aa75a95e89f",
+      "text": "Close the door.",
+      "evidenceSha256": "0668f81a978ad1d89fea1e57f3b49ab2a08c6d35710eaf1ad221d94c1956d5f5",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 10 Following rules/课文/03_教材页面_f1522e4fc4.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "Look! He can kick a ball fifteen metres.",
+      "evidenceSha256": "5e04d7718a1f0a5fa9b368254c41037e8f62c2e16762a088065c69287c028da3",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/01_教材页面_e271ad4dad.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "He can jump two metres.",
+      "evidenceSha256": "5e04d7718a1f0a5fa9b368254c41037e8f62c2e16762a088065c69287c028da3",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/01_教材页面_e271ad4dad.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "He can throw a ball three metres.",
+      "evidenceSha256": "5e04d7718a1f0a5fa9b368254c41037e8f62c2e16762a088065c69287c028da3",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/01_教材页面_e271ad4dad.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "She can swim twenty metres.",
+      "evidenceSha256": "5e04d7718a1f0a5fa9b368254c41037e8f62c2e16762a088065c69287c028da3",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/01_教材页面_e271ad4dad.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "How many bones do we have in our hands, feet, arms and legs?",
+      "evidenceSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "We throw and catch a basketball with our hands. One hand has 27 bones.",
+      "evidenceSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "We kick a football with our feet. One foot has 26 bones.",
+      "evidenceSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "We play badminton with our arms. One arm has 3 bones.",
+      "evidenceSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg"
+    },
+    {
+      "chapterId": "e94144630de81ebff1abe0cd",
+      "text": "We run with our legs. One leg has 3 bones, too.",
+      "evidenceSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "Can I have some juice?",
+      "evidenceSha256": "75b4c4d98974957b67fe8846ff5433707dd8a4072f627568349a24e17fa441b8",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_94d657f303.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "Sure! Here you are.",
+      "evidenceSha256": "75b4c4d98974957b67fe8846ff5433707dd8a4072f627568349a24e17fa441b8",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_94d657f303.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "Let's tidy up.",
+      "evidenceSha256": "75b4c4d98974957b67fe8846ff5433707dd8a4072f627568349a24e17fa441b8",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_94d657f303.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "It is clean!",
+      "evidenceSha256": "75b4c4d98974957b67fe8846ff5433707dd8a4072f627568349a24e17fa441b8",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_94d657f303.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "Yes, we can go now.",
+      "evidenceSha256": "75b4c4d98974957b67fe8846ff5433707dd8a4072f627568349a24e17fa441b8",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_94d657f303.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "Let's go to the library.",
+      "evidenceSha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "Let's go back home now.",
+      "evidenceSha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "It's green. We can go now.",
+      "evidenceSha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "You can follow the rules today. You are a big boy.",
+      "evidenceSha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg"
+    },
+    {
+      "chapterId": "c41dd82564cf7d352f7c7dc3",
+      "text": "Thank you.",
+      "evidenceSha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943",
+      "source": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg"
+    }
+  ]
+}

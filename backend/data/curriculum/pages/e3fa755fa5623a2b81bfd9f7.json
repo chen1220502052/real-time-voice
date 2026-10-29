@@ -1,0 +1,256 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 3,
+  "units": [
+    3
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/108/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/03_教材页面_dd58161953.jpg",
+  "sha256": "e3fa755fa5623a2b81bfd9f7c2885a3e41fc99665d22562e553a06be00429700",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fruit",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tim",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "oranges",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Here's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "an",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "orange",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "about",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Amy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bananas",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Let's have some fruit.",
+        "Tim, do you like oranges?",
+        "Yes, I do.",
+        "OK. Here's an orange for you.",
+        "What about you, Amy?",
+        "I like bananas.",
+        "OK. Let's have some bananas."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fruit",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tim",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "oranges",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Here's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "an",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "orange",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "about",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Amy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bananas",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Let's have some fruit.",
+        "Tim, do you like oranges?",
+        "Yes, I do.",
+        "OK. Here's an orange for you.",
+        "What about you, Amy?",
+        "I like bananas.",
+        "OK. Let's have some bananas."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

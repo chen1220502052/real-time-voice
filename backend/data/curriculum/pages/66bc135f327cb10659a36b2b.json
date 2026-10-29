@@ -1,0 +1,187 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/06_09_教材页面_4f93cdaf14.jpg",
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "66bc135f327cb10659a36b2bd2030df47a389041579d0f4124c36db3f052c673",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "first",
+              "meaning": "第一；首先",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "第二",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "第三",
+              "uncertain": false
+            },
+            {
+              "word": "floor",
+              "meaning": "楼层，地板",
+              "uncertain": false
+            },
+            {
+              "word": "classroom",
+              "meaning": "教室",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "房间，室",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "图书馆",
+              "uncertain": false
+            },
+            {
+              "word": "toilet",
+              "meaning": "厕所，洗手间",
+              "uncertain": false
+            },
+            {
+              "word": "hurry",
+              "meaning": "匆忙",
+              "uncertain": false
+            },
+            {
+              "word": "hurry up",
+              "meaning": "赶快",
+              "uncertain": false
+            },
+            {
+              "word": "bookshelf",
+              "meaning": "书架",
+              "uncertain": false
+            },
+            {
+              "word": "which",
+              "meaning": "哪一个，哪一些",
+              "uncertain": false
+            },
+            {
+              "word": "class",
+              "meaning": "班级，课程",
+              "uncertain": false
+            },
+            {
+              "word": "grade",
+              "meaning": "年级",
+              "uncertain": false
+            },
+            {
+              "word": "our",
+              "meaning": "我们的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "first",
+              "meaning": "第一；首先",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "第二",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "第三",
+              "uncertain": false
+            },
+            {
+              "word": "floor",
+              "meaning": "楼层，地板",
+              "uncertain": false
+            },
+            {
+              "word": "classroom",
+              "meaning": "教室",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "房间，室",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "图书馆",
+              "uncertain": false
+            },
+            {
+              "word": "toilet",
+              "meaning": "厕所，洗手间",
+              "uncertain": false
+            },
+            {
+              "word": "hurry",
+              "meaning": "匆忙",
+              "uncertain": false
+            },
+            {
+              "word": "hurry up",
+              "meaning": "赶快",
+              "uncertain": false
+            },
+            {
+              "word": "bookshelf",
+              "meaning": "书架",
+              "uncertain": false
+            },
+            {
+              "word": "which",
+              "meaning": "哪一个，哪一些",
+              "uncertain": false
+            },
+            {
+              "word": "class",
+              "meaning": "班级，课程",
+              "uncertain": false
+            },
+            {
+              "word": "grade",
+              "meaning": "年级",
+              "uncertain": false
+            },
+            {
+              "word": "our",
+              "meaning": "我们的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

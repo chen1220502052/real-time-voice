@@ -1,0 +1,265 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/298c68405269a762be8f8635-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "2d2800b29e161aab2a1ce8749170c0344e7b8e53b609b3104ff7b37453c418ac",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "classroom",
+              "meaning": "n.教室;课堂",
+              "uncertain": false
+            },
+            {
+              "word": "part",
+              "meaning": "n.参与;部分",
+              "uncertain": false
+            },
+            {
+              "word": "bottle",
+              "meaning": "n.瓶子",
+              "uncertain": false
+            },
+            {
+              "word": "any",
+              "meaning": "det.任何的,任一的;任一 pron.任一;任何数量",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "n.果汁;菜汁",
+              "uncertain": false
+            },
+            {
+              "word": "blackboard",
+              "meaning": "n.黑板",
+              "uncertain": false
+            },
+            {
+              "word": "desk",
+              "meaning": "n.书桌",
+              "uncertain": false
+            },
+            {
+              "word": "chair",
+              "meaning": "n.椅子",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pencil",
+              "meaning": "n.铅笔",
+              "uncertain": false
+            },
+            {
+              "word": "ruler",
+              "meaning": "n.直尺",
+              "uncertain": false
+            },
+            {
+              "word": "schoolbag",
+              "meaning": "n.书包",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "n.乒乓球运动",
+              "uncertain": false
+            },
+            {
+              "word": "ball",
+              "meaning": "n.球",
+              "uncertain": false
+            },
+            {
+              "word": "find",
+              "meaning": "v.找到;发现;认为",
+              "uncertain": false
+            },
+            {
+              "word": "lost",
+              "meaning": "adj.丢失的;迷路的",
+              "uncertain": false
+            },
+            {
+              "word": "colour",
+              "meaning": "(color AmE) n.颜色 v.为……着色",
+              "uncertain": false
+            },
+            {
+              "word": "end",
+              "meaning": "v.结束;终止 n.结尾;末端",
+              "uncertain": false
+            },
+            {
+              "word": "learn",
+              "meaning": "v.学习;记住",
+              "uncertain": false
+            },
+            {
+              "word": "interesting",
+              "meaning": "adj.有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "join",
+              "meaning": "v.参加;加入",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "web",
+              "meaning": "n.万维网",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "classroom",
+              "meaning": "n.教室;课堂",
+              "uncertain": false
+            },
+            {
+              "word": "part",
+              "meaning": "n.参与;部分",
+              "uncertain": false
+            },
+            {
+              "word": "bottle",
+              "meaning": "n.瓶子",
+              "uncertain": false
+            },
+            {
+              "word": "any",
+              "meaning": "det.任何的,任一的;任一 pron.任一;任何数量",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "n.果汁;菜汁",
+              "uncertain": false
+            },
+            {
+              "word": "blackboard",
+              "meaning": "n.黑板",
+              "uncertain": false
+            },
+            {
+              "word": "desk",
+              "meaning": "n.书桌",
+              "uncertain": false
+            },
+            {
+              "word": "chair",
+              "meaning": "n.椅子",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pencil",
+              "meaning": "n.铅笔",
+              "uncertain": false
+            },
+            {
+              "word": "ruler",
+              "meaning": "n.直尺",
+              "uncertain": false
+            },
+            {
+              "word": "schoolbag",
+              "meaning": "n.书包",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "n.乒乓球运动",
+              "uncertain": false
+            },
+            {
+              "word": "ball",
+              "meaning": "n.球",
+              "uncertain": false
+            },
+            {
+              "word": "find",
+              "meaning": "v.找到;发现;认为",
+              "uncertain": false
+            },
+            {
+              "word": "lost",
+              "meaning": "adj.丢失的;迷路的",
+              "uncertain": false
+            },
+            {
+              "word": "colour",
+              "meaning": "(color AmE) n.颜色 v.为……着色",
+              "uncertain": false
+            },
+            {
+              "word": "end",
+              "meaning": "v.结束;终止 n.结尾;末端",
+              "uncertain": false
+            },
+            {
+              "word": "learn",
+              "meaning": "v.学习;记住",
+              "uncertain": false
+            },
+            {
+              "word": "interesting",
+              "meaning": "adj.有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "join",
+              "meaning": "v.参加;加入",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "web",
+              "meaning": "n.万维网",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,275 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/298c68405269a762be8f8635-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "d37f31a55a96d89addc1c19055bdbabb4bd47154c7ac2124988a0af7c6082005",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "page",
+              "meaning": "n.页;页面",
+              "uncertain": false
+            },
+            {
+              "word": "city",
+              "meaning": "n.都市;城市",
+              "uncertain": false
+            },
+            {
+              "word": "welcome",
+              "meaning": "excl., v.欢迎 adj.受欢迎的",
+              "uncertain": false
+            },
+            {
+              "word": "out",
+              "meaning": "adv.(从……里)出来;在外面;外出",
+              "uncertain": false
+            },
+            {
+              "word": "more",
+              "meaning": "det., pron.更多的 adv.更",
+              "uncertain": false
+            },
+            {
+              "word": "want",
+              "meaning": "v.想要;需要",
+              "uncertain": false
+            },
+            {
+              "word": "because",
+              "meaning": "conj.因为",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "n.房间;空间",
+              "uncertain": false
+            },
+            {
+              "word": "writer",
+              "meaning": "n.作家",
+              "uncertain": false
+            },
+            {
+              "word": "ask",
+              "meaning": "v.问,询问;请求",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "sun",
+              "meaning": "n.太阳;阳光",
+              "uncertain": false
+            },
+            {
+              "word": "spring",
+              "meaning": "n.春天;春季",
+              "uncertain": false
+            },
+            {
+              "word": "summer",
+              "meaning": "n.夏天;夏季",
+              "uncertain": false
+            },
+            {
+              "word": "autumn",
+              "meaning": "n.秋天;秋季",
+              "uncertain": false
+            },
+            {
+              "word": "winter",
+              "meaning": "n.冬天;冬季",
+              "uncertain": false
+            },
+            {
+              "word": "hot",
+              "meaning": "adj.温度高的;热的",
+              "uncertain": false
+            },
+            {
+              "word": "cool",
+              "meaning": "adj.凉的;凉爽的;酷的",
+              "uncertain": false
+            },
+            {
+              "word": "cold",
+              "meaning": "adj.寒冷的 n.感冒",
+              "uncertain": false
+            },
+            {
+              "word": "warm",
+              "meaning": "adj.温暖的;保暖的;热心的 v.变暖和",
+              "uncertain": false
+            },
+            {
+              "word": "snow",
+              "meaning": "v.下雪 n.雪",
+              "uncertain": false
+            },
+            {
+              "word": "snowman",
+              "meaning": "n.雪人",
+              "uncertain": false
+            },
+            {
+              "word": "sunny",
+              "meaning": "adj.阳光充足的",
+              "uncertain": false
+            },
+            {
+              "word": "today",
+              "meaning": "adv.在今天 n.今天;当今",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "page",
+              "meaning": "n.页;页面",
+              "uncertain": false
+            },
+            {
+              "word": "city",
+              "meaning": "n.都市;城市",
+              "uncertain": false
+            },
+            {
+              "word": "welcome",
+              "meaning": "excl., v.欢迎 adj.受欢迎的",
+              "uncertain": false
+            },
+            {
+              "word": "out",
+              "meaning": "adv.(从……里)出来;在外面;外出",
+              "uncertain": false
+            },
+            {
+              "word": "more",
+              "meaning": "det., pron.更多的 adv.更",
+              "uncertain": false
+            },
+            {
+              "word": "want",
+              "meaning": "v.想要;需要",
+              "uncertain": false
+            },
+            {
+              "word": "because",
+              "meaning": "conj.因为",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "n.房间;空间",
+              "uncertain": false
+            },
+            {
+              "word": "writer",
+              "meaning": "n.作家",
+              "uncertain": false
+            },
+            {
+              "word": "ask",
+              "meaning": "v.问,询问;请求",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "sun",
+              "meaning": "n.太阳;阳光",
+              "uncertain": false
+            },
+            {
+              "word": "spring",
+              "meaning": "n.春天;春季",
+              "uncertain": false
+            },
+            {
+              "word": "summer",
+              "meaning": "n.夏天;夏季",
+              "uncertain": false
+            },
+            {
+              "word": "autumn",
+              "meaning": "n.秋天;秋季",
+              "uncertain": false
+            },
+            {
+              "word": "winter",
+              "meaning": "n.冬天;冬季",
+              "uncertain": false
+            },
+            {
+              "word": "hot",
+              "meaning": "adj.温度高的;热的",
+              "uncertain": false
+            },
+            {
+              "word": "cool",
+              "meaning": "adj.凉的;凉爽的;酷的",
+              "uncertain": false
+            },
+            {
+              "word": "cold",
+              "meaning": "adj.寒冷的 n.感冒",
+              "uncertain": false
+            },
+            {
+              "word": "warm",
+              "meaning": "adj.温暖的;保暖的;热心的 v.变暖和",
+              "uncertain": false
+            },
+            {
+              "word": "snow",
+              "meaning": "v.下雪 n.雪",
+              "uncertain": false
+            },
+            {
+              "word": "snowman",
+              "meaning": "n.雪人",
+              "uncertain": false
+            },
+            {
+              "word": "sunny",
+              "meaning": "adj.阳光充足的",
+              "uncertain": false
+            },
+            {
+              "word": "today",
+              "meaning": "adv.在今天 n.今天;当今",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

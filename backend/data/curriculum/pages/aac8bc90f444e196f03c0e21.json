@@ -1,0 +1,312 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 8,
+  "units": [
+    8
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/113/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/03_教材页面_c9c77c9e99.jpg",
+  "sha256": "aac8bc90f444e196f03c0e210feab70f608ba40f60d4c2bbbaa98a8f01878d3c",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Chen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Dong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "star",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "likes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Stars",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Does",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "he",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "does",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fun",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "him",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "play",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look! Chen Dong is a sports star.",
+        "Yes! He likes ping-pong and volleyball.",
+        "Sports Stars",
+        "Does he like basketball?",
+        "Yes, he does. It's fun for him to play sports."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Chen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Dong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "star",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "likes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Stars",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Does",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "he",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "does",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fun",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "him",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "play",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look! Chen Dong is a sports star.",
+        "Yes! He likes ping-pong and volleyball.",
+        "Sports Stars",
+        "Does he like basketball?",
+        "Yes, he does. It's fun for him to play sports."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,1000 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页149.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "ef8ed72090c4d92e762462ca99c6c0ff0731fc56a0429d67c69a209804d508e4",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mask",
+              "meaning": "面具;面罩",
+              "uncertain": false
+            },
+            {
+              "word": "role",
+              "meaning": "角色",
+              "uncertain": false
+            },
+            {
+              "word": "style",
+              "meaning": "方式;作风",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "在……中",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "粉丝;风扇",
+              "uncertain": false
+            },
+            {
+              "word": "pleasant",
+              "meaning": "愉快的;友好的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "stadium",
+              "meaning": "体育场",
+              "uncertain": false
+            },
+            {
+              "word": "creative",
+              "meaning": "创造(性)的;创作的",
+              "uncertain": false
+            },
+            {
+              "word": "musician",
+              "meaning": "音乐家",
+              "uncertain": false
+            },
+            {
+              "word": "relaxed",
+              "meaning": "放松的;自在的",
+              "uncertain": false
+            },
+            {
+              "word": "operate",
+              "meaning": "操作;运转;控制;动手术",
+              "uncertain": false
+            },
+            {
+              "word": "control",
+              "meaning": "指挥(或控制)站;控制",
+              "uncertain": false
+            },
+            {
+              "word": "electronic",
+              "meaning": "电子的",
+              "uncertain": false
+            },
+            {
+              "word": "photographer",
+              "meaning": "摄影师;拍照者",
+              "uncertain": false
+            },
+            {
+              "word": "sportswoman",
+              "meaning": "女运动员",
+              "uncertain": false
+            },
+            {
+              "word": "singer",
+              "meaning": "歌唱家;歌手",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "cough",
+              "meaning": "咳嗽",
+              "uncertain": false
+            },
+            {
+              "word": "fever",
+              "meaning": "发烧",
+              "uncertain": false
+            },
+            {
+              "word": "sore",
+              "meaning": "(发炎)疼痛的;酸痛的",
+              "uncertain": false
+            },
+            {
+              "word": "throat",
+              "meaning": "咽喉;喉咙",
+              "uncertain": false
+            },
+            {
+              "word": "headache",
+              "meaning": "头痛",
+              "uncertain": false
+            },
+            {
+              "word": "toothache",
+              "meaning": "牙痛",
+              "uncertain": false
+            },
+            {
+              "word": "stomachache",
+              "meaning": "胃痛",
+              "uncertain": false
+            },
+            {
+              "word": "temperature",
+              "meaning": "体温;温度;气温",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "药;药物;医学",
+              "uncertain": false
+            },
+            {
+              "word": "junk food",
+              "meaning": "垃圾食品",
+              "uncertain": false
+            },
+            {
+              "word": "slim",
+              "meaning": "苗条的",
+              "uncertain": false
+            },
+            {
+              "word": "diet",
+              "meaning": "日常饮食",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "屏幕;荧屏",
+              "uncertain": false
+            },
+            {
+              "word": "sugar",
+              "meaning": "糖;食糖",
+              "uncertain": false
+            },
+            {
+              "word": "ache",
+              "meaning": "(身体某部位的)疼痛",
+              "uncertain": false
+            },
+            {
+              "word": "examine",
+              "meaning": "检查,检验;审查",
+              "uncertain": false
+            },
+            {
+              "word": "hamburger",
+              "meaning": "汉堡包",
+              "uncertain": false
+            },
+            {
+              "word": "chip",
+              "meaning": "炸薯条",
+              "uncertain": false
+            },
+            {
+              "word": "fried",
+              "meaning": "油炸的",
+              "uncertain": false
+            },
+            {
+              "word": "pork",
+              "meaning": "猪肉",
+              "uncertain": false
+            },
+            {
+              "word": "pepper",
+              "meaning": "胡椒粉",
+              "uncertain": false
+            },
+            {
+              "word": "iced",
+              "meaning": "冰镇的;加冰块的",
+              "uncertain": false
+            },
+            {
+              "word": "Coke",
+              "meaning": "可乐",
+              "uncertain": false
+            },
+            {
+              "word": "pill",
+              "meaning": "药丸;药片",
+              "uncertain": false
+            },
+            {
+              "word": "outgoing",
+              "meaning": "外向的;友好的;爱交际的",
+              "uncertain": false
+            },
+            {
+              "word": "shy",
+              "meaning": "羞怯的;腼腆的",
+              "uncertain": false
+            },
+            {
+              "word": "snack",
+              "meaning": "点心;小吃;快餐",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mask",
+              "meaning": "面具;面罩",
+              "uncertain": false
+            },
+            {
+              "word": "role",
+              "meaning": "角色",
+              "uncertain": false
+            },
+            {
+              "word": "style",
+              "meaning": "方式;作风",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "在……中",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "粉丝;风扇",
+              "uncertain": false
+            },
+            {
+              "word": "pleasant",
+              "meaning": "愉快的;友好的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "stadium",
+              "meaning": "体育场",
+              "uncertain": false
+            },
+            {
+              "word": "creative",
+              "meaning": "创造(性)的;创作的",
+              "uncertain": false
+            },
+            {
+              "word": "musician",
+              "meaning": "音乐家",
+              "uncertain": false
+            },
+            {
+              "word": "relaxed",
+              "meaning": "放松的;自在的",
+              "uncertain": false
+            },
+            {
+              "word": "operate",
+              "meaning": "操作;运转;控制;动手术",
+              "uncertain": false
+            },
+            {
+              "word": "control",
+              "meaning": "指挥(或控制)站;控制",
+              "uncertain": false
+            },
+            {
+              "word": "electronic",
+              "meaning": "电子的",
+              "uncertain": false
+            },
+            {
+              "word": "photographer",
+              "meaning": "摄影师;拍照者",
+              "uncertain": false
+            },
+            {
+              "word": "sportswoman",
+              "meaning": "女运动员",
+              "uncertain": false
+            },
+            {
+              "word": "singer",
+              "meaning": "歌唱家;歌手",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "cough",
+              "meaning": "咳嗽",
+              "uncertain": false
+            },
+            {
+              "word": "fever",
+              "meaning": "发烧",
+              "uncertain": false
+            },
+            {
+              "word": "sore",
+              "meaning": "(发炎)疼痛的;酸痛的",
+              "uncertain": false
+            },
+            {
+              "word": "throat",
+              "meaning": "咽喉;喉咙",
+              "uncertain": false
+            },
+            {
+              "word": "headache",
+              "meaning": "头痛",
+              "uncertain": false
+            },
+            {
+              "word": "toothache",
+              "meaning": "牙痛",
+              "uncertain": false
+            },
+            {
+              "word": "stomachache",
+              "meaning": "胃痛",
+              "uncertain": false
+            },
+            {
+              "word": "temperature",
+              "meaning": "体温;温度;气温",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "药;药物;医学",
+              "uncertain": false
+            },
+            {
+              "word": "junk food",
+              "meaning": "垃圾食品",
+              "uncertain": false
+            },
+            {
+              "word": "slim",
+              "meaning": "苗条的",
+              "uncertain": false
+            },
+            {
+              "word": "diet",
+              "meaning": "日常饮食",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "屏幕;荧屏",
+              "uncertain": false
+            },
+            {
+              "word": "sugar",
+              "meaning": "糖;食糖",
+              "uncertain": false
+            },
+            {
+              "word": "ache",
+              "meaning": "(身体某部位的)疼痛",
+              "uncertain": false
+            },
+            {
+              "word": "examine",
+              "meaning": "检查,检验;审查",
+              "uncertain": false
+            },
+            {
+              "word": "hamburger",
+              "meaning": "汉堡包",
+              "uncertain": false
+            },
+            {
+              "word": "chip",
+              "meaning": "炸薯条",
+              "uncertain": false
+            },
+            {
+              "word": "fried",
+              "meaning": "油炸的",
+              "uncertain": false
+            },
+            {
+              "word": "pork",
+              "meaning": "猪肉",
+              "uncertain": false
+            },
+            {
+              "word": "pepper",
+              "meaning": "胡椒粉",
+              "uncertain": false
+            },
+            {
+              "word": "iced",
+              "meaning": "冰镇的;加冰块的",
+              "uncertain": false
+            },
+            {
+              "word": "Coke",
+              "meaning": "可乐",
+              "uncertain": false
+            },
+            {
+              "word": "pill",
+              "meaning": "药丸;药片",
+              "uncertain": false
+            },
+            {
+              "word": "outgoing",
+              "meaning": "外向的;友好的;爱交际的",
+              "uncertain": false
+            },
+            {
+              "word": "shy",
+              "meaning": "羞怯的;腼腆的",
+              "uncertain": false
+            },
+            {
+              "word": "snack",
+              "meaning": "点心;小吃;快餐",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "53d6c183086e3d81c36a9b385d17cc3b46d4c817a072e7a27cfc3f53cb107885",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "mask",
+                  "meaning": "n.面具;面罩",
+                  "uncertain": false
+                },
+                {
+                  "word": "role",
+                  "meaning": "n.角色",
+                  "uncertain": false
+                },
+                {
+                  "word": "style",
+                  "meaning": "n.方式;作风",
+                  "uncertain": false
+                },
+                {
+                  "word": "among",
+                  "meaning": "prep.在……中",
+                  "uncertain": false
+                },
+                {
+                  "word": "fan",
+                  "meaning": "n.粉丝;风扇",
+                  "uncertain": false
+                },
+                {
+                  "word": "pleasant",
+                  "meaning": "adj.愉快的;友好的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "stadium",
+                  "meaning": "n.体育场",
+                  "uncertain": false
+                },
+                {
+                  "word": "creative",
+                  "meaning": "adj.创造(性)的;创作的",
+                  "uncertain": false
+                },
+                {
+                  "word": "musician",
+                  "meaning": "n.音乐家",
+                  "uncertain": false
+                },
+                {
+                  "word": "relaxed",
+                  "meaning": "adj.放松的;自在的",
+                  "uncertain": false
+                },
+                {
+                  "word": "operate",
+                  "meaning": "v.操作;运转;控制;动手术",
+                  "uncertain": false
+                },
+                {
+                  "word": "control",
+                  "meaning": "n.指挥(或控制)站;控制 v.指挥;控制",
+                  "uncertain": false
+                },
+                {
+                  "word": "electronic",
+                  "meaning": "adj.电子的",
+                  "uncertain": false
+                },
+                {
+                  "word": "photographer",
+                  "meaning": "n.摄影师;拍照者",
+                  "uncertain": false
+                },
+                {
+                  "word": "sportswoman",
+                  "meaning": "(pl.sportswomen)n.女运动员",
+                  "uncertain": false
+                },
+                {
+                  "word": "singer",
+                  "meaning": "n.歌唱家;歌手",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "cough",
+                  "meaning": "n.咳嗽",
+                  "uncertain": false
+                },
+                {
+                  "word": "fever",
+                  "meaning": "n.发烧",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "mask",
+                  "meaning": "n.面具;面罩",
+                  "uncertain": false
+                },
+                {
+                  "word": "role",
+                  "meaning": "n.角色",
+                  "uncertain": false
+                },
+                {
+                  "word": "style",
+                  "meaning": "n.方式;作风",
+                  "uncertain": false
+                },
+                {
+                  "word": "among",
+                  "meaning": "prep.在……中",
+                  "uncertain": false
+                },
+                {
+                  "word": "fan",
+                  "meaning": "n.粉丝;风扇",
+                  "uncertain": false
+                },
+                {
+                  "word": "pleasant",
+                  "meaning": "adj.愉快的;友好的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "stadium",
+                  "meaning": "n.体育场",
+                  "uncertain": false
+                },
+                {
+                  "word": "creative",
+                  "meaning": "adj.创造(性)的;创作的",
+                  "uncertain": false
+                },
+                {
+                  "word": "musician",
+                  "meaning": "n.音乐家",
+                  "uncertain": false
+                },
+                {
+                  "word": "relaxed",
+                  "meaning": "adj.放松的;自在的",
+                  "uncertain": false
+                },
+                {
+                  "word": "operate",
+                  "meaning": "v.操作;运转;控制;动手术",
+                  "uncertain": false
+                },
+                {
+                  "word": "control",
+                  "meaning": "n.指挥(或控制)站;控制 v.指挥;控制",
+                  "uncertain": false
+                },
+                {
+                  "word": "electronic",
+                  "meaning": "adj.电子的",
+                  "uncertain": false
+                },
+                {
+                  "word": "photographer",
+                  "meaning": "n.摄影师;拍照者",
+                  "uncertain": false
+                },
+                {
+                  "word": "sportswoman",
+                  "meaning": "(pl.sportswomen)n.女运动员",
+                  "uncertain": false
+                },
+                {
+                  "word": "singer",
+                  "meaning": "n.歌唱家;歌手",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "cough",
+                  "meaning": "n.咳嗽",
+                  "uncertain": false
+                },
+                {
+                  "word": "fever",
+                  "meaning": "n.发烧",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "7d495c450b9e50c1ecfe6c06171d4caf89d1f0bd46b9ef87738c7af8c8c42eb6",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "sore",
+                  "meaning": "adj.(发炎)疼痛的;酸痛的",
+                  "uncertain": false
+                },
+                {
+                  "word": "throat",
+                  "meaning": "n.咽喉;喉咙",
+                  "uncertain": false
+                },
+                {
+                  "word": "headache",
+                  "meaning": "n.头痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "toothache",
+                  "meaning": "n.牙痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "stomachache",
+                  "meaning": "n.胃痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "temperature",
+                  "meaning": "n.体温;温度;气温",
+                  "uncertain": false
+                },
+                {
+                  "word": "medicine",
+                  "meaning": "n.药,药物;医学",
+                  "uncertain": false
+                },
+                {
+                  "word": "junk food",
+                  "meaning": "n.垃圾食品",
+                  "uncertain": false
+                },
+                {
+                  "word": "slim",
+                  "meaning": "adj.苗条的",
+                  "uncertain": false
+                },
+                {
+                  "word": "diet",
+                  "meaning": "n.日常饮食",
+                  "uncertain": false
+                },
+                {
+                  "word": "screen",
+                  "meaning": "n.屏幕;荧屏",
+                  "uncertain": false
+                },
+                {
+                  "word": "sugar",
+                  "meaning": "n.糖;食糖",
+                  "uncertain": false
+                },
+                {
+                  "word": "ache",
+                  "meaning": "n.(身体某部位的)疼痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "examine",
+                  "meaning": "v.检查,检验;审查",
+                  "uncertain": false
+                },
+                {
+                  "word": "hamburger",
+                  "meaning": "n.汉堡包",
+                  "uncertain": false
+                },
+                {
+                  "word": "chip",
+                  "meaning": "n.炸薯条",
+                  "uncertain": false
+                },
+                {
+                  "word": "fried",
+                  "meaning": "adj.油炸的",
+                  "uncertain": false
+                },
+                {
+                  "word": "pork",
+                  "meaning": "n.猪肉",
+                  "uncertain": false
+                },
+                {
+                  "word": "pepper",
+                  "meaning": "n.胡椒粉",
+                  "uncertain": false
+                },
+                {
+                  "word": "iced",
+                  "meaning": "adj.冰镇的;加冰块的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Coke",
+                  "meaning": "n.可乐",
+                  "uncertain": false
+                },
+                {
+                  "word": "pill",
+                  "meaning": "n.药丸;药片",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "outgoing",
+                  "meaning": "adj.外向的;友好的;爱交际的",
+                  "uncertain": false
+                },
+                {
+                  "word": "shy",
+                  "meaning": "adj.羞怯的;腼腆的",
+                  "uncertain": false
+                },
+                {
+                  "word": "snack",
+                  "meaning": "n.点心;小吃;快餐",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "sore",
+                  "meaning": "adj.(发炎)疼痛的;酸痛的",
+                  "uncertain": false
+                },
+                {
+                  "word": "throat",
+                  "meaning": "n.咽喉;喉咙",
+                  "uncertain": false
+                },
+                {
+                  "word": "headache",
+                  "meaning": "n.头痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "toothache",
+                  "meaning": "n.牙痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "stomachache",
+                  "meaning": "n.胃痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "temperature",
+                  "meaning": "n.体温;温度;气温",
+                  "uncertain": false
+                },
+                {
+                  "word": "medicine",
+                  "meaning": "n.药,药物;医学",
+                  "uncertain": false
+                },
+                {
+                  "word": "junk food",
+                  "meaning": "n.垃圾食品",
+                  "uncertain": false
+                },
+                {
+                  "word": "slim",
+                  "meaning": "adj.苗条的",
+                  "uncertain": false
+                },
+                {
+                  "word": "diet",
+                  "meaning": "n.日常饮食",
+                  "uncertain": false
+                },
+                {
+                  "word": "screen",
+                  "meaning": "n.屏幕;荧屏",
+                  "uncertain": false
+                },
+                {
+                  "word": "sugar",
+                  "meaning": "n.糖;食糖",
+                  "uncertain": false
+                },
+                {
+                  "word": "ache",
+                  "meaning": "n.(身体某部位的)疼痛",
+                  "uncertain": false
+                },
+                {
+                  "word": "examine",
+                  "meaning": "v.检查,检验;审查",
+                  "uncertain": false
+                },
+                {
+                  "word": "hamburger",
+                  "meaning": "n.汉堡包",
+                  "uncertain": false
+                },
+                {
+                  "word": "chip",
+                  "meaning": "n.炸薯条",
+                  "uncertain": false
+                },
+                {
+                  "word": "fried",
+                  "meaning": "adj.油炸的",
+                  "uncertain": false
+                },
+                {
+                  "word": "pork",
+                  "meaning": "n.猪肉",
+                  "uncertain": false
+                },
+                {
+                  "word": "pepper",
+                  "meaning": "n.胡椒粉",
+                  "uncertain": false
+                },
+                {
+                  "word": "iced",
+                  "meaning": "adj.冰镇的;加冰块的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Coke",
+                  "meaning": "n.可乐",
+                  "uncertain": false
+                },
+                {
+                  "word": "pill",
+                  "meaning": "n.药丸;药片",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "outgoing",
+                  "meaning": "adj.外向的;友好的;爱交际的",
+                  "uncertain": false
+                },
+                {
+                  "word": "shy",
+                  "meaning": "adj.羞怯的;腼腆的",
+                  "uncertain": false
+                },
+                {
+                  "word": "snack",
+                  "meaning": "n.点心;小吃;快餐",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

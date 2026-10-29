@@ -1,0 +1,355 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": ".local/curriculum-column-crops/674432e837321a9cb3e95e23-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "28a549a89d90794adaecc2d48c01e585ede546c16f34d48caf60fe6b95bdda47",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "advantage",
+              "meaning": "优点;优势",
+              "uncertain": false
+            },
+            {
+              "word": "disagree",
+              "meaning": "不同意,有分歧",
+              "uncertain": false
+            },
+            {
+              "word": "disagree with sb.",
+              "meaning": "不同意,持不同意见",
+              "uncertain": false
+            },
+            {
+              "word": "space",
+              "meaning": "空间;空地",
+              "uncertain": false
+            },
+            {
+              "word": "rider",
+              "meaning": "骑(自行车或马,摩托车)的人,骑手",
+              "uncertain": false
+            },
+            {
+              "word": "careless",
+              "meaning": "不小心的,不仔细的",
+              "uncertain": false
+            },
+            {
+              "word": "helmet",
+              "meaning": "头盔",
+              "uncertain": false
+            },
+            {
+              "word": "light-colored",
+              "meaning": "浅色的,淡色的",
+              "uncertain": false
+            },
+            {
+              "word": "pay attention to",
+              "meaning": "注意",
+              "uncertain": false
+            },
+            {
+              "word": "signal",
+              "meaning": "信号,暗号",
+              "uncertain": false
+            },
+            {
+              "word": "safety",
+              "meaning": "安全,平安",
+              "uncertain": false
+            },
+            {
+              "word": "truck",
+              "meaning": "卡车,载重汽车",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "看(或听)到,注意到,注意到,理会",
+              "uncertain": false
+            },
+            {
+              "word": "reflector",
+              "meaning": "反光玻璃",
+              "uncertain": false
+            },
+            {
+              "word": "case",
+              "meaning": "情况;事例",
+              "uncertain": false
+            },
+            {
+              "word": "in case of",
+              "meaning": "如果,假使",
+              "uncertain": false
+            },
+            {
+              "word": "injury",
+              "meaning": "(对躯体的)伤害,损伤",
+              "uncertain": false
+            },
+            {
+              "word": "in a word",
+              "meaning": "简言之,一句话,总之",
+              "uncertain": false
+            },
+            {
+              "word": "look out",
+              "meaning": "小心,当心",
+              "uncertain": false
+            },
+            {
+              "word": "stream",
+              "meaning": "小河;溪",
+              "uncertain": false
+            },
+            {
+              "word": "empty",
+              "meaning": "空的;倒空;(河流)流入,注入",
+              "uncertain": false
+            },
+            {
+              "word": "Asia",
+              "meaning": "亚洲",
+              "uncertain": false
+            },
+            {
+              "word": "altitude",
+              "meaning": "海拔",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "在……中",
+              "uncertain": false
+            },
+            {
+              "word": "France",
+              "meaning": "法国",
+              "uncertain": false
+            },
+            {
+              "word": "mile",
+              "meaning": "英里",
+              "uncertain": false
+            },
+            {
+              "word": "stage",
+              "meaning": "阶段;舞台",
+              "uncertain": false
+            },
+            {
+              "word": "central",
+              "meaning": "中心的,中央的",
+              "uncertain": false
+            },
+            {
+              "word": "winner",
+              "meaning": "优胜者,获胜的人",
+              "uncertain": false
+            },
+            {
+              "word": "cyclist",
+              "meaning": "骑自行车的人",
+              "uncertain": false
+            },
+            {
+              "word": "motorcycle",
+              "meaning": "摩托车",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "破损的;伤残的;残缺的;出了毛病的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "advantage",
+              "meaning": "优点;优势",
+              "uncertain": false
+            },
+            {
+              "word": "disagree",
+              "meaning": "不同意,有分歧",
+              "uncertain": false
+            },
+            {
+              "word": "disagree with sb.",
+              "meaning": "不同意,持不同意见",
+              "uncertain": false
+            },
+            {
+              "word": "space",
+              "meaning": "空间;空地",
+              "uncertain": false
+            },
+            {
+              "word": "rider",
+              "meaning": "骑(自行车或马,摩托车)的人,骑手",
+              "uncertain": false
+            },
+            {
+              "word": "careless",
+              "meaning": "不小心的,不仔细的",
+              "uncertain": false
+            },
+            {
+              "word": "helmet",
+              "meaning": "头盔",
+              "uncertain": false
+            },
+            {
+              "word": "light-colored",
+              "meaning": "浅色的,淡色的",
+              "uncertain": false
+            },
+            {
+              "word": "pay attention to",
+              "meaning": "注意",
+              "uncertain": false
+            },
+            {
+              "word": "signal",
+              "meaning": "信号,暗号",
+              "uncertain": false
+            },
+            {
+              "word": "safety",
+              "meaning": "安全,平安",
+              "uncertain": false
+            },
+            {
+              "word": "truck",
+              "meaning": "卡车,载重汽车",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "看(或听)到,注意到,注意到,理会",
+              "uncertain": false
+            },
+            {
+              "word": "reflector",
+              "meaning": "反光玻璃",
+              "uncertain": false
+            },
+            {
+              "word": "case",
+              "meaning": "情况;事例",
+              "uncertain": false
+            },
+            {
+              "word": "in case of",
+              "meaning": "如果,假使",
+              "uncertain": false
+            },
+            {
+              "word": "injury",
+              "meaning": "(对躯体的)伤害,损伤",
+              "uncertain": false
+            },
+            {
+              "word": "in a word",
+              "meaning": "简言之,一句话,总之",
+              "uncertain": false
+            },
+            {
+              "word": "look out",
+              "meaning": "小心,当心",
+              "uncertain": false
+            },
+            {
+              "word": "stream",
+              "meaning": "小河;溪",
+              "uncertain": false
+            },
+            {
+              "word": "empty",
+              "meaning": "空的;倒空;(河流)流入,注入",
+              "uncertain": false
+            },
+            {
+              "word": "Asia",
+              "meaning": "亚洲",
+              "uncertain": false
+            },
+            {
+              "word": "altitude",
+              "meaning": "海拔",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "在……中",
+              "uncertain": false
+            },
+            {
+              "word": "France",
+              "meaning": "法国",
+              "uncertain": false
+            },
+            {
+              "word": "mile",
+              "meaning": "英里",
+              "uncertain": false
+            },
+            {
+              "word": "stage",
+              "meaning": "阶段;舞台",
+              "uncertain": false
+            },
+            {
+              "word": "central",
+              "meaning": "中心的,中央的",
+              "uncertain": false
+            },
+            {
+              "word": "winner",
+              "meaning": "优胜者,获胜的人",
+              "uncertain": false
+            },
+            {
+              "word": "cyclist",
+              "meaning": "骑自行车的人",
+              "uncertain": false
+            },
+            {
+              "word": "motorcycle",
+              "meaning": "摩托车",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "破损的;伤残的;残缺的;出了毛病的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

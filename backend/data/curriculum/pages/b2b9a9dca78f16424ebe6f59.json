@@ -1,0 +1,166 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 8,
+  "units": [
+    8
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/113/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/01_教材页面_70ecb5b471.jpg",
+  "sha256": "b2b9a9dca78f16424ebe6f593af4739134f305245bc335003f717243bd60e1a6",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "basketball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "basketball",
+        "ping-pong",
+        "badminton",
+        "football",
+        "volleyball",
+        "What sports do you like?",
+        "I like volleyball."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "basketball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "basketball",
+        "ping-pong",
+        "badminton",
+        "football",
+        "volleyball",
+        "What sports do you like?",
+        "I like volleyball."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

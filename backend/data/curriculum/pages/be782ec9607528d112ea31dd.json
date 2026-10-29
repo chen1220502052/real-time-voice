@@ -1,0 +1,455 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页147.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "be782ec9607528d112ea31dd0e899a0e740bbfb834b6227289a0150925111b42",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "classic",
+              "meaning": "adj.最优秀的;有代表性的;传统的",
+              "uncertain": false
+            },
+            {
+              "word": "novel",
+              "meaning": "n.小说",
+              "uncertain": false
+            },
+            {
+              "word": "oil",
+              "meaning": "n.(绘画用)油彩;石油;原油",
+              "uncertain": false
+            },
+            {
+              "word": "calligrapher",
+              "meaning": "n.书法家",
+              "uncertain": false
+            },
+            {
+              "word": "ancient",
+              "meaning": "adj.古代的;古老的",
+              "uncertain": false
+            },
+            {
+              "word": "photography",
+              "meaning": "n.摄影;摄影艺术",
+              "uncertain": false
+            },
+            {
+              "word": "wood",
+              "meaning": "n.木;木头;木柴",
+              "uncertain": false
+            },
+            {
+              "word": "sand",
+              "meaning": "n.沙;沙子",
+              "uncertain": false
+            },
+            {
+              "word": "correct",
+              "meaning": "adj.准确无误的;正确的",
+              "uncertain": false
+            },
+            {
+              "word": "wow",
+              "meaning": "excl.哇,呀",
+              "uncertain": false
+            },
+            {
+              "word": "pity",
+              "meaning": "n.遗憾,可惜",
+              "uncertain": false
+            },
+            {
+              "word": "type",
+              "meaning": "n.类型,种类;典型;字体 v.打字",
+              "uncertain": false
+            },
+            {
+              "word": "musical",
+              "meaning": "adj.音乐的",
+              "uncertain": false
+            },
+            {
+              "word": "instrument",
+              "meaning": "n.乐器;仪器;工具",
+              "uncertain": false
+            },
+            {
+              "word": "string",
+              "meaning": "n.弦",
+              "uncertain": false
+            },
+            {
+              "word": "beat",
+              "meaning": "n.一击,击打;节拍 v.击打;打败",
+              "uncertain": false
+            },
+            {
+              "word": "keyboard",
+              "meaning": "n.琴键;键盘",
+              "uncertain": false
+            },
+            {
+              "word": "violin",
+              "meaning": "n.小提琴",
+              "uncertain": false
+            },
+            {
+              "word": "belong",
+              "meaning": "v.应在(某处);适应",
+              "uncertain": false
+            },
+            {
+              "word": "drum",
+              "meaning": "n.鼓",
+              "uncertain": false
+            },
+            {
+              "word": "trumpet",
+              "meaning": "n.小号;喇叭",
+              "uncertain": false
+            },
+            {
+              "word": "language",
+              "meaning": "n.语言",
+              "uncertain": false
+            },
+            {
+              "word": "allow",
+              "meaning": "v.允许;使可能",
+              "uncertain": false
+            },
+            {
+              "word": "communicate",
+              "meaning": "v.交流;沟通",
+              "uncertain": false
+            },
+            {
+              "word": "feeling",
+              "meaning": "n.感觉,感触;情感;想法",
+              "uncertain": false
+            },
+            {
+              "word": "relax",
+              "meaning": "v.(使)放松;放松精神(或思想)",
+              "uncertain": false
+            },
+            {
+              "word": "afraid",
+              "meaning": "adj.害怕;担心",
+              "uncertain": false
+            },
+            {
+              "word": "medium",
+              "meaning": "(pl.media)n.(传播信息等的)媒介,手段,方法",
+              "uncertain": false
+            },
+            {
+              "word": "eye",
+              "meaning": "n.眼睛",
+              "uncertain": false
+            },
+            {
+              "word": "pigeon",
+              "meaning": "n.鸽子",
+              "uncertain": false
+            },
+            {
+              "word": "opera",
+              "meaning": "n.歌剧",
+              "uncertain": false
+            },
+            {
+              "word": "strict",
+              "meaning": "adj.要求严格的;严厉的;严谨的",
+              "uncertain": false
+            },
+            {
+              "word": "perfect",
+              "meaning": "adj.完美的;极好的",
+              "uncertain": false
+            },
+            {
+              "word": "painter",
+              "meaning": "n.画家;油漆匠",
+              "uncertain": false
+            },
+            {
+              "word": "popular",
+              "meaning": "adj.大众喜爱的;广受欢迎的;大众(化)的",
+              "uncertain": false
+            },
+            {
+              "word": "sentence",
+              "meaning": "n.句子;判决,宣判",
+              "uncertain": false
+            },
+            {
+              "word": "huge",
+              "meaning": "adj.巨大的;极多的",
+              "uncertain": false
+            },
+            {
+              "word": "gate",
+              "meaning": "n.大门;栅栏门",
+              "uncertain": false
+            },
+            {
+              "word": "tower",
+              "meaning": "n.塔;塔楼",
+              "uncertain": false
+            },
+            {
+              "word": "value",
+              "meaning": "v.重视;珍视 n.价值",
+              "uncertain": false
+            },
+            {
+              "word": "northern",
+              "meaning": "adj.北方的;北部的",
+              "uncertain": false
+            },
+            {
+              "word": "dynasty",
+              "meaning": "n.王朝;朝代",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "classic",
+              "meaning": "adj.最优秀的;有代表性的;传统的",
+              "uncertain": false
+            },
+            {
+              "word": "novel",
+              "meaning": "n.小说",
+              "uncertain": false
+            },
+            {
+              "word": "oil",
+              "meaning": "n.(绘画用)油彩;石油;原油",
+              "uncertain": false
+            },
+            {
+              "word": "calligrapher",
+              "meaning": "n.书法家",
+              "uncertain": false
+            },
+            {
+              "word": "ancient",
+              "meaning": "adj.古代的;古老的",
+              "uncertain": false
+            },
+            {
+              "word": "photography",
+              "meaning": "n.摄影;摄影艺术",
+              "uncertain": false
+            },
+            {
+              "word": "wood",
+              "meaning": "n.木;木头;木柴",
+              "uncertain": false
+            },
+            {
+              "word": "sand",
+              "meaning": "n.沙;沙子",
+              "uncertain": false
+            },
+            {
+              "word": "correct",
+              "meaning": "adj.准确无误的;正确的",
+              "uncertain": false
+            },
+            {
+              "word": "wow",
+              "meaning": "excl.哇,呀",
+              "uncertain": false
+            },
+            {
+              "word": "pity",
+              "meaning": "n.遗憾,可惜",
+              "uncertain": false
+            },
+            {
+              "word": "type",
+              "meaning": "n.类型,种类;典型;字体 v.打字",
+              "uncertain": false
+            },
+            {
+              "word": "musical",
+              "meaning": "adj.音乐的",
+              "uncertain": false
+            },
+            {
+              "word": "instrument",
+              "meaning": "n.乐器;仪器;工具",
+              "uncertain": false
+            },
+            {
+              "word": "string",
+              "meaning": "n.弦",
+              "uncertain": false
+            },
+            {
+              "word": "beat",
+              "meaning": "n.一击,击打;节拍 v.击打;打败",
+              "uncertain": false
+            },
+            {
+              "word": "keyboard",
+              "meaning": "n.琴键;键盘",
+              "uncertain": false
+            },
+            {
+              "word": "violin",
+              "meaning": "n.小提琴",
+              "uncertain": false
+            },
+            {
+              "word": "belong",
+              "meaning": "v.应在(某处);适应",
+              "uncertain": false
+            },
+            {
+              "word": "drum",
+              "meaning": "n.鼓",
+              "uncertain": false
+            },
+            {
+              "word": "trumpet",
+              "meaning": "n.小号;喇叭",
+              "uncertain": false
+            },
+            {
+              "word": "language",
+              "meaning": "n.语言",
+              "uncertain": false
+            },
+            {
+              "word": "allow",
+              "meaning": "v.允许;使可能",
+              "uncertain": false
+            },
+            {
+              "word": "communicate",
+              "meaning": "v.交流;沟通",
+              "uncertain": false
+            },
+            {
+              "word": "feeling",
+              "meaning": "n.感觉,感触;情感;想法",
+              "uncertain": false
+            },
+            {
+              "word": "relax",
+              "meaning": "v.(使)放松;放松精神(或思想)",
+              "uncertain": false
+            },
+            {
+              "word": "afraid",
+              "meaning": "adj.害怕;担心",
+              "uncertain": false
+            },
+            {
+              "word": "medium",
+              "meaning": "(pl.media)n.(传播信息等的)媒介,手段,方法",
+              "uncertain": false
+            },
+            {
+              "word": "eye",
+              "meaning": "n.眼睛",
+              "uncertain": false
+            },
+            {
+              "word": "pigeon",
+              "meaning": "n.鸽子",
+              "uncertain": false
+            },
+            {
+              "word": "opera",
+              "meaning": "n.歌剧",
+              "uncertain": false
+            },
+            {
+              "word": "strict",
+              "meaning": "adj.要求严格的;严厉的;严谨的",
+              "uncertain": false
+            },
+            {
+              "word": "perfect",
+              "meaning": "adj.完美的;极好的",
+              "uncertain": false
+            },
+            {
+              "word": "painter",
+              "meaning": "n.画家;油漆匠",
+              "uncertain": false
+            },
+            {
+              "word": "popular",
+              "meaning": "adj.大众喜爱的;广受欢迎的;大众(化)的",
+              "uncertain": false
+            },
+            {
+              "word": "sentence",
+              "meaning": "n.句子;判决,宣判",
+              "uncertain": false
+            },
+            {
+              "word": "huge",
+              "meaning": "adj.巨大的;极多的",
+              "uncertain": false
+            },
+            {
+              "word": "gate",
+              "meaning": "n.大门;栅栏门",
+              "uncertain": false
+            },
+            {
+              "word": "tower",
+              "meaning": "n.塔;塔楼",
+              "uncertain": false
+            },
+            {
+              "word": "value",
+              "meaning": "v.重视;珍视 n.价值",
+              "uncertain": false
+            },
+            {
+              "word": "northern",
+              "meaning": "adj.北方的;北部的",
+              "uncertain": false
+            },
+            {
+              "word": "dynasty",
+              "meaning": "n.王朝;朝代",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

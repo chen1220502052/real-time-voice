@@ -1,0 +1,1390 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页142.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "36c2ba2d9f8db04d13023da41c33761e160800935cd0077d98befe973e08da06",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "语境；背景",
+              "meaning": "(22)",
+              "uncertain": false
+            },
+            {
+              "word": "laborer",
+              "meaning": "n. 体力劳动者,劳工,工人 (22)",
+              "uncertain": false
+            },
+            {
+              "word": "cruel",
+              "meaning": "adj. 残酷的,冷酷的 (22)",
+              "uncertain": false
+            },
+            {
+              "word": "project",
+              "meaning": "n. 专题研究;项目;方案 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "primary",
+              "meaning": "adj. 小学教育的;主要的;最初的 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "contribution",
+              "meaning": "n. 贡献;捐款 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "make a contribution to",
+              "meaning": "为……作贡献 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "encourage",
+              "meaning": "v. 鼓励 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "moral",
+              "meaning": "adj. 道德(上)的 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "development",
+              "meaning": "n. 发展;开发 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "respect",
+              "meaning": "v. 尊敬,尊重 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "best-known",
+              "meaning": "最知名的 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "importance",
+              "meaning": "n. 重要性,重要 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "continue",
+              "meaning": "v. 持续,继续做 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "college",
+              "meaning": "n. (美国)大学;(英国)学院 (24)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "indeed",
+              "meaning": "adv. 真正地;实际上 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "method",
+              "meaning": "n. 方法,办法 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "teenager",
+              "meaning": "n. (13~19岁之间的)青少年 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "plenty",
+              "meaning": "pron. 大量,众多,充足 n. 充足,大量 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "plenty of",
+              "meaning": "大量的 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "sunshine",
+              "meaning": "n. 阳光,日光 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "sunbathe",
+              "meaning": "v. 沐日光浴;晒太阳 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "beach",
+              "meaning": "n. 海滩,海滨 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "n. 排球 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "cultural",
+              "meaning": "adj. 文化的 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "hardly",
+              "meaning": "adv. 几乎不 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "surf",
+              "meaning": "v. (互联网上)冲浪,浏览 (26)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "mess",
+              "meaning": "n. 肮脏,杂乱;困境 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "several",
+              "meaning": "det. & pron. 几个,数个 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "pour",
+              "meaning": "v. 倒出;倾泻;不断流出 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "waste",
+              "meaning": "adj. 废弃的,丢弃的,无用的 v. 浪费 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "shame",
+              "meaning": "n. 羞耻,羞愧 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "bee",
+              "meaning": "n. 蜜蜂 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "butterfly",
+              "meaning": "n. 蝴蝶;蝶泳 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "villager",
+              "meaning": "n. 村民,乡下人 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "destroy",
+              "meaning": "v. 摧毁,破灭 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "cut down",
+              "meaning": "砍倒 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "goodness",
+              "meaning": "n. 天啊;哎呀 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "pain",
+              "meaning": "n. 疼,痛;痛苦 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "breathe",
+              "meaning": "v. 呼吸 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "produce",
+              "meaning": "v. 生产,制造 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "chest",
+              "meaning": "n. 胸部,胸膛 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "awful",
+              "meaning": "adj. 很坏的,极讨厌的 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "v. 承受,忍受 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "editor",
+              "meaning": "n. 主编,编辑 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "breath",
+              "meaning": "n. 一次吸入的空气 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "n. 土壤;土地 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "harmful",
+              "meaning": "adj. 有害的 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "be harmful to",
+              "meaning": "(尤指对健康或环境)有害的,导致损害的 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "deaf",
+              "meaning": "adj. 聋的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "print",
+              "meaning": "v. 印刷 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "hearing",
+              "meaning": "n. 听力,听觉 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "loss",
+              "meaning": "n. 丧失;损失;丢失 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "recently",
+              "meaning": "adv. 不久前;最近 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "disturb",
+              "meaning": "v. 打扰;扰乱 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "do harm to",
+              "meaning": "伤害,损害 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "uncomfortable",
+              "meaning": "adj. 使人不舒服的,令人不舒适的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "unpleasant",
+              "meaning": "adj. 令人不快的;不舒服的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "sort",
+              "meaning": "n. 种类,类别;品种 v. 整理;把……分类 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "environmental",
+              "meaning": "adj. 环境的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "including",
+              "meaning": "prep. 包括……在内 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "onto",
+              "meaning": "prep. 向,朝 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "sentence",
+              "meaning": "n. 句子;判决,宣判 (32)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "语境；背景",
+              "meaning": "(22)",
+              "uncertain": false
+            },
+            {
+              "word": "laborer",
+              "meaning": "n. 体力劳动者,劳工,工人 (22)",
+              "uncertain": false
+            },
+            {
+              "word": "cruel",
+              "meaning": "adj. 残酷的,冷酷的 (22)",
+              "uncertain": false
+            },
+            {
+              "word": "project",
+              "meaning": "n. 专题研究;项目;方案 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "primary",
+              "meaning": "adj. 小学教育的;主要的;最初的 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "contribution",
+              "meaning": "n. 贡献;捐款 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "make a contribution to",
+              "meaning": "为……作贡献 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "encourage",
+              "meaning": "v. 鼓励 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "moral",
+              "meaning": "adj. 道德(上)的 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "development",
+              "meaning": "n. 发展;开发 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "respect",
+              "meaning": "v. 尊敬,尊重 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "best-known",
+              "meaning": "最知名的 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "importance",
+              "meaning": "n. 重要性,重要 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "continue",
+              "meaning": "v. 持续,继续做 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "college",
+              "meaning": "n. (美国)大学;(英国)学院 (24)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "indeed",
+              "meaning": "adv. 真正地;实际上 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "method",
+              "meaning": "n. 方法,办法 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "teenager",
+              "meaning": "n. (13~19岁之间的)青少年 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "plenty",
+              "meaning": "pron. 大量,众多,充足 n. 充足,大量 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "plenty of",
+              "meaning": "大量的 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "sunshine",
+              "meaning": "n. 阳光,日光 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "sunbathe",
+              "meaning": "v. 沐日光浴;晒太阳 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "beach",
+              "meaning": "n. 海滩,海滨 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "n. 排球 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "cultural",
+              "meaning": "adj. 文化的 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "hardly",
+              "meaning": "adv. 几乎不 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "surf",
+              "meaning": "v. (互联网上)冲浪,浏览 (26)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "mess",
+              "meaning": "n. 肮脏,杂乱;困境 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "several",
+              "meaning": "det. & pron. 几个,数个 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "pour",
+              "meaning": "v. 倒出;倾泻;不断流出 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "waste",
+              "meaning": "adj. 废弃的,丢弃的,无用的 v. 浪费 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "shame",
+              "meaning": "n. 羞耻,羞愧 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "bee",
+              "meaning": "n. 蜜蜂 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "butterfly",
+              "meaning": "n. 蝴蝶;蝶泳 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "villager",
+              "meaning": "n. 村民,乡下人 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "destroy",
+              "meaning": "v. 摧毁,破灭 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "cut down",
+              "meaning": "砍倒 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "goodness",
+              "meaning": "n. 天啊;哎呀 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "pain",
+              "meaning": "n. 疼,痛;痛苦 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "breathe",
+              "meaning": "v. 呼吸 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "produce",
+              "meaning": "v. 生产,制造 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "chest",
+              "meaning": "n. 胸部,胸膛 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "awful",
+              "meaning": "adj. 很坏的,极讨厌的 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "v. 承受,忍受 (29)",
+              "uncertain": false
+            },
+            {
+              "word": "editor",
+              "meaning": "n. 主编,编辑 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "breath",
+              "meaning": "n. 一次吸入的空气 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "n. 土壤;土地 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "harmful",
+              "meaning": "adj. 有害的 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "be harmful to",
+              "meaning": "(尤指对健康或环境)有害的,导致损害的 (30)",
+              "uncertain": false
+            },
+            {
+              "word": "deaf",
+              "meaning": "adj. 聋的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "print",
+              "meaning": "v. 印刷 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "hearing",
+              "meaning": "n. 听力,听觉 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "loss",
+              "meaning": "n. 丧失;损失;丢失 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "recently",
+              "meaning": "adv. 不久前;最近 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "disturb",
+              "meaning": "v. 打扰;扰乱 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "do harm to",
+              "meaning": "伤害,损害 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "uncomfortable",
+              "meaning": "adj. 使人不舒服的,令人不舒适的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "unpleasant",
+              "meaning": "adj. 令人不快的;不舒服的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "sort",
+              "meaning": "n. 种类,类别;品种 v. 整理;把……分类 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "environmental",
+              "meaning": "adj. 环境的 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "including",
+              "meaning": "prep. 包括……在内 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "onto",
+              "meaning": "prep. 向,朝 (31)",
+              "uncertain": false
+            },
+            {
+              "word": "sentence",
+              "meaning": "n. 句子;判决,宣判 (32)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "2a223730a5498e5edfb4f447a93cb1acdee6b81f73c9e57965b3aa784f1d4102",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "语境",
+                  "meaning": "背景",
+                  "uncertain": false
+                },
+                {
+                  "word": "laborer",
+                  "meaning": "体力劳动者,劳工,工人",
+                  "uncertain": false
+                },
+                {
+                  "word": "cruel",
+                  "meaning": "残酷的,冷酷的",
+                  "uncertain": false
+                },
+                {
+                  "word": "project",
+                  "meaning": "专题研究;项目;方案",
+                  "uncertain": false
+                },
+                {
+                  "word": "primary",
+                  "meaning": "小学教育的;主要的;最初的",
+                  "uncertain": false
+                },
+                {
+                  "word": "contribution",
+                  "meaning": "贡献;捐款",
+                  "uncertain": false
+                },
+                {
+                  "word": "make a contribution to",
+                  "meaning": "为……作贡献",
+                  "uncertain": false
+                },
+                {
+                  "word": "encourage",
+                  "meaning": "鼓励",
+                  "uncertain": false
+                },
+                {
+                  "word": "moral",
+                  "meaning": "道德(上)的",
+                  "uncertain": false
+                },
+                {
+                  "word": "development",
+                  "meaning": "发展;开发",
+                  "uncertain": false
+                },
+                {
+                  "word": "respect",
+                  "meaning": "尊敬,尊重",
+                  "uncertain": false
+                },
+                {
+                  "word": "best-known",
+                  "meaning": "最知名的",
+                  "uncertain": false
+                },
+                {
+                  "word": "importance",
+                  "meaning": "重要性,重要",
+                  "uncertain": false
+                },
+                {
+                  "word": "continue",
+                  "meaning": "持续,继续做",
+                  "uncertain": false
+                },
+                {
+                  "word": "college",
+                  "meaning": "(美国)大学;(英国)学院",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 1,
+              "entries": [
+                {
+                  "word": "indeed",
+                  "meaning": "真正地;实际上",
+                  "uncertain": false
+                },
+                {
+                  "word": "method",
+                  "meaning": "方法,办法",
+                  "uncertain": false
+                },
+                {
+                  "word": "teenager",
+                  "meaning": "(13~19岁之间的)青少年",
+                  "uncertain": false
+                },
+                {
+                  "word": "plenty",
+                  "meaning": "大量,众多,充足;充足,大量",
+                  "uncertain": false
+                },
+                {
+                  "word": "plenty of",
+                  "meaning": "大量的",
+                  "uncertain": false
+                },
+                {
+                  "word": "sunshine",
+                  "meaning": "阳光,日光",
+                  "uncertain": false
+                },
+                {
+                  "word": "sunbathe",
+                  "meaning": "沐日光浴;晒太阳",
+                  "uncertain": false
+                },
+                {
+                  "word": "beach",
+                  "meaning": "海滩,海滨",
+                  "uncertain": false
+                },
+                {
+                  "word": "volleyball",
+                  "meaning": "排球",
+                  "uncertain": false
+                },
+                {
+                  "word": "cultural",
+                  "meaning": "文化的",
+                  "uncertain": false
+                },
+                {
+                  "word": "hardly",
+                  "meaning": "几乎不",
+                  "uncertain": false
+                },
+                {
+                  "word": "surf",
+                  "meaning": "(互联网上)冲浪,浏览",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "mess",
+                  "meaning": "肮脏,杂乱;困境",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "语境",
+                  "meaning": "背景",
+                  "uncertain": false
+                },
+                {
+                  "word": "laborer",
+                  "meaning": "体力劳动者,劳工,工人",
+                  "uncertain": false
+                },
+                {
+                  "word": "cruel",
+                  "meaning": "残酷的,冷酷的",
+                  "uncertain": false
+                },
+                {
+                  "word": "project",
+                  "meaning": "专题研究;项目;方案",
+                  "uncertain": false
+                },
+                {
+                  "word": "primary",
+                  "meaning": "小学教育的;主要的;最初的",
+                  "uncertain": false
+                },
+                {
+                  "word": "contribution",
+                  "meaning": "贡献;捐款",
+                  "uncertain": false
+                },
+                {
+                  "word": "make a contribution to",
+                  "meaning": "为……作贡献",
+                  "uncertain": false
+                },
+                {
+                  "word": "encourage",
+                  "meaning": "鼓励",
+                  "uncertain": false
+                },
+                {
+                  "word": "moral",
+                  "meaning": "道德(上)的",
+                  "uncertain": false
+                },
+                {
+                  "word": "development",
+                  "meaning": "发展;开发",
+                  "uncertain": false
+                },
+                {
+                  "word": "respect",
+                  "meaning": "尊敬,尊重",
+                  "uncertain": false
+                },
+                {
+                  "word": "best-known",
+                  "meaning": "最知名的",
+                  "uncertain": false
+                },
+                {
+                  "word": "importance",
+                  "meaning": "重要性,重要",
+                  "uncertain": false
+                },
+                {
+                  "word": "continue",
+                  "meaning": "持续,继续做",
+                  "uncertain": false
+                },
+                {
+                  "word": "college",
+                  "meaning": "(美国)大学;(英国)学院",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 1,
+              "entries": [
+                {
+                  "word": "indeed",
+                  "meaning": "真正地;实际上",
+                  "uncertain": false
+                },
+                {
+                  "word": "method",
+                  "meaning": "方法,办法",
+                  "uncertain": false
+                },
+                {
+                  "word": "teenager",
+                  "meaning": "(13~19岁之间的)青少年",
+                  "uncertain": false
+                },
+                {
+                  "word": "plenty",
+                  "meaning": "大量,众多,充足;充足,大量",
+                  "uncertain": false
+                },
+                {
+                  "word": "plenty of",
+                  "meaning": "大量的",
+                  "uncertain": false
+                },
+                {
+                  "word": "sunshine",
+                  "meaning": "阳光,日光",
+                  "uncertain": false
+                },
+                {
+                  "word": "sunbathe",
+                  "meaning": "沐日光浴;晒太阳",
+                  "uncertain": false
+                },
+                {
+                  "word": "beach",
+                  "meaning": "海滩,海滨",
+                  "uncertain": false
+                },
+                {
+                  "word": "volleyball",
+                  "meaning": "排球",
+                  "uncertain": false
+                },
+                {
+                  "word": "cultural",
+                  "meaning": "文化的",
+                  "uncertain": false
+                },
+                {
+                  "word": "hardly",
+                  "meaning": "几乎不",
+                  "uncertain": false
+                },
+                {
+                  "word": "surf",
+                  "meaning": "(互联网上)冲浪,浏览",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "mess",
+                  "meaning": "肮脏,杂乱;困境",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "4e6c645849541e019c6cb238cbd6e5cd73ef3a1eeade993fe16d96d7fc4c233a",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "several",
+                  "meaning": "几个，数个",
+                  "uncertain": false
+                },
+                {
+                  "word": "pour",
+                  "meaning": "倒出；倾泻；不断流出",
+                  "uncertain": false
+                },
+                {
+                  "word": "waste",
+                  "meaning": "废弃的，丢弃的，无用的；浪费",
+                  "uncertain": false
+                },
+                {
+                  "word": "shame",
+                  "meaning": "羞耻，羞愧",
+                  "uncertain": false
+                },
+                {
+                  "word": "bee",
+                  "meaning": "蜜蜂",
+                  "uncertain": false
+                },
+                {
+                  "word": "butterfly",
+                  "meaning": "蝴蝶；蝶泳",
+                  "uncertain": false
+                },
+                {
+                  "word": "villager",
+                  "meaning": "村民，乡下人",
+                  "uncertain": false
+                },
+                {
+                  "word": "destroy",
+                  "meaning": "摧毁，破灭",
+                  "uncertain": false
+                },
+                {
+                  "word": "cut down",
+                  "meaning": "砍倒",
+                  "uncertain": false
+                },
+                {
+                  "word": "goodness",
+                  "meaning": "天啊；啊呀",
+                  "uncertain": false
+                },
+                {
+                  "word": "pain",
+                  "meaning": "疼，痛；痛苦",
+                  "uncertain": false
+                },
+                {
+                  "word": "breathe",
+                  "meaning": "呼吸",
+                  "uncertain": false
+                },
+                {
+                  "word": "produce",
+                  "meaning": "生产，制造",
+                  "uncertain": false
+                },
+                {
+                  "word": "chest",
+                  "meaning": "胸部，胸膛",
+                  "uncertain": false
+                },
+                {
+                  "word": "awful",
+                  "meaning": "很坏的，极讨厌的",
+                  "uncertain": false
+                },
+                {
+                  "word": "bear",
+                  "meaning": "承受，忍受",
+                  "uncertain": false
+                },
+                {
+                  "word": "editor",
+                  "meaning": "主编，编辑",
+                  "uncertain": false
+                },
+                {
+                  "word": "breath",
+                  "meaning": "一次吸入的空气",
+                  "uncertain": false
+                },
+                {
+                  "word": "soil",
+                  "meaning": "土壤；土地",
+                  "uncertain": false
+                },
+                {
+                  "word": "harmful",
+                  "meaning": "有害的",
+                  "uncertain": false
+                },
+                {
+                  "word": "be harmful to",
+                  "meaning": "（尤指对健康或环境）有害的，导致损害的",
+                  "uncertain": false
+                },
+                {
+                  "word": "deaf",
+                  "meaning": "聋的",
+                  "uncertain": false
+                },
+                {
+                  "word": "print",
+                  "meaning": "印刷",
+                  "uncertain": false
+                },
+                {
+                  "word": "hearing",
+                  "meaning": "听力，听觉",
+                  "uncertain": false
+                },
+                {
+                  "word": "loss",
+                  "meaning": "丧失；损失；丢失",
+                  "uncertain": false
+                },
+                {
+                  "word": "recently",
+                  "meaning": "不久前；最近",
+                  "uncertain": false
+                },
+                {
+                  "word": "disturb",
+                  "meaning": "打扰；扰乱",
+                  "uncertain": false
+                },
+                {
+                  "word": "do harm to",
+                  "meaning": "伤害，损害",
+                  "uncertain": false
+                },
+                {
+                  "word": "uncomfortable",
+                  "meaning": "使人不舒服的；令人不舒适的",
+                  "uncertain": false
+                },
+                {
+                  "word": "unpleasant",
+                  "meaning": "令人不快的；不舒服的",
+                  "uncertain": false
+                },
+                {
+                  "word": "sort",
+                  "meaning": "种类，类别；品种；整理；把……分类",
+                  "uncertain": false
+                },
+                {
+                  "word": "environmental",
+                  "meaning": "环境的",
+                  "uncertain": false
+                },
+                {
+                  "word": "including",
+                  "meaning": "包括……在内",
+                  "uncertain": false
+                },
+                {
+                  "word": "onto",
+                  "meaning": "向，朝",
+                  "uncertain": false
+                },
+                {
+                  "word": "sentence",
+                  "meaning": "句子；判决，宣判",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "several",
+                  "meaning": "几个，数个",
+                  "uncertain": false
+                },
+                {
+                  "word": "pour",
+                  "meaning": "倒出；倾泻；不断流出",
+                  "uncertain": false
+                },
+                {
+                  "word": "waste",
+                  "meaning": "废弃的，丢弃的，无用的；浪费",
+                  "uncertain": false
+                },
+                {
+                  "word": "shame",
+                  "meaning": "羞耻，羞愧",
+                  "uncertain": false
+                },
+                {
+                  "word": "bee",
+                  "meaning": "蜜蜂",
+                  "uncertain": false
+                },
+                {
+                  "word": "butterfly",
+                  "meaning": "蝴蝶；蝶泳",
+                  "uncertain": false
+                },
+                {
+                  "word": "villager",
+                  "meaning": "村民，乡下人",
+                  "uncertain": false
+                },
+                {
+                  "word": "destroy",
+                  "meaning": "摧毁，破灭",
+                  "uncertain": false
+                },
+                {
+                  "word": "cut down",
+                  "meaning": "砍倒",
+                  "uncertain": false
+                },
+                {
+                  "word": "goodness",
+                  "meaning": "天啊；啊呀",
+                  "uncertain": false
+                },
+                {
+                  "word": "pain",
+                  "meaning": "疼，痛；痛苦",
+                  "uncertain": false
+                },
+                {
+                  "word": "breathe",
+                  "meaning": "呼吸",
+                  "uncertain": false
+                },
+                {
+                  "word": "produce",
+                  "meaning": "生产，制造",
+                  "uncertain": false
+                },
+                {
+                  "word": "chest",
+                  "meaning": "胸部，胸膛",
+                  "uncertain": false
+                },
+                {
+                  "word": "awful",
+                  "meaning": "很坏的，极讨厌的",
+                  "uncertain": false
+                },
+                {
+                  "word": "bear",
+                  "meaning": "承受，忍受",
+                  "uncertain": false
+                },
+                {
+                  "word": "editor",
+                  "meaning": "主编，编辑",
+                  "uncertain": false
+                },
+                {
+                  "word": "breath",
+                  "meaning": "一次吸入的空气",
+                  "uncertain": false
+                },
+                {
+                  "word": "soil",
+                  "meaning": "土壤；土地",
+                  "uncertain": false
+                },
+                {
+                  "word": "harmful",
+                  "meaning": "有害的",
+                  "uncertain": false
+                },
+                {
+                  "word": "be harmful to",
+                  "meaning": "（尤指对健康或环境）有害的，导致损害的",
+                  "uncertain": false
+                },
+                {
+                  "word": "deaf",
+                  "meaning": "聋的",
+                  "uncertain": false
+                },
+                {
+                  "word": "print",
+                  "meaning": "印刷",
+                  "uncertain": false
+                },
+                {
+                  "word": "hearing",
+                  "meaning": "听力，听觉",
+                  "uncertain": false
+                },
+                {
+                  "word": "loss",
+                  "meaning": "丧失；损失；丢失",
+                  "uncertain": false
+                },
+                {
+                  "word": "recently",
+                  "meaning": "不久前；最近",
+                  "uncertain": false
+                },
+                {
+                  "word": "disturb",
+                  "meaning": "打扰；扰乱",
+                  "uncertain": false
+                },
+                {
+                  "word": "do harm to",
+                  "meaning": "伤害，损害",
+                  "uncertain": false
+                },
+                {
+                  "word": "uncomfortable",
+                  "meaning": "使人不舒服的；令人不舒适的",
+                  "uncertain": false
+                },
+                {
+                  "word": "unpleasant",
+                  "meaning": "令人不快的；不舒服的",
+                  "uncertain": false
+                },
+                {
+                  "word": "sort",
+                  "meaning": "种类，类别；品种；整理；把……分类",
+                  "uncertain": false
+                },
+                {
+                  "word": "environmental",
+                  "meaning": "环境的",
+                  "uncertain": false
+                },
+                {
+                  "word": "including",
+                  "meaning": "包括……在内",
+                  "uncertain": false
+                },
+                {
+                  "word": "onto",
+                  "meaning": "向，朝",
+                  "uncertain": false
+                },
+                {
+                  "word": "sentence",
+                  "meaning": "句子；判决，宣判",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

@@ -1,0 +1,335 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "下册",
+  "book": "下册_2014年10月第1版_2024重印_完整教材",
+  "image": ".local/curriculum-column-crops/78c386fdf6d6e7209a479463-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1968",
+  "sha256": "c4cc8cfd388c9de82699a64e91f909fd59cf8f608cc3905957337554ecb423e8",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "关于科学的",
+              "meaning": "(23)",
+              "uncertain": false
+            },
+            {
+              "word": "ton",
+              "meaning": "吨 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "fix",
+              "meaning": "安装;修理 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "tool",
+              "meaning": "工具 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "mystery",
+              "meaning": "不可理解的事;奥秘 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "completion",
+              "meaning": "完成;竣工 (24)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "graze",
+              "meaning": "放牧;吃青草 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "make fun of",
+              "meaning": "嘲弄,取笑,拿……开玩笑 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "wolf",
+              "meaning": "狼 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "iron",
+              "meaning": "adj.坚强的;强硬坚定的 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "glory",
+              "meaning": "n.荣誉,光荣;赞美 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "peasant",
+              "meaning": "n.农民 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "battle",
+              "meaning": "n.战斗,战役 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "battlefield",
+              "meaning": "n.战场 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "memory",
+              "meaning": "n.记忆力,记性;回忆 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "in memory of",
+              "meaning": "纪念 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "romantic",
+              "meaning": "adj.浪漫的;空想的 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "tale",
+              "meaning": "n.故事 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "home and abroad",
+              "meaning": "国内外 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "scenery",
+              "meaning": "n.风景;景色 (26)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "would rather ... than ...",
+              "meaning": "宁愿,更喜欢 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "actress",
+              "meaning": "n.女演员 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "charming",
+              "meaning": "adj.令人着迷的;迷人的;吸引人的 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "educational",
+              "meaning": "adj.(有关)教育的 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "science fiction",
+              "meaning": "科幻小说 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "tragedy",
+              "meaning": "n.悲剧;悲剧作品 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "documentary",
+              "meaning": "n.纪录片 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "comedy",
+              "meaning": "n.喜剧;喜剧片 (28)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "关于科学的",
+              "meaning": "(23)",
+              "uncertain": false
+            },
+            {
+              "word": "ton",
+              "meaning": "n.吨 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "fix",
+              "meaning": "v.安装;修理 (23)",
+              "uncertain": false
+            },
+            {
+              "word": "tool",
+              "meaning": "n.工具 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "mystery",
+              "meaning": "n.不可理解的事;奥秘 (24)",
+              "uncertain": false
+            },
+            {
+              "word": "completion",
+              "meaning": "n.完成;竣工 (24)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "graze",
+              "meaning": "v.放牧;吃青草 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "make fun of",
+              "meaning": "嘲弄,取笑,拿……开玩笑 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "wolf",
+              "meaning": "n.狼 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "iron",
+              "meaning": "adj.坚强的;强硬坚定的 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "glory",
+              "meaning": "n.荣誉,光荣;赞美 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "peasant",
+              "meaning": "n.农民 (25)",
+              "uncertain": false
+            },
+            {
+              "word": "battle",
+              "meaning": "n.战斗,战役 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "battlefield",
+              "meaning": "n.战场 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "memory",
+              "meaning": "n.记忆力,记性;回忆 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "in memory of",
+              "meaning": "纪念 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "romantic",
+              "meaning": "adj.浪漫的;空想的 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "tale",
+              "meaning": "n.故事 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "home and abroad",
+              "meaning": "国内外 (26)",
+              "uncertain": false
+            },
+            {
+              "word": "scenery",
+              "meaning": "n.风景;景色 (26)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "would rather ... than ...",
+              "meaning": "宁愿,更喜欢 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "actress",
+              "meaning": "n.女演员 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "charming",
+              "meaning": "adj.令人着迷的;迷人的;吸引人的 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "educational",
+              "meaning": "adj.(有关)教育的 (27)",
+              "uncertain": false
+            },
+            {
+              "word": "science fiction",
+              "meaning": "科幻小说 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "tragedy",
+              "meaning": "n.悲剧;悲剧作品 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "documentary",
+              "meaning": "n.纪录片 (28)",
+              "uncertain": false
+            },
+            {
+              "word": "comedy",
+              "meaning": "n.喜剧;喜剧片 (28)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

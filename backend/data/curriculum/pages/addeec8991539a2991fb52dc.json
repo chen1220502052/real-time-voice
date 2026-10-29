@@ -1,0 +1,431 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页148.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "addeec8991539a2991fb52dc2def4ae66b6f62c23dddec58de8c9ee50b0e3506",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "landmark",
+              "meaning": "n. 里程碑;陆标",
+              "uncertain": false
+            },
+            {
+              "word": "spacewalk",
+              "meaning": "n. 太空漫步",
+              "uncertain": false
+            },
+            {
+              "word": "electronic",
+              "meaning": "adj. 电子的",
+              "uncertain": false
+            },
+            {
+              "word": "spacesuit",
+              "meaning": "n. 航天服",
+              "uncertain": false
+            },
+            {
+              "word": "telescope",
+              "meaning": "n. 望远镜",
+              "uncertain": false
+            },
+            {
+              "word": "entertainment",
+              "meaning": "n. 娱乐;招待",
+              "uncertain": false
+            },
+            {
+              "word": "doubt",
+              "meaning": "n. & v. 怀疑,疑惑",
+              "uncertain": false
+            },
+            {
+              "word": "no doubt",
+              "meaning": "无疑地",
+              "uncertain": false
+            },
+            {
+              "word": "tiny",
+              "meaning": "adj. 极小的,微小的",
+              "uncertain": false
+            },
+            {
+              "word": "normally",
+              "meaning": "adv. 通常,正常情况下",
+              "uncertain": false
+            },
+            {
+              "word": "brain",
+              "meaning": "n. 脑;智力;脑力",
+              "uncertain": false
+            },
+            {
+              "word": "cancel",
+              "meaning": "v. 取消,撤销;废止",
+              "uncertain": false
+            },
+            {
+              "word": "workplace",
+              "meaning": "n. 工作场所",
+              "uncertain": false
+            },
+            {
+              "word": "connect",
+              "meaning": "v. 连接;把……联系起来",
+              "uncertain": false
+            },
+            {
+              "word": "for instance",
+              "meaning": "例如",
+              "uncertain": false
+            },
+            {
+              "word": "besides",
+              "meaning": "adv. 而且,再说 prep. 除……之外(还)",
+              "uncertain": false
+            },
+            {
+              "word": "properly",
+              "meaning": "adv. 正确地,恰当地",
+              "uncertain": false
+            },
+            {
+              "word": "servant",
+              "meaning": "n. 仆人,佣人",
+              "uncertain": false
+            },
+            {
+              "word": "certain",
+              "meaning": "adj. 确定的,无疑的;一定会……",
+              "uncertain": false
+            },
+            {
+              "word": "for certain",
+              "meaning": "肯定,确定,无疑",
+              "uncertain": false
+            },
+            {
+              "word": "on one's own",
+              "meaning": "独自,单独",
+              "uncertain": false
+            },
+            {
+              "word": "warn",
+              "meaning": "v. 警告,告诫",
+              "uncertain": false
+            },
+            {
+              "word": "might",
+              "meaning": "modal v. 可以,可能",
+              "uncertain": false
+            },
+            {
+              "word": "housework",
+              "meaning": "n. 家务劳动,家务事",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "waitress",
+              "meaning": "n. 女服务员",
+              "uncertain": false
+            },
+            {
+              "word": "magazine",
+              "meaning": "n. 杂志",
+              "uncertain": false
+            },
+            {
+              "word": "rooster",
+              "meaning": "n. 公鸡",
+              "uncertain": false
+            },
+            {
+              "word": "wife",
+              "meaning": "n. 妻子,太太",
+              "uncertain": false
+            },
+            {
+              "word": "chick",
+              "meaning": "n. 小鸡",
+              "uncertain": false
+            },
+            {
+              "word": "paint",
+              "meaning": "n. 油漆;油漆涂层 v. 在……刷油漆;用颜料画",
+              "uncertain": false
+            },
+            {
+              "word": "struggle",
+              "meaning": "v. 奋斗;努力;争取",
+              "uncertain": false
+            },
+            {
+              "word": "palace",
+              "meaning": "n. 王宫,宫殿",
+              "uncertain": false
+            },
+            {
+              "word": "the Summer Palace",
+              "meaning": "颐和园",
+              "uncertain": false
+            },
+            {
+              "word": "tower",
+              "meaning": "n. 塔",
+              "uncertain": false
+            },
+            {
+              "word": "prison",
+              "meaning": "n. 监狱",
+              "uncertain": false
+            },
+            {
+              "word": "prisoner",
+              "meaning": "n. 囚犯;俘虏",
+              "uncertain": false
+            },
+            {
+              "word": "vocabulary",
+              "meaning": "n. 词汇;词汇量",
+              "uncertain": false
+            },
+            {
+              "word": "a bunch",
+              "meaning": "of 一束;一串",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The heading 'Review of Units 3-4' is a review section heading, not a numbered unit; its entries are placed in a block with unit=null.",
+        "The entry 'a bunch' is printed with 'of 一束;一串' on the same line; the meaning is transcribed as printed."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "landmark",
+              "meaning": "n. 里程碑;陆标",
+              "uncertain": false
+            },
+            {
+              "word": "spacewalk",
+              "meaning": "n. 太空漫步",
+              "uncertain": false
+            },
+            {
+              "word": "electronic",
+              "meaning": "adj. 电子的",
+              "uncertain": false
+            },
+            {
+              "word": "spacesuit",
+              "meaning": "n. 航天服",
+              "uncertain": false
+            },
+            {
+              "word": "telescope",
+              "meaning": "n. 望远镜",
+              "uncertain": false
+            },
+            {
+              "word": "entertainment",
+              "meaning": "n. 娱乐;招待",
+              "uncertain": false
+            },
+            {
+              "word": "doubt",
+              "meaning": "n. & v. 怀疑,疑惑",
+              "uncertain": false
+            },
+            {
+              "word": "no doubt",
+              "meaning": "无疑地",
+              "uncertain": false
+            },
+            {
+              "word": "tiny",
+              "meaning": "adj. 极小的,微小的",
+              "uncertain": false
+            },
+            {
+              "word": "normally",
+              "meaning": "adv. 通常,正常情况下",
+              "uncertain": false
+            },
+            {
+              "word": "brain",
+              "meaning": "n. 脑;智力;脑力",
+              "uncertain": false
+            },
+            {
+              "word": "cancel",
+              "meaning": "v. 取消,撤销;废止",
+              "uncertain": false
+            },
+            {
+              "word": "workplace",
+              "meaning": "n. 工作场所",
+              "uncertain": false
+            },
+            {
+              "word": "connect",
+              "meaning": "v. 连接;把……联系起来",
+              "uncertain": false
+            },
+            {
+              "word": "for instance",
+              "meaning": "例如",
+              "uncertain": false
+            },
+            {
+              "word": "besides",
+              "meaning": "adv. 而且,再说 prep. 除……之外(还)",
+              "uncertain": false
+            },
+            {
+              "word": "properly",
+              "meaning": "adv. 正确地,恰当地",
+              "uncertain": false
+            },
+            {
+              "word": "servant",
+              "meaning": "n. 仆人,佣人",
+              "uncertain": false
+            },
+            {
+              "word": "certain",
+              "meaning": "adj. 确定的,无疑的;一定会……",
+              "uncertain": false
+            },
+            {
+              "word": "for certain",
+              "meaning": "肯定,确定,无疑",
+              "uncertain": false
+            },
+            {
+              "word": "on one's own",
+              "meaning": "独自,单独",
+              "uncertain": false
+            },
+            {
+              "word": "warn",
+              "meaning": "v. 警告,告诫",
+              "uncertain": false
+            },
+            {
+              "word": "might",
+              "meaning": "modal v. 可以,可能",
+              "uncertain": false
+            },
+            {
+              "word": "housework",
+              "meaning": "n. 家务劳动,家务事",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "waitress",
+              "meaning": "n. 女服务员",
+              "uncertain": false
+            },
+            {
+              "word": "magazine",
+              "meaning": "n. 杂志",
+              "uncertain": false
+            },
+            {
+              "word": "rooster",
+              "meaning": "n. 公鸡",
+              "uncertain": false
+            },
+            {
+              "word": "wife",
+              "meaning": "n. 妻子,太太",
+              "uncertain": false
+            },
+            {
+              "word": "chick",
+              "meaning": "n. 小鸡",
+              "uncertain": false
+            },
+            {
+              "word": "paint",
+              "meaning": "n. 油漆;油漆涂层 v. 在……刷油漆;用颜料画",
+              "uncertain": false
+            },
+            {
+              "word": "struggle",
+              "meaning": "v. 奋斗;努力;争取",
+              "uncertain": false
+            },
+            {
+              "word": "palace",
+              "meaning": "n. 王宫,宫殿",
+              "uncertain": false
+            },
+            {
+              "word": "the Summer Palace",
+              "meaning": "颐和园",
+              "uncertain": false
+            },
+            {
+              "word": "tower",
+              "meaning": "n. 塔",
+              "uncertain": false
+            },
+            {
+              "word": "prison",
+              "meaning": "n. 监狱",
+              "uncertain": false
+            },
+            {
+              "word": "prisoner",
+              "meaning": "n. 囚犯;俘虏",
+              "uncertain": false
+            },
+            {
+              "word": "vocabulary",
+              "meaning": "n. 词汇;词汇量",
+              "uncertain": false
+            },
+            {
+              "word": "a bunch",
+              "meaning": "of 一束;一串",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The heading 'Review of Units 3-4' is a review section heading, not a numbered unit; its entries are placed in a block with unit=null.",
+        "The entry 'a bunch' is printed with 'of 一束;一串' on the same line; the meaning is transcribed as printed."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

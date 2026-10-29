@@ -1,0 +1,485 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页154.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "0070e09c70cc5f2034dce8ea7f75cf1c9018015179f88fbea4da0c7d1755ffac",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "saying",
+              "meaning": "n.谚语;格言",
+              "uncertain": false
+            },
+            {
+              "word": "heaven",
+              "meaning": "n.天堂",
+              "uncertain": false
+            },
+            {
+              "word": "above",
+              "meaning": "adv.在(或向)上面 prep.在(或向)……上面",
+              "uncertain": false
+            },
+            {
+              "word": "below",
+              "meaning": "adv.在(或到)下面 prep.在(或到)……下面",
+              "uncertain": false
+            },
+            {
+              "word": "landscape",
+              "meaning": "n.风景,景色",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "adj.破损的;残缺的",
+              "uncertain": false
+            },
+            {
+              "word": "traveler",
+              "meaning": "n.旅行者;旅客;游客",
+              "uncertain": false
+            },
+            {
+              "word": "bicycle",
+              "meaning": "n.(bike /baɪk/)自行车",
+              "uncertain": false
+            },
+            {
+              "word": "landmark",
+              "meaning": "n.地标",
+              "uncertain": false
+            },
+            {
+              "word": "whole",
+              "meaning": "adj.全部的;整体的",
+              "uncertain": false
+            },
+            {
+              "word": "material",
+              "meaning": "n.材料",
+              "uncertain": false
+            },
+            {
+              "word": "structure",
+              "meaning": "n.结构体;(尤指)建筑物;结构;构造",
+              "uncertain": false
+            },
+            {
+              "word": "surely",
+              "meaning": "adv.无疑;必定;想必",
+              "uncertain": false
+            },
+            {
+              "word": "performing arts",
+              "meaning": "n.(pl.)表演艺术",
+              "uncertain": false
+            },
+            {
+              "word": "sail",
+              "meaning": "v.航行 n.帆",
+              "uncertain": false
+            },
+            {
+              "word": "dining",
+              "meaning": "n.用餐",
+              "uncertain": false
+            },
+            {
+              "word": "vacation",
+              "meaning": "n.(学校的)假期",
+              "uncertain": false
+            },
+            {
+              "word": "field",
+              "meaning": "n.田;地;场地",
+              "uncertain": false
+            },
+            {
+              "word": "terrace",
+              "meaning": "n.梯田;排屋;阳台",
+              "uncertain": false
+            },
+            {
+              "word": "pig",
+              "meaning": "n.猪",
+              "uncertain": false
+            },
+            {
+              "word": "message",
+              "meaning": "n.信息,消息 v.发即时信息",
+              "uncertain": false
+            },
+            {
+              "word": "view",
+              "meaning": "n.景色,风景;视野",
+              "uncertain": false
+            },
+            {
+              "word": "countryside",
+              "meaning": "n.乡村",
+              "uncertain": false
+            },
+            {
+              "word": "system",
+              "meaning": "n.系统;体制",
+              "uncertain": false
+            },
+            {
+              "word": "unusual",
+              "meaning": "adj.特别的,不寻常的",
+              "uncertain": false
+            },
+            {
+              "word": "lean",
+              "meaning": "v.倾斜",
+              "uncertain": false
+            },
+            {
+              "word": "fix",
+              "meaning": "v.修理;校正",
+              "uncertain": false
+            },
+            {
+              "word": "base",
+              "meaning": "n.底部,根基;基地",
+              "uncertain": false
+            },
+            {
+              "word": "firm",
+              "meaning": "adj.牢固的,稳固的;坚固的",
+              "uncertain": false
+            },
+            {
+              "word": "beach",
+              "meaning": "n.海滩;沙滩",
+              "uncertain": false
+            },
+            {
+              "word": "hostess",
+              "meaning": "n.女房东;女主持人",
+              "uncertain": false
+            },
+            {
+              "word": "expect",
+              "meaning": "v.期待;预计;要求;指望",
+              "uncertain": false
+            },
+            {
+              "word": "warn",
+              "meaning": "v.劝告;警告;告诫",
+              "uncertain": false
+            },
+            {
+              "word": "forward",
+              "meaning": "adv.往后;向前",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Indian",
+              "meaning": "adj.印度的",
+              "uncertain": false
+            },
+            {
+              "word": "enemy",
+              "meaning": "n.敌人;仇人;反对者",
+              "uncertain": false
+            },
+            {
+              "word": "stone",
+              "meaning": "n.石头",
+              "uncertain": false
+            },
+            {
+              "word": "soldier",
+              "meaning": "n.军人;(尤指)士兵",
+              "uncertain": false
+            },
+            {
+              "word": "quickly",
+              "meaning": "adv.迅速地;很快地",
+              "uncertain": false
+            },
+            {
+              "word": "watchtower",
+              "meaning": "n.瞭望塔;岗楼",
+              "uncertain": false
+            },
+            {
+              "word": "wisdom",
+              "meaning": "n.智慧;才智",
+              "uncertain": false
+            },
+            {
+              "word": "trade",
+              "meaning": "n.贸易",
+              "uncertain": false
+            },
+            {
+              "word": "route",
+              "meaning": "n.路线;路途;常规路线",
+              "uncertain": false
+            },
+            {
+              "word": "T-shirt",
+              "meaning": "n.T恤衫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "saying",
+              "meaning": "n.谚语;格言",
+              "uncertain": false
+            },
+            {
+              "word": "heaven",
+              "meaning": "n.天堂",
+              "uncertain": false
+            },
+            {
+              "word": "above",
+              "meaning": "adv.在(或向)上面 prep.在(或向)……上面",
+              "uncertain": false
+            },
+            {
+              "word": "below",
+              "meaning": "adv.在(或到)下面 prep.在(或到)……下面",
+              "uncertain": false
+            },
+            {
+              "word": "landscape",
+              "meaning": "n.风景,景色",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "adj.破损的;残缺的",
+              "uncertain": false
+            },
+            {
+              "word": "traveler",
+              "meaning": "n.旅行者;旅客;游客",
+              "uncertain": false
+            },
+            {
+              "word": "bicycle",
+              "meaning": "n.(bike /baɪk/)自行车",
+              "uncertain": false
+            },
+            {
+              "word": "landmark",
+              "meaning": "n.地标",
+              "uncertain": false
+            },
+            {
+              "word": "whole",
+              "meaning": "adj.全部的;整体的",
+              "uncertain": false
+            },
+            {
+              "word": "material",
+              "meaning": "n.材料",
+              "uncertain": false
+            },
+            {
+              "word": "structure",
+              "meaning": "n.结构体;(尤指)建筑物;结构;构造",
+              "uncertain": false
+            },
+            {
+              "word": "surely",
+              "meaning": "adv.无疑;必定;想必",
+              "uncertain": false
+            },
+            {
+              "word": "performing arts",
+              "meaning": "n.(pl.)表演艺术",
+              "uncertain": false
+            },
+            {
+              "word": "sail",
+              "meaning": "v.航行 n.帆",
+              "uncertain": false
+            },
+            {
+              "word": "dining",
+              "meaning": "n.用餐",
+              "uncertain": false
+            },
+            {
+              "word": "vacation",
+              "meaning": "n.(学校的)假期",
+              "uncertain": false
+            },
+            {
+              "word": "field",
+              "meaning": "n.田;地;场地",
+              "uncertain": false
+            },
+            {
+              "word": "terrace",
+              "meaning": "n.梯田;排屋;阳台",
+              "uncertain": false
+            },
+            {
+              "word": "pig",
+              "meaning": "n.猪",
+              "uncertain": false
+            },
+            {
+              "word": "message",
+              "meaning": "n.信息,消息 v.发即时信息",
+              "uncertain": false
+            },
+            {
+              "word": "view",
+              "meaning": "n.景色,风景;视野",
+              "uncertain": false
+            },
+            {
+              "word": "countryside",
+              "meaning": "n.乡村",
+              "uncertain": false
+            },
+            {
+              "word": "system",
+              "meaning": "n.系统;体制",
+              "uncertain": false
+            },
+            {
+              "word": "unusual",
+              "meaning": "adj.特别的,不寻常的",
+              "uncertain": false
+            },
+            {
+              "word": "lean",
+              "meaning": "v.倾斜",
+              "uncertain": false
+            },
+            {
+              "word": "fix",
+              "meaning": "v.修理;校正",
+              "uncertain": false
+            },
+            {
+              "word": "base",
+              "meaning": "n.底部,根基;基地",
+              "uncertain": false
+            },
+            {
+              "word": "firm",
+              "meaning": "adj.牢固的,稳固的;坚固的",
+              "uncertain": false
+            },
+            {
+              "word": "beach",
+              "meaning": "n.海滩;沙滩",
+              "uncertain": false
+            },
+            {
+              "word": "hostess",
+              "meaning": "n.女房东;女主持人",
+              "uncertain": false
+            },
+            {
+              "word": "expect",
+              "meaning": "v.期待;预计;要求;指望",
+              "uncertain": false
+            },
+            {
+              "word": "warn",
+              "meaning": "v.劝告;警告;告诫",
+              "uncertain": false
+            },
+            {
+              "word": "forward",
+              "meaning": "adv.往后;向前",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Indian",
+              "meaning": "adj.印度的",
+              "uncertain": false
+            },
+            {
+              "word": "enemy",
+              "meaning": "n.敌人;仇人;反对者",
+              "uncertain": false
+            },
+            {
+              "word": "stone",
+              "meaning": "n.石头",
+              "uncertain": false
+            },
+            {
+              "word": "soldier",
+              "meaning": "n.军人;(尤指)士兵",
+              "uncertain": false
+            },
+            {
+              "word": "quickly",
+              "meaning": "adv.迅速地;很快地",
+              "uncertain": false
+            },
+            {
+              "word": "watchtower",
+              "meaning": "n.瞭望塔;岗楼",
+              "uncertain": false
+            },
+            {
+              "word": "wisdom",
+              "meaning": "n.智慧;才智",
+              "uncertain": false
+            },
+            {
+              "word": "trade",
+              "meaning": "n.贸易",
+              "uncertain": false
+            },
+            {
+              "word": "route",
+              "meaning": "n.路线;路途;常规路线",
+              "uncertain": false
+            },
+            {
+              "word": "T-shirt",
+              "meaning": "n.T恤衫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

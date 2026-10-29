@@ -1,0 +1,198 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 7,
+  "units": [
+    7
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/112/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/01_教材页面_239bdccd0b.jpg",
+  "sha256": "d8af56a02737f77006317e3634fd81cbb3cc1f371ac26e8f411c2697435cfdcd",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "skipping",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "rope",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bottle",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "umbrella",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "this",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "your",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "coat",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "it",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bat",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "skipping rope",
+        "bottle",
+        "umbrella",
+        "Is this your coat?",
+        "key",
+        "Yes, it is.",
+        "ping-pong bat",
+        "coat"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "skipping",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "rope",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bottle",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "umbrella",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "this",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "your",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "coat",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "it",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ping-pong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bat",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "skipping rope",
+        "bottle",
+        "umbrella",
+        "Is this your coat?",
+        "key",
+        "Yes, it is.",
+        "ping-pong bat",
+        "coat"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

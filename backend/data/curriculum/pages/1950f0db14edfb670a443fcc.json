@@ -1,0 +1,42 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 10,
+  "units": [
+    10
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/115/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 10 Following rules/课文/02_教材页面_bd722132a4.jpg",
+  "sha256": "1950f0db14edfb670a443fccbf583128b1b922f6d1386ec2f24c6c31e23e9b25",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": []
+        }
+      ],
+      "evidenceSentences": [],
+      "issues": [
+        "No learner-facing English text (dialogue, stories, vocabulary labels) is legible on the page; only the exercise instruction 'Listen and number.' and watermarks are present, which are excluded."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": []
+        }
+      ],
+      "evidenceSentences": [],
+      "issues": [
+        "No learner-facing English text (dialogue, stories, vocabulary labels) is legible on the page; only the exercise instruction 'Listen and number.' and watermarks are present, which are excluded."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

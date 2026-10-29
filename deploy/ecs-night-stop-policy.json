@@ -1,0 +1,10 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ecs:StopInstance",
+      "Resource": "acs:ecs:cn-hongkong:1614595363757373:instance/i-j6ci77fwjtiopeqqxctu"
+    }
+  ]
+}

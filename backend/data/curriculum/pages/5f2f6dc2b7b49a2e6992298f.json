@@ -1,0 +1,97 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/05_05_教材页面_4478b22a03.jpg",
+  "units": [
+    5
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "5f2f6dc2b7b49a2e6992298f08bed8df4eb5f483c1f077d629b343a63cb9061a",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "stay",
+              "meaning": "待，保持",
+              "uncertain": false
+            },
+            {
+              "word": "row",
+              "meaning": "划(船)",
+              "uncertain": false
+            },
+            {
+              "word": "picnic",
+              "meaning": "野餐",
+              "uncertain": false
+            },
+            {
+              "word": "plan",
+              "meaning": "计划，打算",
+              "uncertain": false
+            },
+            {
+              "word": "act",
+              "meaning": "表演",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "在……旁边",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "stay",
+              "meaning": "待，保持",
+              "uncertain": false
+            },
+            {
+              "word": "row",
+              "meaning": "划(船)",
+              "uncertain": false
+            },
+            {
+              "word": "picnic",
+              "meaning": "野餐",
+              "uncertain": false
+            },
+            {
+              "word": "plan",
+              "meaning": "计划，打算",
+              "uncertain": false
+            },
+            {
+              "word": "act",
+              "meaning": "表演",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "在……旁边",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

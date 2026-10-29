@@ -1,0 +1,475 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页139.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "315c6bb3b800cd6cd31e3aeb0746c377f3b1d20d0c5318bde8fe494ea92f4a79",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "go",
+              "meaning": "v.去;出发;去从事",
+              "uncertain": false
+            },
+            {
+              "word": "park",
+              "meaning": "n.公园 v.停(车)",
+              "uncertain": false
+            },
+            {
+              "word": "shop",
+              "meaning": "v.去商店买 n.商店",
+              "uncertain": false
+            },
+            {
+              "word": "walk",
+              "meaning": "v.遛;步行 n.散步",
+              "uncertain": false
+            },
+            {
+              "word": "live",
+              "meaning": "v.居住;生活",
+              "uncertain": false
+            },
+            {
+              "word": "small",
+              "meaning": "adj.小的;年幼的",
+              "uncertain": false
+            },
+            {
+              "word": "his",
+              "meaning": "det., pron.他的",
+              "uncertain": false
+            },
+            {
+              "word": "him",
+              "meaning": "pron.他",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "det.一些;某些 pron.有些人,有些事物",
+              "uncertain": false
+            },
+            {
+              "word": "most",
+              "meaning": "det., pron.大多数 adv.最",
+              "uncertain": false
+            },
+            {
+              "word": "their",
+              "meaning": "det.他们的;她们的;它们的",
+              "uncertain": false
+            },
+            {
+              "word": "text",
+              "meaning": "n.文章;文本,正文;课本",
+              "uncertain": false
+            },
+            {
+              "word": "about",
+              "meaning": "prep.关于 adv.大约",
+              "uncertain": false
+            },
+            {
+              "word": "tree",
+              "meaning": "n.树木",
+              "uncertain": false
+            },
+            {
+              "word": "show",
+              "meaning": "v.展示;教;表明 n.(电视或广播)节目",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "prep., conj.在……后",
+              "uncertain": false
+            },
+            {
+              "word": "them",
+              "meaning": "pron.他们;她们;它们",
+              "uncertain": false
+            },
+            {
+              "word": "weekend",
+              "meaning": "n.周末",
+              "uncertain": false
+            },
+            {
+              "word": "dinner",
+              "meaning": "n.正餐,主餐",
+              "uncertain": false
+            },
+            {
+              "word": "something",
+              "meaning": "pron.某事;某物",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "prep.为得到;给;为了;(表示目的或功能);因为",
+              "uncertain": false
+            },
+            {
+              "word": "food",
+              "meaning": "n.食物",
+              "uncertain": false
+            },
+            {
+              "word": "set",
+              "meaning": "v.摆放餐具;设置;安排",
+              "uncertain": false
+            },
+            {
+              "word": "table",
+              "meaning": "n.桌子;表",
+              "uncertain": false
+            },
+            {
+              "word": "clean",
+              "meaning": "v.打扫 adj.干净的;清新的",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "adv., prep.彻底;向上",
+              "uncertain": false
+            },
+            {
+              "word": "job",
+              "meaning": "n.工作",
+              "uncertain": false
+            },
+            {
+              "word": "whose",
+              "meaning": "det., pron.谁的",
+              "uncertain": false
+            },
+            {
+              "word": "its",
+              "meaning": "det.(指事物、动物或婴儿)它的,他的,她的",
+              "uncertain": false
+            },
+            {
+              "word": "Mrs",
+              "meaning": "abbr.夫人",
+              "uncertain": false
+            },
+            {
+              "word": "son",
+              "meaning": "n.儿子",
+              "uncertain": false
+            },
+            {
+              "word": "ride",
+              "meaning": "v.骑;驾驶",
+              "uncertain": false
+            },
+            {
+              "word": "bike",
+              "meaning": "n.自行车",
+              "uncertain": false
+            },
+            {
+              "word": "well",
+              "meaning": "adv.好 n.井,水井",
+              "uncertain": false
+            },
+            {
+              "word": "or",
+              "meaning": "conj.或者;或者说;否则",
+              "uncertain": false
+            },
+            {
+              "word": "me",
+              "meaning": "pron.(I的宾格)我",
+              "uncertain": false
+            },
+            {
+              "word": "tell",
+              "meaning": "v.告诉;识别;说",
+              "uncertain": false
+            },
+            {
+              "word": "sport",
+              "meaning": "n.体育运动",
+              "uncertain": false
+            },
+            {
+              "word": "sometimes",
+              "meaning": "adv.有时",
+              "uncertain": false
+            },
+            {
+              "word": "film",
+              "meaning": "n.电影;影片",
+              "uncertain": false
+            },
+            {
+              "word": "home",
+              "meaning": "n.家;栖息地 adv.在家",
+              "uncertain": false
+            },
+            {
+              "word": "member",
+              "meaning": "n.成员;会员",
+              "uncertain": false
+            },
+            {
+              "word": "activity",
+              "meaning": "n.活动",
+              "uncertain": false
+            },
+            {
+              "word": "maths",
+              "meaning": "n.数学",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "go",
+              "meaning": "v.去;出发;去从事",
+              "uncertain": false
+            },
+            {
+              "word": "park",
+              "meaning": "n.公园 v.停(车)",
+              "uncertain": false
+            },
+            {
+              "word": "shop",
+              "meaning": "v.去商店买 n.商店",
+              "uncertain": false
+            },
+            {
+              "word": "walk",
+              "meaning": "v.遛;步行 n.散步",
+              "uncertain": false
+            },
+            {
+              "word": "live",
+              "meaning": "v.居住;生活",
+              "uncertain": false
+            },
+            {
+              "word": "small",
+              "meaning": "adj.小的;年幼的",
+              "uncertain": false
+            },
+            {
+              "word": "his",
+              "meaning": "det., pron.他的",
+              "uncertain": false
+            },
+            {
+              "word": "him",
+              "meaning": "pron.他",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "det.一些;某些 pron.有些人,有些事物",
+              "uncertain": false
+            },
+            {
+              "word": "most",
+              "meaning": "det., pron.大多数 adv.最",
+              "uncertain": false
+            },
+            {
+              "word": "their",
+              "meaning": "det.他们的;她们的;它们的",
+              "uncertain": false
+            },
+            {
+              "word": "text",
+              "meaning": "n.文章;文本,正文;课本",
+              "uncertain": false
+            },
+            {
+              "word": "about",
+              "meaning": "prep.关于 adv.大约",
+              "uncertain": false
+            },
+            {
+              "word": "tree",
+              "meaning": "n.树木",
+              "uncertain": false
+            },
+            {
+              "word": "show",
+              "meaning": "v.展示;教;表明 n.(电视或广播)节目",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "prep., conj.在……后",
+              "uncertain": false
+            },
+            {
+              "word": "them",
+              "meaning": "pron.他们;她们;它们",
+              "uncertain": false
+            },
+            {
+              "word": "weekend",
+              "meaning": "n.周末",
+              "uncertain": false
+            },
+            {
+              "word": "dinner",
+              "meaning": "n.正餐,主餐",
+              "uncertain": false
+            },
+            {
+              "word": "something",
+              "meaning": "pron.某事;某物",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "prep.为得到;给;为了;(表示目的或功能);因为",
+              "uncertain": false
+            },
+            {
+              "word": "food",
+              "meaning": "n.食物",
+              "uncertain": false
+            },
+            {
+              "word": "set",
+              "meaning": "v.摆放餐具;设置;安排",
+              "uncertain": false
+            },
+            {
+              "word": "table",
+              "meaning": "n.桌子;表",
+              "uncertain": false
+            },
+            {
+              "word": "clean",
+              "meaning": "v.打扫 adj.干净的;清新的",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "adv., prep.彻底;向上",
+              "uncertain": false
+            },
+            {
+              "word": "job",
+              "meaning": "n.工作",
+              "uncertain": false
+            },
+            {
+              "word": "whose",
+              "meaning": "det., pron.谁的",
+              "uncertain": false
+            },
+            {
+              "word": "its",
+              "meaning": "det.(指事物、动物或婴儿)它的,他的,她的",
+              "uncertain": false
+            },
+            {
+              "word": "Mrs",
+              "meaning": "abbr.夫人",
+              "uncertain": false
+            },
+            {
+              "word": "son",
+              "meaning": "n.儿子",
+              "uncertain": false
+            },
+            {
+              "word": "ride",
+              "meaning": "v.骑;驾驶",
+              "uncertain": false
+            },
+            {
+              "word": "bike",
+              "meaning": "n.自行车",
+              "uncertain": false
+            },
+            {
+              "word": "well",
+              "meaning": "adv.好 n.井,水井",
+              "uncertain": false
+            },
+            {
+              "word": "or",
+              "meaning": "conj.或者;或者说;否则",
+              "uncertain": false
+            },
+            {
+              "word": "me",
+              "meaning": "pron.(I的宾格)我",
+              "uncertain": false
+            },
+            {
+              "word": "tell",
+              "meaning": "v.告诉;识别;说",
+              "uncertain": false
+            },
+            {
+              "word": "sport",
+              "meaning": "n.体育运动",
+              "uncertain": false
+            },
+            {
+              "word": "sometimes",
+              "meaning": "adv.有时",
+              "uncertain": false
+            },
+            {
+              "word": "film",
+              "meaning": "n.电影;影片",
+              "uncertain": false
+            },
+            {
+              "word": "home",
+              "meaning": "n.家;栖息地 adv.在家",
+              "uncertain": false
+            },
+            {
+              "word": "member",
+              "meaning": "n.成员;会员",
+              "uncertain": false
+            },
+            {
+              "word": "activity",
+              "meaning": "n.活动",
+              "uncertain": false
+            },
+            {
+              "word": "maths",
+              "meaning": "n.数学",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

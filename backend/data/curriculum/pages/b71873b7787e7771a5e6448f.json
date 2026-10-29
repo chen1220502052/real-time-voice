@@ -1,0 +1,305 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": ".local/curriculum-column-crops/2d955b703b0d783eef7b7187-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "b71873b7787e7771a5e6448fecce6b5f30a8a7f357c20ae9f0ae5acdccb1322f",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "conclusion",
+              "meaning": "n.结论;推论",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "education",
+              "meaning": "n.教育",
+              "uncertain": false
+            },
+            {
+              "word": "develop",
+              "meaning": "v.(使)成长,(使)发展",
+              "uncertain": false
+            },
+            {
+              "word": "lamb",
+              "meaning": "n.羊羔肉;小羊",
+              "uncertain": false
+            },
+            {
+              "word": "dislike",
+              "meaning": "n.&v.不喜欢;厌恶",
+              "uncertain": false
+            },
+            {
+              "word": "cola",
+              "meaning": "n.可乐饮料",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "costume",
+              "meaning": "n.服装;戏服",
+              "uncertain": false
+            },
+            {
+              "word": "smooth",
+              "meaning": "adj.平坦的;光滑的",
+              "uncertain": false
+            },
+            {
+              "word": "so ... that ...",
+              "meaning": "如此……以至于……",
+              "uncertain": false
+            },
+            {
+              "word": "cotton",
+              "meaning": "adj.棉布制的 n.棉花;棉布",
+              "uncertain": false
+            },
+            {
+              "word": "silk",
+              "meaning": "n.(蚕)丝,丝织品",
+              "uncertain": false
+            },
+            {
+              "word": "fashion",
+              "meaning": "n.时装;时尚;流行式样",
+              "uncertain": false
+            },
+            {
+              "word": "handbag",
+              "meaning": "n.女用皮包,手提包",
+              "uncertain": false
+            },
+            {
+              "word": "afford",
+              "meaning": "v.买得起;能做",
+              "uncertain": false
+            },
+            {
+              "word": "tie",
+              "meaning": "n.领带;绳子;纽带,关系 v.(用线,绳等)系,拴,绑;束紧;打结",
+              "uncertain": false
+            },
+            {
+              "word": "sweater",
+              "meaning": "n.厚运动衫,毛衣",
+              "uncertain": false
+            },
+            {
+              "word": "scarf",
+              "meaning": "n.围巾,领巾",
+              "uncertain": false
+            },
+            {
+              "word": "jeans",
+              "meaning": "n.牛仔裤",
+              "uncertain": false
+            },
+            {
+              "word": "blouse",
+              "meaning": "n.(妇女穿的)短上衣,衬衫",
+              "uncertain": false
+            },
+            {
+              "word": "section",
+              "meaning": "n.部门,部分",
+              "uncertain": false
+            },
+            {
+              "word": "sock",
+              "meaning": "n.短袜",
+              "uncertain": false
+            },
+            {
+              "word": "pocket",
+              "meaning": "n.口袋",
+              "uncertain": false
+            },
+            {
+              "word": "windbreaker",
+              "meaning": "n.风衣",
+              "uncertain": false
+            },
+            {
+              "word": "size",
+              "meaning": "n.尺寸,大小",
+              "uncertain": false
+            },
+            {
+              "word": "leather",
+              "meaning": "adj.皮制的 n.皮革",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "conclusion",
+              "meaning": "n.结论;推论",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "education",
+              "meaning": "n.教育",
+              "uncertain": false
+            },
+            {
+              "word": "develop",
+              "meaning": "v.(使)成长,(使)发展",
+              "uncertain": false
+            },
+            {
+              "word": "lamb",
+              "meaning": "n.羊羔肉;小羊",
+              "uncertain": false
+            },
+            {
+              "word": "dislike",
+              "meaning": "n.&v.不喜欢;厌恶",
+              "uncertain": false
+            },
+            {
+              "word": "cola",
+              "meaning": "n.可乐饮料",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "costume",
+              "meaning": "n.服装;戏服",
+              "uncertain": false
+            },
+            {
+              "word": "smooth",
+              "meaning": "adj.平坦的;光滑的",
+              "uncertain": false
+            },
+            {
+              "word": "so ... that ...",
+              "meaning": "如此……以至于……",
+              "uncertain": false
+            },
+            {
+              "word": "cotton",
+              "meaning": "adj.棉布制的 n.棉花;棉布",
+              "uncertain": false
+            },
+            {
+              "word": "silk",
+              "meaning": "n.(蚕)丝,丝织品",
+              "uncertain": false
+            },
+            {
+              "word": "fashion",
+              "meaning": "n.时装;时尚;流行式样",
+              "uncertain": false
+            },
+            {
+              "word": "handbag",
+              "meaning": "n.女用皮包,手提包",
+              "uncertain": false
+            },
+            {
+              "word": "afford",
+              "meaning": "v.买得起;能做",
+              "uncertain": false
+            },
+            {
+              "word": "tie",
+              "meaning": "n.领带;绳子;纽带,关系 v.(用线,绳等)系,拴,绑;束紧;打结",
+              "uncertain": false
+            },
+            {
+              "word": "sweater",
+              "meaning": "n.厚运动衫,毛衣",
+              "uncertain": false
+            },
+            {
+              "word": "scarf",
+              "meaning": "n.围巾,领巾",
+              "uncertain": false
+            },
+            {
+              "word": "jeans",
+              "meaning": "n.牛仔裤",
+              "uncertain": false
+            },
+            {
+              "word": "blouse",
+              "meaning": "n.(妇女穿的)短上衣,衬衫",
+              "uncertain": false
+            },
+            {
+              "word": "section",
+              "meaning": "n.部门,部分",
+              "uncertain": false
+            },
+            {
+              "word": "sock",
+              "meaning": "n.短袜",
+              "uncertain": false
+            },
+            {
+              "word": "pocket",
+              "meaning": "n.口袋",
+              "uncertain": false
+            },
+            {
+              "word": "windbreaker",
+              "meaning": "n.风衣",
+              "uncertain": false
+            },
+            {
+              "word": "size",
+              "meaning": "n.尺寸,大小",
+              "uncertain": false
+            },
+            {
+              "word": "leather",
+              "meaning": "adj.皮制的 n.皮革",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

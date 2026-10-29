@@ -1,0 +1,535 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页135.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "a2e6558c849d65c53cd2cf34a48c6d728f6edd274e6865a2f2e3b1b5e217763e",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "what",
+              "meaning": "什么;无论什么;多么",
+              "uncertain": false
+            },
+            {
+              "word": "your",
+              "meaning": "你的;你们的",
+              "uncertain": false
+            },
+            {
+              "word": "please",
+              "meaning": "请;太好了",
+              "uncertain": false
+            },
+            {
+              "word": "dance",
+              "meaning": "跳舞",
+              "uncertain": false
+            },
+            {
+              "word": "eleven",
+              "meaning": "十一",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "十二",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "十三",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "十四",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "十五",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "十六",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "十七",
+              "uncertain": false
+            },
+            {
+              "word": "eighteen",
+              "meaning": "十八",
+              "uncertain": false
+            },
+            {
+              "word": "nineteen",
+              "meaning": "十九",
+              "uncertain": false
+            },
+            {
+              "word": "twenty",
+              "meaning": "二十",
+              "uncertain": false
+            },
+            {
+              "word": "hi",
+              "meaning": "你好,嗨",
+              "uncertain": false
+            },
+            {
+              "word": "this",
+              "meaning": "这,这个",
+              "uncertain": false
+            },
+            {
+              "word": "where",
+              "meaning": "在哪里",
+              "uncertain": false
+            },
+            {
+              "word": "from",
+              "meaning": "来自;离;始于;从",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "和;然后",
+              "uncertain": false
+            },
+            {
+              "word": "in",
+              "meaning": "在……中;用;穿着",
+              "uncertain": false
+            },
+            {
+              "word": "class",
+              "meaning": "班级;课;阶层",
+              "uncertain": false
+            },
+            {
+              "word": "grade",
+              "meaning": "年级;成绩等级",
+              "uncertain": false
+            },
+            {
+              "word": "which",
+              "meaning": "哪一个,哪些",
+              "uncertain": false
+            },
+            {
+              "word": "we",
+              "meaning": "我们;人们",
+              "uncertain": false
+            },
+            {
+              "word": "classmate",
+              "meaning": "同班同学",
+              "uncertain": false
+            },
+            {
+              "word": "old",
+              "meaning": "年纪;结识久的;老的",
+              "uncertain": false
+            },
+            {
+              "word": "year",
+              "meaning": "年龄;年;一年时间",
+              "uncertain": false
+            },
+            {
+              "word": "see",
+              "meaning": "看见;理解;看",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "tall",
+              "meaning": "高的;身高",
+              "uncertain": false
+            },
+            {
+              "word": "friendly",
+              "meaning": "友好的;亲切的",
+              "uncertain": false
+            },
+            {
+              "word": "three",
+              "meaning": "三",
+              "uncertain": false
+            },
+            {
+              "word": "seven",
+              "meaning": "七",
+              "uncertain": false
+            },
+            {
+              "word": "kind",
+              "meaning": "友好的",
+              "uncertain": false
+            },
+            {
+              "word": "draw",
+              "meaning": "画,描绘",
+              "uncertain": false
+            },
+            {
+              "word": "short",
+              "meaning": "个子矮的;短暂的;短的",
+              "uncertain": false
+            },
+            {
+              "word": "strong",
+              "meaning": "强壮的",
+              "uncertain": false
+            },
+            {
+              "word": "thin",
+              "meaning": "瘦的;薄的",
+              "uncertain": false
+            },
+            {
+              "word": "run",
+              "meaning": "跑步;跑",
+              "uncertain": false
+            },
+            {
+              "word": "cook",
+              "meaning": "烹饪,烹调",
+              "uncertain": false
+            },
+            {
+              "word": "helpful",
+              "meaning": "愿意帮忙的;有帮助的",
+              "uncertain": false
+            },
+            {
+              "word": "quiet",
+              "meaning": "文静的;安静的",
+              "uncertain": false
+            },
+            {
+              "word": "all",
+              "meaning": "所有,全部",
+              "uncertain": false
+            },
+            {
+              "word": "need",
+              "meaning": "需要;有必要",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "可以;能,会",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "年轻的;幼小的;青年的",
+              "uncertain": false
+            },
+            {
+              "word": "together",
+              "meaning": "在一起;共同",
+              "uncertain": false
+            },
+            {
+              "word": "help",
+              "meaning": "帮助",
+              "uncertain": false
+            },
+            {
+              "word": "each",
+              "meaning": "各个,每个",
+              "uncertain": false
+            },
+            {
+              "word": "other",
+              "meaning": "另外;另一个",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "what",
+              "meaning": "什么;无论什么;多么",
+              "uncertain": false
+            },
+            {
+              "word": "your",
+              "meaning": "你的;你们的",
+              "uncertain": false
+            },
+            {
+              "word": "please",
+              "meaning": "请;太好了",
+              "uncertain": false
+            },
+            {
+              "word": "dance",
+              "meaning": "跳舞",
+              "uncertain": false
+            },
+            {
+              "word": "eleven",
+              "meaning": "十一",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "十二",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "十三",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "十四",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "十五",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "十六",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "十七",
+              "uncertain": false
+            },
+            {
+              "word": "eighteen",
+              "meaning": "十八",
+              "uncertain": false
+            },
+            {
+              "word": "nineteen",
+              "meaning": "十九",
+              "uncertain": false
+            },
+            {
+              "word": "twenty",
+              "meaning": "二十",
+              "uncertain": false
+            },
+            {
+              "word": "hi",
+              "meaning": "你好,嗨",
+              "uncertain": false
+            },
+            {
+              "word": "this",
+              "meaning": "这,这个",
+              "uncertain": false
+            },
+            {
+              "word": "where",
+              "meaning": "在哪里",
+              "uncertain": false
+            },
+            {
+              "word": "from",
+              "meaning": "来自;离;始于;从",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "和;然后",
+              "uncertain": false
+            },
+            {
+              "word": "in",
+              "meaning": "在……中;用;穿着",
+              "uncertain": false
+            },
+            {
+              "word": "class",
+              "meaning": "班级;课;阶层",
+              "uncertain": false
+            },
+            {
+              "word": "grade",
+              "meaning": "年级;成绩等级",
+              "uncertain": false
+            },
+            {
+              "word": "which",
+              "meaning": "哪一个,哪些",
+              "uncertain": false
+            },
+            {
+              "word": "we",
+              "meaning": "我们;人们",
+              "uncertain": false
+            },
+            {
+              "word": "classmate",
+              "meaning": "同班同学",
+              "uncertain": false
+            },
+            {
+              "word": "old",
+              "meaning": "年纪;结识久的;老的",
+              "uncertain": false
+            },
+            {
+              "word": "year",
+              "meaning": "年龄;年;一年时间",
+              "uncertain": false
+            },
+            {
+              "word": "see",
+              "meaning": "看见;理解;看",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "tall",
+              "meaning": "高的;身高",
+              "uncertain": false
+            },
+            {
+              "word": "friendly",
+              "meaning": "友好的;亲切的",
+              "uncertain": false
+            },
+            {
+              "word": "three",
+              "meaning": "三",
+              "uncertain": false
+            },
+            {
+              "word": "seven",
+              "meaning": "七",
+              "uncertain": false
+            },
+            {
+              "word": "kind",
+              "meaning": "友好的",
+              "uncertain": false
+            },
+            {
+              "word": "draw",
+              "meaning": "画,描绘",
+              "uncertain": false
+            },
+            {
+              "word": "short",
+              "meaning": "个子矮的;短暂的;短的",
+              "uncertain": false
+            },
+            {
+              "word": "strong",
+              "meaning": "强壮的",
+              "uncertain": false
+            },
+            {
+              "word": "thin",
+              "meaning": "瘦的;薄的",
+              "uncertain": false
+            },
+            {
+              "word": "run",
+              "meaning": "跑步;跑",
+              "uncertain": false
+            },
+            {
+              "word": "cook",
+              "meaning": "烹饪,烹调",
+              "uncertain": false
+            },
+            {
+              "word": "helpful",
+              "meaning": "愿意帮忙的;有帮助的",
+              "uncertain": false
+            },
+            {
+              "word": "quiet",
+              "meaning": "文静的;安静的",
+              "uncertain": false
+            },
+            {
+              "word": "all",
+              "meaning": "所有,全部",
+              "uncertain": false
+            },
+            {
+              "word": "need",
+              "meaning": "需要;有必要",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "可以;能,会",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "年轻的;幼小的;青年的",
+              "uncertain": false
+            },
+            {
+              "word": "together",
+              "meaning": "在一起;共同",
+              "uncertain": false
+            },
+            {
+              "word": "help",
+              "meaning": "帮助",
+              "uncertain": false
+            },
+            {
+              "word": "each",
+              "meaning": "各个,每个",
+              "uncertain": false
+            },
+            {
+              "word": "other",
+              "meaning": "另外;另一个",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

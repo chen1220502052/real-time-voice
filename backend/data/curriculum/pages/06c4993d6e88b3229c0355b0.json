@@ -1,0 +1,180 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 4,
+  "units": [
+    4
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/109/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/01_教材页面_6decefa88f.jpg",
+  "sha256": "06c4993d6e88b3229c0355b0db10f72c3342e696496ab996e0c6a2d0bd8cbac3",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "My",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "subjects",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Maths",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "English",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Science",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "My subjects",
+        "Chinese",
+        "Maths",
+        "English",
+        "PE",
+        "Art",
+        "Music",
+        "Science",
+        "I like Chinese and ..."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "My",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "subjects",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Maths",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "English",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Science",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "My subjects",
+        "Chinese",
+        "Maths",
+        "English",
+        "PE",
+        "Art",
+        "Music",
+        "Science",
+        "I like Chinese and ..."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

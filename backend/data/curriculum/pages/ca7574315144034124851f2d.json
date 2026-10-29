@@ -1,0 +1,157 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/04_07_教材页面_757c799652.jpg",
+  "units": [
+    4
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "ca7574315144034124851f2df44337bc2e6c1d8d3c2c5a997bb90b77d77b0227",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "subject",
+              "meaning": "科目",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "语文",
+              "uncertain": false
+            },
+            {
+              "word": "maths",
+              "meaning": "数学",
+              "uncertain": false
+            },
+            {
+              "word": "English",
+              "meaning": "英语",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "体育",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "美术",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "音乐",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "科学",
+              "uncertain": false
+            },
+            {
+              "word": "all",
+              "meaning": "全；完全",
+              "uncertain": false
+            },
+            {
+              "word": "today",
+              "meaning": "今天",
+              "uncertain": false
+            },
+            {
+              "word": "day",
+              "meaning": "天",
+              "uncertain": false
+            },
+            {
+              "word": "say",
+              "meaning": "说，说话",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "subject",
+              "meaning": "科目",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "语文",
+              "uncertain": false
+            },
+            {
+              "word": "maths",
+              "meaning": "数学",
+              "uncertain": false
+            },
+            {
+              "word": "English",
+              "meaning": "英语",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "体育",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "美术",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "音乐",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "科学",
+              "uncertain": false
+            },
+            {
+              "word": "all",
+              "meaning": "全；完全",
+              "uncertain": false
+            },
+            {
+              "word": "today",
+              "meaning": "今天",
+              "uncertain": false
+            },
+            {
+              "word": "day",
+              "meaning": "天",
+              "uncertain": false
+            },
+            {
+              "word": "say",
+              "meaning": "说，说话",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

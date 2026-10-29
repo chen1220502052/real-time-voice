@@ -1,0 +1,1004 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页137.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "8f68e2ef30774549f25ebfc023cfc6bd34079937ce1a33e776f0c3f5ca8043f8",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "everybody",
+              "meaning": "每人",
+              "uncertain": false
+            },
+            {
+              "word": "her",
+              "meaning": "她的  pron.她",
+              "uncertain": false
+            },
+            {
+              "word": "beautiful",
+              "meaning": "美丽的;美好的",
+              "uncertain": false
+            },
+            {
+              "word": "picture",
+              "meaning": "图画;照片  v.想象",
+              "uncertain": false
+            },
+            {
+              "word": "book",
+              "meaning": "书  v.预约,预订",
+              "uncertain": false
+            },
+            {
+              "word": "also",
+              "meaning": "也;而且",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "许多",
+              "uncertain": false
+            },
+            {
+              "word": "thing",
+              "meaning": "事件;东西",
+              "uncertain": false
+            },
+            {
+              "word": "such",
+              "meaning": "这样;这样的,那样的",
+              "uncertain": false
+            },
+            {
+              "word": "as",
+              "meaning": "像;作为  adv.如同",
+              "uncertain": false
+            },
+            {
+              "word": "great",
+              "meaning": "(强调某种情况);好极的;优秀的",
+              "uncertain": false
+            },
+            {
+              "word": "time",
+              "meaning": "时间;一段时间;次;时刻",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "和;有;用",
+              "uncertain": false
+            },
+            {
+              "word": "know",
+              "meaning": "知道;认识",
+              "uncertain": false
+            },
+            {
+              "word": "card",
+              "meaning": "卡片纸;贺卡",
+              "uncertain": false
+            },
+            {
+              "word": "talk",
+              "meaning": "说话;讨论",
+              "uncertain": false
+            },
+            {
+              "word": "much",
+              "meaning": "非常;十分;很  det., pron.许多,大量",
+              "uncertain": false
+            },
+            {
+              "word": "but",
+              "meaning": "相反;然而",
+              "uncertain": false
+            },
+            {
+              "word": "really",
+              "meaning": "(加强形容词或副词的语气);确实;真正地",
+              "uncertain": false
+            },
+            {
+              "word": "different",
+              "meaning": "不同的;各种的",
+              "uncertain": false
+            },
+            {
+              "word": "Mr",
+              "meaning": "先生",
+              "uncertain": false
+            },
+            {
+              "word": "four",
+              "meaning": "四",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "family",
+              "meaning": "家庭;亲属",
+              "uncertain": false
+            },
+            {
+              "word": "grandfather",
+              "meaning": "(外)祖父",
+              "uncertain": false
+            },
+            {
+              "word": "grandpa",
+              "meaning": "(外)祖父",
+              "uncertain": false
+            },
+            {
+              "word": "grandmother",
+              "meaning": "(外)祖母",
+              "uncertain": false
+            },
+            {
+              "word": "grandma",
+              "meaning": "(外)祖母",
+              "uncertain": false
+            },
+            {
+              "word": "father",
+              "meaning": "父亲;先驱",
+              "uncertain": false
+            },
+            {
+              "word": "mother",
+              "meaning": "母亲,妈妈",
+              "uncertain": false
+            },
+            {
+              "word": "uncle",
+              "meaning": "叔;伯;舅;姑父;姨父",
+              "uncertain": false
+            },
+            {
+              "word": "aunt",
+              "meaning": "姑母;姨母;伯母;婶母;舅母",
+              "uncertain": false
+            },
+            {
+              "word": "sister",
+              "meaning": "姐姐;妹妹",
+              "uncertain": false
+            },
+            {
+              "word": "cousin",
+              "meaning": "同辈表亲(或堂亲)",
+              "uncertain": false
+            },
+            {
+              "word": "student",
+              "meaning": "学生",
+              "uncertain": false
+            },
+            {
+              "word": "teacher",
+              "meaning": "教师",
+              "uncertain": false
+            },
+            {
+              "word": "man",
+              "meaning": "成年男子;人类",
+              "uncertain": false
+            },
+            {
+              "word": "always",
+              "meaning": "总是,一直",
+              "uncertain": false
+            },
+            {
+              "word": "wear",
+              "meaning": "穿;戴",
+              "uncertain": false
+            },
+            {
+              "word": "tie",
+              "meaning": "领带  v.系;捆绑;打结",
+              "uncertain": false
+            },
+            {
+              "word": "worker",
+              "meaning": "工人;工作者",
+              "uncertain": false
+            },
+            {
+              "word": "doctor",
+              "meaning": "医生",
+              "uncertain": false
+            },
+            {
+              "word": "nurse",
+              "meaning": "护士",
+              "uncertain": false
+            },
+            {
+              "word": "white",
+              "meaning": "白色的  n.白色",
+              "uncertain": false
+            },
+            {
+              "word": "shirt",
+              "meaning": "衬衫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "everybody",
+              "meaning": "每人",
+              "uncertain": false
+            },
+            {
+              "word": "her",
+              "meaning": "她的  pron.她",
+              "uncertain": false
+            },
+            {
+              "word": "beautiful",
+              "meaning": "美丽的;美好的",
+              "uncertain": false
+            },
+            {
+              "word": "picture",
+              "meaning": "图画;照片  v.想象",
+              "uncertain": false
+            },
+            {
+              "word": "book",
+              "meaning": "书  v.预约,预订",
+              "uncertain": false
+            },
+            {
+              "word": "also",
+              "meaning": "也;而且",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "许多",
+              "uncertain": false
+            },
+            {
+              "word": "thing",
+              "meaning": "事件;东西",
+              "uncertain": false
+            },
+            {
+              "word": "such",
+              "meaning": "这样;这样的,那样的",
+              "uncertain": false
+            },
+            {
+              "word": "as",
+              "meaning": "像;作为  adv.如同",
+              "uncertain": false
+            },
+            {
+              "word": "great",
+              "meaning": "(强调某种情况);好极的;优秀的",
+              "uncertain": false
+            },
+            {
+              "word": "time",
+              "meaning": "时间;一段时间;次;时刻",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "和;有;用",
+              "uncertain": false
+            },
+            {
+              "word": "know",
+              "meaning": "知道;认识",
+              "uncertain": false
+            },
+            {
+              "word": "card",
+              "meaning": "卡片纸;贺卡",
+              "uncertain": false
+            },
+            {
+              "word": "talk",
+              "meaning": "说话;讨论",
+              "uncertain": false
+            },
+            {
+              "word": "much",
+              "meaning": "非常;十分;很  det., pron.许多,大量",
+              "uncertain": false
+            },
+            {
+              "word": "but",
+              "meaning": "相反;然而",
+              "uncertain": false
+            },
+            {
+              "word": "really",
+              "meaning": "(加强形容词或副词的语气);确实;真正地",
+              "uncertain": false
+            },
+            {
+              "word": "different",
+              "meaning": "不同的;各种的",
+              "uncertain": false
+            },
+            {
+              "word": "Mr",
+              "meaning": "先生",
+              "uncertain": false
+            },
+            {
+              "word": "four",
+              "meaning": "四",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "family",
+              "meaning": "家庭;亲属",
+              "uncertain": false
+            },
+            {
+              "word": "grandfather",
+              "meaning": "(外)祖父",
+              "uncertain": false
+            },
+            {
+              "word": "grandpa",
+              "meaning": "(外)祖父",
+              "uncertain": false
+            },
+            {
+              "word": "grandmother",
+              "meaning": "(外)祖母",
+              "uncertain": false
+            },
+            {
+              "word": "grandma",
+              "meaning": "(外)祖母",
+              "uncertain": false
+            },
+            {
+              "word": "father",
+              "meaning": "父亲;先驱",
+              "uncertain": false
+            },
+            {
+              "word": "mother",
+              "meaning": "母亲,妈妈",
+              "uncertain": false
+            },
+            {
+              "word": "uncle",
+              "meaning": "叔;伯;舅;姑父;姨父",
+              "uncertain": false
+            },
+            {
+              "word": "aunt",
+              "meaning": "姑母;姨母;伯母;婶母;舅母",
+              "uncertain": false
+            },
+            {
+              "word": "sister",
+              "meaning": "姐姐;妹妹",
+              "uncertain": false
+            },
+            {
+              "word": "cousin",
+              "meaning": "同辈表亲(或堂亲)",
+              "uncertain": false
+            },
+            {
+              "word": "student",
+              "meaning": "学生",
+              "uncertain": false
+            },
+            {
+              "word": "teacher",
+              "meaning": "教师",
+              "uncertain": false
+            },
+            {
+              "word": "man",
+              "meaning": "成年男子;人类",
+              "uncertain": false
+            },
+            {
+              "word": "always",
+              "meaning": "总是,一直",
+              "uncertain": false
+            },
+            {
+              "word": "wear",
+              "meaning": "穿;戴",
+              "uncertain": false
+            },
+            {
+              "word": "tie",
+              "meaning": "领带  v.系;捆绑;打结",
+              "uncertain": false
+            },
+            {
+              "word": "worker",
+              "meaning": "工人;工作者",
+              "uncertain": false
+            },
+            {
+              "word": "doctor",
+              "meaning": "医生",
+              "uncertain": false
+            },
+            {
+              "word": "nurse",
+              "meaning": "护士",
+              "uncertain": false
+            },
+            {
+              "word": "white",
+              "meaning": "白色的  n.白色",
+              "uncertain": false
+            },
+            {
+              "word": "shirt",
+              "meaning": "衬衫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "1529174d8a5ccdb611492cf59ff2682c380328a73b2fc4742afafeba8401ffe8",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "everybody",
+                  "meaning": "每人",
+                  "uncertain": false
+                },
+                {
+                  "word": "her",
+                  "meaning": "她的；她",
+                  "uncertain": false
+                },
+                {
+                  "word": "beautiful",
+                  "meaning": "美丽的；美好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "picture",
+                  "meaning": "图画；照片；想象",
+                  "uncertain": false
+                },
+                {
+                  "word": "book",
+                  "meaning": "书；预约，预订",
+                  "uncertain": false
+                },
+                {
+                  "word": "also",
+                  "meaning": "也；而且",
+                  "uncertain": false
+                },
+                {
+                  "word": "many",
+                  "meaning": "许多",
+                  "uncertain": false
+                },
+                {
+                  "word": "thing",
+                  "meaning": "事件；东西",
+                  "uncertain": false
+                },
+                {
+                  "word": "such",
+                  "meaning": "这样；这样的，那样的",
+                  "uncertain": false
+                },
+                {
+                  "word": "as",
+                  "meaning": "像；作为；如同",
+                  "uncertain": false
+                },
+                {
+                  "word": "great",
+                  "meaning": "（强调某种情况）；好极的；优秀的",
+                  "uncertain": false
+                },
+                {
+                  "word": "time",
+                  "meaning": "时间；一段时间；次；时刻",
+                  "uncertain": false
+                },
+                {
+                  "word": "with",
+                  "meaning": "和；有；用",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "know",
+                  "meaning": "知道；认识",
+                  "uncertain": false
+                },
+                {
+                  "word": "card",
+                  "meaning": "卡片纸；贺卡",
+                  "uncertain": false
+                },
+                {
+                  "word": "talk",
+                  "meaning": "说话；讨论",
+                  "uncertain": false
+                },
+                {
+                  "word": "much",
+                  "meaning": "非常；十分；很；许多，大量",
+                  "uncertain": false
+                },
+                {
+                  "word": "but",
+                  "meaning": "相反；然而",
+                  "uncertain": false
+                },
+                {
+                  "word": "really",
+                  "meaning": "（加强形容词或副词的语气）；确实；真正地",
+                  "uncertain": false
+                },
+                {
+                  "word": "different",
+                  "meaning": "不同的；各种的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Mr",
+                  "meaning": "先生",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The heading 'Wrapping Up the Topic' is a topic heading without a numeric unit, so its entries are placed in a unit=null block."
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "everybody",
+                  "meaning": "每人",
+                  "uncertain": false
+                },
+                {
+                  "word": "her",
+                  "meaning": "她的；她",
+                  "uncertain": false
+                },
+                {
+                  "word": "beautiful",
+                  "meaning": "美丽的；美好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "picture",
+                  "meaning": "图画；照片；想象",
+                  "uncertain": false
+                },
+                {
+                  "word": "book",
+                  "meaning": "书；预约，预订",
+                  "uncertain": false
+                },
+                {
+                  "word": "also",
+                  "meaning": "也；而且",
+                  "uncertain": false
+                },
+                {
+                  "word": "many",
+                  "meaning": "许多",
+                  "uncertain": false
+                },
+                {
+                  "word": "thing",
+                  "meaning": "事件；东西",
+                  "uncertain": false
+                },
+                {
+                  "word": "such",
+                  "meaning": "这样；这样的，那样的",
+                  "uncertain": false
+                },
+                {
+                  "word": "as",
+                  "meaning": "像；作为；如同",
+                  "uncertain": false
+                },
+                {
+                  "word": "great",
+                  "meaning": "（强调某种情况）；好极的；优秀的",
+                  "uncertain": false
+                },
+                {
+                  "word": "time",
+                  "meaning": "时间；一段时间；次；时刻",
+                  "uncertain": false
+                },
+                {
+                  "word": "with",
+                  "meaning": "和；有；用",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "know",
+                  "meaning": "知道；认识",
+                  "uncertain": false
+                },
+                {
+                  "word": "card",
+                  "meaning": "卡片纸；贺卡",
+                  "uncertain": false
+                },
+                {
+                  "word": "talk",
+                  "meaning": "说话；讨论",
+                  "uncertain": false
+                },
+                {
+                  "word": "much",
+                  "meaning": "非常；十分；很；许多，大量",
+                  "uncertain": false
+                },
+                {
+                  "word": "but",
+                  "meaning": "相反；然而",
+                  "uncertain": false
+                },
+                {
+                  "word": "really",
+                  "meaning": "（加强形容词或副词的语气）；确实；真正地",
+                  "uncertain": false
+                },
+                {
+                  "word": "different",
+                  "meaning": "不同的；各种的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Mr",
+                  "meaning": "先生",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The heading 'Wrapping Up the Topic' is a topic heading without a numeric unit, so its entries are placed in a unit=null block."
+          ]
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "3b849a0607e45bdd6c8409040ef0fb614c5f94017712fbd0e91ee6bc84503fbc",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "four",
+                  "meaning": "num.四",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "family",
+                  "meaning": "n.家庭;亲属",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandfather",
+                  "meaning": "n.(外)祖父",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandpa",
+                  "meaning": "n.(外)祖父",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandmother",
+                  "meaning": "n.(外)祖母",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandma",
+                  "meaning": "n.(外)祖母",
+                  "uncertain": false
+                },
+                {
+                  "word": "father",
+                  "meaning": "n.父亲;先驱",
+                  "uncertain": false
+                },
+                {
+                  "word": "mother",
+                  "meaning": "n.母亲,妈妈",
+                  "uncertain": false
+                },
+                {
+                  "word": "uncle",
+                  "meaning": "n.叔;伯;舅;姑父;姨父",
+                  "uncertain": false
+                },
+                {
+                  "word": "aunt",
+                  "meaning": "n.姑母;姨母;伯母;婶母;舅母",
+                  "uncertain": false
+                },
+                {
+                  "word": "sister",
+                  "meaning": "n.姐姐;妹妹",
+                  "uncertain": false
+                },
+                {
+                  "word": "cousin",
+                  "meaning": "n.同辈表亲(或堂亲)",
+                  "uncertain": false
+                },
+                {
+                  "word": "student",
+                  "meaning": "n.学生",
+                  "uncertain": false
+                },
+                {
+                  "word": "teacher",
+                  "meaning": "n.教师",
+                  "uncertain": false
+                },
+                {
+                  "word": "man",
+                  "meaning": "n.成年男子;人类",
+                  "uncertain": false
+                },
+                {
+                  "word": "always",
+                  "meaning": "adv.总是,一直",
+                  "uncertain": false
+                },
+                {
+                  "word": "wear",
+                  "meaning": "v.穿;戴",
+                  "uncertain": false
+                },
+                {
+                  "word": "tie",
+                  "meaning": "n.领带 v.系;捆绑;打结",
+                  "uncertain": false
+                },
+                {
+                  "word": "worker",
+                  "meaning": "n.工人;工作者",
+                  "uncertain": false
+                },
+                {
+                  "word": "doctor",
+                  "meaning": "n.医生",
+                  "uncertain": false
+                },
+                {
+                  "word": "nurse",
+                  "meaning": "n.护士",
+                  "uncertain": false
+                },
+                {
+                  "word": "white",
+                  "meaning": "adj.白色的 n.白色",
+                  "uncertain": false
+                },
+                {
+                  "word": "shirt",
+                  "meaning": "n.衬衫",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "four",
+                  "meaning": "num.四",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "family",
+                  "meaning": "n.家庭;亲属",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandfather",
+                  "meaning": "n.(外)祖父",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandpa",
+                  "meaning": "n.(外)祖父",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandmother",
+                  "meaning": "n.(外)祖母",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandma",
+                  "meaning": "n.(外)祖母",
+                  "uncertain": false
+                },
+                {
+                  "word": "father",
+                  "meaning": "n.父亲;先驱",
+                  "uncertain": false
+                },
+                {
+                  "word": "mother",
+                  "meaning": "n.母亲,妈妈",
+                  "uncertain": false
+                },
+                {
+                  "word": "uncle",
+                  "meaning": "n.叔;伯;舅;姑父;姨父",
+                  "uncertain": false
+                },
+                {
+                  "word": "aunt",
+                  "meaning": "n.姑母;姨母;伯母;婶母;舅母",
+                  "uncertain": false
+                },
+                {
+                  "word": "sister",
+                  "meaning": "n.姐姐;妹妹",
+                  "uncertain": false
+                },
+                {
+                  "word": "cousin",
+                  "meaning": "n.同辈表亲(或堂亲)",
+                  "uncertain": false
+                },
+                {
+                  "word": "student",
+                  "meaning": "n.学生",
+                  "uncertain": false
+                },
+                {
+                  "word": "teacher",
+                  "meaning": "n.教师",
+                  "uncertain": false
+                },
+                {
+                  "word": "man",
+                  "meaning": "n.成年男子;人类",
+                  "uncertain": false
+                },
+                {
+                  "word": "always",
+                  "meaning": "adv.总是,一直",
+                  "uncertain": false
+                },
+                {
+                  "word": "wear",
+                  "meaning": "v.穿;戴",
+                  "uncertain": false
+                },
+                {
+                  "word": "tie",
+                  "meaning": "n.领带 v.系;捆绑;打结",
+                  "uncertain": false
+                },
+                {
+                  "word": "worker",
+                  "meaning": "n.工人;工作者",
+                  "uncertain": false
+                },
+                {
+                  "word": "doctor",
+                  "meaning": "n.医生",
+                  "uncertain": false
+                },
+                {
+                  "word": "nurse",
+                  "meaning": "n.护士",
+                  "uncertain": false
+                },
+                {
+                  "word": "white",
+                  "meaning": "adj.白色的 n.白色",
+                  "uncertain": false
+                },
+                {
+                  "word": "shirt",
+                  "meaning": "n.衬衫",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

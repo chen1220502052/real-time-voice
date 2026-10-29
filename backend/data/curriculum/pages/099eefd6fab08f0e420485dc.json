@@ -1,0 +1,435 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页152.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "099eefd6fab08f0e420485dc5029af68e1ceafd603938b76bafab5beb932f4f0",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "teenager",
+              "meaning": "n.青少年",
+              "uncertain": false
+            },
+            {
+              "word": "reach",
+              "meaning": "v.达到;到达;够得着",
+              "uncertain": false
+            },
+            {
+              "word": "adult",
+              "meaning": "adj.成年的;发育成熟的 n.成年人",
+              "uncertain": false
+            },
+            {
+              "word": "height",
+              "meaning": "n.身高;高度",
+              "uncertain": false
+            },
+            {
+              "word": "* hair",
+              "meaning": "n.体毛;头发",
+              "uncertain": false
+            },
+            {
+              "word": "certain",
+              "meaning": "adj.特定的;无疑的;确实的",
+              "uncertain": false
+            },
+            {
+              "word": "area",
+              "meaning": "n.部位;面积;地区,地域",
+              "uncertain": false
+            },
+            {
+              "word": "pain",
+              "meaning": "n.痛苦;苦恼;烦恼;疼痛",
+              "uncertain": false
+            },
+            {
+              "word": "schoolwork",
+              "meaning": "n.学校作业;课堂作业",
+              "uncertain": false
+            },
+            {
+              "word": "stress",
+              "meaning": "n.精神压力;心理负担",
+              "uncertain": false
+            },
+            {
+              "word": "pressure",
+              "meaning": "n.心理压力,紧张;压力",
+              "uncertain": false
+            },
+            {
+              "word": "deal",
+              "meaning": "v.对待;对付",
+              "uncertain": false
+            },
+            {
+              "word": "firstly",
+              "meaning": "adv.(用于列举)首先,第一",
+              "uncertain": false
+            },
+            {
+              "word": "compare",
+              "meaning": "v.比较;对比",
+              "uncertain": false
+            },
+            {
+              "word": "shine",
+              "meaning": "v.出色;发光",
+              "uncertain": false
+            },
+            {
+              "word": "discover",
+              "meaning": "v.认识到;发现",
+              "uncertain": false
+            },
+            {
+              "word": "memory",
+              "meaning": "n.回忆;记忆;记忆力;记性",
+              "uncertain": false
+            },
+            {
+              "word": "junior",
+              "meaning": "adj.为11或13岁以下儿童设立的;地位低下的",
+              "uncertain": false
+            },
+            {
+              "word": "junior high school",
+              "meaning": "(美国和加拿大)初级中学",
+              "uncertain": false
+            },
+            {
+              "word": "trouble",
+              "meaning": "n.问题;困难;困境",
+              "uncertain": false
+            },
+            {
+              "word": "* email",
+              "meaning": "n.电子邮件 v.(给……)发电子邮件",
+              "uncertain": false
+            },
+            {
+              "word": "detail",
+              "meaning": "n.细节;详情",
+              "uncertain": false
+            },
+            {
+              "word": "advise",
+              "meaning": "v.劝告;建议",
+              "uncertain": false
+            },
+            {
+              "word": "congratulation",
+              "meaning": "n.祝贺;恭贺",
+              "uncertain": false
+            },
+            {
+              "word": "disappointed",
+              "meaning": "adj.失望的;沮丧的",
+              "uncertain": false
+            },
+            {
+              "word": "honest",
+              "meaning": "adj.坦诚的;诚实的",
+              "uncertain": false
+            },
+            {
+              "word": "gather",
+              "meaning": "v.收拢;聚集;集合;搜集",
+              "uncertain": false
+            },
+            {
+              "word": "courage",
+              "meaning": "n.勇气;勇敢",
+              "uncertain": false
+            },
+            {
+              "word": "spare",
+              "meaning": "v.抽出;留出 adj.空闲的;空余的",
+              "uncertain": false
+            },
+            {
+              "word": "cellphone",
+              "meaning": "n.手机;移动电话",
+              "uncertain": false
+            },
+            {
+              "word": "boss",
+              "meaning": "n.老板",
+              "uncertain": false
+            },
+            {
+              "word": "careless",
+              "meaning": "adj.粗心的;不小心的;不仔细的",
+              "uncertain": false
+            },
+            {
+              "word": "joy",
+              "meaning": "n.喜悦;乐趣",
+              "uncertain": false
+            },
+            {
+              "word": "comfortable",
+              "meaning": "adj.舒服的,安逸的;舒适的;自在的",
+              "uncertain": false
+            },
+            {
+              "word": "smoke",
+              "meaning": "v.吸烟 n.烟;吸烟",
+              "uncertain": false
+            },
+            {
+              "word": "youth",
+              "meaning": "n.青年时期(尤指成年以前);年轻;青年",
+              "uncertain": false
+            },
+            {
+              "word": "might",
+              "meaning": "modal v.可能",
+              "uncertain": false
+            },
+            {
+              "word": "bathroom",
+              "meaning": "n.浴室",
+              "uncertain": false
+            },
+            {
+              "word": "jog",
+              "meaning": "v.慢跑",
+              "uncertain": false
+            },
+            {
+              "word": "postcard",
+              "meaning": "n.明信片",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "teenager",
+              "meaning": "n.青少年",
+              "uncertain": false
+            },
+            {
+              "word": "reach",
+              "meaning": "v.达到;到达;够得着",
+              "uncertain": false
+            },
+            {
+              "word": "adult",
+              "meaning": "adj.成年的;发育成熟的 n.成年人",
+              "uncertain": false
+            },
+            {
+              "word": "height",
+              "meaning": "n.身高;高度",
+              "uncertain": false
+            },
+            {
+              "word": "* hair",
+              "meaning": "n.体毛;头发",
+              "uncertain": false
+            },
+            {
+              "word": "certain",
+              "meaning": "adj.特定的;无疑的;确实的",
+              "uncertain": false
+            },
+            {
+              "word": "area",
+              "meaning": "n.部位;面积;地区,地域",
+              "uncertain": false
+            },
+            {
+              "word": "pain",
+              "meaning": "n.痛苦;苦恼;烦恼;疼痛",
+              "uncertain": false
+            },
+            {
+              "word": "schoolwork",
+              "meaning": "n.学校作业;课堂作业",
+              "uncertain": false
+            },
+            {
+              "word": "stress",
+              "meaning": "n.精神压力;心理负担",
+              "uncertain": false
+            },
+            {
+              "word": "pressure",
+              "meaning": "n.心理压力,紧张;压力",
+              "uncertain": false
+            },
+            {
+              "word": "deal",
+              "meaning": "v.对待;对付",
+              "uncertain": false
+            },
+            {
+              "word": "firstly",
+              "meaning": "adv.(用于列举)首先,第一",
+              "uncertain": false
+            },
+            {
+              "word": "compare",
+              "meaning": "v.比较;对比",
+              "uncertain": false
+            },
+            {
+              "word": "shine",
+              "meaning": "v.出色;发光",
+              "uncertain": false
+            },
+            {
+              "word": "discover",
+              "meaning": "v.认识到;发现",
+              "uncertain": false
+            },
+            {
+              "word": "memory",
+              "meaning": "n.回忆;记忆;记忆力;记性",
+              "uncertain": false
+            },
+            {
+              "word": "junior",
+              "meaning": "adj.为11或13岁以下儿童设立的;地位低下的",
+              "uncertain": false
+            },
+            {
+              "word": "junior high school",
+              "meaning": "(美国和加拿大)初级中学",
+              "uncertain": false
+            },
+            {
+              "word": "trouble",
+              "meaning": "n.问题;困难;困境",
+              "uncertain": false
+            },
+            {
+              "word": "* email",
+              "meaning": "n.电子邮件 v.(给……)发电子邮件",
+              "uncertain": false
+            },
+            {
+              "word": "detail",
+              "meaning": "n.细节;详情",
+              "uncertain": false
+            },
+            {
+              "word": "advise",
+              "meaning": "v.劝告;建议",
+              "uncertain": false
+            },
+            {
+              "word": "congratulation",
+              "meaning": "n.祝贺;恭贺",
+              "uncertain": false
+            },
+            {
+              "word": "disappointed",
+              "meaning": "adj.失望的;沮丧的",
+              "uncertain": false
+            },
+            {
+              "word": "honest",
+              "meaning": "adj.坦诚的;诚实的",
+              "uncertain": false
+            },
+            {
+              "word": "gather",
+              "meaning": "v.收拢;聚集;集合;搜集",
+              "uncertain": false
+            },
+            {
+              "word": "courage",
+              "meaning": "n.勇气;勇敢",
+              "uncertain": false
+            },
+            {
+              "word": "spare",
+              "meaning": "v.抽出;留出 adj.空闲的;空余的",
+              "uncertain": false
+            },
+            {
+              "word": "cellphone",
+              "meaning": "n.手机;移动电话",
+              "uncertain": false
+            },
+            {
+              "word": "boss",
+              "meaning": "n.老板",
+              "uncertain": false
+            },
+            {
+              "word": "careless",
+              "meaning": "adj.粗心的;不小心的;不仔细的",
+              "uncertain": false
+            },
+            {
+              "word": "joy",
+              "meaning": "n.喜悦;乐趣",
+              "uncertain": false
+            },
+            {
+              "word": "comfortable",
+              "meaning": "adj.舒服的,安逸的;舒适的;自在的",
+              "uncertain": false
+            },
+            {
+              "word": "smoke",
+              "meaning": "v.吸烟 n.烟;吸烟",
+              "uncertain": false
+            },
+            {
+              "word": "youth",
+              "meaning": "n.青年时期(尤指成年以前);年轻;青年",
+              "uncertain": false
+            },
+            {
+              "word": "might",
+              "meaning": "modal v.可能",
+              "uncertain": false
+            },
+            {
+              "word": "bathroom",
+              "meaning": "n.浴室",
+              "uncertain": false
+            },
+            {
+              "word": "jog",
+              "meaning": "v.慢跑",
+              "uncertain": false
+            },
+            {
+              "word": "postcard",
+              "meaning": "n.明信片",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,167 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/10_12_教材页面_22789d8ec6.jpg",
+  "units": [
+    9
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "12bdcebc95b91c95d02b02014f9690b87da4604131ec9b1bacfc80db0131dc9d",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "strong",
+              "meaning": "强壮的",
+              "uncertain": false
+            },
+            {
+              "word": "thin",
+              "meaning": "瘦的",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "年轻的",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "可爱的",
+              "uncertain": false
+            },
+            {
+              "word": "look like",
+              "meaning": "看起来像……",
+              "uncertain": false
+            },
+            {
+              "word": "hair",
+              "meaning": "头发",
+              "uncertain": false
+            },
+            {
+              "word": "well",
+              "meaning": "好；健康的",
+              "uncertain": false
+            },
+            {
+              "word": "glasses",
+              "meaning": "眼镜",
+              "uncertain": false
+            },
+            {
+              "word": "be",
+              "meaning": "是，成为，存在",
+              "uncertain": false
+            },
+            {
+              "word": "Teachers' Day",
+              "meaning": "教师节",
+              "uncertain": false
+            },
+            {
+              "word": "guess",
+              "meaning": "猜测",
+              "uncertain": false
+            },
+            {
+              "word": "stair",
+              "meaning": "楼梯",
+              "uncertain": false
+            },
+            {
+              "word": "air",
+              "meaning": "空气，大气",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "strong",
+              "meaning": "强壮的",
+              "uncertain": false
+            },
+            {
+              "word": "thin",
+              "meaning": "瘦的",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "年轻的",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "可爱的",
+              "uncertain": false
+            },
+            {
+              "word": "look like",
+              "meaning": "看起来像……",
+              "uncertain": false
+            },
+            {
+              "word": "hair",
+              "meaning": "头发",
+              "uncertain": false
+            },
+            {
+              "word": "well",
+              "meaning": "好；健康的",
+              "uncertain": false
+            },
+            {
+              "word": "glasses",
+              "meaning": "眼镜",
+              "uncertain": false
+            },
+            {
+              "word": "be",
+              "meaning": "是，成为，存在",
+              "uncertain": false
+            },
+            {
+              "word": "Teachers' Day",
+              "meaning": "教师节",
+              "uncertain": false
+            },
+            {
+              "word": "guess",
+              "meaning": "猜测",
+              "uncertain": false
+            },
+            {
+              "word": "stair",
+              "meaning": "楼梯",
+              "uncertain": false
+            },
+            {
+              "word": "air",
+              "meaning": "空气，大气",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

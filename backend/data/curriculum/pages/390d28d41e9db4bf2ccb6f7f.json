@@ -1,0 +1,395 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": ".local/curriculum-column-crops/30fe45caf7b99bc0731b8aff-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "390d28d41e9db4bf2ccb6f7f7bc29dfd29f24a9065b5e200de8916ed1a5a7d23",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "at times",
+              "meaning": "有时;间或",
+              "uncertain": false
+            },
+            {
+              "word": "ancient",
+              "meaning": "古代的;古老的",
+              "uncertain": false
+            },
+            {
+              "word": "magical",
+              "meaning": "奇妙的;有魔力的",
+              "uncertain": false
+            },
+            {
+              "word": "creature",
+              "meaning": "生物;动物",
+              "uncertain": false
+            },
+            {
+              "word": "emperor",
+              "meaning": "皇帝",
+              "uncertain": false
+            },
+            {
+              "word": "compare",
+              "meaning": "v. 比较,对比",
+              "uncertain": false
+            },
+            {
+              "word": "compare ... to ...",
+              "meaning": "把……比作……",
+              "uncertain": false
+            },
+            {
+              "word": "courage",
+              "meaning": "n. 勇气;胆略",
+              "uncertain": false
+            },
+            {
+              "word": "underline",
+              "meaning": "v. 在(词语等下)画线;画底线标出",
+              "uncertain": false
+            },
+            {
+              "word": "difference",
+              "meaning": "n. 差别;差异",
+              "uncertain": false
+            },
+            {
+              "word": "mistake",
+              "meaning": "n. 错误,失误",
+              "uncertain": false
+            },
+            {
+              "word": "make mistakes",
+              "meaning": "犯错误",
+              "uncertain": false
+            },
+            {
+              "word": "peacock",
+              "meaning": "n. 雄孔雀",
+              "uncertain": false
+            },
+            {
+              "word": "pride",
+              "meaning": "n. 骄傲,自豪",
+              "uncertain": false
+            },
+            {
+              "word": "wisdom",
+              "meaning": "n. 智慧,精明",
+              "uncertain": false
+            },
+            {
+              "word": "British",
+              "meaning": "adj. 英国的,英国人的",
+              "uncertain": false
+            },
+            {
+              "word": "kowtow",
+              "meaning": "v. 叩头,磕头;唯命是从",
+              "uncertain": false
+            },
+            {
+              "word": "expression",
+              "meaning": "n. 词语;表达;表情",
+              "uncertain": false
+            },
+            {
+              "word": "spelling",
+              "meaning": "n. 拼写;拼法",
+              "uncertain": false
+            },
+            {
+              "word": "elevator",
+              "meaning": "n. 电梯;升降机",
+              "uncertain": false
+            },
+            {
+              "word": "pronunciation",
+              "meaning": "n. 发音",
+              "uncertain": false
+            },
+            {
+              "word": "cent",
+              "meaning": "n. 分",
+              "uncertain": false
+            },
+            {
+              "word": "cookbook",
+              "meaning": "n. 烹饪书,烹饪菜谱",
+              "uncertain": false
+            },
+            {
+              "word": "totally",
+              "meaning": "adv. 完全,全部地,整个地",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "accent",
+              "meaning": "n. 口音,腔调",
+              "uncertain": false
+            },
+            {
+              "word": "oral",
+              "meaning": "adj. 口头的",
+              "uncertain": false
+            },
+            {
+              "word": "dare",
+              "meaning": "modal v. 敢,敢于",
+              "uncertain": false
+            },
+            {
+              "word": "sleepy",
+              "meaning": "adj. 想睡的,困倦的,瞌睡的",
+              "uncertain": false
+            },
+            {
+              "word": "final",
+              "meaning": "adj. 最终的,最后的",
+              "uncertain": false
+            },
+            {
+              "word": "real",
+              "meaning": "adj. 真实的,实际存在的;真正的",
+              "uncertain": false
+            },
+            {
+              "word": "retell",
+              "meaning": "v. 复述,重新讲述",
+              "uncertain": false
+            },
+            {
+              "word": "indirect",
+              "meaning": "adj. 间接的,附带的",
+              "uncertain": false
+            },
+            {
+              "word": "granddaughter",
+              "meaning": "n. (外)孙女",
+              "uncertain": false
+            },
+            {
+              "word": "pronounce",
+              "meaning": "v. 发音,读(音)",
+              "uncertain": false
+            },
+            {
+              "word": "dialog",
+              "meaning": "n. 对话,对白",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "at times",
+              "meaning": "有时;间或",
+              "uncertain": false
+            },
+            {
+              "word": "ancient",
+              "meaning": "adj.古代的;古老的",
+              "uncertain": false
+            },
+            {
+              "word": "magical",
+              "meaning": "adj.奇妙的;有魔力的",
+              "uncertain": false
+            },
+            {
+              "word": "creature",
+              "meaning": "n.生物;动物",
+              "uncertain": false
+            },
+            {
+              "word": "emperor",
+              "meaning": "n.皇帝",
+              "uncertain": false
+            },
+            {
+              "word": "compare",
+              "meaning": "v.比较,对比",
+              "uncertain": false
+            },
+            {
+              "word": "compare ... to ...",
+              "meaning": "把……比作……",
+              "uncertain": false
+            },
+            {
+              "word": "courage",
+              "meaning": "n.勇气;胆略",
+              "uncertain": false
+            },
+            {
+              "word": "underline",
+              "meaning": "v.在(词语等下)画线;画底线标出",
+              "uncertain": false
+            },
+            {
+              "word": "difference",
+              "meaning": "n.差别;差异",
+              "uncertain": false
+            },
+            {
+              "word": "mistake",
+              "meaning": "n.错误,失误",
+              "uncertain": false
+            },
+            {
+              "word": "make mistakes",
+              "meaning": "犯错误",
+              "uncertain": false
+            },
+            {
+              "word": "peacock",
+              "meaning": "n.雄孔雀",
+              "uncertain": false
+            },
+            {
+              "word": "pride",
+              "meaning": "n.骄傲,自豪",
+              "uncertain": false
+            },
+            {
+              "word": "wisdom",
+              "meaning": "n.智慧,精明",
+              "uncertain": false
+            },
+            {
+              "word": "British",
+              "meaning": "adj.英国的,英国人的",
+              "uncertain": false
+            },
+            {
+              "word": "kowtow",
+              "meaning": "v.叩头,磕头;唯命是从",
+              "uncertain": false
+            },
+            {
+              "word": "expression",
+              "meaning": "n.词语;表达;表情",
+              "uncertain": false
+            },
+            {
+              "word": "spelling",
+              "meaning": "n.拼写;拼法",
+              "uncertain": false
+            },
+            {
+              "word": "elevator",
+              "meaning": "n.电梯;升降机",
+              "uncertain": false
+            },
+            {
+              "word": "pronunciation",
+              "meaning": "n.发音",
+              "uncertain": false
+            },
+            {
+              "word": "cent",
+              "meaning": "n.分",
+              "uncertain": false
+            },
+            {
+              "word": "cookbook",
+              "meaning": "n.烹饪书,烹饪菜谱",
+              "uncertain": false
+            },
+            {
+              "word": "totally",
+              "meaning": "adv.完全,全部地,整个地",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "accent",
+              "meaning": "n.口音,腔调",
+              "uncertain": false
+            },
+            {
+              "word": "oral",
+              "meaning": "adj.口头的",
+              "uncertain": false
+            },
+            {
+              "word": "dare",
+              "meaning": "modal v.敢,敢于",
+              "uncertain": false
+            },
+            {
+              "word": "sleepy",
+              "meaning": "adj.想睡的,困倦的,瞌睡的",
+              "uncertain": false
+            },
+            {
+              "word": "final",
+              "meaning": "adj.最终的,最后的",
+              "uncertain": false
+            },
+            {
+              "word": "real",
+              "meaning": "adj.真实的,实际存在的;真正的",
+              "uncertain": false
+            },
+            {
+              "word": "retell",
+              "meaning": "v.复述,重新讲述",
+              "uncertain": false
+            },
+            {
+              "word": "indirect",
+              "meaning": "adj.间接的,附带的",
+              "uncertain": false
+            },
+            {
+              "word": "granddaughter",
+              "meaning": "n.(外)孙女",
+              "uncertain": false
+            },
+            {
+              "word": "pronounce",
+              "meaning": "v.发音,读(音)",
+              "uncertain": false
+            },
+            {
+              "word": "dialog",
+              "meaning": "n.对话,对白",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

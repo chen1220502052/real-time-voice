@@ -1,0 +1,435 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页138.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "d8c6781fffc49438a339c2e413a0a75a9b5236be9d891a2371e294f211c67acb",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "bus",
+              "meaning": "n.公共汽车",
+              "uncertain": false
+            },
+            {
+              "word": "driver",
+              "meaning": "n.司机",
+              "uncertain": false
+            },
+            {
+              "word": "woman",
+              "meaning": "n.妇女;女性",
+              "uncertain": false
+            },
+            {
+              "word": "blue",
+              "meaning": "adj.蓝色的 n.蓝色",
+              "uncertain": false
+            },
+            {
+              "word": "dress",
+              "meaning": "n.连衣裙",
+              "uncertain": false
+            },
+            {
+              "word": "policewoman",
+              "meaning": "n.女警察",
+              "uncertain": false
+            },
+            {
+              "word": "yellow",
+              "meaning": "adj.黄色的 n.黄色",
+              "uncertain": false
+            },
+            {
+              "word": "child",
+              "meaning": "n.儿子,女儿;儿童,小孩",
+              "uncertain": false
+            },
+            {
+              "word": "pink",
+              "meaning": "adj.粉红色的 n.粉红色",
+              "uncertain": false
+            },
+            {
+              "word": "toy",
+              "meaning": "n.玩具",
+              "uncertain": false
+            },
+            {
+              "word": "rabbit",
+              "meaning": "n.兔",
+              "uncertain": false
+            },
+            {
+              "word": "factory",
+              "meaning": "n.工厂",
+              "uncertain": false
+            },
+            {
+              "word": "hospital",
+              "meaning": "n.医院",
+              "uncertain": false
+            },
+            {
+              "word": "restaurant",
+              "meaning": "n.餐馆;餐厅",
+              "uncertain": false
+            },
+            {
+              "word": "work",
+              "meaning": "v.从事……工作;运转 n.工作;作品",
+              "uncertain": false
+            },
+            {
+              "word": "people",
+              "meaning": "n.(pl.)人;人们;国民",
+              "uncertain": false
+            },
+            {
+              "word": "there",
+              "meaning": "adv.(表示存在或发生);在那里",
+              "uncertain": false
+            },
+            {
+              "word": "photo",
+              "meaning": "n.照片",
+              "uncertain": false
+            },
+            {
+              "word": "of",
+              "meaning": "prep.属于……的;关于(某人)",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "n.体育(课)",
+              "uncertain": false
+            },
+            {
+              "word": "teach",
+              "meaning": "v.教授;教导;教",
+              "uncertain": false
+            },
+            {
+              "word": "us",
+              "meaning": "pron.我们",
+              "uncertain": false
+            },
+            {
+              "word": "eight",
+              "meaning": "num.八",
+              "uncertain": false
+            },
+            {
+              "word": "so",
+              "meaning": "adv.如此,极;那么;这样 conj.所以",
+              "uncertain": false
+            },
+            {
+              "word": "pretty",
+              "meaning": "adj.漂亮的;美观的 adv.相当;非常",
+              "uncertain": false
+            },
+            {
+              "word": "only",
+              "meaning": "adv.只有;仅;只不过 adj.仅有的;最适当的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "busy",
+              "meaning": "adj.忙碌的;全身心忙于某事",
+              "uncertain": false
+            },
+            {
+              "word": "on",
+              "meaning": "prep.在(某一天);在……上;通过;关于",
+              "uncertain": false
+            },
+            {
+              "word": "Saturday",
+              "meaning": "n.星期六",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "n.篮球运动;篮球",
+              "uncertain": false
+            },
+            {
+              "word": "noon",
+              "meaning": "n.正午,中午",
+              "uncertain": false
+            },
+            {
+              "word": "afternoon",
+              "meaning": "n.下午",
+              "uncertain": false
+            },
+            {
+              "word": "parent",
+              "meaning": "n.父亲;母亲",
+              "uncertain": false
+            },
+            {
+              "word": "visit",
+              "meaning": "v.访问;参观",
+              "uncertain": false
+            },
+            {
+              "word": "grandparent",
+              "meaning": "n.祖父;祖母;外祖父;外祖母",
+              "uncertain": false
+            },
+            {
+              "word": "eat",
+              "meaning": "v.吃饭;吃",
+              "uncertain": false
+            },
+            {
+              "word": "watch",
+              "meaning": "v.观看;关注",
+              "uncertain": false
+            },
+            {
+              "word": "TV",
+              "meaning": "n.电视",
+              "uncertain": false
+            },
+            {
+              "word": "chore",
+              "meaning": "n.日常事务;例行工作",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "bus",
+              "meaning": "n.公共汽车",
+              "uncertain": false
+            },
+            {
+              "word": "driver",
+              "meaning": "n.司机",
+              "uncertain": false
+            },
+            {
+              "word": "woman",
+              "meaning": "n.妇女;女性",
+              "uncertain": false
+            },
+            {
+              "word": "blue",
+              "meaning": "adj.蓝色的 n.蓝色",
+              "uncertain": false
+            },
+            {
+              "word": "dress",
+              "meaning": "n.连衣裙",
+              "uncertain": false
+            },
+            {
+              "word": "policewoman",
+              "meaning": "n.女警察",
+              "uncertain": false
+            },
+            {
+              "word": "yellow",
+              "meaning": "adj.黄色的 n.黄色",
+              "uncertain": false
+            },
+            {
+              "word": "child",
+              "meaning": "n.儿子,女儿;儿童,小孩",
+              "uncertain": false
+            },
+            {
+              "word": "pink",
+              "meaning": "adj.粉红色的 n.粉红色",
+              "uncertain": false
+            },
+            {
+              "word": "toy",
+              "meaning": "n.玩具",
+              "uncertain": false
+            },
+            {
+              "word": "rabbit",
+              "meaning": "n.兔",
+              "uncertain": false
+            },
+            {
+              "word": "factory",
+              "meaning": "n.工厂",
+              "uncertain": false
+            },
+            {
+              "word": "hospital",
+              "meaning": "n.医院",
+              "uncertain": false
+            },
+            {
+              "word": "restaurant",
+              "meaning": "n.餐馆;餐厅",
+              "uncertain": false
+            },
+            {
+              "word": "work",
+              "meaning": "v.从事……工作;运转 n.工作;作品",
+              "uncertain": false
+            },
+            {
+              "word": "people",
+              "meaning": "n.(pl.)人;人们;国民",
+              "uncertain": false
+            },
+            {
+              "word": "there",
+              "meaning": "adv.(表示存在或发生);在那里",
+              "uncertain": false
+            },
+            {
+              "word": "photo",
+              "meaning": "n.照片",
+              "uncertain": false
+            },
+            {
+              "word": "of",
+              "meaning": "prep.属于……的;关于(某人)",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "n.体育(课)",
+              "uncertain": false
+            },
+            {
+              "word": "teach",
+              "meaning": "v.教授;教导;教",
+              "uncertain": false
+            },
+            {
+              "word": "us",
+              "meaning": "pron.我们",
+              "uncertain": false
+            },
+            {
+              "word": "eight",
+              "meaning": "num.八",
+              "uncertain": false
+            },
+            {
+              "word": "so",
+              "meaning": "adv.如此,极;那么;这样 conj.所以",
+              "uncertain": false
+            },
+            {
+              "word": "pretty",
+              "meaning": "adj.漂亮的;美观的 adv.相当;非常",
+              "uncertain": false
+            },
+            {
+              "word": "only",
+              "meaning": "adv.只有;仅;只不过 adj.仅有的;最适当的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "busy",
+              "meaning": "adj.忙碌的;全身心忙于某事",
+              "uncertain": false
+            },
+            {
+              "word": "on",
+              "meaning": "prep.在(某一天);在……上;通过;关于",
+              "uncertain": false
+            },
+            {
+              "word": "Saturday",
+              "meaning": "n.星期六",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "n.篮球运动;篮球",
+              "uncertain": false
+            },
+            {
+              "word": "noon",
+              "meaning": "n.正午,中午",
+              "uncertain": false
+            },
+            {
+              "word": "afternoon",
+              "meaning": "n.下午",
+              "uncertain": false
+            },
+            {
+              "word": "parent",
+              "meaning": "n.父亲;母亲",
+              "uncertain": false
+            },
+            {
+              "word": "visit",
+              "meaning": "v.访问;参观",
+              "uncertain": false
+            },
+            {
+              "word": "grandparent",
+              "meaning": "n.祖父;祖母;外祖父;外祖母",
+              "uncertain": false
+            },
+            {
+              "word": "eat",
+              "meaning": "v.吃饭;吃",
+              "uncertain": false
+            },
+            {
+              "word": "watch",
+              "meaning": "v.观看;关注",
+              "uncertain": false
+            },
+            {
+              "word": "TV",
+              "meaning": "n.电视",
+              "uncertain": false
+            },
+            {
+              "word": "chore",
+              "meaning": "n.日常事务;例行工作",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

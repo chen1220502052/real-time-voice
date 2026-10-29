@@ -16,9 +16,9 @@ flowchart LR
 
 ## 2. 模型选择
 
-| 原子能力 | 首选开源方案 | 选择原因 | 第一阶段约束 |
+| 原子能力 | 当前实现 | 选择原因 | 第一阶段约束 |
 | --- | --- | --- |
-| 中文 ASR | [Paraformer-zh-streaming（220M）+ fsmn-vad（0.4M）](https://github.com/modelscope/FunASR) | Paraformer-zh-streaming 面向实时流式识别；fsmn-vad 负责低成本检测用户说话起止。 | 固定该组合；输入 16 kHz 单声道 PCM，输出中间和最终中文识别结果。 |
+| 中文 ASR | 默认混合模式为本地 [fsmn-vad（0.4M）](https://github.com/modelscope/FunASR) + 阿里云智能语音交互 NLS；本地离线回退为 Paraformer-zh-streaming（220M）+ fsmn-vad | 本地 VAD 保持逐包状态和端点可控，NLS 降低本机资源占用；无云服务时仍可完全离线。 | 两种后端共享同一 `AsrVadResult`；输入 16 kHz 单声道 PCM，输出中间和最终中文结果。 |
 | 中文 TTS | [Piper](https://github.com/OHF-Voice/piper1-gpl) + `zh_CN-huayan-medium` | 约 63MB ONNX 中文模型，在本机 CPU 上可流式输出且实测 RTF 约 0.38。 | 不追求定制音色；Piper 的音频流会转为 16kHz PCM 并按 100ms 下发。 |
 | 对话 LLM | [Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)，由 Ollama 本地量化部署 | 0.5B 参数适配本机 16GB Intel CPU 内存预算；Ollama 提供 OpenAI 兼容的流式接口。 | 固定使用 `qwen2.5:0.5b`，不启用 3B/4B 默认模型，优先首 token 延迟。 |
 | 猫动画 | 自研 RMS 能量驱动器 | 首期只需开口/闭口，不需要人脸驱动或视频生成模型；无需 GPU，稳定且延迟极低。 | 两张对齐的猫图片：`mouth_closed`、`mouth_open`。 |
@@ -53,7 +53,11 @@ class CatAnimationDriver:
 
 ## 4. ASR + VAD 原子能力
 
-ASR 与 VAD 合并为一个模块，固定采用 `Paraformer-zh-streaming + fsmn-vad`。模块从会话开始到会话结束**持续不断**地消费前端传来的 100 ms 音频包，不能因一句话结束而停止输入流。VAD 给出当前包的说话状态和精确起止位置，Paraformer 只在说话区间内维护当前这一次说话（utterance）的识别缓存。每输入一个音频包，模块必须返回一个对应的识别结果，包括静默包。
+ASR 与 VAD 对编排层表现为一个模块。默认混合模式使用本地 `fsmn-vad` 判定
+说话区间，再把有效片段发送给阿里云 NLS；`ASR_BACKEND=funasr` 时改用本地
+`Paraformer-zh-streaming` 识别。模块从会话开始到会话结束**持续不断**地消费
+前端传来的 100 ms 音频包，不能因一句话结束而停止输入流。两种实现每输入一个
+音频包都必须返回同构结果，包括静默包。
 
 ### 4.1 输入
 
@@ -144,15 +148,20 @@ AsrVadResult = {
 
 ### 4.5 实现要求
 
-- VAD 对每个 100 ms 包立即返回状态；`Paraformer-zh-streaming` 的 ASR 内部将连续 100 ms 包累积为模型所需的推理块（首期按 600 ms），再产生中间文本。说话结束时必须立即 flush 剩余缓存并输出 `status=3` 的最终文本。
+- VAD 对每个 100 ms 包立即返回状态；本地 `Paraformer-zh-streaming` 在内部按
+  600 ms 推理块累积，结束时 flush 剩余缓存。NLS 适配器保持外部 100 ms
+  协议不变，在 SDK 边界拆成五个 20 ms PCM 写入，并在本地端点结束时同步
+  `stop` 获取最终结果。
+- FSMN-VAD 若已开始说话但未发出结束事件，连续 800 ms 低 RMS 静音触发安全
+  收尾，避免一次 utterance 永久卡在 `status=2`。
 - 第一阶段优先在普通话场景验证识别准确度，再考虑方言、热词和说话人分离。
 - `reset` 必须丢弃当前未完成说话及模型缓存，供用户打断或会话关闭使用。
 
 ## 5. ADK 聊天 Agent 与流式 LLM
 
-LLM 原子能力由一个简单的 ADK 聊天 Agent 提供。模型运行在本地 Ollama（本文将用户所述的 “Ollm” 按 Ollama 实现），调用 `http://localhost:11434/v1/chat/completions` 的 OpenAI 兼容流式接口。ADK 是 Agent 层：负责系统提示词拼接、可选 RAG 检索和消息规整；它不保存也不生成对话历史。
+当前服务边界采用 [TextBot v2](12-text-bot-interface.md)：Bot 服务拥有会话历史、状态恢复、幂等结果与存储；双工只提交输入及播放事实。以下 messages 和供应商请求描述 Bot 内部无状态模型适配层，不是双工到 Bot 的服务接口。生产使用已配置的远程兼容模型，本地 Ollama 仅为可选适配器。
 
-上游模块是对话历史的唯一所有者。每次调用都将完整的、有序的历史传给 Agent，结构与 OpenAI Chat Completions 的 `messages` 一致；为贴近业务语义，输入允许 `machine`，Agent 在调用模型前将其规范化为 OpenAI 的 `assistant`。
+Bot 服务从自己的事实记录投影有序历史，再交给内部模型适配器。旧适配器兼容 machine 并转换为 assistant；新英语实现使用 user 和 assistant。双工不接触这一步，也不决定哪些生成内容算作已经说过的话。
 
 ### 5.1 输入
 
@@ -170,7 +179,7 @@ LLM 原子能力由一个简单的 ADK 聊天 Agent 提供。模型运行在本�
 
 - `messages` 至少有一条消息，最后一条必须为 `user`。
 - `role` 只接受 `user`、`machine`；`machine` 在发往 Ollama 前转换为 `assistant`。
-- 历史顺序由上游保证，Agent 不做持久化、不追加、不删除历史；超长历史的截断或摘要也由上游完成。
+- 模型适配器不持久化状态；顺序、投影和上下文预算由 Bot 服务负责，不由双工负责。
 
 ### 5.2 Agent 职责
 
@@ -517,7 +526,7 @@ sequenceDiagram
 
 #### 回合创建
 
-当且仅当 ASR+VAD 返回 `status=3` 且 `text` 非空时，`asrLoop` 生成一个新的用户回合。它先把该最终文本追加到**上游拥有的对话历史**，再调用 ADK Agent。Agent 回复开始时创建新的 `replyId`，该 ID 贯穿 TextChunker、TTS、播放包和可能的打断事件。
+ASR+VAD 返回 status=3 且 text 非空时，创建稳定 turnId、requestId 和 replyId，经 TextBot v2 提交当前输入与近期交互事实。Bot 自己保存输入和会话状态。replyId 贯穿 TextChunker、TTS、播放包与打断回执，不由双工裁剪或回滚内容历史。
 
 在调用 Agent 前执行轻量告别检测：若最终文本匹配“再见”“拜拜”等结束意图，编排器不启动 LLM/TTS，直接产生 `close_session(reason=user_goodbye)`。
 
@@ -562,3 +571,229 @@ sequenceDiagram
 6. **DuplexSession**：接入连续上行音频，验证上行不间断、下行流式生成、用户打断、关闭和队列背压。
 
 完成以上能力后，再将 `DuplexSession` 接入 WebSocket 管理层，并实现资源配额和多会话并发。
+
+## 10. ECS RAM 角色认证（2026-10-22）
+
+远端认证不再依赖手工维护的临时 Token 或长期 AccessKey。`nls_auth.py` 显式选择
+Credentials SDK 的 `ecs_ram_role` provider（版本 1.0.12），仅用加固模式 IMDSv2
+取得实例角色的 STS 凭证，再通过 HTTPS `CreateToken` 获取 NLS Token。
+SDK 管理 STS 更新，应用按 NLS `ExpireTime` 缓存、提前 300 秒按需刷新，并合并
+同进程并发刷新。不会在每个音频包上获取身份，不改变 VAD 或媒体排程。
+
+### 阿里云控制台配置
+
+1. 在与 NLS 项目/Appkey 相同的阿里云账号中，打开 RAM 控制台 → 身份管理 →
+   角色 → 创建角色。可信实体类型选“阿里云服务”，服务选“云服务器 ECS”。
+   例如命名为 `CatVoiceNlsRole`。
+2. 给角色授予 `AliyunNLSSpeechServiceAccess`（包含 `nls:CreateToken`），不要授予
+   `AdministratorAccess`。如果管理员要求自定义最小策略，可仅允许
+   `nls:CreateToken`、Resource `*`；实际权限以隔离环境的 CreateToken 调用验证为准。
+   权限不足应由账号管理员处理，部署程序不得自行提升权限。
+3. ECS 控制台选择中国香港，进入实例 `i-j6ci77fwjtiopeqqxctu` → 全部操作 →
+   实例设置 → 授予/收回 RAM 角色，绑定上述角色。若已有其他业务角色，不要直接
+   替换，先确认其用途并评估所需权限。
+4. 保持实例元数据服务可供本机应用通过 IMDSv2 访问。无需开放公网端口或放宽
+   安全组；本实现不降级 IMDSv1，也不绕过元数据访问控制。
+5. 通知部署人员角色名称即可，无需创建/传送 AccessKey 或 Token。
+
+官方参考：[绑定实例角色](https://help.aliyun.com/zh/ecs/user-guide/attach-an-instance-ram-role-to-an-ecs-instance)、
+[NLS Token 与权限](https://help.aliyun.com/zh/isi/user-guide/obtain-an-access-token-1/)、
+[凭证 SDK / IMDSv2](https://help.aliyun.com/en/sdk/developer-reference/v2-manage-python-access-credentials)。
+
+### 应用配置
+
+```dotenv
+ALIYUN_NLS_AUTH_MODE=ecs_ram_role
+ALIYUN_ECS_RAM_ROLE_NAME=CatVoiceNlsRole
+# 保留原有 NLS 项目 Appkey；它必须与角色所属账号匹配。
+ALIYUN_NLS_APP_KEY=<原有项目Appkey>
+```
+
+角色名可省略，由 SDK 从 IMDSv2 发现。角色模式绝不回退 `ALIYUN_NLS_TOKEN`、
+`ALIYUN_AK_ID` 或 `ALIYUN_AK_SECRET`；正式切换时从运行配置移除不再使用的旧凭证。
+`.env.example` 默认 `auto` 仅为兼容已有本地测试，不会自动探测本地 IMDS。
+安装 `.[nls-asr]` 会包含 NLS SDK、公共 RPC SDK 和 Credentials SDK。隔离测试目录
+可使用独立依赖路径，但正式环境也必须安装相同已验证版本，不能仅上传 Python 源码。
+
+当前远端发布 `rtv-20261022-ram-timing-r1` 使用自动发现的已绑定角色。生产虚拟环境
+没有 pip，故将隔离环境通过 HTTPS PyPI 安装、真实链路验证过的依赖随发布包放入
+`runtime_deps/nls_role`，以受控 `PYTHONPATH` 加载；不临时修改原虚拟环境。
+发布程序备份应用/配置/SQLite，检查活动会话及文件摘要后切换，失败恢复旧应用与配置。
+后续常规构建应将该依赖纳入统一制品流程，避免独立路径长期漂移。
+
+### 明确报错与状态边界
+
+业务协议保留 `code: ASR_FAILED`，可选 `reasonCode` 包括：
+
+| reasonCode | 含义 |
+| --- | --- |
+| `NLS_ROLE_CREDENTIALS_UNAVAILABLE` | 角色未绑定、角色名错误或 IMDSv2 获取失败 |
+| `NLS_TOKEN_REFRESH_FAILED` | CreateToken 调用失败，需核对权限/账号/网络 |
+| `NLS_AUTH_FAILED` | 握手 HTTP 401/403，或 NLS 明确拒绝鉴权 |
+| `NLS_NOT_READY` | SDK start 返回但没有就绪回调，禁止发送音频 |
+| `NLS_CONNECTION_CLOSED` | 未完成识别就关闭连接，不伪造空定稿 |
+| `NLS_CONNECTION_FAILED` | 底层连接/TLS 失败 |
+
+固定到现有 NLS SDK v1.0.2 的实例级 transport bridge 将被 SDK 吞掉的底层错误
+转为上述安全错误，不改第三方全局函数、不回显 Token 或签名。Credentials SDK
+原始日志可能包含缓存凭证对象，故抑制其 `credentials` logger，仅输出应用安全原因码。
+每轮 NLS 回调使用本地 epoch 围栏，避免已重置连接的迟到回调污染下一轮。
+原来的后台发送线程、100ms→20ms 分片、FIFO flush 和 stop-once 机制保留。
+
+### 发布门禁
+
+先验证角色发现 → CreateToken → 真正 NLS 就绪 → 真实音频非空定稿，再在独立
+远端服务中测试开场白、多轮对话、打断、旧音频泄漏、队列/40010005 和时序埋点。
+未通过则不替换线上服务。浏览器回执若使用模拟，报告必须明确标注，不能声称物理
+出声验收通过。本地仅运行轻量回归，不启动语音服务或加载本地语音模型。
+
+## 11. 首字/首句与提示词优化（2026-10-22，已发布）
+
+本节描述上一轮已发布版本，不代表后续短首段改造已发布。该轮先在远端隔离进程验证，后经用户确认发布。优化限制为：精简重复系统规则、
+不注入零相关的任意年级主题、将主题投影为单元/词义/完整例句，并仅在有未完整交付
+内容时附加恢复说明。资料原包与来源不变；完整用户历史、已听前缀和未听草稿均不
+截断、不摘要，继续由 BotService 投影。保留年级、安全、中文帮助、AI 身份及完整句
+守卫。VAD、打断阈值、120ms 安静门槛、exact 接管和 TTS 路径均未调整。
+
+### 计时语义
+
+- `providerRequestMs`、`providerHeadersMs`、`providerFirstTokenMs`、
+  `firstSentenceReadyMs` 都是相对于同一 Timing 起点的里程碑，不能直接相加。
+  网络等待可看 headers−request，头到首字可看 firstToken−headers，首句等待可看
+  firstSentenceReady−firstToken。`firstSentenceReadyMs` 是完整、可朗读首句，不是
+  模型原始首字，也不含浏览器设备播放。
+- `promptChars` 是系统加历史的字符数，不是 token 数。另记录 `systemPromptChars`、
+  `historyChars`、`historyMessages`，避免将整个输入长度误称为系统提示词长度。
+- 预生成使用自己的 Timing；命中时以 `candidateProviderRequestMs`、
+  `candidateProviderHeadersMs`、`candidateProviderFirstTokenMs`、
+  `candidateFirstSentenceReadyMs`、`candidatePromptChars` 等可选字段报告。
+  候选里程碑相对候选起点，不与正式请求起点混用；不存在的字段不补零。
+
+### 为什么本轮不预合成 TTS 或缩短 VAD
+
+设服务端定稿时刻为 F、候选完整首句就绪时刻为 L、首包合成耗时为 T，忽略其他
+调度成本时，现有路径首媒体就绪约为 `max(F,L)+T`，提前合成路径约为 `max(F,L+T)`。
+只有 `L<F` 才有 TTS 可隐藏窗口；如果所有命中 `adoptedReady=false`，首句尚未就绪，
+不能在等待模型首句期间提前合成未知文本，更不能按每轮命中固定节省 250ms。
+预合成还会增加取消、缓存身份和 CPU 竞争，需要独立门禁，不在本轮贸然加入。
+
+120ms 是从安静开始计的门槛，后续 partial 更新不会重新计时；若最终一致文本在
+安静已持续数百毫秒后才来，120→60 并不能保证额外提前 60ms。端点调整也不能绝对
+概括为“只帮助 miss”：收益取决于实际关键路径，且可能损害句中停顿/抢话效果。
+因此本轮不改变 VAD 与打断策略，先改善命中和未命中都要付出的模型首字/首句成本。
+
+### 真实 LLM 配对试验
+
+`scripts/check_prompt_latency.py` 在 ECS 读取生产旧版 prompt/material 构造作为基线，
+与候选版共享供应商、模型、HTTP 池、完整消息及年级。预热一次未计分请求，然后对
+问候、23+45、中文 guitar 词义和 Curry 历史记忆四场景各做三次交替顺序配对。
+12 组均通过答案检查；无 ASR/TTS Mock，但此试验本身只有文本 LLM，不是语音出声测试。
+
+| 指标 | 基线中位数 | 候选中位数 | 逐组配对差中位数 |
+| --- | ---: | ---: | ---: |
+| 输入字符数 | 4399.5 | 2355.5 | 减少 2044 |
+| 模型首字 | 731.6ms | 595.5ms | 减少 149.7ms |
+| Bot 完整首句 | 849.6ms | 730.1ms | 减少 162.0ms |
+
+原始报告：`.local/prompt-opt-20261022/prompt-ab.json`。全部样本计入，包含变慢的
+中文帮助样本及基线约 3.45s 首字的离群样本；因此不使用被离群值抬高的均值作为
+主要收益声明。两臂各自中位数之差不是配对差中位数；小样本仍有云端波动，不能
+承诺固定节省 150–162ms，更不能直接换算为物理出声收益。
+
+候选后续通过四轮真实 WAV→NLS→LLM→Piper、未播放/部分播放两次打断（旧音频泄漏
+0）、命令与空闲不挂断、Bot 幂等和未听/部分听后的恢复；日志队列溢出、40010005、
+ASR_FAILED 均为 0。客户端播放回执为模拟，`physicalOutput=null`。
+候选样本中新增计时如首字 515.01ms、完整首句 630.63ms、提前量 23.74ms、剩余
+等待 606.92ms，可以明确看出首字与可朗读首句之间仍有约 116ms，不能当作 TTS 耗时。
+轻量回归最终 267 passed、3 deselected；前端时间轴与 9 项播放/停止场景通过。
+候选服务 `rtv-prompt-voice-verify` 已停止，本地语音服务未启动。
+
+隔离验收结束时生产仍为 `rtv-20261022-prefetch-on-r2`；随后经用户确认部署，当前为
+`rtv-20261022-prompt-opt-r3`，预生成保持开启。生产源码与已测试候选的 56 个文件
+摘要一致，仅发布 4 个变更的后端文件；前端和依赖未替换。运行配置除 `GIT_COMMIT`
+外全部保持原值，包括角色认证、模型、VAD 和打断参数。
+发布包 SHA256：`95597c72a8a673bfc54df3d0dba27520511c876e66ca5bf011caa4a1548f23b7`。
+应用、配置和 SQLite 的受限备份目录为
+`/var/backups/real-time-voice/rtv-20261022-prompt-opt-r3`；配置含敏感凭证，不可公开。
+发布脚本先检查活动会话、源码变化，启动健康失败时恢复原应用和配置。
+发布后经 `wss://aimaoren.com/ws` 四轮真实 WAV→NLS→LLM→Piper 复测通过，含
+Paris、23+45=68；errors=[]，缓存结果 hit/miss/hit/hit。另复测 0ms/550ms
+播放进度的两次打断，errors=[]、旧音频泄漏 0。播放回执为模拟，不代表物理出声
+测量；公网报告为 `deployed-public-voice.json` 与 `deployed-public-interrupt.json`。
+原始报告都在 `.local/prompt-opt-20261022/`：`prompt-ab.json`、`voice.json`、
+`interrupt.json`、`commands.json`、`recovery.json`。提示词配对报告 SHA256：
+`da9e094406320afec2faadd173a0f419fee02fa029d5da83c153b893cd9c3a02`。
+
+用户提供的旧版 3 条关闭样本均值为 1968.33ms，本次列出的 7 条有效开启样本均值为
+1853.29ms，观察差约 115.05ms，不是 150ms；第八条缺失不能按 0 计入。
+这不是同批交替配对对照，也未取得其浏览器录音时间轴原始文件，故这里只校正算术，
+不据此认证物理出声口径、开关的因果收益或“方差变大”的稳定结论。
+
+## 12. 短首段与自适应语音分段（2026-10-22，已发布）
+
+不调整 NLS、VAD、打断门槛、exact 接管条件，不做定稿前音频预合成。
+
+### 职责与流水线
+
+- BotService 将现有 v2 channel 投影到内部 BotRequest.channel，不新增公共请求字段。
+  EnglishChatBot 在 voice 通道交付稳定完整单词的增量，text 通道仍整句交付。
+  具体多长送一次 TTS 属于双工，不由 Bot 决定。
+- ReplyPipeline.read_text 持续接收 Bot 增量写入回复级 SpeechBuffer，synthesize 顺序合成。
+  两者并行，模型接收不再因 TTS 暂停；文本缓冲上限 4096 字符，媒体仍用原有有界队列。
+- 首段目标 4 个完整单词；较短词组最多累计 100ms 后尝试提交。标点可提前结束，
+  不切未完成单词、小数、相邻数字词；为避免悬空介词等，目标可适当延长。
+- 后续按剩余音频估计选择 6 / 10 / 16 词目标：小于 600ms / 600–1500ms /
+  至少 1500ms。自然标点可以提前结束一段。TTS 不等待当前音频实际播完再工作。
+- 音频时长取实际 PCM 字节数（32 bytes/ms），结合当前 replyId 的 playback_progress
+  和经过时间估计消耗；无回执时用首帧发送时间估计。此估计只控制分段，绝不写作已听历史。
+
+### 取消与内容边界
+
+两个子任务由同一回复任务持有。任一失败先使 replyId/epoch 失效，再取消并回收另一任务。
+打断、换轮、挂断也回收两者，旧 epoch 迟到文本、PCM、动作不得进入新回复。
+TTS 保留原有锁/单线程执行器。只有产生 PCM 的段才记录 speech_segment；仅整条回复结束
+时补齐末帧，不在段间填充静音。Bot 仍按确认播放位置投影已播分段，可能得到短语前缀。
+
+提前播放不等于整句事前校验。结构化输出屏蔽、年级/安全提示和完整回复预算继续保留，
+但语音允许先交付单词前缀。若后续句子校验拒绝此前缀、模型失败或断在悬空尾巴，则本轮
+失败并清理待播音频，不撤回已播内容、不拼接 fallback、不报告正常 done。
+需要整句事前校验的部署应关闭短首段。
+
+云端门禁另外覆盖短语级交付后的继续请求：仅在明确请求“继续/把刚才的话说完”且有
+已确认交付前缀时，Bot 的 continuation 模块去除模型开头完整重复的已播前缀（匹配时归一化空白和大小写）。
+只去重一次，不做相似度或语义复用；新话题、前缀不匹配、相似但不同的单词保持原文。
+若模型只重复已播部分而没有新内容，则返回错误，不伪造成功。该处理在 Bot 内进行，
+不增加双工状态，不改播放事实或请求幂等；仅匹配明确的继续指令，其他表达仍由模型处理。
+
+### 配置、计时与门禁
+
+- VOICE_SHORT_START_ENABLED=1 默认启用；0 恢复整句 Bot 输出及此前语音分段，
+  接收/合成并行和围栏保留。TTS_SEGMENT_MAX_WAIT_MS=100 控制可用词组累计等待。
+- providerFirstTokenMs 是模型首字；firstSpeechTextReadyMs / firstSpeechTextPersistedMs
+  是短文本；firstSentenceReadyMs / firstSentencePersistedMs 是完整首句。
+  预生成使用 candidate 前缀和独立起点，稍后出现的完整首句指标继续更新，缺失不补零。
+  adoptedReady / remainingWaitMs 仍表示首个可交付 text_delta 的就绪与等待；开启短首段后
+  此终点可以是词组而非完整句，不能直接拿它与旧版完整首句等待当作同一指标比较。
+- firstSegmentReadyMs、ttsStartedMs、ttsFirstPcmMs 区分分段、合成启动及首 PCM。
+  tts_segment_started 增加 textWords、bufferEstimateMs；不记录原文。
+- 本地仅做轻量确定性回归，不启动语音服务或加载模型。远端真实链路多轮和打断为功能
+  发布门禁；真实设备短段语调、接缝、断音及实际出声收益另行验收，不承诺 400ms 出声或固定节省值。
+
+### 本次发布结果
+
+发布版本 `rtv-20261022-short-stream-r5`。300 项轻量回归通过、3 项真实模型标记用例
+未在本地执行；前端播放九场景及录音/时钟检查通过。本地语音服务未启动。
+云端隔离进程通过四轮真实 WAV→NLS→Bot→Piper、两次打断（旧音频泄漏 0）、
+五次空闲不挂断、告别回执、播放恢复以及幂等/游标重放/冲突/重复回执检查。
+发布后公网复测三轮真实 WAV、两次打断和恢复/幂等检查再次通过。
+
+运行代码与验收包 58 文件 SHA256 一致；相对发布前配置只变更 GIT_COMMIT，
+短首段和预生成均开启，VAD、打断、模型与角色鉴权配置保留。备份位于
+`/var/backups/real-time-voice/rtv-20261022-short-stream-r5`，隔离验证进程已停止。
+验收报告保存在 `.local/short-stream-release-20261022/`，包含 candidate-*-r5.json
+和 deployed-public-*-r5.json。发布包 SHA256：
+`5871b5836e2c0c4698eeae22cac47dba1c89377273ae7fac3c68e69eb4cc675d`。
+
+这些测试使用真实云端语音链路，但播放完成/进度回执为模拟，physicalOutput=null。
+它们是本次功能发布门禁，不代表物理出声延迟、真实设备接缝/语调或稳定延迟收益已验收。
+首段真人听感与同口径录音开关对照仍需后续评估；有需要可用配置关闭短首段回退。

@@ -1,0 +1,187 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/02_02_教材页面_e30869b66e.jpg",
+  "units": [
+    2
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "44f33f6d945482089eeda30fb191e40abeba5b2267fe93c7bb53a586a72ebf2d",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "Sydney",
+              "meaning": "悉尼",
+              "uncertain": false
+            },
+            {
+              "word": "tower",
+              "meaning": "塔",
+              "uncertain": false
+            },
+            {
+              "word": "famous",
+              "meaning": "著名的，出名的",
+              "uncertain": false
+            },
+            {
+              "word": "building",
+              "meaning": "建筑",
+              "uncertain": false
+            },
+            {
+              "word": "trip",
+              "meaning": "旅程，旅行",
+              "uncertain": false
+            },
+            {
+              "word": "thousand",
+              "meaning": "千",
+              "uncertain": false
+            },
+            {
+              "word": "seat",
+              "meaning": "座位",
+              "uncertain": false
+            },
+            {
+              "word": "build",
+              "meaning": "建造",
+              "uncertain": false
+            },
+            {
+              "word": "east",
+              "meaning": "东；东方的",
+              "uncertain": false
+            },
+            {
+              "word": "west",
+              "meaning": "西；西方的",
+              "uncertain": false
+            },
+            {
+              "word": "south",
+              "meaning": "南；南方的",
+              "uncertain": false
+            },
+            {
+              "word": "north",
+              "meaning": "北；北方的",
+              "uncertain": false
+            },
+            {
+              "word": "stone",
+              "meaning": "石头",
+              "uncertain": false
+            },
+            {
+              "word": "high",
+              "meaning": "高的；高地",
+              "uncertain": false
+            },
+            {
+              "word": "far",
+              "meaning": "遥远的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "Sydney",
+              "meaning": "悉尼",
+              "uncertain": false
+            },
+            {
+              "word": "tower",
+              "meaning": "塔",
+              "uncertain": false
+            },
+            {
+              "word": "famous",
+              "meaning": "著名的，出名的",
+              "uncertain": false
+            },
+            {
+              "word": "building",
+              "meaning": "建筑",
+              "uncertain": false
+            },
+            {
+              "word": "trip",
+              "meaning": "旅程，旅行",
+              "uncertain": false
+            },
+            {
+              "word": "thousand",
+              "meaning": "千",
+              "uncertain": false
+            },
+            {
+              "word": "seat",
+              "meaning": "座位",
+              "uncertain": false
+            },
+            {
+              "word": "build",
+              "meaning": "建造",
+              "uncertain": false
+            },
+            {
+              "word": "east",
+              "meaning": "东；东方的",
+              "uncertain": false
+            },
+            {
+              "word": "west",
+              "meaning": "西；西方的",
+              "uncertain": false
+            },
+            {
+              "word": "south",
+              "meaning": "南；南方的",
+              "uncertain": false
+            },
+            {
+              "word": "north",
+              "meaning": "北；北方的",
+              "uncertain": false
+            },
+            {
+              "word": "stone",
+              "meaning": "石头",
+              "uncertain": false
+            },
+            {
+              "word": "high",
+              "meaning": "高的；高地",
+              "uncertain": false
+            },
+            {
+              "word": "far",
+              "meaning": "遥远的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

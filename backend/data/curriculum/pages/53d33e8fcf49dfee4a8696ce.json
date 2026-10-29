@@ -1,0 +1,525 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页143.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "53d33e8fcf49dfee4a8696ce2dbfe128334418457fe6705d2c868fd733a3c92f",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "picnic",
+              "meaning": "n. 野餐",
+              "uncertain": false
+            },
+            {
+              "word": "weather",
+              "meaning": "n. 天气",
+              "uncertain": false
+            },
+            {
+              "word": "season",
+              "meaning": "n. 季；季节",
+              "uncertain": false
+            },
+            {
+              "word": "why",
+              "meaning": "adv. 为什么",
+              "uncertain": false
+            },
+            {
+              "word": "rain",
+              "meaning": "n. 雨；雨水 v. 下雨",
+              "uncertain": false
+            },
+            {
+              "word": "dry",
+              "meaning": "adj. 干燥的；干旱的",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "n. 羽毛球运动",
+              "uncertain": false
+            },
+            {
+              "word": "baseball",
+              "meaning": "n. 棒球运动；棒球",
+              "uncertain": false
+            },
+            {
+              "word": "phone",
+              "meaning": "n. 电话系统；手机",
+              "uncertain": false
+            },
+            {
+              "word": "shoe",
+              "meaning": "n. 鞋",
+              "uncertain": false
+            },
+            {
+              "word": "sorry",
+              "meaning": "excl. 很抱歉 adj. 歉疚；难过",
+              "uncertain": false
+            },
+            {
+              "word": "homework",
+              "meaning": "n. 家庭作业",
+              "uncertain": false
+            },
+            {
+              "word": "hope",
+              "meaning": "v., n. 希望",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "yo-yo",
+              "meaning": "n. 悠悠球",
+              "uncertain": false
+            },
+            {
+              "word": "long",
+              "meaning": "adv. (强调某事发生在某整段时间)；长期地；长久地 adj. 长的；长时间的 v. 渴望",
+              "uncertain": false
+            },
+            {
+              "word": "cloudy",
+              "meaning": "adj. 阴天的；多云的",
+              "uncertain": false
+            },
+            {
+              "word": "outdoors",
+              "meaning": "adv. 在户外；在野外",
+              "uncertain": false
+            },
+            {
+              "word": "rainy",
+              "meaning": "adj. 阴雨的；多雨的",
+              "uncertain": false
+            },
+            {
+              "word": "indoors",
+              "meaning": "adv. 在室内",
+              "uncertain": false
+            },
+            {
+              "word": "exercise",
+              "meaning": "n. 锻炼；练习 v. 锻炼",
+              "uncertain": false
+            },
+            {
+              "word": "health",
+              "meaning": "n. 健康",
+              "uncertain": false
+            },
+            {
+              "word": "tip",
+              "meaning": "n. 实用的提示；小费；尖端",
+              "uncertain": false
+            },
+            {
+              "word": "right",
+              "meaning": "adj. 适当的；正确的；右边的 n. 右边；权利",
+              "uncertain": false
+            },
+            {
+              "word": "clothes",
+              "meaning": "n. 衣服；服装",
+              "uncertain": false
+            },
+            {
+              "word": "important",
+              "meaning": "adj. 重要的",
+              "uncertain": false
+            },
+            {
+              "word": "before",
+              "meaning": "prep., conj. 在……以前",
+              "uncertain": false
+            },
+            {
+              "word": "team",
+              "meaning": "n. 队；组",
+              "uncertain": false
+            },
+            {
+              "word": "give",
+              "meaning": "v. 提供；送给；给",
+              "uncertain": false
+            },
+            {
+              "word": "keep",
+              "meaning": "v. 继续；保持；存放；记录",
+              "uncertain": false
+            },
+            {
+              "word": "pass",
+              "meaning": "v. 传球；及格；通过；传递 n. 及格",
+              "uncertain": false
+            },
+            {
+              "word": "win",
+              "meaning": "v. 获胜，赢",
+              "uncertain": false
+            },
+            {
+              "word": "wish",
+              "meaning": "n. 心愿；祝愿 v. 希望；祝愿",
+              "uncertain": false
+            },
+            {
+              "word": "feel",
+              "meaning": "v. 觉得，感到；摸起来",
+              "uncertain": false
+            },
+            {
+              "word": "star",
+              "meaning": "n. 明星；星",
+              "uncertain": false
+            },
+            {
+              "word": "use",
+              "meaning": "v. 使用",
+              "uncertain": false
+            },
+            {
+              "word": "grape",
+              "meaning": "n. 葡萄",
+              "uncertain": false
+            },
+            {
+              "word": "fast",
+              "meaning": "adv. 快；迅速 adj. 快的；迅速的",
+              "uncertain": false
+            },
+            {
+              "word": "feed",
+              "meaning": "v. 喂养；进食",
+              "uncertain": false
+            },
+            {
+              "word": "bird",
+              "meaning": "n. 鸟；禽",
+              "uncertain": false
+            },
+            {
+              "word": "red",
+              "meaning": "n. 红色 adj. 红色的",
+              "uncertain": false
+            },
+            {
+              "word": "lake",
+              "meaning": "n. 湖；湖泊",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Tai Chi",
+              "meaning": "n. 太极",
+              "uncertain": false
+            },
+            {
+              "word": "when",
+              "meaning": "adv. 何时 conj. 当……时",
+              "uncertain": false
+            },
+            {
+              "word": "ski",
+              "meaning": "v. 滑雪(运动)",
+              "uncertain": false
+            },
+            {
+              "word": "hometown",
+              "meaning": "n. 家乡；故乡",
+              "uncertain": false
+            },
+            {
+              "word": "travel",
+              "meaning": "v., n. 旅行；游历",
+              "uncertain": false
+            },
+            {
+              "word": "mountain",
+              "meaning": "n. 高山；山岳",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "picnic",
+              "meaning": "n. 野餐",
+              "uncertain": false
+            },
+            {
+              "word": "weather",
+              "meaning": "n. 天气",
+              "uncertain": false
+            },
+            {
+              "word": "season",
+              "meaning": "n. 季；季节",
+              "uncertain": false
+            },
+            {
+              "word": "why",
+              "meaning": "adv. 为什么",
+              "uncertain": false
+            },
+            {
+              "word": "rain",
+              "meaning": "n. 雨；雨水 v. 下雨",
+              "uncertain": false
+            },
+            {
+              "word": "dry",
+              "meaning": "adj. 干燥的；干旱的",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "n. 羽毛球运动",
+              "uncertain": false
+            },
+            {
+              "word": "baseball",
+              "meaning": "n. 棒球运动；棒球",
+              "uncertain": false
+            },
+            {
+              "word": "phone",
+              "meaning": "n. 电话系统；手机",
+              "uncertain": false
+            },
+            {
+              "word": "shoe",
+              "meaning": "n. 鞋",
+              "uncertain": false
+            },
+            {
+              "word": "sorry",
+              "meaning": "excl. 很抱歉 adj. 歉疚；难过",
+              "uncertain": false
+            },
+            {
+              "word": "homework",
+              "meaning": "n. 家庭作业",
+              "uncertain": false
+            },
+            {
+              "word": "hope",
+              "meaning": "v., n. 希望",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "yo-yo",
+              "meaning": "n. 悠悠球",
+              "uncertain": false
+            },
+            {
+              "word": "long",
+              "meaning": "adv. (强调某事发生在某整段时间)；长期地；长久地 adj. 长的；长时间的 v. 渴望",
+              "uncertain": false
+            },
+            {
+              "word": "cloudy",
+              "meaning": "adj. 阴天的；多云的",
+              "uncertain": false
+            },
+            {
+              "word": "outdoors",
+              "meaning": "adv. 在户外；在野外",
+              "uncertain": false
+            },
+            {
+              "word": "rainy",
+              "meaning": "adj. 阴雨的；多雨的",
+              "uncertain": false
+            },
+            {
+              "word": "indoors",
+              "meaning": "adv. 在室内",
+              "uncertain": false
+            },
+            {
+              "word": "exercise",
+              "meaning": "n. 锻炼；练习 v. 锻炼",
+              "uncertain": false
+            },
+            {
+              "word": "health",
+              "meaning": "n. 健康",
+              "uncertain": false
+            },
+            {
+              "word": "tip",
+              "meaning": "n. 实用的提示；小费；尖端",
+              "uncertain": false
+            },
+            {
+              "word": "right",
+              "meaning": "adj. 适当的；正确的；右边的 n. 右边；权利",
+              "uncertain": false
+            },
+            {
+              "word": "clothes",
+              "meaning": "n. 衣服；服装",
+              "uncertain": false
+            },
+            {
+              "word": "important",
+              "meaning": "adj. 重要的",
+              "uncertain": false
+            },
+            {
+              "word": "before",
+              "meaning": "prep., conj. 在……以前",
+              "uncertain": false
+            },
+            {
+              "word": "team",
+              "meaning": "n. 队；组",
+              "uncertain": false
+            },
+            {
+              "word": "give",
+              "meaning": "v. 提供；送给；给",
+              "uncertain": false
+            },
+            {
+              "word": "keep",
+              "meaning": "v. 继续；保持；存放；记录",
+              "uncertain": false
+            },
+            {
+              "word": "pass",
+              "meaning": "v. 传球；及格；通过；传递 n. 及格",
+              "uncertain": false
+            },
+            {
+              "word": "win",
+              "meaning": "v. 获胜，赢",
+              "uncertain": false
+            },
+            {
+              "word": "wish",
+              "meaning": "n. 心愿；祝愿 v. 希望；祝愿",
+              "uncertain": false
+            },
+            {
+              "word": "feel",
+              "meaning": "v. 觉得，感到；摸起来",
+              "uncertain": false
+            },
+            {
+              "word": "star",
+              "meaning": "n. 明星；星",
+              "uncertain": false
+            },
+            {
+              "word": "use",
+              "meaning": "v. 使用",
+              "uncertain": false
+            },
+            {
+              "word": "grape",
+              "meaning": "n. 葡萄",
+              "uncertain": false
+            },
+            {
+              "word": "fast",
+              "meaning": "adv. 快；迅速 adj. 快的；迅速的",
+              "uncertain": false
+            },
+            {
+              "word": "feed",
+              "meaning": "v. 喂养；进食",
+              "uncertain": false
+            },
+            {
+              "word": "bird",
+              "meaning": "n. 鸟；禽",
+              "uncertain": false
+            },
+            {
+              "word": "red",
+              "meaning": "n. 红色 adj. 红色的",
+              "uncertain": false
+            },
+            {
+              "word": "lake",
+              "meaning": "n. 湖；湖泊",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Tai Chi",
+              "meaning": "n. 太极",
+              "uncertain": false
+            },
+            {
+              "word": "when",
+              "meaning": "adv. 何时 conj. 当……时",
+              "uncertain": false
+            },
+            {
+              "word": "ski",
+              "meaning": "v. 滑雪(运动)",
+              "uncertain": false
+            },
+            {
+              "word": "hometown",
+              "meaning": "n. 家乡；故乡",
+              "uncertain": false
+            },
+            {
+              "word": "travel",
+              "meaning": "v., n. 旅行；游历",
+              "uncertain": false
+            },
+            {
+              "word": "mountain",
+              "meaning": "n. 高山；山岳",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

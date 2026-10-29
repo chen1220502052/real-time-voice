@@ -1,0 +1,1096 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/5年级/下册_完整教材词表/原图/02_04_教材页面_e0674b3ddc.jpg",
+  "units": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/73/detail/",
+  "sha256": "424c2fc70ba7adfc7a55f66c4ac3b485224d5ba22c0bc036c538def7015d1919",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "interesting",
+              "meaning": "有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "policeman",
+              "meaning": "警察",
+              "uncertain": false
+            },
+            {
+              "word": "manager",
+              "meaning": "经理",
+              "uncertain": false
+            },
+            {
+              "word": "office",
+              "meaning": "办公室",
+              "uncertain": false
+            },
+            {
+              "word": "choose",
+              "meaning": "选择",
+              "uncertain": false
+            },
+            {
+              "word": "cleaner",
+              "meaning": "清洁工",
+              "uncertain": false
+            },
+            {
+              "word": "on a farm",
+              "meaning": "在农场",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "hospital",
+              "meaning": "医院",
+              "uncertain": false
+            },
+            {
+              "word": "thirty",
+              "meaning": "三十",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "breakfast",
+              "meaning": "早餐",
+              "uncertain": false
+            },
+            {
+              "word": "Monday",
+              "meaning": "星期一",
+              "uncertain": false
+            },
+            {
+              "word": "fifty",
+              "meaning": "五十",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "路",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "尝试",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "准备好的",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "星期二",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "星期四",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "星期三",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞，孔",
+              "uncertain": false
+            },
+            {
+              "word": "out",
+              "meaning": "在外",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "深的",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "填满",
+              "uncertain": false
+            },
+            {
+              "word": "smile",
+              "meaning": "微笑",
+              "uncertain": false
+            },
+            {
+              "word": "on the way",
+              "meaning": "在……路上",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "maths",
+              "meaning": "数学（美 math）",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "艺术",
+              "uncertain": false
+            },
+            {
+              "word": "lesson",
+              "meaning": "课，功课",
+              "uncertain": false
+            },
+            {
+              "word": "when",
+              "meaning": "什么时候",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "体育",
+              "uncertain": false
+            },
+            {
+              "word": "song",
+              "meaning": "歌曲",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "科学",
+              "uncertain": false
+            },
+            {
+              "word": "subject",
+              "meaning": "学科，主题",
+              "uncertain": false
+            },
+            {
+              "word": "learn",
+              "meaning": "学习",
+              "uncertain": false
+            },
+            {
+              "word": "American",
+              "meaning": "美国人（的）",
+              "uncertain": false
+            },
+            {
+              "word": "hope",
+              "meaning": "希望",
+              "uncertain": false
+            },
+            {
+              "word": "soon",
+              "meaning": "不久",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "rice",
+              "meaning": "米饭",
+              "uncertain": false
+            },
+            {
+              "word": "soup",
+              "meaning": "汤",
+              "uncertain": false
+            },
+            {
+              "word": "exercise",
+              "meaning": "练习，体操",
+              "uncertain": false
+            },
+            {
+              "word": "kitchen",
+              "meaning": "厨房",
+              "uncertain": false
+            },
+            {
+              "word": "toilet",
+              "meaning": "厕所",
+              "uncertain": false
+            },
+            {
+              "word": "early",
+              "meaning": "早的",
+              "uncertain": false
+            },
+            {
+              "word": "usually",
+              "meaning": "通常",
+              "uncertain": false
+            },
+            {
+              "word": "bedroom",
+              "meaning": "卧室",
+              "uncertain": false
+            },
+            {
+              "word": "have lunch",
+              "meaning": "吃午饭",
+              "uncertain": false
+            },
+            {
+              "word": "get up",
+              "meaning": "起床",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "interesting",
+              "meaning": "有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "policeman",
+              "meaning": "警察",
+              "uncertain": false
+            },
+            {
+              "word": "manager",
+              "meaning": "经理",
+              "uncertain": false
+            },
+            {
+              "word": "office",
+              "meaning": "办公室",
+              "uncertain": false
+            },
+            {
+              "word": "choose",
+              "meaning": "选择",
+              "uncertain": false
+            },
+            {
+              "word": "cleaner",
+              "meaning": "清洁工",
+              "uncertain": false
+            },
+            {
+              "word": "on a farm",
+              "meaning": "在农场",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "hospital",
+              "meaning": "医院",
+              "uncertain": false
+            },
+            {
+              "word": "thirty",
+              "meaning": "三十",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "breakfast",
+              "meaning": "早餐",
+              "uncertain": false
+            },
+            {
+              "word": "Monday",
+              "meaning": "星期一",
+              "uncertain": false
+            },
+            {
+              "word": "fifty",
+              "meaning": "五十",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "路",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "尝试",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "准备好的",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "星期二",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "星期四",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "星期三",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞，孔",
+              "uncertain": false
+            },
+            {
+              "word": "out",
+              "meaning": "在外",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "深的",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "填满",
+              "uncertain": false
+            },
+            {
+              "word": "smile",
+              "meaning": "微笑",
+              "uncertain": false
+            },
+            {
+              "word": "on the way",
+              "meaning": "在……路上",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "maths",
+              "meaning": "数学（美 math）",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "艺术",
+              "uncertain": false
+            },
+            {
+              "word": "lesson",
+              "meaning": "课，功课",
+              "uncertain": false
+            },
+            {
+              "word": "when",
+              "meaning": "什么时候",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "体育",
+              "uncertain": false
+            },
+            {
+              "word": "song",
+              "meaning": "歌曲",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "科学",
+              "uncertain": false
+            },
+            {
+              "word": "subject",
+              "meaning": "学科，主题",
+              "uncertain": false
+            },
+            {
+              "word": "learn",
+              "meaning": "学习",
+              "uncertain": false
+            },
+            {
+              "word": "American",
+              "meaning": "美国人（的）",
+              "uncertain": false
+            },
+            {
+              "word": "hope",
+              "meaning": "希望",
+              "uncertain": false
+            },
+            {
+              "word": "soon",
+              "meaning": "不久",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "rice",
+              "meaning": "米饭",
+              "uncertain": false
+            },
+            {
+              "word": "soup",
+              "meaning": "汤",
+              "uncertain": false
+            },
+            {
+              "word": "exercise",
+              "meaning": "练习，体操",
+              "uncertain": false
+            },
+            {
+              "word": "kitchen",
+              "meaning": "厨房",
+              "uncertain": false
+            },
+            {
+              "word": "toilet",
+              "meaning": "厕所",
+              "uncertain": false
+            },
+            {
+              "word": "early",
+              "meaning": "早的",
+              "uncertain": false
+            },
+            {
+              "word": "usually",
+              "meaning": "通常",
+              "uncertain": false
+            },
+            {
+              "word": "bedroom",
+              "meaning": "卧室",
+              "uncertain": false
+            },
+            {
+              "word": "have lunch",
+              "meaning": "吃午饭",
+              "uncertain": false
+            },
+            {
+              "word": "get up",
+              "meaning": "起床",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "bc93d13f8644b59df0603de2f2bdf0caa00f158e44823fe17bb692ffbb62704e",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "interesting",
+                  "meaning": "有趣的",
+                  "uncertain": false
+                },
+                {
+                  "word": "policeman",
+                  "meaning": "警察",
+                  "uncertain": false
+                },
+                {
+                  "word": "manager",
+                  "meaning": "经理",
+                  "uncertain": false
+                },
+                {
+                  "word": "office",
+                  "meaning": "办公室",
+                  "uncertain": false
+                },
+                {
+                  "word": "choose",
+                  "meaning": "选择",
+                  "uncertain": false
+                },
+                {
+                  "word": "cleaner",
+                  "meaning": "清洁工",
+                  "uncertain": false
+                },
+                {
+                  "word": "on a farm",
+                  "meaning": "在农场",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 6,
+              "entries": [
+                {
+                  "word": "hospital",
+                  "meaning": "医院",
+                  "uncertain": false
+                },
+                {
+                  "word": "thirty",
+                  "meaning": "三十",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 7,
+              "entries": [
+                {
+                  "word": "breakfast",
+                  "meaning": "早餐",
+                  "uncertain": false
+                },
+                {
+                  "word": "Monday",
+                  "meaning": "星期一",
+                  "uncertain": false
+                },
+                {
+                  "word": "fifty",
+                  "meaning": "五十",
+                  "uncertain": false
+                },
+                {
+                  "word": "way",
+                  "meaning": "路",
+                  "uncertain": false
+                },
+                {
+                  "word": "try",
+                  "meaning": "尝试",
+                  "uncertain": false
+                },
+                {
+                  "word": "ready",
+                  "meaning": "准备好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Tuesday",
+                  "meaning": "星期二",
+                  "uncertain": false
+                },
+                {
+                  "word": "Thursday",
+                  "meaning": "星期四",
+                  "uncertain": false
+                },
+                {
+                  "word": "Wednesday",
+                  "meaning": "星期三",
+                  "uncertain": false
+                },
+                {
+                  "word": "hole",
+                  "meaning": "洞，孔",
+                  "uncertain": false
+                },
+                {
+                  "word": "out",
+                  "meaning": "在外",
+                  "uncertain": false
+                },
+                {
+                  "word": "deep",
+                  "meaning": "深的",
+                  "uncertain": false
+                },
+                {
+                  "word": "fill",
+                  "meaning": "填满",
+                  "uncertain": false
+                },
+                {
+                  "word": "smile",
+                  "meaning": "微笑",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "interesting",
+                  "meaning": "有趣的",
+                  "uncertain": false
+                },
+                {
+                  "word": "policeman",
+                  "meaning": "警察",
+                  "uncertain": false
+                },
+                {
+                  "word": "manager",
+                  "meaning": "经理",
+                  "uncertain": false
+                },
+                {
+                  "word": "office",
+                  "meaning": "办公室",
+                  "uncertain": false
+                },
+                {
+                  "word": "choose",
+                  "meaning": "选择",
+                  "uncertain": false
+                },
+                {
+                  "word": "cleaner",
+                  "meaning": "清洁工",
+                  "uncertain": false
+                },
+                {
+                  "word": "on a farm",
+                  "meaning": "在农场",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 6,
+              "entries": [
+                {
+                  "word": "hospital",
+                  "meaning": "医院",
+                  "uncertain": false
+                },
+                {
+                  "word": "thirty",
+                  "meaning": "三十",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 7,
+              "entries": [
+                {
+                  "word": "breakfast",
+                  "meaning": "早餐",
+                  "uncertain": false
+                },
+                {
+                  "word": "Monday",
+                  "meaning": "星期一",
+                  "uncertain": false
+                },
+                {
+                  "word": "fifty",
+                  "meaning": "五十",
+                  "uncertain": false
+                },
+                {
+                  "word": "way",
+                  "meaning": "路",
+                  "uncertain": false
+                },
+                {
+                  "word": "try",
+                  "meaning": "尝试",
+                  "uncertain": false
+                },
+                {
+                  "word": "ready",
+                  "meaning": "准备好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Tuesday",
+                  "meaning": "星期二",
+                  "uncertain": false
+                },
+                {
+                  "word": "Thursday",
+                  "meaning": "星期四",
+                  "uncertain": false
+                },
+                {
+                  "word": "Wednesday",
+                  "meaning": "星期三",
+                  "uncertain": false
+                },
+                {
+                  "word": "hole",
+                  "meaning": "洞，孔",
+                  "uncertain": false
+                },
+                {
+                  "word": "out",
+                  "meaning": "在外",
+                  "uncertain": false
+                },
+                {
+                  "word": "deep",
+                  "meaning": "深的",
+                  "uncertain": false
+                },
+                {
+                  "word": "fill",
+                  "meaning": "填满",
+                  "uncertain": false
+                },
+                {
+                  "word": "smile",
+                  "meaning": "微笑",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "6f8a21c8a3f3259dff8cb09e7ac6c22c58f7b6840fddf3cf16d14751e5efa562",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "on the way",
+                  "meaning": "在……路上",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 8,
+              "entries": [
+                {
+                  "word": "maths",
+                  "meaning": "数学（美 math）",
+                  "uncertain": false
+                },
+                {
+                  "word": "art",
+                  "meaning": "艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "lesson",
+                  "meaning": "课，功课",
+                  "uncertain": false
+                },
+                {
+                  "word": "when",
+                  "meaning": "什么时候",
+                  "uncertain": false
+                },
+                {
+                  "word": "PE",
+                  "meaning": "体育",
+                  "uncertain": false
+                },
+                {
+                  "word": "song",
+                  "meaning": "歌曲",
+                  "uncertain": false
+                },
+                {
+                  "word": "science",
+                  "meaning": "科学",
+                  "uncertain": false
+                },
+                {
+                  "word": "subject",
+                  "meaning": "学科，主题",
+                  "uncertain": false
+                },
+                {
+                  "word": "learn",
+                  "meaning": "学习",
+                  "uncertain": false
+                },
+                {
+                  "word": "American",
+                  "meaning": "美国人（的）",
+                  "uncertain": false
+                },
+                {
+                  "word": "hope",
+                  "meaning": "希望",
+                  "uncertain": false
+                },
+                {
+                  "word": "soon",
+                  "meaning": "不久",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 9,
+              "entries": [
+                {
+                  "word": "rice",
+                  "meaning": "米饭",
+                  "uncertain": false
+                },
+                {
+                  "word": "soup",
+                  "meaning": "汤",
+                  "uncertain": false
+                },
+                {
+                  "word": "exercise",
+                  "meaning": "练习，体操",
+                  "uncertain": false
+                },
+                {
+                  "word": "kitchen",
+                  "meaning": "厨房",
+                  "uncertain": false
+                },
+                {
+                  "word": "toilet",
+                  "meaning": "厕所",
+                  "uncertain": false
+                },
+                {
+                  "word": "early",
+                  "meaning": "早的",
+                  "uncertain": false
+                },
+                {
+                  "word": "usually",
+                  "meaning": "通常",
+                  "uncertain": false
+                },
+                {
+                  "word": "bedroom",
+                  "meaning": "卧室",
+                  "uncertain": false
+                },
+                {
+                  "word": "have lunch",
+                  "meaning": "吃午饭",
+                  "uncertain": false
+                },
+                {
+                  "word": "get up",
+                  "meaning": "起床",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "on the way",
+                  "meaning": "在……路上",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 8,
+              "entries": [
+                {
+                  "word": "maths",
+                  "meaning": "数学（美 math）",
+                  "uncertain": false
+                },
+                {
+                  "word": "art",
+                  "meaning": "艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "lesson",
+                  "meaning": "课，功课",
+                  "uncertain": false
+                },
+                {
+                  "word": "when",
+                  "meaning": "什么时候",
+                  "uncertain": false
+                },
+                {
+                  "word": "PE",
+                  "meaning": "体育",
+                  "uncertain": false
+                },
+                {
+                  "word": "song",
+                  "meaning": "歌曲",
+                  "uncertain": false
+                },
+                {
+                  "word": "science",
+                  "meaning": "科学",
+                  "uncertain": false
+                },
+                {
+                  "word": "subject",
+                  "meaning": "学科，主题",
+                  "uncertain": false
+                },
+                {
+                  "word": "learn",
+                  "meaning": "学习",
+                  "uncertain": false
+                },
+                {
+                  "word": "American",
+                  "meaning": "美国人（的）",
+                  "uncertain": false
+                },
+                {
+                  "word": "hope",
+                  "meaning": "希望",
+                  "uncertain": false
+                },
+                {
+                  "word": "soon",
+                  "meaning": "不久",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 9,
+              "entries": [
+                {
+                  "word": "rice",
+                  "meaning": "米饭",
+                  "uncertain": false
+                },
+                {
+                  "word": "soup",
+                  "meaning": "汤",
+                  "uncertain": false
+                },
+                {
+                  "word": "exercise",
+                  "meaning": "练习，体操",
+                  "uncertain": false
+                },
+                {
+                  "word": "kitchen",
+                  "meaning": "厨房",
+                  "uncertain": false
+                },
+                {
+                  "word": "toilet",
+                  "meaning": "厕所",
+                  "uncertain": false
+                },
+                {
+                  "word": "early",
+                  "meaning": "早的",
+                  "uncertain": false
+                },
+                {
+                  "word": "usually",
+                  "meaning": "通常",
+                  "uncertain": false
+                },
+                {
+                  "word": "bedroom",
+                  "meaning": "卧室",
+                  "uncertain": false
+                },
+                {
+                  "word": "have lunch",
+                  "meaning": "吃午饭",
+                  "uncertain": false
+                },
+                {
+                  "word": "get up",
+                  "meaning": "起床",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

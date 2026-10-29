@@ -1,0 +1,1330 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页146.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "674432e837321a9cb3e95e239d5e02cb3e16d23f872f28ab8f757d02d6581669",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "advantage",
+              "meaning": "优点;优势",
+              "uncertain": false
+            },
+            {
+              "word": "disagree",
+              "meaning": "不同意,有分歧",
+              "uncertain": false
+            },
+            {
+              "word": "disagree with sb.",
+              "meaning": "不同意,持不同意见",
+              "uncertain": false
+            },
+            {
+              "word": "space",
+              "meaning": "空间;空地",
+              "uncertain": false
+            },
+            {
+              "word": "rider",
+              "meaning": "骑(自行车或马,摩托车)的人,骑手",
+              "uncertain": false
+            },
+            {
+              "word": "careless",
+              "meaning": "不小心的,不仔细的",
+              "uncertain": false
+            },
+            {
+              "word": "helmet",
+              "meaning": "头盔",
+              "uncertain": false
+            },
+            {
+              "word": "light-colored",
+              "meaning": "浅色的,淡色的",
+              "uncertain": false
+            },
+            {
+              "word": "pay attention to",
+              "meaning": "注意",
+              "uncertain": false
+            },
+            {
+              "word": "signal",
+              "meaning": "信号,暗号",
+              "uncertain": false
+            },
+            {
+              "word": "safety",
+              "meaning": "安全,平安",
+              "uncertain": false
+            },
+            {
+              "word": "truck",
+              "meaning": "卡车,载重汽车",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "看(或听)到,注意到;注意,理会",
+              "uncertain": false
+            },
+            {
+              "word": "reflector",
+              "meaning": "反光玻璃",
+              "uncertain": false
+            },
+            {
+              "word": "case",
+              "meaning": "情况;事例",
+              "uncertain": false
+            },
+            {
+              "word": "in case of",
+              "meaning": "如果,假使",
+              "uncertain": false
+            },
+            {
+              "word": "injury",
+              "meaning": "(对躯体的)伤害,损伤",
+              "uncertain": false
+            },
+            {
+              "word": "in a word",
+              "meaning": "简言之,一句话,总之",
+              "uncertain": false
+            },
+            {
+              "word": "look out",
+              "meaning": "小心,当心",
+              "uncertain": false
+            },
+            {
+              "word": "stream",
+              "meaning": "小河;溪",
+              "uncertain": false
+            },
+            {
+              "word": "empty",
+              "meaning": "空的;倒空;(河流)流入,注入",
+              "uncertain": false
+            },
+            {
+              "word": "Asia",
+              "meaning": "亚洲",
+              "uncertain": false
+            },
+            {
+              "word": "altitude",
+              "meaning": "海拔",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "在……中",
+              "uncertain": false
+            },
+            {
+              "word": "France",
+              "meaning": "法国",
+              "uncertain": false
+            },
+            {
+              "word": "mile",
+              "meaning": "英里",
+              "uncertain": false
+            },
+            {
+              "word": "stage",
+              "meaning": "阶段;舞台",
+              "uncertain": false
+            },
+            {
+              "word": "central",
+              "meaning": "中心的,中央的",
+              "uncertain": false
+            },
+            {
+              "word": "winner",
+              "meaning": "优胜者,获胜的人",
+              "uncertain": false
+            },
+            {
+              "word": "cyclist",
+              "meaning": "骑自行车的人",
+              "uncertain": false
+            },
+            {
+              "word": "motorcycle",
+              "meaning": "摩托车",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "破损的;伤残的;残缺的;出了毛病的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "explain",
+              "meaning": "解释;说明;阐明",
+              "uncertain": false
+            },
+            {
+              "word": "pedestrian",
+              "meaning": "行人",
+              "uncertain": false
+            },
+            {
+              "word": "Europe",
+              "meaning": "欧洲",
+              "uncertain": false
+            },
+            {
+              "word": "French",
+              "meaning": "法国的;法国人的;法语的;法国人;法语",
+              "uncertain": false
+            },
+            {
+              "word": "town",
+              "meaning": "镇,市镇",
+              "uncertain": false
+            },
+            {
+              "word": "village",
+              "meaning": "乡村,村庄",
+              "uncertain": false
+            },
+            {
+              "word": "death",
+              "meaning": "死,死亡",
+              "uncertain": false
+            },
+            {
+              "word": "sharp",
+              "meaning": "急转的;锋利的",
+              "uncertain": false
+            },
+            {
+              "word": "slow",
+              "meaning": "放慢速度,减缓;缓慢的",
+              "uncertain": false
+            },
+            {
+              "word": "slow down",
+              "meaning": "减速",
+              "uncertain": false
+            },
+            {
+              "word": "opposite",
+              "meaning": "相反的;对面的;与……相对;在……对面",
+              "uncertain": false
+            },
+            {
+              "word": "direction",
+              "meaning": "方向,方位",
+              "uncertain": false
+            },
+            {
+              "word": "rush",
+              "meaning": "冲,奔跑",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "task",
+              "meaning": "任务,工作",
+              "uncertain": false
+            },
+            {
+              "word": "poster",
+              "meaning": "(贴在公共场所的大型)招贴画;广告(画)",
+              "uncertain": false
+            },
+            {
+              "word": "touch",
+              "meaning": "触,碰;触觉",
+              "uncertain": false
+            },
+            {
+              "word": "get in touch with",
+              "meaning": "(与……)取得联系",
+              "uncertain": false
+            },
+            {
+              "word": "try one's best",
+              "meaning": "尽最大努力",
+              "uncertain": false
+            },
+            {
+              "word": "success",
+              "meaning": "成功,胜利",
+              "uncertain": false
+            },
+            {
+              "word": "imagine",
+              "meaning": "想像,设想;猜测",
+              "uncertain": false
+            },
+            {
+              "word": "soup",
+              "meaning": "汤",
+              "uncertain": false
+            },
+            {
+              "word": "cheese",
+              "meaning": "奶酪",
+              "uncertain": false
+            },
+            {
+              "word": "cookie",
+              "meaning": "曲奇饼干",
+              "uncertain": false
+            },
+            {
+              "word": "pancake",
+              "meaning": "薄煎饼",
+              "uncertain": false
+            },
+            {
+              "word": "set",
+              "meaning": "放,置;使处于",
+              "uncertain": false
+            },
+            {
+              "word": "set the table",
+              "meaning": "摆放餐具",
+              "uncertain": false
+            },
+            {
+              "word": "blind",
+              "meaning": "瞎的,失明的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "advantage",
+              "meaning": "优点;优势",
+              "uncertain": false
+            },
+            {
+              "word": "disagree",
+              "meaning": "不同意,有分歧",
+              "uncertain": false
+            },
+            {
+              "word": "disagree with sb.",
+              "meaning": "不同意,持不同意见",
+              "uncertain": false
+            },
+            {
+              "word": "space",
+              "meaning": "空间;空地",
+              "uncertain": false
+            },
+            {
+              "word": "rider",
+              "meaning": "骑(自行车或马,摩托车)的人,骑手",
+              "uncertain": false
+            },
+            {
+              "word": "careless",
+              "meaning": "不小心的,不仔细的",
+              "uncertain": false
+            },
+            {
+              "word": "helmet",
+              "meaning": "头盔",
+              "uncertain": false
+            },
+            {
+              "word": "light-colored",
+              "meaning": "浅色的,淡色的",
+              "uncertain": false
+            },
+            {
+              "word": "pay attention to",
+              "meaning": "注意",
+              "uncertain": false
+            },
+            {
+              "word": "signal",
+              "meaning": "信号,暗号",
+              "uncertain": false
+            },
+            {
+              "word": "safety",
+              "meaning": "安全,平安",
+              "uncertain": false
+            },
+            {
+              "word": "truck",
+              "meaning": "卡车,载重汽车",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "看(或听)到,注意到;注意,理会",
+              "uncertain": false
+            },
+            {
+              "word": "reflector",
+              "meaning": "反光玻璃",
+              "uncertain": false
+            },
+            {
+              "word": "case",
+              "meaning": "情况;事例",
+              "uncertain": false
+            },
+            {
+              "word": "in case of",
+              "meaning": "如果,假使",
+              "uncertain": false
+            },
+            {
+              "word": "injury",
+              "meaning": "(对躯体的)伤害,损伤",
+              "uncertain": false
+            },
+            {
+              "word": "in a word",
+              "meaning": "简言之,一句话,总之",
+              "uncertain": false
+            },
+            {
+              "word": "look out",
+              "meaning": "小心,当心",
+              "uncertain": false
+            },
+            {
+              "word": "stream",
+              "meaning": "小河;溪",
+              "uncertain": false
+            },
+            {
+              "word": "empty",
+              "meaning": "空的;倒空;(河流)流入,注入",
+              "uncertain": false
+            },
+            {
+              "word": "Asia",
+              "meaning": "亚洲",
+              "uncertain": false
+            },
+            {
+              "word": "altitude",
+              "meaning": "海拔",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "在……中",
+              "uncertain": false
+            },
+            {
+              "word": "France",
+              "meaning": "法国",
+              "uncertain": false
+            },
+            {
+              "word": "mile",
+              "meaning": "英里",
+              "uncertain": false
+            },
+            {
+              "word": "stage",
+              "meaning": "阶段;舞台",
+              "uncertain": false
+            },
+            {
+              "word": "central",
+              "meaning": "中心的,中央的",
+              "uncertain": false
+            },
+            {
+              "word": "winner",
+              "meaning": "优胜者,获胜的人",
+              "uncertain": false
+            },
+            {
+              "word": "cyclist",
+              "meaning": "骑自行车的人",
+              "uncertain": false
+            },
+            {
+              "word": "motorcycle",
+              "meaning": "摩托车",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "破损的;伤残的;残缺的;出了毛病的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "explain",
+              "meaning": "解释;说明;阐明",
+              "uncertain": false
+            },
+            {
+              "word": "pedestrian",
+              "meaning": "行人",
+              "uncertain": false
+            },
+            {
+              "word": "Europe",
+              "meaning": "欧洲",
+              "uncertain": false
+            },
+            {
+              "word": "French",
+              "meaning": "法国的;法国人的;法语的;法国人;法语",
+              "uncertain": false
+            },
+            {
+              "word": "town",
+              "meaning": "镇,市镇",
+              "uncertain": false
+            },
+            {
+              "word": "village",
+              "meaning": "乡村,村庄",
+              "uncertain": false
+            },
+            {
+              "word": "death",
+              "meaning": "死,死亡",
+              "uncertain": false
+            },
+            {
+              "word": "sharp",
+              "meaning": "急转的;锋利的",
+              "uncertain": false
+            },
+            {
+              "word": "slow",
+              "meaning": "放慢速度,减缓;缓慢的",
+              "uncertain": false
+            },
+            {
+              "word": "slow down",
+              "meaning": "减速",
+              "uncertain": false
+            },
+            {
+              "word": "opposite",
+              "meaning": "相反的;对面的;与……相对;在……对面",
+              "uncertain": false
+            },
+            {
+              "word": "direction",
+              "meaning": "方向,方位",
+              "uncertain": false
+            },
+            {
+              "word": "rush",
+              "meaning": "冲,奔跑",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "task",
+              "meaning": "任务,工作",
+              "uncertain": false
+            },
+            {
+              "word": "poster",
+              "meaning": "(贴在公共场所的大型)招贴画;广告(画)",
+              "uncertain": false
+            },
+            {
+              "word": "touch",
+              "meaning": "触,碰;触觉",
+              "uncertain": false
+            },
+            {
+              "word": "get in touch with",
+              "meaning": "(与……)取得联系",
+              "uncertain": false
+            },
+            {
+              "word": "try one's best",
+              "meaning": "尽最大努力",
+              "uncertain": false
+            },
+            {
+              "word": "success",
+              "meaning": "成功,胜利",
+              "uncertain": false
+            },
+            {
+              "word": "imagine",
+              "meaning": "想像,设想;猜测",
+              "uncertain": false
+            },
+            {
+              "word": "soup",
+              "meaning": "汤",
+              "uncertain": false
+            },
+            {
+              "word": "cheese",
+              "meaning": "奶酪",
+              "uncertain": false
+            },
+            {
+              "word": "cookie",
+              "meaning": "曲奇饼干",
+              "uncertain": false
+            },
+            {
+              "word": "pancake",
+              "meaning": "薄煎饼",
+              "uncertain": false
+            },
+            {
+              "word": "set",
+              "meaning": "放,置;使处于",
+              "uncertain": false
+            },
+            {
+              "word": "set the table",
+              "meaning": "摆放餐具",
+              "uncertain": false
+            },
+            {
+              "word": "blind",
+              "meaning": "瞎的,失明的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "28a549a89d90794adaecc2d48c01e585ede546c16f34d48caf60fe6b95bdda47",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "advantage",
+                  "meaning": "优点;优势",
+                  "uncertain": false
+                },
+                {
+                  "word": "disagree",
+                  "meaning": "不同意,有分歧",
+                  "uncertain": false
+                },
+                {
+                  "word": "disagree with sb.",
+                  "meaning": "不同意,持不同意见",
+                  "uncertain": false
+                },
+                {
+                  "word": "space",
+                  "meaning": "空间;空地",
+                  "uncertain": false
+                },
+                {
+                  "word": "rider",
+                  "meaning": "骑(自行车或马,摩托车)的人,骑手",
+                  "uncertain": false
+                },
+                {
+                  "word": "careless",
+                  "meaning": "不小心的,不仔细的",
+                  "uncertain": false
+                },
+                {
+                  "word": "helmet",
+                  "meaning": "头盔",
+                  "uncertain": false
+                },
+                {
+                  "word": "light-colored",
+                  "meaning": "浅色的,淡色的",
+                  "uncertain": false
+                },
+                {
+                  "word": "pay attention to",
+                  "meaning": "注意",
+                  "uncertain": false
+                },
+                {
+                  "word": "signal",
+                  "meaning": "信号,暗号",
+                  "uncertain": false
+                },
+                {
+                  "word": "safety",
+                  "meaning": "安全,平安",
+                  "uncertain": false
+                },
+                {
+                  "word": "truck",
+                  "meaning": "卡车,载重汽车",
+                  "uncertain": false
+                },
+                {
+                  "word": "notice",
+                  "meaning": "看(或听)到,注意到,注意到,理会",
+                  "uncertain": false
+                },
+                {
+                  "word": "reflector",
+                  "meaning": "反光玻璃",
+                  "uncertain": false
+                },
+                {
+                  "word": "case",
+                  "meaning": "情况;事例",
+                  "uncertain": false
+                },
+                {
+                  "word": "in case of",
+                  "meaning": "如果,假使",
+                  "uncertain": false
+                },
+                {
+                  "word": "injury",
+                  "meaning": "(对躯体的)伤害,损伤",
+                  "uncertain": false
+                },
+                {
+                  "word": "in a word",
+                  "meaning": "简言之,一句话,总之",
+                  "uncertain": false
+                },
+                {
+                  "word": "look out",
+                  "meaning": "小心,当心",
+                  "uncertain": false
+                },
+                {
+                  "word": "stream",
+                  "meaning": "小河;溪",
+                  "uncertain": false
+                },
+                {
+                  "word": "empty",
+                  "meaning": "空的;倒空;(河流)流入,注入",
+                  "uncertain": false
+                },
+                {
+                  "word": "Asia",
+                  "meaning": "亚洲",
+                  "uncertain": false
+                },
+                {
+                  "word": "altitude",
+                  "meaning": "海拔",
+                  "uncertain": false
+                },
+                {
+                  "word": "among",
+                  "meaning": "在……中",
+                  "uncertain": false
+                },
+                {
+                  "word": "France",
+                  "meaning": "法国",
+                  "uncertain": false
+                },
+                {
+                  "word": "mile",
+                  "meaning": "英里",
+                  "uncertain": false
+                },
+                {
+                  "word": "stage",
+                  "meaning": "阶段;舞台",
+                  "uncertain": false
+                },
+                {
+                  "word": "central",
+                  "meaning": "中心的,中央的",
+                  "uncertain": false
+                },
+                {
+                  "word": "winner",
+                  "meaning": "优胜者,获胜的人",
+                  "uncertain": false
+                },
+                {
+                  "word": "cyclist",
+                  "meaning": "骑自行车的人",
+                  "uncertain": false
+                },
+                {
+                  "word": "motorcycle",
+                  "meaning": "摩托车",
+                  "uncertain": false
+                },
+                {
+                  "word": "broken",
+                  "meaning": "破损的;伤残的;残缺的;出了毛病的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "advantage",
+                  "meaning": "优点;优势",
+                  "uncertain": false
+                },
+                {
+                  "word": "disagree",
+                  "meaning": "不同意,有分歧",
+                  "uncertain": false
+                },
+                {
+                  "word": "disagree with sb.",
+                  "meaning": "不同意,持不同意见",
+                  "uncertain": false
+                },
+                {
+                  "word": "space",
+                  "meaning": "空间;空地",
+                  "uncertain": false
+                },
+                {
+                  "word": "rider",
+                  "meaning": "骑(自行车或马,摩托车)的人,骑手",
+                  "uncertain": false
+                },
+                {
+                  "word": "careless",
+                  "meaning": "不小心的,不仔细的",
+                  "uncertain": false
+                },
+                {
+                  "word": "helmet",
+                  "meaning": "头盔",
+                  "uncertain": false
+                },
+                {
+                  "word": "light-colored",
+                  "meaning": "浅色的,淡色的",
+                  "uncertain": false
+                },
+                {
+                  "word": "pay attention to",
+                  "meaning": "注意",
+                  "uncertain": false
+                },
+                {
+                  "word": "signal",
+                  "meaning": "信号,暗号",
+                  "uncertain": false
+                },
+                {
+                  "word": "safety",
+                  "meaning": "安全,平安",
+                  "uncertain": false
+                },
+                {
+                  "word": "truck",
+                  "meaning": "卡车,载重汽车",
+                  "uncertain": false
+                },
+                {
+                  "word": "notice",
+                  "meaning": "看(或听)到,注意到,注意到,理会",
+                  "uncertain": false
+                },
+                {
+                  "word": "reflector",
+                  "meaning": "反光玻璃",
+                  "uncertain": false
+                },
+                {
+                  "word": "case",
+                  "meaning": "情况;事例",
+                  "uncertain": false
+                },
+                {
+                  "word": "in case of",
+                  "meaning": "如果,假使",
+                  "uncertain": false
+                },
+                {
+                  "word": "injury",
+                  "meaning": "(对躯体的)伤害,损伤",
+                  "uncertain": false
+                },
+                {
+                  "word": "in a word",
+                  "meaning": "简言之,一句话,总之",
+                  "uncertain": false
+                },
+                {
+                  "word": "look out",
+                  "meaning": "小心,当心",
+                  "uncertain": false
+                },
+                {
+                  "word": "stream",
+                  "meaning": "小河;溪",
+                  "uncertain": false
+                },
+                {
+                  "word": "empty",
+                  "meaning": "空的;倒空;(河流)流入,注入",
+                  "uncertain": false
+                },
+                {
+                  "word": "Asia",
+                  "meaning": "亚洲",
+                  "uncertain": false
+                },
+                {
+                  "word": "altitude",
+                  "meaning": "海拔",
+                  "uncertain": false
+                },
+                {
+                  "word": "among",
+                  "meaning": "在……中",
+                  "uncertain": false
+                },
+                {
+                  "word": "France",
+                  "meaning": "法国",
+                  "uncertain": false
+                },
+                {
+                  "word": "mile",
+                  "meaning": "英里",
+                  "uncertain": false
+                },
+                {
+                  "word": "stage",
+                  "meaning": "阶段;舞台",
+                  "uncertain": false
+                },
+                {
+                  "word": "central",
+                  "meaning": "中心的,中央的",
+                  "uncertain": false
+                },
+                {
+                  "word": "winner",
+                  "meaning": "优胜者,获胜的人",
+                  "uncertain": false
+                },
+                {
+                  "word": "cyclist",
+                  "meaning": "骑自行车的人",
+                  "uncertain": false
+                },
+                {
+                  "word": "motorcycle",
+                  "meaning": "摩托车",
+                  "uncertain": false
+                },
+                {
+                  "word": "broken",
+                  "meaning": "破损的;伤残的;残缺的;出了毛病的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "7abe0ad43836ab612e506ba4ce3294514f31518fc716bf0db341c54ca3425a8b",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "explain",
+                  "meaning": "v.解释;说明;阐明",
+                  "uncertain": false
+                },
+                {
+                  "word": "pedestrian",
+                  "meaning": "n.行人",
+                  "uncertain": false
+                },
+                {
+                  "word": "Europe",
+                  "meaning": "n.欧洲",
+                  "uncertain": false
+                },
+                {
+                  "word": "French",
+                  "meaning": "adj.法国的;法国人的;法语的",
+                  "uncertain": false
+                },
+                {
+                  "word": "French",
+                  "meaning": "n.法国人;法语",
+                  "uncertain": false
+                },
+                {
+                  "word": "town",
+                  "meaning": "n.镇,市镇",
+                  "uncertain": false
+                },
+                {
+                  "word": "village",
+                  "meaning": "n.乡村,村庄",
+                  "uncertain": false
+                },
+                {
+                  "word": "death",
+                  "meaning": "n.死,死亡",
+                  "uncertain": false
+                },
+                {
+                  "word": "sharp",
+                  "meaning": "adj.急转的;锋利的",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow",
+                  "meaning": "v.放慢速度,减缓",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow",
+                  "meaning": "adj.缓慢的",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow down",
+                  "meaning": "减速",
+                  "uncertain": false
+                },
+                {
+                  "word": "opposite",
+                  "meaning": "adj.相反的;对面的",
+                  "uncertain": false
+                },
+                {
+                  "word": "opposite",
+                  "meaning": "prep.与……相对;在……对面",
+                  "uncertain": false
+                },
+                {
+                  "word": "direction",
+                  "meaning": "n.方向,方位",
+                  "uncertain": false
+                },
+                {
+                  "word": "rush",
+                  "meaning": "v.冲,奔跑",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 7,
+              "entries": [
+                {
+                  "word": "task",
+                  "meaning": "n.任务,工作",
+                  "uncertain": false
+                },
+                {
+                  "word": "poster",
+                  "meaning": "n.(贴在公共场所的大型)招贴画;广告(画)",
+                  "uncertain": false
+                },
+                {
+                  "word": "touch",
+                  "meaning": "n.& v.触,碰;触觉",
+                  "uncertain": false
+                },
+                {
+                  "word": "get in touch with",
+                  "meaning": "(与……)取得联系",
+                  "uncertain": false
+                },
+                {
+                  "word": "try one's best",
+                  "meaning": "尽最大努力",
+                  "uncertain": false
+                },
+                {
+                  "word": "success",
+                  "meaning": "n.成功,胜利",
+                  "uncertain": false
+                },
+                {
+                  "word": "imagine",
+                  "meaning": "v.想象,设想;猜测",
+                  "uncertain": false
+                },
+                {
+                  "word": "soup",
+                  "meaning": "n.汤",
+                  "uncertain": false
+                },
+                {
+                  "word": "cheese",
+                  "meaning": "n.奶酪",
+                  "uncertain": false
+                },
+                {
+                  "word": "cookie",
+                  "meaning": "n.曲奇饼干",
+                  "uncertain": false
+                },
+                {
+                  "word": "pancake",
+                  "meaning": "n.薄煎饼",
+                  "uncertain": false
+                },
+                {
+                  "word": "set",
+                  "meaning": "v.放,置;使处于",
+                  "uncertain": false
+                },
+                {
+                  "word": "set the table",
+                  "meaning": "摆放餐具",
+                  "uncertain": false
+                },
+                {
+                  "word": "blind",
+                  "meaning": "adj.瞎的,失明的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "explain",
+                  "meaning": "v.解释;说明;阐明",
+                  "uncertain": false
+                },
+                {
+                  "word": "pedestrian",
+                  "meaning": "n.行人",
+                  "uncertain": false
+                },
+                {
+                  "word": "Europe",
+                  "meaning": "n.欧洲",
+                  "uncertain": false
+                },
+                {
+                  "word": "French",
+                  "meaning": "adj.法国的;法国人的;法语的",
+                  "uncertain": false
+                },
+                {
+                  "word": "French",
+                  "meaning": "n.法国人;法语",
+                  "uncertain": false
+                },
+                {
+                  "word": "town",
+                  "meaning": "n.镇,市镇",
+                  "uncertain": false
+                },
+                {
+                  "word": "village",
+                  "meaning": "n.乡村,村庄",
+                  "uncertain": false
+                },
+                {
+                  "word": "death",
+                  "meaning": "n.死,死亡",
+                  "uncertain": false
+                },
+                {
+                  "word": "sharp",
+                  "meaning": "adj.急转的;锋利的",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow",
+                  "meaning": "v.放慢速度,减缓",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow",
+                  "meaning": "adj.缓慢的",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow down",
+                  "meaning": "减速",
+                  "uncertain": false
+                },
+                {
+                  "word": "opposite",
+                  "meaning": "adj.相反的;对面的",
+                  "uncertain": false
+                },
+                {
+                  "word": "opposite",
+                  "meaning": "prep.与……相对;在……对面",
+                  "uncertain": false
+                },
+                {
+                  "word": "direction",
+                  "meaning": "n.方向,方位",
+                  "uncertain": false
+                },
+                {
+                  "word": "rush",
+                  "meaning": "v.冲,奔跑",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 7,
+              "entries": [
+                {
+                  "word": "task",
+                  "meaning": "n.任务,工作",
+                  "uncertain": false
+                },
+                {
+                  "word": "poster",
+                  "meaning": "n.(贴在公共场所的大型)招贴画;广告(画)",
+                  "uncertain": false
+                },
+                {
+                  "word": "touch",
+                  "meaning": "n.& v.触,碰;触觉",
+                  "uncertain": false
+                },
+                {
+                  "word": "get in touch with",
+                  "meaning": "(与……)取得联系",
+                  "uncertain": false
+                },
+                {
+                  "word": "try one's best",
+                  "meaning": "尽最大努力",
+                  "uncertain": false
+                },
+                {
+                  "word": "success",
+                  "meaning": "n.成功,胜利",
+                  "uncertain": false
+                },
+                {
+                  "word": "imagine",
+                  "meaning": "v.想象,设想;猜测",
+                  "uncertain": false
+                },
+                {
+                  "word": "soup",
+                  "meaning": "n.汤",
+                  "uncertain": false
+                },
+                {
+                  "word": "cheese",
+                  "meaning": "n.奶酪",
+                  "uncertain": false
+                },
+                {
+                  "word": "cookie",
+                  "meaning": "n.曲奇饼干",
+                  "uncertain": false
+                },
+                {
+                  "word": "pancake",
+                  "meaning": "n.薄煎饼",
+                  "uncertain": false
+                },
+                {
+                  "word": "set",
+                  "meaning": "v.放,置;使处于",
+                  "uncertain": false
+                },
+                {
+                  "word": "set the table",
+                  "meaning": "摆放餐具",
+                  "uncertain": false
+                },
+                {
+                  "word": "blind",
+                  "meaning": "adj.瞎的,失明的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

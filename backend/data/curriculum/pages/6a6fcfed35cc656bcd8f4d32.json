@@ -1,0 +1,88 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 2,
+  "units": [
+    2
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/107/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/02_教材页面_c3a6563286.jpg",
+  "sha256": "6a6fcfed35cc656bcd8f4d32b5b2d5c5a73f949a122f7be0df0ee52a9cab61ef",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "...",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tips:",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Let's ...",
+        "OK.",
+        "Tips:"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "...",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tips:",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Let's ...",
+        "OK.",
+        "Tips:"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

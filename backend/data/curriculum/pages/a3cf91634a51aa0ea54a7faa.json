@@ -1,0 +1,1090 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页144.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "a3cf91634a51aa0ea54a7faa8d25c5cb3ba178606d2f431b30519a3f982b9240",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "turn",
+              "meaning": "n.转弯;机会 v.转弯;转身;翻;成为",
+              "uncertain": false
+            },
+            {
+              "word": "move",
+              "meaning": "v.移动;搬(家)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "survey",
+              "meaning": "n.民意调查",
+              "uncertain": false
+            },
+            {
+              "word": "week",
+              "meaning": "n.周;一周",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "n.小时",
+              "uncertain": false
+            },
+            {
+              "word": "result",
+              "meaning": "n.结果;后果;成果",
+              "uncertain": false
+            },
+            {
+              "word": "cap",
+              "meaning": "n.便帽,制服帽",
+              "uncertain": false
+            },
+            {
+              "word": "pair",
+              "meaning": "n.由两个相连接部分组成的物体;俩;一双",
+              "uncertain": false
+            },
+            {
+              "word": "shorts",
+              "meaning": "n.短裤",
+              "uncertain": false
+            },
+            {
+              "word": "zoo",
+              "meaning": "n.动物园",
+              "uncertain": false
+            },
+            {
+              "word": "wind",
+              "meaning": "n.风",
+              "uncertain": false
+            },
+            {
+              "word": "leg",
+              "meaning": "n.有……腿的;腿",
+              "uncertain": false
+            },
+            {
+              "word": "race",
+              "meaning": "n.赛跑;速度竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "side",
+              "meaning": "n.一边;一侧",
+              "uncertain": false
+            },
+            {
+              "word": "even",
+              "meaning": "adv.甚至,连;更加",
+              "uncertain": false
+            },
+            {
+              "word": "write",
+              "meaning": "v.书写;写作;写信",
+              "uncertain": false
+            },
+            {
+              "word": "down",
+              "meaning": "adv.(写)在纸上;向下 prep.向下;沿着",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nature",
+              "meaning": "n.自然界;自然",
+              "uncertain": false
+            },
+            {
+              "word": "sea",
+              "meaning": "n.海;海洋",
+              "uncertain": false
+            },
+            {
+              "word": "desert",
+              "meaning": "n.沙漠",
+              "uncertain": false
+            },
+            {
+              "word": "rainforest",
+              "meaning": "n.(热带)雨林",
+              "uncertain": false
+            },
+            {
+              "word": "waterfall",
+              "meaning": "n.瀑布",
+              "uncertain": false
+            },
+            {
+              "word": "grassland",
+              "meaning": "n.草原",
+              "uncertain": false
+            },
+            {
+              "word": "wet",
+              "meaning": "adj.潮湿的",
+              "uncertain": false
+            },
+            {
+              "word": "plant",
+              "meaning": "n.植物 v.种植",
+              "uncertain": false
+            },
+            {
+              "word": "animal",
+              "meaning": "n.动物",
+              "uncertain": false
+            },
+            {
+              "word": "fall",
+              "meaning": "v.落下;发生;跌倒",
+              "uncertain": false
+            },
+            {
+              "word": "hill",
+              "meaning": "n.山丘;小山",
+              "uncertain": false
+            },
+            {
+              "word": "grass",
+              "meaning": "n.草;草地",
+              "uncertain": false
+            },
+            {
+              "word": "elephant",
+              "meaning": "n.象",
+              "uncertain": false
+            },
+            {
+              "word": "air",
+              "meaning": "n.空气;空中",
+              "uncertain": false
+            },
+            {
+              "word": "top",
+              "meaning": "n.顶部 adj.最高的",
+              "uncertain": false
+            },
+            {
+              "word": "place",
+              "meaning": "n.地方;场所 v.放置",
+              "uncertain": false
+            },
+            {
+              "word": "climate",
+              "meaning": "n.气候",
+              "uncertain": false
+            },
+            {
+              "word": "house",
+              "meaning": "n.房子",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "n.窗户",
+              "uncertain": false
+            },
+            {
+              "word": "get",
+              "meaning": "v.得到;收到;到达",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "bat",
+              "meaning": "n.蝙蝠;球拍",
+              "uncertain": false
+            },
+            {
+              "word": "fly",
+              "meaning": "v.飞;飞行;飞越;飞逝",
+              "uncertain": false
+            },
+            {
+              "word": "active",
+              "meaning": "adj.活跃的;积极的",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "n.夜;夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "panda",
+              "meaning": "n.大熊猫;小熊猫",
+              "uncertain": false
+            },
+            {
+              "word": "tail",
+              "meaning": "n.尾;尾巴",
+              "uncertain": false
+            },
+            {
+              "word": "bamboo",
+              "meaning": "n.竹;竹子",
+              "uncertain": false
+            },
+            {
+              "word": "brown",
+              "meaning": "adj.棕色的;褐色的 n.棕色;褐色",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "n.熊 v.承受;忍受",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "turn",
+              "meaning": "n.转弯;机会 v.转弯;转身;翻;成为",
+              "uncertain": false
+            },
+            {
+              "word": "move",
+              "meaning": "v.移动;搬(家)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "survey",
+              "meaning": "n.民意调查",
+              "uncertain": false
+            },
+            {
+              "word": "week",
+              "meaning": "n.周;一周",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "n.小时",
+              "uncertain": false
+            },
+            {
+              "word": "result",
+              "meaning": "n.结果;后果;成果",
+              "uncertain": false
+            },
+            {
+              "word": "cap",
+              "meaning": "n.便帽,制服帽",
+              "uncertain": false
+            },
+            {
+              "word": "pair",
+              "meaning": "n.由两个相连接部分组成的物体;俩;一双",
+              "uncertain": false
+            },
+            {
+              "word": "shorts",
+              "meaning": "n.短裤",
+              "uncertain": false
+            },
+            {
+              "word": "zoo",
+              "meaning": "n.动物园",
+              "uncertain": false
+            },
+            {
+              "word": "wind",
+              "meaning": "n.风",
+              "uncertain": false
+            },
+            {
+              "word": "leg",
+              "meaning": "n.有……腿的;腿",
+              "uncertain": false
+            },
+            {
+              "word": "race",
+              "meaning": "n.赛跑;速度竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "side",
+              "meaning": "n.一边;一侧",
+              "uncertain": false
+            },
+            {
+              "word": "even",
+              "meaning": "adv.甚至,连;更加",
+              "uncertain": false
+            },
+            {
+              "word": "write",
+              "meaning": "v.书写;写作;写信",
+              "uncertain": false
+            },
+            {
+              "word": "down",
+              "meaning": "adv.(写)在纸上;向下 prep.向下;沿着",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nature",
+              "meaning": "n.自然界;自然",
+              "uncertain": false
+            },
+            {
+              "word": "sea",
+              "meaning": "n.海;海洋",
+              "uncertain": false
+            },
+            {
+              "word": "desert",
+              "meaning": "n.沙漠",
+              "uncertain": false
+            },
+            {
+              "word": "rainforest",
+              "meaning": "n.(热带)雨林",
+              "uncertain": false
+            },
+            {
+              "word": "waterfall",
+              "meaning": "n.瀑布",
+              "uncertain": false
+            },
+            {
+              "word": "grassland",
+              "meaning": "n.草原",
+              "uncertain": false
+            },
+            {
+              "word": "wet",
+              "meaning": "adj.潮湿的",
+              "uncertain": false
+            },
+            {
+              "word": "plant",
+              "meaning": "n.植物 v.种植",
+              "uncertain": false
+            },
+            {
+              "word": "animal",
+              "meaning": "n.动物",
+              "uncertain": false
+            },
+            {
+              "word": "fall",
+              "meaning": "v.落下;发生;跌倒",
+              "uncertain": false
+            },
+            {
+              "word": "hill",
+              "meaning": "n.山丘;小山",
+              "uncertain": false
+            },
+            {
+              "word": "grass",
+              "meaning": "n.草;草地",
+              "uncertain": false
+            },
+            {
+              "word": "elephant",
+              "meaning": "n.象",
+              "uncertain": false
+            },
+            {
+              "word": "air",
+              "meaning": "n.空气;空中",
+              "uncertain": false
+            },
+            {
+              "word": "top",
+              "meaning": "n.顶部 adj.最高的",
+              "uncertain": false
+            },
+            {
+              "word": "place",
+              "meaning": "n.地方;场所 v.放置",
+              "uncertain": false
+            },
+            {
+              "word": "climate",
+              "meaning": "n.气候",
+              "uncertain": false
+            },
+            {
+              "word": "house",
+              "meaning": "n.房子",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "n.窗户",
+              "uncertain": false
+            },
+            {
+              "word": "get",
+              "meaning": "v.得到;收到;到达",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "bat",
+              "meaning": "n.蝙蝠;球拍",
+              "uncertain": false
+            },
+            {
+              "word": "fly",
+              "meaning": "v.飞;飞行;飞越;飞逝",
+              "uncertain": false
+            },
+            {
+              "word": "active",
+              "meaning": "adj.活跃的;积极的",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "n.夜;夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "panda",
+              "meaning": "n.大熊猫;小熊猫",
+              "uncertain": false
+            },
+            {
+              "word": "tail",
+              "meaning": "n.尾;尾巴",
+              "uncertain": false
+            },
+            {
+              "word": "bamboo",
+              "meaning": "n.竹;竹子",
+              "uncertain": false
+            },
+            {
+              "word": "brown",
+              "meaning": "adj.棕色的;褐色的 n.棕色;褐色",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "n.熊 v.承受;忍受",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "9423467d03e0743ffececef9a741e3e236c9b63d83336aeec08c3d1632d97066",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "turn",
+                  "meaning": "n.转弯;机会 v.转弯;转身;翻;成为",
+                  "uncertain": false
+                },
+                {
+                  "word": "move",
+                  "meaning": "v.移动;搬(家)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "survey",
+                  "meaning": "n.民意调查",
+                  "uncertain": false
+                },
+                {
+                  "word": "week",
+                  "meaning": "n.周;一周",
+                  "uncertain": false
+                },
+                {
+                  "word": "hour",
+                  "meaning": "n.小时",
+                  "uncertain": false
+                },
+                {
+                  "word": "result",
+                  "meaning": "n.结果;后果;成果",
+                  "uncertain": false
+                },
+                {
+                  "word": "cap",
+                  "meaning": "n.便帽,制服帽",
+                  "uncertain": false
+                },
+                {
+                  "word": "pair",
+                  "meaning": "n.由两个相连接部分组成的物体;俩;一双",
+                  "uncertain": false
+                },
+                {
+                  "word": "shorts",
+                  "meaning": "n.短裤",
+                  "uncertain": false
+                },
+                {
+                  "word": "zoo",
+                  "meaning": "n.动物园",
+                  "uncertain": false
+                },
+                {
+                  "word": "wind",
+                  "meaning": "n.风",
+                  "uncertain": false
+                },
+                {
+                  "word": "leg",
+                  "meaning": "n.有……腿的;腿",
+                  "uncertain": false
+                },
+                {
+                  "word": "race",
+                  "meaning": "n.赛跑;速度竞赛",
+                  "uncertain": false
+                },
+                {
+                  "word": "side",
+                  "meaning": "n.一边;一侧",
+                  "uncertain": false
+                },
+                {
+                  "word": "even",
+                  "meaning": "adv.甚至,连;更加",
+                  "uncertain": false
+                },
+                {
+                  "word": "write",
+                  "meaning": "v.书写;写作;写信",
+                  "uncertain": false
+                },
+                {
+                  "word": "down",
+                  "meaning": "adv.(写)在纸上;向下 prep.向下;沿着",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "nature",
+                  "meaning": "n.自然界;自然",
+                  "uncertain": false
+                },
+                {
+                  "word": "sea",
+                  "meaning": "n.海;海洋",
+                  "uncertain": false
+                },
+                {
+                  "word": "desert",
+                  "meaning": "n.沙漠",
+                  "uncertain": false
+                },
+                {
+                  "word": "rainforest",
+                  "meaning": "",
+                  "uncertain": true
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The entry 'rainforest' has no printed Chinese meaning on the page; meaning left empty and marked uncertain."
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "turn",
+                  "meaning": "n.转弯;机会 v.转弯;转身;翻;成为",
+                  "uncertain": false
+                },
+                {
+                  "word": "move",
+                  "meaning": "v.移动;搬(家)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "survey",
+                  "meaning": "n.民意调查",
+                  "uncertain": false
+                },
+                {
+                  "word": "week",
+                  "meaning": "n.周;一周",
+                  "uncertain": false
+                },
+                {
+                  "word": "hour",
+                  "meaning": "n.小时",
+                  "uncertain": false
+                },
+                {
+                  "word": "result",
+                  "meaning": "n.结果;后果;成果",
+                  "uncertain": false
+                },
+                {
+                  "word": "cap",
+                  "meaning": "n.便帽,制服帽",
+                  "uncertain": false
+                },
+                {
+                  "word": "pair",
+                  "meaning": "n.由两个相连接部分组成的物体;俩;一双",
+                  "uncertain": false
+                },
+                {
+                  "word": "shorts",
+                  "meaning": "n.短裤",
+                  "uncertain": false
+                },
+                {
+                  "word": "zoo",
+                  "meaning": "n.动物园",
+                  "uncertain": false
+                },
+                {
+                  "word": "wind",
+                  "meaning": "n.风",
+                  "uncertain": false
+                },
+                {
+                  "word": "leg",
+                  "meaning": "n.有……腿的;腿",
+                  "uncertain": false
+                },
+                {
+                  "word": "race",
+                  "meaning": "n.赛跑;速度竞赛",
+                  "uncertain": false
+                },
+                {
+                  "word": "side",
+                  "meaning": "n.一边;一侧",
+                  "uncertain": false
+                },
+                {
+                  "word": "even",
+                  "meaning": "adv.甚至,连;更加",
+                  "uncertain": false
+                },
+                {
+                  "word": "write",
+                  "meaning": "v.书写;写作;写信",
+                  "uncertain": false
+                },
+                {
+                  "word": "down",
+                  "meaning": "adv.(写)在纸上;向下 prep.向下;沿着",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "nature",
+                  "meaning": "n.自然界;自然",
+                  "uncertain": false
+                },
+                {
+                  "word": "sea",
+                  "meaning": "n.海;海洋",
+                  "uncertain": false
+                },
+                {
+                  "word": "desert",
+                  "meaning": "n.沙漠",
+                  "uncertain": false
+                },
+                {
+                  "word": "rainforest",
+                  "meaning": "",
+                  "uncertain": true
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The entry 'rainforest' has no printed Chinese meaning on the page; meaning left empty and marked uncertain."
+          ]
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "dbda871d3a5a7ac1d91707ae299d0fa1a47639a160a3fb388bbbfce0a639cda2",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "rainforest",
+                  "meaning": "(热带)雨林",
+                  "uncertain": true
+                },
+                {
+                  "word": "waterfall",
+                  "meaning": "瀑布",
+                  "uncertain": false
+                },
+                {
+                  "word": "grassland",
+                  "meaning": "草原",
+                  "uncertain": false
+                },
+                {
+                  "word": "wet",
+                  "meaning": "潮湿的",
+                  "uncertain": false
+                },
+                {
+                  "word": "plant",
+                  "meaning": "植物 种植",
+                  "uncertain": false
+                },
+                {
+                  "word": "animal",
+                  "meaning": "动物",
+                  "uncertain": false
+                },
+                {
+                  "word": "fall",
+                  "meaning": "落下;发生;跌倒",
+                  "uncertain": false
+                },
+                {
+                  "word": "hill",
+                  "meaning": "山丘;小山",
+                  "uncertain": false
+                },
+                {
+                  "word": "grass",
+                  "meaning": "草;草地",
+                  "uncertain": false
+                },
+                {
+                  "word": "elephant",
+                  "meaning": "象",
+                  "uncertain": false
+                },
+                {
+                  "word": "air",
+                  "meaning": "空气;空中",
+                  "uncertain": false
+                },
+                {
+                  "word": "top",
+                  "meaning": "顶部 最高的",
+                  "uncertain": false
+                },
+                {
+                  "word": "place",
+                  "meaning": "地方;场所 放置",
+                  "uncertain": false
+                },
+                {
+                  "word": "climate",
+                  "meaning": "气候",
+                  "uncertain": false
+                },
+                {
+                  "word": "house",
+                  "meaning": "房子",
+                  "uncertain": false
+                },
+                {
+                  "word": "window",
+                  "meaning": "窗户",
+                  "uncertain": false
+                },
+                {
+                  "word": "get",
+                  "meaning": "得到;收到;到达",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "bat",
+                  "meaning": "蝙蝠;球拍",
+                  "uncertain": false
+                },
+                {
+                  "word": "fly",
+                  "meaning": "飞;飞行;飞越;飞逝",
+                  "uncertain": false
+                },
+                {
+                  "word": "active",
+                  "meaning": "活跃的;积极的",
+                  "uncertain": false
+                },
+                {
+                  "word": "night",
+                  "meaning": "夜;夜晚",
+                  "uncertain": false
+                },
+                {
+                  "word": "panda",
+                  "meaning": "大熊猫;小熊猫",
+                  "uncertain": false
+                },
+                {
+                  "word": "tail",
+                  "meaning": "尾;尾巴",
+                  "uncertain": false
+                },
+                {
+                  "word": "bamboo",
+                  "meaning": "竹;竹子",
+                  "uncertain": false
+                },
+                {
+                  "word": "brown",
+                  "meaning": "棕色的;褐色的 棕色;褐色",
+                  "uncertain": false
+                },
+                {
+                  "word": "bear",
+                  "meaning": "熊 承受;忍受",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The first entry's word is partially cut off at the top of the image; transcribed as 'rainforest' with uncertain=true.",
+            "The heading 'Exploring the Topic' is a topic heading, not a numbered unit, so unit=null is used for the entries below it."
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "rainforest",
+                  "meaning": "(热带)雨林",
+                  "uncertain": true
+                },
+                {
+                  "word": "waterfall",
+                  "meaning": "瀑布",
+                  "uncertain": false
+                },
+                {
+                  "word": "grassland",
+                  "meaning": "草原",
+                  "uncertain": false
+                },
+                {
+                  "word": "wet",
+                  "meaning": "潮湿的",
+                  "uncertain": false
+                },
+                {
+                  "word": "plant",
+                  "meaning": "植物 种植",
+                  "uncertain": false
+                },
+                {
+                  "word": "animal",
+                  "meaning": "动物",
+                  "uncertain": false
+                },
+                {
+                  "word": "fall",
+                  "meaning": "落下;发生;跌倒",
+                  "uncertain": false
+                },
+                {
+                  "word": "hill",
+                  "meaning": "山丘;小山",
+                  "uncertain": false
+                },
+                {
+                  "word": "grass",
+                  "meaning": "草;草地",
+                  "uncertain": false
+                },
+                {
+                  "word": "elephant",
+                  "meaning": "象",
+                  "uncertain": false
+                },
+                {
+                  "word": "air",
+                  "meaning": "空气;空中",
+                  "uncertain": false
+                },
+                {
+                  "word": "top",
+                  "meaning": "顶部 最高的",
+                  "uncertain": false
+                },
+                {
+                  "word": "place",
+                  "meaning": "地方;场所 放置",
+                  "uncertain": false
+                },
+                {
+                  "word": "climate",
+                  "meaning": "气候",
+                  "uncertain": false
+                },
+                {
+                  "word": "house",
+                  "meaning": "房子",
+                  "uncertain": false
+                },
+                {
+                  "word": "window",
+                  "meaning": "窗户",
+                  "uncertain": false
+                },
+                {
+                  "word": "get",
+                  "meaning": "得到;收到;到达",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "bat",
+                  "meaning": "蝙蝠;球拍",
+                  "uncertain": false
+                },
+                {
+                  "word": "fly",
+                  "meaning": "飞;飞行;飞越;飞逝",
+                  "uncertain": false
+                },
+                {
+                  "word": "active",
+                  "meaning": "活跃的;积极的",
+                  "uncertain": false
+                },
+                {
+                  "word": "night",
+                  "meaning": "夜;夜晚",
+                  "uncertain": false
+                },
+                {
+                  "word": "panda",
+                  "meaning": "大熊猫;小熊猫",
+                  "uncertain": false
+                },
+                {
+                  "word": "tail",
+                  "meaning": "尾;尾巴",
+                  "uncertain": false
+                },
+                {
+                  "word": "bamboo",
+                  "meaning": "竹;竹子",
+                  "uncertain": false
+                },
+                {
+                  "word": "brown",
+                  "meaning": "棕色的;褐色的 棕色;褐色",
+                  "uncertain": false
+                },
+                {
+                  "word": "bear",
+                  "meaning": "熊 承受;忍受",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The first entry's word is partially cut off at the top of the image; transcribed as 'rainforest' with uncertain=true.",
+            "The heading 'Exploring the Topic' is a topic heading, not a numbered unit, so unit=null is used for the entries below it."
+          ]
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

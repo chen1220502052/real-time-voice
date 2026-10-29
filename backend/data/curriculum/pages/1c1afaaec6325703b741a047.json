@@ -1,0 +1,67 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/10_10_教材页面_48c60ea479.jpg",
+  "units": [
+    10
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "1c1afaaec6325703b741a047fc3b4c9f6299cf270d7e901e248fb42292f0186e",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "hear",
+              "meaning": "听说",
+              "uncertain": false
+            },
+            {
+              "word": "sign language",
+              "meaning": "手语",
+              "uncertain": false
+            },
+            {
+              "word": "become",
+              "meaning": "开始变得，成为",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "hear",
+              "meaning": "听说",
+              "uncertain": false
+            },
+            {
+              "word": "sign language",
+              "meaning": "手语",
+              "uncertain": false
+            },
+            {
+              "word": "become",
+              "meaning": "开始变得，成为",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

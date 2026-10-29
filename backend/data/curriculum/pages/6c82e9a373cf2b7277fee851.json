@@ -1,0 +1,885 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/5年级/下册_完整教材词表/原图/03_04_教材页面_dc60ae1a49.jpg",
+  "units": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/73/detail/",
+  "sha256": "6c82e9a373cf2b7277fee8518661647a2103ecf306d981b2195cefd2df218d2b",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "do morning exercises",
+              "meaning": "做早操",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "before",
+              "meaning": "在……以前",
+              "uncertain": false
+            },
+            {
+              "word": "afraid",
+              "meaning": "担心的，害怕的",
+              "uncertain": false
+            },
+            {
+              "word": "stand",
+              "meaning": "站",
+              "uncertain": false
+            },
+            {
+              "word": "someone",
+              "meaning": "某人",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "扔",
+              "uncertain": false
+            },
+            {
+              "word": "should",
+              "meaning": "应该",
+              "uncertain": false
+            },
+            {
+              "word": "get out",
+              "meaning": "出去",
+              "uncertain": false
+            },
+            {
+              "word": "each other",
+              "meaning": "互相",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "far",
+              "meaning": "远的",
+              "uncertain": false
+            },
+            {
+              "word": "minute",
+              "meaning": "分钟，一会儿",
+              "uncertain": false
+            },
+            {
+              "word": "by",
+              "meaning": "按照，乘（车等）",
+              "uncertain": false
+            },
+            {
+              "word": "slow",
+              "meaning": "慢的",
+              "uncertain": false
+            },
+            {
+              "word": "daughter",
+              "meaning": "女儿",
+              "uncertain": false
+            },
+            {
+              "word": "telephone",
+              "meaning": "电话",
+              "uncertain": false
+            },
+            {
+              "word": "ring",
+              "meaning": "（电话）响铃",
+              "uncertain": false
+            },
+            {
+              "word": "by bus",
+              "meaning": "乘坐公共汽车",
+              "uncertain": false
+            },
+            {
+              "word": "on foot",
+              "meaning": "步行",
+              "uncertain": false
+            },
+            {
+              "word": "have breakfast",
+              "meaning": "吃早餐",
+              "uncertain": false
+            },
+            {
+              "word": "for a minute",
+              "meaning": "一会儿",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "cinema",
+              "meaning": "电影院",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "在……之后",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "极好的",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "风扇，爱好者",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "Internet",
+              "meaning": "互联网",
+              "uncertain": false
+            },
+            {
+              "word": "mobile",
+              "meaning": "可移动的",
+              "uncertain": false
+            },
+            {
+              "word": "everything",
+              "meaning": "每件事",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "离开",
+              "uncertain": false
+            },
+            {
+              "word": "wall",
+              "meaning": "墙",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "丢失",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙",
+              "uncertain": false
+            },
+            {
+              "word": "just",
+              "meaning": "正好，仅仅",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "生活，生命",
+              "uncertain": false
+            },
+            {
+              "word": "mobile phone",
+              "meaning": "手机",
+              "uncertain": false
+            },
+            {
+              "word": "turn off",
+              "meaning": "关掉",
+              "uncertain": false
+            },
+            {
+              "word": "turn on",
+              "meaning": "打开",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "do morning exercises",
+              "meaning": "做早操",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "before",
+              "meaning": "在……以前",
+              "uncertain": false
+            },
+            {
+              "word": "afraid",
+              "meaning": "担心的，害怕的",
+              "uncertain": false
+            },
+            {
+              "word": "stand",
+              "meaning": "站",
+              "uncertain": false
+            },
+            {
+              "word": "someone",
+              "meaning": "某人",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "扔",
+              "uncertain": false
+            },
+            {
+              "word": "should",
+              "meaning": "应该",
+              "uncertain": false
+            },
+            {
+              "word": "get out",
+              "meaning": "出去",
+              "uncertain": false
+            },
+            {
+              "word": "each other",
+              "meaning": "互相",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "far",
+              "meaning": "远的",
+              "uncertain": false
+            },
+            {
+              "word": "minute",
+              "meaning": "分钟，一会儿",
+              "uncertain": false
+            },
+            {
+              "word": "by",
+              "meaning": "按照，乘（车等）",
+              "uncertain": false
+            },
+            {
+              "word": "slow",
+              "meaning": "慢的",
+              "uncertain": false
+            },
+            {
+              "word": "daughter",
+              "meaning": "女儿",
+              "uncertain": false
+            },
+            {
+              "word": "telephone",
+              "meaning": "电话",
+              "uncertain": false
+            },
+            {
+              "word": "ring",
+              "meaning": "（电话）响铃",
+              "uncertain": false
+            },
+            {
+              "word": "by bus",
+              "meaning": "乘坐公共汽车",
+              "uncertain": false
+            },
+            {
+              "word": "on foot",
+              "meaning": "步行",
+              "uncertain": false
+            },
+            {
+              "word": "have breakfast",
+              "meaning": "吃早餐",
+              "uncertain": false
+            },
+            {
+              "word": "for a minute",
+              "meaning": "一会儿",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "cinema",
+              "meaning": "电影院",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "在……之后",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "极好的",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "风扇，爱好者",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "Internet",
+              "meaning": "互联网",
+              "uncertain": false
+            },
+            {
+              "word": "mobile",
+              "meaning": "可移动的",
+              "uncertain": false
+            },
+            {
+              "word": "everything",
+              "meaning": "每件事",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "离开",
+              "uncertain": false
+            },
+            {
+              "word": "wall",
+              "meaning": "墙",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "丢失",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙",
+              "uncertain": false
+            },
+            {
+              "word": "just",
+              "meaning": "正好，仅仅",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "生活，生命",
+              "uncertain": false
+            },
+            {
+              "word": "mobile phone",
+              "meaning": "手机",
+              "uncertain": false
+            },
+            {
+              "word": "turn off",
+              "meaning": "关掉",
+              "uncertain": false
+            },
+            {
+              "word": "turn on",
+              "meaning": "打开",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "b5aa87e917de03be479b247213aa45d3b2741e532aaacbdbacda49155a66f51e",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "do morning exercises",
+                  "meaning": "做早操",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 10,
+              "entries": [
+                {
+                  "word": "before",
+                  "meaning": "在……以前",
+                  "uncertain": false
+                },
+                {
+                  "word": "afraid",
+                  "meaning": "担心的，害怕的",
+                  "uncertain": false
+                },
+                {
+                  "word": "stand",
+                  "meaning": "站",
+                  "uncertain": false
+                },
+                {
+                  "word": "someone",
+                  "meaning": "某人",
+                  "uncertain": false
+                },
+                {
+                  "word": "throw",
+                  "meaning": "扔",
+                  "uncertain": false
+                },
+                {
+                  "word": "should",
+                  "meaning": "应该",
+                  "uncertain": false
+                },
+                {
+                  "word": "get out",
+                  "meaning": "出去",
+                  "uncertain": false
+                },
+                {
+                  "word": "each other",
+                  "meaning": "互相",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 11,
+              "entries": [
+                {
+                  "word": "far",
+                  "meaning": "远的",
+                  "uncertain": false
+                },
+                {
+                  "word": "minute",
+                  "meaning": "分钟，一会儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "by",
+                  "meaning": "按照，乘（车等）",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow",
+                  "meaning": "慢的",
+                  "uncertain": false
+                },
+                {
+                  "word": "daughter",
+                  "meaning": "女儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "telephone",
+                  "meaning": "电话",
+                  "uncertain": false
+                },
+                {
+                  "word": "ring",
+                  "meaning": "（电话）响铃",
+                  "uncertain": false
+                },
+                {
+                  "word": "by bus",
+                  "meaning": "乘坐公共汽车",
+                  "uncertain": false
+                },
+                {
+                  "word": "on foot",
+                  "meaning": "步行",
+                  "uncertain": false
+                },
+                {
+                  "word": "have breakfast",
+                  "meaning": "吃早餐",
+                  "uncertain": false
+                },
+                {
+                  "word": "for a minute",
+                  "meaning": "一会儿",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "do morning exercises",
+                  "meaning": "做早操",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 10,
+              "entries": [
+                {
+                  "word": "before",
+                  "meaning": "在……以前",
+                  "uncertain": false
+                },
+                {
+                  "word": "afraid",
+                  "meaning": "担心的，害怕的",
+                  "uncertain": false
+                },
+                {
+                  "word": "stand",
+                  "meaning": "站",
+                  "uncertain": false
+                },
+                {
+                  "word": "someone",
+                  "meaning": "某人",
+                  "uncertain": false
+                },
+                {
+                  "word": "throw",
+                  "meaning": "扔",
+                  "uncertain": false
+                },
+                {
+                  "word": "should",
+                  "meaning": "应该",
+                  "uncertain": false
+                },
+                {
+                  "word": "get out",
+                  "meaning": "出去",
+                  "uncertain": false
+                },
+                {
+                  "word": "each other",
+                  "meaning": "互相",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 11,
+              "entries": [
+                {
+                  "word": "far",
+                  "meaning": "远的",
+                  "uncertain": false
+                },
+                {
+                  "word": "minute",
+                  "meaning": "分钟，一会儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "by",
+                  "meaning": "按照，乘（车等）",
+                  "uncertain": false
+                },
+                {
+                  "word": "slow",
+                  "meaning": "慢的",
+                  "uncertain": false
+                },
+                {
+                  "word": "daughter",
+                  "meaning": "女儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "telephone",
+                  "meaning": "电话",
+                  "uncertain": false
+                },
+                {
+                  "word": "ring",
+                  "meaning": "（电话）响铃",
+                  "uncertain": false
+                },
+                {
+                  "word": "by bus",
+                  "meaning": "乘坐公共汽车",
+                  "uncertain": false
+                },
+                {
+                  "word": "on foot",
+                  "meaning": "步行",
+                  "uncertain": false
+                },
+                {
+                  "word": "have breakfast",
+                  "meaning": "吃早餐",
+                  "uncertain": false
+                },
+                {
+                  "word": "for a minute",
+                  "meaning": "一会儿",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "90987b2c79bdfeea6cb006a5270156f1c42a43ee6a91ac560afd36641d098b11",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": 12,
+              "entries": [
+                {
+                  "word": "cinema",
+                  "meaning": "电影院",
+                  "uncertain": false
+                },
+                {
+                  "word": "after",
+                  "meaning": "在……之后",
+                  "uncertain": false
+                },
+                {
+                  "word": "wonderful",
+                  "meaning": "极好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "fan",
+                  "meaning": "风扇，爱好者",
+                  "uncertain": false
+                },
+                {
+                  "word": "night",
+                  "meaning": "夜晚",
+                  "uncertain": false
+                },
+                {
+                  "word": "Internet",
+                  "meaning": "互联网",
+                  "uncertain": false
+                },
+                {
+                  "word": "mobile",
+                  "meaning": "可移动的",
+                  "uncertain": false
+                },
+                {
+                  "word": "everything",
+                  "meaning": "每件事",
+                  "uncertain": false
+                },
+                {
+                  "word": "leave",
+                  "meaning": "离开",
+                  "uncertain": false
+                },
+                {
+                  "word": "wall",
+                  "meaning": "墙",
+                  "uncertain": false
+                },
+                {
+                  "word": "lose",
+                  "meaning": "丢失",
+                  "uncertain": false
+                },
+                {
+                  "word": "key",
+                  "meaning": "钥匙",
+                  "uncertain": false
+                },
+                {
+                  "word": "just",
+                  "meaning": "正好，仅仅",
+                  "uncertain": false
+                },
+                {
+                  "word": "life",
+                  "meaning": "生活，生命",
+                  "uncertain": false
+                },
+                {
+                  "word": "mobile phone",
+                  "meaning": "手机",
+                  "uncertain": false
+                },
+                {
+                  "word": "turn off",
+                  "meaning": "关掉",
+                  "uncertain": false
+                },
+                {
+                  "word": "turn on",
+                  "meaning": "打开",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": 12,
+              "entries": [
+                {
+                  "word": "cinema",
+                  "meaning": "电影院",
+                  "uncertain": false
+                },
+                {
+                  "word": "after",
+                  "meaning": "在……之后",
+                  "uncertain": false
+                },
+                {
+                  "word": "wonderful",
+                  "meaning": "极好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "fan",
+                  "meaning": "风扇，爱好者",
+                  "uncertain": false
+                },
+                {
+                  "word": "night",
+                  "meaning": "夜晚",
+                  "uncertain": false
+                },
+                {
+                  "word": "Internet",
+                  "meaning": "互联网",
+                  "uncertain": false
+                },
+                {
+                  "word": "mobile",
+                  "meaning": "可移动的",
+                  "uncertain": false
+                },
+                {
+                  "word": "everything",
+                  "meaning": "每件事",
+                  "uncertain": false
+                },
+                {
+                  "word": "leave",
+                  "meaning": "离开",
+                  "uncertain": false
+                },
+                {
+                  "word": "wall",
+                  "meaning": "墙",
+                  "uncertain": false
+                },
+                {
+                  "word": "lose",
+                  "meaning": "丢失",
+                  "uncertain": false
+                },
+                {
+                  "word": "key",
+                  "meaning": "钥匙",
+                  "uncertain": false
+                },
+                {
+                  "word": "just",
+                  "meaning": "正好，仅仅",
+                  "uncertain": false
+                },
+                {
+                  "word": "life",
+                  "meaning": "生活，生命",
+                  "uncertain": false
+                },
+                {
+                  "word": "mobile phone",
+                  "meaning": "手机",
+                  "uncertain": false
+                },
+                {
+                  "word": "turn off",
+                  "meaning": "关掉",
+                  "uncertain": false
+                },
+                {
+                  "word": "turn on",
+                  "meaning": "打开",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

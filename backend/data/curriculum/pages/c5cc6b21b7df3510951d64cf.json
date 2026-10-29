@@ -1,0 +1,705 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "下册",
+  "book": "下册_2014年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/9年级/下册_2014年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页081.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1968",
+  "sha256": "c5cc6b21b7df3510951d64cf4230b760b89890c9e0530df6837b0f4cb8b73b9f",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "ending",
+              "meaning": "结尾,结局",
+              "uncertain": false
+            },
+            {
+              "word": "drawing",
+              "meaning": "绘画;图画",
+              "uncertain": false
+            },
+            {
+              "word": "mission",
+              "meaning": "使命,天职;军事行动",
+              "uncertain": false
+            },
+            {
+              "word": "adventure",
+              "meaning": "冒险;冒险经历;奇遇",
+              "uncertain": false
+            },
+            {
+              "word": "mysterious",
+              "meaning": "神秘的",
+              "uncertain": false
+            },
+            {
+              "word": "crew",
+              "meaning": "(轮船、飞机等上面的)全体工作人员",
+              "uncertain": false
+            },
+            {
+              "word": "rescue",
+              "meaning": "援救,营救",
+              "uncertain": false
+            },
+            {
+              "word": "award",
+              "meaning": "奖;奖品;奖金",
+              "uncertain": false
+            },
+            {
+              "word": "motion",
+              "meaning": "运动;移动",
+              "uncertain": false
+            },
+            {
+              "word": "director",
+              "meaning": "导演",
+              "uncertain": false
+            },
+            {
+              "word": "general",
+              "meaning": "大体的;普遍的",
+              "uncertain": false
+            },
+            {
+              "word": "footstep",
+              "meaning": "足迹",
+              "uncertain": false
+            },
+            {
+              "word": "talented",
+              "meaning": "有才能的;天才的",
+              "uncertain": false
+            },
+            {
+              "word": "take up",
+              "meaning": "占据(时间、位置等)",
+              "uncertain": false
+            },
+            {
+              "word": "coach",
+              "meaning": "教练",
+              "uncertain": false
+            },
+            {
+              "word": "formally",
+              "meaning": "正式地;正规地",
+              "uncertain": false
+            },
+            {
+              "word": "rather than",
+              "meaning": "而不是",
+              "uncertain": false
+            },
+            {
+              "word": "organize",
+              "meaning": "组织,筹备",
+              "uncertain": false
+            },
+            {
+              "word": "aim",
+              "meaning": "目的,目标",
+              "uncertain": false
+            },
+            {
+              "word": "advance",
+              "meaning": "发展,进步",
+              "uncertain": false
+            },
+            {
+              "word": "as is known to all",
+              "meaning": "众所周知",
+              "uncertain": false
+            },
+            {
+              "word": "therefore",
+              "meaning": "因此,所以",
+              "uncertain": false
+            },
+            {
+              "word": "violence",
+              "meaning": "暴力,暴行",
+              "uncertain": false
+            },
+            {
+              "word": "violent",
+              "meaning": "暴力的,强暴的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "literature",
+              "meaning": "文学;文学作品",
+              "uncertain": false
+            },
+            {
+              "word": "classic",
+              "meaning": "最优秀的;典型的",
+              "uncertain": false
+            },
+            {
+              "word": "in one's view",
+              "meaning": "在某人看来",
+              "uncertain": false
+            },
+            {
+              "word": "overcome",
+              "meaning": "克服;解决",
+              "uncertain": false
+            },
+            {
+              "word": "statement",
+              "meaning": "说法;陈述",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "literary",
+              "meaning": "文学的",
+              "uncertain": false
+            },
+            {
+              "word": "society",
+              "meaning": "社团,协会;社会",
+              "uncertain": false
+            },
+            {
+              "word": "moving",
+              "meaning": "感人的,动人的",
+              "uncertain": false
+            },
+            {
+              "word": "poetry",
+              "meaning": "诗集;诗歌",
+              "uncertain": false
+            },
+            {
+              "word": "poet",
+              "meaning": "诗人",
+              "uncertain": false
+            },
+            {
+              "word": "playwright",
+              "meaning": "剧作家",
+              "uncertain": false
+            },
+            {
+              "word": "drama",
+              "meaning": "戏剧",
+              "uncertain": false
+            },
+            {
+              "word": "scene",
+              "meaning": "场面,片断",
+              "uncertain": false
+            },
+            {
+              "word": "kiss",
+              "meaning": "吻,亲吻",
+              "uncertain": false
+            },
+            {
+              "word": "masterpiece",
+              "meaning": "代表作,杰作",
+              "uncertain": false
+            },
+            {
+              "word": "district",
+              "meaning": "地区;区域",
+              "uncertain": false
+            },
+            {
+              "word": "unlike",
+              "meaning": "不像;与……不同",
+              "uncertain": false
+            },
+            {
+              "word": "rainbow",
+              "meaning": "虹,彩虹",
+              "uncertain": false
+            },
+            {
+              "word": "inspiration",
+              "meaning": "灵感;妙计",
+              "uncertain": false
+            },
+            {
+              "word": "eventually",
+              "meaning": "最后,终于",
+              "uncertain": false
+            },
+            {
+              "word": "golden",
+              "meaning": "金(黄)色的",
+              "uncertain": false
+            },
+            {
+              "word": "monk",
+              "meaning": "僧侣;修道士",
+              "uncertain": false
+            },
+            {
+              "word": "narrator",
+              "meaning": "叙述者;旁白员",
+              "uncertain": false
+            },
+            {
+              "word": "husband",
+              "meaning": "丈夫",
+              "uncertain": false
+            },
+            {
+              "word": "precious",
+              "meaning": "宝贵的;珍稀的",
+              "uncertain": false
+            },
+            {
+              "word": "possession",
+              "meaning": "个人财产;拥有",
+              "uncertain": false
+            },
+            {
+              "word": "wealth",
+              "meaning": "财产,财富",
+              "uncertain": false
+            },
+            {
+              "word": "chain",
+              "meaning": "链子;一系列;连锁商店",
+              "uncertain": false
+            },
+            {
+              "word": "sudden",
+              "meaning": "突然的,忽然的",
+              "uncertain": false
+            },
+            {
+              "word": "all of a sudden",
+              "meaning": "突然,猛地",
+              "uncertain": false
+            },
+            {
+              "word": "cut off",
+              "meaning": "剪掉;切断(水源、电源等)",
+              "uncertain": false
+            },
+            {
+              "word": "live through",
+              "meaning": "经历(灾难或其它困境)而幸存",
+              "uncertain": false
+            },
+            {
+              "word": "possibly",
+              "meaning": "可能,或许",
+              "uncertain": false
+            },
+            {
+              "word": "comb",
+              "meaning": "梳子;梳理(头发)",
+              "uncertain": false
+            },
+            {
+              "word": "jeweled",
+              "meaning": "镶有宝石的",
+              "uncertain": false
+            },
+            {
+              "word": "rim",
+              "meaning": "(圆形物体的)边沿;轮圈",
+              "uncertain": false
+            },
+            {
+              "word": "long for",
+              "meaning": "渴望(尤指对看似不会很快发生的事)",
+              "uncertain": false
+            },
+            {
+              "word": "hunt",
+              "meaning": "搜寻;打猎;追捕",
+              "uncertain": false
+            },
+            {
+              "word": "at present",
+              "meaning": "目前",
+              "uncertain": false
+            },
+            {
+              "word": "couple",
+              "meaning": "两人;一对",
+              "uncertain": false
+            },
+            {
+              "word": "the couple",
+              "meaning": "(尤指)夫妻,情侣",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "ending",
+              "meaning": "结尾,结局",
+              "uncertain": false
+            },
+            {
+              "word": "drawing",
+              "meaning": "绘画;图画",
+              "uncertain": false
+            },
+            {
+              "word": "mission",
+              "meaning": "使命,天职;军事行动",
+              "uncertain": false
+            },
+            {
+              "word": "adventure",
+              "meaning": "冒险;冒险经历;奇遇",
+              "uncertain": false
+            },
+            {
+              "word": "mysterious",
+              "meaning": "神秘的",
+              "uncertain": false
+            },
+            {
+              "word": "crew",
+              "meaning": "(轮船、飞机等上面的)全体工作人员",
+              "uncertain": false
+            },
+            {
+              "word": "rescue",
+              "meaning": "援救,营救",
+              "uncertain": false
+            },
+            {
+              "word": "award",
+              "meaning": "奖;奖品;奖金",
+              "uncertain": false
+            },
+            {
+              "word": "motion",
+              "meaning": "运动;移动",
+              "uncertain": false
+            },
+            {
+              "word": "director",
+              "meaning": "导演",
+              "uncertain": false
+            },
+            {
+              "word": "general",
+              "meaning": "大体的;普遍的",
+              "uncertain": false
+            },
+            {
+              "word": "footstep",
+              "meaning": "足迹",
+              "uncertain": false
+            },
+            {
+              "word": "talented",
+              "meaning": "有才能的;天才的",
+              "uncertain": false
+            },
+            {
+              "word": "take up",
+              "meaning": "占据(时间、位置等)",
+              "uncertain": false
+            },
+            {
+              "word": "coach",
+              "meaning": "教练",
+              "uncertain": false
+            },
+            {
+              "word": "formally",
+              "meaning": "正式地;正规地",
+              "uncertain": false
+            },
+            {
+              "word": "rather than",
+              "meaning": "而不是",
+              "uncertain": false
+            },
+            {
+              "word": "organize",
+              "meaning": "组织,筹备",
+              "uncertain": false
+            },
+            {
+              "word": "aim",
+              "meaning": "目的,目标",
+              "uncertain": false
+            },
+            {
+              "word": "advance",
+              "meaning": "发展,进步",
+              "uncertain": false
+            },
+            {
+              "word": "as is known to all",
+              "meaning": "众所周知",
+              "uncertain": false
+            },
+            {
+              "word": "therefore",
+              "meaning": "因此,所以",
+              "uncertain": false
+            },
+            {
+              "word": "violence",
+              "meaning": "暴力,暴行",
+              "uncertain": false
+            },
+            {
+              "word": "violent",
+              "meaning": "暴力的,强暴的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "literature",
+              "meaning": "文学;文学作品",
+              "uncertain": false
+            },
+            {
+              "word": "classic",
+              "meaning": "最优秀的;典型的",
+              "uncertain": false
+            },
+            {
+              "word": "in one's view",
+              "meaning": "在某人看来",
+              "uncertain": false
+            },
+            {
+              "word": "overcome",
+              "meaning": "克服;解决",
+              "uncertain": false
+            },
+            {
+              "word": "statement",
+              "meaning": "说法;陈述",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "literary",
+              "meaning": "文学的",
+              "uncertain": false
+            },
+            {
+              "word": "society",
+              "meaning": "社团,协会;社会",
+              "uncertain": false
+            },
+            {
+              "word": "moving",
+              "meaning": "感人的,动人的",
+              "uncertain": false
+            },
+            {
+              "word": "poetry",
+              "meaning": "诗集;诗歌",
+              "uncertain": false
+            },
+            {
+              "word": "poet",
+              "meaning": "诗人",
+              "uncertain": false
+            },
+            {
+              "word": "playwright",
+              "meaning": "剧作家",
+              "uncertain": false
+            },
+            {
+              "word": "drama",
+              "meaning": "戏剧",
+              "uncertain": false
+            },
+            {
+              "word": "scene",
+              "meaning": "场面,片断",
+              "uncertain": false
+            },
+            {
+              "word": "kiss",
+              "meaning": "吻,亲吻",
+              "uncertain": false
+            },
+            {
+              "word": "masterpiece",
+              "meaning": "代表作,杰作",
+              "uncertain": false
+            },
+            {
+              "word": "district",
+              "meaning": "地区;区域",
+              "uncertain": false
+            },
+            {
+              "word": "unlike",
+              "meaning": "不像;与……不同",
+              "uncertain": false
+            },
+            {
+              "word": "rainbow",
+              "meaning": "虹,彩虹",
+              "uncertain": false
+            },
+            {
+              "word": "inspiration",
+              "meaning": "灵感;妙计",
+              "uncertain": false
+            },
+            {
+              "word": "eventually",
+              "meaning": "最后,终于",
+              "uncertain": false
+            },
+            {
+              "word": "golden",
+              "meaning": "金(黄)色的",
+              "uncertain": false
+            },
+            {
+              "word": "monk",
+              "meaning": "僧侣;修道士",
+              "uncertain": false
+            },
+            {
+              "word": "narrator",
+              "meaning": "叙述者;旁白员",
+              "uncertain": false
+            },
+            {
+              "word": "husband",
+              "meaning": "丈夫",
+              "uncertain": false
+            },
+            {
+              "word": "precious",
+              "meaning": "宝贵的;珍稀的",
+              "uncertain": false
+            },
+            {
+              "word": "possession",
+              "meaning": "个人财产;拥有",
+              "uncertain": false
+            },
+            {
+              "word": "wealth",
+              "meaning": "财产,财富",
+              "uncertain": false
+            },
+            {
+              "word": "chain",
+              "meaning": "链子;一系列;连锁商店",
+              "uncertain": false
+            },
+            {
+              "word": "sudden",
+              "meaning": "突然的,忽然的",
+              "uncertain": false
+            },
+            {
+              "word": "all of a sudden",
+              "meaning": "突然,猛地",
+              "uncertain": false
+            },
+            {
+              "word": "cut off",
+              "meaning": "剪掉;切断(水源、电源等)",
+              "uncertain": false
+            },
+            {
+              "word": "live through",
+              "meaning": "经历(灾难或其它困境)而幸存",
+              "uncertain": false
+            },
+            {
+              "word": "possibly",
+              "meaning": "可能,或许",
+              "uncertain": false
+            },
+            {
+              "word": "comb",
+              "meaning": "梳子;梳理(头发)",
+              "uncertain": false
+            },
+            {
+              "word": "jeweled",
+              "meaning": "镶有宝石的",
+              "uncertain": false
+            },
+            {
+              "word": "rim",
+              "meaning": "(圆形物体的)边沿;轮圈",
+              "uncertain": false
+            },
+            {
+              "word": "long for",
+              "meaning": "渴望(尤指对看似不会很快发生的事)",
+              "uncertain": false
+            },
+            {
+              "word": "hunt",
+              "meaning": "搜寻;打猎;追捕",
+              "uncertain": false
+            },
+            {
+              "word": "at present",
+              "meaning": "目前",
+              "uncertain": false
+            },
+            {
+              "word": "couple",
+              "meaning": "两人;一对",
+              "uncertain": false
+            },
+            {
+              "word": "the couple",
+              "meaning": "(尤指)夫妻,情侣",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

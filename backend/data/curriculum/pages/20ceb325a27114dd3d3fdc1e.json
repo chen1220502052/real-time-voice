@@ -1,0 +1,890 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页140.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "20ceb325a27114dd3d3fdc1e781ba99ea0c0abe4d1a8a16da241dd32ea9e6f5c",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "study",
+              "meaning": "v.学习 n.学习;书房",
+              "uncertain": false
+            },
+            {
+              "word": "hard",
+              "meaning": "adv.努力地 adj.难做的;艰难的;努力的",
+              "uncertain": false
+            },
+            {
+              "word": "middle",
+              "meaning": "adj.中间的 n.中间",
+              "uncertain": false
+            },
+            {
+              "word": "every",
+              "meaning": "det.每一个;每逢",
+              "uncertain": false
+            },
+            {
+              "word": "day",
+              "meaning": "n.一天;白天",
+              "uncertain": false
+            },
+            {
+              "word": "look",
+              "meaning": "v.显得;看;好像是 n.看;相貌",
+              "uncertain": false
+            },
+            {
+              "word": "high",
+              "meaning": "adj.高的 adv.高;在处处",
+              "uncertain": false
+            },
+            {
+              "word": "lot",
+              "meaning": "adv.(与动词连用)非常 pron., det.大量,许多",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "colourful",
+              "meaning": "adj.丰富多彩的;五彩缤纷的",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "n.生活;生命",
+              "uncertain": false
+            },
+            {
+              "word": "biology",
+              "meaning": "n.生物学",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "n.汉语;中国人 adj.中国的",
+              "uncertain": false
+            },
+            {
+              "word": "geography",
+              "meaning": "n.地理(学)",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "n.美术,艺术",
+              "uncertain": false
+            },
+            {
+              "word": "history",
+              "meaning": "n.历史课;地方志;历史",
+              "uncertain": false
+            },
+            {
+              "word": "computer",
+              "meaning": "n.电脑",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "n.星期三",
+              "uncertain": false
+            },
+            {
+              "word": "English",
+              "meaning": "n.英语学科;英语;英格兰人 adj.英格兰的;英格兰人的;英语的",
+              "uncertain": false
+            },
+            {
+              "word": "begin",
+              "meaning": "v.开始",
+              "uncertain": false
+            },
+            {
+              "word": "o'clock",
+              "meaning": "adv.(表示整点)……点钟",
+              "uncertain": false
+            },
+            {
+              "word": "ten",
+              "meaning": "num.十",
+              "uncertain": false
+            },
+            {
+              "word": "half",
+              "meaning": "n.一半",
+              "uncertain": false
+            },
+            {
+              "word": "past",
+              "meaning": "prep.在……之后 n.过去 adj.从前的;刚过去的",
+              "uncertain": false
+            },
+            {
+              "word": "over",
+              "meaning": "adv.结束;穿过;又 prep.遍及;在……上面;穿越",
+              "uncertain": false
+            },
+            {
+              "word": "quarter",
+              "meaning": "n.一刻钟;四分之一;季度",
+              "uncertain": false
+            },
+            {
+              "word": "now",
+              "meaning": "adv.现在;目前",
+              "uncertain": false
+            },
+            {
+              "word": "favourite",
+              "meaning": "adj.特别受喜爱的 n.特别喜爱的人(或事物)",
+              "uncertain": false
+            },
+            {
+              "word": "subject",
+              "meaning": "n.科目",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "n.星期四",
+              "uncertain": false
+            },
+            {
+              "word": "by",
+              "meaning": "prep.(表示方式);(表示施事者);在……旁边;在……之前",
+              "uncertain": false
+            },
+            {
+              "word": "underground",
+              "meaning": "n.地铁",
+              "uncertain": false
+            },
+            {
+              "word": "plane",
+              "meaning": "n.飞机",
+              "uncertain": false
+            },
+            {
+              "word": "foot",
+              "meaning": "n.脚,足;底部",
+              "uncertain": false
+            },
+            {
+              "word": "car",
+              "meaning": "n.小汽车;轿车",
+              "uncertain": false
+            },
+            {
+              "word": "train",
+              "meaning": "n.火车 v.训练;培训",
+              "uncertain": false
+            },
+            {
+              "word": "ship",
+              "meaning": "n.(大)船 v.运输",
+              "uncertain": false
+            },
+            {
+              "word": "boat",
+              "meaning": "n.(泛指)船;舟,小船",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "n.方式;方面;路",
+              "uncertain": false
+            },
+            {
+              "word": "stop",
+              "meaning": "n.车站;停止 v.停下;阻止;停止",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "study",
+              "meaning": "v.学习 n.学习;书房",
+              "uncertain": false
+            },
+            {
+              "word": "hard",
+              "meaning": "adv.努力地 adj.难做的;艰难的;努力的",
+              "uncertain": false
+            },
+            {
+              "word": "middle",
+              "meaning": "adj.中间的 n.中间",
+              "uncertain": false
+            },
+            {
+              "word": "every",
+              "meaning": "det.每一个;每逢",
+              "uncertain": false
+            },
+            {
+              "word": "day",
+              "meaning": "n.一天;白天",
+              "uncertain": false
+            },
+            {
+              "word": "look",
+              "meaning": "v.显得;看;好像是 n.看;相貌",
+              "uncertain": false
+            },
+            {
+              "word": "high",
+              "meaning": "adj.高的 adv.高;在处处",
+              "uncertain": false
+            },
+            {
+              "word": "lot",
+              "meaning": "adv.(与动词连用)非常 pron., det.大量,许多",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "colourful",
+              "meaning": "adj.丰富多彩的;五彩缤纷的",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "n.生活;生命",
+              "uncertain": false
+            },
+            {
+              "word": "biology",
+              "meaning": "n.生物学",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "n.汉语;中国人 adj.中国的",
+              "uncertain": false
+            },
+            {
+              "word": "geography",
+              "meaning": "n.地理(学)",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "n.美术,艺术",
+              "uncertain": false
+            },
+            {
+              "word": "history",
+              "meaning": "n.历史课;地方志;历史",
+              "uncertain": false
+            },
+            {
+              "word": "computer",
+              "meaning": "n.电脑",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "n.星期三",
+              "uncertain": false
+            },
+            {
+              "word": "English",
+              "meaning": "n.英语学科;英语;英格兰人 adj.英格兰的;英格兰人的;英语的",
+              "uncertain": false
+            },
+            {
+              "word": "begin",
+              "meaning": "v.开始",
+              "uncertain": false
+            },
+            {
+              "word": "o'clock",
+              "meaning": "adv.(表示整点)……点钟",
+              "uncertain": false
+            },
+            {
+              "word": "ten",
+              "meaning": "num.十",
+              "uncertain": false
+            },
+            {
+              "word": "half",
+              "meaning": "n.一半",
+              "uncertain": false
+            },
+            {
+              "word": "past",
+              "meaning": "prep.在……之后 n.过去 adj.从前的;刚过去的",
+              "uncertain": false
+            },
+            {
+              "word": "over",
+              "meaning": "adv.结束;穿过;又 prep.遍及;在……上面;穿越",
+              "uncertain": false
+            },
+            {
+              "word": "quarter",
+              "meaning": "n.一刻钟;四分之一;季度",
+              "uncertain": false
+            },
+            {
+              "word": "now",
+              "meaning": "adv.现在;目前",
+              "uncertain": false
+            },
+            {
+              "word": "favourite",
+              "meaning": "adj.特别受喜爱的 n.特别喜爱的人(或事物)",
+              "uncertain": false
+            },
+            {
+              "word": "subject",
+              "meaning": "n.科目",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "n.星期四",
+              "uncertain": false
+            },
+            {
+              "word": "by",
+              "meaning": "prep.(表示方式);(表示施事者);在……旁边;在……之前",
+              "uncertain": false
+            },
+            {
+              "word": "underground",
+              "meaning": "n.地铁",
+              "uncertain": false
+            },
+            {
+              "word": "plane",
+              "meaning": "n.飞机",
+              "uncertain": false
+            },
+            {
+              "word": "foot",
+              "meaning": "n.脚,足;底部",
+              "uncertain": false
+            },
+            {
+              "word": "car",
+              "meaning": "n.小汽车;轿车",
+              "uncertain": false
+            },
+            {
+              "word": "train",
+              "meaning": "n.火车 v.训练;培训",
+              "uncertain": false
+            },
+            {
+              "word": "ship",
+              "meaning": "n.(大)船 v.运输",
+              "uncertain": false
+            },
+            {
+              "word": "boat",
+              "meaning": "n.(泛指)船;舟,小船",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "n.方式;方面;路",
+              "uncertain": false
+            },
+            {
+              "word": "stop",
+              "meaning": "n.车站;停止 v.停下;阻止;停止",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "e7326e1349b9e2608fe86bb85f72e16964ceab9c9b3805969d651c61ac90e091",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "study",
+                  "meaning": "v.学习 n.学习;书房",
+                  "uncertain": false
+                },
+                {
+                  "word": "hard",
+                  "meaning": "adv.努力地 adj.难做的;艰难的;努力的",
+                  "uncertain": false
+                },
+                {
+                  "word": "middle",
+                  "meaning": "adj.中间的 n.中间",
+                  "uncertain": false
+                },
+                {
+                  "word": "every",
+                  "meaning": "det.每一个;每逢",
+                  "uncertain": false
+                },
+                {
+                  "word": "day",
+                  "meaning": "n.一天;白天",
+                  "uncertain": false
+                },
+                {
+                  "word": "look",
+                  "meaning": "v.显得;看;好像是 n.看;相貌",
+                  "uncertain": false
+                },
+                {
+                  "word": "high",
+                  "meaning": "adj.高的 adv.高;在高处",
+                  "uncertain": false
+                },
+                {
+                  "word": "lot",
+                  "meaning": "adv.(与动词连用)非常 pron., det.大量,许多",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "colourful",
+                  "meaning": "adj.丰富多彩的;五彩缤纷的",
+                  "uncertain": false
+                },
+                {
+                  "word": "life",
+                  "meaning": "n.生活;生命",
+                  "uncertain": false
+                },
+                {
+                  "word": "biology",
+                  "meaning": "n.生物学",
+                  "uncertain": false
+                },
+                {
+                  "word": "Chinese",
+                  "meaning": "n.汉语;中国人 adj.中国的",
+                  "uncertain": false
+                },
+                {
+                  "word": "geography",
+                  "meaning": "n.地理(学)",
+                  "uncertain": false
+                },
+                {
+                  "word": "art",
+                  "meaning": "n.美术,艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "history",
+                  "meaning": "n.历史课;地方志;历史",
+                  "uncertain": false
+                },
+                {
+                  "word": "computer",
+                  "meaning": "n.电脑",
+                  "uncertain": false
+                },
+                {
+                  "word": "Wednesday",
+                  "meaning": "n.星期三",
+                  "uncertain": false
+                },
+                {
+                  "word": "English",
+                  "meaning": "n.英语学科;英语;英格兰人 adj.英格兰的;英格兰人的;英语的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "study",
+                  "meaning": "v.学习 n.学习;书房",
+                  "uncertain": false
+                },
+                {
+                  "word": "hard",
+                  "meaning": "adv.努力地 adj.难做的;艰难的;努力的",
+                  "uncertain": false
+                },
+                {
+                  "word": "middle",
+                  "meaning": "adj.中间的 n.中间",
+                  "uncertain": false
+                },
+                {
+                  "word": "every",
+                  "meaning": "det.每一个;每逢",
+                  "uncertain": false
+                },
+                {
+                  "word": "day",
+                  "meaning": "n.一天;白天",
+                  "uncertain": false
+                },
+                {
+                  "word": "look",
+                  "meaning": "v.显得;看;好像是 n.看;相貌",
+                  "uncertain": false
+                },
+                {
+                  "word": "high",
+                  "meaning": "adj.高的 adv.高;在高处",
+                  "uncertain": false
+                },
+                {
+                  "word": "lot",
+                  "meaning": "adv.(与动词连用)非常 pron., det.大量,许多",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "colourful",
+                  "meaning": "adj.丰富多彩的;五彩缤纷的",
+                  "uncertain": false
+                },
+                {
+                  "word": "life",
+                  "meaning": "n.生活;生命",
+                  "uncertain": false
+                },
+                {
+                  "word": "biology",
+                  "meaning": "n.生物学",
+                  "uncertain": false
+                },
+                {
+                  "word": "Chinese",
+                  "meaning": "n.汉语;中国人 adj.中国的",
+                  "uncertain": false
+                },
+                {
+                  "word": "geography",
+                  "meaning": "n.地理(学)",
+                  "uncertain": false
+                },
+                {
+                  "word": "art",
+                  "meaning": "n.美术,艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "history",
+                  "meaning": "n.历史课;地方志;历史",
+                  "uncertain": false
+                },
+                {
+                  "word": "computer",
+                  "meaning": "n.电脑",
+                  "uncertain": false
+                },
+                {
+                  "word": "Wednesday",
+                  "meaning": "n.星期三",
+                  "uncertain": false
+                },
+                {
+                  "word": "English",
+                  "meaning": "n.英语学科;英语;英格兰人 adj.英格兰的;英格兰人的;英语的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "ff2dcf94483be65c108d6e13196e5efae6372c3c69fcce79f4ba90cbc26861ca",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "begin",
+                  "meaning": "v. 开始",
+                  "uncertain": false
+                },
+                {
+                  "word": "o'clock",
+                  "meaning": "adv.(表示整点)……点钟",
+                  "uncertain": false
+                },
+                {
+                  "word": "ten",
+                  "meaning": "num. 十",
+                  "uncertain": false
+                },
+                {
+                  "word": "half",
+                  "meaning": "n. 一半",
+                  "uncertain": false
+                },
+                {
+                  "word": "past",
+                  "meaning": "prep. 在……之后 n. 过去 adj. 从前的;刚过去的",
+                  "uncertain": false
+                },
+                {
+                  "word": "over",
+                  "meaning": "adv. 结束;穿过;又 prep. 遍及;在……上面;穿越",
+                  "uncertain": false
+                },
+                {
+                  "word": "quarter",
+                  "meaning": "n. 一刻钟;四分之一;季度",
+                  "uncertain": false
+                },
+                {
+                  "word": "now",
+                  "meaning": "adv. 现在;目前",
+                  "uncertain": false
+                },
+                {
+                  "word": "favourite",
+                  "meaning": "(favorite AmE) adj. 特别受喜爱的 n. 特别喜爱的人(或事物)",
+                  "uncertain": false
+                },
+                {
+                  "word": "subject",
+                  "meaning": "n. 科目",
+                  "uncertain": false
+                },
+                {
+                  "word": "Thursday",
+                  "meaning": "n. 星期四",
+                  "uncertain": false
+                },
+                {
+                  "word": "by",
+                  "meaning": "prep.(表示方式);(表示施事者);在……旁边;在……之前",
+                  "uncertain": false
+                },
+                {
+                  "word": "underground",
+                  "meaning": "n. 地铁",
+                  "uncertain": false
+                },
+                {
+                  "word": "plane",
+                  "meaning": "n. 飞机",
+                  "uncertain": false
+                },
+                {
+                  "word": "foot",
+                  "meaning": "(pl.feet) n. 脚,足;底部",
+                  "uncertain": false
+                },
+                {
+                  "word": "car",
+                  "meaning": "n. 小汽车;轿车",
+                  "uncertain": false
+                },
+                {
+                  "word": "train",
+                  "meaning": "n. 火车 v. 训练;培训",
+                  "uncertain": false
+                },
+                {
+                  "word": "ship",
+                  "meaning": "n.(大)船 v. 运输",
+                  "uncertain": false
+                },
+                {
+                  "word": "boat",
+                  "meaning": "n.(泛指)船;舟,小船",
+                  "uncertain": false
+                },
+                {
+                  "word": "way",
+                  "meaning": "n. 方式;方面;路",
+                  "uncertain": false
+                },
+                {
+                  "word": "stop",
+                  "meaning": "n. 车站;停止 v. 停下;阻止;停止",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "begin",
+                  "meaning": "v. 开始",
+                  "uncertain": false
+                },
+                {
+                  "word": "o'clock",
+                  "meaning": "adv.(表示整点)……点钟",
+                  "uncertain": false
+                },
+                {
+                  "word": "ten",
+                  "meaning": "num. 十",
+                  "uncertain": false
+                },
+                {
+                  "word": "half",
+                  "meaning": "n. 一半",
+                  "uncertain": false
+                },
+                {
+                  "word": "past",
+                  "meaning": "prep. 在……之后 n. 过去 adj. 从前的;刚过去的",
+                  "uncertain": false
+                },
+                {
+                  "word": "over",
+                  "meaning": "adv. 结束;穿过;又 prep. 遍及;在……上面;穿越",
+                  "uncertain": false
+                },
+                {
+                  "word": "quarter",
+                  "meaning": "n. 一刻钟;四分之一;季度",
+                  "uncertain": false
+                },
+                {
+                  "word": "now",
+                  "meaning": "adv. 现在;目前",
+                  "uncertain": false
+                },
+                {
+                  "word": "favourite",
+                  "meaning": "(favorite AmE) adj. 特别受喜爱的 n. 特别喜爱的人(或事物)",
+                  "uncertain": false
+                },
+                {
+                  "word": "subject",
+                  "meaning": "n. 科目",
+                  "uncertain": false
+                },
+                {
+                  "word": "Thursday",
+                  "meaning": "n. 星期四",
+                  "uncertain": false
+                },
+                {
+                  "word": "by",
+                  "meaning": "prep.(表示方式);(表示施事者);在……旁边;在……之前",
+                  "uncertain": false
+                },
+                {
+                  "word": "underground",
+                  "meaning": "n. 地铁",
+                  "uncertain": false
+                },
+                {
+                  "word": "plane",
+                  "meaning": "n. 飞机",
+                  "uncertain": false
+                },
+                {
+                  "word": "foot",
+                  "meaning": "(pl.feet) n. 脚,足;底部",
+                  "uncertain": false
+                },
+                {
+                  "word": "car",
+                  "meaning": "n. 小汽车;轿车",
+                  "uncertain": false
+                },
+                {
+                  "word": "train",
+                  "meaning": "n. 火车 v. 训练;培训",
+                  "uncertain": false
+                },
+                {
+                  "word": "ship",
+                  "meaning": "n.(大)船 v. 运输",
+                  "uncertain": false
+                },
+                {
+                  "word": "boat",
+                  "meaning": "n.(泛指)船;舟,小船",
+                  "uncertain": false
+                },
+                {
+                  "word": "way",
+                  "meaning": "n. 方式;方面;路",
+                  "uncertain": false
+                },
+                {
+                  "word": "stop",
+                  "meaning": "n. 车站;停止 v. 停下;阻止;停止",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

@@ -1,0 +1,327 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/01_01_教材页面_4fcd4033c4.png",
+  "units": [
+    1
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "879e539998ea3394c9553249034db93b26e574d0cce90fe878da82bd8758d7a2",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "festival",
+              "meaning": "节",
+              "uncertain": false
+            },
+            {
+              "word": "the Mid-Autumn Festival",
+              "meaning": "中秋节",
+              "uncertain": false
+            },
+            {
+              "word": "photo (=photograph)",
+              "meaning": "照片",
+              "uncertain": false
+            },
+            {
+              "word": "take photos",
+              "meaning": "拍照",
+              "uncertain": false
+            },
+            {
+              "word": "mooncake",
+              "meaning": "月饼",
+              "uncertain": false
+            },
+            {
+              "word": "tell",
+              "meaning": "告诉",
+              "uncertain": false
+            },
+            {
+              "word": "story",
+              "meaning": "故事",
+              "uncertain": false
+            },
+            {
+              "word": "picture",
+              "meaning": "图画",
+              "uncertain": false
+            },
+            {
+              "word": "moon",
+              "meaning": "月亮",
+              "uncertain": false
+            },
+            {
+              "word": "full",
+              "meaning": "满的",
+              "uncertain": false
+            },
+            {
+              "word": "grandparent",
+              "meaning": "祖父(母)",
+              "uncertain": false
+            },
+            {
+              "word": "interesting",
+              "meaning": "有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "child (pl. children)",
+              "meaning": "孩子",
+              "uncertain": false
+            },
+            {
+              "word": "Children's Day",
+              "meaning": "儿童节",
+              "uncertain": false
+            },
+            {
+              "word": "Mexico",
+              "meaning": "墨西哥",
+              "uncertain": false
+            },
+            {
+              "word": "party",
+              "meaning": "聚会",
+              "uncertain": false
+            },
+            {
+              "word": "game",
+              "meaning": "游戏，比赛",
+              "uncertain": false
+            },
+            {
+              "word": "also",
+              "meaning": "也，此外，而且",
+              "uncertain": false
+            },
+            {
+              "word": "candy",
+              "meaning": "糖果",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "精彩的，绝妙的",
+              "uncertain": false
+            },
+            {
+              "word": "dress up",
+              "meaning": "打扮",
+              "uncertain": false
+            },
+            {
+              "word": "colourful",
+              "meaning": "颜色鲜艳的",
+              "uncertain": false
+            },
+            {
+              "word": "parent",
+              "meaning": "父亲（或母亲）",
+              "uncertain": false
+            },
+            {
+              "word": "Japan",
+              "meaning": "日本",
+              "uncertain": false
+            },
+            {
+              "word": "wish",
+              "meaning": "祝愿；愿望",
+              "uncertain": false
+            },
+            {
+              "word": "their",
+              "meaning": "他(她，它)们的",
+              "uncertain": false
+            },
+            {
+              "word": "luck",
+              "meaning": "运气",
+              "uncertain": false
+            },
+            {
+              "word": "put up",
+              "meaning": "挂起，装饰",
+              "uncertain": false
+            },
+            {
+              "word": "France",
+              "meaning": "法国",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "festival",
+              "meaning": "节",
+              "uncertain": false
+            },
+            {
+              "word": "the Mid-Autumn Festival",
+              "meaning": "中秋节",
+              "uncertain": false
+            },
+            {
+              "word": "photo (=photograph)",
+              "meaning": "照片",
+              "uncertain": false
+            },
+            {
+              "word": "take photos",
+              "meaning": "拍照",
+              "uncertain": false
+            },
+            {
+              "word": "mooncake",
+              "meaning": "月饼",
+              "uncertain": false
+            },
+            {
+              "word": "tell",
+              "meaning": "告诉",
+              "uncertain": false
+            },
+            {
+              "word": "story",
+              "meaning": "故事",
+              "uncertain": false
+            },
+            {
+              "word": "picture",
+              "meaning": "图画",
+              "uncertain": false
+            },
+            {
+              "word": "moon",
+              "meaning": "月亮",
+              "uncertain": false
+            },
+            {
+              "word": "full",
+              "meaning": "满的",
+              "uncertain": false
+            },
+            {
+              "word": "grandparent",
+              "meaning": "祖父(母)",
+              "uncertain": false
+            },
+            {
+              "word": "interesting",
+              "meaning": "有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "child (pl. children)",
+              "meaning": "孩子",
+              "uncertain": false
+            },
+            {
+              "word": "Children's Day",
+              "meaning": "儿童节",
+              "uncertain": false
+            },
+            {
+              "word": "Mexico",
+              "meaning": "墨西哥",
+              "uncertain": false
+            },
+            {
+              "word": "party",
+              "meaning": "聚会",
+              "uncertain": false
+            },
+            {
+              "word": "game",
+              "meaning": "游戏，比赛",
+              "uncertain": false
+            },
+            {
+              "word": "also",
+              "meaning": "也，此外，而且",
+              "uncertain": false
+            },
+            {
+              "word": "candy",
+              "meaning": "糖果",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "精彩的，绝妙的",
+              "uncertain": false
+            },
+            {
+              "word": "dress up",
+              "meaning": "打扮",
+              "uncertain": false
+            },
+            {
+              "word": "colourful",
+              "meaning": "颜色鲜艳的",
+              "uncertain": false
+            },
+            {
+              "word": "parent",
+              "meaning": "父亲（或母亲）",
+              "uncertain": false
+            },
+            {
+              "word": "Japan",
+              "meaning": "日本",
+              "uncertain": false
+            },
+            {
+              "word": "wish",
+              "meaning": "祝愿；愿望",
+              "uncertain": false
+            },
+            {
+              "word": "their",
+              "meaning": "他(她，它)们的",
+              "uncertain": false
+            },
+            {
+              "word": "luck",
+              "meaning": "运气",
+              "uncertain": false
+            },
+            {
+              "word": "put up",
+              "meaning": "挂起，装饰",
+              "uncertain": false
+            },
+            {
+              "word": "France",
+              "meaning": "法国",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

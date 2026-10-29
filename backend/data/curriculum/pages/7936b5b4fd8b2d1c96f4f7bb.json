@@ -1,0 +1,47 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/4年级/下册_完整教材词表/原图/11_14_教材页面_e506ce743a.jpg",
+  "units": [
+    11
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/129/detail/",
+  "sha256": "7936b5b4fd8b2d1c96f4f7bb232fc7fc65acb041b921b6795bc1269e736fe4af",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "get",
+              "meaning": "获得，到达",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "get",
+              "meaning": "获得，到达",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

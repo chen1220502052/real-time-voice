@@ -1,0 +1,26 @@
+.writing-output { min-width: 0; padding: 28px; border-radius: 24px; }
+.writing-output article { margin-top: 24px; border-top: 1px solid #dce7e1; padding-top: 20px; }
+#essayBody { white-space: pre-wrap; line-height: 2; font-size: 18px; }
+#writingFields { display: block; padding: 0; border: 0; min-width: 0; background: transparent; margin: 0; }
+#writingFields label { display: block; margin: 16px 0; width: 100%; }
+#writingFields textarea, #writingFields input[type=number] { box-sizing: border-box; width: 100%; padding: 10px; border: 1px solid #ccd7d0; border-radius: 8px; font: inherit; }
+.student-writing { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--ui-border); }
+#studentFields { display: block; padding: 0; margin: 0; border: 0; background: transparent; min-width: 0; }
+#studentFields label { display: block; width: 100%; margin: 14px 0 8px; }
+#studentFields input, #studentFields textarea { display:block; box-sizing:border-box; width:100%; font:inherit; padding:14px; }
+#studentFields textarea { line-height:1.8; resize:vertical; }
+#studentFields button { margin-top: 12px; }
+#reviewResult { padding:18px; border-radius:14px; background:var(--ui-input); margin-top:20px; }
+#reviewDetails li { margin:10px 0; }
+body.writing-embedded .topbar { display:none; }
+body.writing-embedded .practice-layout { display:block; margin:0; padding:0; }
+body.writing-embedded .chapter-picker { padding:18px; }
+body.writing-embedded .chapter-picker h2, body.writing-embedded .chapter-picker > p,
+body.writing-embedded #writingFields label:nth-child(-n+4) { display:none; }
+body.writing-embedded .writing-output { margin-top:16px; padding:18px; }
+#writingStatus { margin-top: 20px; }
+/* Match the common course form and make the primary writing action clear. */
+.writing-page #writingFields label { display:grid; gap:8px; margin:20px 0; }
+.writing-page #writingFields textarea, .writing-page #writingFields input[type=number] { border-color:var(--ui-border); border-radius:14px; padding:13px 14px; background:var(--ui-input); color:var(--ui-body); }
+.writing-page #generate { width:100%; min-height:48px; border-color:var(--ui-primary); background:var(--ui-primary); color:white; font-weight:600; }
+.writing-page #generate:hover { background:var(--ui-primary-hover); }

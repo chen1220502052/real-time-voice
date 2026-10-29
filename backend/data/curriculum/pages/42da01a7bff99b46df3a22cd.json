@@ -1,0 +1,217 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/4年级/下册_完整教材词表/原图/01_04_教材页面_17dce50a58.jpg",
+  "units": [
+    1
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/129/detail/",
+  "sha256": "42da01a7bff99b46df3a22cd00684a710db1e77496427e87ec2e4dbe95d62d13",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "vegetable",
+              "meaning": "蔬菜",
+              "uncertain": false
+            },
+            {
+              "word": "bun",
+              "meaning": "馒头",
+              "uncertain": false
+            },
+            {
+              "word": "hot dog",
+              "meaning": "热狗",
+              "uncertain": false
+            },
+            {
+              "word": "hamburger",
+              "meaning": "汉堡包",
+              "uncertain": false
+            },
+            {
+              "word": "sandwich",
+              "meaning": "三明治",
+              "uncertain": false
+            },
+            {
+              "word": "salad",
+              "meaning": "沙拉",
+              "uncertain": false
+            },
+            {
+              "word": "beef",
+              "meaning": "牛肉",
+              "uncertain": false
+            },
+            {
+              "word": "hungry",
+              "meaning": "饥饿的",
+              "uncertain": false
+            },
+            {
+              "word": "want",
+              "meaning": "想，想要；想要的东西",
+              "uncertain": false
+            },
+            {
+              "word": "dinner",
+              "meaning": "晚餐，正餐",
+              "uncertain": false
+            },
+            {
+              "word": "yummy",
+              "meaning": "好吃的",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "清单",
+              "uncertain": false
+            },
+            {
+              "word": "shopping",
+              "meaning": "购物清单",
+              "uncertain": false
+            },
+            {
+              "word": "kilo",
+              "meaning": "千克",
+              "uncertain": false
+            },
+            {
+              "word": "how much",
+              "meaning": "多少，多少钱",
+              "uncertain": false
+            },
+            {
+              "word": "bad",
+              "meaning": "坏的，不好的",
+              "uncertain": false
+            },
+            {
+              "word": "cry",
+              "meaning": "哭，叫喊",
+              "uncertain": false
+            },
+            {
+              "word": "why",
+              "meaning": "为什么",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "vegetable",
+              "meaning": "蔬菜",
+              "uncertain": false
+            },
+            {
+              "word": "bun",
+              "meaning": "馒头",
+              "uncertain": false
+            },
+            {
+              "word": "hot dog",
+              "meaning": "热狗",
+              "uncertain": false
+            },
+            {
+              "word": "hamburger",
+              "meaning": "汉堡包",
+              "uncertain": false
+            },
+            {
+              "word": "sandwich",
+              "meaning": "三明治",
+              "uncertain": false
+            },
+            {
+              "word": "salad",
+              "meaning": "沙拉",
+              "uncertain": false
+            },
+            {
+              "word": "beef",
+              "meaning": "牛肉",
+              "uncertain": false
+            },
+            {
+              "word": "hungry",
+              "meaning": "饥饿的",
+              "uncertain": false
+            },
+            {
+              "word": "want",
+              "meaning": "想，想要；想要的东西",
+              "uncertain": false
+            },
+            {
+              "word": "dinner",
+              "meaning": "晚餐，正餐",
+              "uncertain": false
+            },
+            {
+              "word": "yummy",
+              "meaning": "好吃的",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "清单",
+              "uncertain": false
+            },
+            {
+              "word": "shopping",
+              "meaning": "购物清单",
+              "uncertain": false
+            },
+            {
+              "word": "kilo",
+              "meaning": "千克",
+              "uncertain": false
+            },
+            {
+              "word": "how much",
+              "meaning": "多少，多少钱",
+              "uncertain": false
+            },
+            {
+              "word": "bad",
+              "meaning": "坏的，不好的",
+              "uncertain": false
+            },
+            {
+              "word": "cry",
+              "meaning": "哭，叫喊",
+              "uncertain": false
+            },
+            {
+              "word": "why",
+              "meaning": "为什么",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

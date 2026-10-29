@@ -1,0 +1,177 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/4年级/下册_完整教材词表/原图/03_06_教材页面_0edea8f32e.jpg",
+  "units": [
+    3
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/129/detail/",
+  "sha256": "b1196085dca1f0c8d600093f6dee063e36d7b10b24b0f671c9fc19313690c8cf",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "kangaroo",
+              "meaning": "袋鼠",
+              "uncertain": false
+            },
+            {
+              "word": "hippo",
+              "meaning": "河马",
+              "uncertain": false
+            },
+            {
+              "word": "zebra",
+              "meaning": "斑马",
+              "uncertain": false
+            },
+            {
+              "word": "peacock",
+              "meaning": "孔雀",
+              "uncertain": false
+            },
+            {
+              "word": "dolphin",
+              "meaning": "海豚",
+              "uncertain": false
+            },
+            {
+              "word": "favourite (AmE favorite)",
+              "meaning": "特别喜爱的",
+              "uncertain": false
+            },
+            {
+              "word": "animal",
+              "meaning": "动物",
+              "uncertain": false
+            },
+            {
+              "word": "best",
+              "meaning": "最；最好的",
+              "uncertain": false
+            },
+            {
+              "word": "very",
+              "meaning": "很，非常",
+              "uncertain": false
+            },
+            {
+              "word": "wild",
+              "meaning": "野生的",
+              "uncertain": false
+            },
+            {
+              "word": "know",
+              "meaning": "知道",
+              "uncertain": false
+            },
+            {
+              "word": "fast",
+              "meaning": "快地；快的",
+              "uncertain": false
+            },
+            {
+              "word": "grass",
+              "meaning": "草，草地",
+              "uncertain": false
+            },
+            {
+              "word": "noodle",
+              "meaning": "面条",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "kangaroo",
+              "meaning": "袋鼠",
+              "uncertain": false
+            },
+            {
+              "word": "hippo",
+              "meaning": "河马",
+              "uncertain": false
+            },
+            {
+              "word": "zebra",
+              "meaning": "斑马",
+              "uncertain": false
+            },
+            {
+              "word": "peacock",
+              "meaning": "孔雀",
+              "uncertain": false
+            },
+            {
+              "word": "dolphin",
+              "meaning": "海豚",
+              "uncertain": false
+            },
+            {
+              "word": "favourite (AmE favorite)",
+              "meaning": "特别喜爱的",
+              "uncertain": false
+            },
+            {
+              "word": "animal",
+              "meaning": "动物",
+              "uncertain": false
+            },
+            {
+              "word": "best",
+              "meaning": "最；最好的",
+              "uncertain": false
+            },
+            {
+              "word": "very",
+              "meaning": "很，非常",
+              "uncertain": false
+            },
+            {
+              "word": "wild",
+              "meaning": "野生的",
+              "uncertain": false
+            },
+            {
+              "word": "know",
+              "meaning": "知道",
+              "uncertain": false
+            },
+            {
+              "word": "fast",
+              "meaning": "快地；快的",
+              "uncertain": false
+            },
+            {
+              "word": "grass",
+              "meaning": "草，草地",
+              "uncertain": false
+            },
+            {
+              "word": "noodle",
+              "meaning": "面条",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

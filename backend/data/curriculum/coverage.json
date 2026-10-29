@@ -1,0 +1,317 @@
+{
+  "books": [
+    {
+      "id": "fd4b9891e60031b735fd1ae0",
+      "grade": 3,
+      "term": "上册",
+      "edition": "上册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "8fcc72e435dc65cc5e034915",
+        "6f8c88738c80187652ed6f20",
+        "a7726a9ca0896f680cea55ed",
+        "93d7b47629f5398bce8f3ade",
+        "bec57f568941c08d77a8d9b4",
+        "afb189e1a759d08f08368998",
+        "3e293e1728a984c53a873707",
+        "7e75d6c7d3ad98574fe5e3b5",
+        "c514e31d0569aabf56bded13",
+        "fe46ae1ecfda213609500989",
+        "fb4a0d1c2d662504bbed67d9",
+        "47dd5a64cafa244965d34c25"
+      ]
+    },
+    {
+      "id": "04aab5a756af4d6f1b1e6653",
+      "grade": 3,
+      "term": "下册",
+      "edition": "下册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "5175e30ef6f5f8a4933bdd06",
+        "d81fd6fa8fea679ecb5f26c3",
+        "7ca85ee2ea816ba63c62e89d",
+        "6ee65b4bde350e61f60dcf41",
+        "aaf67dc11d77738ca752da5b",
+        "a450a25388f45098f5f86160",
+        "8c294ae1126b9cb9aa115e53",
+        "22b857fe6e13a4c8ea22b599",
+        "a6debfbed3244aad8d8d077f",
+        "4fa801b02ac82d6576fc3b9f",
+        "db18f38b7188572243483311",
+        "af5f0e74d37646b6ba175f8a"
+      ]
+    },
+    {
+      "id": "da61588a15cb57060a690fe1",
+      "grade": 4,
+      "term": "上册",
+      "edition": "上册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "0500d50509c2f1f6668a11d6",
+        "74e28cc36583e470ddbf9b48",
+        "995b8c39d3462da38db8826a",
+        "92d914eb5ddba4d4f9cc0210",
+        "53bd9fb353f4248638f44e11",
+        "2259e1a7a6125c85bf8e552b",
+        "f38343c114fa232e361b6db7",
+        "3557eb704fe75fc9ccab4c4a",
+        "69e976e7b32a7c69d929220d",
+        "045fca85045c5aa75a95e89f",
+        "e94144630de81ebff1abe0cd",
+        "c41dd82564cf7d352f7c7dc3"
+      ]
+    },
+    {
+      "id": "4a5dc08e84536ce5848c7ae0",
+      "grade": 4,
+      "term": "下册",
+      "edition": "下册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "9f1d5642ebf83616a52df115",
+        "bb4d13d52b9f49505b97ea78",
+        "cb70a20a7bd820c0b08bdf31",
+        "83286d56b86ce0d413b4f433",
+        "a67178acbb9ee541f86cca76",
+        "e1d7a44687be4c839a93b4d7",
+        "8b7733f97674421c80e5a0db",
+        "f2bf9ce08301dd01e0a0df44",
+        "5a40107647a388624a08ea48",
+        "a1211fede35d73afbc2c03ae",
+        "9a1576bb75963e9afb672276",
+        "f27a75fb473c5b5d76f159ed"
+      ]
+    },
+    {
+      "id": "749dbf52eccc3d827d80cfae",
+      "grade": 5,
+      "term": "上册",
+      "edition": "上册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "599f969cec3c7678c8e217ab",
+        "aeb6265e21cae3c9eb700091",
+        "adc94f5dad0313da3922cfe8",
+        "254879165ba1cfb9546202b8",
+        "32ea066a877b8da37cf5cff5",
+        "34cfc441f649e9541feab466",
+        "cf78e57e1753364f3e6059d0",
+        "dcd1539f83d095c3809f309c",
+        "336bf80c231cf2e9be7955ac",
+        "d2435143bdba0792312a2ecc"
+      ]
+    },
+    {
+      "id": "633089a5ed2e373bf5fa69a7",
+      "grade": 5,
+      "term": "下册",
+      "edition": "下册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "c1777a780db6b9f09f93ae35",
+        "f87f2650cde928e9b36e59b5",
+        "23bd09b74d3153daf3485730",
+        "a3e6a248a3a05146824693c3",
+        "da9529a073fbb0e3dad0011c",
+        "3bcd939629ac7dbab8760ec1",
+        "28cfb3e7151a1af53d67fadc",
+        "b6a65afa6805a460ea6edc7d",
+        "e4e0d341fcb5cac05f7e7d7b",
+        "24d0914574d49d1c9315148d",
+        "332991272a1ea8ed99d44666",
+        "f2ba6ccea10cfe1299c8ac4a"
+      ]
+    },
+    {
+      "id": "0253dfdea30d5317c1c24e6c",
+      "grade": 6,
+      "term": "上册",
+      "edition": "上册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "3288b63108214c1be1451179",
+        "2666411db15a8278553ddb6e",
+        "d51dd3853ac3215366e3bbae",
+        "e8dbd349fd385856b3243a79",
+        "426d98de059169e88faac504",
+        "e02c7c32cb9aa89352df76aa",
+        "7a5e333d0ee45a46cab6538a",
+        "86488107f5f5d8bca1ffad66",
+        "67deca03c6456f0547deba19",
+        "2387a8d338f574610e1de518"
+      ]
+    },
+    {
+      "id": "c26aa9d7efe53a9b5ad474eb",
+      "grade": 6,
+      "term": "下册",
+      "edition": "下册_官方当前目录_版次待与学校核对",
+      "series": "科普小学现有教材",
+      "chapterIds": [
+        "ec4bac13d96ca3ce3f696970",
+        "87e664d8741c7b0c871995f3",
+        "79038047f9a32ab7b028ebcd",
+        "e49ec35f4ffacaf4e74b79d7",
+        "a5bfda436c9eec42665aa658",
+        "97255077d7ab5d552a42c52f",
+        "16399012c4bedc2575081354",
+        "bd87f585ab908cf7749b07bb",
+        "08dd96d753c7c7001ce45839",
+        "bfda5e0bf3d6dfc2dd1d96a3"
+      ]
+    },
+    {
+      "id": "bd97d3b77fffacc1f85cd20b",
+      "grade": 7,
+      "term": "上册",
+      "edition": "上册_2024年8月第1版_完整教材",
+      "series": "仁爱科普2024新课标",
+      "chapterIds": [
+        "0d39309ffcac9040e33042fb",
+        "3102c0988d4bd3e2f82eedfc",
+        "a8021084872fdf8361fae727",
+        "9663c847069f3ed03d2a9525",
+        "73ac984db6886c49ab6f9e1d",
+        "262f605f9b41ea39d7c274c7"
+      ]
+    },
+    {
+      "id": "b0c22d16fa9e767e9af970fd",
+      "grade": 7,
+      "term": "下册",
+      "edition": "下册_2024年12月第1版_完整教材",
+      "series": "仁爱科普2024新课标",
+      "chapterIds": [
+        "3676ab0916096ca859eb68e2",
+        "764152dcb4eaaf7abcae3c23",
+        "5ef08e482173a7c3aa6922ca",
+        "2645f6c3ea0d78d4a61f7ef1",
+        "d609233013309264095a25c8",
+        "2c51a7b1af85ea2bb7280f86"
+      ]
+    },
+    {
+      "id": "418c5d098491cabaddef320e",
+      "grade": 8,
+      "term": "上册",
+      "edition": "上册_2025年7月第1版_完整教材",
+      "series": "仁爱科普2024新课标",
+      "chapterIds": [
+        "b26f9bb975ce42bfd1f716d1",
+        "31c002fb7280844fe2315e08",
+        "ccfd495fef97514cdddce33f",
+        "befe7ccf8f8789e5a04afaef",
+        "0828ded97d2691ff94233691",
+        "0d4adb2b6ea5082e873b485b"
+      ]
+    },
+    {
+      "id": "337c218dda186d3d699804a0",
+      "grade": 8,
+      "term": "下册",
+      "edition": "下册_2013年10月第1版_2024重印_完整教材",
+      "series": "仁爱科普旧版",
+      "chapterIds": [
+        "ceb2f3e41c910dccb4ec6496",
+        "732dfbce55f4af469467fecb",
+        "c66e4870f2a541fabf5fdc63",
+        "8dcf3f1e0df1c31e12bc86b0"
+      ]
+    },
+    {
+      "id": "8ff8cccc0a09a131aad00cc8",
+      "grade": 9,
+      "term": "上册",
+      "edition": "上册_2014年7月第1版_2025重印_完整教材",
+      "series": "仁爱科普旧版",
+      "chapterIds": [
+        "211ccb9b1e18adc4d582e43a",
+        "c962121105d2e665fdc57392",
+        "d96931352d69b0d628f6480b",
+        "8c1c71412326c3c9153292bb"
+      ]
+    },
+    {
+      "id": "e97b68918e86be52e967d90e",
+      "grade": 9,
+      "term": "下册",
+      "edition": "下册_2014年10月第1版_2024重印_完整教材",
+      "series": "仁爱科普旧版",
+      "chapterIds": [
+        "cfc76abd04ab2d3517a8bcc3",
+        "dedf6138f2405bdd9fab67eb"
+      ]
+    }
+  ],
+  "audit": {
+    "pages": 112,
+    "method": "DeepSeek vision transcription and image verification",
+    "crossPageNotes": [
+      {
+        "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页142.jpg",
+        "kind": "cross_page_meaning",
+        "raw": "n.妈妈"
+      },
+      {
+        "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页147.jpg",
+        "kind": "cross_page_meaning",
+        "raw": "adv. 在昨天"
+      },
+      {
+        "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页155.jpg",
+        "kind": "cross_page_meaning",
+        "raw": "目标;宾语"
+      },
+      {
+        "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页142.jpg",
+        "kind": "cross_page_meaning",
+        "raw": "语境"
+      },
+      {
+        "image": "英语/科普版/9年级/下册_2014年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页080.jpg",
+        "kind": "cross_page_meaning",
+        "raw": "关于科学的"
+      }
+    ],
+    "visualCorrections": [
+      {
+        "image": "英语/科普版/6年级/下册_完整教材词表/原图/01_05_教材页面_b4e35b8378.jpg",
+        "fromUnit": 1,
+        "toUnit": 2,
+        "words": [
+          "angry",
+          "young",
+          "arrive",
+          "ago",
+          "kill",
+          "return",
+          "finally",
+          "trip",
+          "take photos"
+        ],
+        "evidence": "左栏下方 Lesson 2 的 photo 之后，右栏从 angry 续排，直到 Lesson 3 标题之前。"
+      },
+      {
+        "image": "英语/科普版/6年级/下册_完整教材词表/原图/03_05_教材页面_f8922562f7.jpg",
+        "fromUnit": 10,
+        "toUnit": 9,
+        "words": [
+          "if"
+        ],
+        "evidence": "右栏首行 if 位于 Lesson 10 标题上方，应接左栏 Lesson 9 的 high、deaf、once。"
+      }
+    ],
+    "columnCheckedPages": 28,
+    "lessonEvidencePages": 35,
+    "grade3SourcePages": 15,
+    "grade3Method": "原图逐项识读与单元边界核对",
+    "schoolEditionConfirmed": false
+  },
+  "units": 118,
+  "entries": 3844,
+  "unavailablePublishers": [
+    "人教版：本地无完整词表原图，不能将原创补充词冒充教材词表"
+  ]
+}

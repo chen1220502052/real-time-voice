@@ -1,0 +1,1720 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "image": "3年级/上册_完整教材词表/原图/04_教材页面_f9588d0ae6.jpg",
+      "sha256": "e2cd1439bd67a67648027a8494c3edeb41eeb9f577cb1bd7c8a863cc31ea7436",
+      "source": "https://www.xdstudy.com/h5/follow/13/detail/",
+      "term": "上册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "hi",
+              "meaning": "喂，嗨",
+              "uncertain": false
+            },
+            {
+              "word": "hello",
+              "meaning": "喂，你好",
+              "uncertain": false
+            },
+            {
+              "word": "good",
+              "meaning": "好的，愉快的",
+              "uncertain": false
+            },
+            {
+              "word": "morning",
+              "meaning": "早晨，上午",
+              "uncertain": false
+            },
+            {
+              "word": "Miss",
+              "meaning": "女士，小姐",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "和，与",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "我",
+              "uncertain": false
+            },
+            {
+              "word": "am",
+              "meaning": "是",
+              "uncertain": false
+            },
+            {
+              "word": "Nice to meet you.",
+              "meaning": "很高兴见到你。",
+              "uncertain": false
+            },
+            {
+              "word": "too",
+              "meaning": "也，太",
+              "uncertain": false
+            },
+            {
+              "word": "welcome",
+              "meaning": "欢迎",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "this",
+              "meaning": "这，这个",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "是",
+              "uncertain": false
+            },
+            {
+              "word": "my",
+              "meaning": "我的",
+              "uncertain": false
+            },
+            {
+              "word": "brother",
+              "meaning": "兄，弟",
+              "uncertain": false
+            },
+            {
+              "word": "afternoon",
+              "meaning": "下午",
+              "uncertain": false
+            },
+            {
+              "word": "what",
+              "meaning": "什么",
+              "uncertain": false
+            },
+            {
+              "word": "your",
+              "meaning": "你的，你们的",
+              "uncertain": false
+            },
+            {
+              "word": "name",
+              "meaning": "名字",
+              "uncertain": false
+            },
+            {
+              "word": "sister",
+              "meaning": "姐，妹",
+              "uncertain": false
+            },
+            {
+              "word": "look",
+              "meaning": "看，看起来",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "一(个)，一",
+              "uncertain": false
+            },
+            {
+              "word": "it",
+              "meaning": "它",
+              "uncertain": false
+            },
+            {
+              "word": "not",
+              "meaning": "不，没有",
+              "uncertain": false
+            },
+            {
+              "word": "thank",
+              "meaning": "感谢",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "你，你们",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "dog",
+              "meaning": "狗",
+              "uncertain": false
+            },
+            {
+              "word": "pig",
+              "meaning": "猪",
+              "uncertain": false
+            },
+            {
+              "word": "duck",
+              "meaning": "鸭子",
+              "uncertain": false
+            },
+            {
+              "word": "sheep (pl. sheep)",
+              "meaning": "绵羊",
+              "uncertain": false
+            },
+            {
+              "word": "cow",
+              "meaning": "奶牛，母牛",
+              "uncertain": false
+            },
+            {
+              "word": "horse",
+              "meaning": "马",
+              "uncertain": false
+            },
+            {
+              "word": "chicken",
+              "meaning": "鸡，鸡肉",
+              "uncertain": false
+            },
+            {
+              "word": "rabbit",
+              "meaning": "兔子",
+              "uncertain": false
+            },
+            {
+              "word": "evening",
+              "meaning": "晚上，傍晚",
+              "uncertain": false
+            },
+            {
+              "word": "Mrs (AmE Mrs.)",
+              "meaning": "夫人",
+              "uncertain": false
+            },
+            {
+              "word": "cute",
+              "meaning": "可爱的",
+              "uncertain": false
+            },
+            {
+              "word": "are",
+              "meaning": "是",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/上册_完整教材词表/原图/05_教材页面_df9b83503e.jpg",
+      "sha256": "68fca8e2ebe63110d26df2005b0529e257486f663748642abc763557c612f8f2",
+      "source": "https://www.xdstudy.com/h5/follow/13/detail/",
+      "term": "上册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "Mr (AmE Mr.)",
+              "meaning": "先生",
+              "uncertain": false
+            },
+            {
+              "word": "no",
+              "meaning": "不",
+              "uncertain": false
+            },
+            {
+              "word": "yes",
+              "meaning": "是，是的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "mouth",
+              "meaning": "嘴巴",
+              "uncertain": false
+            },
+            {
+              "word": "head",
+              "meaning": "头",
+              "uncertain": false
+            },
+            {
+              "word": "eye",
+              "meaning": "眼睛",
+              "uncertain": false
+            },
+            {
+              "word": "nose",
+              "meaning": "鼻子",
+              "uncertain": false
+            },
+            {
+              "word": "ear",
+              "meaning": "耳朵",
+              "uncertain": false
+            },
+            {
+              "word": "face",
+              "meaning": "脸",
+              "uncertain": false
+            },
+            {
+              "word": "arm",
+              "meaning": "胳膊",
+              "uncertain": false
+            },
+            {
+              "word": "leg",
+              "meaning": "腿",
+              "uncertain": false
+            },
+            {
+              "word": "how",
+              "meaning": "怎样，多少",
+              "uncertain": false
+            },
+            {
+              "word": "fine",
+              "meaning": "好的",
+              "uncertain": false
+            },
+            {
+              "word": "look at",
+              "meaning": "看",
+              "uncertain": false
+            },
+            {
+              "word": "Let's play.",
+              "meaning": "我们一起玩吧。",
+              "uncertain": false
+            },
+            {
+              "word": "touch",
+              "meaning": "触摸",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "好，行",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "bee",
+              "meaning": "蜜蜂",
+              "uncertain": false
+            },
+            {
+              "word": "bird",
+              "meaning": "鸟",
+              "uncertain": false
+            },
+            {
+              "word": "butterfly",
+              "meaning": "蝴蝶",
+              "uncertain": false
+            },
+            {
+              "word": "fish",
+              "meaning": "鱼，鱼肉；钓鱼",
+              "uncertain": false
+            },
+            {
+              "word": "frog",
+              "meaning": "青蛙",
+              "uncertain": false
+            },
+            {
+              "word": "mouse (pl. mice)",
+              "meaning": "老鼠",
+              "uncertain": false
+            },
+            {
+              "word": "beautiful",
+              "meaning": "漂亮的",
+              "uncertain": false
+            },
+            {
+              "word": "cool",
+              "meaning": "酷的，凉爽的",
+              "uncertain": false
+            },
+            {
+              "word": "that",
+              "meaning": "那，那个",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "这，那",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "nice",
+              "meaning": "美好的，好心的",
+              "uncertain": false
+            },
+            {
+              "word": "pencil box",
+              "meaning": "铅笔盒",
+              "uncertain": false
+            },
+            {
+              "word": "schoolbag",
+              "meaning": "书包",
+              "uncertain": false
+            },
+            {
+              "word": "ruler",
+              "meaning": "尺子",
+              "uncertain": false
+            },
+            {
+              "word": "eraser",
+              "meaning": "橡皮",
+              "uncertain": false
+            },
+            {
+              "word": "pen",
+              "meaning": "钢笔",
+              "uncertain": false
+            },
+            {
+              "word": "pencil",
+              "meaning": "铅笔",
+              "uncertain": false
+            },
+            {
+              "word": "here",
+              "meaning": "这里",
+              "uncertain": false
+            },
+            {
+              "word": "sorry",
+              "meaning": "抱歉，对不起",
+              "uncertain": false
+            },
+            {
+              "word": "mum (AmE mom)",
+              "meaning": "妈妈(口语)",
+              "uncertain": false
+            },
+            {
+              "word": "boy",
+              "meaning": "男孩",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "为了，给",
+              "uncertain": false
+            },
+            {
+              "word": "cat",
+              "meaning": "猫",
+              "uncertain": false
+            },
+            {
+              "word": "dad",
+              "meaning": "爸爸(口语)",
+              "uncertain": false
+            },
+            {
+              "word": "fat",
+              "meaning": "胖的；脂肪",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/上册_完整教材词表/原图/06_教材页面_f503b6eb28.jpg",
+      "sha256": "946833dc8b095ac2b5e3ba7a56e544c7007817b013baf9665f8ee3b55f62ef59",
+      "source": "https://www.xdstudy.com/h5/follow/13/detail/",
+      "term": "上册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "orange",
+              "meaning": "橙色，橘子；橙色的",
+              "uncertain": false
+            },
+            {
+              "word": "green",
+              "meaning": "绿色；绿色的",
+              "uncertain": false
+            },
+            {
+              "word": "blue",
+              "meaning": "蓝色；蓝色的",
+              "uncertain": false
+            },
+            {
+              "word": "black",
+              "meaning": "黑色；黑色的",
+              "uncertain": false
+            },
+            {
+              "word": "brown",
+              "meaning": "棕色；棕色的",
+              "uncertain": false
+            },
+            {
+              "word": "white",
+              "meaning": "白色；白色的",
+              "uncertain": false
+            },
+            {
+              "word": "yellow",
+              "meaning": "黄色；黄色的",
+              "uncertain": false
+            },
+            {
+              "word": "red",
+              "meaning": "红色；红色的",
+              "uncertain": false
+            },
+            {
+              "word": "colour (AmE color)",
+              "meaning": "涂色；颜色",
+              "uncertain": false
+            },
+            {
+              "word": "make",
+              "meaning": "形成，制作",
+              "uncertain": false
+            },
+            {
+              "word": "hen",
+              "meaning": "母鸡",
+              "uncertain": false
+            },
+            {
+              "word": "jet",
+              "meaning": "喷气式飞机",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "number (No.)",
+              "meaning": "编号，数字，数量",
+              "uncertain": false
+            },
+            {
+              "word": "one",
+              "meaning": "一",
+              "uncertain": false
+            },
+            {
+              "word": "two",
+              "meaning": "二",
+              "uncertain": false
+            },
+            {
+              "word": "three",
+              "meaning": "三",
+              "uncertain": false
+            },
+            {
+              "word": "four",
+              "meaning": "四",
+              "uncertain": false
+            },
+            {
+              "word": "five",
+              "meaning": "五",
+              "uncertain": false
+            },
+            {
+              "word": "six",
+              "meaning": "六",
+              "uncertain": false
+            },
+            {
+              "word": "seven",
+              "meaning": "七",
+              "uncertain": false
+            },
+            {
+              "word": "eight",
+              "meaning": "八",
+              "uncertain": false
+            },
+            {
+              "word": "nine",
+              "meaning": "九",
+              "uncertain": false
+            },
+            {
+              "word": "ten",
+              "meaning": "十",
+              "uncertain": false
+            },
+            {
+              "word": "year",
+              "meaning": "年",
+              "uncertain": false
+            },
+            {
+              "word": "old",
+              "meaning": "(多少)岁，旧的，老的，年长的",
+              "uncertain": false
+            },
+            {
+              "word": "he",
+              "meaning": "他",
+              "uncertain": false
+            },
+            {
+              "word": "happy",
+              "meaning": "高兴的，开心的",
+              "uncertain": false
+            },
+            {
+              "word": "birthday",
+              "meaning": "生日",
+              "uncertain": false
+            },
+            {
+              "word": "how old",
+              "meaning": "几岁，多大",
+              "uncertain": false
+            },
+            {
+              "word": "rip",
+              "meaning": "裂口",
+              "uncertain": false
+            },
+            {
+              "word": "lip",
+              "meaning": "嘴唇",
+              "uncertain": false
+            },
+            {
+              "word": "milk",
+              "meaning": "牛奶",
+              "uncertain": false
+            },
+            {
+              "word": "quilt",
+              "meaning": "被子",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "family",
+              "meaning": "家人，家",
+              "uncertain": false
+            },
+            {
+              "word": "grandfather (grandpa)",
+              "meaning": "(外)祖父(口语：爷爷)",
+              "uncertain": false
+            },
+            {
+              "word": "grandmother (grandma)",
+              "meaning": "(外)祖母(口语：奶奶)",
+              "uncertain": false
+            },
+            {
+              "word": "father",
+              "meaning": "父亲，爸爸",
+              "uncertain": false
+            },
+            {
+              "word": "mother",
+              "meaning": "母亲，妈妈",
+              "uncertain": false
+            },
+            {
+              "word": "me",
+              "meaning": "我(宾格)",
+              "uncertain": false
+            },
+            {
+              "word": "she",
+              "meaning": "她",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/上册_完整教材词表/原图/07_教材页面_fa690cd053.jpg",
+      "sha256": "3d9316cd640d8bd620e3414a8eb979d6f673db853aaed7e0a0062934325b6170",
+      "source": "https://www.xdstudy.com/h5/follow/13/detail/",
+      "term": "上册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "who",
+              "meaning": "谁",
+              "uncertain": false
+            },
+            {
+              "word": "we",
+              "meaning": "我们",
+              "uncertain": false
+            },
+            {
+              "word": "box",
+              "meaning": "盒，箱",
+              "uncertain": false
+            },
+            {
+              "word": "sock",
+              "meaning": "袜子",
+              "uncertain": false
+            },
+            {
+              "word": "pot",
+              "meaning": "锅",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "China",
+              "meaning": "中国",
+              "uncertain": false
+            },
+            {
+              "word": "Canada",
+              "meaning": "加拿大",
+              "uncertain": false
+            },
+            {
+              "word": "the UK (The United Kingdom)",
+              "meaning": "英国",
+              "uncertain": false
+            },
+            {
+              "word": "India",
+              "meaning": "印度",
+              "uncertain": false
+            },
+            {
+              "word": "the USA (The United States of America)",
+              "meaning": "美国",
+              "uncertain": false
+            },
+            {
+              "word": "Australia",
+              "meaning": "澳大利亚",
+              "uncertain": false
+            },
+            {
+              "word": "meet",
+              "meaning": "遇见",
+              "uncertain": false
+            },
+            {
+              "word": "where",
+              "meaning": "在哪里",
+              "uncertain": false
+            },
+            {
+              "word": "from",
+              "meaning": "来自，得自",
+              "uncertain": false
+            },
+            {
+              "word": "girl",
+              "meaning": "女孩",
+              "uncertain": false
+            },
+            {
+              "word": "new",
+              "meaning": "新的",
+              "uncertain": false
+            },
+            {
+              "word": "friend",
+              "meaning": "朋友",
+              "uncertain": false
+            },
+            {
+              "word": "about",
+              "meaning": "关于，对于",
+              "uncertain": false
+            },
+            {
+              "word": "what about",
+              "meaning": "(对于)……怎么样",
+              "uncertain": false
+            },
+            {
+              "word": "zoo",
+              "meaning": "动物园",
+              "uncertain": false
+            },
+            {
+              "word": "yum",
+              "meaning": "表示好吃或好闻",
+              "uncertain": false
+            },
+            {
+              "word": "van",
+              "meaning": "中小型货车",
+              "uncertain": false
+            },
+            {
+              "word": "wet",
+              "meaning": "湿的",
+              "uncertain": false
+            },
+            {
+              "word": "zip",
+              "meaning": "拉链",
+              "uncertain": false
+            },
+            {
+              "word": "fox",
+              "meaning": "狐狸",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "shape",
+              "meaning": "形状",
+              "uncertain": false
+            },
+            {
+              "word": "square",
+              "meaning": "正方形",
+              "uncertain": false
+            },
+            {
+              "word": "triangle",
+              "meaning": "三角形",
+              "uncertain": false
+            },
+            {
+              "word": "circle",
+              "meaning": "圆形",
+              "uncertain": false
+            },
+            {
+              "word": "plus",
+              "meaning": "加",
+              "uncertain": false
+            },
+            {
+              "word": "equal",
+              "meaning": "等于",
+              "uncertain": false
+            },
+            {
+              "word": "minus",
+              "meaning": "减",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "gift",
+              "meaning": "礼物",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/06_教材页面_ef52977b8c.png",
+      "sha256": "384d7114e69b60391a85c5ce1539caa8a0de7ef1aaebab02cdc6633d98f6bcb2",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "monkey",
+              "meaning": "猴子",
+              "uncertain": false
+            },
+            {
+              "word": "short",
+              "meaning": "矮的，短的",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "熊",
+              "uncertain": false
+            },
+            {
+              "word": "big",
+              "meaning": "大的",
+              "uncertain": false
+            },
+            {
+              "word": "small",
+              "meaning": "小的",
+              "uncertain": false
+            },
+            {
+              "word": "giraffe",
+              "meaning": "长颈鹿",
+              "uncertain": false
+            },
+            {
+              "word": "tall",
+              "meaning": "高的",
+              "uncertain": false
+            },
+            {
+              "word": "tiger",
+              "meaning": "老虎",
+              "uncertain": false
+            },
+            {
+              "word": "amazing",
+              "meaning": "令人惊叹的",
+              "uncertain": false
+            },
+            {
+              "word": "kite",
+              "meaning": "风筝",
+              "uncertain": false
+            },
+            {
+              "word": "let",
+              "meaning": "让",
+              "uncertain": false
+            },
+            {
+              "word": "help",
+              "meaning": "帮助；救命",
+              "uncertain": false
+            },
+            {
+              "word": "great",
+              "meaning": "太好了；伟大的",
+              "uncertain": false
+            },
+            {
+              "word": "now",
+              "meaning": "现在",
+              "uncertain": false
+            },
+            {
+              "word": "fly",
+              "meaning": "放飞，飞",
+              "uncertain": false
+            },
+            {
+              "word": "cake",
+              "meaning": "蛋糕",
+              "uncertain": false
+            },
+            {
+              "word": "gate",
+              "meaning": "大门",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/07_教材页面_7040018f1a.png",
+      "sha256": "a9247e44fc4111c48e62273b62748d02f8c17daad181bd4b87bc51b25678794e",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "robot",
+              "meaning": "机器人",
+              "uncertain": false
+            },
+            {
+              "word": "on",
+              "meaning": "在……上",
+              "uncertain": false
+            },
+            {
+              "word": "desk",
+              "meaning": "书桌",
+              "uncertain": false
+            },
+            {
+              "word": "chair",
+              "meaning": "椅子",
+              "uncertain": false
+            },
+            {
+              "word": "in",
+              "meaning": "在……里",
+              "uncertain": false
+            },
+            {
+              "word": "under",
+              "meaning": "在……下面",
+              "uncertain": false
+            },
+            {
+              "word": "bike",
+              "meaning": "自行车",
+              "uncertain": false
+            },
+            {
+              "word": "ball",
+              "meaning": "球",
+              "uncertain": false
+            },
+            {
+              "word": "bed",
+              "meaning": "床",
+              "uncertain": false
+            },
+            {
+              "word": "You're welcome.",
+              "meaning": "不客气。",
+              "uncertain": false
+            },
+            {
+              "word": "goodbye (bye)",
+              "meaning": "再见",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/08_教材页面_73315daf18.png",
+      "sha256": "7fea4ebe9bb9f4695ddbfe3eac52d8ffe9003eab8ae3d4b7a6d6511978d9a70d",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "book",
+              "meaning": "书",
+              "uncertain": false
+            },
+            {
+              "word": "bag",
+              "meaning": "包",
+              "uncertain": false
+            },
+            {
+              "word": "watch",
+              "meaning": "手表；观看",
+              "uncertain": false
+            },
+            {
+              "word": "cap",
+              "meaning": "帽子",
+              "uncertain": false
+            },
+            {
+              "word": "card",
+              "meaning": "卡片",
+              "uncertain": false
+            },
+            {
+              "word": "map",
+              "meaning": "地图",
+              "uncertain": false
+            },
+            {
+              "word": "love",
+              "meaning": "爱",
+              "uncertain": false
+            },
+            {
+              "word": "behind",
+              "meaning": "在……后面",
+              "uncertain": false
+            },
+            {
+              "word": "tree",
+              "meaning": "树，树木",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "给，向；到某处",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/09_教材页面_a328be806f.png",
+      "sha256": "6f74406d2fd50c2521ca10030cb2dc86aed2e3623584854610ecb0287ee55fbf",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "toy",
+              "meaning": "玩具",
+              "uncertain": false
+            },
+            {
+              "word": "car",
+              "meaning": "小汽车",
+              "uncertain": false
+            },
+            {
+              "word": "doll",
+              "meaning": "玩偶，洋娃娃",
+              "uncertain": false
+            },
+            {
+              "word": "bus",
+              "meaning": "公共汽车",
+              "uncertain": false
+            },
+            {
+              "word": "have (has)",
+              "meaning": "有，拥有",
+              "uncertain": false
+            },
+            {
+              "word": "play",
+              "meaning": "玩；戏剧",
+              "uncertain": false
+            },
+            {
+              "word": "together",
+              "meaning": "一起",
+              "uncertain": false
+            },
+            {
+              "word": "rose",
+              "meaning": "玫瑰",
+              "uncertain": false
+            },
+            {
+              "word": "bone",
+              "meaning": "骨头",
+              "uncertain": false
+            },
+            {
+              "word": "home",
+              "meaning": "家",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/10_教材页面_9cb05fd7b7.png",
+      "sha256": "c6da5d66aab9c788c46889213f7f91433ed573bce641bbca22cadcfa4b21613d",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "shirt",
+              "meaning": "衬衫",
+              "uncertain": false
+            },
+            {
+              "word": "skirt",
+              "meaning": "半身裙",
+              "uncertain": false
+            },
+            {
+              "word": "T-shirt",
+              "meaning": "T恤衫",
+              "uncertain": false
+            },
+            {
+              "word": "dress",
+              "meaning": "连衣裙；给……穿衣服",
+              "uncertain": false
+            },
+            {
+              "word": "hat",
+              "meaning": "帽子",
+              "uncertain": false
+            },
+            {
+              "word": "long",
+              "meaning": "长的",
+              "uncertain": false
+            },
+            {
+              "word": "pink",
+              "meaning": "粉色的",
+              "uncertain": false
+            },
+            {
+              "word": "pretty",
+              "meaning": "漂亮的",
+              "uncertain": false
+            },
+            {
+              "word": "her",
+              "meaning": "她的",
+              "uncertain": false
+            },
+            {
+              "word": "cube",
+              "meaning": "立方体",
+              "uncertain": false
+            },
+            {
+              "word": "tube",
+              "meaning": "管子",
+              "uncertain": false
+            },
+            {
+              "word": "mule",
+              "meaning": "骡子",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/11_教材页面_2069aa449d.png",
+      "sha256": "bdca946e3b01925e7e5e6f03783091686978719d0d6c627180aa2e2fdbb6e715",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "tail",
+              "meaning": "尾巴",
+              "uncertain": false
+            },
+            {
+              "word": "neck",
+              "meaning": "脖子",
+              "uncertain": false
+            },
+            {
+              "word": "tongue",
+              "meaning": "舌头",
+              "uncertain": false
+            },
+            {
+              "word": "panda",
+              "meaning": "熊猫",
+              "uncertain": false
+            },
+            {
+              "word": "its",
+              "meaning": "它的",
+              "uncertain": false
+            },
+            {
+              "word": "body",
+              "meaning": "身体",
+              "uncertain": false
+            },
+            {
+              "word": "so",
+              "meaning": "如此；所以",
+              "uncertain": false
+            },
+            {
+              "word": "right",
+              "meaning": "正确的；右边",
+              "uncertain": false
+            },
+            {
+              "word": "but",
+              "meaning": "但是",
+              "uncertain": false
+            },
+            {
+              "word": "an",
+              "meaning": "一(个)，一",
+              "uncertain": false
+            },
+            {
+              "word": "wall",
+              "meaning": "墙",
+              "uncertain": false
+            },
+            {
+              "word": "rope",
+              "meaning": "粗绳",
+              "uncertain": false
+            },
+            {
+              "word": "elephant",
+              "meaning": "大象",
+              "uncertain": false
+            },
+            {
+              "word": "park",
+              "meaning": "公园；停(车)",
+              "uncertain": false
+            },
+            {
+              "word": "yard",
+              "meaning": "院子",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/12_教材页面_1deeadd3b6.png",
+      "sha256": "d3e9754767f36d16b401a3287c3ceb6fac006acb10e7d221357daef39db325f6",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "dining room",
+              "meaning": "餐厅",
+              "uncertain": false
+            },
+            {
+              "word": "bathroom",
+              "meaning": "盥洗室",
+              "uncertain": false
+            },
+            {
+              "word": "study",
+              "meaning": "书房；学习",
+              "uncertain": false
+            },
+            {
+              "word": "bedroom",
+              "meaning": "卧室",
+              "uncertain": false
+            },
+            {
+              "word": "kitchen",
+              "meaning": "厨房",
+              "uncertain": false
+            },
+            {
+              "word": "living room",
+              "meaning": "客厅",
+              "uncertain": false
+            },
+            {
+              "word": "they",
+              "meaning": "他(她，它)们",
+              "uncertain": false
+            },
+            {
+              "word": "bat",
+              "meaning": "球棒",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "准备好的",
+              "uncertain": false
+            },
+            {
+              "word": "go",
+              "meaning": "去，走，出发",
+              "uncertain": false
+            },
+            {
+              "word": "ill",
+              "meaning": "有病的，不舒服的",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/13_教材页面_d9ef79e491.png",
+      "sha256": "8ac13e5b3fe38fecbcc616d694b1d6b2761f307dee41aa1d07eebaad8a432ec3",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "cabbage",
+              "meaning": "卷心菜，洋白菜",
+              "uncertain": false
+            },
+            {
+              "word": "carrot",
+              "meaning": "胡萝卜",
+              "uncertain": false
+            },
+            {
+              "word": "potato",
+              "meaning": "土豆，马铃薯",
+              "uncertain": false
+            },
+            {
+              "word": "tomato",
+              "meaning": "西红柿",
+              "uncertain": false
+            },
+            {
+              "word": "onion",
+              "meaning": "洋葱，葱头",
+              "uncertain": false
+            },
+            {
+              "word": "mushroom",
+              "meaning": "蘑菇",
+              "uncertain": false
+            },
+            {
+              "word": "those",
+              "meaning": "那些",
+              "uncertain": false
+            },
+            {
+              "word": "these",
+              "meaning": "这些",
+              "uncertain": false
+            },
+            {
+              "word": "fun",
+              "meaning": "有趣的；乐趣",
+              "uncertain": false
+            },
+            {
+              "word": "plant",
+              "meaning": "种植；植物",
+              "uncertain": false
+            },
+            {
+              "word": "a lot of",
+              "meaning": "大量的，许多的",
+              "uncertain": false
+            },
+            {
+              "word": "corn",
+              "meaning": "玉米",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/14_教材页面_b80e5a3fbe.png",
+      "sha256": "eb81a88fd53015b2c3fb7d0c7b19e7707290851c481ed13a35fc9c2d6b4344a9",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "doctor",
+              "meaning": "医生",
+              "uncertain": false
+            },
+            {
+              "word": "cook",
+              "meaning": "厨师；烹饪",
+              "uncertain": false
+            },
+            {
+              "word": "driver",
+              "meaning": "司机",
+              "uncertain": false
+            },
+            {
+              "word": "farmer",
+              "meaning": "农民",
+              "uncertain": false
+            },
+            {
+              "word": "worker",
+              "meaning": "工人",
+              "uncertain": false
+            },
+            {
+              "word": "fireman",
+              "meaning": "消防员",
+              "uncertain": false
+            },
+            {
+              "word": "teacher",
+              "meaning": "教师",
+              "uncertain": false
+            },
+            {
+              "word": "nurse",
+              "meaning": "护士",
+              "uncertain": false
+            },
+            {
+              "word": "uncle",
+              "meaning": "叔叔，伯伯，舅舅等",
+              "uncertain": false
+            },
+            {
+              "word": "aunt",
+              "meaning": "婶婶，阿姨，舅妈等",
+              "uncertain": false
+            },
+            {
+              "word": "job",
+              "meaning": "工作",
+              "uncertain": false
+            },
+            {
+              "word": "man (pl. men)",
+              "meaning": "男人",
+              "uncertain": false
+            },
+            {
+              "word": "his",
+              "meaning": "他的",
+              "uncertain": false
+            },
+            {
+              "word": "woman (pl. women)",
+              "meaning": "女人",
+              "uncertain": false
+            },
+            {
+              "word": "or",
+              "meaning": "或者",
+              "uncertain": false
+            },
+            {
+              "word": "fire",
+              "meaning": "火",
+              "uncertain": false
+            },
+            {
+              "word": "finger",
+              "meaning": "手指",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/15_教材页面_50cfde55bd.png",
+      "sha256": "c7c855ee753a486a1ee689d8af00de78b9e7181a8d9f29260ae3e31e0fe6662a",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "school",
+              "meaning": "学校",
+              "uncertain": false
+            },
+            {
+              "word": "hospital",
+              "meaning": "医院",
+              "uncertain": false
+            },
+            {
+              "word": "farm",
+              "meaning": "农场",
+              "uncertain": false
+            },
+            {
+              "word": "factory",
+              "meaning": "工厂",
+              "uncertain": false
+            },
+            {
+              "word": "fire station",
+              "meaning": "消防站",
+              "uncertain": false
+            },
+            {
+              "word": "restaurant",
+              "meaning": "饭店",
+              "uncertain": false
+            },
+            {
+              "word": "work",
+              "meaning": "工作",
+              "uncertain": false
+            },
+            {
+              "word": "at",
+              "meaning": "在，朝，向",
+              "uncertain": false
+            },
+            {
+              "word": "excuse me",
+              "meaning": "打扰了",
+              "uncertain": false
+            },
+            {
+              "word": "milkman",
+              "meaning": "送奶工",
+              "uncertain": false
+            },
+            {
+              "word": "purple",
+              "meaning": "紫色，紫色的",
+              "uncertain": false
+            },
+            {
+              "word": "turtle",
+              "meaning": "龟",
+              "uncertain": false
+            },
+            {
+              "word": "purse",
+              "meaning": "钱包",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "3年级/下册_完整教材词表/原图/16_教材页面_c7f536851e.png",
+      "sha256": "864ef631ebb375a949b935c3d9fbb831383ee75aefa5c0b575d1619492ce0633",
+      "source": "https://www.xdstudy.com/h5/follow/105/detail/",
+      "term": "下册",
+      "checked": true,
+      "method": "原图逐项识读与单元边界核对；保留跨页续行和印刷变体",
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "be made of",
+              "meaning": "由……制成",
+              "uncertain": false
+            },
+            {
+              "word": "cotton",
+              "meaning": "棉",
+              "uncertain": false
+            },
+            {
+              "word": "wool",
+              "meaning": "毛线",
+              "uncertain": false
+            },
+            {
+              "word": "shoe",
+              "meaning": "鞋子",
+              "uncertain": false
+            },
+            {
+              "word": "leather",
+              "meaning": "皮革",
+              "uncertain": false
+            },
+            {
+              "word": "silk",
+              "meaning": "丝绸",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revisionUnits": {
+    "下册": [
+      12
+    ]
+  }
+}

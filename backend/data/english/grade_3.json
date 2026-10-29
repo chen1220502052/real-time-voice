@@ -1,0 +1,801 @@
+{
+  "version": 1,
+  "grade": 3,
+  "sources": [
+    {
+      "path": "英语/人教版/三年级单元训练.json",
+      "sha256": "8f70f0839a5f6cb048dd0b81a68f60be7d076310e46f283647993607b4ca8aab",
+      "kind": "original_topic_supplements_not_textbook_transcripts"
+    },
+    {
+      "path": "英语/人教版/3年级/单词/人教旧版_上册/词汇.json",
+      "sha256": "5c283bd51b7a640f4ab2db87581da1f13fc88851155b3cb3086645e0700bcb31",
+      "kind": "legacy_third_party_vocabulary_not_new_edition_wordlist"
+    },
+    {
+      "path": "英语/人教版/3年级/单词/人教旧版_下册/词汇.json",
+      "sha256": "c1236112dada6b8d2090f8e9e70a7a44e337343c375fd6ce330d80835191080f",
+      "kind": "legacy_third_party_vocabulary_not_new_edition_wordlist"
+    }
+  ],
+  "topics": [
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 1 Making friends",
+      "vocabulary": [],
+      "question": "What's your name?",
+      "example": "My name is Linlin.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 2 Different families",
+      "vocabulary": [],
+      "question": "Who's this?",
+      "example": "This is my sister.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 3 Amazing animals",
+      "vocabulary": [],
+      "question": "Do you like cats?",
+      "example": "Yes, I do.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 4 Plants around us",
+      "vocabulary": [],
+      "question": "Do you like apples?",
+      "example": "Yes, I do.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 5 The colourful world",
+      "vocabulary": [],
+      "question": "What colour is it?",
+      "example": "It's green.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 6 Useful numbers",
+      "vocabulary": [],
+      "question": "How old are you?",
+      "example": "I'm eight.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 1 Meeting new people",
+      "vocabulary": [],
+      "question": "Where are you from?",
+      "example": "I'm from Henan, China.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 2 Expressing yourself",
+      "vocabulary": [],
+      "question": "How are you?",
+      "example": "I'm happy today.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 3 Learning better",
+      "vocabulary": [],
+      "question": "What's this?",
+      "example": "It's my pencil.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 4 Healthy food",
+      "vocabulary": [],
+      "question": "Would you like some milk?",
+      "example": "Yes, please.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 5 Old toys",
+      "vocabulary": [],
+      "question": "Where is the toy car?",
+      "example": "It's under the desk.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 6 Numbers in life",
+      "vocabulary": [],
+      "question": "How many pencils do you have?",
+      "example": "I have fifteen pencils.",
+      "kind": "原创口语补充_非教材原文或完整词表"
+    }
+  ],
+  "legacy_vocabulary": [
+    {
+      "word": "ruler",
+      "meaning": "尺子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pencil",
+      "meaning": "铅笔",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "eraser",
+      "meaning": "橡皮",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "crayon",
+      "meaning": "蜡笔",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bag",
+      "meaning": "包",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pen",
+      "meaning": "钢笔",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pencil box",
+      "meaning": "铅笔盒",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "book",
+      "meaning": "书",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "no",
+      "meaning": "不",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "your",
+      "meaning": "你（们）的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "red",
+      "meaning": "红色；红色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "green",
+      "meaning": "绿色；绿色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "yellow",
+      "meaning": "黄色；黄色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "blue",
+      "meaning": "蓝色；蓝色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "black",
+      "meaning": "黑色；黑色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "brown",
+      "meaning": "棕色；棕色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "white",
+      "meaning": "白色；白色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "orange",
+      "meaning": "橙色；橙色的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "OK",
+      "meaning": "好；行",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mum",
+      "meaning": "妈妈",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "face",
+      "meaning": "脸",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ear",
+      "meaning": "耳朵",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "eye",
+      "meaning": "眼睛",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nose",
+      "meaning": "鼻子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mouth",
+      "meaning": "嘴",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "arm",
+      "meaning": "胳膊",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hand",
+      "meaning": "手",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "head",
+      "meaning": "头",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "body",
+      "meaning": "身体",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "leg",
+      "meaning": "腿",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "foot",
+      "meaning": "脚",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "school",
+      "meaning": "学校",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "duck",
+      "meaning": "鸭子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pig",
+      "meaning": "猪",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cat",
+      "meaning": "猫",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bear",
+      "meaning": "熊",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dog",
+      "meaning": "狗",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "elephant",
+      "meaning": "大象",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "monkey",
+      "meaning": "猴子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bird",
+      "meaning": "鸟",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tiger",
+      "meaning": "老虎",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "panda",
+      "meaning": "大熊猫",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "zoo",
+      "meaning": "动物园",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "funny",
+      "meaning": "滑稽的；好笑的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bread",
+      "meaning": "面包",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "juice",
+      "meaning": "果汁",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "egg",
+      "meaning": "蛋",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "milk",
+      "meaning": "牛奶",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "water",
+      "meaning": "水",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cake",
+      "meaning": "蛋糕",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fish",
+      "meaning": "鱼",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rice",
+      "meaning": "米饭",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "one",
+      "meaning": "一",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "two",
+      "meaning": "二",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "three",
+      "meaning": "三",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "four",
+      "meaning": "四",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "five",
+      "meaning": "五",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "six",
+      "meaning": "六",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "seven",
+      "meaning": "七",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "eight",
+      "meaning": "八",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nine",
+      "meaning": "九",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ten",
+      "meaning": "十",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "brother",
+      "meaning": "兄；弟",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "plate",
+      "meaning": "盘子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "UK",
+      "meaning": "英国",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Canada",
+      "meaning": "加拿大",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "USA",
+      "meaning": "美国",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "China",
+      "meaning": "中国",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "she",
+      "meaning": "她；（指雌性动物）它",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "student",
+      "meaning": "学生, 学者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pupil",
+      "meaning": "小学生",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "he",
+      "meaning": "他；它（指雄性动物）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "teacher",
+      "meaning": "教师, 老师, 导师",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "boy",
+      "meaning": "男孩, 儿子, 孩子气的人, 男仆",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "and",
+      "meaning": "和",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "girl",
+      "meaning": "女孩, 少女, 女仆, (商店等的)女工作人员",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "new",
+      "meaning": "新的，新近的；新来的；不熟悉的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "friend",
+      "meaning": "朋友，友人；支持者，同情者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "today",
+      "meaning": "今天；现在，目前",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "father",
+      "meaning": "父亲；爸爸",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dad",
+      "meaning": "（口语）爸爸；爹爹",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "man",
+      "meaning": "男人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "woman",
+      "meaning": "女人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mother",
+      "meaning": "母亲；妈妈",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sister",
+      "meaning": "姐；妹",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "brother",
+      "meaning": "兄；弟",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "grandmother",
+      "meaning": "（外）祖母",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "grandma",
+      "meaning": "（口语）（外）祖母",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "grandfather",
+      "meaning": "（外）祖父",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "grandpa",
+      "meaning": "（口语）（外）祖父",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "family",
+      "meaning": "家；家庭",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "thin",
+      "meaning": "瘦的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fat",
+      "meaning": "胖的；肥的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tall",
+      "meaning": "高的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "short",
+      "meaning": "矮的；短的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "long",
+      "meaning": "长的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "small",
+      "meaning": "小的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "big",
+      "meaning": "大的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "giraffe",
+      "meaning": "长颈鹿",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "so",
+      "meaning": "这么；那么",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "children",
+      "meaning": "儿童",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "child",
+      "meaning": "儿童",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tail",
+      "meaning": "尾巴",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "on",
+      "meaning": "在⋯⋯上",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "in",
+      "meaning": "在⋯⋯里",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "under",
+      "meaning": "在⋯⋯下面",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "chair",
+      "meaning": "椅子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "desk",
+      "meaning": "书桌",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cap",
+      "meaning": "帽子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ball",
+      "meaning": "球",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "car",
+      "meaning": "小汽车",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "boat",
+      "meaning": "小船",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "map",
+      "meaning": "地图",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "toy",
+      "meaning": "玩具",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "box",
+      "meaning": "盒；箱",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pear",
+      "meaning": "梨",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "apple",
+      "meaning": "苹果",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "orange",
+      "meaning": "橙子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "banana",
+      "meaning": "香蕉",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "watermelon",
+      "meaning": "西瓜",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "strawberry",
+      "meaning": "草莓",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "grape",
+      "meaning": "葡萄",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "buy",
+      "meaning": "买",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fruit",
+      "meaning": "水果",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "eleven",
+      "meaning": "十一",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "twelve",
+      "meaning": "十二",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "thirteen",
+      "meaning": "十三",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fourteen",
+      "meaning": "十四",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fifteen",
+      "meaning": "十五",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sixteen",
+      "meaning": "十六",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "seventeen",
+      "meaning": "十七",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "eighteen",
+      "meaning": "十八",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nineteen",
+      "meaning": "十九",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "twenty",
+      "meaning": "二十",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "kite",
+      "meaning": "风筝",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "beautiful",
+      "meaning": "美丽的",
+      "edition": "人教旧版_第三方词库"
+    }
+  ]
+}

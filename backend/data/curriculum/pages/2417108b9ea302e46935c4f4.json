@@ -1,0 +1,265 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/e6accfe436c947002617184d-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "2417108b9ea302e46935c4f4db334ffe266a67c218272d92242ac96f3490a916",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "machine",
+              "meaning": "n.机器,机械装置;计算机,电脑",
+              "uncertain": false
+            },
+            {
+              "word": "dirty",
+              "meaning": "adj.肮脏的;污秽的",
+              "uncertain": false
+            },
+            {
+              "word": "bath",
+              "meaning": "n.洗澡;浴盆;澡堂",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "v.投;扔",
+              "uncertain": false
+            },
+            {
+              "word": "away",
+              "meaning": "adv.在(某距离)处;离开",
+              "uncertain": false
+            },
+            {
+              "word": "still",
+              "meaning": "adv.仍然 adj.静止的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "provide",
+              "meaning": "v.提供",
+              "uncertain": false
+            },
+            {
+              "word": "protect",
+              "meaning": "v.保护;防护",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "n.土壤;领土",
+              "uncertain": false
+            },
+            {
+              "word": "human",
+              "meaning": "n.人 adj.人的",
+              "uncertain": false
+            },
+            {
+              "word": "body",
+              "meaning": "n.身体",
+              "uncertain": false
+            },
+            {
+              "word": "plastic",
+              "meaning": "adj.塑料的 n.塑料",
+              "uncertain": false
+            },
+            {
+              "word": "rubbish",
+              "meaning": "n.垃圾;废弃物",
+              "uncertain": false
+            },
+            {
+              "word": "bin",
+              "meaning": "n.垃圾箱",
+              "uncertain": false
+            },
+            {
+              "word": "shock",
+              "meaning": "n.震惊;令人震惊的事 v.使震惊;使惊愕",
+              "uncertain": false
+            },
+            {
+              "word": "later",
+              "meaning": "adj.后来的;以后的 adv.后来;以后",
+              "uncertain": false
+            },
+            {
+              "word": "develop",
+              "meaning": "v.(使)成长;发展",
+              "uncertain": false
+            },
+            {
+              "word": "habit",
+              "meaning": "n.习惯",
+              "uncertain": false
+            },
+            {
+              "word": "count",
+              "meaning": "v.重要;数数",
+              "uncertain": false
+            },
+            {
+              "word": "daily",
+              "meaning": "adj.每日的,日常的;按日的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "bank",
+              "meaning": "n.银行;岸;河畔",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "machine",
+              "meaning": "n.机器,机械装置;计算机,电脑",
+              "uncertain": false
+            },
+            {
+              "word": "dirty",
+              "meaning": "adj.肮脏的;污秽的",
+              "uncertain": false
+            },
+            {
+              "word": "bath",
+              "meaning": "n.洗澡;浴盆;澡堂",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "v.投;扔",
+              "uncertain": false
+            },
+            {
+              "word": "away",
+              "meaning": "adv.在(某距离)处;离开",
+              "uncertain": false
+            },
+            {
+              "word": "still",
+              "meaning": "adv.仍然 adj.静止的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "provide",
+              "meaning": "v.提供",
+              "uncertain": false
+            },
+            {
+              "word": "protect",
+              "meaning": "v.保护;防护",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "n.土壤;领土",
+              "uncertain": false
+            },
+            {
+              "word": "human",
+              "meaning": "n.人 adj.人的",
+              "uncertain": false
+            },
+            {
+              "word": "body",
+              "meaning": "n.身体",
+              "uncertain": false
+            },
+            {
+              "word": "plastic",
+              "meaning": "adj.塑料的 n.塑料",
+              "uncertain": false
+            },
+            {
+              "word": "rubbish",
+              "meaning": "n.垃圾;废弃物",
+              "uncertain": false
+            },
+            {
+              "word": "bin",
+              "meaning": "n.垃圾箱",
+              "uncertain": false
+            },
+            {
+              "word": "shock",
+              "meaning": "n.震惊;令人震惊的事 v.使震惊;使惊愕",
+              "uncertain": false
+            },
+            {
+              "word": "later",
+              "meaning": "adj.后来的;以后的 adv.后来;以后",
+              "uncertain": false
+            },
+            {
+              "word": "develop",
+              "meaning": "v.(使)成长;发展",
+              "uncertain": false
+            },
+            {
+              "word": "habit",
+              "meaning": "n.习惯",
+              "uncertain": false
+            },
+            {
+              "word": "count",
+              "meaning": "v.重要;数数",
+              "uncertain": false
+            },
+            {
+              "word": "daily",
+              "meaning": "adj.每日的,日常的;按日的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "bank",
+              "meaning": "n.银行;岸;河畔",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,205 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/a2d58d2274a01ca0eef6eee5-left.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/93/detail/",
+  "sha256": "2903b056d5787660c2bca68e014901f8013ec1501ed57d9f59ac86a328782d1f",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "a lot of",
+              "meaning": "许多",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "between",
+              "meaning": "在（两者）之间",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "小时",
+              "uncertain": false
+            },
+            {
+              "word": "team",
+              "meaning": "队，组",
+              "uncertain": false
+            },
+            {
+              "word": "later",
+              "meaning": "以后，后来",
+              "uncertain": false
+            },
+            {
+              "word": "cloud",
+              "meaning": "云",
+              "uncertain": false
+            },
+            {
+              "word": "clear",
+              "meaning": "清楚的，明亮的",
+              "uncertain": false
+            },
+            {
+              "word": "shine",
+              "meaning": "照亮，发亮",
+              "uncertain": false
+            },
+            {
+              "word": "raincoat",
+              "meaning": "雨衣",
+              "uncertain": false
+            },
+            {
+              "word": "talk about",
+              "meaning": "谈论",
+              "uncertain": false
+            },
+            {
+              "word": "laugh at",
+              "meaning": "嘲笑",
+              "uncertain": false
+            },
+            {
+              "word": "What a pity!",
+              "meaning": "多可惜啊！",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "high",
+              "meaning": "高的",
+              "uncertain": false
+            },
+            {
+              "word": "deaf",
+              "meaning": "聋的",
+              "uncertain": false
+            },
+            {
+              "word": "once",
+              "meaning": "从前",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "a lot of",
+              "meaning": "许多",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "between",
+              "meaning": "在（两者）之间",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "小时",
+              "uncertain": false
+            },
+            {
+              "word": "team",
+              "meaning": "队，组",
+              "uncertain": false
+            },
+            {
+              "word": "later",
+              "meaning": "以后，后来",
+              "uncertain": false
+            },
+            {
+              "word": "cloud",
+              "meaning": "云",
+              "uncertain": false
+            },
+            {
+              "word": "clear",
+              "meaning": "清楚的，明亮的",
+              "uncertain": false
+            },
+            {
+              "word": "shine",
+              "meaning": "照亮，发亮",
+              "uncertain": false
+            },
+            {
+              "word": "raincoat",
+              "meaning": "雨衣",
+              "uncertain": false
+            },
+            {
+              "word": "talk about",
+              "meaning": "谈论",
+              "uncertain": false
+            },
+            {
+              "word": "laugh at",
+              "meaning": "嘲笑",
+              "uncertain": false
+            },
+            {
+              "word": "What a pity!",
+              "meaning": "多可惜啊！",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "high",
+              "meaning": "高的",
+              "uncertain": false
+            },
+            {
+              "word": "deaf",
+              "meaning": "聋的",
+              "uncertain": false
+            },
+            {
+              "word": "once",
+              "meaning": "从前",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

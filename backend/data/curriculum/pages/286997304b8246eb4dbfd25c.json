@@ -1,0 +1,355 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": ".local/curriculum-column-crops/3db43f3221ac004d4302b4df-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "286997304b8246eb4dbfd25c71c454390c92f354a05a5b675daba74b523407be",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "battery",
+              "meaning": "n.电池",
+              "uncertain": false
+            },
+            {
+              "word": "ought to",
+              "meaning": "modal v.应该",
+              "uncertain": false
+            },
+            {
+              "word": "shut off",
+              "meaning": "停止,关掉",
+              "uncertain": false
+            },
+            {
+              "word": "electricity",
+              "meaning": "n.电;电能",
+              "uncertain": false
+            },
+            {
+              "word": "distance",
+              "meaning": "n.距离",
+              "uncertain": false
+            },
+            {
+              "word": "cloth",
+              "meaning": "n.织物,布料",
+              "uncertain": false
+            },
+            {
+              "word": "action",
+              "meaning": "n.行动;行为",
+              "uncertain": false
+            },
+            {
+              "word": "after all",
+              "meaning": "毕竟;归根结底",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "adj.太阳能的;太阳的",
+              "uncertain": false
+            },
+            {
+              "word": "dam",
+              "meaning": "n.水坝",
+              "uncertain": false
+            },
+            {
+              "word": "require",
+              "meaning": "v.需要;要求",
+              "uncertain": false
+            },
+            {
+              "word": "electric",
+              "meaning": "adj.用电的;电动的",
+              "uncertain": false
+            },
+            {
+              "word": "petrol",
+              "meaning": "n.汽油",
+              "uncertain": false
+            },
+            {
+              "word": "high-speed",
+              "meaning": "adj.高速的",
+              "uncertain": false
+            },
+            {
+              "word": "wheel",
+              "meaning": "n.轮,车轮,轮子",
+              "uncertain": false
+            },
+            {
+              "word": "inside",
+              "meaning": "adv. 在裡面 prep. 在……内;在……里",
+              "uncertain": false
+            },
+            {
+              "word": "German",
+              "meaning": "n.德国人;德语",
+              "uncertain": false
+            },
+            {
+              "word": "expert",
+              "meaning": "n.专家",
+              "uncertain": false
+            },
+            {
+              "word": "highly",
+              "meaning": "adv.很,非常",
+              "uncertain": false
+            },
+            {
+              "word": "guide",
+              "meaning": "n.向导,导游;指南,手册",
+              "uncertain": false
+            },
+            {
+              "word": "wave",
+              "meaning": "n.挥手;招手;海浪 v.招手;摆手",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "adj.深的;厚的 adv.深深地;在深处",
+              "uncertain": false
+            },
+            {
+              "word": "source",
+              "meaning": "n.来源,出处;起源;源头",
+              "uncertain": false
+            },
+            {
+              "word": "run out",
+              "meaning": "用完,耗尽",
+              "uncertain": false
+            },
+            {
+              "word": "renewable",
+              "meaning": "adj.可更新的,可再生的",
+              "uncertain": false
+            },
+            {
+              "word": "worldwide",
+              "meaning": "adv.全世界,世界各地",
+              "uncertain": false
+            },
+            {
+              "word": "sunlight",
+              "meaning": "n.阳光,日光",
+              "uncertain": false
+            },
+            {
+              "word": "steam",
+              "meaning": "n.水蒸气,蒸汽;水汽",
+              "uncertain": false
+            },
+            {
+              "word": "remove",
+              "meaning": "v.去除,使消失;移开",
+              "uncertain": false
+            },
+            {
+              "word": "replace",
+              "meaning": "n.代替,取代",
+              "uncertain": false
+            },
+            {
+              "word": "dry",
+              "meaning": "adj.干燥的,雨少的;干性的 v.使……干;弄干,擦干",
+              "uncertain": false
+            },
+            {
+              "word": "insect",
+              "meaning": "n.昆虫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "battery",
+              "meaning": "n.电池",
+              "uncertain": false
+            },
+            {
+              "word": "ought to",
+              "meaning": "modal v.应该",
+              "uncertain": false
+            },
+            {
+              "word": "shut off",
+              "meaning": "停止,关掉",
+              "uncertain": false
+            },
+            {
+              "word": "electricity",
+              "meaning": "n.电;电能",
+              "uncertain": false
+            },
+            {
+              "word": "distance",
+              "meaning": "n.距离",
+              "uncertain": false
+            },
+            {
+              "word": "cloth",
+              "meaning": "n.织物,布料",
+              "uncertain": false
+            },
+            {
+              "word": "action",
+              "meaning": "n.行动;行为",
+              "uncertain": false
+            },
+            {
+              "word": "after all",
+              "meaning": "毕竟;归根结底",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "adj.太阳能的;太阳的",
+              "uncertain": false
+            },
+            {
+              "word": "dam",
+              "meaning": "n.水坝",
+              "uncertain": false
+            },
+            {
+              "word": "require",
+              "meaning": "v.需要;要求",
+              "uncertain": false
+            },
+            {
+              "word": "electric",
+              "meaning": "adj.用电的;电动的",
+              "uncertain": false
+            },
+            {
+              "word": "petrol",
+              "meaning": "n.汽油",
+              "uncertain": false
+            },
+            {
+              "word": "high-speed",
+              "meaning": "adj.高速的",
+              "uncertain": false
+            },
+            {
+              "word": "wheel",
+              "meaning": "n.轮,车轮,轮子",
+              "uncertain": false
+            },
+            {
+              "word": "inside",
+              "meaning": "adv. 在裡面 prep. 在……内;在……里",
+              "uncertain": false
+            },
+            {
+              "word": "German",
+              "meaning": "n.德国人;德语",
+              "uncertain": false
+            },
+            {
+              "word": "expert",
+              "meaning": "n.专家",
+              "uncertain": false
+            },
+            {
+              "word": "highly",
+              "meaning": "adv.很,非常",
+              "uncertain": false
+            },
+            {
+              "word": "guide",
+              "meaning": "n.向导,导游;指南,手册",
+              "uncertain": false
+            },
+            {
+              "word": "wave",
+              "meaning": "n.挥手;招手;海浪 v.招手;摆手",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "adj.深的;厚的 adv.深深地;在深处",
+              "uncertain": false
+            },
+            {
+              "word": "source",
+              "meaning": "n.来源,出处;起源;源头",
+              "uncertain": false
+            },
+            {
+              "word": "run out",
+              "meaning": "用完,耗尽",
+              "uncertain": false
+            },
+            {
+              "word": "renewable",
+              "meaning": "adj.可更新的,可再生的",
+              "uncertain": false
+            },
+            {
+              "word": "worldwide",
+              "meaning": "adv.全世界,世界各地",
+              "uncertain": false
+            },
+            {
+              "word": "sunlight",
+              "meaning": "n.阳光,日光",
+              "uncertain": false
+            },
+            {
+              "word": "steam",
+              "meaning": "n.水蒸气,蒸汽;水汽",
+              "uncertain": false
+            },
+            {
+              "word": "remove",
+              "meaning": "v.去除,使消失;移开",
+              "uncertain": false
+            },
+            {
+              "word": "replace",
+              "meaning": "n.代替,取代",
+              "uncertain": false
+            },
+            {
+              "word": "dry",
+              "meaning": "adj.干燥的,雨少的;干性的 v.使……干;弄干,擦干",
+              "uncertain": false
+            },
+            {
+              "word": "insect",
+              "meaning": "n.昆虫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

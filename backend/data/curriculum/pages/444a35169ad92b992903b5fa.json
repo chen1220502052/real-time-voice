@@ -1,0 +1,495 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页145.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "444a35169ad92b992903b5fabff2ee2bc1eda80c338622893110835e45bc5769",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "railway",
+              "meaning": "n.铁路;铁道",
+              "uncertain": false
+            },
+            {
+              "word": "modern",
+              "meaning": "adj.现代的;当代的;近代的",
+              "uncertain": false
+            },
+            {
+              "word": "future",
+              "meaning": "n.将来;未来",
+              "uncertain": false
+            },
+            {
+              "word": "alarm",
+              "meaning": "n.警报;闹铃",
+              "uncertain": false
+            },
+            {
+              "word": "receive",
+              "meaning": "v.受到,收到",
+              "uncertain": false
+            },
+            {
+              "word": "sofa",
+              "meaning": "n.沙发",
+              "uncertain": false
+            },
+            {
+              "word": "fireman",
+              "meaning": "(pl.firemen) n.消防队员",
+              "uncertain": false
+            },
+            {
+              "word": "uniform",
+              "meaning": "n.制服;校服",
+              "uncertain": false
+            },
+            {
+              "word": "rush",
+              "meaning": "v.迅速移动",
+              "uncertain": false
+            },
+            {
+              "word": "dangerous",
+              "meaning": "adj.有危险的",
+              "uncertain": false
+            },
+            {
+              "word": "brave",
+              "meaning": "adj.勇敢的",
+              "uncertain": false
+            },
+            {
+              "word": "tiny",
+              "meaning": "adj.极小的;微小的",
+              "uncertain": false
+            },
+            {
+              "word": "taikonaut",
+              "meaning": "n.(中国的)航天员",
+              "uncertain": false
+            },
+            {
+              "word": "pioneer",
+              "meaning": "n.先锋;带头人;开发者",
+              "uncertain": false
+            },
+            {
+              "word": "journey",
+              "meaning": "n.(尤指长途)旅行",
+              "uncertain": false
+            },
+            {
+              "word": "training",
+              "meaning": "n.训练;培训",
+              "uncertain": false
+            },
+            {
+              "word": "without",
+              "meaning": "prep.没有;缺乏",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "adj.准备好",
+              "uncertain": false
+            },
+            {
+              "word": "nearly",
+              "meaning": "adv.差不多;将近",
+              "uncertain": false
+            },
+            {
+              "word": "chance",
+              "meaning": "n.机会;机遇",
+              "uncertain": false
+            },
+            {
+              "word": "spaceship",
+              "meaning": "n.(航天)飞船",
+              "uncertain": false
+            },
+            {
+              "word": "succeed",
+              "meaning": "v.成功;实现目标",
+              "uncertain": false
+            },
+            {
+              "word": "act",
+              "meaning": "n.行为;行动;所为 v.扮演;行动",
+              "uncertain": false
+            },
+            {
+              "word": "especially",
+              "meaning": "adv.尤其;特别",
+              "uncertain": false
+            },
+            {
+              "word": "quality",
+              "meaning": "n.人品;素质;质量 adj.优质的,高质量的",
+              "uncertain": false
+            },
+            {
+              "word": "according (to)",
+              "meaning": "据(……所说);按(……所报道)",
+              "uncertain": false
+            },
+            {
+              "word": "* grandpa (= grandfather)",
+              "meaning": "n.爷爷;姥爷",
+              "uncertain": false
+            },
+            {
+              "word": "* piano",
+              "meaning": "n.钢琴",
+              "uncertain": false
+            },
+            {
+              "word": "interested",
+              "meaning": "adj.感兴趣的;关心的",
+              "uncertain": false
+            },
+            {
+              "word": "direct",
+              "meaning": "v.导演;指挥 adj.直接的",
+              "uncertain": false
+            },
+            {
+              "word": "movie",
+              "meaning": "n.电影",
+              "uncertain": false
+            },
+            {
+              "word": "illness",
+              "meaning": "n.(身体或精神上的)疾病,病",
+              "uncertain": false
+            },
+            {
+              "word": "explorer",
+              "meaning": "n.探险者",
+              "uncertain": false
+            },
+            {
+              "word": "curious",
+              "meaning": "adj.求知欲强的;好奇的",
+              "uncertain": false
+            },
+            {
+              "word": "secret",
+              "meaning": "n.秘密",
+              "uncertain": false
+            },
+            {
+              "word": "* tomorrow",
+              "meaning": "adv.在明天;在明日 n.明天;明日",
+              "uncertain": false
+            },
+            {
+              "word": "opinion",
+              "meaning": "n.意见;想法",
+              "uncertain": false
+            },
+            {
+              "word": "course",
+              "meaning": "n.课程;进程",
+              "uncertain": false
+            },
+            {
+              "word": "officer",
+              "meaning": "n.高级职员,官员;军官",
+              "uncertain": false
+            },
+            {
+              "word": "vote",
+              "meaning": "v.投票;选出",
+              "uncertain": false
+            },
+            {
+              "word": "choose",
+              "meaning": "v.选择;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "lawyer",
+              "meaning": "n.律师",
+              "uncertain": false
+            },
+            {
+              "word": "competition",
+              "meaning": "n.比赛;竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "encourage",
+              "meaning": "v.鼓励;激励",
+              "uncertain": false
+            },
+            {
+              "word": "proud",
+              "meaning": "adj.骄傲的;自豪的",
+              "uncertain": false
+            },
+            {
+              "word": "success",
+              "meaning": "n.成功;胜利",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "railway",
+              "meaning": "n.铁路;铁道",
+              "uncertain": false
+            },
+            {
+              "word": "modern",
+              "meaning": "adj.现代的;当代的;近代的",
+              "uncertain": false
+            },
+            {
+              "word": "future",
+              "meaning": "n.将来;未来",
+              "uncertain": false
+            },
+            {
+              "word": "alarm",
+              "meaning": "n.警报;闹铃",
+              "uncertain": false
+            },
+            {
+              "word": "receive",
+              "meaning": "v.受到,收到",
+              "uncertain": false
+            },
+            {
+              "word": "sofa",
+              "meaning": "n.沙发",
+              "uncertain": false
+            },
+            {
+              "word": "fireman",
+              "meaning": "(pl.firemen) n.消防队员",
+              "uncertain": false
+            },
+            {
+              "word": "uniform",
+              "meaning": "n.制服;校服",
+              "uncertain": false
+            },
+            {
+              "word": "rush",
+              "meaning": "v.迅速移动",
+              "uncertain": false
+            },
+            {
+              "word": "dangerous",
+              "meaning": "adj.有危险的",
+              "uncertain": false
+            },
+            {
+              "word": "brave",
+              "meaning": "adj.勇敢的",
+              "uncertain": false
+            },
+            {
+              "word": "tiny",
+              "meaning": "adj.极小的;微小的",
+              "uncertain": false
+            },
+            {
+              "word": "taikonaut",
+              "meaning": "n.(中国的)航天员",
+              "uncertain": false
+            },
+            {
+              "word": "pioneer",
+              "meaning": "n.先锋;带头人;开发者",
+              "uncertain": false
+            },
+            {
+              "word": "journey",
+              "meaning": "n.(尤指长途)旅行",
+              "uncertain": false
+            },
+            {
+              "word": "training",
+              "meaning": "n.训练;培训",
+              "uncertain": false
+            },
+            {
+              "word": "without",
+              "meaning": "prep.没有;缺乏",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "adj.准备好",
+              "uncertain": false
+            },
+            {
+              "word": "nearly",
+              "meaning": "adv.差不多;将近",
+              "uncertain": false
+            },
+            {
+              "word": "chance",
+              "meaning": "n.机会;机遇",
+              "uncertain": false
+            },
+            {
+              "word": "spaceship",
+              "meaning": "n.(航天)飞船",
+              "uncertain": false
+            },
+            {
+              "word": "succeed",
+              "meaning": "v.成功;实现目标",
+              "uncertain": false
+            },
+            {
+              "word": "act",
+              "meaning": "n.行为;行动;所为 v.扮演;行动",
+              "uncertain": false
+            },
+            {
+              "word": "especially",
+              "meaning": "adv.尤其;特别",
+              "uncertain": false
+            },
+            {
+              "word": "quality",
+              "meaning": "n.人品;素质;质量 adj.优质的,高质量的",
+              "uncertain": false
+            },
+            {
+              "word": "according (to)",
+              "meaning": "据(……所说);按(……所报道)",
+              "uncertain": false
+            },
+            {
+              "word": "* grandpa (= grandfather)",
+              "meaning": "n.爷爷;姥爷",
+              "uncertain": false
+            },
+            {
+              "word": "* piano",
+              "meaning": "n.钢琴",
+              "uncertain": false
+            },
+            {
+              "word": "interested",
+              "meaning": "adj.感兴趣的;关心的",
+              "uncertain": false
+            },
+            {
+              "word": "direct",
+              "meaning": "v.导演;指挥 adj.直接的",
+              "uncertain": false
+            },
+            {
+              "word": "movie",
+              "meaning": "n.电影",
+              "uncertain": false
+            },
+            {
+              "word": "illness",
+              "meaning": "n.(身体或精神上的)疾病,病",
+              "uncertain": false
+            },
+            {
+              "word": "explorer",
+              "meaning": "n.探险者",
+              "uncertain": false
+            },
+            {
+              "word": "curious",
+              "meaning": "adj.求知欲强的;好奇的",
+              "uncertain": false
+            },
+            {
+              "word": "secret",
+              "meaning": "n.秘密",
+              "uncertain": false
+            },
+            {
+              "word": "* tomorrow",
+              "meaning": "adv.在明天;在明日 n.明天;明日",
+              "uncertain": false
+            },
+            {
+              "word": "opinion",
+              "meaning": "n.意见;想法",
+              "uncertain": false
+            },
+            {
+              "word": "course",
+              "meaning": "n.课程;进程",
+              "uncertain": false
+            },
+            {
+              "word": "officer",
+              "meaning": "n.高级职员,官员;军官",
+              "uncertain": false
+            },
+            {
+              "word": "vote",
+              "meaning": "v.投票;选出",
+              "uncertain": false
+            },
+            {
+              "word": "choose",
+              "meaning": "v.选择;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "lawyer",
+              "meaning": "n.律师",
+              "uncertain": false
+            },
+            {
+              "word": "competition",
+              "meaning": "n.比赛;竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "encourage",
+              "meaning": "v.鼓励;激励",
+              "uncertain": false
+            },
+            {
+              "word": "proud",
+              "meaning": "adj.骄傲的;自豪的",
+              "uncertain": false
+            },
+            {
+              "word": "success",
+              "meaning": "n.成功;胜利",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

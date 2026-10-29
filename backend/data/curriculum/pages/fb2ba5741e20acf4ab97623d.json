@@ -1,0 +1,236 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 4,
+  "units": [
+    4
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/109/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/03_教材页面_aafcdc6a23.jpg",
+  "sha256": "fb2ba5741e20acf4ab97623d2a3e1f2963aa79f95404be85e439a6336533b689",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "Tom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "what",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "subjects",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "about",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Eve",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Sam",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "all",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Tom, what subjects do you like?",
+        "I like Music and PE.",
+        "What about you, Eve?",
+        "I like Chinese, Art and PE.",
+        "Sam, do you like PE?",
+        "Yes, I do.",
+        "We all like PE!"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "Tom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "what",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "subjects",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "PE",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "about",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Eve",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Sam",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "all",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Tom, what subjects do you like?",
+        "I like Music and PE.",
+        "What about you, Eve?",
+        "I like Chinese, Art and PE.",
+        "Sam, do you like PE?",
+        "Yes, I do.",
+        "We all like PE!"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

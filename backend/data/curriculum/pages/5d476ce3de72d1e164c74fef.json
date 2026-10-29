@@ -1,0 +1,127 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/07_07_教材页面_acbbbe4ab9.png",
+  "units": [
+    7
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "5d476ce3de72d1e164c74fefc7d864a688e8d7499c15c0074a8f6d5bb3259aee",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "sofa",
+              "meaning": "沙发",
+              "uncertain": false
+            },
+            {
+              "word": "fridge",
+              "meaning": "电冰箱",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "电风扇",
+              "uncertain": false
+            },
+            {
+              "word": "there",
+              "meaning": "在那里",
+              "uncertain": false
+            },
+            {
+              "word": "next",
+              "meaning": "下一个的，下次的",
+              "uncertain": false
+            },
+            {
+              "word": "next to",
+              "meaning": "紧挨着",
+              "uncertain": false
+            },
+            {
+              "word": "place",
+              "meaning": "地方",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "方式，道路",
+              "uncertain": false
+            },
+            {
+              "word": "collect",
+              "meaning": "收集",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "sofa",
+              "meaning": "沙发",
+              "uncertain": false
+            },
+            {
+              "word": "fridge",
+              "meaning": "电冰箱",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "电风扇",
+              "uncertain": false
+            },
+            {
+              "word": "there",
+              "meaning": "在那里",
+              "uncertain": false
+            },
+            {
+              "word": "next",
+              "meaning": "下一个的，下次的",
+              "uncertain": false
+            },
+            {
+              "word": "next to",
+              "meaning": "紧挨着",
+              "uncertain": false
+            },
+            {
+              "word": "place",
+              "meaning": "地方",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "方式，道路",
+              "uncertain": false
+            },
+            {
+              "word": "collect",
+              "meaning": "收集",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

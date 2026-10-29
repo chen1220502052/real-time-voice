@@ -1,0 +1,210 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 5,
+  "units": [
+    5
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/110/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/01_教材页面_de8a57c3d7.jpg",
+  "sha256": "a8f702404a6755e7d841b1b647455b6eb4bf3295c9697fdf9d623511e8c52571",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "Hi",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "My",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "name",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Jerry",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I'm",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "eleven",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "years",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "old",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Hi! My name is Jerry.",
+        "I'm eleven years old.",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "seventeen"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "Hi",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "My",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "name",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Jerry",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I'm",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "eleven",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "years",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "old",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Hi! My name is Jerry.",
+        "I'm eleven years old.",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "seventeen"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

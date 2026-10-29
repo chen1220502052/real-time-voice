@@ -1,0 +1,635 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页145.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "1e4653fd8ffb1d71b42b1d6844686b42316e1b7af499d89ef2859cd018d36ad0",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "garage",
+              "meaning": "n.停车房;车库",
+              "uncertain": false
+            },
+            {
+              "word": "be pleased with ...",
+              "meaning": "对……感到高兴;满意于……",
+              "uncertain": false
+            },
+            {
+              "word": "on business",
+              "meaning": "出差",
+              "uncertain": false
+            },
+            {
+              "word": "tonight",
+              "meaning": "adv.在今夜",
+              "uncertain": false
+            },
+            {
+              "word": "Spanish",
+              "meaning": "n.西班牙语 adj.西班牙人的;西班牙的;西班牙语的",
+              "uncertain": false
+            },
+            {
+              "word": "be similar to",
+              "meaning": "与……相似,与……相像",
+              "uncertain": false
+            },
+            {
+              "word": "communicate",
+              "meaning": "v.沟通,交流",
+              "uncertain": false
+            },
+            {
+              "word": "conversation",
+              "meaning": "n.对话;谈话",
+              "uncertain": false
+            },
+            {
+              "word": "interpreter",
+              "meaning": "n.口译译员",
+              "uncertain": false
+            },
+            {
+              "word": "explain",
+              "meaning": "v.解释,说明",
+              "uncertain": false
+            },
+            {
+              "word": "impossible",
+              "meaning": "adj.不可能存在的;不可能的",
+              "uncertain": false
+            },
+            {
+              "word": "twin",
+              "meaning": "adj.双胞胎之一的 n.双胞胎之一",
+              "uncertain": false
+            },
+            {
+              "word": "divide",
+              "meaning": "v.分,划分",
+              "uncertain": false
+            },
+            {
+              "word": "divide ... into ...",
+              "meaning": "把……分成……",
+              "uncertain": false
+            },
+            {
+              "word": "dig",
+              "meaning": "v.掘(地);凿(洞);挖(土)",
+              "uncertain": false
+            },
+            {
+              "word": "lay",
+              "meaning": "v.放置,安放,搁",
+              "uncertain": false
+            },
+            {
+              "word": "mother tongue",
+              "meaning": "母语",
+              "uncertain": false
+            },
+            {
+              "word": "root",
+              "meaning": "n.起源,根源;根;词根",
+              "uncertain": false
+            },
+            {
+              "word": "trader",
+              "meaning": "n.商人,买卖人",
+              "uncertain": false
+            },
+            {
+              "word": "native",
+              "meaning": "adj.出生地的,当地的",
+              "uncertain": false
+            },
+            {
+              "word": "speaker",
+              "meaning": "n.讲(某种语言)的人;发言者",
+              "uncertain": false
+            },
+            {
+              "word": "foreign",
+              "meaning": "adj.外国的",
+              "uncertain": false
+            },
+            {
+              "word": "base",
+              "meaning": "n.根据;根基;总部 v.以……为基础(或根据)",
+              "uncertain": false
+            },
+            {
+              "word": "European",
+              "meaning": "adj.欧洲的",
+              "uncertain": false
+            },
+            {
+              "word": "kingdom",
+              "meaning": "n.王国;管辖范围;领域",
+              "uncertain": false
+            },
+            {
+              "word": "tourism",
+              "meaning": "n.旅游业;观光",
+              "uncertain": false
+            },
+            {
+              "word": "conference",
+              "meaning": "n.(正式的)会议;商谈",
+              "uncertain": false
+            },
+            {
+              "word": "tourist",
+              "meaning": "n.旅游者;游客",
+              "uncertain": false
+            },
+            {
+              "word": "Britain",
+              "meaning": "n.英国;不列颠",
+              "uncertain": false
+            },
+            {
+              "word": "powerful",
+              "meaning": "adj.强大的;有权势的;有影响力的",
+              "uncertain": false
+            },
+            {
+              "word": "leading",
+              "meaning": "adj.最重要的,最成功的",
+              "uncertain": false
+            },
+            {
+              "word": "position",
+              "meaning": "n.位置;方位",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "see ... off",
+              "meaning": "为……送行;送别",
+              "uncertain": false
+            },
+            {
+              "word": "stranger",
+              "meaning": "n.陌生人",
+              "uncertain": false
+            },
+            {
+              "word": "thumb",
+              "meaning": "n.拇指",
+              "uncertain": false
+            },
+            {
+              "word": "ask for a ride",
+              "meaning": "搭车",
+              "uncertain": false
+            },
+            {
+              "word": "minibus",
+              "meaning": "n.小型公共汽车;中巴",
+              "uncertain": false
+            },
+            {
+              "word": "give sb. a ride",
+              "meaning": "让某人搭便车",
+              "uncertain": false
+            },
+            {
+              "word": "get on",
+              "meaning": "上车",
+              "uncertain": false
+            },
+            {
+              "word": "flight",
+              "meaning": "n.航班飞机;空中航行",
+              "uncertain": false
+            },
+            {
+              "word": "guidebook",
+              "meaning": "n.旅游指南(或手册)",
+              "uncertain": false
+            },
+            {
+              "word": "whenever",
+              "meaning": "conj.无论何时,在任何……的时候",
+              "uncertain": false
+            },
+            {
+              "word": "board",
+              "meaning": "v.上(船、火车、飞机等);住宿",
+              "uncertain": false
+            },
+            {
+              "word": "bow",
+              "meaning": "v.点头,鞠躬",
+              "uncertain": false
+            },
+            {
+              "word": "silence",
+              "meaning": "n.沉默;无声 v.使安静;压制",
+              "uncertain": false
+            },
+            {
+              "word": "hip",
+              "meaning": "n.臀部;髋",
+              "uncertain": false
+            },
+            {
+              "word": "praise",
+              "meaning": "v.& n.表扬,赞扬",
+              "uncertain": false
+            },
+            {
+              "word": "research",
+              "meaning": "n.研究,调查,探索",
+              "uncertain": false
+            },
+            {
+              "word": "do some research",
+              "meaning": "做调查",
+              "uncertain": false
+            },
+            {
+              "word": "secret",
+              "meaning": "n.秘密",
+              "uncertain": false
+            },
+            {
+              "word": "puzzled",
+              "meaning": "adj.困惑的",
+              "uncertain": false
+            },
+            {
+              "word": "victory",
+              "meaning": "n.胜利",
+              "uncertain": false
+            },
+            {
+              "word": "misunderstanding",
+              "meaning": "n.误解,误会",
+              "uncertain": false
+            },
+            {
+              "word": "typical",
+              "meaning": "adj.典型的,有代表性的",
+              "uncertain": false
+            },
+            {
+              "word": "differently",
+              "meaning": "adv.不同地,有差异地",
+              "uncertain": false
+            },
+            {
+              "word": "negative",
+              "meaning": "adj.负面的,消极的",
+              "uncertain": false
+            },
+            {
+              "word": "consider",
+              "meaning": "v.认为,以为;考虑到",
+              "uncertain": false
+            },
+            {
+              "word": "honest",
+              "meaning": "adj.诚实的,老实的;坦率的",
+              "uncertain": false
+            },
+            {
+              "word": "positive",
+              "meaning": "adj.正面的;乐观的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "garage",
+              "meaning": "n.停车房;车库",
+              "uncertain": false
+            },
+            {
+              "word": "be pleased with ...",
+              "meaning": "对……感到高兴;满意于……",
+              "uncertain": false
+            },
+            {
+              "word": "on business",
+              "meaning": "出差",
+              "uncertain": false
+            },
+            {
+              "word": "tonight",
+              "meaning": "adv.在今夜",
+              "uncertain": false
+            },
+            {
+              "word": "Spanish",
+              "meaning": "n.西班牙语 adj.西班牙人的;西班牙的;西班牙语的",
+              "uncertain": false
+            },
+            {
+              "word": "be similar to",
+              "meaning": "与……相似,与……相像",
+              "uncertain": false
+            },
+            {
+              "word": "communicate",
+              "meaning": "v.沟通,交流",
+              "uncertain": false
+            },
+            {
+              "word": "conversation",
+              "meaning": "n.对话;谈话",
+              "uncertain": false
+            },
+            {
+              "word": "interpreter",
+              "meaning": "n.口译译员",
+              "uncertain": false
+            },
+            {
+              "word": "explain",
+              "meaning": "v.解释,说明",
+              "uncertain": false
+            },
+            {
+              "word": "impossible",
+              "meaning": "adj.不可能存在的;不可能的",
+              "uncertain": false
+            },
+            {
+              "word": "twin",
+              "meaning": "adj.双胞胎之一的 n.双胞胎之一",
+              "uncertain": false
+            },
+            {
+              "word": "divide",
+              "meaning": "v.分,划分",
+              "uncertain": false
+            },
+            {
+              "word": "divide ... into ...",
+              "meaning": "把……分成……",
+              "uncertain": false
+            },
+            {
+              "word": "dig",
+              "meaning": "v.掘(地);凿(洞);挖(土)",
+              "uncertain": false
+            },
+            {
+              "word": "lay",
+              "meaning": "v.放置,安放,搁",
+              "uncertain": false
+            },
+            {
+              "word": "mother tongue",
+              "meaning": "母语",
+              "uncertain": false
+            },
+            {
+              "word": "root",
+              "meaning": "n.起源,根源;根;词根",
+              "uncertain": false
+            },
+            {
+              "word": "trader",
+              "meaning": "n.商人,买卖人",
+              "uncertain": false
+            },
+            {
+              "word": "native",
+              "meaning": "adj.出生地的,当地的",
+              "uncertain": false
+            },
+            {
+              "word": "speaker",
+              "meaning": "n.讲(某种语言)的人;发言者",
+              "uncertain": false
+            },
+            {
+              "word": "foreign",
+              "meaning": "adj.外国的",
+              "uncertain": false
+            },
+            {
+              "word": "base",
+              "meaning": "n.根据;根基;总部 v.以……为基础(或根据)",
+              "uncertain": false
+            },
+            {
+              "word": "European",
+              "meaning": "adj.欧洲的",
+              "uncertain": false
+            },
+            {
+              "word": "kingdom",
+              "meaning": "n.王国;管辖范围;领域",
+              "uncertain": false
+            },
+            {
+              "word": "tourism",
+              "meaning": "n.旅游业;观光",
+              "uncertain": false
+            },
+            {
+              "word": "conference",
+              "meaning": "n.(正式的)会议;商谈",
+              "uncertain": false
+            },
+            {
+              "word": "tourist",
+              "meaning": "n.旅游者;游客",
+              "uncertain": false
+            },
+            {
+              "word": "Britain",
+              "meaning": "n.英国;不列颠",
+              "uncertain": false
+            },
+            {
+              "word": "powerful",
+              "meaning": "adj.强大的;有权势的;有影响力的",
+              "uncertain": false
+            },
+            {
+              "word": "leading",
+              "meaning": "adj.最重要的,最成功的",
+              "uncertain": false
+            },
+            {
+              "word": "position",
+              "meaning": "n.位置;方位",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "see ... off",
+              "meaning": "为……送行;送别",
+              "uncertain": false
+            },
+            {
+              "word": "stranger",
+              "meaning": "n.陌生人",
+              "uncertain": false
+            },
+            {
+              "word": "thumb",
+              "meaning": "n.拇指",
+              "uncertain": false
+            },
+            {
+              "word": "ask for a ride",
+              "meaning": "搭车",
+              "uncertain": false
+            },
+            {
+              "word": "minibus",
+              "meaning": "n.小型公共汽车;中巴",
+              "uncertain": false
+            },
+            {
+              "word": "give sb. a ride",
+              "meaning": "让某人搭便车",
+              "uncertain": false
+            },
+            {
+              "word": "get on",
+              "meaning": "上车",
+              "uncertain": false
+            },
+            {
+              "word": "flight",
+              "meaning": "n.航班飞机;空中航行",
+              "uncertain": false
+            },
+            {
+              "word": "guidebook",
+              "meaning": "n.旅游指南(或手册)",
+              "uncertain": false
+            },
+            {
+              "word": "whenever",
+              "meaning": "conj.无论何时,在任何……的时候",
+              "uncertain": false
+            },
+            {
+              "word": "board",
+              "meaning": "v.上(船、火车、飞机等);住宿",
+              "uncertain": false
+            },
+            {
+              "word": "bow",
+              "meaning": "v.点头,鞠躬",
+              "uncertain": false
+            },
+            {
+              "word": "silence",
+              "meaning": "n.沉默;无声 v.使安静;压制",
+              "uncertain": false
+            },
+            {
+              "word": "hip",
+              "meaning": "n.臀部;髋",
+              "uncertain": false
+            },
+            {
+              "word": "praise",
+              "meaning": "v.& n.表扬,赞扬",
+              "uncertain": false
+            },
+            {
+              "word": "research",
+              "meaning": "n.研究,调查,探索",
+              "uncertain": false
+            },
+            {
+              "word": "do some research",
+              "meaning": "做调查",
+              "uncertain": false
+            },
+            {
+              "word": "secret",
+              "meaning": "n.秘密",
+              "uncertain": false
+            },
+            {
+              "word": "puzzled",
+              "meaning": "adj.困惑的",
+              "uncertain": false
+            },
+            {
+              "word": "victory",
+              "meaning": "n.胜利",
+              "uncertain": false
+            },
+            {
+              "word": "misunderstanding",
+              "meaning": "n.误解,误会",
+              "uncertain": false
+            },
+            {
+              "word": "typical",
+              "meaning": "adj.典型的,有代表性的",
+              "uncertain": false
+            },
+            {
+              "word": "differently",
+              "meaning": "adv.不同地,有差异地",
+              "uncertain": false
+            },
+            {
+              "word": "negative",
+              "meaning": "adj.负面的,消极的",
+              "uncertain": false
+            },
+            {
+              "word": "consider",
+              "meaning": "v.认为,以为;考虑到",
+              "uncertain": false
+            },
+            {
+              "word": "honest",
+              "meaning": "adj.诚实的,老实的;坦率的",
+              "uncertain": false
+            },
+            {
+              "word": "positive",
+              "meaning": "adj.正面的;乐观的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,895 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页153.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "7711373333534aaa25735d21051458f10b888b5051e3fc69f94d6cbf383d2bb2",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "band",
+              "meaning": "乐队",
+              "uncertain": false
+            },
+            {
+              "word": "ticket",
+              "meaning": "票;券",
+              "uncertain": false
+            },
+            {
+              "word": "crazy",
+              "meaning": "热衷的;狂热的",
+              "uncertain": false
+            },
+            {
+              "word": "surprised",
+              "meaning": "惊奇的;惊讶的",
+              "uncertain": false
+            },
+            {
+              "word": "gain",
+              "meaning": "获得;赢得;增加",
+              "uncertain": false
+            },
+            {
+              "word": "argue",
+              "meaning": "争论;争吵;争辩",
+              "uncertain": false
+            },
+            {
+              "word": "luckily",
+              "meaning": "幸好;幸运地",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "注意到;注意",
+              "uncertain": false
+            },
+            {
+              "word": "relationship",
+              "meaning": "关系;联系;关联",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "接受",
+              "uncertain": false
+            },
+            {
+              "word": "anymore",
+              "meaning": "再也(不);(不)再",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "复习",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "机器人",
+              "uncertain": false
+            },
+            {
+              "word": "similar",
+              "meaning": "相仿的;类似的",
+              "uncertain": false
+            },
+            {
+              "word": "manage",
+              "meaning": "完成(困难的事);成功获得;管理",
+              "uncertain": false
+            },
+            {
+              "word": "avoid",
+              "meaning": "避免;防止",
+              "uncertain": false
+            },
+            {
+              "word": "balance",
+              "meaning": "平衡",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nest",
+              "meaning": "鸟巢;鸟窝",
+              "uncertain": false
+            },
+            {
+              "word": "Mount",
+              "meaning": "山;山峰(在现代英语里仅用于地名)",
+              "uncertain": false
+            },
+            {
+              "word": "lie",
+              "meaning": "位于;坐落在;躺;平躺",
+              "uncertain": false
+            },
+            {
+              "word": "province",
+              "meaning": "省份",
+              "uncertain": false
+            },
+            {
+              "word": "east",
+              "meaning": "东;东方",
+              "uncertain": false
+            },
+            {
+              "word": "ceremony",
+              "meaning": "仪式;典礼",
+              "uncertain": false
+            },
+            {
+              "word": "Olympics",
+              "meaning": "奥林匹克运动会;奥运会",
+              "uncertain": false
+            },
+            {
+              "word": "central",
+              "meaning": "在中心的;中央的",
+              "uncertain": false
+            },
+            {
+              "word": "south-east",
+              "meaning": "东南;东南方;东南地区",
+              "uncertain": false
+            },
+            {
+              "word": "yet",
+              "meaning": "但是;然而",
+              "uncertain": false
+            },
+            {
+              "word": "quite",
+              "meaning": "十分,非常;相当",
+              "uncertain": false
+            },
+            {
+              "word": "already",
+              "meaning": "已经;早已",
+              "uncertain": false
+            },
+            {
+              "word": "south-west",
+              "meaning": "西南部的;西南方;西南地区",
+              "uncertain": false
+            },
+            {
+              "word": "length",
+              "meaning": "长;长度",
+              "uncertain": false
+            },
+            {
+              "word": "round",
+              "meaning": "圆形的;环形的;旋转;环绕",
+              "uncertain": false
+            },
+            {
+              "word": "palace",
+              "meaning": "王宫;宫殿",
+              "uncertain": false
+            },
+            {
+              "word": "lotus",
+              "meaning": "莲属植物",
+              "uncertain": false
+            },
+            {
+              "word": "rich",
+              "meaning": "丰富多彩的;富有的;油腻的",
+              "uncertain": false
+            },
+            {
+              "word": "culture",
+              "meaning": "文化",
+              "uncertain": false
+            },
+            {
+              "word": "cultural",
+              "meaning": "文化的;与文化有关的",
+              "uncertain": false
+            },
+            {
+              "word": "interest",
+              "meaning": "吸引力;兴趣",
+              "uncertain": false
+            },
+            {
+              "word": "average",
+              "meaning": "平均数;平均的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "band",
+              "meaning": "乐队",
+              "uncertain": false
+            },
+            {
+              "word": "ticket",
+              "meaning": "票;券",
+              "uncertain": false
+            },
+            {
+              "word": "crazy",
+              "meaning": "热衷的;狂热的",
+              "uncertain": false
+            },
+            {
+              "word": "surprised",
+              "meaning": "惊奇的;惊讶的",
+              "uncertain": false
+            },
+            {
+              "word": "gain",
+              "meaning": "获得;赢得;增加",
+              "uncertain": false
+            },
+            {
+              "word": "argue",
+              "meaning": "争论;争吵;争辩",
+              "uncertain": false
+            },
+            {
+              "word": "luckily",
+              "meaning": "幸好;幸运地",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "注意到;注意",
+              "uncertain": false
+            },
+            {
+              "word": "relationship",
+              "meaning": "关系;联系;关联",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "接受",
+              "uncertain": false
+            },
+            {
+              "word": "anymore",
+              "meaning": "再也(不);(不)再",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "复习",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "机器人",
+              "uncertain": false
+            },
+            {
+              "word": "similar",
+              "meaning": "相仿的;类似的",
+              "uncertain": false
+            },
+            {
+              "word": "manage",
+              "meaning": "完成(困难的事);成功获得;管理",
+              "uncertain": false
+            },
+            {
+              "word": "avoid",
+              "meaning": "避免;防止",
+              "uncertain": false
+            },
+            {
+              "word": "balance",
+              "meaning": "平衡",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nest",
+              "meaning": "鸟巢;鸟窝",
+              "uncertain": false
+            },
+            {
+              "word": "Mount",
+              "meaning": "山;山峰(在现代英语里仅用于地名)",
+              "uncertain": false
+            },
+            {
+              "word": "lie",
+              "meaning": "位于;坐落在;躺;平躺",
+              "uncertain": false
+            },
+            {
+              "word": "province",
+              "meaning": "省份",
+              "uncertain": false
+            },
+            {
+              "word": "east",
+              "meaning": "东;东方",
+              "uncertain": false
+            },
+            {
+              "word": "ceremony",
+              "meaning": "仪式;典礼",
+              "uncertain": false
+            },
+            {
+              "word": "Olympics",
+              "meaning": "奥林匹克运动会;奥运会",
+              "uncertain": false
+            },
+            {
+              "word": "central",
+              "meaning": "在中心的;中央的",
+              "uncertain": false
+            },
+            {
+              "word": "south-east",
+              "meaning": "东南;东南方;东南地区",
+              "uncertain": false
+            },
+            {
+              "word": "yet",
+              "meaning": "但是;然而",
+              "uncertain": false
+            },
+            {
+              "word": "quite",
+              "meaning": "十分,非常;相当",
+              "uncertain": false
+            },
+            {
+              "word": "already",
+              "meaning": "已经;早已",
+              "uncertain": false
+            },
+            {
+              "word": "south-west",
+              "meaning": "西南部的;西南方;西南地区",
+              "uncertain": false
+            },
+            {
+              "word": "length",
+              "meaning": "长;长度",
+              "uncertain": false
+            },
+            {
+              "word": "round",
+              "meaning": "圆形的;环形的;旋转;环绕",
+              "uncertain": false
+            },
+            {
+              "word": "palace",
+              "meaning": "王宫;宫殿",
+              "uncertain": false
+            },
+            {
+              "word": "lotus",
+              "meaning": "莲属植物",
+              "uncertain": false
+            },
+            {
+              "word": "rich",
+              "meaning": "丰富多彩的;富有的;油腻的",
+              "uncertain": false
+            },
+            {
+              "word": "culture",
+              "meaning": "文化",
+              "uncertain": false
+            },
+            {
+              "word": "cultural",
+              "meaning": "文化的;与文化有关的",
+              "uncertain": false
+            },
+            {
+              "word": "interest",
+              "meaning": "吸引力;兴趣",
+              "uncertain": false
+            },
+            {
+              "word": "average",
+              "meaning": "平均数;平均的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "cc7a7e09cea526bacba96c17e09e98b5fda06ad3be0798b5834be6f1034dac36",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "band",
+                  "meaning": "乐队",
+                  "uncertain": false
+                },
+                {
+                  "word": "ticket",
+                  "meaning": "票,券",
+                  "uncertain": false
+                },
+                {
+                  "word": "crazy",
+                  "meaning": "热衷的;狂热的",
+                  "uncertain": false
+                },
+                {
+                  "word": "surprised",
+                  "meaning": "惊奇的;惊讶的",
+                  "uncertain": false
+                },
+                {
+                  "word": "gain",
+                  "meaning": "获得;赢得;增加",
+                  "uncertain": false
+                },
+                {
+                  "word": "argue",
+                  "meaning": "争论;争吵;争辩",
+                  "uncertain": false
+                },
+                {
+                  "word": "luckily",
+                  "meaning": "幸好;幸运地",
+                  "uncertain": false
+                },
+                {
+                  "word": "notice",
+                  "meaning": "注意到;注意",
+                  "uncertain": false
+                },
+                {
+                  "word": "relationship",
+                  "meaning": "关系;联系;关联",
+                  "uncertain": false
+                },
+                {
+                  "word": "accept",
+                  "meaning": "接受",
+                  "uncertain": false
+                },
+                {
+                  "word": "anymore",
+                  "meaning": "再也(不);(不)再",
+                  "uncertain": false
+                },
+                {
+                  "word": "review",
+                  "meaning": "复习",
+                  "uncertain": false
+                },
+                {
+                  "word": "robot",
+                  "meaning": "机器人",
+                  "uncertain": false
+                },
+                {
+                  "word": "similar",
+                  "meaning": "相仿的;类似的",
+                  "uncertain": false
+                },
+                {
+                  "word": "manage",
+                  "meaning": "完成(困难的事);成功获得;管理",
+                  "uncertain": false
+                },
+                {
+                  "word": "avoid",
+                  "meaning": "避免;防止",
+                  "uncertain": false
+                },
+                {
+                  "word": "balance",
+                  "meaning": "平衡",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "nest",
+                  "meaning": "鸟巢;鸟窝",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "band",
+                  "meaning": "乐队",
+                  "uncertain": false
+                },
+                {
+                  "word": "ticket",
+                  "meaning": "票,券",
+                  "uncertain": false
+                },
+                {
+                  "word": "crazy",
+                  "meaning": "热衷的;狂热的",
+                  "uncertain": false
+                },
+                {
+                  "word": "surprised",
+                  "meaning": "惊奇的;惊讶的",
+                  "uncertain": false
+                },
+                {
+                  "word": "gain",
+                  "meaning": "获得;赢得;增加",
+                  "uncertain": false
+                },
+                {
+                  "word": "argue",
+                  "meaning": "争论;争吵;争辩",
+                  "uncertain": false
+                },
+                {
+                  "word": "luckily",
+                  "meaning": "幸好;幸运地",
+                  "uncertain": false
+                },
+                {
+                  "word": "notice",
+                  "meaning": "注意到;注意",
+                  "uncertain": false
+                },
+                {
+                  "word": "relationship",
+                  "meaning": "关系;联系;关联",
+                  "uncertain": false
+                },
+                {
+                  "word": "accept",
+                  "meaning": "接受",
+                  "uncertain": false
+                },
+                {
+                  "word": "anymore",
+                  "meaning": "再也(不);(不)再",
+                  "uncertain": false
+                },
+                {
+                  "word": "review",
+                  "meaning": "复习",
+                  "uncertain": false
+                },
+                {
+                  "word": "robot",
+                  "meaning": "机器人",
+                  "uncertain": false
+                },
+                {
+                  "word": "similar",
+                  "meaning": "相仿的;类似的",
+                  "uncertain": false
+                },
+                {
+                  "word": "manage",
+                  "meaning": "完成(困难的事);成功获得;管理",
+                  "uncertain": false
+                },
+                {
+                  "word": "avoid",
+                  "meaning": "避免;防止",
+                  "uncertain": false
+                },
+                {
+                  "word": "balance",
+                  "meaning": "平衡",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "nest",
+                  "meaning": "鸟巢;鸟窝",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "5422cfb03759f05cb978c160554300829be88d41847e85631a61d0821c4ceec6",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "Mount",
+                  "meaning": "n.山;山峰(在现代英语里仅用于地名)",
+                  "uncertain": false
+                },
+                {
+                  "word": "lie",
+                  "meaning": "v.位于;坐落在;躺;平躺",
+                  "uncertain": false
+                },
+                {
+                  "word": "province",
+                  "meaning": "n.省份",
+                  "uncertain": false
+                },
+                {
+                  "word": "east",
+                  "meaning": "n.东;东方",
+                  "uncertain": false
+                },
+                {
+                  "word": "ceremony",
+                  "meaning": "n.仪式;典礼",
+                  "uncertain": false
+                },
+                {
+                  "word": "Olympics",
+                  "meaning": "n.奥林匹克运动会;奥运会",
+                  "uncertain": false
+                },
+                {
+                  "word": "central",
+                  "meaning": "adj.在中心的;中央的",
+                  "uncertain": false
+                },
+                {
+                  "word": "south-east",
+                  "meaning": "n.东南;东南方;东南地区",
+                  "uncertain": false
+                },
+                {
+                  "word": "yet",
+                  "meaning": "conj.但是;然而",
+                  "uncertain": false
+                },
+                {
+                  "word": "quite",
+                  "meaning": "adv.十分,非常;相当",
+                  "uncertain": false
+                },
+                {
+                  "word": "already",
+                  "meaning": "adv.已经;早已",
+                  "uncertain": false
+                },
+                {
+                  "word": "south-west",
+                  "meaning": "adj.西南部的 n.西南方;西南地区",
+                  "uncertain": false
+                },
+                {
+                  "word": "length",
+                  "meaning": "n.长;长度",
+                  "uncertain": false
+                },
+                {
+                  "word": "round",
+                  "meaning": "adj.圆形的;环形的 adv.旋转;环绕",
+                  "uncertain": false
+                },
+                {
+                  "word": "palace",
+                  "meaning": "n.王宫;宫殿",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "lotus",
+                  "meaning": "n.莲属植物",
+                  "uncertain": false
+                },
+                {
+                  "word": "rich",
+                  "meaning": "adj.丰富多彩的;富有的;油腻的",
+                  "uncertain": false
+                },
+                {
+                  "word": "culture",
+                  "meaning": "n.文化",
+                  "uncertain": false
+                },
+                {
+                  "word": "cultural",
+                  "meaning": "adj.文化的;与文化有关的",
+                  "uncertain": false
+                },
+                {
+                  "word": "interest",
+                  "meaning": "n.吸引力;兴趣",
+                  "uncertain": false
+                },
+                {
+                  "word": "average",
+                  "meaning": "n.平均数 adj.平均的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "Mount",
+                  "meaning": "n.山;山峰(在现代英语里仅用于地名)",
+                  "uncertain": false
+                },
+                {
+                  "word": "lie",
+                  "meaning": "v.位于;坐落在;躺;平躺",
+                  "uncertain": false
+                },
+                {
+                  "word": "province",
+                  "meaning": "n.省份",
+                  "uncertain": false
+                },
+                {
+                  "word": "east",
+                  "meaning": "n.东;东方",
+                  "uncertain": false
+                },
+                {
+                  "word": "ceremony",
+                  "meaning": "n.仪式;典礼",
+                  "uncertain": false
+                },
+                {
+                  "word": "Olympics",
+                  "meaning": "n.奥林匹克运动会;奥运会",
+                  "uncertain": false
+                },
+                {
+                  "word": "central",
+                  "meaning": "adj.在中心的;中央的",
+                  "uncertain": false
+                },
+                {
+                  "word": "south-east",
+                  "meaning": "n.东南;东南方;东南地区",
+                  "uncertain": false
+                },
+                {
+                  "word": "yet",
+                  "meaning": "conj.但是;然而",
+                  "uncertain": false
+                },
+                {
+                  "word": "quite",
+                  "meaning": "adv.十分,非常;相当",
+                  "uncertain": false
+                },
+                {
+                  "word": "already",
+                  "meaning": "adv.已经;早已",
+                  "uncertain": false
+                },
+                {
+                  "word": "south-west",
+                  "meaning": "adj.西南部的 n.西南方;西南地区",
+                  "uncertain": false
+                },
+                {
+                  "word": "length",
+                  "meaning": "n.长;长度",
+                  "uncertain": false
+                },
+                {
+                  "word": "round",
+                  "meaning": "adj.圆形的;环形的 adv.旋转;环绕",
+                  "uncertain": false
+                },
+                {
+                  "word": "palace",
+                  "meaning": "n.王宫;宫殿",
+                  "uncertain": false
+                },
+                {
+                  "word": "lotus",
+                  "meaning": "n.莲属植物",
+                  "uncertain": false
+                },
+                {
+                  "word": "rich",
+                  "meaning": "adj.丰富多彩的;富有的;油腻的",
+                  "uncertain": false
+                },
+                {
+                  "word": "culture",
+                  "meaning": "n.文化",
+                  "uncertain": false
+                },
+                {
+                  "word": "cultural",
+                  "meaning": "adj.文化的;与文化有关的",
+                  "uncertain": false
+                },
+                {
+                  "word": "interest",
+                  "meaning": "n.吸引力;兴趣",
+                  "uncertain": false
+                },
+                {
+                  "word": "average",
+                  "meaning": "n.平均数 adj.平均的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

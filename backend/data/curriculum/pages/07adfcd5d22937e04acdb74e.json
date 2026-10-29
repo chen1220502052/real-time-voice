@@ -1,0 +1,916 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/5年级/下册_完整教材词表/原图/01_04_教材页面_48554e7d19.jpg",
+  "units": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/73/detail/",
+  "sha256": "07adfcd5d22937e04acdb74e29ce6a298ffa1be13a2a1f662908014064a15063",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "speak",
+              "meaning": "讲，说",
+              "uncertain": false
+            },
+            {
+              "word": "afternoon",
+              "meaning": "下午",
+              "uncertain": false
+            },
+            {
+              "word": "put",
+              "meaning": "放",
+              "uncertain": false
+            },
+            {
+              "word": "question",
+              "meaning": "问题",
+              "uncertain": false
+            },
+            {
+              "word": "number",
+              "meaning": "号码，数字",
+              "uncertain": false
+            },
+            {
+              "word": "certainly",
+              "meaning": "当然",
+              "uncertain": false
+            },
+            {
+              "word": "into",
+              "meaning": "到……里",
+              "uncertain": false
+            },
+            {
+              "word": "meat",
+              "meaning": "肉",
+              "uncertain": false
+            },
+            {
+              "word": "job",
+              "meaning": "工作",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "must",
+              "meaning": "必须",
+              "uncertain": false
+            },
+            {
+              "word": "street",
+              "meaning": "街道",
+              "uncertain": false
+            },
+            {
+              "word": "light",
+              "meaning": "灯，光线",
+              "uncertain": false
+            },
+            {
+              "word": "cousin",
+              "meaning": "堂/表兄弟姐妹",
+              "uncertain": false
+            },
+            {
+              "word": "answer",
+              "meaning": "回答",
+              "uncertain": false
+            },
+            {
+              "word": "cross",
+              "meaning": "穿过",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "线",
+              "uncertain": false
+            },
+            {
+              "word": "all right",
+              "meaning": "好",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "blackboard",
+              "meaning": "黑板",
+              "uncertain": false
+            },
+            {
+              "word": "pupil",
+              "meaning": "小学生",
+              "uncertain": false
+            },
+            {
+              "word": "forty",
+              "meaning": "四十",
+              "uncertain": false
+            },
+            {
+              "word": "paper",
+              "meaning": "纸",
+              "uncertain": false
+            },
+            {
+              "word": "dirty",
+              "meaning": "脏的",
+              "uncertain": false
+            },
+            {
+              "word": "drop",
+              "meaning": "掉落",
+              "uncertain": false
+            },
+            {
+              "word": "pick",
+              "meaning": "拾，摘",
+              "uncertain": false
+            },
+            {
+              "word": "pick up",
+              "meaning": "捡起",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "live",
+              "meaning": "居住，生活",
+              "uncertain": false
+            },
+            {
+              "word": "Ms",
+              "meaning": "女士",
+              "uncertain": false
+            },
+            {
+              "word": "kind",
+              "meaning": "种类；和善的",
+              "uncertain": false
+            },
+            {
+              "word": "mountain",
+              "meaning": "高山",
+              "uncertain": false
+            },
+            {
+              "word": "smell",
+              "meaning": "闻起来",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "病的",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "药",
+              "uncertain": false
+            },
+            {
+              "word": "suddenly",
+              "meaning": "突然",
+              "uncertain": false
+            },
+            {
+              "word": "quickly",
+              "meaning": "迅速地",
+              "uncertain": false
+            },
+            {
+              "word": "come from",
+              "meaning": "来自",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "farm",
+              "meaning": "农场",
+              "uncertain": false
+            },
+            {
+              "word": "easy",
+              "meaning": "容易的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "speak",
+              "meaning": "讲，说",
+              "uncertain": false
+            },
+            {
+              "word": "afternoon",
+              "meaning": "下午",
+              "uncertain": false
+            },
+            {
+              "word": "put",
+              "meaning": "放",
+              "uncertain": false
+            },
+            {
+              "word": "question",
+              "meaning": "问题",
+              "uncertain": false
+            },
+            {
+              "word": "number",
+              "meaning": "号码，数字",
+              "uncertain": false
+            },
+            {
+              "word": "certainly",
+              "meaning": "当然",
+              "uncertain": false
+            },
+            {
+              "word": "into",
+              "meaning": "到……里",
+              "uncertain": false
+            },
+            {
+              "word": "meat",
+              "meaning": "肉",
+              "uncertain": false
+            },
+            {
+              "word": "job",
+              "meaning": "工作",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "must",
+              "meaning": "必须",
+              "uncertain": false
+            },
+            {
+              "word": "street",
+              "meaning": "街道",
+              "uncertain": false
+            },
+            {
+              "word": "light",
+              "meaning": "灯，光线",
+              "uncertain": false
+            },
+            {
+              "word": "cousin",
+              "meaning": "堂/表兄弟姐妹",
+              "uncertain": false
+            },
+            {
+              "word": "answer",
+              "meaning": "回答",
+              "uncertain": false
+            },
+            {
+              "word": "cross",
+              "meaning": "穿过",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "线",
+              "uncertain": false
+            },
+            {
+              "word": "all right",
+              "meaning": "好",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "blackboard",
+              "meaning": "黑板",
+              "uncertain": false
+            },
+            {
+              "word": "pupil",
+              "meaning": "小学生",
+              "uncertain": false
+            },
+            {
+              "word": "forty",
+              "meaning": "四十",
+              "uncertain": false
+            },
+            {
+              "word": "paper",
+              "meaning": "纸",
+              "uncertain": false
+            },
+            {
+              "word": "dirty",
+              "meaning": "脏的",
+              "uncertain": false
+            },
+            {
+              "word": "drop",
+              "meaning": "掉落",
+              "uncertain": false
+            },
+            {
+              "word": "pick",
+              "meaning": "拾，摘",
+              "uncertain": false
+            },
+            {
+              "word": "pick up",
+              "meaning": "捡起",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "live",
+              "meaning": "居住，生活",
+              "uncertain": false
+            },
+            {
+              "word": "Ms",
+              "meaning": "女士",
+              "uncertain": false
+            },
+            {
+              "word": "kind",
+              "meaning": "种类；和善的",
+              "uncertain": false
+            },
+            {
+              "word": "mountain",
+              "meaning": "高山",
+              "uncertain": false
+            },
+            {
+              "word": "smell",
+              "meaning": "闻起来",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "病的",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "药",
+              "uncertain": false
+            },
+            {
+              "word": "suddenly",
+              "meaning": "突然",
+              "uncertain": false
+            },
+            {
+              "word": "quickly",
+              "meaning": "迅速地",
+              "uncertain": false
+            },
+            {
+              "word": "come from",
+              "meaning": "来自",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "farm",
+              "meaning": "农场",
+              "uncertain": false
+            },
+            {
+              "word": "easy",
+              "meaning": "容易的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "030f18244ef0489f18e7d484e93d1c7f95fc853db96b4a8f4fc1eeb219a69961",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": 1,
+              "entries": [
+                {
+                  "word": "speak",
+                  "meaning": "讲，说",
+                  "uncertain": false
+                },
+                {
+                  "word": "afternoon",
+                  "meaning": "下午",
+                  "uncertain": false
+                },
+                {
+                  "word": "put",
+                  "meaning": "放",
+                  "uncertain": false
+                },
+                {
+                  "word": "question",
+                  "meaning": "问题",
+                  "uncertain": false
+                },
+                {
+                  "word": "number",
+                  "meaning": "号码，数字",
+                  "uncertain": false
+                },
+                {
+                  "word": "certainly",
+                  "meaning": "当然",
+                  "uncertain": false
+                },
+                {
+                  "word": "into",
+                  "meaning": "到……里",
+                  "uncertain": false
+                },
+                {
+                  "word": "meat",
+                  "meaning": "肉",
+                  "uncertain": false
+                },
+                {
+                  "word": "job",
+                  "meaning": "工作",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "must",
+                  "meaning": "必须",
+                  "uncertain": false
+                },
+                {
+                  "word": "street",
+                  "meaning": "街道",
+                  "uncertain": false
+                },
+                {
+                  "word": "light",
+                  "meaning": "灯，光线",
+                  "uncertain": false
+                },
+                {
+                  "word": "cousin",
+                  "meaning": "堂/表兄弟姐妹",
+                  "uncertain": false
+                },
+                {
+                  "word": "answer",
+                  "meaning": "回答",
+                  "uncertain": false
+                },
+                {
+                  "word": "cross",
+                  "meaning": "穿过",
+                  "uncertain": false
+                },
+                {
+                  "word": "line",
+                  "meaning": "线",
+                  "uncertain": false
+                },
+                {
+                  "word": "all right",
+                  "meaning": "好",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "blackboard",
+                  "meaning": "黑板",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": 1,
+              "entries": [
+                {
+                  "word": "speak",
+                  "meaning": "讲，说",
+                  "uncertain": false
+                },
+                {
+                  "word": "afternoon",
+                  "meaning": "下午",
+                  "uncertain": false
+                },
+                {
+                  "word": "put",
+                  "meaning": "放",
+                  "uncertain": false
+                },
+                {
+                  "word": "question",
+                  "meaning": "问题",
+                  "uncertain": false
+                },
+                {
+                  "word": "number",
+                  "meaning": "号码，数字",
+                  "uncertain": false
+                },
+                {
+                  "word": "certainly",
+                  "meaning": "当然",
+                  "uncertain": false
+                },
+                {
+                  "word": "into",
+                  "meaning": "到……里",
+                  "uncertain": false
+                },
+                {
+                  "word": "meat",
+                  "meaning": "肉",
+                  "uncertain": false
+                },
+                {
+                  "word": "job",
+                  "meaning": "工作",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "must",
+                  "meaning": "必须",
+                  "uncertain": false
+                },
+                {
+                  "word": "street",
+                  "meaning": "街道",
+                  "uncertain": false
+                },
+                {
+                  "word": "light",
+                  "meaning": "灯，光线",
+                  "uncertain": false
+                },
+                {
+                  "word": "cousin",
+                  "meaning": "堂/表兄弟姐妹",
+                  "uncertain": false
+                },
+                {
+                  "word": "answer",
+                  "meaning": "回答",
+                  "uncertain": false
+                },
+                {
+                  "word": "cross",
+                  "meaning": "穿过",
+                  "uncertain": false
+                },
+                {
+                  "word": "line",
+                  "meaning": "线",
+                  "uncertain": false
+                },
+                {
+                  "word": "all right",
+                  "meaning": "好",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "blackboard",
+                  "meaning": "黑板",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "8c535f45374e5a459610660ec27bf0c7835ac88d55a0a7262d5d4a3c0a8978b8",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "pupil",
+                  "meaning": "小学生",
+                  "uncertain": false
+                },
+                {
+                  "word": "forty",
+                  "meaning": "四十",
+                  "uncertain": false
+                },
+                {
+                  "word": "paper",
+                  "meaning": "纸",
+                  "uncertain": false
+                },
+                {
+                  "word": "dirty",
+                  "meaning": "脏的",
+                  "uncertain": false
+                },
+                {
+                  "word": "drop",
+                  "meaning": "掉落",
+                  "uncertain": false
+                },
+                {
+                  "word": "pick",
+                  "meaning": "拾，摘",
+                  "uncertain": false
+                },
+                {
+                  "word": "pick up",
+                  "meaning": "捡起",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 4,
+              "entries": [
+                {
+                  "word": "live",
+                  "meaning": "居住，生活",
+                  "uncertain": false
+                },
+                {
+                  "word": "Ms",
+                  "meaning": "女士",
+                  "uncertain": false
+                },
+                {
+                  "word": "kind",
+                  "meaning": "种类；和善的",
+                  "uncertain": false
+                },
+                {
+                  "word": "mountain",
+                  "meaning": "高山",
+                  "uncertain": false
+                },
+                {
+                  "word": "smell",
+                  "meaning": "闻起来",
+                  "uncertain": false
+                },
+                {
+                  "word": "sick",
+                  "meaning": "病的",
+                  "uncertain": false
+                },
+                {
+                  "word": "medicine",
+                  "meaning": "药",
+                  "uncertain": false
+                },
+                {
+                  "word": "suddenly",
+                  "meaning": "突然",
+                  "uncertain": false
+                },
+                {
+                  "word": "quickly",
+                  "meaning": "迅速地",
+                  "uncertain": false
+                },
+                {
+                  "word": "come from",
+                  "meaning": "来自",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "farm",
+                  "meaning": "农场",
+                  "uncertain": false
+                },
+                {
+                  "word": "easy",
+                  "meaning": "容易的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "pupil",
+                  "meaning": "小学生",
+                  "uncertain": false
+                },
+                {
+                  "word": "forty",
+                  "meaning": "四十",
+                  "uncertain": false
+                },
+                {
+                  "word": "paper",
+                  "meaning": "纸",
+                  "uncertain": false
+                },
+                {
+                  "word": "dirty",
+                  "meaning": "脏的",
+                  "uncertain": false
+                },
+                {
+                  "word": "drop",
+                  "meaning": "掉落",
+                  "uncertain": false
+                },
+                {
+                  "word": "pick",
+                  "meaning": "拾，摘",
+                  "uncertain": false
+                },
+                {
+                  "word": "pick up",
+                  "meaning": "捡起",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 4,
+              "entries": [
+                {
+                  "word": "live",
+                  "meaning": "居住，生活",
+                  "uncertain": false
+                },
+                {
+                  "word": "Ms",
+                  "meaning": "女士",
+                  "uncertain": false
+                },
+                {
+                  "word": "kind",
+                  "meaning": "种类；和善的",
+                  "uncertain": false
+                },
+                {
+                  "word": "mountain",
+                  "meaning": "高山",
+                  "uncertain": false
+                },
+                {
+                  "word": "smell",
+                  "meaning": "闻起来",
+                  "uncertain": false
+                },
+                {
+                  "word": "sick",
+                  "meaning": "病的",
+                  "uncertain": false
+                },
+                {
+                  "word": "medicine",
+                  "meaning": "药",
+                  "uncertain": false
+                },
+                {
+                  "word": "suddenly",
+                  "meaning": "突然",
+                  "uncertain": false
+                },
+                {
+                  "word": "quickly",
+                  "meaning": "迅速地",
+                  "uncertain": false
+                },
+                {
+                  "word": "come from",
+                  "meaning": "来自",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "farm",
+                  "meaning": "农场",
+                  "uncertain": false
+                },
+                {
+                  "word": "easy",
+                  "meaning": "容易的",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

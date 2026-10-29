@@ -1,0 +1,150 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 1,
+  "units": [
+    1
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/106/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/03_教材页面_6189d8a30e.jpg",
+  "sha256": "dec642aa5a9716aba2baa22cfbe069153b7cf70016ea4c6b4e584b4bc065dfe2",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "Good",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "morning",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Mum",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Good morning.",
+        "Good morning, Mum.",
+        "Have some bread and juice.",
+        "Thank you, Mum!"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "Good",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "morning",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Mum",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Good morning.",
+        "Good morning, Mum.",
+        "Have some bread and juice.",
+        "Thank you, Mum!"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

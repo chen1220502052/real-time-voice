@@ -1,0 +1,5106 @@
+{
+  "version": 1,
+  "grade": 8,
+  "sources": [
+    {
+      "path": "英语/人教版/新版单元听说训练.json",
+      "sha256": "be385757f44c467cf00c3e5d393481fe2e247b9ab2d32c116626ad62b90fa064",
+      "kind": "original_topic_supplements_not_textbook_transcripts"
+    },
+    {
+      "path": "英语/人教版/8年级/单词/人教旧版_上册/词汇.json",
+      "sha256": "89f9fb569a85560da6142b839ab6d77b9176b48bf4c845212464ab02846db955",
+      "kind": "legacy_third_party_vocabulary_not_new_edition_wordlist"
+    },
+    {
+      "path": "英语/人教版/8年级/单词/人教旧版_下册/词汇.json",
+      "sha256": "377e72f09dbcf9064dceadd6cc46421c5baf0a0b137f765ca3661e23b7d74246",
+      "kind": "legacy_third_party_vocabulary_not_new_edition_wordlist"
+    }
+  ],
+  "topics": [
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 1 Happy Holiday",
+      "vocabulary": [
+        {
+          "word": "holiday",
+          "meaning": "假期"
+        },
+        {
+          "word": "journey",
+          "meaning": "旅行"
+        },
+        {
+          "word": "experience",
+          "meaning": "经历"
+        },
+        {
+          "word": "local",
+          "meaning": "当地的"
+        },
+        {
+          "word": "visit",
+          "meaning": "参观"
+        },
+        {
+          "word": "relax",
+          "meaning": "放松"
+        },
+        {
+          "word": "memorable",
+          "meaning": "难忘的"
+        },
+        {
+          "word": "although",
+          "meaning": "虽然"
+        }
+      ],
+      "question": "What made a holiday memorable for you?",
+      "example": "During a short holiday, I visited a town with my family. Although it rained, we enjoyed talking with local people. Their stories made the trip memorable.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 2 Home Sweet Home",
+      "vocabulary": [
+        {
+          "word": "home",
+          "meaning": "家"
+        },
+        {
+          "word": "neighbour",
+          "meaning": "邻居"
+        },
+        {
+          "word": "comfortable",
+          "meaning": "舒适的"
+        },
+        {
+          "word": "share",
+          "meaning": "分担"
+        },
+        {
+          "word": "housework",
+          "meaning": "家务"
+        },
+        {
+          "word": "responsibility",
+          "meaning": "责任"
+        },
+        {
+          "word": "care",
+          "meaning": "关怀"
+        },
+        {
+          "word": "together",
+          "meaning": "一起"
+        }
+      ],
+      "question": "How can family members make a home comfortable?",
+      "example": "A comfortable home needs care from everyone. I share the housework and listen when my family need help. Small acts can make our daily life easier.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 3 Same or Different",
+      "vocabulary": [
+        {
+          "word": "similar",
+          "meaning": "相似的"
+        },
+        {
+          "word": "different",
+          "meaning": "不同的"
+        },
+        {
+          "word": "compare",
+          "meaning": "比较"
+        },
+        {
+          "word": "personality",
+          "meaning": "性格"
+        },
+        {
+          "word": "outgoing",
+          "meaning": "外向的"
+        },
+        {
+          "word": "quiet",
+          "meaning": "安静的"
+        },
+        {
+          "word": "strength",
+          "meaning": "长处"
+        },
+        {
+          "word": "respect",
+          "meaning": "尊重"
+        }
+      ],
+      "question": "How are you and a friend similar or different?",
+      "example": "My friend is more outgoing than I am, but we both enjoy reading. We have different strengths and learn from each other. I value our differences.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 4 Amazing Plants and Animals",
+      "vocabulary": [
+        {
+          "word": "plant",
+          "meaning": "植物"
+        },
+        {
+          "word": "animal",
+          "meaning": "动物"
+        },
+        {
+          "word": "wildlife",
+          "meaning": "野生生物"
+        },
+        {
+          "word": "grow",
+          "meaning": "生长"
+        },
+        {
+          "word": "habitat",
+          "meaning": "栖息地"
+        },
+        {
+          "word": "adapt",
+          "meaning": "适应"
+        },
+        {
+          "word": "protect",
+          "meaning": "保护"
+        },
+        {
+          "word": "nature",
+          "meaning": "自然"
+        }
+      ],
+      "question": "What is interesting about a plant or animal?",
+      "example": "I find bamboo interesting because it grows quickly and has many uses. People can use it to make furniture. Learning about plants helps me notice nature around me.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 5 What a Delicious Meal!",
+      "vocabulary": [
+        {
+          "word": "delicious",
+          "meaning": "美味的"
+        },
+        {
+          "word": "ingredient",
+          "meaning": "原料"
+        },
+        {
+          "word": "prepare",
+          "meaning": "准备"
+        },
+        {
+          "word": "mix",
+          "meaning": "混合"
+        },
+        {
+          "word": "cook",
+          "meaning": "烹调"
+        },
+        {
+          "word": "taste",
+          "meaning": "品尝"
+        },
+        {
+          "word": "serve",
+          "meaning": "端上餐桌"
+        },
+        {
+          "word": "recipe",
+          "meaning": "食谱"
+        }
+      ],
+      "question": "How do you prepare a simple meal?",
+      "example": "First, I wash and cut the vegetables. Then I cook them with some eggs and serve the dish with rice. I keep the kitchen clean while I work.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 6 Plan for Yourself",
+      "vocabulary": [
+        {
+          "word": "plan",
+          "meaning": "计划"
+        },
+        {
+          "word": "goal",
+          "meaning": "目标"
+        },
+        {
+          "word": "achieve",
+          "meaning": "实现"
+        },
+        {
+          "word": "effort",
+          "meaning": "努力"
+        },
+        {
+          "word": "progress",
+          "meaning": "进步"
+        },
+        {
+          "word": "practice",
+          "meaning": "练习"
+        },
+        {
+          "word": "schedule",
+          "meaning": "日程"
+        },
+        {
+          "word": "review",
+          "meaning": "回顾"
+        }
+      ],
+      "question": "How do you turn a goal into a practical plan?",
+      "example": "My goal is to speak English more clearly. I practise for ten minutes each day and record myself once a week. I review the recordings to notice progress.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 7 When Tomorrow Comes",
+      "vocabulary": [
+        {
+          "word": "future",
+          "meaning": "未来"
+        },
+        {
+          "word": "predict",
+          "meaning": "预测"
+        },
+        {
+          "word": "technology",
+          "meaning": "科技"
+        },
+        {
+          "word": "possible",
+          "meaning": "可能的"
+        },
+        {
+          "word": "change",
+          "meaning": "变化"
+        },
+        {
+          "word": "environment",
+          "meaning": "环境"
+        },
+        {
+          "word": "robot",
+          "meaning": "机器人"
+        },
+        {
+          "word": "imagine",
+          "meaning": "想象"
+        }
+      ],
+      "question": "What change do you expect in the future?",
+      "example": "I think more people will use clean energy in the future. This may reduce pollution, but it will take planning and effort. Schools can help students understand the choices.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "上册_新版",
+      "unit": "Unit 8 Let's Communicate!",
+      "vocabulary": [
+        {
+          "word": "communicate",
+          "meaning": "交流"
+        },
+        {
+          "word": "listen",
+          "meaning": "倾听"
+        },
+        {
+          "word": "explain",
+          "meaning": "解释"
+        },
+        {
+          "word": "opinion",
+          "meaning": "观点"
+        },
+        {
+          "word": "respect",
+          "meaning": "尊重"
+        },
+        {
+          "word": "misunderstanding",
+          "meaning": "误解"
+        },
+        {
+          "word": "patient",
+          "meaning": "耐心的"
+        },
+        {
+          "word": "reply",
+          "meaning": "回复"
+        }
+      ],
+      "question": "What helps people communicate well?",
+      "example": "Good communication begins with careful listening. When I disagree, I explain my reason and ask about the other view. This helps us solve problems without hurting each other.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 1 Time to Relax",
+      "vocabulary": [
+        {
+          "word": "relax",
+          "meaning": "放松"
+        },
+        {
+          "word": "pressure",
+          "meaning": "压力"
+        },
+        {
+          "word": "balance",
+          "meaning": "平衡"
+        },
+        {
+          "word": "hobby",
+          "meaning": "爱好"
+        },
+        {
+          "word": "rest",
+          "meaning": "休息"
+        },
+        {
+          "word": "manage",
+          "meaning": "管理"
+        },
+        {
+          "word": "free",
+          "meaning": "空闲的"
+        },
+        {
+          "word": "refresh",
+          "meaning": "使恢复精神"
+        }
+      ],
+      "question": "How do you balance study and relaxation?",
+      "example": "When I feel tired after studying, I take a short walk or listen to music. I plan my work so that I can rest without leaving tasks unfinished.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 2 Stay Healthy",
+      "vocabulary": [
+        {
+          "word": "health",
+          "meaning": "健康"
+        },
+        {
+          "word": "habit",
+          "meaning": "习惯"
+        },
+        {
+          "word": "sleep",
+          "meaning": "睡眠"
+        },
+        {
+          "word": "exercise",
+          "meaning": "锻炼"
+        },
+        {
+          "word": "regular",
+          "meaning": "有规律的"
+        },
+        {
+          "word": "stress",
+          "meaning": "压力"
+        },
+        {
+          "word": "advice",
+          "meaning": "建议"
+        },
+        {
+          "word": "routine",
+          "meaning": "常规"
+        }
+      ],
+      "question": "Which healthy habit would you like to develop?",
+      "example": "I would like to keep a regular sleep schedule. I sometimes stay up too late, so I will finish homework earlier and put my phone away before bed.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 3 Growing Up",
+      "vocabulary": [
+        {
+          "word": "grow",
+          "meaning": "成长"
+        },
+        {
+          "word": "change",
+          "meaning": "改变"
+        },
+        {
+          "word": "challenge",
+          "meaning": "挑战"
+        },
+        {
+          "word": "responsibility",
+          "meaning": "责任"
+        },
+        {
+          "word": "independent",
+          "meaning": "独立的"
+        },
+        {
+          "word": "decision",
+          "meaning": "决定"
+        },
+        {
+          "word": "mistake",
+          "meaning": "错误"
+        },
+        {
+          "word": "learn",
+          "meaning": "学习"
+        }
+      ],
+      "question": "What have you learned from becoming more independent?",
+      "example": "I have learned to plan simple tasks for myself. Sometimes I make mistakes, but I try to understand what went wrong. Taking responsibility helps me become more confident.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 4 The Wonders of Nature",
+      "vocabulary": [
+        {
+          "word": "wonder",
+          "meaning": "奇观"
+        },
+        {
+          "word": "landscape",
+          "meaning": "风景"
+        },
+        {
+          "word": "mountain",
+          "meaning": "山脉"
+        },
+        {
+          "word": "river",
+          "meaning": "河流"
+        },
+        {
+          "word": "deep",
+          "meaning": "深的"
+        },
+        {
+          "word": "high",
+          "meaning": "高的"
+        },
+        {
+          "word": "protect",
+          "meaning": "保护"
+        },
+        {
+          "word": "natural",
+          "meaning": "自然的"
+        }
+      ],
+      "question": "Describe a natural place and explain why it matters.",
+      "example": "A river near my town is important to local people and wildlife. Its banks offer places to walk and rest. Keeping it clean protects both the environment and our community.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 5 Nature's Temper",
+      "vocabulary": [
+        {
+          "word": "storm",
+          "meaning": "暴风雨"
+        },
+        {
+          "word": "flood",
+          "meaning": "洪水"
+        },
+        {
+          "word": "earthquake",
+          "meaning": "地震"
+        },
+        {
+          "word": "warning",
+          "meaning": "预警"
+        },
+        {
+          "word": "shelter",
+          "meaning": "避难处"
+        },
+        {
+          "word": "emergency",
+          "meaning": "紧急情况"
+        },
+        {
+          "word": "safety",
+          "meaning": "安全"
+        },
+        {
+          "word": "prepare",
+          "meaning": "准备"
+        }
+      ],
+      "question": "How can a community prepare for extreme weather?",
+      "example": "People should follow official warnings and know where to get help. Schools can explain emergency plans clearly. Preparing calmly before a storm is better than making hurried decisions later.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 6 Crossing Cultures",
+      "vocabulary": [
+        {
+          "word": "culture",
+          "meaning": "文化"
+        },
+        {
+          "word": "custom",
+          "meaning": "习俗"
+        },
+        {
+          "word": "tradition",
+          "meaning": "传统"
+        },
+        {
+          "word": "respect",
+          "meaning": "尊重"
+        },
+        {
+          "word": "festival",
+          "meaning": "节日"
+        },
+        {
+          "word": "exchange",
+          "meaning": "交流"
+        },
+        {
+          "word": "understand",
+          "meaning": "理解"
+        },
+        {
+          "word": "difference",
+          "meaning": "差异"
+        }
+      ],
+      "question": "How would you explain a local custom to a visitor?",
+      "example": "I would describe what people do and explain its meaning. I would also ask about the visitor’s customs. Sharing experiences helps us understand differences without judging too quickly.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 7 A Good Read",
+      "vocabulary": [
+        {
+          "word": "book",
+          "meaning": "书"
+        },
+        {
+          "word": "author",
+          "meaning": "作者"
+        },
+        {
+          "word": "character",
+          "meaning": "人物"
+        },
+        {
+          "word": "plot",
+          "meaning": "情节"
+        },
+        {
+          "word": "review",
+          "meaning": "书评"
+        },
+        {
+          "word": "recommend",
+          "meaning": "推荐"
+        },
+        {
+          "word": "imagine",
+          "meaning": "想象"
+        },
+        {
+          "word": "message",
+          "meaning": "寓意"
+        }
+      ],
+      "question": "Which book would you recommend, and why?",
+      "example": "I would recommend a book with a clear story and interesting characters. In my review, I would explain what I learned without giving away the ending. Different readers may enjoy different parts.",
+      "kind": "原创主题训练_非教材原文"
+    },
+    {
+      "edition": "下册_新版",
+      "unit": "Unit 8 Making a Difference",
+      "vocabulary": [
+        {
+          "word": "volunteer",
+          "meaning": "志愿者"
+        },
+        {
+          "word": "community",
+          "meaning": "社区"
+        },
+        {
+          "word": "support",
+          "meaning": "支持"
+        },
+        {
+          "word": "organize",
+          "meaning": "组织"
+        },
+        {
+          "word": "donate",
+          "meaning": "捐赠"
+        },
+        {
+          "word": "effort",
+          "meaning": "努力"
+        },
+        {
+          "word": "action",
+          "meaning": "行动"
+        },
+        {
+          "word": "difference",
+          "meaning": "影响"
+        }
+      ],
+      "question": "How can students help their community?",
+      "example": "Students can begin with a small project, such as helping younger children read. We should ask what people need and plan realistic tasks. Afterward, we can review what worked.",
+      "kind": "原创主题训练_非教材原文"
+    }
+  ],
+  "legacy_vocabulary": [
+    {
+      "word": "anyone",
+      "meaning": "任何人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "anywhere",
+      "meaning": "任何地方；任何(一个)地方",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wonderful",
+      "meaning": "精彩的；极好的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "few",
+      "meaning": "很少的；；少量",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "quite a few",
+      "meaning": "相当多；不少(后接可数名词)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "most",
+      "meaning": "最多的；大多数的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "something",
+      "meaning": "某事物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nothing",
+      "meaning": "没有什么；没有",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "everyone",
+      "meaning": "每人；人人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "of course",
+      "meaning": "当然",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "myself",
+      "meaning": "我自己",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "yourself",
+      "meaning": "你自己；你亲自",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hen",
+      "meaning": "母鸡；雌禽",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pig",
+      "meaning": "猪",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "seem",
+      "meaning": "似乎；好像",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bored",
+      "meaning": "无聊的；厌烦的；郁闷的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "someone",
+      "meaning": "某人；有人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "diary",
+      "meaning": "日记；日记簿",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "activity",
+      "meaning": "活动；活跃",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "decide",
+      "meaning": "决定；选定(decide to do sth)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "try",
+      "meaning": "尝试；设法；努力  (try to do sth /try doing sth)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "paragliding",
+      "meaning": "空中滑翔跳伞",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "feel like(doing sth.)",
+      "meaning": "想要",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bird",
+      "meaning": "鸟；禽",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bicycle",
+      "meaning": "自行车",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "building",
+      "meaning": "建筑物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "trader",
+      "meaning": "商人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wonder",
+      "meaning": "想知道；惊奇；怀疑",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "difference",
+      "meaning": "差异；不同",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "top",
+      "meaning": "顶部；顶",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wait",
+      "meaning": "等；等待(wait for)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "umbrella",
+      "meaning": "伞；雨伞",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wet",
+      "meaning": "湿的；雨天的；雨天的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "because of",
+      "meaning": "因为；由于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "below",
+      "meaning": "低于；在...下面；在...下面",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "enough",
+      "meaning": "足够的；足够地；充分地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hungry",
+      "meaning": "(反full)饥饿的；渴望的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "as",
+      "meaning": "如同；像一样",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hill",
+      "meaning": "小山；丘陵；山冈；斜坡",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "duck",
+      "meaning": "鸭；鸭肉",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dislike",
+      "meaning": "不喜欢；厌恶；不喜爱；厌恶；反感",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "have a good time",
+      "meaning": "等于enjoy oneself/have fun(doing sth)玩得痛快",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Central Park",
+      "meaning": "中央公园",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Huangguoshu waterfall",
+      "meaning": "黄果树瀑布",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Hong Kong",
+      "meaning": "香港",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Malaysia",
+      "meaning": "马来西亚",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Georgetown",
+      "meaning": "乔治城（圭亚那首都）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Weld Quay",
+      "meaning": "海乾街/码头, 位于马来西亚槟城岛(州)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Penang Hill",
+      "meaning": "马来西亚槟榔山（升旗山）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tian'anmen square",
+      "meaning": "天安门广场",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "the Palace Museum",
+      "meaning": "故宫博物院",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "housework",
+      "meaning": "家务劳动",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hardly",
+      "meaning": "几乎不；简直不；刚刚",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ever",
+      "meaning": "在任何时候",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hardly ever",
+      "meaning": "很少；几乎从不；难得",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "once",
+      "meaning": "一次；曾经",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "twice",
+      "meaning": "两次；两倍",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Internet",
+      "meaning": "因特网",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "program",
+      "meaning": "程序；节目；节目单；课程",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "full",
+      "meaning": "满的；充满的；完全的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "swing",
+      "meaning": "摇摆；秋千；摇摆；旋转",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "swing dance",
+      "meaning": "摇摆舞",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "maybe",
+      "meaning": "或许；也许；可能",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "least",
+      "meaning": "最小的；最少的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "at least",
+      "meaning": "至少",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "junk",
+      "meaning": "垃圾；废旧杂物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "junk food",
+      "meaning": "垃圾食品；无营养食品",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "coffee",
+      "meaning": "咖啡；咖啡色",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "health",
+      "meaning": "健康；人的身体或精神状态",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "result",
+      "meaning": "结果；后果",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "percent",
+      "meaning": "百分之百的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "online",
+      "meaning": "在线的；在线地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "television",
+      "meaning": "电视机；电视节目",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "although",
+      "meaning": "虽然；尽管；然而；可是",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "through",
+      "meaning": "穿过；一直到；凭借",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mind",
+      "meaning": "头脑；想法；意见；心思",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "body",
+      "meaning": "身体",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "such",
+      "meaning": "这样的；如此的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "such as",
+      "meaning": "例如；诸如",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "together",
+      "meaning": "共同；一起",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "die",
+      "meaning": "死；枯竭；消失",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "writer",
+      "meaning": "作者；作家",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dentist",
+      "meaning": "牙科医生",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "magazine",
+      "meaning": "杂志",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "however",
+      "meaning": "然而；无论如何；不管多么",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "than",
+      "meaning": "比",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "more than",
+      "meaning": "超过；多于；；不仅仅；非常",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "almost",
+      "meaning": "几乎；差不多",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "none",
+      "meaning": "没有人；没有任何东西，毫无",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "less",
+      "meaning": "更少的；较少的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "less than",
+      "meaning": "不到；少于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "point",
+      "meaning": "看法；要点；重点；小数点；目标；分数",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "outgoing",
+      "meaning": "外向的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "better",
+      "meaning": "更好的；较好的；更好地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "loudly",
+      "meaning": "大声地；高声地；花俏地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "quietly",
+      "meaning": "安静地；悄悄地；平静地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hard-working",
+      "meaning": "勤勉的；努力工作的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "competition",
+      "meaning": "竞争；比赛",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fantastic",
+      "meaning": "极好的；了不起的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "which",
+      "meaning": "哪一个；哪些",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "clearly",
+      "meaning": "清楚地；显然地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "win",
+      "meaning": "赢；赢得；获胜；获得；胜利",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "though",
+      "meaning": "虽然；尽管；；不过",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "talented",
+      "meaning": "有才能的；有天赋的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "truly",
+      "meaning": "真实地；真诚地；正确地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "care",
+      "meaning": "在乎；关心；担忧；照顾",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "care about",
+      "meaning": "关心",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "serious",
+      "meaning": "严重的；严肃的；庄重的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mirror",
+      "meaning": "镜子；反映",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "kid",
+      "meaning": "孩子，小孩",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "as long as",
+      "meaning": "只要",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "necessary",
+      "meaning": "必要的；必然的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be different from",
+      "meaning": "和...不同",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "both",
+      "meaning": "两者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bring out",
+      "meaning": "拿出；推出",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "grade",
+      "meaning": "成绩",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "should",
+      "meaning": "应该；应当；可能；将要",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "the same as",
+      "meaning": "与...同样的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "saying",
+      "meaning": "名言",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "reach",
+      "meaning": "到达；伸出；达成；取得联系；延伸；(伸手)去够",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hand",
+      "meaning": "手",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "touch",
+      "meaning": "触摸；感动",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "heart",
+      "meaning": "心脏；内心",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fact",
+      "meaning": "事实；真相；实际",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "in fact",
+      "meaning": "事实上；实际上",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "break",
+      "meaning": "打碎；折断；违背；结束; 打破 (困难或不快的情形)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "arm",
+      "meaning": "胳膊",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "laugh",
+      "meaning": "发笑；笑；笑声；笑；笑料",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "share",
+      "meaning": "分享，共享；共有；分配",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "loud",
+      "meaning": "大声的；大声地；响亮地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "similar",
+      "meaning": "类似的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be similar to",
+      "meaning": "类似于；与...相似",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "primary",
+      "meaning": "小学教育的，初级教育的；原始的；最初的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "primary school",
+      "meaning": "小学",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "information",
+      "meaning": "信息；情报；资料",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "theater",
+      "meaning": "剧场；电影院；戏院",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "comfortable",
+      "meaning": "舒适的；充裕的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "seat",
+      "meaning": "座位",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "screen",
+      "meaning": "屏幕；银幕",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "close",
+      "meaning": "关；合拢；不开放；停业（暂时性或永久性）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ticket",
+      "meaning": "票",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "worst",
+      "meaning": "最坏的；最差的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cheaply",
+      "meaning": "廉价地；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "song",
+      "meaning": "歌曲；歌唱",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "choose",
+      "meaning": "选择；决定",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "carefully",
+      "meaning": "小心地，认真地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "reporter",
+      "meaning": "记者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "so far",
+      "meaning": "到目前为止；迄今为止",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fresh",
+      "meaning": "新的；新做的；新增的；新鲜的；清新的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "comfortably",
+      "meaning": "舒服地；充裕地；容易地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "worse",
+      "meaning": "更坏的；更差的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "service",
+      "meaning": "公共服务系统，公共服务；公共事业机构",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pretty",
+      "meaning": "相当地；漂亮的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "menu",
+      "meaning": "菜单",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "act",
+      "meaning": "行动；表演",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "meal",
+      "meaning": "一餐；膳食",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "creative",
+      "meaning": "创造的，创造性的；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "performer",
+      "meaning": "表演者；执行者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "talent",
+      "meaning": "天赋；才能，才艺；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "common",
+      "meaning": "常见的；共同的；普通的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "have...in common",
+      "meaning": "有相同特征",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "magician",
+      "meaning": "魔术师；术士",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "all kinds of",
+      "meaning": "各种各样；各种类型",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "beautifully",
+      "meaning": "美丽地；完美地；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be up to",
+      "meaning": "是…….的职责；由…….决定",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "role",
+      "meaning": "作用；角色",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "play a role",
+      "meaning": "发挥作用；有影响",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "winner",
+      "meaning": "获胜者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "prize",
+      "meaning": "奖品；奖金",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "everybody",
+      "meaning": "每人；人人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "make up",
+      "meaning": "编造",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "example",
+      "meaning": "例子；榜样",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "for example",
+      "meaning": "例如",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "poor",
+      "meaning": "贫穷的；可怜的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "seriously",
+      "meaning": "严重地；严肃地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take...seriously",
+      "meaning": "认真对待......",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "give",
+      "meaning": "给；赠予；送",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "crowded",
+      "meaning": "拥挤的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sitcom",
+      "meaning": "情景喜剧（situation comedy的缩写）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "situation comedy",
+      "meaning": "情景喜剧",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "news",
+      "meaning": "消息；新闻",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "soap",
+      "meaning": "肥皂",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "soap opera",
+      "meaning": "肥皂剧",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "educational",
+      "meaning": "教育的；有教育意义的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "plan",
+      "meaning": "计划；打算；计划",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hope",
+      "meaning": "希望；期望；盼望；希望",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "find out",
+      "meaning": "查明、弄清",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "discussion",
+      "meaning": "讨论；谈论",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stand",
+      "meaning": "站立；忍受",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "happen",
+      "meaning": "发生；碰巧",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "may",
+      "meaning": "可能，也许；可以，能够",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "expect",
+      "meaning": "预期；期待；盼望",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "joke",
+      "meaning": "笑话；玩笑；说笑话；开玩笑",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "comedy",
+      "meaning": "喜剧",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "meaningless",
+      "meaning": "无意义的；不重要的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "action",
+      "meaning": "行动；行为",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "action movie",
+      "meaning": "动作片",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cartoon",
+      "meaning": "卡通；漫画",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "culture",
+      "meaning": "文化",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "famous",
+      "meaning": "著名的；有名的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "appear",
+      "meaning": "似乎；显得；出现",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "become",
+      "meaning": "变成；成为",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rich",
+      "meaning": "富有的；富饶的；丰富的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "successful",
+      "meaning": "成功的；圆满的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "might",
+      "meaning": "可能；也许；may的过去式",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "main",
+      "meaning": "主要的；最重要的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "reason",
+      "meaning": "原因；理由",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "comedy.",
+      "meaning": "喜剧",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "film",
+      "meaning": "电影",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "unlucky",
+      "meaning": "倒霉的；不幸的；不吉利的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "lose",
+      "meaning": "丢失；失败",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "girlfriend",
+      "meaning": "女朋友",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ready",
+      "meaning": "准备好的；乐意的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be ready to",
+      "meaning": "愿意做某事",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "character",
+      "meaning": "个性；品质；人物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "simple",
+      "meaning": "简单的；朴素的；单纯的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dress up",
+      "meaning": "装扮；乔装打扮",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take sb.'s place",
+      "meaning": "代替；替换",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "army",
+      "meaning": "军队；陆军；一大批",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "do a good job",
+      "meaning": "工作干得好；做得好",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "grow up",
+      "meaning": "长大；成长",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "computer programmer",
+      "meaning": "计算机管理员",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cook",
+      "meaning": "烹调，煮，烧，做(饭)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "doctor",
+      "meaning": "医生",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "engineer",
+      "meaning": "工程师",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "violinist",
+      "meaning": "小提琴手",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "driver",
+      "meaning": "驾驶员；驱动程序",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pilot",
+      "meaning": "飞行员",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pianist",
+      "meaning": "钢琴家",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "scientist",
+      "meaning": "科学家",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be sure about",
+      "meaning": "确信",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "make sure",
+      "meaning": "确保",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "college",
+      "meaning": "大学",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "education",
+      "meaning": "教育",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "medicine",
+      "meaning": "药；医学",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "university",
+      "meaning": "大学，高等学府",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "London",
+      "meaning": "伦敦",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "article",
+      "meaning": "文章，论文",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "send",
+      "meaning": "邮寄，发送",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "resolution",
+      "meaning": "决定；决心",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "team",
+      "meaning": "(一)队(人)；(一)组(人)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "foreign",
+      "meaning": "外国的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "able",
+      "meaning": "聪明能干的，能力出众的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be able to",
+      "meaning": "能够做某事",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "question",
+      "meaning": "问题",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "meaning",
+      "meaning": "意义",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "discuss",
+      "meaning": "讨论，商量",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "promise",
+      "meaning": "承诺，诺言；诺言",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "beginning",
+      "meaning": "开头，开端",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "at the beginning of",
+      "meaning": "起初",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "improve",
+      "meaning": "改进，改善",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "write down",
+      "meaning": "写下",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "physical",
+      "meaning": "身体的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "themselves",
+      "meaning": "他们自己",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "have to do with",
+      "meaning": "关于;与……有关系",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "self-improvement",
+      "meaning": "自我改进，自我提高",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take up",
+      "meaning": "学着做；开始做",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hobby",
+      "meaning": "业余爱好",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "weekly",
+      "meaning": "每周的；周刊；每周一次；逐周",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "school work",
+      "meaning": "学校作业",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "agree",
+      "meaning": "同意；赞成",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "agree with",
+      "meaning": "同意",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "own",
+      "meaning": "自己的，本人的；拥有",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "personal",
+      "meaning": "个人的，私人的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "relationship",
+      "meaning": "关系",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "paper",
+      "meaning": "纸",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pollution",
+      "meaning": "污染；污染物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "prediction",
+      "meaning": "预测",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "future",
+      "meaning": "未来",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pollute",
+      "meaning": "污染",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "environment",
+      "meaning": "环境",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "planet",
+      "meaning": "行星",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "earth",
+      "meaning": "地球；泥土",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "plant",
+      "meaning": "植物；种植",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "part",
+      "meaning": "部分；参加",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "play a part",
+      "meaning": "参与（某事）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "peace",
+      "meaning": "和平",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sea",
+      "meaning": "海；海洋；；许多；大量（与of连用）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sky",
+      "meaning": "天空",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "astronaut",
+      "meaning": "宇航员",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "apartment",
+      "meaning": "公寓",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rocket",
+      "meaning": "火箭；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "space",
+      "meaning": "空间；太空",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "space station",
+      "meaning": "太空站",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "human",
+      "meaning": "人的；人；人类",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "servant",
+      "meaning": "仆人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dangerous",
+      "meaning": "危险的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "already",
+      "meaning": "已经",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "factory",
+      "meaning": "工厂",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "over and over again",
+      "meaning": "多次；反复地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "believe",
+      "meaning": "相信",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "disagree",
+      "meaning": "不同意",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "even",
+      "meaning": "甚至；愈加",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hundreds of",
+      "meaning": "许多 ；大量； 成百上千",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "shape",
+      "meaning": "形状",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fall",
+      "meaning": "摔倒；跌倒",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fall down",
+      "meaning": "突然倒下；跌倒；倒塌",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "inside",
+      "meaning": "里面；内部；内脏；里面的；内部的；秘密的；内幕的；在里面；在……之内",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "look for",
+      "meaning": "寻找；寻求",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "possible",
+      "meaning": "可能的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "impossible",
+      "meaning": "不可能的；不可能存在的；难以忍受的；难以忍受的；不可能；不可能的事",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "side",
+      "meaning": "侧面；旁边；方面；支持；同意，支持；旁的，侧的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "probably",
+      "meaning": "大概；或许；很可能",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "during",
+      "meaning": "在……的时候，在……的期间",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "holiday",
+      "meaning": "假日",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "word",
+      "meaning": "字；词；单词",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "shake",
+      "meaning": "摇动；震动；动摇；发抖；摇动；哆嗦",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "milk shake",
+      "meaning": "奶昔（牛奶和冰淇淋等的混合饮料）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "blender",
+      "meaning": "搅拌器；果汁机",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "turn on",
+      "meaning": "打开",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "peel",
+      "meaning": "削皮；剥落",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pour",
+      "meaning": "倒；倾倒",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "yogurt",
+      "meaning": "酸奶；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "honey",
+      "meaning": "蜂蜜",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "watermelon",
+      "meaning": "西瓜",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "spoon",
+      "meaning": "勺，调羹",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pot",
+      "meaning": "壶；盆；罐；把……装罐",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "add",
+      "meaning": "增加",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "finally",
+      "meaning": "最后，最终",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "salt",
+      "meaning": "盐",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sugar",
+      "meaning": "糖",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cheese",
+      "meaning": "干酪，奶酪",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "popcorn",
+      "meaning": "爆米花",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "corn",
+      "meaning": "谷物；玉米",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "machine",
+      "meaning": "机器",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dig",
+      "meaning": "挖，掘；探究；挖苦；刺；戳",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hole",
+      "meaning": "洞，孔；洞穴，穴；（高尔夫球等）进洞 凿洞",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sandwich",
+      "meaning": "三明治",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "butter",
+      "meaning": "黄油，奶油",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "turkey",
+      "meaning": "火鸡",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "lettuce",
+      "meaning": "莴苣，生菜",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "piece",
+      "meaning": "件；篇；片；块；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Thanksgiving",
+      "meaning": "感恩节",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "traditional",
+      "meaning": "传统的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "autumn",
+      "meaning": "秋天；秋天的，秋季的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "traveler",
+      "meaning": "旅行者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "England",
+      "meaning": "英格兰；英国",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "celebrate",
+      "meaning": "庆祝；庆贺",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mix",
+      "meaning": "混淆；使混和；配制；混合；混合物；混乱",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pepper",
+      "meaning": "胡椒粉；椒类",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fill",
+      "meaning": "装满，使充满；满足；任职",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "oven",
+      "meaning": "烤箱；烤炉",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "plate",
+      "meaning": "碟；金属牌；金属板；镀上（金或银）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cover",
+      "meaning": "遮盖，盖",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "gravy",
+      "meaning": "肉汁；肉汤",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "serve",
+      "meaning": "接待，服务",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "temperature",
+      "meaning": "温度，气候",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "prepare",
+      "meaning": "预备；准备",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "prepare for",
+      "meaning": "为……准备",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "exam",
+      "meaning": "考试",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "flu",
+      "meaning": "流感",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "available",
+      "meaning": "可得到的；有空的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "another time",
+      "meaning": "其他时间，别的时间",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "until",
+      "meaning": "在…之前；直到…时；在…之前；到…为止",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hang",
+      "meaning": "悬挂",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hang out",
+      "meaning": "常去某处；泡在某处",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "catch",
+      "meaning": "抓住；捕捉",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "invite",
+      "meaning": "邀请",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "accept",
+      "meaning": "接受；",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "refuse",
+      "meaning": "拒绝",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "the day before yesterday",
+      "meaning": "前天",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "the day after tomorrow",
+      "meaning": "后天",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "weekday",
+      "meaning": "工作日",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "look after",
+      "meaning": "照顾，照料",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "invitation",
+      "meaning": "邀请；邀请函",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "turn down",
+      "meaning": "减小，关小，调低",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "reply",
+      "meaning": "回答，回复",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "forward",
+      "meaning": "向前",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "delete",
+      "meaning": "删除",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "print",
+      "meaning": "印刷的文字；印花布；印刷；打印；刊载",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sad",
+      "meaning": "难过的；悲哀的，令人悲痛的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "goodbye",
+      "meaning": "再见",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take a trip",
+      "meaning": "去旅行",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "glad",
+      "meaning": "高兴的；乐意的；使...高兴",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "preparation",
+      "meaning": "准备；准备工作（用复数形式）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "glue",
+      "meaning": "粘合；盯着某物看（后接to）；胶；各种胶合物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "without",
+      "meaning": "没有",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "surprised",
+      "meaning": "感到惊讶的；使惊奇（surprise的过去分词形式）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "look forward to",
+      "meaning": "盼望，期待",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hear from",
+      "meaning": "收到......来信",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "housewarming",
+      "meaning": "乔迁庆宴",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "opening",
+      "meaning": "开幕式，落成典礼",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "concert",
+      "meaning": "音乐会",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "headmaster",
+      "meaning": "男校长",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "event",
+      "meaning": "大事；公开活动",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "guest",
+      "meaning": "客人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "calendar",
+      "meaning": "日历；日程表",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "daytime",
+      "meaning": "日间，白天",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "meeting",
+      "meaning": "会议；集会；会见；会面；会合（meet的ing形式）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "video",
+      "meaning": "录像；录像带",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "potato chips",
+      "meaning": "马铃薯片；油炸薯片",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "chocolate",
+      "meaning": "巧克力",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "upset",
+      "meaning": "难过的，失望的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "taxi",
+      "meaning": "滑行；乘出租车；用出租车送；出租汽车",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "advice",
+      "meaning": "劝告，建议",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "travel",
+      "meaning": "旅行；走过（某距离）；（以某速度）行进",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "agent",
+      "meaning": "代理人，经纪人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "expert",
+      "meaning": "专家，能手",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "keep...to oneself",
+      "meaning": "保守秘密",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "teenager",
+      "meaning": "青少年",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "normal",
+      "meaning": "正常的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "unless",
+      "meaning": "除非，如果不",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "certainly",
+      "meaning": "当然，肯定",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wallet",
+      "meaning": "皮夹，钱包",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mile",
+      "meaning": "英里；较大的距离",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "angry",
+      "meaning": "生气的，发怒的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "understanding",
+      "meaning": "善解人意的，体谅人的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "careless",
+      "meaning": "粗心的，不小心的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mistake",
+      "meaning": "错误，失误",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "himself",
+      "meaning": "他自己；他亲自，他本人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "careful",
+      "meaning": "小心的；细致的，周密的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "advise",
+      "meaning": "劝告，建议",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "solve",
+      "meaning": "解决；解答",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "step",
+      "meaning": "步，脚步；步伐；步骤；梯级；踏，踩；走；走，迈步",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "trust",
+      "meaning": "相信，信任",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "experience",
+      "meaning": "经验；经历",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "in half",
+      "meaning": "分成两半,一半",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "halfway",
+      "meaning": "中途地；半路地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "else",
+      "meaning": "别的，其他的；还能有别的……",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "matter",
+      "meaning": "重要，要紧，有关系",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "What's the matter?",
+      "meaning": "怎么了？出什么事了？",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sore",
+      "meaning": "疼痛的，酸痛的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "have a cold",
+      "meaning": "感冒",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stomach",
+      "meaning": "胃；腹部",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stomachache",
+      "meaning": "胃痛，腹痛",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "have a stomachache",
+      "meaning": "胃痛",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "foot",
+      "meaning": "脚(复数feet)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "neck",
+      "meaning": "颈，脖子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "throat",
+      "meaning": "喉咙",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fever",
+      "meaning": "发烧，发热",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "lie",
+      "meaning": "躺，平躺",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "lie down",
+      "meaning": "躺下",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rest",
+      "meaning": "放松，休息；剩余部分，其余",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cough",
+      "meaning": "咳嗽；咳嗽",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "X-ray",
+      "meaning": "X光，X射线",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "toothache",
+      "meaning": "牙痛",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take one's temperature",
+      "meaning": "量体温",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "headache",
+      "meaning": "头痛",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "have a fever",
+      "meaning": "发烧",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "break",
+      "meaning": "打破；休息；中断",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take breaks",
+      "meaning": "休息(take a break）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hurt",
+      "meaning": "伤害，使受伤；损害",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "passenger",
+      "meaning": "乘客，旅客",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "off",
+      "meaning": "离开（某处）；从…去掉",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "get off",
+      "meaning": "下车",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "to one's surprise",
+      "meaning": "使…惊讶，出乎…意料",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "onto",
+      "meaning": "向，朝",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "trouble",
+      "meaning": "麻烦，烦扰，问题",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hit",
+      "meaning": "打；碰撞；打击",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "right away",
+      "meaning": "立即，马上",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "get into",
+      "meaning": "参与；陷入",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "herself",
+      "meaning": "她自己，她本身（she的反身代词）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bandage",
+      "meaning": "绷带；用绷带包扎",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sick",
+      "meaning": "患病的，不适的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "knee",
+      "meaning": "膝盖",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nosebleed",
+      "meaning": "鼻出血",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "breathe",
+      "meaning": "呼吸",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sunburned",
+      "meaning": "晒伤的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ourselves",
+      "meaning": "我们自己（we的反身代词）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "climber",
+      "meaning": "登山者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be used to",
+      "meaning": "习惯于……；适应于……",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "risk",
+      "meaning": "风险，危险；冒险；中文释义: 冒险",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take risks",
+      "meaning": "冒险(take a risk)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "accident",
+      "meaning": "意外事件；事故；交通事故；车祸；失事",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "situation",
+      "meaning": "状况，形势，情况",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "kg",
+      "meaning": "公斤，千克(kilogram)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rock",
+      "meaning": "岩石",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "run out (of)",
+      "meaning": "用尽，耗尽",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "knife",
+      "meaning": "刀，餐刀",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cut off",
+      "meaning": "切除",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "blood",
+      "meaning": "血",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mean",
+      "meaning": "意味着，意思是；意欲",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "get out of",
+      "meaning": "离开，从… 出来",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "importance",
+      "meaning": "重要性",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "decision",
+      "meaning": "决定，抉择；果断",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "control",
+      "meaning": "控制，支配，操纵",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "be in control of",
+      "meaning": "掌管，管理",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "spirit",
+      "meaning": "勇气，意志",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "death",
+      "meaning": "死亡",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "give up",
+      "meaning": "放弃",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nurse",
+      "meaning": "护士",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "clean up",
+      "meaning": "打扫（清除）干净",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cheer",
+      "meaning": "欢呼",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cheer up",
+      "meaning": "变得更高兴，振奋起来",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "give out",
+      "meaning": "分发，散发",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "volunteer",
+      "meaning": "志愿者；义务做",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "come up with",
+      "meaning": "想出，提出",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "put off",
+      "meaning": "推迟",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sign",
+      "meaning": "标记，标牌；符号",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "notice",
+      "meaning": "注意到；通知，公告",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hand out",
+      "meaning": "分发",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "call up",
+      "meaning": "打电话给…某人，征召；征召",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "used to",
+      "meaning": "曾经……，过去……",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "lonely",
+      "meaning": "孤独的，寂寞的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "care for",
+      "meaning": "照顾，非常喜欢",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "several",
+      "meaning": "几个，数个，一些",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "strong",
+      "meaning": "强壮的；强烈的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "feeling",
+      "meaning": "感觉，感触",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "satisfaction",
+      "meaning": "满足，满意",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "joy",
+      "meaning": "高兴，愉快",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "owner",
+      "meaning": "所有者，物主",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "try out",
+      "meaning": "试用，试验",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "journey",
+      "meaning": "（尤指长途）旅行，行程",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "raise",
+      "meaning": "抬起，举起；筹集，征集",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "alone",
+      "meaning": "独自地；孤独地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "repair",
+      "meaning": "修理，修补",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fix",
+      "meaning": "修理；安装",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fix up",
+      "meaning": "修理，修补",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "give away",
+      "meaning": "赠送，捐赠",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take after",
+      "meaning": "（外貌或行为）像",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "broken",
+      "meaning": "破损的，残缺的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wheel",
+      "meaning": "轮子，车轮；推动",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "letter",
+      "meaning": "信件；字母",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Miss",
+      "meaning": "小姐",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "set up",
+      "meaning": "建立，设立",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "disabled",
+      "meaning": "有残疾的，丧失能力的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "make a difference",
+      "meaning": "影响，有作用",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "blind",
+      "meaning": "盲的，失明的；盲的，盲目的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "deaf",
+      "meaning": "聋的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "imagine",
+      "meaning": "想象，设想",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "difficulty",
+      "meaning": "困难",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "open",
+      "meaning": "打开",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "door",
+      "meaning": "门",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "carry",
+      "meaning": "携带；搬运；拿",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "train",
+      "meaning": "训练，培养",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "training",
+      "meaning": "训练，培训",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "excited",
+      "meaning": "激动的，兴奋的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "kindness",
+      "meaning": "仁慈，善良，亲切，善意",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "clever",
+      "meaning": "聪明的，机灵的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "understand",
+      "meaning": "懂，理解",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "change",
+      "meaning": "改变；改变",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "interest",
+      "meaning": "兴趣；使感兴趣",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sir",
+      "meaning": "先生",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "madam",
+      "meaning": "夫人，女士",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rubbish",
+      "meaning": "垃圾，废物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take out the rubbish",
+      "meaning": "倒垃圾",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fold",
+      "meaning": "对折，折叠",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mess",
+      "meaning": "脏乱；混乱；食堂",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "throw",
+      "meaning": "扔，投掷",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "all the time",
+      "meaning": "频繁，反复",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "neither",
+      "meaning": "二者都不；也不",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "shirt",
+      "meaning": "运动衫，衬衫",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "as soon as",
+      "meaning": "一…就…，尽快",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pass",
+      "meaning": "经过；前行；批准",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "borrow",
+      "meaning": "借，借用",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "lend",
+      "meaning": "借给，借出",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "finger",
+      "meaning": "手指",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hate",
+      "meaning": "憎恶，讨厌",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "chore",
+      "meaning": "杂务；乏味的工作",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "while",
+      "meaning": "当…时候；而，然而",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "snack",
+      "meaning": "小吃，点心；快餐",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stress",
+      "meaning": "精神压力，心理负担",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "waste",
+      "meaning": "浪费；消耗",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "in order to",
+      "meaning": "目的是，为了",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "provide",
+      "meaning": "提供，供给，供应",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "anyway",
+      "meaning": "尽管如此",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "depend",
+      "meaning": "依靠，依赖；取决于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "depend on",
+      "meaning": "依靠于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "develop",
+      "meaning": "发展，壮大；开发，研制",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "independent",
+      "meaning": "独立自主的，不受约束的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "independence",
+      "meaning": "独立",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fair",
+      "meaning": "公平的，公正的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "unfair",
+      "meaning": "不公平的，有偏见的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fairness",
+      "meaning": "公正性，合理性",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "since",
+      "meaning": "因为，既然",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "neighbor",
+      "meaning": "邻居",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take care of",
+      "meaning": "照顾；处理",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ill",
+      "meaning": "生病的，有病的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "drop",
+      "meaning": "落下，跌落",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "allow",
+      "meaning": "允许，准许",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wrong",
+      "meaning": "错误的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "What's wrong?",
+      "meaning": "哪儿不舒服？",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "midnight",
+      "meaning": "午夜，子夜",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "look through",
+      "meaning": "浏览，逐一查看",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "guess",
+      "meaning": "猜测，估计",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "deal",
+      "meaning": "处理，应付（与with连用）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "big deal",
+      "meaning": "重要的事",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "work out",
+      "meaning": "解决；成功地发展",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "get on well (with)",
+      "meaning": "和睦相处，关系良好",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "relation",
+      "meaning": "联系；关系，交往",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "communicate",
+      "meaning": "沟通,通信,通讯",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "communication",
+      "meaning": "交流，沟通",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "argue",
+      "meaning": "争论，争吵",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cloud",
+      "meaning": "云",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "elder",
+      "meaning": "年纪较长的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "instead",
+      "meaning": "代替",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "whatever",
+      "meaning": "任何；不管什么,无论什么",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nervous",
+      "meaning": "紧张不安的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "offer",
+      "meaning": "提供，自愿给予",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "proper",
+      "meaning": "合适的，适当的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "secondly",
+      "meaning": "第二，其次",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "explain",
+      "meaning": "讲解，解释，说明",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "clear",
+      "meaning": "清晰的，清楚易懂的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "copy",
+      "meaning": "复制",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "return",
+      "meaning": "回来，返回；归还",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "anymore",
+      "meaning": "与 not 连用表示 不再，再也不",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "member",
+      "meaning": "成员，会员",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pressure",
+      "meaning": "压力",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "compete",
+      "meaning": "比赛，竞争",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "opinion",
+      "meaning": "意见，想法，看法",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "skill",
+      "meaning": "技能，技巧",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "typical",
+      "meaning": "典型的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "football",
+      "meaning": "足球",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cut out",
+      "meaning": "删去，删除",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "quick",
+      "meaning": "快的，短时间的；迅速的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "continue",
+      "meaning": "继续，延续",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "compare",
+      "meaning": "比较",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "compare...with",
+      "meaning": "比较，对比",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "crazy",
+      "meaning": "疯狂的；狂热的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "development",
+      "meaning": "发育，成长，发展",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cause",
+      "meaning": "原因；造成，使发生",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "usual",
+      "meaning": "通常的，平常的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "in one's opinion",
+      "meaning": "依… 看",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "perhaps",
+      "meaning": "可能，大概，也许",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rainstorm",
+      "meaning": "暴风雨",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "alarm",
+      "meaning": "闹钟",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "go off",
+      "meaning": "（警报器）发出响声",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "begin",
+      "meaning": "开始",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "heavily",
+      "meaning": "在很大程度上，大量地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "suddenly",
+      "meaning": "突然地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pick up",
+      "meaning": "接; 取",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "strange",
+      "meaning": "奇怪的，奇特的；陌生的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "storm",
+      "meaning": "暴风雨",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wind",
+      "meaning": "风",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "light",
+      "meaning": "灯；电灯；点燃",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "report",
+      "meaning": "报导，报告",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "area",
+      "meaning": "地域，地区；范围",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wood",
+      "meaning": "木材，树木",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "window",
+      "meaning": "窗户",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "flashlight",
+      "meaning": "手电筒",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "match",
+      "meaning": "比赛；火柴",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "beat",
+      "meaning": "打败；敲打",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "against",
+      "meaning": "反对；对…不利",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "asleep",
+      "meaning": "睡着的，熟睡的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fall asleep",
+      "meaning": "进入梦乡，睡着",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "die down",
+      "meaning": "逐渐变弱，逐渐消失",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rise",
+      "meaning": "上升；升起",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fallen",
+      "meaning": "倒下的，落下的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "apart",
+      "meaning": "分离，分开",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "have a look",
+      "meaning": "看一看",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "icy",
+      "meaning": "冰冷的；覆盖着冰的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "kid",
+      "meaning": "（口语）小孩；开玩笑；欺骗 (自己)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "realize",
+      "meaning": "认识到，了解",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "make one's way",
+      "meaning": "前往，费力地前进",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "passage",
+      "meaning": "章节，段落",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pupil",
+      "meaning": "学生",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "completely",
+      "meaning": "彻底地，完全地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "shocked",
+      "meaning": "震惊的，震撼的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "silence",
+      "meaning": "寂静；沉默",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "in silence",
+      "meaning": "沉默，无声",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "recently",
+      "meaning": "不久前，近来，最近",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take down",
+      "meaning": "取下；拆除；记录",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "terrorist",
+      "meaning": "恐怖分子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "date",
+      "meaning": "日期，日子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tower",
+      "meaning": "塔",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "at first",
+      "meaning": "首先，最初",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "truth",
+      "meaning": "真相 ；事实；真理",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "shoot",
+      "meaning": "射击； 射死，射伤；投篮",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stone",
+      "meaning": "石头",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "weak",
+      "meaning": "虚弱的，柔弱的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "god",
+      "meaning": "上帝，神",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "remind",
+      "meaning": "提醒，使想起",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bit",
+      "meaning": "一点；小块",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "a little bit",
+      "meaning": "有点儿，稍微",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "silly",
+      "meaning": "愚昧的；；傻子，蠢货",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "instead of",
+      "meaning": "代替，而不是…",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "turn into",
+      "meaning": "变成",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "object",
+      "meaning": "物体，物品；目标",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hide",
+      "meaning": "隐藏；躲藏",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tail",
+      "meaning": "尾巴",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "magic",
+      "meaning": "魔法，巫术",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stick",
+      "meaning": "刺，戳，插；棍，棒",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "excite",
+      "meaning": "使激动，使兴奋",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Western",
+      "meaning": "在西部的；来自西部的；西方的，欧美的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "once upon",
+      "meaning": "从前",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stepsister",
+      "meaning": "继姐（妹）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "prince",
+      "meaning": "王子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fall in love",
+      "meaning": "爱上，喜欢上",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fit",
+      "meaning": "适合；合身",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "couple",
+      "meaning": "（尤指）夫妻，两人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "smile",
+      "meaning": "微笑；微笑",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "marry",
+      "meaning": "与某人结婚",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "get married",
+      "meaning": "结婚",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "gold",
+      "meaning": "黄金；金币",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "emperor",
+      "meaning": "皇帝",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "silk",
+      "meaning": "丝绸",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "underwear",
+      "meaning": "内衣",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nobody",
+      "meaning": "无人,没有任何人,谁也不",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stupid",
+      "meaning": "愚蠢的,傻的；傻子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cheat",
+      "meaning": "欺骗，愚弄",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "stepmother",
+      "meaning": "继母",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wife",
+      "meaning": "妻子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "husband",
+      "meaning": "丈夫",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "whole",
+      "meaning": "全部的，整体的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "scene",
+      "meaning": "（戏剧）场景",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "moonlight",
+      "meaning": "月光",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "shine",
+      "meaning": "照耀，发光",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bright",
+      "meaning": "明亮的,发亮的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ground",
+      "meaning": "地面；沃土",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "lead",
+      "meaning": "带头(做某事)；主角；带路",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "voice",
+      "meaning": "嗓音",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "brave",
+      "meaning": "勇敢的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "square",
+      "meaning": "正方形；平方",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "meter",
+      "meaning": "米",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "deep",
+      "meaning": "深的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "desert",
+      "meaning": "沙漠",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "population",
+      "meaning": "人口(数量）；全体居民",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Asia",
+      "meaning": "亚洲",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "feel free",
+      "meaning": "（可以）随便（做某事)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tour",
+      "meaning": "旅行，观光",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wall",
+      "meaning": "墙",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "amazing",
+      "meaning": "令人惊异的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ancient",
+      "meaning": "古代的；古老的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "protect",
+      "meaning": "保护",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wide",
+      "meaning": "宽的；广阔的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "as far as I know",
+      "meaning": "就我所知",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "achieve",
+      "meaning": "完成，实现",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "achievement",
+      "meaning": "成就，成绩",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "southwestern",
+      "meaning": "西南的,西南方向的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "thick",
+      "meaning": "厚的；浓的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "include",
+      "meaning": "包括，包含",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "freezing",
+      "meaning": "极冷的；冷冻的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "condition",
+      "meaning": "条件；状况",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "take in",
+      "meaning": "吸入，吞入",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "succeed",
+      "meaning": "成功，实现目标，完成",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "challenge",
+      "meaning": "挑战，考验；质疑，对…表示怀疑",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "in the face of",
+      "meaning": "面对（问题，困难）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "force",
+      "meaning": "力，力量；军事行动，武力",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nature",
+      "meaning": "自然界，大自然",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "even though",
+      "meaning": "（等于even if） 即使，虽然",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ocean",
+      "meaning": "海洋",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "the Pacific Ocean",
+      "meaning": "太平洋",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cm",
+      "meaning": "厘米(等于centimeter)",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "weigh",
+      "meaning": "重量是…；称…重量",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "birth",
+      "meaning": "生孩子；生下（某人）；出生；诞生",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "at birth",
+      "meaning": "出生时",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "up to",
+      "meaning": "到达（某数量，程度），不多于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "adult",
+      "meaning": "成年人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bamboo",
+      "meaning": "竹子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "endangered",
+      "meaning": "濒临灭绝的，濒危的；有危险的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "research",
+      "meaning": "研究，调查；研究；探索；研究；探索",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "keeper",
+      "meaning": "饲养员；保管人",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "awake",
+      "meaning": "醒着",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "excitement",
+      "meaning": "激动，兴奋",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "walk into",
+      "meaning": "走进",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fall over",
+      "meaning": "倒下",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "illness",
+      "meaning": "疾病，生病",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "remaining",
+      "meaning": "遗留的，剩余的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "or so",
+      "meaning": "大约",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "artwork",
+      "meaning": "插图，图片；艺术品",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "wild",
+      "meaning": "野生的；野性的，野蛮的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "government",
+      "meaning": "政府",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "whale",
+      "meaning": "鲸",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "protection",
+      "meaning": "保护，保卫",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "huge",
+      "meaning": "巨大的，极多的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "dynasty",
+      "meaning": "王朝；朝代",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "base",
+      "meaning": "基础；基地",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "treasure",
+      "meaning": "财宝，财富",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "island",
+      "meaning": "岛屿",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "full of",
+      "meaning": "满是…的，（有）丰富的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "classic",
+      "meaning": "经典著作，名著",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "page",
+      "meaning": "（书或纸张的）页，面，张",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hurry",
+      "meaning": "匆忙，赶快",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hurry up",
+      "meaning": "赶快，急忙（做某事）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "due",
+      "meaning": "预期的；到期的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ship",
+      "meaning": "船",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tool",
+      "meaning": "工具",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "gun",
+      "meaning": "炮，枪",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mark",
+      "meaning": "记号；分数；作标记",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sand",
+      "meaning": "沙；沙滩",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cannibal",
+      "meaning": "食人肉者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "towards",
+      "meaning": "向着，朝着；对于,关于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "land",
+      "meaning": "大地；陆地；国家；国土；着陆",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fiction",
+      "meaning": "小说；虚构，编造",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "science fiction",
+      "meaning": "科幻小说",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "technology",
+      "meaning": "科技，工艺",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "French",
+      "meaning": "法语；法国人（的）",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "pop",
+      "meaning": "流行音乐",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rock",
+      "meaning": "岩石；摇滚乐",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "band",
+      "meaning": "乐队",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "country music",
+      "meaning": "乡村音乐",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "forever",
+      "meaning": "永远",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "abroad",
+      "meaning": "在国外，到国外",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "actually",
+      "meaning": "实际上,说实在的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ever since",
+      "meaning": "自从",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fan",
+      "meaning": "狂热爱好者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "southern",
+      "meaning": "南方的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "modern",
+      "meaning": "现代的；现代化的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "success",
+      "meaning": "成功",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "belong",
+      "meaning": "属于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "one another",
+      "meaning": "互相",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "laughter",
+      "meaning": "笑，笑声",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "beauty",
+      "meaning": "美丽；美好的事物",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "million",
+      "meaning": "百万",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "record",
+      "meaning": "记录；唱片；录制，录音",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "introduce",
+      "meaning": "介绍，引进；使...传入",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "line",
+      "meaning": "排，队，列",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "amusement",
+      "meaning": "娱乐，消遣；游戏",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "amusement park",
+      "meaning": "游乐场",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "somewhere",
+      "meaning": "某处，在某处",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "camera",
+      "meaning": "照相机",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "invention",
+      "meaning": "发明（物）；发明，创造",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "invent",
+      "meaning": "发明，创造",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "unbelievable",
+      "meaning": "难以置信的；不真实的；不可信的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "progress",
+      "meaning": "进步，进展",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "rapid",
+      "meaning": "迅速的，快速的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "unusual",
+      "meaning": "特别的，不寻常的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "toilet",
+      "meaning": "坐便器；厕所",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "encourage",
+      "meaning": "鼓励，激励",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "social",
+      "meaning": "社会的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "peaceful",
+      "meaning": "平静的；和平的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tea art",
+      "meaning": "茶艺",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "performance",
+      "meaning": "表演，演出",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "perfect",
+      "meaning": "完美的，理想的；完全的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "tea set",
+      "meaning": "茶具",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "itself",
+      "meaning": "它自己，它本身",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "collect",
+      "meaning": "收集",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "a couple of",
+      "meaning": "一对，两个；几个",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "German",
+      "meaning": "德语；德国人；德国的；德国人的；德语的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "theme",
+      "meaning": "主题，题目；作文",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "ride",
+      "meaning": "骑；乘；（短途）旅程",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "province",
+      "meaning": "省，省份",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "thousand",
+      "meaning": "一千",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "thousands of",
+      "meaning": "数以千计的，许许多多的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "safe",
+      "meaning": "安全的，保险的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "simply",
+      "meaning": "仅仅，只，不过",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fear",
+      "meaning": "恐惧，害怕；恐惧，害怕",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "whether",
+      "meaning": "或者…或者，是否；不管…还是",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Indian",
+      "meaning": "印度的，印度人的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "Japanese",
+      "meaning": "日本的；日本人；日语",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "fox",
+      "meaning": "狐狸",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "all year around",
+      "meaning": "全年",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "equator",
+      "meaning": "赤道",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "whenever",
+      "meaning": "无论何时",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "spring",
+      "meaning": "春天",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "mostly",
+      "meaning": "大多数地，主要地，通常",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "location",
+      "meaning": "地点，位置",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "yard",
+      "meaning": "院子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "yard sale",
+      "meaning": "庭院拍卖会",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "sweet",
+      "meaning": "甜的；糖果",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "memory",
+      "meaning": "记忆，记忆力；回忆",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "cent",
+      "meaning": "分，分币〔货币单位，符号为¢〕",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "toy",
+      "meaning": "玩具",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bear",
+      "meaning": "熊",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "maker",
+      "meaning": "生产者，制造者",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bread maker",
+      "meaning": "面包机",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "scarf",
+      "meaning": "围巾，披巾，头巾",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "soft",
+      "meaning": "柔软的；柔滑的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "soft toy",
+      "meaning": "软体玩具，布绒玩具",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "check",
+      "meaning": "检查；餐馆账单",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "check out",
+      "meaning": "察看，观察",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "board",
+      "meaning": "板子",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "board game",
+      "meaning": "棋类游戏",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "junior",
+      "meaning": "地位低下的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "junior high school",
+      "meaning": "初中",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "clear",
+      "meaning": "清楚的；清晰的；清澈的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "clear out",
+      "meaning": "清理；清除掉",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "bedroom",
+      "meaning": "卧室",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "no longer",
+      "meaning": "不再，不复",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "own",
+      "meaning": "属于自己的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "railway",
+      "meaning": "铁路，铁道",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "part",
+      "meaning": "部分；零部件",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "part with",
+      "meaning": "放弃，交出",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "certain",
+      "meaning": "确定的，无疑的；某一",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "as for",
+      "meaning": "至于，关于",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "honest",
+      "meaning": "诚实的，正直的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "to be honest",
+      "meaning": "说实在的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "while",
+      "meaning": "当...时候；一段时间，一会儿",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "truthful",
+      "meaning": "诚实的；真实的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hometown",
+      "meaning": "家乡，故乡",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "nowadays",
+      "meaning": "现今，现在，目前",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "search",
+      "meaning": "搜索，搜查",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "among",
+      "meaning": "在其中；…之一",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "crayon",
+      "meaning": "彩色铅笔",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "shame",
+      "meaning": "羞耻",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "regard",
+      "meaning": "致敬，问候；将…视为",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "count",
+      "meaning": "计算，计数；有价值；计算，计数",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "century",
+      "meaning": "世纪，百年",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "according",
+      "meaning": "依照，按照",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "opposite",
+      "meaning": "在…对面，与…相对；对面的",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "especially",
+      "meaning": "特别，尤其",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "childhood",
+      "meaning": "孩童时期",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "consider",
+      "meaning": "仔细考虑，思考；注视",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "close to",
+      "meaning": "几乎，接近",
+      "edition": "人教旧版_第三方词库"
+    },
+    {
+      "word": "hold",
+      "meaning": "抓住；拥有",
+      "edition": "人教旧版_第三方词库"
+    }
+  ]
+}

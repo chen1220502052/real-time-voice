@@ -1,0 +1,19 @@
+{
+  "description": "对照原图复核全部六张小学跨课共享页。以下两处右栏页首续行必须接在左栏最后一个课次之后；原始两轮OCR结果不覆盖，构建时显式纠正。",
+  "moves": [
+    {
+      "image": "英语/科普版/6年级/下册_完整教材词表/原图/01_05_教材页面_b4e35b8378.jpg",
+      "fromUnit": 1,
+      "toUnit": 2,
+      "words": ["angry", "young", "arrive", "ago", "kill", "return", "finally", "trip", "take photos"],
+      "evidence": "左栏下方 Lesson 2 的 photo 之后，右栏从 angry 续排，直到 Lesson 3 标题之前。"
+    },
+    {
+      "image": "英语/科普版/6年级/下册_完整教材词表/原图/03_05_教材页面_f8922562f7.jpg",
+      "fromUnit": 10,
+      "toUnit": 9,
+      "words": ["if"],
+      "evidence": "右栏首行 if 位于 Lesson 10 标题上方，应接左栏 Lesson 9 的 high、deaf、once。"
+    }
+  ]
+}

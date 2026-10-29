@@ -1,0 +1,190 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 6,
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/111/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/01_教材页面_39eee0301b.jpg",
+  "sha256": "21ed5246170f969e8d63fa2ccb0a033906b52738d4b730214a9d736888601224",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "toilet",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "floor",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "first",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "This",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "art room",
+        "music room",
+        "toilet",
+        "third floor",
+        "second floor",
+        "first floor",
+        "classroom",
+        "library",
+        "This is the classroom."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "toilet",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "floor",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "first",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "This",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "art room",
+        "music room",
+        "toilet",
+        "third floor",
+        "second floor",
+        "first floor",
+        "classroom",
+        "library",
+        "This is the classroom."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

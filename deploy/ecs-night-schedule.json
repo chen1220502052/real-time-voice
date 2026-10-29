@@ -1,0 +1,25 @@
+{
+  "TemplateName": "ACS-ECS-ScheduleToStartAndStopOrStopAndStartInstances",
+  "TemplateVersion": "v9",
+  "Parameters": {
+    "regionId": "cn-hongkong",
+    "targets": {
+      "Type": "ResourceIds",
+      "ResourceIds": [
+        "i-j6ci77fwjtiopeqqxctu"
+      ],
+      "RegionId": "cn-hongkong"
+    },
+    "startFirstOrStopFirst": "StopFirst",
+    "dailyStopTime": "13:00:00Z",
+    "dailyStartTime": "01:00:00Z",
+    "weekdays": "*",
+    "stoppedMode": "StopCharging",
+    "OOSAssumeRole": "ecs-night-scheduler-role",
+    "rateControl": {
+      "Mode": "Concurrency",
+      "MaxErrors": 0,
+      "Concurrency": 1
+    }
+  }
+}

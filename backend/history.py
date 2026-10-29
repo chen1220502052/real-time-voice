@@ -24,12 +24,15 @@ class ConversationHistory:
     def items(self) -> List[HistoryItem]:
         return list(self._items)
 
-    def to_agent_messages(self, include_signals: bool = False) -> List[dict]:
+    def to_agent_messages(self) -> List[dict]:
+        """Return only user-visible dialogue for the LLM.
+
+        Signals such as ``pick_up``, ``reply_start`` and ``barge_in`` are
+        orchestration state.  They remain in the audit history but must never
+        leak into the language-model conversation.
+        """
         messages = []
         for item in self._items:
-            if include_signals and item.message_type == "signal":
-                messages.append({"role": "signal", "content": item.message})
-                continue
             if item.message_type != "text":
                 continue
             if item.role == "user":

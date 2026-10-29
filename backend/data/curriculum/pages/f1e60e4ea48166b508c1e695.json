@@ -1,0 +1,535 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "下册",
+  "book": "下册_2014年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/9年级/下册_2014年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页078.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1968",
+  "sha256": "f1e60e4ea48166b508c1e695e333f9824274e883adc4f72905b24f19e8745cdb",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "attract",
+              "meaning": "v.吸引，引起……的好感(或爱慕)",
+              "uncertain": false
+            },
+            {
+              "word": "a great number of",
+              "meaning": "许多，大量",
+              "uncertain": false
+            },
+            {
+              "word": "fetch",
+              "meaning": "v.(去)拿来;(去)请来",
+              "uncertain": false
+            },
+            {
+              "word": "introduce",
+              "meaning": "v.介绍",
+              "uncertain": false
+            },
+            {
+              "word": "detail",
+              "meaning": "n.详情;全部细节",
+              "uncertain": false
+            },
+            {
+              "word": "strange",
+              "meaning": "adj.奇怪的;陌生的",
+              "uncertain": false
+            },
+            {
+              "word": "pine",
+              "meaning": "n.松树",
+              "uncertain": false
+            },
+            {
+              "word": "lie in",
+              "meaning": "位于",
+              "uncertain": false
+            },
+            {
+              "word": "length",
+              "meaning": "n.长，长度",
+              "uncertain": false
+            },
+            {
+              "word": "waterfall",
+              "meaning": "n.瀑布",
+              "uncertain": false
+            },
+            {
+              "word": "height",
+              "meaning": "n.高度;身高",
+              "uncertain": false
+            },
+            {
+              "word": "grand",
+              "meaning": "adj.壮丽的;堂皇的",
+              "uncertain": false
+            },
+            {
+              "word": "imperial",
+              "meaning": "adj.皇帝的;帝国的",
+              "uncertain": false
+            },
+            {
+              "word": "carve",
+              "meaning": "v.刻，雕刻",
+              "uncertain": false
+            },
+            {
+              "word": "stone",
+              "meaning": "n.石头，石料，岩石",
+              "uncertain": false
+            },
+            {
+              "word": "guard",
+              "meaning": "v.守卫，保卫;看守",
+              "uncertain": false
+            },
+            {
+              "word": "heaven",
+              "meaning": "n.天堂(Heaven 上帝)",
+              "uncertain": false
+            },
+            {
+              "word": "comment",
+              "meaning": "n.评论 v.做评论",
+              "uncertain": false
+            },
+            {
+              "word": "responsibility",
+              "meaning": "n.责任;义务",
+              "uncertain": false
+            },
+            {
+              "word": "gradually",
+              "meaning": "adv.逐步地，渐进地",
+              "uncertain": false
+            },
+            {
+              "word": "marble",
+              "meaning": "n.大理石",
+              "uncertain": false
+            },
+            {
+              "word": "entire",
+              "meaning": "adj.全部的;整个的",
+              "uncertain": false
+            },
+            {
+              "word": "branch",
+              "meaning": "n.支线;分支",
+              "uncertain": false
+            },
+            {
+              "word": "construction",
+              "meaning": "n.建筑(物)",
+              "uncertain": false
+            },
+            {
+              "word": "state",
+              "meaning": "n.国家;州;政府;状态 v.陈述，说明",
+              "uncertain": false
+            },
+            {
+              "word": "remain",
+              "meaning": "v.剩余，遗留;仍然是",
+              "uncertain": false
+            },
+            {
+              "word": "brick",
+              "meaning": "n.砖，砖块",
+              "uncertain": false
+            },
+            {
+              "word": "separate",
+              "meaning": "v.(使)分开，分离",
+              "uncertain": false
+            },
+            {
+              "word": "enemy",
+              "meaning": "n.敌人;反对者",
+              "uncertain": false
+            },
+            {
+              "word": "expect",
+              "meaning": "v.预料，预期;期待，盼望",
+              "uncertain": false
+            },
+            {
+              "word": "treasure",
+              "meaning": "n.财富;珍宝",
+              "uncertain": false
+            },
+            {
+              "word": "civilization",
+              "meaning": "n.文明",
+              "uncertain": false
+            },
+            {
+              "word": "suppose",
+              "meaning": "v.假定，假设;推断",
+              "uncertain": false
+            },
+            {
+              "word": "attraction",
+              "meaning": "n.向往的地方;吸引力",
+              "uncertain": false
+            },
+            {
+              "word": "major",
+              "meaning": "adj.主要的;重大的",
+              "uncertain": false
+            },
+            {
+              "word": "cocoa",
+              "meaning": "n.可可饮料;可可粉",
+              "uncertain": false
+            },
+            {
+              "word": "porcelain",
+              "meaning": "n.瓷，瓷器",
+              "uncertain": false
+            },
+            {
+              "word": "export",
+              "meaning": "n.出口产品;出口 v.出口",
+              "uncertain": false
+            },
+            {
+              "word": "mild",
+              "meaning": "adj.温和的;和煦的",
+              "uncertain": false
+            },
+            {
+              "word": "unique",
+              "meaning": "adj.独一无二的;独特的",
+              "uncertain": false
+            },
+            {
+              "word": "include",
+              "meaning": "v.包含，包括",
+              "uncertain": false
+            },
+            {
+              "word": "topic",
+              "meaning": "n.话题，题目",
+              "uncertain": false
+            },
+            {
+              "word": "world-famous",
+              "meaning": "adj.举世闻名的",
+              "uncertain": false
+            },
+            {
+              "word": "firewood",
+              "meaning": "n.木柴",
+              "uncertain": false
+            },
+            {
+              "word": "sauce",
+              "meaning": "n.酱;调味汁",
+              "uncertain": false
+            },
+            {
+              "word": "vinegar",
+              "meaning": "n.醋",
+              "uncertain": false
+            },
+            {
+              "word": "pioneer",
+              "meaning": "n.先锋;拓荒者",
+              "uncertain": false
+            },
+            {
+              "word": "B.C.",
+              "meaning": "abbr.公元前",
+              "uncertain": false
+            },
+            {
+              "word": "thinker",
+              "meaning": "n.思想家",
+              "uncertain": false
+            },
+            {
+              "word": "wise",
+              "meaning": "adj.明智的，高明的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "attract",
+              "meaning": "v.吸引，引起……的好感(或爱慕)",
+              "uncertain": false
+            },
+            {
+              "word": "a great number of",
+              "meaning": "许多，大量",
+              "uncertain": false
+            },
+            {
+              "word": "fetch",
+              "meaning": "v.(去)拿来;(去)请来",
+              "uncertain": false
+            },
+            {
+              "word": "introduce",
+              "meaning": "v.介绍",
+              "uncertain": false
+            },
+            {
+              "word": "detail",
+              "meaning": "n.详情;全部细节",
+              "uncertain": false
+            },
+            {
+              "word": "strange",
+              "meaning": "adj.奇怪的;陌生的",
+              "uncertain": false
+            },
+            {
+              "word": "pine",
+              "meaning": "n.松树",
+              "uncertain": false
+            },
+            {
+              "word": "lie in",
+              "meaning": "位于",
+              "uncertain": false
+            },
+            {
+              "word": "length",
+              "meaning": "n.长，长度",
+              "uncertain": false
+            },
+            {
+              "word": "waterfall",
+              "meaning": "n.瀑布",
+              "uncertain": false
+            },
+            {
+              "word": "height",
+              "meaning": "n.高度;身高",
+              "uncertain": false
+            },
+            {
+              "word": "grand",
+              "meaning": "adj.壮丽的;堂皇的",
+              "uncertain": false
+            },
+            {
+              "word": "imperial",
+              "meaning": "adj.皇帝的;帝国的",
+              "uncertain": false
+            },
+            {
+              "word": "carve",
+              "meaning": "v.刻，雕刻",
+              "uncertain": false
+            },
+            {
+              "word": "stone",
+              "meaning": "n.石头，石料，岩石",
+              "uncertain": false
+            },
+            {
+              "word": "guard",
+              "meaning": "v.守卫，保卫;看守",
+              "uncertain": false
+            },
+            {
+              "word": "heaven",
+              "meaning": "n.天堂(Heaven 上帝)",
+              "uncertain": false
+            },
+            {
+              "word": "comment",
+              "meaning": "n.评论 v.做评论",
+              "uncertain": false
+            },
+            {
+              "word": "responsibility",
+              "meaning": "n.责任;义务",
+              "uncertain": false
+            },
+            {
+              "word": "gradually",
+              "meaning": "adv.逐步地，渐进地",
+              "uncertain": false
+            },
+            {
+              "word": "marble",
+              "meaning": "n.大理石",
+              "uncertain": false
+            },
+            {
+              "word": "entire",
+              "meaning": "adj.全部的;整个的",
+              "uncertain": false
+            },
+            {
+              "word": "branch",
+              "meaning": "n.支线;分支",
+              "uncertain": false
+            },
+            {
+              "word": "construction",
+              "meaning": "n.建筑(物)",
+              "uncertain": false
+            },
+            {
+              "word": "state",
+              "meaning": "n.国家;州;政府;状态 v.陈述，说明",
+              "uncertain": false
+            },
+            {
+              "word": "remain",
+              "meaning": "v.剩余，遗留;仍然是",
+              "uncertain": false
+            },
+            {
+              "word": "brick",
+              "meaning": "n.砖，砖块",
+              "uncertain": false
+            },
+            {
+              "word": "separate",
+              "meaning": "v.(使)分开，分离",
+              "uncertain": false
+            },
+            {
+              "word": "enemy",
+              "meaning": "n.敌人;反对者",
+              "uncertain": false
+            },
+            {
+              "word": "expect",
+              "meaning": "v.预料，预期;期待，盼望",
+              "uncertain": false
+            },
+            {
+              "word": "treasure",
+              "meaning": "n.财富;珍宝",
+              "uncertain": false
+            },
+            {
+              "word": "civilization",
+              "meaning": "n.文明",
+              "uncertain": false
+            },
+            {
+              "word": "suppose",
+              "meaning": "v.假定，假设;推断",
+              "uncertain": false
+            },
+            {
+              "word": "attraction",
+              "meaning": "n.向往的地方;吸引力",
+              "uncertain": false
+            },
+            {
+              "word": "major",
+              "meaning": "adj.主要的;重大的",
+              "uncertain": false
+            },
+            {
+              "word": "cocoa",
+              "meaning": "n.可可饮料;可可粉",
+              "uncertain": false
+            },
+            {
+              "word": "porcelain",
+              "meaning": "n.瓷，瓷器",
+              "uncertain": false
+            },
+            {
+              "word": "export",
+              "meaning": "n.出口产品;出口 v.出口",
+              "uncertain": false
+            },
+            {
+              "word": "mild",
+              "meaning": "adj.温和的;和煦的",
+              "uncertain": false
+            },
+            {
+              "word": "unique",
+              "meaning": "adj.独一无二的;独特的",
+              "uncertain": false
+            },
+            {
+              "word": "include",
+              "meaning": "v.包含，包括",
+              "uncertain": false
+            },
+            {
+              "word": "topic",
+              "meaning": "n.话题，题目",
+              "uncertain": false
+            },
+            {
+              "word": "world-famous",
+              "meaning": "adj.举世闻名的",
+              "uncertain": false
+            },
+            {
+              "word": "firewood",
+              "meaning": "n.木柴",
+              "uncertain": false
+            },
+            {
+              "word": "sauce",
+              "meaning": "n.酱;调味汁",
+              "uncertain": false
+            },
+            {
+              "word": "vinegar",
+              "meaning": "n.醋",
+              "uncertain": false
+            },
+            {
+              "word": "pioneer",
+              "meaning": "n.先锋;拓荒者",
+              "uncertain": false
+            },
+            {
+              "word": "B.C.",
+              "meaning": "abbr.公元前",
+              "uncertain": false
+            },
+            {
+              "word": "thinker",
+              "meaning": "n.思想家",
+              "uncertain": false
+            },
+            {
+              "word": "wise",
+              "meaning": "adj.明智的，高明的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

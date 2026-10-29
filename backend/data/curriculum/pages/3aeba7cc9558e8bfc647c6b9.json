@@ -1,0 +1,106 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 3,
+  "units": [
+    3
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/108/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/02_教材页面_ebb6b9d882.jpg",
+  "sha256": "3aeba7cc9558e8bfc647c6b942d6095ada276f7045872555277ea5d2c5fbd06c",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "Have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thanks",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "No",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Have some ...",
+        "Thanks. / No, thank you."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "Have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thanks",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "No",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Have some ...",
+        "Thanks. / No, thank you."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,197 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/05_05_教材页面_bc3f3d96bd.png",
+  "units": [
+    5
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "a80ffd4af63566b3eb1669b35a12614db2bcb86bac4cc80e6f63d376b424ffa6",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "trousers",
+              "meaning": "长裤",
+              "uncertain": false
+            },
+            {
+              "word": "shorts",
+              "meaning": "短裤",
+              "uncertain": false
+            },
+            {
+              "word": "scarf",
+              "meaning": "围巾",
+              "uncertain": false
+            },
+            {
+              "word": "sweater",
+              "meaning": "毛衣",
+              "uncertain": false
+            },
+            {
+              "word": "may",
+              "meaning": "可以，可能",
+              "uncertain": false
+            },
+            {
+              "word": "Ms (AmE Ms.)",
+              "meaning": "女士",
+              "uncertain": false
+            },
+            {
+              "word": "size",
+              "meaning": "尺寸",
+              "uncertain": false
+            },
+            {
+              "word": "try ... on",
+              "meaning": "试穿(衣物)",
+              "uncertain": false
+            },
+            {
+              "word": "on sale",
+              "meaning": "特价销售",
+              "uncertain": false
+            },
+            {
+              "word": "just",
+              "meaning": "仅仅",
+              "uncertain": false
+            },
+            {
+              "word": "important",
+              "meaning": "重要的",
+              "uncertain": false
+            },
+            {
+              "word": "sell",
+              "meaning": "售卖",
+              "uncertain": false
+            },
+            {
+              "word": "take a look",
+              "meaning": "看一下",
+              "uncertain": false
+            },
+            {
+              "word": "wolf",
+              "meaning": "狼",
+              "uncertain": false
+            },
+            {
+              "word": "tell a lie",
+              "meaning": "说谎",
+              "uncertain": false
+            },
+            {
+              "word": "clock",
+              "meaning": "钟表",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "trousers",
+              "meaning": "长裤",
+              "uncertain": false
+            },
+            {
+              "word": "shorts",
+              "meaning": "短裤",
+              "uncertain": false
+            },
+            {
+              "word": "scarf",
+              "meaning": "围巾",
+              "uncertain": false
+            },
+            {
+              "word": "sweater",
+              "meaning": "毛衣",
+              "uncertain": false
+            },
+            {
+              "word": "may",
+              "meaning": "可以，可能",
+              "uncertain": false
+            },
+            {
+              "word": "Ms (AmE Ms.)",
+              "meaning": "女士",
+              "uncertain": false
+            },
+            {
+              "word": "size",
+              "meaning": "尺寸",
+              "uncertain": false
+            },
+            {
+              "word": "try ... on",
+              "meaning": "试穿(衣物)",
+              "uncertain": false
+            },
+            {
+              "word": "on sale",
+              "meaning": "特价销售",
+              "uncertain": false
+            },
+            {
+              "word": "just",
+              "meaning": "仅仅",
+              "uncertain": false
+            },
+            {
+              "word": "important",
+              "meaning": "重要的",
+              "uncertain": false
+            },
+            {
+              "word": "sell",
+              "meaning": "售卖",
+              "uncertain": false
+            },
+            {
+              "word": "take a look",
+              "meaning": "看一下",
+              "uncertain": false
+            },
+            {
+              "word": "wolf",
+              "meaning": "狼",
+              "uncertain": false
+            },
+            {
+              "word": "tell a lie",
+              "meaning": "说谎",
+              "uncertain": false
+            },
+            {
+              "word": "clock",
+              "meaning": "钟表",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,495 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页140.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "a8f3ddff5fbd83552d26f3c1b349489e91d0ff1b6bef120fdcb43f66a219a813",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "take place",
+              "meaning": "发生，进行",
+              "uncertain": false
+            },
+            {
+              "word": "volunteer",
+              "meaning": "n.志愿者",
+              "uncertain": false
+            },
+            {
+              "word": "bell",
+              "meaning": "n.钟(铃)声;铃,钟",
+              "uncertain": false
+            },
+            {
+              "word": "Africa",
+              "meaning": "n.非洲",
+              "uncertain": false
+            },
+            {
+              "word": "disabled",
+              "meaning": "adj.残疾的,残废的",
+              "uncertain": false
+            },
+            {
+              "word": "shut",
+              "meaning": "v.关闭,关上",
+              "uncertain": false
+            },
+            {
+              "word": "ever",
+              "meaning": "adv.在任何时候,从来",
+              "uncertain": false
+            },
+            {
+              "word": "rope",
+              "meaning": "n.绳子,绳索",
+              "uncertain": false
+            },
+            {
+              "word": "narrow",
+              "meaning": "adj.狭窄的",
+              "uncertain": false
+            },
+            {
+              "word": "communication",
+              "meaning": "n.通信;交流;交往",
+              "uncertain": false
+            },
+            {
+              "word": "various",
+              "meaning": "adj.各种各样的;多姿多彩的",
+              "uncertain": false
+            },
+            {
+              "word": "report",
+              "meaning": "n.& v.报告,汇报",
+              "uncertain": false
+            },
+            {
+              "word": "keep in touch with...",
+              "meaning": "跟……保持联系",
+              "uncertain": false
+            },
+            {
+              "word": "relative",
+              "meaning": "n.亲属,亲戚",
+              "uncertain": false
+            },
+            {
+              "word": "telegram",
+              "meaning": "n.电报;电文",
+              "uncertain": false
+            },
+            {
+              "word": "rapidly",
+              "meaning": "adv.快速地,迅速地",
+              "uncertain": false
+            },
+            {
+              "word": "since",
+              "meaning": "prep.自……以后,从……以来 conj.从……以后;既然,因为",
+              "uncertain": false
+            },
+            {
+              "word": "reform",
+              "meaning": "n.改革,改良",
+              "uncertain": false
+            },
+            {
+              "word": "reform and opening-up",
+              "meaning": "改革开放",
+              "uncertain": false
+            },
+            {
+              "word": "satisfy",
+              "meaning": "v.使满意,使满足",
+              "uncertain": false
+            },
+            {
+              "word": "medical",
+              "meaning": "adj.医学的;医疗的",
+              "uncertain": false
+            },
+            {
+              "word": "cellphone",
+              "meaning": "=mobile phone n.移动电话,手机",
+              "uncertain": false
+            },
+            {
+              "word": "fax",
+              "meaning": "n.传真;传真机",
+              "uncertain": false
+            },
+            {
+              "word": "machine",
+              "meaning": "n.机器,机械",
+              "uncertain": false
+            },
+            {
+              "word": "rapid",
+              "meaning": "adj.迅速的,快速的",
+              "uncertain": false
+            },
+            {
+              "word": "progress",
+              "meaning": "n.进步 v.进展;逐步发展",
+              "uncertain": false
+            },
+            {
+              "word": "make progress",
+              "meaning": "取得进展,取得进步",
+              "uncertain": false
+            },
+            {
+              "word": "already",
+              "meaning": "adv.已经,早已",
+              "uncertain": false
+            },
+            {
+              "word": "succeed in doing sth.",
+              "meaning": "成功地做了某事",
+              "uncertain": false
+            },
+            {
+              "word": "pleased",
+              "meaning": "adj.高兴的",
+              "uncertain": false
+            },
+            {
+              "word": "leisure",
+              "meaning": "n.闲暇,空闲",
+              "uncertain": false
+            },
+            {
+              "word": "hide",
+              "meaning": "v.躲藏;遮挡;隐瞒",
+              "uncertain": false
+            },
+            {
+              "word": "hide-and-seek",
+              "meaning": "n.捉迷藏游戏",
+              "uncertain": false
+            },
+            {
+              "word": "chess",
+              "meaning": "n.国际象棋",
+              "uncertain": false
+            },
+            {
+              "word": "radio",
+              "meaning": "n.收音机",
+              "uncertain": false
+            },
+            {
+              "word": "spare",
+              "meaning": "adj.空闲的;空余的",
+              "uncertain": false
+            },
+            {
+              "word": "recent",
+              "meaning": "adj.近来的,最近的",
+              "uncertain": false
+            },
+            {
+              "word": "abroad",
+              "meaning": "adv.在国外;到国外",
+              "uncertain": false
+            },
+            {
+              "word": "yet",
+              "meaning": "adv.还,仍",
+              "uncertain": false
+            },
+            {
+              "word": "probably",
+              "meaning": "adv.很可能,大概",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "adv.也不 det, pron.两者都不",
+              "uncertain": false
+            },
+            {
+              "word": "cinema",
+              "meaning": "n.电影院",
+              "uncertain": false
+            },
+            {
+              "word": "department",
+              "meaning": "store 百货公司",
+              "uncertain": false
+            },
+            {
+              "word": "nearby",
+              "meaning": "adj.附近的,邻近的 adv.在附近,不远",
+              "uncertain": false
+            },
+            {
+              "word": "population",
+              "meaning": "n.人口,人数",
+              "uncertain": false
+            },
+            {
+              "word": "billion",
+              "meaning": "num.十亿",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "take place",
+              "meaning": "发生,进行",
+              "uncertain": false
+            },
+            {
+              "word": "volunteer",
+              "meaning": "n.志愿者",
+              "uncertain": false
+            },
+            {
+              "word": "bell",
+              "meaning": "n.钟(铃)声;铃,钟",
+              "uncertain": false
+            },
+            {
+              "word": "Africa",
+              "meaning": "n.非洲",
+              "uncertain": false
+            },
+            {
+              "word": "disabled",
+              "meaning": "adj.残疾的,残废的",
+              "uncertain": false
+            },
+            {
+              "word": "shut",
+              "meaning": "v.关闭,关上",
+              "uncertain": false
+            },
+            {
+              "word": "ever",
+              "meaning": "adv.在任何时候,从来",
+              "uncertain": false
+            },
+            {
+              "word": "rope",
+              "meaning": "n.绳子,绳索",
+              "uncertain": false
+            },
+            {
+              "word": "narrow",
+              "meaning": "adj.狭窄的",
+              "uncertain": false
+            },
+            {
+              "word": "communication",
+              "meaning": "n.通信;交流;交往",
+              "uncertain": false
+            },
+            {
+              "word": "various",
+              "meaning": "adj.各种各样的;多姿多彩的",
+              "uncertain": false
+            },
+            {
+              "word": "report",
+              "meaning": "n.& v.报告,汇报",
+              "uncertain": false
+            },
+            {
+              "word": "keep in touch with...",
+              "meaning": "跟……保持联系",
+              "uncertain": false
+            },
+            {
+              "word": "relative",
+              "meaning": "n.亲属,亲戚",
+              "uncertain": false
+            },
+            {
+              "word": "telegram",
+              "meaning": "n.电报;电文",
+              "uncertain": false
+            },
+            {
+              "word": "rapidly",
+              "meaning": "adv.快速地,迅速地",
+              "uncertain": false
+            },
+            {
+              "word": "since",
+              "meaning": "prep.自……以后,从……以来 conj.从……以后;既然,因为",
+              "uncertain": false
+            },
+            {
+              "word": "reform",
+              "meaning": "n.改革,改良",
+              "uncertain": false
+            },
+            {
+              "word": "reform and opening-up",
+              "meaning": "改革开放",
+              "uncertain": false
+            },
+            {
+              "word": "satisfy",
+              "meaning": "v.使满意,使满足",
+              "uncertain": false
+            },
+            {
+              "word": "medical",
+              "meaning": "adj.医学的;医疗的",
+              "uncertain": false
+            },
+            {
+              "word": "cellphone",
+              "meaning": "=mobile phone n.移动电话,手机",
+              "uncertain": false
+            },
+            {
+              "word": "fax",
+              "meaning": "n.传真;传真机",
+              "uncertain": false
+            },
+            {
+              "word": "machine",
+              "meaning": "n.机器,机械",
+              "uncertain": false
+            },
+            {
+              "word": "rapid",
+              "meaning": "adj.迅速的,快速的",
+              "uncertain": false
+            },
+            {
+              "word": "progress",
+              "meaning": "n.进步 v.进展;逐步发展",
+              "uncertain": false
+            },
+            {
+              "word": "make progress",
+              "meaning": "取得进展,取得进步",
+              "uncertain": false
+            },
+            {
+              "word": "already",
+              "meaning": "adv.已经,早已",
+              "uncertain": false
+            },
+            {
+              "word": "succeed in doing sth.",
+              "meaning": "成功地做了某事",
+              "uncertain": false
+            },
+            {
+              "word": "pleased",
+              "meaning": "adj.高兴的",
+              "uncertain": false
+            },
+            {
+              "word": "leisure",
+              "meaning": "n.闲暇,空闲",
+              "uncertain": false
+            },
+            {
+              "word": "hide",
+              "meaning": "v.躲藏;遮挡;隐瞒",
+              "uncertain": false
+            },
+            {
+              "word": "hide-and-seek",
+              "meaning": "n.捉迷藏游戏",
+              "uncertain": false
+            },
+            {
+              "word": "chess",
+              "meaning": "n.国际象棋",
+              "uncertain": false
+            },
+            {
+              "word": "radio",
+              "meaning": "n.收音机",
+              "uncertain": false
+            },
+            {
+              "word": "spare",
+              "meaning": "adj.空闲的;空余的",
+              "uncertain": false
+            },
+            {
+              "word": "recent",
+              "meaning": "adj.近来的,最近的",
+              "uncertain": false
+            },
+            {
+              "word": "abroad",
+              "meaning": "adv.在国外;到国外",
+              "uncertain": false
+            },
+            {
+              "word": "yet",
+              "meaning": "adv.还,仍",
+              "uncertain": false
+            },
+            {
+              "word": "probably",
+              "meaning": "adv.很可能,大概",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "adv.也不 det, pron.两者都不",
+              "uncertain": false
+            },
+            {
+              "word": "cinema",
+              "meaning": "n.电影院",
+              "uncertain": false
+            },
+            {
+              "word": "department",
+              "meaning": "store 百货公司",
+              "uncertain": false
+            },
+            {
+              "word": "nearby",
+              "meaning": "adj.附近的,邻近的 adv.在附近,不远",
+              "uncertain": false
+            },
+            {
+              "word": "population",
+              "meaning": "n.人口,人数",
+              "uncertain": false
+            },
+            {
+              "word": "billion",
+              "meaning": "num.十亿",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

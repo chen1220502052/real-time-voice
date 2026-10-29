@@ -1,0 +1,147 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/05_08_教材页面_a0dcac2ee8.jpg",
+  "units": [
+    5
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "3d2f433590af43addb9a293cffba6071e643230e476dcdf6149b08108737b465",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "eleven",
+              "meaning": "十一",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "十二",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "十三",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "十四",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "十五",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "十六",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "十七",
+              "uncertain": false
+            },
+            {
+              "word": "how many",
+              "meaning": "多少",
+              "uncertain": false
+            },
+            {
+              "word": "see",
+              "meaning": "看见",
+              "uncertain": false
+            },
+            {
+              "word": "baby",
+              "meaning": "幼儿，幼崽",
+              "uncertain": false
+            },
+            {
+              "word": "egg",
+              "meaning": "鸡蛋",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "eleven",
+              "meaning": "十一",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "十二",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "十三",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "十四",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "十五",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "十六",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "十七",
+              "uncertain": false
+            },
+            {
+              "word": "how many",
+              "meaning": "多少",
+              "uncertain": false
+            },
+            {
+              "word": "see",
+              "meaning": "看见",
+              "uncertain": false
+            },
+            {
+              "word": "baby",
+              "meaning": "幼儿，幼崽",
+              "uncertain": false
+            },
+            {
+              "word": "egg",
+              "meaning": "鸡蛋",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,531 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页142.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "18e0da93d0d21dbe776c008d083d2e9d2a7919569f5c9e00538e891123c61d2b",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "n.妈妈",
+              "meaning": "(4)",
+              "uncertain": true
+            },
+            {
+              "word": "OK",
+              "meaning": "好;行 adj.安然无恙",
+              "uncertain": false
+            },
+            {
+              "word": "plan",
+              "meaning": "v.计划,谋划;打算 n.计划;(详细)规划",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "carry",
+              "meaning": "v.拿;提;搬",
+              "uncertain": false
+            },
+            {
+              "word": "heavy",
+              "meaning": "adj.重的;厚的",
+              "uncertain": false
+            },
+            {
+              "word": "price",
+              "meaning": "n.价格;价钱",
+              "uncertain": false
+            },
+            {
+              "word": "skirt",
+              "meaning": "n.女裙;裙子",
+              "uncertain": false
+            },
+            {
+              "word": "decide",
+              "meaning": "v.决定",
+              "uncertain": false
+            },
+            {
+              "word": "pocket",
+              "meaning": "n.口袋",
+              "uncertain": false
+            },
+            {
+              "word": "pocket money",
+              "meaning": "n.零花钱",
+              "uncertain": false
+            },
+            {
+              "word": "save",
+              "meaning": "v.节省;攒钱;挽救",
+              "uncertain": false
+            },
+            {
+              "word": "notebook",
+              "meaning": "n.笔记本",
+              "uncertain": false
+            },
+            {
+              "word": "between",
+              "meaning": "prep.在……之间;介于……之间",
+              "uncertain": false
+            },
+            {
+              "word": "wisely",
+              "meaning": "adv.明智地",
+              "uncertain": false
+            },
+            {
+              "word": "waste",
+              "meaning": "v.浪费 n.浪费;垃圾",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "v., n.试图,努力;试用;试",
+              "uncertain": false
+            },
+            {
+              "word": "possible",
+              "meaning": "adj.可能;能做到(或取得) n.合适的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "store",
+              "meaning": "n.(大型)百货商店,商店 v.保存",
+              "uncertain": false
+            },
+            {
+              "word": "careful",
+              "meaning": "adj.慎重的,细致的,精心的;小心,注意,谨慎",
+              "uncertain": false
+            },
+            {
+              "word": "expensive",
+              "meaning": "adj.昂贵的;价格高的",
+              "uncertain": false
+            },
+            {
+              "word": "choice",
+              "meaning": "n.选择;选中的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "check",
+              "meaning": "v.检查;查看",
+              "uncertain": false
+            },
+            {
+              "word": "payment",
+              "meaning": "n.付款;支付;收款",
+              "uncertain": false
+            },
+            {
+              "word": "again",
+              "meaning": "adv.再一次;又一次",
+              "uncertain": false
+            },
+            {
+              "word": "example",
+              "meaning": "n.例子;实例",
+              "uncertain": false
+            },
+            {
+              "word": "if",
+              "meaning": "conj.如果;倘若",
+              "uncertain": false
+            },
+            {
+              "word": "share",
+              "meaning": "v.分享;合用",
+              "uncertain": false
+            },
+            {
+              "word": "same",
+              "meaning": "adj.相同的",
+              "uncertain": false
+            },
+            {
+              "word": "pay",
+              "meaning": "v.付费;付酬",
+              "uncertain": false
+            },
+            {
+              "word": "piece",
+              "meaning": "n.片;块",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "n.面包",
+              "uncertain": false
+            },
+            {
+              "word": "sandwich",
+              "meaning": "n.三明治",
+              "uncertain": false
+            },
+            {
+              "word": "thirsty",
+              "meaning": "adj.口渴的",
+              "uncertain": false
+            },
+            {
+              "word": "packet",
+              "meaning": "n.小袋;小包装纸袋;小件包裹",
+              "uncertain": false
+            },
+            {
+              "word": "meat",
+              "meaning": "n.肉",
+              "uncertain": false
+            },
+            {
+              "word": "cost",
+              "meaning": "v.价钱为 n.费用",
+              "uncertain": false
+            },
+            {
+              "word": "bed",
+              "meaning": "n.床",
+              "uncertain": false
+            },
+            {
+              "word": "breakfast",
+              "meaning": "n.早餐;早饭",
+              "uncertain": false
+            },
+            {
+              "word": "bowl",
+              "meaning": "n.碗;盆",
+              "uncertain": false
+            },
+            {
+              "word": "scissors",
+              "meaning": "n.(pl.)剪刀",
+              "uncertain": false
+            },
+            {
+              "word": "colored",
+              "meaning": "adj.有……色的;色彩……的",
+              "uncertain": false
+            },
+            {
+              "word": "cup",
+              "meaning": "n.杯子;一杯(的量)",
+              "uncertain": false
+            },
+            {
+              "word": "cotton",
+              "meaning": "n.棉织物;棉布;棉花",
+              "uncertain": false
+            },
+            {
+              "word": "sock",
+              "meaning": "n.短袜",
+              "uncertain": false
+            },
+            {
+              "word": "may",
+              "meaning": "modal v.可以;也许",
+              "uncertain": false
+            },
+            {
+              "word": "honey",
+              "meaning": "n.蜂蜜",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sweater",
+              "meaning": "n.套头衫;套头毛衣",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The page contains section headings 'Exploring the Topic' and 'Developing the Topic' but no printed Unit/Lesson heading; all entries are assigned to unit=null.",
+        "The first entry 'n.妈妈' appears to be a continuation from a previous page and lacks a headword; marked uncertain."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "n.妈妈",
+              "meaning": "(4)",
+              "uncertain": true
+            },
+            {
+              "word": "OK",
+              "meaning": "好;行 adj.安然无恙",
+              "uncertain": false
+            },
+            {
+              "word": "plan",
+              "meaning": "v.计划,谋划;打算 n.计划;(详细)规划",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "carry",
+              "meaning": "v.拿;提;搬",
+              "uncertain": false
+            },
+            {
+              "word": "heavy",
+              "meaning": "adj.重的;厚的",
+              "uncertain": false
+            },
+            {
+              "word": "price",
+              "meaning": "n.价格;价钱",
+              "uncertain": false
+            },
+            {
+              "word": "skirt",
+              "meaning": "n.女裙;裙子",
+              "uncertain": false
+            },
+            {
+              "word": "decide",
+              "meaning": "v.决定",
+              "uncertain": false
+            },
+            {
+              "word": "pocket",
+              "meaning": "n.口袋",
+              "uncertain": false
+            },
+            {
+              "word": "pocket money",
+              "meaning": "n.零花钱",
+              "uncertain": false
+            },
+            {
+              "word": "save",
+              "meaning": "v.节省;攒钱;挽救",
+              "uncertain": false
+            },
+            {
+              "word": "notebook",
+              "meaning": "n.笔记本",
+              "uncertain": false
+            },
+            {
+              "word": "between",
+              "meaning": "prep.在……之间;介于……之间",
+              "uncertain": false
+            },
+            {
+              "word": "wisely",
+              "meaning": "adv.明智地",
+              "uncertain": false
+            },
+            {
+              "word": "waste",
+              "meaning": "v.浪费 n.浪费;垃圾",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "v., n.试图,努力;试用;试",
+              "uncertain": false
+            },
+            {
+              "word": "possible",
+              "meaning": "adj.可能;能做到(或取得) n.合适的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "store",
+              "meaning": "n.(大型)百货商店,商店 v.保存",
+              "uncertain": false
+            },
+            {
+              "word": "careful",
+              "meaning": "adj.慎重的,细致的,精心的;小心,注意,谨慎",
+              "uncertain": false
+            },
+            {
+              "word": "expensive",
+              "meaning": "adj.昂贵的;价格高的",
+              "uncertain": false
+            },
+            {
+              "word": "choice",
+              "meaning": "n.选择;选中的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "check",
+              "meaning": "v.检查;查看",
+              "uncertain": false
+            },
+            {
+              "word": "payment",
+              "meaning": "n.付款;支付;收款",
+              "uncertain": false
+            },
+            {
+              "word": "again",
+              "meaning": "adv.再一次;又一次",
+              "uncertain": false
+            },
+            {
+              "word": "example",
+              "meaning": "n.例子;实例",
+              "uncertain": false
+            },
+            {
+              "word": "if",
+              "meaning": "conj.如果;倘若",
+              "uncertain": false
+            },
+            {
+              "word": "share",
+              "meaning": "v.分享;合用",
+              "uncertain": false
+            },
+            {
+              "word": "same",
+              "meaning": "adj.相同的",
+              "uncertain": false
+            },
+            {
+              "word": "pay",
+              "meaning": "v.付费;付酬",
+              "uncertain": false
+            },
+            {
+              "word": "piece",
+              "meaning": "n.片;块",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "n.面包",
+              "uncertain": false
+            },
+            {
+              "word": "sandwich",
+              "meaning": "n.三明治",
+              "uncertain": false
+            },
+            {
+              "word": "thirsty",
+              "meaning": "adj.口渴的",
+              "uncertain": false
+            },
+            {
+              "word": "packet",
+              "meaning": "n.小袋;小包装纸袋;小件包裹",
+              "uncertain": false
+            },
+            {
+              "word": "meat",
+              "meaning": "n.肉",
+              "uncertain": false
+            },
+            {
+              "word": "cost",
+              "meaning": "v.价钱为 n.费用",
+              "uncertain": false
+            },
+            {
+              "word": "bed",
+              "meaning": "n.床",
+              "uncertain": false
+            },
+            {
+              "word": "breakfast",
+              "meaning": "n.早餐;早饭",
+              "uncertain": false
+            },
+            {
+              "word": "bowl",
+              "meaning": "n.碗;盆",
+              "uncertain": false
+            },
+            {
+              "word": "scissors",
+              "meaning": "n.(pl.)剪刀",
+              "uncertain": false
+            },
+            {
+              "word": "colored",
+              "meaning": "adj.有……色的;色彩……的",
+              "uncertain": false
+            },
+            {
+              "word": "cup",
+              "meaning": "n.杯子;一杯(的量)",
+              "uncertain": false
+            },
+            {
+              "word": "cotton",
+              "meaning": "n.棉织物;棉布;棉花",
+              "uncertain": false
+            },
+            {
+              "word": "sock",
+              "meaning": "n.短袜",
+              "uncertain": false
+            },
+            {
+              "word": "may",
+              "meaning": "modal v.可以;也许",
+              "uncertain": false
+            },
+            {
+              "word": "honey",
+              "meaning": "n.蜂蜜",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sweater",
+              "meaning": "n.套头衫;套头毛衣",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The page contains section headings 'Exploring the Topic' and 'Developing the Topic' but no printed Unit/Lesson heading; all entries are assigned to unit=null.",
+        "The first entry 'n.妈妈' appears to be a continuation from a previous page and lacks a headword; marked uncertain."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,172 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 9,
+  "units": [
+    9
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/114/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/02_教材页面_58054abc92.jpg",
+  "sha256": "1460312a5f0036b03b5bd94b1182c60c301e76d2918e6f726dbbcee6add3c016",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "Li",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Lin",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tang",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Xue",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Wang",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Lei",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Who",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "he",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "she",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "She",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Li Lin",
+        "Tang Xue",
+        "Wang Lei",
+        "Who is he/she?",
+        "He/She is ... He/She is ..."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "Li",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Lin",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tang",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Xue",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Wang",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Lei",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Who",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "he",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "she",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "She",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Li Lin",
+        "Tang Xue",
+        "Wang Lei",
+        "Who is he/she?",
+        "He/She is ... He/She is ..."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

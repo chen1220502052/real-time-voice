@@ -1,0 +1,731 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "下册",
+  "book": "下册_2014年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/9年级/下册_2014年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页079.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1968",
+  "sha256": "f2a602a590328a399e897780e59eca9dacbe628cbf9e05349179589dddcf27a0",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "kindness",
+              "meaning": "仁慈，善良",
+              "uncertain": false
+            },
+            {
+              "word": "philosopher",
+              "meaning": "哲学家；深思的人",
+              "uncertain": false
+            },
+            {
+              "word": "influence",
+              "meaning": "影响",
+              "uncertain": false
+            },
+            {
+              "word": "whom",
+              "meaning": "谁，什么人",
+              "uncertain": false
+            },
+            {
+              "word": "pass away",
+              "meaning": "去世；消失",
+              "uncertain": false
+            },
+            {
+              "word": "unite",
+              "meaning": "统一；联合，团结",
+              "uncertain": false
+            },
+            {
+              "word": "defeat",
+              "meaning": "击败，战胜",
+              "uncertain": false
+            },
+            {
+              "word": "set up",
+              "meaning": "建立，创建；设置",
+              "uncertain": false
+            },
+            {
+              "word": "empire",
+              "meaning": "帝国",
+              "uncertain": false
+            },
+            {
+              "word": "forever",
+              "meaning": "永远；长久地",
+              "uncertain": false
+            },
+            {
+              "word": "come to an end",
+              "meaning": "结束",
+              "uncertain": false
+            },
+            {
+              "word": "captain",
+              "meaning": "船长，机长；(海军)上校",
+              "uncertain": false
+            },
+            {
+              "word": "compass",
+              "meaning": "指南针，罗盘；圆规",
+              "uncertain": false
+            },
+            {
+              "word": "sailing",
+              "meaning": "航行",
+              "uncertain": false
+            },
+            {
+              "word": "sail",
+              "meaning": "航行；起航",
+              "uncertain": false
+            },
+            {
+              "word": "coast",
+              "meaning": "海岸；海滨",
+              "uncertain": false
+            },
+            {
+              "word": "unfortunately",
+              "meaning": "不幸地",
+              "uncertain": false
+            },
+            {
+              "word": "birth",
+              "meaning": "出生",
+              "uncertain": false
+            },
+            {
+              "word": "trade",
+              "meaning": "贸易，买卖，交易; 互相交换，以物易物",
+              "uncertain": false
+            },
+            {
+              "word": "missile",
+              "meaning": "导弹",
+              "uncertain": false
+            },
+            {
+              "word": "graduation",
+              "meaning": "毕业",
+              "uncertain": false
+            },
+            {
+              "word": "university",
+              "meaning": "大学",
+              "uncertain": false
+            },
+            {
+              "word": "Pacific",
+              "meaning": "太平洋",
+              "uncertain": false
+            },
+            {
+              "word": "further",
+              "meaning": "进一步的",
+              "uncertain": false
+            },
+            {
+              "word": "degree",
+              "meaning": "(大学)学位；度",
+              "uncertain": false
+            },
+            {
+              "word": "aerospace",
+              "meaning": "航空航天工业",
+              "uncertain": false
+            },
+            {
+              "word": "graduate",
+              "meaning": "毕业; 毕业生",
+              "uncertain": false
+            },
+            {
+              "word": "researcher",
+              "meaning": "研究员",
+              "uncertain": false
+            },
+            {
+              "word": "theory",
+              "meaning": "理论；原理",
+              "uncertain": false
+            },
+            {
+              "word": "motherland",
+              "meaning": "祖国",
+              "uncertain": false
+            },
+            {
+              "word": "blank",
+              "meaning": "空白；空白处，空格",
+              "uncertain": false
+            },
+            {
+              "word": "institute",
+              "meaning": "机构",
+              "uncertain": false
+            },
+            {
+              "word": "charge",
+              "meaning": "主管；掌管; 要价；收费",
+              "uncertain": false
+            },
+            {
+              "word": "in charge of",
+              "meaning": "主管；掌管；负责",
+              "uncertain": false
+            },
+            {
+              "word": "spacecraft",
+              "meaning": "宇宙飞船",
+              "uncertain": false
+            },
+            {
+              "word": "related",
+              "meaning": "相关的，有联系的",
+              "uncertain": false
+            },
+            {
+              "word": "youth",
+              "meaning": "青年，年轻人",
+              "uncertain": false
+            },
+            {
+              "word": "devotion",
+              "meaning": "关爱；奉献；忠诚",
+              "uncertain": false
+            },
+            {
+              "word": "express",
+              "meaning": "表达；表露",
+              "uncertain": false
+            },
+            {
+              "word": "career",
+              "meaning": "事业；职业",
+              "uncertain": false
+            },
+            {
+              "word": "destination",
+              "meaning": "目的地；终点",
+              "uncertain": false
+            },
+            {
+              "word": "hybrid",
+              "meaning": "杂交水稻",
+              "uncertain": false
+            },
+            {
+              "word": "gunpowder",
+              "meaning": "火药",
+              "uncertain": false
+            },
+            {
+              "word": "printing",
+              "meaning": "印刷；印刷术",
+              "uncertain": false
+            },
+            {
+              "word": "sailor",
+              "meaning": "水手，海员",
+              "uncertain": false
+            },
+            {
+              "word": "discovery",
+              "meaning": "发现",
+              "uncertain": false
+            },
+            {
+              "word": "firework",
+              "meaning": "烟花；焰火",
+              "uncertain": false
+            },
+            {
+              "word": "Arab",
+              "meaning": "阿拉伯人; 阿拉伯的，阿拉伯人的",
+              "uncertain": false
+            },
+            {
+              "word": "eastern",
+              "meaning": "东方的，东部的",
+              "uncertain": false
+            },
+            {
+              "word": "bark",
+              "meaning": "树皮；狗叫声; 狗叫",
+              "uncertain": false
+            },
+            {
+              "word": "rag",
+              "meaning": "破布，抹布",
+              "uncertain": false
+            },
+            {
+              "word": "clay",
+              "meaning": "黏土",
+              "uncertain": false
+            },
+            {
+              "word": "ink",
+              "meaning": "墨水，油墨",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "hang",
+              "meaning": "悬挂，吊",
+              "uncertain": false
+            },
+            {
+              "word": "description",
+              "meaning": "形容；说明",
+              "uncertain": false
+            },
+            {
+              "word": "Australian",
+              "meaning": "澳大利亚人",
+              "uncertain": false
+            },
+            {
+              "word": "below",
+              "meaning": "在……下面",
+              "uncertain": false
+            },
+            {
+              "word": "leader",
+              "meaning": "领导者，领袖",
+              "uncertain": false
+            },
+            {
+              "word": "exhibition",
+              "meaning": "展览；展出",
+              "uncertain": false
+            },
+            {
+              "word": "lean",
+              "meaning": "倾斜",
+              "uncertain": false
+            },
+            {
+              "word": "private",
+              "meaning": "私人的；私有的",
+              "uncertain": false
+            },
+            {
+              "word": "president",
+              "meaning": "总统，国家主席",
+              "uncertain": false
+            },
+            {
+              "word": "ring out",
+              "meaning": "发出清脆的响声",
+              "uncertain": false
+            },
+            {
+              "word": "radium",
+              "meaning": "镭",
+              "uncertain": false
+            },
+            {
+              "word": "prize",
+              "meaning": "奖，奖励，奖品",
+              "uncertain": false
+            },
+            {
+              "word": "lifetime",
+              "meaning": "一生，有生之年",
+              "uncertain": false
+            },
+            {
+              "word": "telegraph",
+              "meaning": "电报",
+              "uncertain": false
+            },
+            {
+              "word": "photographic",
+              "meaning": "摄影的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The page has no printed Unit/Lesson heading; all entries are assigned to unit=null.",
+        "The heading 'Topic 3 Now it is a symbol of England.' is a topic heading, not a numbered unit, so its entries are included in the unit=null block."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "kindness",
+              "meaning": "仁慈，善良",
+              "uncertain": false
+            },
+            {
+              "word": "philosopher",
+              "meaning": "哲学家；深思的人",
+              "uncertain": false
+            },
+            {
+              "word": "influence",
+              "meaning": "影响",
+              "uncertain": false
+            },
+            {
+              "word": "whom",
+              "meaning": "谁，什么人",
+              "uncertain": false
+            },
+            {
+              "word": "pass away",
+              "meaning": "去世；消失",
+              "uncertain": false
+            },
+            {
+              "word": "unite",
+              "meaning": "统一；联合，团结",
+              "uncertain": false
+            },
+            {
+              "word": "defeat",
+              "meaning": "击败，战胜",
+              "uncertain": false
+            },
+            {
+              "word": "set up",
+              "meaning": "建立，创建；设置",
+              "uncertain": false
+            },
+            {
+              "word": "empire",
+              "meaning": "帝国",
+              "uncertain": false
+            },
+            {
+              "word": "forever",
+              "meaning": "永远；长久地",
+              "uncertain": false
+            },
+            {
+              "word": "come to an end",
+              "meaning": "结束",
+              "uncertain": false
+            },
+            {
+              "word": "captain",
+              "meaning": "船长，机长；(海军)上校",
+              "uncertain": false
+            },
+            {
+              "word": "compass",
+              "meaning": "指南针，罗盘；圆规",
+              "uncertain": false
+            },
+            {
+              "word": "sailing",
+              "meaning": "航行",
+              "uncertain": false
+            },
+            {
+              "word": "sail",
+              "meaning": "航行；起航",
+              "uncertain": false
+            },
+            {
+              "word": "coast",
+              "meaning": "海岸；海滨",
+              "uncertain": false
+            },
+            {
+              "word": "unfortunately",
+              "meaning": "不幸地",
+              "uncertain": false
+            },
+            {
+              "word": "birth",
+              "meaning": "出生",
+              "uncertain": false
+            },
+            {
+              "word": "trade",
+              "meaning": "贸易，买卖，交易; 互相交换，以物易物",
+              "uncertain": false
+            },
+            {
+              "word": "missile",
+              "meaning": "导弹",
+              "uncertain": false
+            },
+            {
+              "word": "graduation",
+              "meaning": "毕业",
+              "uncertain": false
+            },
+            {
+              "word": "university",
+              "meaning": "大学",
+              "uncertain": false
+            },
+            {
+              "word": "Pacific",
+              "meaning": "太平洋",
+              "uncertain": false
+            },
+            {
+              "word": "further",
+              "meaning": "进一步的",
+              "uncertain": false
+            },
+            {
+              "word": "degree",
+              "meaning": "(大学)学位；度",
+              "uncertain": false
+            },
+            {
+              "word": "aerospace",
+              "meaning": "航空航天工业",
+              "uncertain": false
+            },
+            {
+              "word": "graduate",
+              "meaning": "毕业; 毕业生",
+              "uncertain": false
+            },
+            {
+              "word": "researcher",
+              "meaning": "研究员",
+              "uncertain": false
+            },
+            {
+              "word": "theory",
+              "meaning": "理论；原理",
+              "uncertain": false
+            },
+            {
+              "word": "motherland",
+              "meaning": "祖国",
+              "uncertain": false
+            },
+            {
+              "word": "blank",
+              "meaning": "空白；空白处，空格",
+              "uncertain": false
+            },
+            {
+              "word": "institute",
+              "meaning": "机构",
+              "uncertain": false
+            },
+            {
+              "word": "charge",
+              "meaning": "主管；掌管; 要价；收费",
+              "uncertain": false
+            },
+            {
+              "word": "in charge of",
+              "meaning": "主管；掌管；负责",
+              "uncertain": false
+            },
+            {
+              "word": "spacecraft",
+              "meaning": "宇宙飞船",
+              "uncertain": false
+            },
+            {
+              "word": "related",
+              "meaning": "相关的，有联系的",
+              "uncertain": false
+            },
+            {
+              "word": "youth",
+              "meaning": "青年，年轻人",
+              "uncertain": false
+            },
+            {
+              "word": "devotion",
+              "meaning": "关爱；奉献；忠诚",
+              "uncertain": false
+            },
+            {
+              "word": "express",
+              "meaning": "表达；表露",
+              "uncertain": false
+            },
+            {
+              "word": "career",
+              "meaning": "事业；职业",
+              "uncertain": false
+            },
+            {
+              "word": "destination",
+              "meaning": "目的地；终点",
+              "uncertain": false
+            },
+            {
+              "word": "hybrid",
+              "meaning": "杂交水稻",
+              "uncertain": false
+            },
+            {
+              "word": "gunpowder",
+              "meaning": "火药",
+              "uncertain": false
+            },
+            {
+              "word": "printing",
+              "meaning": "印刷；印刷术",
+              "uncertain": false
+            },
+            {
+              "word": "sailor",
+              "meaning": "水手，海员",
+              "uncertain": false
+            },
+            {
+              "word": "discovery",
+              "meaning": "发现",
+              "uncertain": false
+            },
+            {
+              "word": "firework",
+              "meaning": "烟花；焰火",
+              "uncertain": false
+            },
+            {
+              "word": "Arab",
+              "meaning": "阿拉伯人; 阿拉伯的，阿拉伯人的",
+              "uncertain": false
+            },
+            {
+              "word": "eastern",
+              "meaning": "东方的，东部的",
+              "uncertain": false
+            },
+            {
+              "word": "bark",
+              "meaning": "树皮；狗叫声; 狗叫",
+              "uncertain": false
+            },
+            {
+              "word": "rag",
+              "meaning": "破布，抹布",
+              "uncertain": false
+            },
+            {
+              "word": "clay",
+              "meaning": "黏土",
+              "uncertain": false
+            },
+            {
+              "word": "ink",
+              "meaning": "墨水，油墨",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "hang",
+              "meaning": "悬挂，吊",
+              "uncertain": false
+            },
+            {
+              "word": "description",
+              "meaning": "形容；说明",
+              "uncertain": false
+            },
+            {
+              "word": "Australian",
+              "meaning": "澳大利亚人",
+              "uncertain": false
+            },
+            {
+              "word": "below",
+              "meaning": "在……下面",
+              "uncertain": false
+            },
+            {
+              "word": "leader",
+              "meaning": "领导者，领袖",
+              "uncertain": false
+            },
+            {
+              "word": "exhibition",
+              "meaning": "展览；展出",
+              "uncertain": false
+            },
+            {
+              "word": "lean",
+              "meaning": "倾斜",
+              "uncertain": false
+            },
+            {
+              "word": "private",
+              "meaning": "私人的；私有的",
+              "uncertain": false
+            },
+            {
+              "word": "president",
+              "meaning": "总统，国家主席",
+              "uncertain": false
+            },
+            {
+              "word": "ring out",
+              "meaning": "发出清脆的响声",
+              "uncertain": false
+            },
+            {
+              "word": "radium",
+              "meaning": "镭",
+              "uncertain": false
+            },
+            {
+              "word": "prize",
+              "meaning": "奖，奖励，奖品",
+              "uncertain": false
+            },
+            {
+              "word": "lifetime",
+              "meaning": "一生，有生之年",
+              "uncertain": false
+            },
+            {
+              "word": "telegraph",
+              "meaning": "电报",
+              "uncertain": false
+            },
+            {
+              "word": "photographic",
+              "meaning": "摄影的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The page has no printed Unit/Lesson heading; all entries are assigned to unit=null.",
+        "The heading 'Topic 3 Now it is a symbol of England.' is a topic heading, not a numbered unit, so its entries are included in the unit=null block."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

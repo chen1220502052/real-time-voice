@@ -1,0 +1,1280 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页144.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "44bcf4e7bd580e417da781c9e994988c6984b75537b5087d2988cf9a77edf33d",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "anyone",
+              "meaning": "任何人",
+              "uncertain": false
+            },
+            {
+              "word": "unfair",
+              "meaning": "不公平的，不公正的",
+              "uncertain": false
+            },
+            {
+              "word": "though",
+              "meaning": "虽然；可是",
+              "uncertain": false
+            },
+            {
+              "word": "even though",
+              "meaning": "即使，尽管",
+              "uncertain": false
+            },
+            {
+              "word": "not … any longer = no longer",
+              "meaning": "不再",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "test",
+              "meaning": "测试，考查，试验",
+              "uncertain": false
+            },
+            {
+              "word": "nervous",
+              "meaning": "焦虑的，惶恐的；神经质的",
+              "uncertain": false
+            },
+            {
+              "word": "speech",
+              "meaning": "演讲",
+              "uncertain": false
+            },
+            {
+              "word": "CD",
+              "meaning": "光盘，激光唱片（全写为 compact disc）",
+              "uncertain": false
+            },
+            {
+              "word": "relaxed",
+              "meaning": "冷静的，镇定的",
+              "uncertain": false
+            },
+            {
+              "word": "rich",
+              "meaning": "油腻的；丰富的；富有的",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "生病的，有病的",
+              "uncertain": false
+            },
+            {
+              "word": "affect",
+              "meaning": "影响",
+              "uncertain": false
+            },
+            {
+              "word": "confident",
+              "meaning": "自信的，有信心的",
+              "uncertain": false
+            },
+            {
+              "word": "mood",
+              "meaning": "心情；情绪",
+              "uncertain": false
+            },
+            {
+              "word": "proud",
+              "meaning": "自豪的，骄傲的",
+              "uncertain": false
+            },
+            {
+              "word": "be proud of",
+              "meaning": "骄傲，自豪",
+              "uncertain": false
+            },
+            {
+              "word": "anyway",
+              "meaning": "尽管，即使这样",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "准备好的",
+              "uncertain": false
+            },
+            {
+              "word": "passport",
+              "meaning": "护照",
+              "uncertain": false
+            },
+            {
+              "word": "boss",
+              "meaning": "老板；领班",
+              "uncertain": false
+            },
+            {
+              "word": "grandson",
+              "meaning": "孙子，外孙",
+              "uncertain": false
+            },
+            {
+              "word": "environment",
+              "meaning": "环境",
+              "uncertain": false
+            },
+            {
+              "word": "especially",
+              "meaning": "特别，尤其；专门",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "充满，装满",
+              "uncertain": false
+            },
+            {
+              "word": "fill with sth.",
+              "meaning": "（使）充满，填满，装满",
+              "uncertain": false
+            },
+            {
+              "word": "trouble",
+              "meaning": "问题，困难，忧虑",
+              "uncertain": false
+            },
+            {
+              "word": "loud",
+              "meaning": "大声的，响亮的；大声地",
+              "uncertain": false
+            },
+            {
+              "word": "noise",
+              "meaning": "声音，响声，噪音，吵闹声",
+              "uncertain": false
+            },
+            {
+              "word": "spirit",
+              "meaning": "情绪，心境；精神",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "silent",
+              "meaning": "不说话的，沉默的",
+              "uncertain": false
+            },
+            {
+              "word": "think over",
+              "meaning": "仔细考虑",
+              "uncertain": false
+            },
+            {
+              "word": "decision",
+              "meaning": "决定",
+              "uncertain": false
+            },
+            {
+              "word": "make a decision",
+              "meaning": "作决定",
+              "uncertain": false
+            },
+            {
+              "word": "sense",
+              "meaning": "感觉，意识",
+              "uncertain": false
+            },
+            {
+              "word": "relaxing",
+              "meaning": "轻松的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "fantastic",
+              "meaning": "极好的，了不起的",
+              "uncertain": false
+            },
+            {
+              "word": "disappointment",
+              "meaning": "失望；沮丧；扫兴",
+              "uncertain": false
+            },
+            {
+              "word": "soft",
+              "meaning": "轻柔的；柔软的",
+              "uncertain": false
+            },
+            {
+              "word": "be in trouble",
+              "meaning": "有麻烦，处于困境",
+              "uncertain": false
+            },
+            {
+              "word": "fear",
+              "meaning": "害怕，惧怕",
+              "uncertain": false
+            },
+            {
+              "word": "difficulty",
+              "meaning": "困难，难题，困境",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "field",
+              "meaning": "田野，田地；场地",
+              "uncertain": false
+            },
+            {
+              "word": "proper",
+              "meaning": "正确的，恰当的",
+              "uncertain": false
+            },
+            {
+              "word": "mount",
+              "meaning": "山，山峰",
+              "uncertain": false
+            },
+            {
+              "word": "vehicle",
+              "meaning": "交通工具；车辆",
+              "uncertain": false
+            },
+            {
+              "word": "airline",
+              "meaning": "航空公司",
+              "uncertain": false
+            },
+            {
+              "word": "price",
+              "meaning": "价格，价钱",
+              "uncertain": false
+            },
+            {
+              "word": "total",
+              "meaning": "总的，全部的",
+              "uncertain": false
+            },
+            {
+              "word": "partner",
+              "meaning": "搭档，同伴",
+              "uncertain": false
+            },
+            {
+              "word": "sleeper",
+              "meaning": "卧铺列车",
+              "uncertain": false
+            },
+            {
+              "word": "pay",
+              "meaning": "付费，付酬",
+              "uncertain": false
+            },
+            {
+              "word": "hotel",
+              "meaning": "宾馆，旅馆，饭店",
+              "uncertain": false
+            },
+            {
+              "word": "fridge",
+              "meaning": "冰箱",
+              "uncertain": false
+            },
+            {
+              "word": "air conditioner",
+              "meaning": "空调",
+              "uncertain": false
+            },
+            {
+              "word": "standard",
+              "meaning": "标准的；标准",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "anyone",
+              "meaning": "任何人",
+              "uncertain": false
+            },
+            {
+              "word": "unfair",
+              "meaning": "不公平的，不公正的",
+              "uncertain": false
+            },
+            {
+              "word": "though",
+              "meaning": "虽然；可是",
+              "uncertain": false
+            },
+            {
+              "word": "even though",
+              "meaning": "即使，尽管",
+              "uncertain": false
+            },
+            {
+              "word": "not … any longer = no longer",
+              "meaning": "不再",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "test",
+              "meaning": "测试，考查，试验",
+              "uncertain": false
+            },
+            {
+              "word": "nervous",
+              "meaning": "焦虑的，惶恐的；神经质的",
+              "uncertain": false
+            },
+            {
+              "word": "speech",
+              "meaning": "演讲",
+              "uncertain": false
+            },
+            {
+              "word": "CD",
+              "meaning": "光盘，激光唱片（全写为 compact disc）",
+              "uncertain": false
+            },
+            {
+              "word": "relaxed",
+              "meaning": "冷静的，镇定的",
+              "uncertain": false
+            },
+            {
+              "word": "rich",
+              "meaning": "油腻的；丰富的；富有的",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "生病的，有病的",
+              "uncertain": false
+            },
+            {
+              "word": "affect",
+              "meaning": "影响",
+              "uncertain": false
+            },
+            {
+              "word": "confident",
+              "meaning": "自信的，有信心的",
+              "uncertain": false
+            },
+            {
+              "word": "mood",
+              "meaning": "心情；情绪",
+              "uncertain": false
+            },
+            {
+              "word": "proud",
+              "meaning": "自豪的，骄傲的",
+              "uncertain": false
+            },
+            {
+              "word": "be proud of",
+              "meaning": "骄傲，自豪",
+              "uncertain": false
+            },
+            {
+              "word": "anyway",
+              "meaning": "尽管，即使这样",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "准备好的",
+              "uncertain": false
+            },
+            {
+              "word": "passport",
+              "meaning": "护照",
+              "uncertain": false
+            },
+            {
+              "word": "boss",
+              "meaning": "老板；领班",
+              "uncertain": false
+            },
+            {
+              "word": "grandson",
+              "meaning": "孙子，外孙",
+              "uncertain": false
+            },
+            {
+              "word": "environment",
+              "meaning": "环境",
+              "uncertain": false
+            },
+            {
+              "word": "especially",
+              "meaning": "特别，尤其；专门",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "充满，装满",
+              "uncertain": false
+            },
+            {
+              "word": "fill with sth.",
+              "meaning": "（使）充满，填满，装满",
+              "uncertain": false
+            },
+            {
+              "word": "trouble",
+              "meaning": "问题，困难，忧虑",
+              "uncertain": false
+            },
+            {
+              "word": "loud",
+              "meaning": "大声的，响亮的；大声地",
+              "uncertain": false
+            },
+            {
+              "word": "noise",
+              "meaning": "声音，响声，噪音，吵闹声",
+              "uncertain": false
+            },
+            {
+              "word": "spirit",
+              "meaning": "情绪，心境；精神",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "silent",
+              "meaning": "不说话的，沉默的",
+              "uncertain": false
+            },
+            {
+              "word": "think over",
+              "meaning": "仔细考虑",
+              "uncertain": false
+            },
+            {
+              "word": "decision",
+              "meaning": "决定",
+              "uncertain": false
+            },
+            {
+              "word": "make a decision",
+              "meaning": "作决定",
+              "uncertain": false
+            },
+            {
+              "word": "sense",
+              "meaning": "感觉，意识",
+              "uncertain": false
+            },
+            {
+              "word": "relaxing",
+              "meaning": "轻松的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "fantastic",
+              "meaning": "极好的，了不起的",
+              "uncertain": false
+            },
+            {
+              "word": "disappointment",
+              "meaning": "失望；沮丧；扫兴",
+              "uncertain": false
+            },
+            {
+              "word": "soft",
+              "meaning": "轻柔的；柔软的",
+              "uncertain": false
+            },
+            {
+              "word": "be in trouble",
+              "meaning": "有麻烦，处于困境",
+              "uncertain": false
+            },
+            {
+              "word": "fear",
+              "meaning": "害怕，惧怕",
+              "uncertain": false
+            },
+            {
+              "word": "difficulty",
+              "meaning": "困难，难题，困境",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "field",
+              "meaning": "田野，田地；场地",
+              "uncertain": false
+            },
+            {
+              "word": "proper",
+              "meaning": "正确的，恰当的",
+              "uncertain": false
+            },
+            {
+              "word": "mount",
+              "meaning": "山，山峰",
+              "uncertain": false
+            },
+            {
+              "word": "vehicle",
+              "meaning": "交通工具；车辆",
+              "uncertain": false
+            },
+            {
+              "word": "airline",
+              "meaning": "航空公司",
+              "uncertain": false
+            },
+            {
+              "word": "price",
+              "meaning": "价格，价钱",
+              "uncertain": false
+            },
+            {
+              "word": "total",
+              "meaning": "总的，全部的",
+              "uncertain": false
+            },
+            {
+              "word": "partner",
+              "meaning": "搭档，同伴",
+              "uncertain": false
+            },
+            {
+              "word": "sleeper",
+              "meaning": "卧铺列车",
+              "uncertain": false
+            },
+            {
+              "word": "pay",
+              "meaning": "付费，付酬",
+              "uncertain": false
+            },
+            {
+              "word": "hotel",
+              "meaning": "宾馆，旅馆，饭店",
+              "uncertain": false
+            },
+            {
+              "word": "fridge",
+              "meaning": "冰箱",
+              "uncertain": false
+            },
+            {
+              "word": "air conditioner",
+              "meaning": "空调",
+              "uncertain": false
+            },
+            {
+              "word": "standard",
+              "meaning": "标准的；标准",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "35b7960da99d375a6d0d7b6bb64edc1080941e7d06f52f7776efcade965ea227",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "anyone",
+                  "meaning": "任何人",
+                  "uncertain": false
+                },
+                {
+                  "word": "unfair",
+                  "meaning": "不公平的,不公正的",
+                  "uncertain": false
+                },
+                {
+                  "word": "though",
+                  "meaning": "虽然;可是",
+                  "uncertain": false
+                },
+                {
+                  "word": "even though",
+                  "meaning": "即使,尽管",
+                  "uncertain": false
+                },
+                {
+                  "word": "not ... any longer",
+                  "meaning": "= no longer 不再",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "test",
+                  "meaning": "测试,考查,试验",
+                  "uncertain": false
+                },
+                {
+                  "word": "nervous",
+                  "meaning": "焦虑的,惶恐的;神经质的",
+                  "uncertain": false
+                },
+                {
+                  "word": "speech",
+                  "meaning": "演讲",
+                  "uncertain": false
+                },
+                {
+                  "word": "CD",
+                  "meaning": "光盘,激光唱片(全写为 compact disc)",
+                  "uncertain": false
+                },
+                {
+                  "word": "relaxed",
+                  "meaning": "冷静的,镇定的",
+                  "uncertain": false
+                },
+                {
+                  "word": "rich",
+                  "meaning": "油腻的;丰富的;富有的",
+                  "uncertain": false
+                },
+                {
+                  "word": "sick",
+                  "meaning": "生病的,有病的",
+                  "uncertain": false
+                },
+                {
+                  "word": "affect",
+                  "meaning": "影响",
+                  "uncertain": false
+                },
+                {
+                  "word": "confident",
+                  "meaning": "自信的,有信心的",
+                  "uncertain": false
+                },
+                {
+                  "word": "mood",
+                  "meaning": "心情;情绪",
+                  "uncertain": false
+                },
+                {
+                  "word": "proud",
+                  "meaning": "自豪的,骄傲的",
+                  "uncertain": false
+                },
+                {
+                  "word": "be proud of",
+                  "meaning": "骄傲,自豪",
+                  "uncertain": false
+                },
+                {
+                  "word": "anyway",
+                  "meaning": "尽管,即使这样",
+                  "uncertain": false
+                },
+                {
+                  "word": "ready",
+                  "meaning": "准备好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "passport",
+                  "meaning": "护照",
+                  "uncertain": false
+                },
+                {
+                  "word": "boss",
+                  "meaning": "老板;领班",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandson",
+                  "meaning": "孙子,外孙",
+                  "uncertain": false
+                },
+                {
+                  "word": "environment",
+                  "meaning": "环境",
+                  "uncertain": false
+                },
+                {
+                  "word": "especially",
+                  "meaning": "特别,尤其;专门",
+                  "uncertain": false
+                },
+                {
+                  "word": "fill",
+                  "meaning": "充满,装满",
+                  "uncertain": false
+                },
+                {
+                  "word": "fill with sth.",
+                  "meaning": "(使)充满,填满,装满",
+                  "uncertain": false
+                },
+                {
+                  "word": "trouble",
+                  "meaning": "问题,困难,忧虑",
+                  "uncertain": false
+                },
+                {
+                  "word": "loud",
+                  "meaning": "大声的,响亮的;大声地",
+                  "uncertain": false
+                },
+                {
+                  "word": "noise",
+                  "meaning": "声音,响声,噪音,吵闹声",
+                  "uncertain": false
+                },
+                {
+                  "word": "spirit",
+                  "meaning": "情绪,心境;精神",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "anyone",
+                  "meaning": "任何人",
+                  "uncertain": false
+                },
+                {
+                  "word": "unfair",
+                  "meaning": "不公平的,不公正的",
+                  "uncertain": false
+                },
+                {
+                  "word": "though",
+                  "meaning": "虽然;可是",
+                  "uncertain": false
+                },
+                {
+                  "word": "even though",
+                  "meaning": "即使,尽管",
+                  "uncertain": false
+                },
+                {
+                  "word": "not ... any longer",
+                  "meaning": "= no longer 不再",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "test",
+                  "meaning": "测试,考查,试验",
+                  "uncertain": false
+                },
+                {
+                  "word": "nervous",
+                  "meaning": "焦虑的,惶恐的;神经质的",
+                  "uncertain": false
+                },
+                {
+                  "word": "speech",
+                  "meaning": "演讲",
+                  "uncertain": false
+                },
+                {
+                  "word": "CD",
+                  "meaning": "光盘,激光唱片(全写为 compact disc)",
+                  "uncertain": false
+                },
+                {
+                  "word": "relaxed",
+                  "meaning": "冷静的,镇定的",
+                  "uncertain": false
+                },
+                {
+                  "word": "rich",
+                  "meaning": "油腻的;丰富的;富有的",
+                  "uncertain": false
+                },
+                {
+                  "word": "sick",
+                  "meaning": "生病的,有病的",
+                  "uncertain": false
+                },
+                {
+                  "word": "affect",
+                  "meaning": "影响",
+                  "uncertain": false
+                },
+                {
+                  "word": "confident",
+                  "meaning": "自信的,有信心的",
+                  "uncertain": false
+                },
+                {
+                  "word": "mood",
+                  "meaning": "心情;情绪",
+                  "uncertain": false
+                },
+                {
+                  "word": "proud",
+                  "meaning": "自豪的,骄傲的",
+                  "uncertain": false
+                },
+                {
+                  "word": "be proud of",
+                  "meaning": "骄傲,自豪",
+                  "uncertain": false
+                },
+                {
+                  "word": "anyway",
+                  "meaning": "尽管,即使这样",
+                  "uncertain": false
+                },
+                {
+                  "word": "ready",
+                  "meaning": "准备好的",
+                  "uncertain": false
+                },
+                {
+                  "word": "passport",
+                  "meaning": "护照",
+                  "uncertain": false
+                },
+                {
+                  "word": "boss",
+                  "meaning": "老板;领班",
+                  "uncertain": false
+                },
+                {
+                  "word": "grandson",
+                  "meaning": "孙子,外孙",
+                  "uncertain": false
+                },
+                {
+                  "word": "environment",
+                  "meaning": "环境",
+                  "uncertain": false
+                },
+                {
+                  "word": "especially",
+                  "meaning": "特别,尤其;专门",
+                  "uncertain": false
+                },
+                {
+                  "word": "fill",
+                  "meaning": "充满,装满",
+                  "uncertain": false
+                },
+                {
+                  "word": "fill with sth.",
+                  "meaning": "(使)充满,填满,装满",
+                  "uncertain": false
+                },
+                {
+                  "word": "trouble",
+                  "meaning": "问题,困难,忧虑",
+                  "uncertain": false
+                },
+                {
+                  "word": "loud",
+                  "meaning": "大声的,响亮的;大声地",
+                  "uncertain": false
+                },
+                {
+                  "word": "noise",
+                  "meaning": "声音,响声,噪音,吵闹声",
+                  "uncertain": false
+                },
+                {
+                  "word": "spirit",
+                  "meaning": "情绪,心境;精神",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "5dd3bd9301fe555ce6fbfc68bcf8da54a083a62944bfe9a98877a04c1c18b9d1",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "silent",
+                  "meaning": "不说话的，沉默的",
+                  "uncertain": false
+                },
+                {
+                  "word": "think over",
+                  "meaning": "仔细考虑",
+                  "uncertain": false
+                },
+                {
+                  "word": "decision",
+                  "meaning": "n.决定",
+                  "uncertain": false
+                },
+                {
+                  "word": "make a decision",
+                  "meaning": "作决定",
+                  "uncertain": false
+                },
+                {
+                  "word": "sense",
+                  "meaning": "n.感觉，意识",
+                  "uncertain": false
+                },
+                {
+                  "word": "relaxing",
+                  "meaning": "adj.轻松的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "fantastic",
+                  "meaning": "adj.极好的，了不起的",
+                  "uncertain": false
+                },
+                {
+                  "word": "disappointment",
+                  "meaning": "n.失望；沮丧；扫兴",
+                  "uncertain": false
+                },
+                {
+                  "word": "soft",
+                  "meaning": "adj.轻柔的；柔软的",
+                  "uncertain": false
+                },
+                {
+                  "word": "be in trouble",
+                  "meaning": "有麻烦，处于困境",
+                  "uncertain": false
+                },
+                {
+                  "word": "fear",
+                  "meaning": "n.& v.害怕，惧怕",
+                  "uncertain": false
+                },
+                {
+                  "word": "difficulty",
+                  "meaning": "n.困难，难题，困境",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 6,
+              "entries": [
+                {
+                  "word": "field",
+                  "meaning": "n.田野，田地；场地",
+                  "uncertain": false
+                },
+                {
+                  "word": "proper",
+                  "meaning": "adj.正确的，恰当的",
+                  "uncertain": false
+                },
+                {
+                  "word": "mount",
+                  "meaning": "n.山，山峰",
+                  "uncertain": false
+                },
+                {
+                  "word": "vehicle",
+                  "meaning": "n.交通工具；车辆",
+                  "uncertain": false
+                },
+                {
+                  "word": "airline",
+                  "meaning": "n.航空公司",
+                  "uncertain": false
+                },
+                {
+                  "word": "price",
+                  "meaning": "n.价格，价钱",
+                  "uncertain": false
+                },
+                {
+                  "word": "total",
+                  "meaning": "adj.总的，全部的",
+                  "uncertain": false
+                },
+                {
+                  "word": "partner",
+                  "meaning": "n.搭档，同伴",
+                  "uncertain": false
+                },
+                {
+                  "word": "sleeper",
+                  "meaning": "n.卧铺列车",
+                  "uncertain": false
+                },
+                {
+                  "word": "pay",
+                  "meaning": "v.付费，付酬",
+                  "uncertain": false
+                },
+                {
+                  "word": "hotel",
+                  "meaning": "n.宾馆，旅馆，饭店",
+                  "uncertain": false
+                },
+                {
+                  "word": "fridge",
+                  "meaning": "n.冰箱",
+                  "uncertain": false
+                },
+                {
+                  "word": "air conditioner",
+                  "meaning": "n.空调",
+                  "uncertain": false
+                },
+                {
+                  "word": "standard",
+                  "meaning": "adj.标准的 n.标准",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "silent",
+                  "meaning": "adj.不说话的，沉默的",
+                  "uncertain": false
+                },
+                {
+                  "word": "think over",
+                  "meaning": "仔细考虑",
+                  "uncertain": false
+                },
+                {
+                  "word": "decision",
+                  "meaning": "n.决定",
+                  "uncertain": false
+                },
+                {
+                  "word": "make a decision",
+                  "meaning": "作决定",
+                  "uncertain": false
+                },
+                {
+                  "word": "sense",
+                  "meaning": "n.感觉，意识",
+                  "uncertain": false
+                },
+                {
+                  "word": "relaxing",
+                  "meaning": "adj.轻松的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "fantastic",
+                  "meaning": "adj.极好的，了不起的",
+                  "uncertain": false
+                },
+                {
+                  "word": "disappointment",
+                  "meaning": "n.失望；沮丧；扫兴",
+                  "uncertain": false
+                },
+                {
+                  "word": "soft",
+                  "meaning": "adj.轻柔的；柔软的",
+                  "uncertain": false
+                },
+                {
+                  "word": "be in trouble",
+                  "meaning": "有麻烦，处于困境",
+                  "uncertain": false
+                },
+                {
+                  "word": "fear",
+                  "meaning": "n.& v.害怕，惧怕",
+                  "uncertain": false
+                },
+                {
+                  "word": "difficulty",
+                  "meaning": "n.困难，难题，困境",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 6,
+              "entries": [
+                {
+                  "word": "field",
+                  "meaning": "n.田野，田地；场地",
+                  "uncertain": false
+                },
+                {
+                  "word": "proper",
+                  "meaning": "adj.正确的，恰当的",
+                  "uncertain": false
+                },
+                {
+                  "word": "mount",
+                  "meaning": "n.山，山峰",
+                  "uncertain": false
+                },
+                {
+                  "word": "vehicle",
+                  "meaning": "n.交通工具；车辆",
+                  "uncertain": false
+                },
+                {
+                  "word": "airline",
+                  "meaning": "n.航空公司",
+                  "uncertain": false
+                },
+                {
+                  "word": "price",
+                  "meaning": "n.价格，价钱",
+                  "uncertain": false
+                },
+                {
+                  "word": "total",
+                  "meaning": "adj.总的，全部的",
+                  "uncertain": false
+                },
+                {
+                  "word": "partner",
+                  "meaning": "n.搭档，同伴",
+                  "uncertain": false
+                },
+                {
+                  "word": "sleeper",
+                  "meaning": "n.卧铺列车",
+                  "uncertain": false
+                },
+                {
+                  "word": "pay",
+                  "meaning": "v.付费，付酬",
+                  "uncertain": false
+                },
+                {
+                  "word": "hotel",
+                  "meaning": "n.宾馆，旅馆，饭店",
+                  "uncertain": false
+                },
+                {
+                  "word": "fridge",
+                  "meaning": "n.冰箱",
+                  "uncertain": false
+                },
+                {
+                  "word": "air conditioner",
+                  "meaning": "n.空调",
+                  "uncertain": false
+                },
+                {
+                  "word": "standard",
+                  "meaning": "adj.标准的 n.标准",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

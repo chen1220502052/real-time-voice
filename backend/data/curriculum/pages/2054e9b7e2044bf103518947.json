@@ -1,0 +1,147 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/03_03_教材页面_4b721923c5.png",
+  "units": [
+    3
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "2054e9b7e2044bf1035189470fc7bef70d2ac794ae14e910c047c82e427e02b0",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "out",
+              "meaning": "(拿)出，在室外",
+              "uncertain": false
+            },
+            {
+              "word": "rubbish",
+              "meaning": "垃圾",
+              "uncertain": false
+            },
+            {
+              "word": "feed",
+              "meaning": "喂养，饲养",
+              "uncertain": false
+            },
+            {
+              "word": "dish",
+              "meaning": "盘子",
+              "uncertain": false
+            },
+            {
+              "word": "make the bed",
+              "meaning": "铺床",
+              "uncertain": false
+            },
+            {
+              "word": "sweep",
+              "meaning": "打扫，清除",
+              "uncertain": false
+            },
+            {
+              "word": "chore",
+              "meaning": "家务劳动，杂物",
+              "uncertain": false
+            },
+            {
+              "word": "how often",
+              "meaning": "多久一次",
+              "uncertain": false
+            },
+            {
+              "word": "twice",
+              "meaning": "两次",
+              "uncertain": false
+            },
+            {
+              "word": "once",
+              "meaning": "一次",
+              "uncertain": false
+            },
+            {
+              "word": "live",
+              "meaning": "居住，生活",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "out",
+              "meaning": "(拿)出，在室外",
+              "uncertain": false
+            },
+            {
+              "word": "rubbish",
+              "meaning": "垃圾",
+              "uncertain": false
+            },
+            {
+              "word": "feed",
+              "meaning": "喂养，饲养",
+              "uncertain": false
+            },
+            {
+              "word": "dish",
+              "meaning": "盘子",
+              "uncertain": false
+            },
+            {
+              "word": "make the bed",
+              "meaning": "铺床",
+              "uncertain": false
+            },
+            {
+              "word": "sweep",
+              "meaning": "打扫，清除",
+              "uncertain": false
+            },
+            {
+              "word": "chore",
+              "meaning": "家务劳动，杂物",
+              "uncertain": false
+            },
+            {
+              "word": "how often",
+              "meaning": "多久一次",
+              "uncertain": false
+            },
+            {
+              "word": "twice",
+              "meaning": "两次",
+              "uncertain": false
+            },
+            {
+              "word": "once",
+              "meaning": "一次",
+              "uncertain": false
+            },
+            {
+              "word": "live",
+              "meaning": "居住，生活",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

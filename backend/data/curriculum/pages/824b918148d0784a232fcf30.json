@@ -1,0 +1,335 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页150.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "824b918148d0784a232fcf307e6e551a0cb3a9e5b556fc16761ecef2da123252",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "similar",
+              "meaning": "类似的,相像的",
+              "uncertain": false
+            },
+            {
+              "word": "dressing",
+              "meaning": "n.穿戴,穿衣",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "catwalk",
+              "meaning": "n.(时装表演时供模特用的)狭长表演台,T形台",
+              "uncertain": false
+            },
+            {
+              "word": "qipao",
+              "meaning": "n.旗袍",
+              "uncertain": false
+            },
+            {
+              "word": "traditional",
+              "meaning": "adj.传统的;惯例的",
+              "uncertain": false
+            },
+            {
+              "word": "Mongolian",
+              "meaning": "n.蒙古人",
+              "uncertain": false
+            },
+            {
+              "word": "minority",
+              "meaning": "n.少数民族;少数",
+              "uncertain": false
+            },
+            {
+              "word": "Korean",
+              "meaning": "adj.朝鲜人的;韩国人的",
+              "uncertain": false
+            },
+            {
+              "word": "decoration",
+              "meaning": "n.装饰,修饰",
+              "uncertain": false
+            },
+            {
+              "word": "knot",
+              "meaning": "n.(用绳索等打的)结,装饰性花结",
+              "uncertain": false
+            },
+            {
+              "word": "dynasty",
+              "meaning": "n.王朝,朝代",
+              "uncertain": false
+            },
+            {
+              "word": "from then on",
+              "meaning": "从那时起",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Asian",
+              "meaning": "adj.亚洲的,亚洲人的 n.亚洲人",
+              "uncertain": false
+            },
+            {
+              "word": "personal",
+              "meaning": "adj.个人的,私人的",
+              "uncertain": false
+            },
+            {
+              "word": "attractive",
+              "meaning": "adj.迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "western-style",
+              "meaning": "adj.西方款式的",
+              "uncertain": false
+            },
+            {
+              "word": "express",
+              "meaning": "v.表达;表示;表露",
+              "uncertain": false
+            },
+            {
+              "word": "above",
+              "meaning": "adv.在(或向)上面 prep.在……上面",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "v.列清单,把……列表 n.一览表;名单",
+              "uncertain": false
+            },
+            {
+              "word": "well-known",
+              "meaning": "adj.众所周知的,著名的",
+              "uncertain": false
+            },
+            {
+              "word": "item",
+              "meaning": "n.一件商品(物品);项目",
+              "uncertain": false
+            },
+            {
+              "word": "choice",
+              "meaning": "n.选择;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "marriage",
+              "meaning": "n.结婚,婚姻",
+              "uncertain": false
+            },
+            {
+              "word": "celebration",
+              "meaning": "n.庆祝;庆祝会",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "saleswoman",
+              "meaning": "n.女售货员",
+              "uncertain": false
+            },
+            {
+              "word": "mix",
+              "meaning": "v.混合,掺和",
+              "uncertain": false
+            },
+            {
+              "word": "as a result",
+              "meaning": "(作为)结果",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "similar",
+              "meaning": "adj.类似的,相像的",
+              "uncertain": false
+            },
+            {
+              "word": "dressing",
+              "meaning": "n.穿戴,穿衣",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "catwalk",
+              "meaning": "n.(时装表演时供模特用的)狭长表演台,T形台",
+              "uncertain": false
+            },
+            {
+              "word": "qipao",
+              "meaning": "n.旗袍",
+              "uncertain": false
+            },
+            {
+              "word": "traditional",
+              "meaning": "adj.传统的;惯例的",
+              "uncertain": false
+            },
+            {
+              "word": "Mongolian",
+              "meaning": "n.蒙古人",
+              "uncertain": false
+            },
+            {
+              "word": "minority",
+              "meaning": "n.少数民族;少数",
+              "uncertain": false
+            },
+            {
+              "word": "Korean",
+              "meaning": "adj.朝鲜人的;韩国人的",
+              "uncertain": false
+            },
+            {
+              "word": "decoration",
+              "meaning": "n.装饰,修饰",
+              "uncertain": false
+            },
+            {
+              "word": "knot",
+              "meaning": "n.(用绳索等打的)结,装饰性花结",
+              "uncertain": false
+            },
+            {
+              "word": "dynasty",
+              "meaning": "n.王朝,朝代",
+              "uncertain": false
+            },
+            {
+              "word": "from then on",
+              "meaning": "从那时起",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Asian",
+              "meaning": "adj.亚洲的,亚洲人的 n.亚洲人",
+              "uncertain": false
+            },
+            {
+              "word": "personal",
+              "meaning": "adj.个人的,私人的",
+              "uncertain": false
+            },
+            {
+              "word": "attractive",
+              "meaning": "adj.迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "western-style",
+              "meaning": "adj.西方款式的",
+              "uncertain": false
+            },
+            {
+              "word": "express",
+              "meaning": "v.表达;表示;表露",
+              "uncertain": false
+            },
+            {
+              "word": "above",
+              "meaning": "adv.在(或向)上面 prep.在……上面",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "v.列清单,把……列表 n.一览表;名单",
+              "uncertain": false
+            },
+            {
+              "word": "well-known",
+              "meaning": "adj.众所周知的,著名的",
+              "uncertain": false
+            },
+            {
+              "word": "item",
+              "meaning": "n.一件商品(物品);项目",
+              "uncertain": false
+            },
+            {
+              "word": "choice",
+              "meaning": "n.选择;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "marriage",
+              "meaning": "n.结婚,婚姻",
+              "uncertain": false
+            },
+            {
+              "word": "celebration",
+              "meaning": "n.庆祝;庆祝会",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "saleswoman",
+              "meaning": "n.女售货员",
+              "uncertain": false
+            },
+            {
+              "word": "mix",
+              "meaning": "v.混合,掺和",
+              "uncertain": false
+            },
+            {
+              "word": "as a result",
+              "meaning": "(作为)结果",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

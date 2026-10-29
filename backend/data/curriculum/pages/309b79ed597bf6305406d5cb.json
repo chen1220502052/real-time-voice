@@ -1,0 +1,237 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/03_03_教材页面_b3dcc497c6.jpg",
+  "units": [
+    3
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "309b79ed597bf6305406d5cb7220ed8014550f7cbc23a785e16e8660cfac6a43",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "scared",
+              "meaning": "害怕的",
+              "uncertain": false
+            },
+            {
+              "word": "excited",
+              "meaning": "兴奋的",
+              "uncertain": false
+            },
+            {
+              "word": "angry",
+              "meaning": "生气的",
+              "uncertain": false
+            },
+            {
+              "word": "beach",
+              "meaning": "海滩",
+              "uncertain": false
+            },
+            {
+              "word": "burn",
+              "meaning": "晒伤",
+              "uncertain": false
+            },
+            {
+              "word": "forest",
+              "meaning": "森林",
+              "uncertain": false
+            },
+            {
+              "word": "happen",
+              "meaning": "发生",
+              "uncertain": false
+            },
+            {
+              "word": "fresh",
+              "meaning": "新鲜的，淡的",
+              "uncertain": false
+            },
+            {
+              "word": "large",
+              "meaning": "大的",
+              "uncertain": false
+            },
+            {
+              "word": "run away",
+              "meaning": "逃跑",
+              "uncertain": false
+            },
+            {
+              "word": "keep out",
+              "meaning": "不要进入",
+              "uncertain": false
+            },
+            {
+              "word": "all over",
+              "meaning": "遍及",
+              "uncertain": false
+            },
+            {
+              "word": "still",
+              "meaning": "仍然",
+              "uncertain": false
+            },
+            {
+              "word": "through",
+              "meaning": "通过",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞",
+              "uncertain": false
+            },
+            {
+              "word": "joy",
+              "meaning": "高兴",
+              "uncertain": false
+            },
+            {
+              "word": "again",
+              "meaning": "再次",
+              "uncertain": false
+            },
+            {
+              "word": "pull down",
+              "meaning": "拆掉",
+              "uncertain": false
+            },
+            {
+              "word": "will",
+              "meaning": "将，将要",
+              "uncertain": false
+            },
+            {
+              "word": "son",
+              "meaning": "儿子",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "scared",
+              "meaning": "害怕的",
+              "uncertain": false
+            },
+            {
+              "word": "excited",
+              "meaning": "兴奋的",
+              "uncertain": false
+            },
+            {
+              "word": "angry",
+              "meaning": "生气的",
+              "uncertain": false
+            },
+            {
+              "word": "beach",
+              "meaning": "海滩",
+              "uncertain": false
+            },
+            {
+              "word": "burn",
+              "meaning": "晒伤",
+              "uncertain": false
+            },
+            {
+              "word": "forest",
+              "meaning": "森林",
+              "uncertain": false
+            },
+            {
+              "word": "happen",
+              "meaning": "发生",
+              "uncertain": false
+            },
+            {
+              "word": "fresh",
+              "meaning": "新鲜的，淡的",
+              "uncertain": false
+            },
+            {
+              "word": "large",
+              "meaning": "大的",
+              "uncertain": false
+            },
+            {
+              "word": "run away",
+              "meaning": "逃跑",
+              "uncertain": false
+            },
+            {
+              "word": "keep out",
+              "meaning": "不要进入",
+              "uncertain": false
+            },
+            {
+              "word": "all over",
+              "meaning": "遍及",
+              "uncertain": false
+            },
+            {
+              "word": "still",
+              "meaning": "仍然",
+              "uncertain": false
+            },
+            {
+              "word": "through",
+              "meaning": "通过",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞",
+              "uncertain": false
+            },
+            {
+              "word": "joy",
+              "meaning": "高兴",
+              "uncertain": false
+            },
+            {
+              "word": "again",
+              "meaning": "再次",
+              "uncertain": false
+            },
+            {
+              "word": "pull down",
+              "meaning": "拆掉",
+              "uncertain": false
+            },
+            {
+              "word": "will",
+              "meaning": "将，将要",
+              "uncertain": false
+            },
+            {
+              "word": "son",
+              "meaning": "儿子",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

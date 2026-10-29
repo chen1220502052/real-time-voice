@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <script src="/account-context.js"></script>
+  <script src="/account.js"></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fffef9"><meta name="description" content="猫猫英语：从词句到听读，再到开口表达。跟着猫猫，每天学会一点。">
+  <title>猫猫英语 · 今天，也学会一点</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/learning.css">
+  <script src="/learning-data.js" defer></script><script src="/learning-store.js" defer></script><script src="/course-selection.js?v=20261023-course-context" defer></script><script src="/learning.js?v=20261023-course-context" defer></script>
+  <link rel="stylesheet" href="/theme.css?v=20261023-dialogue-buttons-r3">
+</head>
+<body>
+  <aside class="sidebar">
+    <a href="#today" class="brand"><span class="brand-cat"><img class="brand-mascot" src="/kitty.svg" alt=""></span><span>猫猫英语<small>KITTY ENGLISH</small></span></a>
+    <div class="workspace-label">我的学习空间</div>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#today" data-nav="today"><span data-icon="sun"></span>今日学习</a>
+      <a href="#course" data-nav="course"><span data-icon="book"></span>我的课程</a>
+      <a href="#practice" data-nav="practice"><span data-icon="activity"></span>专项练习</a>
+      <a href="#profile" data-nav="profile"><span data-icon="user"></span>学习记录</a>
+    </nav>
+    <div class="sidebar-note"><span class="tiny-star">✦</span><b>每一步，都算数。</b><p>学一点，练一练，<br>让英语成为自己的表达。</p></div>
+    <div class="student"><span class="student-avatar">K</span><div><b>小小探索家</b><small>本机学习档案</small></div><span class="online-dot"></span></div>
+  </aside>
+  <div class="app-shell">
+    <header class="app-header"><div class="breadcrumb" id="breadcrumb">我的学习空间 / 今日学习</div><div class="header-meta"><button class="edition course-switch" id="courseSwitch" type="button" aria-haspopup="dialog"><span id="selectedCourseLabel">六年级 · 分级拓展</span><span class="switch-caption">切换课程⌄</span></button><span class="profile-dot">K</span></div></header>
+    <main id="app" tabindex="-1"></main>
+    <footer class="app-footer">一点点积累，一步步表达。<span>猫猫英语 · 样板课程</span></footer>
+  </div>
+  <dialog id="courseDialog" class="course-dialog" aria-labelledby="courseDialogTitle"></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><p>请启用 JavaScript 以学习课程和保存学习进度。<a href="/practice.html">教材录音入口</a></p></noscript>
+</body>
+</html>

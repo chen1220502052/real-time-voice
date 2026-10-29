@@ -1,0 +1,565 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页145.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "4475a054fd2587b21bf9e8bb220f0a6bab5ad8c36f2989c4fe105fcff5e0434e",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "forest",
+              "meaning": "森林;林区",
+              "uncertain": false
+            },
+            {
+              "word": "north",
+              "meaning": "北方的  n.北方",
+              "uncertain": false
+            },
+            {
+              "word": "fish",
+              "meaning": "鱼;鱼肉  v.钓鱼;捕鱼",
+              "uncertain": false
+            },
+            {
+              "word": "think",
+              "meaning": "v.认为;思考;想",
+              "uncertain": false
+            },
+            {
+              "word": "these",
+              "meaning": "det.这些",
+              "uncertain": false
+            },
+            {
+              "word": "grow",
+              "meaning": "v.(使)生长;增加;成长",
+              "uncertain": false
+            },
+            {
+              "word": "May",
+              "meaning": "n.五月",
+              "uncertain": false
+            },
+            {
+              "word": "June",
+              "meaning": "n.六月",
+              "uncertain": false
+            },
+            {
+              "word": "green",
+              "meaning": "adj.绿色的  n.绿色",
+              "uncertain": false
+            },
+            {
+              "word": "plenty",
+              "meaning": "pron.大量;充足",
+              "uncertain": false
+            },
+            {
+              "word": "few",
+              "meaning": "det., adj.有些,几个;很少  pron.一些",
+              "uncertain": false
+            },
+            {
+              "word": "wonder",
+              "meaning": "n.奇迹  v.想知道",
+              "uncertain": false
+            },
+            {
+              "word": "main",
+              "meaning": "adj.主要的",
+              "uncertain": false
+            },
+            {
+              "word": "difference",
+              "meaning": "n.差别;差异",
+              "uncertain": false
+            },
+            {
+              "word": "horse",
+              "meaning": "n.马",
+              "uncertain": false
+            },
+            {
+              "word": "drink",
+              "meaning": "v.喝;饮  n.饮料",
+              "uncertain": false
+            },
+            {
+              "word": "earth",
+              "meaning": "n.土,泥土;地球",
+              "uncertain": false
+            },
+            {
+              "word": "egg",
+              "meaning": "n.鸡蛋;蛋,卵",
+              "uncertain": false
+            },
+            {
+              "word": "cow",
+              "meaning": "n.奶牛;母牛",
+              "uncertain": false
+            },
+            {
+              "word": "map",
+              "meaning": "n.地图",
+              "uncertain": false
+            },
+            {
+              "word": "apple",
+              "meaning": "n.苹果",
+              "uncertain": false
+            },
+            {
+              "word": "sky",
+              "meaning": "n.天;天空",
+              "uncertain": false
+            },
+            {
+              "word": "windy",
+              "meaning": "adj.多风的;风大的",
+              "uncertain": false
+            },
+            {
+              "word": "kite",
+              "meaning": "n.风筝",
+              "uncertain": false
+            },
+            {
+              "word": "orange",
+              "meaning": "adj.橙红色的;橘黄色的  n.橙子;橙红色;橘黄色",
+              "uncertain": false
+            },
+            {
+              "word": "bee",
+              "meaning": "n.蜜蜂",
+              "uncertain": false
+            },
+            {
+              "word": "shark",
+              "meaning": "n.鲨鱼",
+              "uncertain": false
+            },
+            {
+              "word": "climb",
+              "meaning": "v.攀登;爬",
+              "uncertain": false
+            },
+            {
+              "word": "monkey",
+              "meaning": "n.猴子",
+              "uncertain": false
+            },
+            {
+              "word": "butterfly",
+              "meaning": "n.蝴蝶",
+              "uncertain": false
+            },
+            {
+              "word": "duck",
+              "meaning": "n.鸭;鸭肉",
+              "uncertain": false
+            },
+            {
+              "word": "call",
+              "meaning": "v.大声呼叫;把……叫作;(给……)打电话  n.通话",
+              "uncertain": false
+            },
+            {
+              "word": "understand",
+              "meaning": "v.理解;了解",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "wild",
+              "meaning": "adj.野生的;荒凉的",
+              "uncertain": false
+            },
+            {
+              "word": "rest",
+              "meaning": "n.休息时间;其余",
+              "uncertain": false
+            },
+            {
+              "word": "under",
+              "meaning": "prep.在……下面",
+              "uncertain": false
+            },
+            {
+              "word": "bring",
+              "meaning": "v.带来",
+              "uncertain": false
+            },
+            {
+              "word": "importance",
+              "meaning": "n.重要性;重要",
+              "uncertain": false
+            },
+            {
+              "word": "fresh",
+              "meaning": "adj.清新的;新鲜的",
+              "uncertain": false
+            },
+            {
+              "word": "everyday",
+              "meaning": "adj.每天的;日常的",
+              "uncertain": false
+            },
+            {
+              "word": "milk",
+              "meaning": "n.(牛或羊等的)奶",
+              "uncertain": false
+            },
+            {
+              "word": "south",
+              "meaning": "n.南方  adj.南方的",
+              "uncertain": false
+            },
+            {
+              "word": "will",
+              "meaning": "modal v.(谈及将来);会",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "world",
+              "meaning": "n.世界",
+              "uncertain": false
+            },
+            {
+              "word": "healthy",
+              "meaning": "adj.健康的",
+              "uncertain": false
+            },
+            {
+              "word": "fire",
+              "meaning": "n.火;火灾",
+              "uncertain": false
+            },
+            {
+              "word": "noodle",
+              "meaning": "n.面条",
+              "uncertain": false
+            },
+            {
+              "word": "dumpling",
+              "meaning": "n.饺子",
+              "uncertain": false
+            },
+            {
+              "word": "river",
+              "meaning": "n.河;江",
+              "uncertain": false
+            },
+            {
+              "word": "vegetable",
+              "meaning": "n.蔬菜",
+              "uncertain": false
+            },
+            {
+              "word": "rice",
+              "meaning": "n.大米",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "forest",
+              "meaning": "n.森林;林区",
+              "uncertain": false
+            },
+            {
+              "word": "north",
+              "meaning": "adj.北方的 n.北方",
+              "uncertain": false
+            },
+            {
+              "word": "fish",
+              "meaning": "n.鱼;鱼肉 v.钓鱼;捕鱼",
+              "uncertain": false
+            },
+            {
+              "word": "think",
+              "meaning": "v.认为;思考;想",
+              "uncertain": false
+            },
+            {
+              "word": "these",
+              "meaning": "det.这些",
+              "uncertain": false
+            },
+            {
+              "word": "grow",
+              "meaning": "v.(使)生长;增加;成长",
+              "uncertain": false
+            },
+            {
+              "word": "May",
+              "meaning": "n.五月",
+              "uncertain": false
+            },
+            {
+              "word": "June",
+              "meaning": "n.六月",
+              "uncertain": false
+            },
+            {
+              "word": "green",
+              "meaning": "adj.绿色的 n.绿色",
+              "uncertain": false
+            },
+            {
+              "word": "plenty",
+              "meaning": "pron.大量;充足",
+              "uncertain": false
+            },
+            {
+              "word": "few",
+              "meaning": "det., adj.有些,几个;很少 pron.一些",
+              "uncertain": false
+            },
+            {
+              "word": "wonder",
+              "meaning": "n.奇迹 v.想知道",
+              "uncertain": false
+            },
+            {
+              "word": "main",
+              "meaning": "adj.主要的",
+              "uncertain": false
+            },
+            {
+              "word": "difference",
+              "meaning": "n.差别;差异",
+              "uncertain": false
+            },
+            {
+              "word": "horse",
+              "meaning": "n.马",
+              "uncertain": false
+            },
+            {
+              "word": "drink",
+              "meaning": "v.喝;饮 n.饮料",
+              "uncertain": false
+            },
+            {
+              "word": "earth",
+              "meaning": "n.土,泥土;地球",
+              "uncertain": false
+            },
+            {
+              "word": "egg",
+              "meaning": "n.鸡蛋;蛋,卵",
+              "uncertain": false
+            },
+            {
+              "word": "cow",
+              "meaning": "n.奶牛;母牛",
+              "uncertain": false
+            },
+            {
+              "word": "map",
+              "meaning": "n.地图",
+              "uncertain": false
+            },
+            {
+              "word": "apple",
+              "meaning": "n.苹果",
+              "uncertain": false
+            },
+            {
+              "word": "sky",
+              "meaning": "n.天;天空",
+              "uncertain": false
+            },
+            {
+              "word": "windy",
+              "meaning": "adj.多风的;风大的",
+              "uncertain": false
+            },
+            {
+              "word": "kite",
+              "meaning": "n.风筝",
+              "uncertain": false
+            },
+            {
+              "word": "orange",
+              "meaning": "adj.橙红色的;橘黄色的 n.橙子;橙红色;橘黄色",
+              "uncertain": false
+            },
+            {
+              "word": "bee",
+              "meaning": "n.蜜蜂",
+              "uncertain": false
+            },
+            {
+              "word": "shark",
+              "meaning": "n.鲨鱼",
+              "uncertain": false
+            },
+            {
+              "word": "climb",
+              "meaning": "v.攀登;爬",
+              "uncertain": false
+            },
+            {
+              "word": "monkey",
+              "meaning": "n.猴子",
+              "uncertain": false
+            },
+            {
+              "word": "butterfly",
+              "meaning": "n.蝴蝶",
+              "uncertain": false
+            },
+            {
+              "word": "duck",
+              "meaning": "n.鸭;鸭肉",
+              "uncertain": false
+            },
+            {
+              "word": "call",
+              "meaning": "v.大声呼叫;把……叫作;(给……)打电话 n.通话",
+              "uncertain": false
+            },
+            {
+              "word": "understand",
+              "meaning": "v.理解;了解",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "wild",
+              "meaning": "adj.野生的;荒凉的",
+              "uncertain": false
+            },
+            {
+              "word": "rest",
+              "meaning": "n.休息时间;其余",
+              "uncertain": false
+            },
+            {
+              "word": "under",
+              "meaning": "prep.在……下面",
+              "uncertain": false
+            },
+            {
+              "word": "bring",
+              "meaning": "v.带来",
+              "uncertain": false
+            },
+            {
+              "word": "importance",
+              "meaning": "n.重要性;重要",
+              "uncertain": false
+            },
+            {
+              "word": "fresh",
+              "meaning": "adj.清新的;新鲜的",
+              "uncertain": false
+            },
+            {
+              "word": "everyday",
+              "meaning": "adj.每天的;日常的",
+              "uncertain": false
+            },
+            {
+              "word": "milk",
+              "meaning": "n.(牛或羊等的)奶",
+              "uncertain": false
+            },
+            {
+              "word": "south",
+              "meaning": "n.南方 adj.南方的",
+              "uncertain": false
+            },
+            {
+              "word": "will",
+              "meaning": "modal v.(谈及将来);会",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "world",
+              "meaning": "n.世界",
+              "uncertain": false
+            },
+            {
+              "word": "healthy",
+              "meaning": "adj.健康的",
+              "uncertain": false
+            },
+            {
+              "word": "fire",
+              "meaning": "n.火;火灾",
+              "uncertain": false
+            },
+            {
+              "word": "noodle",
+              "meaning": "n.面条",
+              "uncertain": false
+            },
+            {
+              "word": "dumpling",
+              "meaning": "n.饺子",
+              "uncertain": false
+            },
+            {
+              "word": "river",
+              "meaning": "n.河;江",
+              "uncertain": false
+            },
+            {
+              "word": "vegetable",
+              "meaning": "n.蔬菜",
+              "uncertain": false
+            },
+            {
+              "word": "rice",
+              "meaning": "n.大米",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

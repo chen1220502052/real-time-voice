@@ -1,0 +1,405 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": ".local/curriculum-column-crops/f52d5a25270312f7579bee4b-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "25e0a02ea20758d77454c38ef95db5cab72fb4e9654cce4ada4949c698360049",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mention",
+              "meaning": "v.提到,说到",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "rocket",
+              "meaning": "n.火箭",
+              "uncertain": false
+            },
+            {
+              "word": "metal",
+              "meaning": "n.金属",
+              "uncertain": false
+            },
+            {
+              "word": "satellite",
+              "meaning": "n.卫星",
+              "uncertain": false
+            },
+            {
+              "word": "spaceship",
+              "meaning": "n.宇宙飞船",
+              "uncertain": false
+            },
+            {
+              "word": "lock",
+              "meaning": "n.锁",
+              "uncertain": false
+            },
+            {
+              "word": "lock",
+              "meaning": "v.(用锁)锁上,被锁住",
+              "uncertain": false
+            },
+            {
+              "word": "laptop",
+              "meaning": "n.手提电脑",
+              "uncertain": false
+            },
+            {
+              "word": "digital",
+              "meaning": "adj.数码的,数字的",
+              "uncertain": false
+            },
+            {
+              "word": "bulb",
+              "meaning": "n.电灯泡",
+              "uncertain": false
+            },
+            {
+              "word": "airplane",
+              "meaning": "n.飞机",
+              "uncertain": false
+            },
+            {
+              "word": "hard-wearing",
+              "meaning": "adj.耐磨的",
+              "uncertain": false
+            },
+            {
+              "word": "Korea",
+              "meaning": "n.朝鲜;韩国",
+              "uncertain": false
+            },
+            {
+              "word": "invention",
+              "meaning": "n.发明,创造",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "v.列清单,把……列表",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "n.名单;目录;清单",
+              "uncertain": false
+            },
+            {
+              "word": "crayon",
+              "meaning": "n.彩色铅笔(粉笔、蜡笔)等",
+              "uncertain": false
+            },
+            {
+              "word": "process",
+              "meaning": "n.步骤,过程",
+              "uncertain": false
+            },
+            {
+              "word": "process",
+              "meaning": "v.加工,处理",
+              "uncertain": false
+            },
+            {
+              "word": "thought",
+              "meaning": "n.想法,看法,主意",
+              "uncertain": false
+            },
+            {
+              "word": "silly",
+              "meaning": "adj.愚蠢的,傻的",
+              "uncertain": false
+            },
+            {
+              "word": "brainstorm",
+              "meaning": "v.集思广益,动脑筋",
+              "uncertain": false
+            },
+            {
+              "word": "evaluate",
+              "meaning": "v.估值,评价,评估",
+              "uncertain": false
+            },
+            {
+              "word": "detailed",
+              "meaning": "adj.详细的",
+              "uncertain": false
+            },
+            {
+              "word": "redesign",
+              "meaning": "v.重新设计",
+              "uncertain": false
+            },
+            {
+              "word": "imagination",
+              "meaning": "n.想象力;想象",
+              "uncertain": false
+            },
+            {
+              "word": "balloon",
+              "meaning": "n.气球;热气球",
+              "uncertain": false
+            },
+            {
+              "word": "gun",
+              "meaning": "n.枪,炮",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "n.机器人",
+              "uncertain": false
+            },
+            {
+              "word": "keyboard",
+              "meaning": "n.键盘",
+              "uncertain": false
+            },
+            {
+              "word": "explorer",
+              "meaning": "n.探险者,勘探者",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "n.标示;记号;符号",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "v.做记号,做标记",
+              "uncertain": false
+            },
+            {
+              "word": "system",
+              "meaning": "n.体系,方法,制度",
+              "uncertain": false
+            },
+            {
+              "word": "man-made",
+              "meaning": "adj.人造的;非天然的",
+              "uncertain": false
+            },
+            {
+              "word": "disadvantage",
+              "meaning": "n.不利因素;障碍;不便之处",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mention",
+              "meaning": "v.提到,说到",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "rocket",
+              "meaning": "n.火箭",
+              "uncertain": false
+            },
+            {
+              "word": "metal",
+              "meaning": "n.金属",
+              "uncertain": false
+            },
+            {
+              "word": "satellite",
+              "meaning": "n.卫星",
+              "uncertain": false
+            },
+            {
+              "word": "spaceship",
+              "meaning": "n.宇宙飞船",
+              "uncertain": false
+            },
+            {
+              "word": "lock",
+              "meaning": "n.锁",
+              "uncertain": false
+            },
+            {
+              "word": "lock",
+              "meaning": "v.(用锁)锁上,被锁住",
+              "uncertain": false
+            },
+            {
+              "word": "laptop",
+              "meaning": "n.手提电脑",
+              "uncertain": false
+            },
+            {
+              "word": "digital",
+              "meaning": "adj.数码的,数字的",
+              "uncertain": false
+            },
+            {
+              "word": "bulb",
+              "meaning": "n.电灯泡",
+              "uncertain": false
+            },
+            {
+              "word": "airplane",
+              "meaning": "n.飞机",
+              "uncertain": false
+            },
+            {
+              "word": "hard-wearing",
+              "meaning": "adj.耐磨的",
+              "uncertain": false
+            },
+            {
+              "word": "Korea",
+              "meaning": "n.朝鲜;韩国",
+              "uncertain": false
+            },
+            {
+              "word": "invention",
+              "meaning": "n.发明,创造",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "v.列清单,把……列表",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "n.名单;目录;清单",
+              "uncertain": false
+            },
+            {
+              "word": "crayon",
+              "meaning": "n.彩色铅笔(粉笔、蜡笔)等",
+              "uncertain": false
+            },
+            {
+              "word": "process",
+              "meaning": "n.步骤,过程",
+              "uncertain": false
+            },
+            {
+              "word": "process",
+              "meaning": "v.加工,处理",
+              "uncertain": false
+            },
+            {
+              "word": "thought",
+              "meaning": "n.想法,看法,主意",
+              "uncertain": false
+            },
+            {
+              "word": "silly",
+              "meaning": "adj.愚蠢的,傻的",
+              "uncertain": false
+            },
+            {
+              "word": "brainstorm",
+              "meaning": "v.集思广益,动脑筋",
+              "uncertain": false
+            },
+            {
+              "word": "evaluate",
+              "meaning": "v.估值,评价,评估",
+              "uncertain": false
+            },
+            {
+              "word": "detailed",
+              "meaning": "adj.详细的",
+              "uncertain": false
+            },
+            {
+              "word": "redesign",
+              "meaning": "v.重新设计",
+              "uncertain": false
+            },
+            {
+              "word": "imagination",
+              "meaning": "n.想象力;想象",
+              "uncertain": false
+            },
+            {
+              "word": "balloon",
+              "meaning": "n.气球;热气球",
+              "uncertain": false
+            },
+            {
+              "word": "gun",
+              "meaning": "n.枪,炮",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "n.机器人",
+              "uncertain": false
+            },
+            {
+              "word": "keyboard",
+              "meaning": "n.键盘",
+              "uncertain": false
+            },
+            {
+              "word": "explorer",
+              "meaning": "n.探险者,勘探者",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "n.标示;记号;符号",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "v.做记号,做标记",
+              "uncertain": false
+            },
+            {
+              "word": "system",
+              "meaning": "n.体系,方法,制度",
+              "uncertain": false
+            },
+            {
+              "word": "man-made",
+              "meaning": "adj.人造的;非天然的",
+              "uncertain": false
+            },
+            {
+              "word": "disadvantage",
+              "meaning": "n.不利因素;障碍;不便之处",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

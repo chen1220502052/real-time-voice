@@ -1,0 +1,385 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": ".local/curriculum-column-crops/36c2ba2d9f8db04d13023da4-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "4e6c645849541e019c6cb238cbd6e5cd73ef3a1eeade993fe16d96d7fc4c233a",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "several",
+              "meaning": "几个，数个",
+              "uncertain": false
+            },
+            {
+              "word": "pour",
+              "meaning": "倒出；倾泻；不断流出",
+              "uncertain": false
+            },
+            {
+              "word": "waste",
+              "meaning": "废弃的，丢弃的，无用的；浪费",
+              "uncertain": false
+            },
+            {
+              "word": "shame",
+              "meaning": "羞耻，羞愧",
+              "uncertain": false
+            },
+            {
+              "word": "bee",
+              "meaning": "蜜蜂",
+              "uncertain": false
+            },
+            {
+              "word": "butterfly",
+              "meaning": "蝴蝶；蝶泳",
+              "uncertain": false
+            },
+            {
+              "word": "villager",
+              "meaning": "村民，乡下人",
+              "uncertain": false
+            },
+            {
+              "word": "destroy",
+              "meaning": "摧毁，破灭",
+              "uncertain": false
+            },
+            {
+              "word": "cut down",
+              "meaning": "砍倒",
+              "uncertain": false
+            },
+            {
+              "word": "goodness",
+              "meaning": "天啊；啊呀",
+              "uncertain": false
+            },
+            {
+              "word": "pain",
+              "meaning": "疼，痛；痛苦",
+              "uncertain": false
+            },
+            {
+              "word": "breathe",
+              "meaning": "呼吸",
+              "uncertain": false
+            },
+            {
+              "word": "produce",
+              "meaning": "生产，制造",
+              "uncertain": false
+            },
+            {
+              "word": "chest",
+              "meaning": "胸部，胸膛",
+              "uncertain": false
+            },
+            {
+              "word": "awful",
+              "meaning": "很坏的，极讨厌的",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "承受，忍受",
+              "uncertain": false
+            },
+            {
+              "word": "editor",
+              "meaning": "主编，编辑",
+              "uncertain": false
+            },
+            {
+              "word": "breath",
+              "meaning": "一次吸入的空气",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "土壤；土地",
+              "uncertain": false
+            },
+            {
+              "word": "harmful",
+              "meaning": "有害的",
+              "uncertain": false
+            },
+            {
+              "word": "be harmful to",
+              "meaning": "（尤指对健康或环境）有害的，导致损害的",
+              "uncertain": false
+            },
+            {
+              "word": "deaf",
+              "meaning": "聋的",
+              "uncertain": false
+            },
+            {
+              "word": "print",
+              "meaning": "印刷",
+              "uncertain": false
+            },
+            {
+              "word": "hearing",
+              "meaning": "听力，听觉",
+              "uncertain": false
+            },
+            {
+              "word": "loss",
+              "meaning": "丧失；损失；丢失",
+              "uncertain": false
+            },
+            {
+              "word": "recently",
+              "meaning": "不久前；最近",
+              "uncertain": false
+            },
+            {
+              "word": "disturb",
+              "meaning": "打扰；扰乱",
+              "uncertain": false
+            },
+            {
+              "word": "do harm to",
+              "meaning": "伤害，损害",
+              "uncertain": false
+            },
+            {
+              "word": "uncomfortable",
+              "meaning": "使人不舒服的；令人不舒适的",
+              "uncertain": false
+            },
+            {
+              "word": "unpleasant",
+              "meaning": "令人不快的；不舒服的",
+              "uncertain": false
+            },
+            {
+              "word": "sort",
+              "meaning": "种类，类别；品种；整理；把……分类",
+              "uncertain": false
+            },
+            {
+              "word": "environmental",
+              "meaning": "环境的",
+              "uncertain": false
+            },
+            {
+              "word": "including",
+              "meaning": "包括……在内",
+              "uncertain": false
+            },
+            {
+              "word": "onto",
+              "meaning": "向，朝",
+              "uncertain": false
+            },
+            {
+              "word": "sentence",
+              "meaning": "句子；判决，宣判",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "several",
+              "meaning": "几个，数个",
+              "uncertain": false
+            },
+            {
+              "word": "pour",
+              "meaning": "倒出；倾泻；不断流出",
+              "uncertain": false
+            },
+            {
+              "word": "waste",
+              "meaning": "废弃的，丢弃的，无用的；浪费",
+              "uncertain": false
+            },
+            {
+              "word": "shame",
+              "meaning": "羞耻，羞愧",
+              "uncertain": false
+            },
+            {
+              "word": "bee",
+              "meaning": "蜜蜂",
+              "uncertain": false
+            },
+            {
+              "word": "butterfly",
+              "meaning": "蝴蝶；蝶泳",
+              "uncertain": false
+            },
+            {
+              "word": "villager",
+              "meaning": "村民，乡下人",
+              "uncertain": false
+            },
+            {
+              "word": "destroy",
+              "meaning": "摧毁，破灭",
+              "uncertain": false
+            },
+            {
+              "word": "cut down",
+              "meaning": "砍倒",
+              "uncertain": false
+            },
+            {
+              "word": "goodness",
+              "meaning": "天啊；啊呀",
+              "uncertain": false
+            },
+            {
+              "word": "pain",
+              "meaning": "疼，痛；痛苦",
+              "uncertain": false
+            },
+            {
+              "word": "breathe",
+              "meaning": "呼吸",
+              "uncertain": false
+            },
+            {
+              "word": "produce",
+              "meaning": "生产，制造",
+              "uncertain": false
+            },
+            {
+              "word": "chest",
+              "meaning": "胸部，胸膛",
+              "uncertain": false
+            },
+            {
+              "word": "awful",
+              "meaning": "很坏的，极讨厌的",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "承受，忍受",
+              "uncertain": false
+            },
+            {
+              "word": "editor",
+              "meaning": "主编，编辑",
+              "uncertain": false
+            },
+            {
+              "word": "breath",
+              "meaning": "一次吸入的空气",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "土壤；土地",
+              "uncertain": false
+            },
+            {
+              "word": "harmful",
+              "meaning": "有害的",
+              "uncertain": false
+            },
+            {
+              "word": "be harmful to",
+              "meaning": "（尤指对健康或环境）有害的，导致损害的",
+              "uncertain": false
+            },
+            {
+              "word": "deaf",
+              "meaning": "聋的",
+              "uncertain": false
+            },
+            {
+              "word": "print",
+              "meaning": "印刷",
+              "uncertain": false
+            },
+            {
+              "word": "hearing",
+              "meaning": "听力，听觉",
+              "uncertain": false
+            },
+            {
+              "word": "loss",
+              "meaning": "丧失；损失；丢失",
+              "uncertain": false
+            },
+            {
+              "word": "recently",
+              "meaning": "不久前；最近",
+              "uncertain": false
+            },
+            {
+              "word": "disturb",
+              "meaning": "打扰；扰乱",
+              "uncertain": false
+            },
+            {
+              "word": "do harm to",
+              "meaning": "伤害，损害",
+              "uncertain": false
+            },
+            {
+              "word": "uncomfortable",
+              "meaning": "使人不舒服的；令人不舒适的",
+              "uncertain": false
+            },
+            {
+              "word": "unpleasant",
+              "meaning": "令人不快的；不舒服的",
+              "uncertain": false
+            },
+            {
+              "word": "sort",
+              "meaning": "种类，类别；品种；整理；把……分类",
+              "uncertain": false
+            },
+            {
+              "word": "environmental",
+              "meaning": "环境的",
+              "uncertain": false
+            },
+            {
+              "word": "including",
+              "meaning": "包括……在内",
+              "uncertain": false
+            },
+            {
+              "word": "onto",
+              "meaning": "向，朝",
+              "uncertain": false
+            },
+            {
+              "word": "sentence",
+              "meaning": "句子；判决，宣判",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,205 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/6c82e9a373cf2b7277fee851-right.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/73/detail/",
+  "sha256": "90987b2c79bdfeea6cb006a5270156f1c42a43ee6a91ac560afd36641d098b11",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "cinema",
+              "meaning": "电影院",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "在……之后",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "极好的",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "风扇，爱好者",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "Internet",
+              "meaning": "互联网",
+              "uncertain": false
+            },
+            {
+              "word": "mobile",
+              "meaning": "可移动的",
+              "uncertain": false
+            },
+            {
+              "word": "everything",
+              "meaning": "每件事",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "离开",
+              "uncertain": false
+            },
+            {
+              "word": "wall",
+              "meaning": "墙",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "丢失",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙",
+              "uncertain": false
+            },
+            {
+              "word": "just",
+              "meaning": "正好，仅仅",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "生活，生命",
+              "uncertain": false
+            },
+            {
+              "word": "mobile phone",
+              "meaning": "手机",
+              "uncertain": false
+            },
+            {
+              "word": "turn off",
+              "meaning": "关掉",
+              "uncertain": false
+            },
+            {
+              "word": "turn on",
+              "meaning": "打开",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "cinema",
+              "meaning": "电影院",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "在……之后",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "极好的",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "风扇，爱好者",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "Internet",
+              "meaning": "互联网",
+              "uncertain": false
+            },
+            {
+              "word": "mobile",
+              "meaning": "可移动的",
+              "uncertain": false
+            },
+            {
+              "word": "everything",
+              "meaning": "每件事",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "离开",
+              "uncertain": false
+            },
+            {
+              "word": "wall",
+              "meaning": "墙",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "丢失",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙",
+              "uncertain": false
+            },
+            {
+              "word": "just",
+              "meaning": "正好，仅仅",
+              "uncertain": false
+            },
+            {
+              "word": "life",
+              "meaning": "生活，生命",
+              "uncertain": false
+            },
+            {
+              "word": "mobile phone",
+              "meaning": "手机",
+              "uncertain": false
+            },
+            {
+              "word": "turn off",
+              "meaning": "关掉",
+              "uncertain": false
+            },
+            {
+              "word": "turn on",
+              "meaning": "打开",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

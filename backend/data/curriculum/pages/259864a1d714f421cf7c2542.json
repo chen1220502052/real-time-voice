@@ -1,0 +1,102 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 4,
+  "units": [
+    4
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/109/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 4 Subjects/课文/02_教材页面_64e6465dca.jpg",
+  "sha256": "259864a1d714f421cf7c2542955eacc21422837645f08af439a010e9b6f61a86",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Subjects",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ABC",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "6×6=36",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "I like ...",
+        "I like ...",
+        "Subjects",
+        "ABC",
+        "6×6=36"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Subjects",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ABC",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "6×6=36",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "I like ...",
+        "I like ...",
+        "Subjects",
+        "ABC",
+        "6×6=36"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

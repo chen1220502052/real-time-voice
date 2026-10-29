@@ -1,0 +1,247 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/06_06_教材页面_7d604a2116.png",
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "d3da6dcd40d84895f1cdca3f0dd46e5df00f1632ddcad2b7fb1d1a9701c638eb",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "have a cold",
+              "meaning": "感冒",
+              "uncertain": false
+            },
+            {
+              "word": "have a stomachache",
+              "meaning": "胃痛",
+              "uncertain": false
+            },
+            {
+              "word": "have a headache",
+              "meaning": "头痛",
+              "uncertain": false
+            },
+            {
+              "word": "have a fever",
+              "meaning": "发烧",
+              "uncertain": false
+            },
+            {
+              "word": "have a toothache",
+              "meaning": "牙痛",
+              "uncertain": false
+            },
+            {
+              "word": "have a cough",
+              "meaning": "咳嗽",
+              "uncertain": false
+            },
+            {
+              "word": "wrong",
+              "meaning": "有毛病的，错误的",
+              "uncertain": false
+            },
+            {
+              "word": "open",
+              "meaning": "张开，开放；开放的",
+              "uncertain": false
+            },
+            {
+              "word": "rest",
+              "meaning": "休息",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "药物",
+              "uncertain": false
+            },
+            {
+              "word": "take some medicine",
+              "meaning": "吃点药",
+              "uncertain": false
+            },
+            {
+              "word": "more",
+              "meaning": "更多的",
+              "uncertain": false
+            },
+            {
+              "word": "else",
+              "meaning": "其他的",
+              "uncertain": false
+            },
+            {
+              "word": "lots of",
+              "meaning": "大量的",
+              "uncertain": false
+            },
+            {
+              "word": "give",
+              "meaning": "给，提供",
+              "uncertain": false
+            },
+            {
+              "word": "tip",
+              "meaning": "建议",
+              "uncertain": false
+            },
+            {
+              "word": "seafood",
+              "meaning": "海鲜",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "小时",
+              "uncertain": false
+            },
+            {
+              "word": "habit",
+              "meaning": "习惯",
+              "uncertain": false
+            },
+            {
+              "word": "more than",
+              "meaning": "超过，多余",
+              "uncertain": false
+            },
+            {
+              "word": "kid",
+              "meaning": "孩童",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "have a cold",
+              "meaning": "感冒",
+              "uncertain": false
+            },
+            {
+              "word": "have a stomachache",
+              "meaning": "胃痛",
+              "uncertain": false
+            },
+            {
+              "word": "have a headache",
+              "meaning": "头痛",
+              "uncertain": false
+            },
+            {
+              "word": "have a fever",
+              "meaning": "发烧",
+              "uncertain": false
+            },
+            {
+              "word": "have a toothache",
+              "meaning": "牙痛",
+              "uncertain": false
+            },
+            {
+              "word": "have a cough",
+              "meaning": "咳嗽",
+              "uncertain": false
+            },
+            {
+              "word": "wrong",
+              "meaning": "有毛病的，错误的",
+              "uncertain": false
+            },
+            {
+              "word": "open",
+              "meaning": "张开，开放；开放的",
+              "uncertain": false
+            },
+            {
+              "word": "rest",
+              "meaning": "休息",
+              "uncertain": false
+            },
+            {
+              "word": "medicine",
+              "meaning": "药物",
+              "uncertain": false
+            },
+            {
+              "word": "take some medicine",
+              "meaning": "吃点药",
+              "uncertain": false
+            },
+            {
+              "word": "more",
+              "meaning": "更多的",
+              "uncertain": false
+            },
+            {
+              "word": "else",
+              "meaning": "其他的",
+              "uncertain": false
+            },
+            {
+              "word": "lots of",
+              "meaning": "大量的",
+              "uncertain": false
+            },
+            {
+              "word": "give",
+              "meaning": "给，提供",
+              "uncertain": false
+            },
+            {
+              "word": "tip",
+              "meaning": "建议",
+              "uncertain": false
+            },
+            {
+              "word": "seafood",
+              "meaning": "海鲜",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "小时",
+              "uncertain": false
+            },
+            {
+              "word": "habit",
+              "meaning": "习惯",
+              "uncertain": false
+            },
+            {
+              "word": "more than",
+              "meaning": "超过，多余",
+              "uncertain": false
+            },
+            {
+              "word": "kid",
+              "meaning": "孩童",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

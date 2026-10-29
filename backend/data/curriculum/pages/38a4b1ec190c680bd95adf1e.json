@@ -1,0 +1,471 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页136.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "38a4b1ec190c680bd95adf1e6d8b7b7d9a4fde9007b7574ed5d6195157aaf6e7",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "he",
+              "meaning": "他",
+              "uncertain": false
+            },
+            {
+              "word": "often",
+              "meaning": "时常;往往",
+              "uncertain": false
+            },
+            {
+              "word": "who",
+              "meaning": "谁",
+              "uncertain": false
+            },
+            {
+              "word": "best",
+              "meaning": "最好的;最好的人(或物);最高标准",
+              "uncertain": false
+            },
+            {
+              "word": "she",
+              "meaning": "她",
+              "uncertain": false
+            },
+            {
+              "word": "six",
+              "meaning": "六",
+              "uncertain": false
+            },
+            {
+              "word": "here",
+              "meaning": "(给某人东西或指出某物时说);在这里",
+              "uncertain": false
+            },
+            {
+              "word": "cute",
+              "meaning": "可爱的;漂亮迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "(用以泛指);(解说时用)",
+              "uncertain": false
+            },
+            {
+              "word": "guitar",
+              "meaning": "吉他",
+              "uncertain": false
+            },
+            {
+              "word": "new",
+              "meaning": "初来乍到的;不熟悉的;新的;有别于从前的",
+              "uncertain": false
+            },
+            {
+              "word": "very",
+              "meaning": "很,非常",
+              "uncertain": false
+            },
+            {
+              "word": "happy",
+              "meaning": "高兴的;幸福的;(表示祝愿);乐意(做某事)",
+              "uncertain": false
+            },
+            {
+              "word": "at",
+              "meaning": "在(某处);在(某时间);在(表示学习或工作地点);在……方面;向",
+              "uncertain": false
+            },
+            {
+              "word": "school",
+              "meaning": "学校;上学;上课时间",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "音乐;音乐创作",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "有;吃;经历",
+              "uncertain": false
+            },
+            {
+              "word": "they",
+              "meaning": "他们;她们;它们",
+              "uncertain": false
+            },
+            {
+              "word": "it",
+              "meaning": "它",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "一(人、事、物);(表示为某一群体或职业中的一员);任何一,每一",
+              "uncertain": false
+            },
+            {
+              "word": "dog",
+              "meaning": "狗",
+              "uncertain": false
+            },
+            {
+              "word": "two",
+              "meaning": "二",
+              "uncertain": false
+            },
+            {
+              "word": "big",
+              "meaning": "大的;年纪较长的;大受欢迎的",
+              "uncertain": false
+            },
+            {
+              "word": "ear",
+              "meaning": "耳;耳朵",
+              "uncertain": false
+            },
+            {
+              "word": "cat",
+              "meaning": "猫",
+              "uncertain": false
+            },
+            {
+              "word": "little",
+              "meaning": "小的;年幼的;可怜的;不多的;少量的",
+              "uncertain": false
+            },
+            {
+              "word": "black",
+              "meaning": "黑色的;黑色",
+              "uncertain": false
+            },
+            {
+              "word": "one",
+              "meaning": "一;一个;其中的一个人(或事物)",
+              "uncertain": false
+            },
+            {
+              "word": "listen",
+              "meaning": "听",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "美丽的;迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "brother",
+              "meaning": "哥哥;弟弟",
+              "uncertain": false
+            },
+            {
+              "word": "yes",
+              "meaning": "(答话时表示正确或真实);(表示同意所说的话);(接受提议或邀请)",
+              "uncertain": false
+            },
+            {
+              "word": "that",
+              "meaning": "那,那个",
+              "uncertain": false
+            },
+            {
+              "word": "boy",
+              "meaning": "男孩",
+              "uncertain": false
+            },
+            {
+              "word": "our",
+              "meaning": "我们的",
+              "uncertain": false
+            },
+            {
+              "word": "no",
+              "meaning": "不;没有;不是;没有;不准",
+              "uncertain": false
+            },
+            {
+              "word": "not",
+              "meaning": "不,没有",
+              "uncertain": false
+            },
+            {
+              "word": "yourself",
+              "meaning": "你自己",
+              "uncertain": false
+            },
+            {
+              "word": "age",
+              "meaning": "年龄;时代",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "swim",
+              "meaning": "游泳;游动",
+              "uncertain": false
+            },
+            {
+              "word": "girl",
+              "meaning": "女孩",
+              "uncertain": false
+            },
+            {
+              "word": "everyone",
+              "meaning": "",
+              "uncertain": true
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The entry 'everyone' is cut off at the bottom of the page; its Chinese meaning is not visible.",
+        "The heading 'Developing the Topic' appears without a numeric unit label; its entries are placed in a separate block with unit=null."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "he",
+              "meaning": "他",
+              "uncertain": false
+            },
+            {
+              "word": "often",
+              "meaning": "时常;往往",
+              "uncertain": false
+            },
+            {
+              "word": "who",
+              "meaning": "谁",
+              "uncertain": false
+            },
+            {
+              "word": "best",
+              "meaning": "最好的;最好的人(或物);最高标准",
+              "uncertain": false
+            },
+            {
+              "word": "she",
+              "meaning": "她",
+              "uncertain": false
+            },
+            {
+              "word": "six",
+              "meaning": "六",
+              "uncertain": false
+            },
+            {
+              "word": "here",
+              "meaning": "(给某人东西或指出某物时说);在这里",
+              "uncertain": false
+            },
+            {
+              "word": "cute",
+              "meaning": "可爱的;漂亮迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "(用以泛指);(解说时用)",
+              "uncertain": false
+            },
+            {
+              "word": "guitar",
+              "meaning": "吉他",
+              "uncertain": false
+            },
+            {
+              "word": "new",
+              "meaning": "初来乍到的;不熟悉的;新的;有别于从前的",
+              "uncertain": false
+            },
+            {
+              "word": "very",
+              "meaning": "很,非常",
+              "uncertain": false
+            },
+            {
+              "word": "happy",
+              "meaning": "高兴的;幸福的;(表示祝愿);乐意(做某事)",
+              "uncertain": false
+            },
+            {
+              "word": "at",
+              "meaning": "在(某处);在(某时间);在(表示学习或工作地点);在……方面;向",
+              "uncertain": false
+            },
+            {
+              "word": "school",
+              "meaning": "学校;上学;上课时间",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "音乐;音乐创作",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "有;吃;经历",
+              "uncertain": false
+            },
+            {
+              "word": "they",
+              "meaning": "他们;她们;它们",
+              "uncertain": false
+            },
+            {
+              "word": "it",
+              "meaning": "它",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "一(人、事、物);(表示为某一群体或职业中的一员);任何一,每一",
+              "uncertain": false
+            },
+            {
+              "word": "dog",
+              "meaning": "狗",
+              "uncertain": false
+            },
+            {
+              "word": "two",
+              "meaning": "二",
+              "uncertain": false
+            },
+            {
+              "word": "big",
+              "meaning": "大的;年纪较长的;大受欢迎的",
+              "uncertain": false
+            },
+            {
+              "word": "ear",
+              "meaning": "耳;耳朵",
+              "uncertain": false
+            },
+            {
+              "word": "cat",
+              "meaning": "猫",
+              "uncertain": false
+            },
+            {
+              "word": "little",
+              "meaning": "小的;年幼的;可怜的;不多的;少量的",
+              "uncertain": false
+            },
+            {
+              "word": "black",
+              "meaning": "黑色的;黑色",
+              "uncertain": false
+            },
+            {
+              "word": "one",
+              "meaning": "一;一个;其中的一个人(或事物)",
+              "uncertain": false
+            },
+            {
+              "word": "listen",
+              "meaning": "听",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "美丽的;迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "brother",
+              "meaning": "哥哥;弟弟",
+              "uncertain": false
+            },
+            {
+              "word": "yes",
+              "meaning": "(答话时表示正确或真实);(表示同意所说的话);(接受提议或邀请)",
+              "uncertain": false
+            },
+            {
+              "word": "that",
+              "meaning": "那,那个",
+              "uncertain": false
+            },
+            {
+              "word": "boy",
+              "meaning": "男孩",
+              "uncertain": false
+            },
+            {
+              "word": "our",
+              "meaning": "我们的",
+              "uncertain": false
+            },
+            {
+              "word": "no",
+              "meaning": "不;没有;不是;没有;不准",
+              "uncertain": false
+            },
+            {
+              "word": "not",
+              "meaning": "不,没有",
+              "uncertain": false
+            },
+            {
+              "word": "yourself",
+              "meaning": "你自己",
+              "uncertain": false
+            },
+            {
+              "word": "age",
+              "meaning": "年龄;时代",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "swim",
+              "meaning": "游泳;游动",
+              "uncertain": false
+            },
+            {
+              "word": "girl",
+              "meaning": "女孩",
+              "uncertain": false
+            },
+            {
+              "word": "everyone",
+              "meaning": "",
+              "uncertain": true
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The entry 'everyone' is cut off at the bottom of the page; its Chinese meaning is not visible.",
+        "The heading 'Developing the Topic' appears without a numeric unit label; its entries are placed in a separate block with unit=null."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

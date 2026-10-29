@@ -1,0 +1,67 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/08_08_教材页面_7544e40baf.jpg",
+  "units": [
+    8
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "beef750be9f6934fdfe2ed42eec700517d92de0cf483f67d4b7881c0e66e231e",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "tired",
+              "meaning": "劳累的，疲乏的",
+              "uncertain": false
+            },
+            {
+              "word": "temperature",
+              "meaning": "温度",
+              "uncertain": false
+            },
+            {
+              "word": "check",
+              "meaning": "核查，核对",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "tired",
+              "meaning": "劳累的，疲乏的",
+              "uncertain": false
+            },
+            {
+              "word": "temperature",
+              "meaning": "温度",
+              "uncertain": false
+            },
+            {
+              "word": "check",
+              "meaning": "核查，核对",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

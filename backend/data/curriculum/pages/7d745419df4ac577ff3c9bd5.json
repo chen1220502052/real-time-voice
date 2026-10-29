@@ -1,0 +1,244 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 2,
+  "units": [
+    2
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/107/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/03_教材页面_963986363c.jpg",
+  "sha256": "7d745419df4ac577ff3c9bd544cd7a2752908301194d9df530d0eecdd638ab5e",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "OK.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "swim?",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sing?",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Great!",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sing",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "together.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "play.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "No,",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can't.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes,",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can.",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "OK. Can you swim?",
+        "Can you sing?",
+        "Great! Let's sing together.",
+        "Let's play.",
+        "No, I can't.",
+        "Yes, I can."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "OK.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "swim?",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sing?",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Great!",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sing",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "together.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "play.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "No,",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can't.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes,",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can.",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "OK. Can you swim?",
+        "Can you sing?",
+        "Great! Let's sing together.",
+        "Let's play.",
+        "No, I can't.",
+        "Yes, I can."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,127 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/06_06_教材页面_77798c6877.jpg",
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "049339b191a4664bf0fb4b34d14528cd025edcb13002d8e5c331a245c3326767",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "plane",
+              "meaning": "飞机",
+              "uncertain": false
+            },
+            {
+              "word": "ship",
+              "meaning": "轮船",
+              "uncertain": false
+            },
+            {
+              "word": "island",
+              "meaning": "岛屿",
+              "uncertain": false
+            },
+            {
+              "word": "hometown",
+              "meaning": "家乡",
+              "uncertain": false
+            },
+            {
+              "word": "city",
+              "meaning": "城市",
+              "uncertain": false
+            },
+            {
+              "word": "foggy",
+              "meaning": "有雾的",
+              "uncertain": false
+            },
+            {
+              "word": "hot pot",
+              "meaning": "火锅",
+              "uncertain": false
+            },
+            {
+              "word": "tomorrow",
+              "meaning": "明天",
+              "uncertain": false
+            },
+            {
+              "word": "feel",
+              "meaning": "感觉",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "plane",
+              "meaning": "飞机",
+              "uncertain": false
+            },
+            {
+              "word": "ship",
+              "meaning": "轮船",
+              "uncertain": false
+            },
+            {
+              "word": "island",
+              "meaning": "岛屿",
+              "uncertain": false
+            },
+            {
+              "word": "hometown",
+              "meaning": "家乡",
+              "uncertain": false
+            },
+            {
+              "word": "city",
+              "meaning": "城市",
+              "uncertain": false
+            },
+            {
+              "word": "foggy",
+              "meaning": "有雾的",
+              "uncertain": false
+            },
+            {
+              "word": "hot pot",
+              "meaning": "火锅",
+              "uncertain": false
+            },
+            {
+              "word": "tomorrow",
+              "meaning": "明天",
+              "uncertain": false
+            },
+            {
+              "word": "feel",
+              "meaning": "感觉",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

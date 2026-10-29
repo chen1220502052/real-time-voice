@@ -1,0 +1,695 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页143.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "43efc184e2583f525d03ceab31e8c349315ee1cf4ec002668f997139b9514b7e",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "technology",
+              "meaning": "技术",
+              "uncertain": false
+            },
+            {
+              "word": "step",
+              "meaning": "台阶;梯级;脚步",
+              "uncertain": false
+            },
+            {
+              "word": "environmentally",
+              "meaning": "环境地",
+              "uncertain": false
+            },
+            {
+              "word": "coal",
+              "meaning": "煤;煤块",
+              "uncertain": false
+            },
+            {
+              "word": "lead",
+              "meaning": "率领,领导;引领",
+              "uncertain": false
+            },
+            {
+              "word": "blood",
+              "meaning": "血",
+              "uncertain": false
+            },
+            {
+              "word": "high blood pressure",
+              "meaning": "高血压",
+              "uncertain": false
+            },
+            {
+              "word": "planet",
+              "meaning": "行星",
+              "uncertain": false
+            },
+            {
+              "word": "take away",
+              "meaning": "拿走",
+              "uncertain": false
+            },
+            {
+              "word": "oxygen",
+              "meaning": "氧气",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞,坑",
+              "uncertain": false
+            },
+            {
+              "word": "ozone layer",
+              "meaning": "臭氧层",
+              "uncertain": false
+            },
+            {
+              "word": "radiation",
+              "meaning": "放射,放射物",
+              "uncertain": false
+            },
+            {
+              "word": "directly",
+              "meaning": "直接地",
+              "uncertain": false
+            },
+            {
+              "word": "carbon dioxide",
+              "meaning": "二氧化碳",
+              "uncertain": false
+            },
+            {
+              "word": "form",
+              "meaning": "(使)出现;(使)形成",
+              "uncertain": false
+            },
+            {
+              "word": "blanket",
+              "meaning": "毛毯,毯子",
+              "uncertain": false
+            },
+            {
+              "word": "escape",
+              "meaning": "渗出;逃跑;逃脱",
+              "uncertain": false
+            },
+            {
+              "word": "rise",
+              "meaning": "上升;起床;升起",
+              "uncertain": false
+            },
+            {
+              "word": "the greenhouse effect",
+              "meaning": "温室效应",
+              "uncertain": false
+            },
+            {
+              "word": "refer",
+              "meaning": "提到,涉及,有关",
+              "uncertain": false
+            },
+            {
+              "word": "shortage",
+              "meaning": "不足;缺少;短缺",
+              "uncertain": false
+            },
+            {
+              "word": "avoid",
+              "meaning": "防止,避免",
+              "uncertain": false
+            },
+            {
+              "word": "resource",
+              "meaning": "资源;财力",
+              "uncertain": false
+            },
+            {
+              "word": "discover",
+              "meaning": "发现,找到",
+              "uncertain": false
+            },
+            {
+              "word": "reuse",
+              "meaning": "再次使用;重复使用",
+              "uncertain": false
+            },
+            {
+              "word": "thirsty",
+              "meaning": "缺水的;(口)渴的",
+              "uncertain": false
+            },
+            {
+              "word": "nearly",
+              "meaning": "几乎,将近",
+              "uncertain": false
+            },
+            {
+              "word": "law",
+              "meaning": "法律,法令;定律",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sandstorm",
+              "meaning": "沙暴",
+              "uncertain": false
+            },
+            {
+              "word": "sand",
+              "meaning": "沙",
+              "uncertain": false
+            },
+            {
+              "word": "change into",
+              "meaning": "转换成,变成",
+              "uncertain": false
+            },
+            {
+              "word": "desert",
+              "meaning": "沙漠",
+              "uncertain": false
+            },
+            {
+              "word": "human being",
+              "meaning": "人",
+              "uncertain": false
+            },
+            {
+              "word": "although",
+              "meaning": "虽然,尽管,即使",
+              "uncertain": false
+            },
+            {
+              "word": "reduce",
+              "meaning": "减少;减轻",
+              "uncertain": false
+            },
+            {
+              "word": "completely",
+              "meaning": "彻底地;完整地",
+              "uncertain": false
+            },
+            {
+              "word": "user",
+              "meaning": "使用者;用户",
+              "uncertain": false
+            },
+            {
+              "word": "none",
+              "meaning": "没有一个;毫无",
+              "uncertain": false
+            },
+            {
+              "word": "rubbish",
+              "meaning": "垃圾;废弃物",
+              "uncertain": false
+            },
+            {
+              "word": "here and there",
+              "meaning": "在各处;到处",
+              "uncertain": false
+            },
+            {
+              "word": "spit",
+              "meaning": "吐,唾",
+              "uncertain": false
+            },
+            {
+              "word": "wild",
+              "meaning": "野的,野生的",
+              "uncertain": false
+            },
+            {
+              "word": "nobody",
+              "meaning": "没有人",
+              "uncertain": false
+            },
+            {
+              "word": "untidy",
+              "meaning": "不整洁的,凌乱的",
+              "uncertain": false
+            },
+            {
+              "word": "worst",
+              "meaning": "最差的,最糟的",
+              "uncertain": false
+            },
+            {
+              "word": "rude",
+              "meaning": "无礼的,粗鲁的",
+              "uncertain": false
+            },
+            {
+              "word": "behavior",
+              "meaning": "行为,举止",
+              "uncertain": false
+            },
+            {
+              "word": "situation",
+              "meaning": "状况;形势;局面",
+              "uncertain": false
+            },
+            {
+              "word": "punish",
+              "meaning": "处罚,惩罚",
+              "uncertain": false
+            },
+            {
+              "word": "perhaps",
+              "meaning": "可能,大概",
+              "uncertain": false
+            },
+            {
+              "word": "everybody",
+              "meaning": "人人,每个人",
+              "uncertain": false
+            },
+            {
+              "word": "nowhere",
+              "meaning": "无处;哪里都不",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "protection",
+              "meaning": "保护;防卫",
+              "uncertain": false
+            },
+            {
+              "word": "organization",
+              "meaning": "组织;团体;机构",
+              "uncertain": false
+            },
+            {
+              "word": "recycle",
+              "meaning": "回收利用;再利用",
+              "uncertain": false
+            },
+            {
+              "word": "plastic",
+              "meaning": "塑料的",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "(美)罐子;罐头",
+              "uncertain": false
+            },
+            {
+              "word": "nod",
+              "meaning": "点头",
+              "uncertain": false
+            },
+            {
+              "word": "agreement",
+              "meaning": "同意;一致;协议",
+              "uncertain": false
+            },
+            {
+              "word": "disagreement",
+              "meaning": "分歧;争论",
+              "uncertain": false
+            },
+            {
+              "word": "hurry",
+              "meaning": "赶快,匆忙",
+              "uncertain": false
+            },
+            {
+              "word": "hurry up",
+              "meaning": "赶快,快点",
+              "uncertain": false
+            },
+            {
+              "word": "give up",
+              "meaning": "放弃",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "technology",
+              "meaning": "技术",
+              "uncertain": false
+            },
+            {
+              "word": "step",
+              "meaning": "台阶;梯级;脚步",
+              "uncertain": false
+            },
+            {
+              "word": "environmentally",
+              "meaning": "环境地",
+              "uncertain": false
+            },
+            {
+              "word": "coal",
+              "meaning": "煤;煤块",
+              "uncertain": false
+            },
+            {
+              "word": "lead",
+              "meaning": "率领,领导;引领",
+              "uncertain": false
+            },
+            {
+              "word": "blood",
+              "meaning": "血",
+              "uncertain": false
+            },
+            {
+              "word": "high blood pressure",
+              "meaning": "高血压",
+              "uncertain": false
+            },
+            {
+              "word": "planet",
+              "meaning": "行星",
+              "uncertain": false
+            },
+            {
+              "word": "take away",
+              "meaning": "拿走",
+              "uncertain": false
+            },
+            {
+              "word": "oxygen",
+              "meaning": "氧气",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞,坑",
+              "uncertain": false
+            },
+            {
+              "word": "ozone layer",
+              "meaning": "臭氧层",
+              "uncertain": false
+            },
+            {
+              "word": "radiation",
+              "meaning": "放射,放射物",
+              "uncertain": false
+            },
+            {
+              "word": "directly",
+              "meaning": "直接地",
+              "uncertain": false
+            },
+            {
+              "word": "carbon dioxide",
+              "meaning": "二氧化碳",
+              "uncertain": false
+            },
+            {
+              "word": "form",
+              "meaning": "(使)出现;(使)形成",
+              "uncertain": false
+            },
+            {
+              "word": "blanket",
+              "meaning": "毛毯,毯子",
+              "uncertain": false
+            },
+            {
+              "word": "escape",
+              "meaning": "渗出;逃跑;逃脱",
+              "uncertain": false
+            },
+            {
+              "word": "rise",
+              "meaning": "上升;起床;升起",
+              "uncertain": false
+            },
+            {
+              "word": "the greenhouse effect",
+              "meaning": "温室效应",
+              "uncertain": false
+            },
+            {
+              "word": "refer",
+              "meaning": "提到,涉及,有关",
+              "uncertain": false
+            },
+            {
+              "word": "shortage",
+              "meaning": "不足;缺少;短缺",
+              "uncertain": false
+            },
+            {
+              "word": "avoid",
+              "meaning": "防止,避免",
+              "uncertain": false
+            },
+            {
+              "word": "resource",
+              "meaning": "资源;财力",
+              "uncertain": false
+            },
+            {
+              "word": "discover",
+              "meaning": "发现,找到",
+              "uncertain": false
+            },
+            {
+              "word": "reuse",
+              "meaning": "再次使用;重复使用",
+              "uncertain": false
+            },
+            {
+              "word": "thirsty",
+              "meaning": "缺水的;(口)渴的",
+              "uncertain": false
+            },
+            {
+              "word": "nearly",
+              "meaning": "几乎,将近",
+              "uncertain": false
+            },
+            {
+              "word": "law",
+              "meaning": "法律,法令;定律",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sandstorm",
+              "meaning": "沙暴",
+              "uncertain": false
+            },
+            {
+              "word": "sand",
+              "meaning": "沙",
+              "uncertain": false
+            },
+            {
+              "word": "change into",
+              "meaning": "转换成,变成",
+              "uncertain": false
+            },
+            {
+              "word": "desert",
+              "meaning": "沙漠",
+              "uncertain": false
+            },
+            {
+              "word": "human being",
+              "meaning": "人",
+              "uncertain": false
+            },
+            {
+              "word": "although",
+              "meaning": "虽然,尽管,即使",
+              "uncertain": false
+            },
+            {
+              "word": "reduce",
+              "meaning": "减少;减轻",
+              "uncertain": false
+            },
+            {
+              "word": "completely",
+              "meaning": "彻底地;完整地",
+              "uncertain": false
+            },
+            {
+              "word": "user",
+              "meaning": "使用者;用户",
+              "uncertain": false
+            },
+            {
+              "word": "none",
+              "meaning": "没有一个;毫无",
+              "uncertain": false
+            },
+            {
+              "word": "rubbish",
+              "meaning": "垃圾;废弃物",
+              "uncertain": false
+            },
+            {
+              "word": "here and there",
+              "meaning": "在各处;到处",
+              "uncertain": false
+            },
+            {
+              "word": "spit",
+              "meaning": "吐,唾",
+              "uncertain": false
+            },
+            {
+              "word": "wild",
+              "meaning": "野的,野生的",
+              "uncertain": false
+            },
+            {
+              "word": "nobody",
+              "meaning": "没有人",
+              "uncertain": false
+            },
+            {
+              "word": "untidy",
+              "meaning": "不整洁的,凌乱的",
+              "uncertain": false
+            },
+            {
+              "word": "worst",
+              "meaning": "最差的,最糟的",
+              "uncertain": false
+            },
+            {
+              "word": "rude",
+              "meaning": "无礼的,粗鲁的",
+              "uncertain": false
+            },
+            {
+              "word": "behavior",
+              "meaning": "行为,举止",
+              "uncertain": false
+            },
+            {
+              "word": "situation",
+              "meaning": "状况;形势;局面",
+              "uncertain": false
+            },
+            {
+              "word": "punish",
+              "meaning": "处罚,惩罚",
+              "uncertain": false
+            },
+            {
+              "word": "perhaps",
+              "meaning": "可能,大概",
+              "uncertain": false
+            },
+            {
+              "word": "everybody",
+              "meaning": "人人,每个人",
+              "uncertain": false
+            },
+            {
+              "word": "nowhere",
+              "meaning": "无处;哪里都不",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "protection",
+              "meaning": "保护;防卫",
+              "uncertain": false
+            },
+            {
+              "word": "organization",
+              "meaning": "组织;团体;机构",
+              "uncertain": false
+            },
+            {
+              "word": "recycle",
+              "meaning": "回收利用;再利用",
+              "uncertain": false
+            },
+            {
+              "word": "plastic",
+              "meaning": "塑料的",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "(美)罐子;罐头",
+              "uncertain": false
+            },
+            {
+              "word": "nod",
+              "meaning": "点头",
+              "uncertain": false
+            },
+            {
+              "word": "agreement",
+              "meaning": "同意;一致;协议",
+              "uncertain": false
+            },
+            {
+              "word": "disagreement",
+              "meaning": "分歧;争论",
+              "uncertain": false
+            },
+            {
+              "word": "hurry",
+              "meaning": "赶快,匆忙",
+              "uncertain": false
+            },
+            {
+              "word": "hurry up",
+              "meaning": "赶快,快点",
+              "uncertain": false
+            },
+            {
+              "word": "give up",
+              "meaning": "放弃",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

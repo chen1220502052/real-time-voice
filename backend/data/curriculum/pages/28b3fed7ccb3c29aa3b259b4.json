@@ -1,0 +1,42 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 12,
+  "units": [
+    12
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/02_教材页面_575fade287.jpg",
+  "sha256": "28b3fed7ccb3c29aa3b259b4b08628c8d1726285b98702ea7c9df857b1cc327c",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": []
+        }
+      ],
+      "evidenceSentences": [],
+      "issues": [
+        "No learner-facing English sentences or vocabulary labels are legible; the page contains only exercise instructions and choice letters, which are excluded."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": []
+        }
+      ],
+      "evidenceSentences": [],
+      "issues": [
+        "No learner-facing English sentences or vocabulary labels are legible; the page contains only exercise instructions and choice letters, which are excluded."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

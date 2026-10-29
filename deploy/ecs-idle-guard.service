@@ -1,0 +1,8 @@
+[Unit]
+Description=Stop idle voice ECS after 30 minutes
+After=network-online.target nginx.service real-time-voice.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/real-time-voice/scripts/ecs_idle_guard.py check
+TimeoutStartSec=60

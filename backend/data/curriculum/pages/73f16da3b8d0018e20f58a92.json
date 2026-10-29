@@ -1,0 +1,120 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 10,
+  "units": [
+    10
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/115/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 10 Following rules/课文/01_教材页面_4b4ad0af80.jpg",
+  "sha256": "73f16da3b8d0018e20f58a920248a4737c90e6d5cd0ac40c866beb10d0d681df",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "door",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "me",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "close",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Ok",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "door",
+        "window",
+        "Let me close the window.",
+        "Ok."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "door",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "me",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "close",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Ok",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "door",
+        "window",
+        "Let me close the window.",
+        "Ok."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

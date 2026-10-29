@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "chapterId": "0500d50509c2f1f6668a11d6",
+      "pageId": "13b5c59d1e02b5c20982ccd6",
+      "imageSha256": "dec642aa5a9716aba2baa22cfbe069153b7cf70016ea4c6b4e584b4bc065dfe2",
+      "audioSha256": "d5f5af0fd4bf7e542a8635cf60c29879077eb2e83b18334ec2f2e08b39ef7915",
+      "imageSize": [718, 672],
+      "backgroundUrl": "/illustrations/breakfast-background-v1.png",
+      "alignment": "Text checked against the source illustration; sentence ranges follow the four separated utterances after the recording introduction, using silence boundaries with padding. No synthesized audio.",
+      "scenes": [
+        {
+          "title": "早餐对话 · 早上好",
+          "crop": [68, 128, 585, 260],
+          "lines": [
+            {"text": "Good morning.", "speaker": "Mum", "start": 8.3, "end": 9.7, "bubble": [0.5, 2.5, 40]},
+            {"text": "Good morning, Mum.", "speaker": "Child", "start": 10.45, "end": 12.05, "bubble": [58.5, 15.5, 41]}
+          ]
+        },
+        {
+          "title": "早餐对话 · 吃早餐",
+          "crop": [68, 398, 585, 267],
+          "lines": [
+            {"text": "Have some bread and juice.", "speaker": "Mum", "start": 12.95, "end": 15.2, "bubble": [25, 0.5, 42], "minHeight": 24},
+            {"text": "Thank you, Mum!", "speaker": "Child", "start": 16.2, "end": 17.65, "bubble": [68, 19, 31.5]}
+          ]
+        }
+      ]
+    }
+  ]
+}

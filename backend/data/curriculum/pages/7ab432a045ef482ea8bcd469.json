@@ -1,0 +1,87 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/07_07_教材页面_c89b628567.jpg",
+  "units": [
+    7
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "7ab432a045ef482ea8bcd469cc852ffaa0c87a0c49943fe903d9b1bb4593ffab",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "long jump",
+              "meaning": "跳远",
+              "uncertain": false
+            },
+            {
+              "word": "group jump rope",
+              "meaning": "集体跳绳",
+              "uncertain": false
+            },
+            {
+              "word": "high jump",
+              "meaning": "跳高",
+              "uncertain": false
+            },
+            {
+              "word": "come on",
+              "meaning": "加油",
+              "uncertain": false
+            },
+            {
+              "word": "tortoise",
+              "meaning": "龟",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "long jump",
+              "meaning": "跳远",
+              "uncertain": false
+            },
+            {
+              "word": "group jump rope",
+              "meaning": "集体跳绳",
+              "uncertain": false
+            },
+            {
+              "word": "high jump",
+              "meaning": "跳高",
+              "uncertain": false
+            },
+            {
+              "word": "come on",
+              "meaning": "加油",
+              "uncertain": false
+            },
+            {
+              "word": "tortoise",
+              "meaning": "龟",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

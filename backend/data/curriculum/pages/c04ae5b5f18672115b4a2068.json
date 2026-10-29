@@ -1,0 +1,168 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 5,
+  "units": [
+    5
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/110/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/02_教材页面_71d239f32c.jpg",
+  "sha256": "c04ae5b5f18672115b4a20689076f2732256c1a9b8143ae0b6df0d3a92acb113",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "eleven",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "The",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "number",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "blue",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "seventeen",
+        "The number twelve is blue."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "eleven",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "twelve",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thirteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fourteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fifteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sixteen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "The",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "number",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "blue",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "seventeen",
+        "The number twelve is blue."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

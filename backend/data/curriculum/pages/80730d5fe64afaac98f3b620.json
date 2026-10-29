@@ -1,0 +1,1000 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页150.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "80730d5fe64afaac98f3b620f362b52e47e82133cb56d9a8bfea0184bd909c72",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "helmet",
+              "meaning": "n.头盔",
+              "uncertain": false
+            },
+            {
+              "word": "rider",
+              "meaning": "n.骑手;骑马(或自行车、摩托车)的人",
+              "uncertain": false
+            },
+            {
+              "word": "meeting",
+              "meaning": "n.会议;集会",
+              "uncertain": false
+            },
+            {
+              "word": "manner",
+              "meaning": "n.礼仪;礼貌(复数)",
+              "uncertain": false
+            },
+            {
+              "word": "seat",
+              "meaning": "n.座位",
+              "uncertain": false
+            },
+            {
+              "word": "person",
+              "meaning": "n.人;个人",
+              "uncertain": false
+            },
+            {
+              "word": "wrong",
+              "meaning": "adj.错误的;有毛病",
+              "uncertain": false
+            },
+            {
+              "word": "plate",
+              "meaning": "n.盘子;碟子",
+              "uncertain": false
+            },
+            {
+              "word": "chopstick",
+              "meaning": "n.筷子",
+              "uncertain": false
+            },
+            {
+              "word": "point",
+              "meaning": "v.指,指向 n.论点;重点;点",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "drama",
+              "meaning": "n.戏;剧",
+              "uncertain": false
+            },
+            {
+              "word": "newspaper",
+              "meaning": "n.报纸",
+              "uncertain": false
+            },
+            {
+              "word": "cheer",
+              "meaning": "v.欢呼,加油;鼓励",
+              "uncertain": false
+            },
+            {
+              "word": "shoot",
+              "meaning": "v.射门,投篮;射击,发射",
+              "uncertain": false
+            },
+            {
+              "word": "practice",
+              "meaning": "v.训练;练习",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "n.洞;孔;坑",
+              "uncertain": false
+            },
+            {
+              "word": "kick",
+              "meaning": "v.踢;射门得分 n.踢",
+              "uncertain": false
+            },
+            {
+              "word": "fail",
+              "meaning": "v.失败,未能(做到);不及格",
+              "uncertain": false
+            },
+            {
+              "word": "true",
+              "meaning": "adj.确实的;真正的",
+              "uncertain": false
+            },
+            {
+              "word": "skill",
+              "meaning": "n.技巧;技能",
+              "uncertain": false
+            },
+            {
+              "word": "teamwork",
+              "meaning": "n.团队合作",
+              "uncertain": false
+            },
+            {
+              "word": "player",
+              "meaning": "n.运动员;游戏者;参赛选手",
+              "uncertain": false
+            },
+            {
+              "word": "taxi",
+              "meaning": "n.出租汽车",
+              "uncertain": false
+            },
+            {
+              "word": "paper-cut",
+              "meaning": "n.剪纸艺术",
+              "uncertain": false
+            },
+            {
+              "word": "divide",
+              "meaning": "v.(使)分开,分散,分割,分成",
+              "uncertain": false
+            },
+            {
+              "word": "become",
+              "meaning": "v.开始变得;成为",
+              "uncertain": false
+            },
+            {
+              "word": "teammate",
+              "meaning": "n.队友",
+              "uncertain": false
+            },
+            {
+              "word": "heart",
+              "meaning": "n.心;心脏",
+              "uncertain": false
+            },
+            {
+              "word": "close",
+              "meaning": "adj.亲密的;密切的 v.关;关闭",
+              "uncertain": false
+            },
+            {
+              "word": "improve",
+              "meaning": "v.改进",
+              "uncertain": false
+            },
+            {
+              "word": "hero",
+              "meaning": "n.英雄",
+              "uncertain": false
+            },
+            {
+              "word": "engineer",
+              "meaning": "n.工程师;设计师",
+              "uncertain": false
+            },
+            {
+              "word": "company",
+              "meaning": "n.公司",
+              "uncertain": false
+            },
+            {
+              "word": "villager",
+              "meaning": "n.村民;乡村居民",
+              "uncertain": false
+            },
+            {
+              "word": "tasty",
+              "meaning": "adj.美味的;可口的",
+              "uncertain": false
+            },
+            {
+              "word": "means",
+              "meaning": "n.方式;方法;途径",
+              "uncertain": false
+            },
+            {
+              "word": "loss",
+              "meaning": "n.丧失;损失",
+              "uncertain": false
+            },
+            {
+              "word": "taste",
+              "meaning": "n.味道;鉴赏力 v.有……味道;尝,品;吃,喝",
+              "uncertain": false
+            },
+            {
+              "word": "difficulty",
+              "meaning": "n.困难;困境",
+              "uncertain": false
+            },
+            {
+              "word": "voice",
+              "meaning": "n.说话声;嗓音",
+              "uncertain": false
+            },
+            {
+              "word": "proudly",
+              "meaning": "adv.自豪地;骄傲地",
+              "uncertain": false
+            },
+            {
+              "word": "painting",
+              "meaning": "n.油画;画作",
+              "uncertain": false
+            },
+            {
+              "word": "discuss",
+              "meaning": "v.讨论;谈论",
+              "uncertain": false
+            },
+            {
+              "word": "writing",
+              "meaning": "n.书写;写作;笔迹",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "helmet",
+              "meaning": "n.头盔",
+              "uncertain": false
+            },
+            {
+              "word": "rider",
+              "meaning": "n.骑手;骑马(或自行车、摩托车)的人",
+              "uncertain": false
+            },
+            {
+              "word": "meeting",
+              "meaning": "n.会议;集会",
+              "uncertain": false
+            },
+            {
+              "word": "manner",
+              "meaning": "n.礼仪;礼貌(复数)",
+              "uncertain": false
+            },
+            {
+              "word": "seat",
+              "meaning": "n.座位",
+              "uncertain": false
+            },
+            {
+              "word": "person",
+              "meaning": "n.人;个人",
+              "uncertain": false
+            },
+            {
+              "word": "wrong",
+              "meaning": "adj.错误的;有毛病",
+              "uncertain": false
+            },
+            {
+              "word": "plate",
+              "meaning": "n.盘子;碟子",
+              "uncertain": false
+            },
+            {
+              "word": "chopstick",
+              "meaning": "n.筷子",
+              "uncertain": false
+            },
+            {
+              "word": "point",
+              "meaning": "v.指,指向 n.论点;重点;点",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "drama",
+              "meaning": "n.戏;剧",
+              "uncertain": false
+            },
+            {
+              "word": "newspaper",
+              "meaning": "n.报纸",
+              "uncertain": false
+            },
+            {
+              "word": "cheer",
+              "meaning": "v.欢呼,加油;鼓励",
+              "uncertain": false
+            },
+            {
+              "word": "shoot",
+              "meaning": "v.射门,投篮;射击,发射",
+              "uncertain": false
+            },
+            {
+              "word": "practice",
+              "meaning": "v.训练;练习",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "n.洞;孔;坑",
+              "uncertain": false
+            },
+            {
+              "word": "kick",
+              "meaning": "v.踢;射门得分 n.踢",
+              "uncertain": false
+            },
+            {
+              "word": "fail",
+              "meaning": "v.失败,未能(做到);不及格",
+              "uncertain": false
+            },
+            {
+              "word": "true",
+              "meaning": "adj.确实的;真正的",
+              "uncertain": false
+            },
+            {
+              "word": "skill",
+              "meaning": "n.技巧;技能",
+              "uncertain": false
+            },
+            {
+              "word": "teamwork",
+              "meaning": "n.团队合作",
+              "uncertain": false
+            },
+            {
+              "word": "player",
+              "meaning": "n.运动员;游戏者;参赛选手",
+              "uncertain": false
+            },
+            {
+              "word": "taxi",
+              "meaning": "n.出租汽车",
+              "uncertain": false
+            },
+            {
+              "word": "paper-cut",
+              "meaning": "n.剪纸艺术",
+              "uncertain": false
+            },
+            {
+              "word": "divide",
+              "meaning": "v.(使)分开,分散,分割,分成",
+              "uncertain": false
+            },
+            {
+              "word": "become",
+              "meaning": "v.开始变得;成为",
+              "uncertain": false
+            },
+            {
+              "word": "teammate",
+              "meaning": "n.队友",
+              "uncertain": false
+            },
+            {
+              "word": "heart",
+              "meaning": "n.心;心脏",
+              "uncertain": false
+            },
+            {
+              "word": "close",
+              "meaning": "adj.亲密的;密切的 v.关;关闭",
+              "uncertain": false
+            },
+            {
+              "word": "improve",
+              "meaning": "v.改进",
+              "uncertain": false
+            },
+            {
+              "word": "hero",
+              "meaning": "n.英雄",
+              "uncertain": false
+            },
+            {
+              "word": "engineer",
+              "meaning": "n.工程师;设计师",
+              "uncertain": false
+            },
+            {
+              "word": "company",
+              "meaning": "n.公司",
+              "uncertain": false
+            },
+            {
+              "word": "villager",
+              "meaning": "n.村民;乡村居民",
+              "uncertain": false
+            },
+            {
+              "word": "tasty",
+              "meaning": "adj.美味的;可口的",
+              "uncertain": false
+            },
+            {
+              "word": "means",
+              "meaning": "n.方式;方法;途径",
+              "uncertain": false
+            },
+            {
+              "word": "loss",
+              "meaning": "n.丧失;损失",
+              "uncertain": false
+            },
+            {
+              "word": "taste",
+              "meaning": "n.味道;鉴赏力 v.有……味道;尝,品;吃,喝",
+              "uncertain": false
+            },
+            {
+              "word": "difficulty",
+              "meaning": "n.困难;困境",
+              "uncertain": false
+            },
+            {
+              "word": "voice",
+              "meaning": "n.说话声;嗓音",
+              "uncertain": false
+            },
+            {
+              "word": "proudly",
+              "meaning": "adv.自豪地;骄傲地",
+              "uncertain": false
+            },
+            {
+              "word": "painting",
+              "meaning": "n.油画;画作",
+              "uncertain": false
+            },
+            {
+              "word": "discuss",
+              "meaning": "v.讨论;谈论",
+              "uncertain": false
+            },
+            {
+              "word": "writing",
+              "meaning": "n.书写;写作;笔迹",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "68e3de9642241548ce51f7c5c554d53f740034b92f31d0de58c597f97b9ee01f",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "helmet",
+                  "meaning": "n.头盔",
+                  "uncertain": false
+                },
+                {
+                  "word": "rider",
+                  "meaning": "n.骑手;骑马(或自行车、摩托车)的人",
+                  "uncertain": false
+                },
+                {
+                  "word": "meeting",
+                  "meaning": "n.会议;集会",
+                  "uncertain": false
+                },
+                {
+                  "word": "manner",
+                  "meaning": "n.礼仪;礼貌(复数)",
+                  "uncertain": false
+                },
+                {
+                  "word": "seat",
+                  "meaning": "n.座位",
+                  "uncertain": false
+                },
+                {
+                  "word": "person",
+                  "meaning": "n.人;个人",
+                  "uncertain": false
+                },
+                {
+                  "word": "wrong",
+                  "meaning": "adj.错误的;有毛病",
+                  "uncertain": false
+                },
+                {
+                  "word": "plate",
+                  "meaning": "n.盘子;碟子",
+                  "uncertain": false
+                },
+                {
+                  "word": "chopstick",
+                  "meaning": "n.筷子",
+                  "uncertain": false
+                },
+                {
+                  "word": "point",
+                  "meaning": "v.指,指向 n.论点;重点;点",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 12,
+              "entries": [
+                {
+                  "word": "drama",
+                  "meaning": "n.戏;剧",
+                  "uncertain": false
+                },
+                {
+                  "word": "newspaper",
+                  "meaning": "n.报纸",
+                  "uncertain": false
+                },
+                {
+                  "word": "cheer",
+                  "meaning": "v.欢呼,加油;鼓励",
+                  "uncertain": false
+                },
+                {
+                  "word": "shoot",
+                  "meaning": "v.射门,投篮;射击,发射",
+                  "uncertain": false
+                },
+                {
+                  "word": "practice",
+                  "meaning": "v.训练;练习",
+                  "uncertain": false
+                },
+                {
+                  "word": "hole",
+                  "meaning": "n.洞;孔;坑",
+                  "uncertain": false
+                },
+                {
+                  "word": "kick",
+                  "meaning": "v.踢;射门得分 n.踢",
+                  "uncertain": false
+                },
+                {
+                  "word": "fail",
+                  "meaning": "v.失败,未能(做到);不及格",
+                  "uncertain": false
+                },
+                {
+                  "word": "true",
+                  "meaning": "adj.确实的;真正的",
+                  "uncertain": false
+                },
+                {
+                  "word": "skill",
+                  "meaning": "n.技巧;技能",
+                  "uncertain": false
+                },
+                {
+                  "word": "teamwork",
+                  "meaning": "n.团队合作",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "helmet",
+                  "meaning": "n.头盔",
+                  "uncertain": false
+                },
+                {
+                  "word": "rider",
+                  "meaning": "n.骑手;骑马(或自行车、摩托车)的人",
+                  "uncertain": false
+                },
+                {
+                  "word": "meeting",
+                  "meaning": "n.会议;集会",
+                  "uncertain": false
+                },
+                {
+                  "word": "manner",
+                  "meaning": "n.礼仪;礼貌(复数)",
+                  "uncertain": false
+                },
+                {
+                  "word": "seat",
+                  "meaning": "n.座位",
+                  "uncertain": false
+                },
+                {
+                  "word": "person",
+                  "meaning": "n.人;个人",
+                  "uncertain": false
+                },
+                {
+                  "word": "wrong",
+                  "meaning": "adj.错误的;有毛病",
+                  "uncertain": false
+                },
+                {
+                  "word": "plate",
+                  "meaning": "n.盘子;碟子",
+                  "uncertain": false
+                },
+                {
+                  "word": "chopstick",
+                  "meaning": "n.筷子",
+                  "uncertain": false
+                },
+                {
+                  "word": "point",
+                  "meaning": "v.指,指向 n.论点;重点;点",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 12,
+              "entries": [
+                {
+                  "word": "drama",
+                  "meaning": "n.戏;剧",
+                  "uncertain": false
+                },
+                {
+                  "word": "newspaper",
+                  "meaning": "n.报纸",
+                  "uncertain": false
+                },
+                {
+                  "word": "cheer",
+                  "meaning": "v.欢呼,加油;鼓励",
+                  "uncertain": false
+                },
+                {
+                  "word": "shoot",
+                  "meaning": "v.射门,投篮;射击,发射",
+                  "uncertain": false
+                },
+                {
+                  "word": "practice",
+                  "meaning": "v.训练;练习",
+                  "uncertain": false
+                },
+                {
+                  "word": "hole",
+                  "meaning": "n.洞;孔;坑",
+                  "uncertain": false
+                },
+                {
+                  "word": "kick",
+                  "meaning": "v.踢;射门得分 n.踢",
+                  "uncertain": false
+                },
+                {
+                  "word": "fail",
+                  "meaning": "v.失败,未能(做到);不及格",
+                  "uncertain": false
+                },
+                {
+                  "word": "true",
+                  "meaning": "adj.确实的;真正的",
+                  "uncertain": false
+                },
+                {
+                  "word": "skill",
+                  "meaning": "n.技巧;技能",
+                  "uncertain": false
+                },
+                {
+                  "word": "teamwork",
+                  "meaning": "n.团队合作",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "b7551ee025c54530ca214e50294073306dcf38040622e1140ed42b96a486f39a",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "player",
+                  "meaning": "n.运动员;游戏者;参赛选手",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "taxi",
+                  "meaning": "n.出租汽车",
+                  "uncertain": false
+                },
+                {
+                  "word": "paper-cut",
+                  "meaning": "n.剪纸艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "divide",
+                  "meaning": "v.(使)分开,分散,分割,分成",
+                  "uncertain": false
+                },
+                {
+                  "word": "become",
+                  "meaning": "v.开始变得;成为",
+                  "uncertain": false
+                },
+                {
+                  "word": "teammate",
+                  "meaning": "n.队友",
+                  "uncertain": false
+                },
+                {
+                  "word": "heart",
+                  "meaning": "n.心;心脏",
+                  "uncertain": false
+                },
+                {
+                  "word": "close",
+                  "meaning": "adj.亲密的;密切的 / v.关;关闭",
+                  "uncertain": false
+                },
+                {
+                  "word": "improve",
+                  "meaning": "v.改进",
+                  "uncertain": false
+                },
+                {
+                  "word": "hero",
+                  "meaning": "n.英雄",
+                  "uncertain": false
+                },
+                {
+                  "word": "engineer",
+                  "meaning": "n.工程师;设计师",
+                  "uncertain": false
+                },
+                {
+                  "word": "company",
+                  "meaning": "n.公司",
+                  "uncertain": false
+                },
+                {
+                  "word": "villager",
+                  "meaning": "n.村民;乡村居民",
+                  "uncertain": false
+                },
+                {
+                  "word": "tasty",
+                  "meaning": "adj.美味的;可口的",
+                  "uncertain": false
+                },
+                {
+                  "word": "means",
+                  "meaning": "n.方式;方法;途径",
+                  "uncertain": false
+                },
+                {
+                  "word": "loss",
+                  "meaning": "n.丧失;损失",
+                  "uncertain": false
+                },
+                {
+                  "word": "taste",
+                  "meaning": "n.味道;鉴赏力 v.有……味道;尝,品;吃,喝",
+                  "uncertain": false
+                },
+                {
+                  "word": "difficulty",
+                  "meaning": "n.困难;困境",
+                  "uncertain": false
+                },
+                {
+                  "word": "voice",
+                  "meaning": "n.说话声;嗓音",
+                  "uncertain": false
+                },
+                {
+                  "word": "proudly",
+                  "meaning": "adv.自豪地;骄傲地",
+                  "uncertain": false
+                },
+                {
+                  "word": "painting",
+                  "meaning": "n.油画;画作",
+                  "uncertain": false
+                },
+                {
+                  "word": "discuss",
+                  "meaning": "v.讨论;谈论",
+                  "uncertain": false
+                },
+                {
+                  "word": "writing",
+                  "meaning": "n.书写;写作;笔迹",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "player",
+                  "meaning": "n.运动员;游戏者;参赛选手",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "taxi",
+                  "meaning": "n.出租汽车",
+                  "uncertain": false
+                },
+                {
+                  "word": "paper-cut",
+                  "meaning": "n.剪纸艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "divide",
+                  "meaning": "v.(使)分开,分散,分割,分成",
+                  "uncertain": false
+                },
+                {
+                  "word": "become",
+                  "meaning": "v.开始变得;成为",
+                  "uncertain": false
+                },
+                {
+                  "word": "teammate",
+                  "meaning": "n.队友",
+                  "uncertain": false
+                },
+                {
+                  "word": "heart",
+                  "meaning": "n.心;心脏",
+                  "uncertain": false
+                },
+                {
+                  "word": "close",
+                  "meaning": "adj.亲密的;密切的 / v.关;关闭",
+                  "uncertain": false
+                },
+                {
+                  "word": "improve",
+                  "meaning": "v.改进",
+                  "uncertain": false
+                },
+                {
+                  "word": "hero",
+                  "meaning": "n.英雄",
+                  "uncertain": false
+                },
+                {
+                  "word": "engineer",
+                  "meaning": "n.工程师;设计师",
+                  "uncertain": false
+                },
+                {
+                  "word": "company",
+                  "meaning": "n.公司",
+                  "uncertain": false
+                },
+                {
+                  "word": "villager",
+                  "meaning": "n.村民;乡村居民",
+                  "uncertain": false
+                },
+                {
+                  "word": "tasty",
+                  "meaning": "adj.美味的;可口的",
+                  "uncertain": false
+                },
+                {
+                  "word": "means",
+                  "meaning": "n.方式;方法;途径",
+                  "uncertain": false
+                },
+                {
+                  "word": "loss",
+                  "meaning": "n.丧失;损失",
+                  "uncertain": false
+                },
+                {
+                  "word": "taste",
+                  "meaning": "n.味道;鉴赏力 v.有……味道;尝,品;吃,喝",
+                  "uncertain": false
+                },
+                {
+                  "word": "difficulty",
+                  "meaning": "n.困难;困境",
+                  "uncertain": false
+                },
+                {
+                  "word": "voice",
+                  "meaning": "n.说话声;嗓音",
+                  "uncertain": false
+                },
+                {
+                  "word": "proudly",
+                  "meaning": "adv.自豪地;骄傲地",
+                  "uncertain": false
+                },
+                {
+                  "word": "painting",
+                  "meaning": "n.油画;画作",
+                  "uncertain": false
+                },
+                {
+                  "word": "discuss",
+                  "meaning": "v.讨论;谈论",
+                  "uncertain": false
+                },
+                {
+                  "word": "writing",
+                  "meaning": "n.书写;写作;笔迹",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

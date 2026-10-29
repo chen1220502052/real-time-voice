@@ -1,0 +1,175 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/1222d95d49576cf21af582db-right.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/93/detail/",
+  "sha256": "31dc25bef15a0356efa75f6f9ad192c56d077c7a9a61eeb8ebb8ef62a27114db",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "angry",
+              "meaning": "生气的",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "年轻的",
+              "uncertain": false
+            },
+            {
+              "word": "arrive",
+              "meaning": "到达",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "以前",
+              "uncertain": false
+            },
+            {
+              "word": "kill",
+              "meaning": "杀死",
+              "uncertain": false
+            },
+            {
+              "word": "return",
+              "meaning": "返回",
+              "uncertain": false
+            },
+            {
+              "word": "finally",
+              "meaning": "最终",
+              "uncertain": false
+            },
+            {
+              "word": "trip",
+              "meaning": "旅行",
+              "uncertain": false
+            },
+            {
+              "word": "take photos",
+              "meaning": "拍照",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "boat",
+              "meaning": "小船；划船",
+              "uncertain": false
+            },
+            {
+              "word": "zoo",
+              "meaning": "动物园",
+              "uncertain": false
+            },
+            {
+              "word": "last",
+              "meaning": "最后，上一个",
+              "uncertain": false
+            },
+            {
+              "word": "protect",
+              "meaning": "保护",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "angry",
+              "meaning": "生气的",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "年轻的",
+              "uncertain": false
+            },
+            {
+              "word": "arrive",
+              "meaning": "到达",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "以前",
+              "uncertain": false
+            },
+            {
+              "word": "kill",
+              "meaning": "杀死",
+              "uncertain": false
+            },
+            {
+              "word": "return",
+              "meaning": "返回",
+              "uncertain": false
+            },
+            {
+              "word": "finally",
+              "meaning": "最终",
+              "uncertain": false
+            },
+            {
+              "word": "trip",
+              "meaning": "旅行",
+              "uncertain": false
+            },
+            {
+              "word": "take photos",
+              "meaning": "拍照",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "boat",
+              "meaning": "小船；划船",
+              "uncertain": false
+            },
+            {
+              "word": "zoo",
+              "meaning": "动物园",
+              "uncertain": false
+            },
+            {
+              "word": "last",
+              "meaning": "最后，上一个",
+              "uncertain": false
+            },
+            {
+              "word": "protect",
+              "meaning": "保护",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

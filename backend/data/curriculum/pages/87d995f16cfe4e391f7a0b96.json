@@ -1,0 +1,735 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页147.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "87d995f16cfe4e391f7a0b96391be16dd3e2c88673ecb796842990bb3b060cbe",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "western",
+              "meaning": "西方的,西部的",
+              "uncertain": false
+            },
+            {
+              "word": "Greek",
+              "meaning": "希腊的",
+              "uncertain": false
+            },
+            {
+              "word": "Greek",
+              "meaning": "希腊人",
+              "uncertain": false
+            },
+            {
+              "word": "Indian",
+              "meaning": "印度人的;印第安人的",
+              "uncertain": false
+            },
+            {
+              "word": "Indian",
+              "meaning": "印度人;印第安人",
+              "uncertain": false
+            },
+            {
+              "word": "curry",
+              "meaning": "咖喱食品",
+              "uncertain": false
+            },
+            {
+              "word": "fried",
+              "meaning": "油炸的",
+              "uncertain": false
+            },
+            {
+              "word": "sushi",
+              "meaning": "寿司",
+              "uncertain": false
+            },
+            {
+              "word": "Italian",
+              "meaning": "意大利(人)的;意大利语的",
+              "uncertain": false
+            },
+            {
+              "word": "African",
+              "meaning": "非洲的",
+              "uncertain": false
+            },
+            {
+              "word": "African",
+              "meaning": "非洲人",
+              "uncertain": false
+            },
+            {
+              "word": "Russian",
+              "meaning": "俄国(人)的;俄语的",
+              "uncertain": false
+            },
+            {
+              "word": "Russian",
+              "meaning": "俄国人;俄语",
+              "uncertain": false
+            },
+            {
+              "word": "regret",
+              "meaning": "感到遗憾,惋惜",
+              "uncertain": false
+            },
+            {
+              "word": "regret",
+              "meaning": "痛惜,懊悔,遗憾",
+              "uncertain": false
+            },
+            {
+              "word": "gather",
+              "meaning": "召集,聚集;收集",
+              "uncertain": false
+            },
+            {
+              "word": "group",
+              "meaning": "组,组群",
+              "uncertain": false
+            },
+            {
+              "word": "group",
+              "meaning": "(使)成群,成组",
+              "uncertain": false
+            },
+            {
+              "word": "member",
+              "meaning": "成员,会员",
+              "uncertain": false
+            },
+            {
+              "word": "roof",
+              "meaning": "屋顶;顶部",
+              "uncertain": false
+            },
+            {
+              "word": "birthplace",
+              "meaning": "(尤指名人的)出生时的住宅,出生地",
+              "uncertain": false
+            },
+            {
+              "word": "former",
+              "meaning": "以前的",
+              "uncertain": false
+            },
+            {
+              "word": "purpose",
+              "meaning": "目的,意图",
+              "uncertain": false
+            },
+            {
+              "word": "in order to",
+              "meaning": "为了",
+              "uncertain": false
+            },
+            {
+              "word": "come true",
+              "meaning": "变为现实,成为事实",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pot",
+              "meaning": "锅;壶,瓶,罐",
+              "uncertain": false
+            },
+            {
+              "word": "pork",
+              "meaning": "猪肉",
+              "uncertain": false
+            },
+            {
+              "word": "cut up",
+              "meaning": "切碎,剁碎",
+              "uncertain": false
+            },
+            {
+              "word": "ham",
+              "meaning": "火腿",
+              "uncertain": false
+            },
+            {
+              "word": "onion",
+              "meaning": "洋葱(头)",
+              "uncertain": false
+            },
+            {
+              "word": "noodle",
+              "meaning": "面条",
+              "uncertain": false
+            },
+            {
+              "word": "bowl",
+              "meaning": "碗,盒",
+              "uncertain": false
+            },
+            {
+              "word": "junk food",
+              "meaning": "垃圾食品",
+              "uncertain": false
+            },
+            {
+              "word": "quick",
+              "meaning": "快的,迅速的",
+              "uncertain": false
+            },
+            {
+              "word": "healthily",
+              "meaning": "健康地",
+              "uncertain": false
+            },
+            {
+              "word": "snack",
+              "meaning": "小吃",
+              "uncertain": false
+            },
+            {
+              "word": "butter",
+              "meaning": "黄油,奶油",
+              "uncertain": false
+            },
+            {
+              "word": "pear",
+              "meaning": "梨",
+              "uncertain": false
+            },
+            {
+              "word": "piece",
+              "meaning": "一块(片,张,件……)",
+              "uncertain": false
+            },
+            {
+              "word": "slurp",
+              "meaning": "(喝东西时)发出啧啧的声音",
+              "uncertain": false
+            },
+            {
+              "word": "impolite",
+              "meaning": "不礼貌的,粗鲁的",
+              "uncertain": false
+            },
+            {
+              "word": "noisily",
+              "meaning": "吵闹地,聒噪地",
+              "uncertain": false
+            },
+            {
+              "word": "polite",
+              "meaning": "有礼貌的,有教养的",
+              "uncertain": false
+            },
+            {
+              "word": "formal",
+              "meaning": "正式的",
+              "uncertain": false
+            },
+            {
+              "word": "manner",
+              "meaning": "方式;举止;态度",
+              "uncertain": false
+            },
+            {
+              "word": "table manners",
+              "meaning": "餐桌礼节,用餐的规矩",
+              "uncertain": false
+            },
+            {
+              "word": "napkin",
+              "meaning": "餐巾",
+              "uncertain": false
+            },
+            {
+              "word": "lap",
+              "meaning": "(人坐时)膝部",
+              "uncertain": false
+            },
+            {
+              "word": "fork",
+              "meaning": "叉,餐叉",
+              "uncertain": false
+            },
+            {
+              "word": "dish",
+              "meaning": "菜肴;碟,盘",
+              "uncertain": false
+            },
+            {
+              "word": "eat up",
+              "meaning": "吃光,吃完",
+              "uncertain": false
+            },
+            {
+              "word": "quietly",
+              "meaning": "安静地,寂静地",
+              "uncertain": false
+            },
+            {
+              "word": "drink to sb./sth.",
+              "meaning": "为某人/某事干杯(或祝酒)",
+              "uncertain": false
+            },
+            {
+              "word": "dine",
+              "meaning": "进餐,用饭",
+              "uncertain": false
+            },
+            {
+              "word": "elbow",
+              "meaning": "肘,肘部",
+              "uncertain": false
+            },
+            {
+              "word": "spoon",
+              "meaning": "匙,调羹",
+              "uncertain": false
+            },
+            {
+              "word": "chopstick",
+              "meaning": "筷子",
+              "uncertain": false
+            },
+            {
+              "word": "finger",
+              "meaning": "(拇指以外的任何一个)手指",
+              "uncertain": false
+            },
+            {
+              "word": "southern",
+              "meaning": "南方的,南部的",
+              "uncertain": false
+            },
+            {
+              "word": "seafood",
+              "meaning": "海鲜,海味",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "finely",
+              "meaning": "微小地,细微地",
+              "uncertain": false
+            },
+            {
+              "word": "oil",
+              "meaning": "油",
+              "uncertain": false
+            },
+            {
+              "word": "pan",
+              "meaning": "平底锅",
+              "uncertain": false
+            },
+            {
+              "word": "lightly",
+              "meaning": "轻微地,轻轻地",
+              "uncertain": false
+            },
+            {
+              "word": "add",
+              "meaning": "增加,添加",
+              "uncertain": false
+            },
+            {
+              "word": "slowly",
+              "meaning": "缓慢地;慢速地",
+              "uncertain": false
+            },
+            {
+              "word": "fry",
+              "meaning": "用油煎,用油炸",
+              "uncertain": false
+            },
+            {
+              "word": "ingredient",
+              "meaning": "成分,原料",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "western",
+              "meaning": "西方的,西部的",
+              "uncertain": false
+            },
+            {
+              "word": "Greek",
+              "meaning": "希腊的",
+              "uncertain": false
+            },
+            {
+              "word": "Greek",
+              "meaning": "希腊人",
+              "uncertain": false
+            },
+            {
+              "word": "Indian",
+              "meaning": "印度人的;印第安人的",
+              "uncertain": false
+            },
+            {
+              "word": "Indian",
+              "meaning": "印度人;印第安人",
+              "uncertain": false
+            },
+            {
+              "word": "curry",
+              "meaning": "咖喱食品",
+              "uncertain": false
+            },
+            {
+              "word": "fried",
+              "meaning": "油炸的",
+              "uncertain": false
+            },
+            {
+              "word": "sushi",
+              "meaning": "寿司",
+              "uncertain": false
+            },
+            {
+              "word": "Italian",
+              "meaning": "意大利(人)的;意大利语的",
+              "uncertain": false
+            },
+            {
+              "word": "African",
+              "meaning": "非洲的",
+              "uncertain": false
+            },
+            {
+              "word": "African",
+              "meaning": "非洲人",
+              "uncertain": false
+            },
+            {
+              "word": "Russian",
+              "meaning": "俄国(人)的;俄语的",
+              "uncertain": false
+            },
+            {
+              "word": "Russian",
+              "meaning": "俄国人;俄语",
+              "uncertain": false
+            },
+            {
+              "word": "regret",
+              "meaning": "感到遗憾,惋惜",
+              "uncertain": false
+            },
+            {
+              "word": "regret",
+              "meaning": "痛惜,懊悔,遗憾",
+              "uncertain": false
+            },
+            {
+              "word": "gather",
+              "meaning": "召集,聚集;收集",
+              "uncertain": false
+            },
+            {
+              "word": "group",
+              "meaning": "组,组群",
+              "uncertain": false
+            },
+            {
+              "word": "group",
+              "meaning": "(使)成群,成组",
+              "uncertain": false
+            },
+            {
+              "word": "member",
+              "meaning": "成员,会员",
+              "uncertain": false
+            },
+            {
+              "word": "roof",
+              "meaning": "屋顶;顶部",
+              "uncertain": false
+            },
+            {
+              "word": "birthplace",
+              "meaning": "(尤指名人的)出生时的住宅,出生地",
+              "uncertain": false
+            },
+            {
+              "word": "former",
+              "meaning": "以前的",
+              "uncertain": false
+            },
+            {
+              "word": "purpose",
+              "meaning": "目的,意图",
+              "uncertain": false
+            },
+            {
+              "word": "in order to",
+              "meaning": "为了",
+              "uncertain": false
+            },
+            {
+              "word": "come true",
+              "meaning": "变为现实,成为事实",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pot",
+              "meaning": "锅;壶,瓶,罐",
+              "uncertain": false
+            },
+            {
+              "word": "pork",
+              "meaning": "猪肉",
+              "uncertain": false
+            },
+            {
+              "word": "cut up",
+              "meaning": "切碎,剁碎",
+              "uncertain": false
+            },
+            {
+              "word": "ham",
+              "meaning": "火腿",
+              "uncertain": false
+            },
+            {
+              "word": "onion",
+              "meaning": "洋葱(头)",
+              "uncertain": false
+            },
+            {
+              "word": "noodle",
+              "meaning": "面条",
+              "uncertain": false
+            },
+            {
+              "word": "bowl",
+              "meaning": "碗,盒",
+              "uncertain": false
+            },
+            {
+              "word": "junk food",
+              "meaning": "垃圾食品",
+              "uncertain": false
+            },
+            {
+              "word": "quick",
+              "meaning": "快的,迅速的",
+              "uncertain": false
+            },
+            {
+              "word": "healthily",
+              "meaning": "健康地",
+              "uncertain": false
+            },
+            {
+              "word": "snack",
+              "meaning": "小吃",
+              "uncertain": false
+            },
+            {
+              "word": "butter",
+              "meaning": "黄油,奶油",
+              "uncertain": false
+            },
+            {
+              "word": "pear",
+              "meaning": "梨",
+              "uncertain": false
+            },
+            {
+              "word": "piece",
+              "meaning": "一块(片,张,件……)",
+              "uncertain": false
+            },
+            {
+              "word": "slurp",
+              "meaning": "(喝东西时)发出啧啧的声音",
+              "uncertain": false
+            },
+            {
+              "word": "impolite",
+              "meaning": "不礼貌的,粗鲁的",
+              "uncertain": false
+            },
+            {
+              "word": "noisily",
+              "meaning": "吵闹地,聒噪地",
+              "uncertain": false
+            },
+            {
+              "word": "polite",
+              "meaning": "有礼貌的,有教养的",
+              "uncertain": false
+            },
+            {
+              "word": "formal",
+              "meaning": "正式的",
+              "uncertain": false
+            },
+            {
+              "word": "manner",
+              "meaning": "方式;举止;态度",
+              "uncertain": false
+            },
+            {
+              "word": "table manners",
+              "meaning": "餐桌礼节,用餐的规矩",
+              "uncertain": false
+            },
+            {
+              "word": "napkin",
+              "meaning": "餐巾",
+              "uncertain": false
+            },
+            {
+              "word": "lap",
+              "meaning": "(人坐时)膝部",
+              "uncertain": false
+            },
+            {
+              "word": "fork",
+              "meaning": "叉,餐叉",
+              "uncertain": false
+            },
+            {
+              "word": "dish",
+              "meaning": "菜肴;碟,盘",
+              "uncertain": false
+            },
+            {
+              "word": "eat up",
+              "meaning": "吃光,吃完",
+              "uncertain": false
+            },
+            {
+              "word": "quietly",
+              "meaning": "安静地,寂静地",
+              "uncertain": false
+            },
+            {
+              "word": "drink to sb./sth.",
+              "meaning": "为某人/某事干杯(或祝酒)",
+              "uncertain": false
+            },
+            {
+              "word": "dine",
+              "meaning": "进餐,用饭",
+              "uncertain": false
+            },
+            {
+              "word": "elbow",
+              "meaning": "肘,肘部",
+              "uncertain": false
+            },
+            {
+              "word": "spoon",
+              "meaning": "匙,调羹",
+              "uncertain": false
+            },
+            {
+              "word": "chopstick",
+              "meaning": "筷子",
+              "uncertain": false
+            },
+            {
+              "word": "finger",
+              "meaning": "(拇指以外的任何一个)手指",
+              "uncertain": false
+            },
+            {
+              "word": "southern",
+              "meaning": "南方的,南部的",
+              "uncertain": false
+            },
+            {
+              "word": "seafood",
+              "meaning": "海鲜,海味",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "finely",
+              "meaning": "微小地,细微地",
+              "uncertain": false
+            },
+            {
+              "word": "oil",
+              "meaning": "油",
+              "uncertain": false
+            },
+            {
+              "word": "pan",
+              "meaning": "平底锅",
+              "uncertain": false
+            },
+            {
+              "word": "lightly",
+              "meaning": "轻微地,轻轻地",
+              "uncertain": false
+            },
+            {
+              "word": "add",
+              "meaning": "增加,添加",
+              "uncertain": false
+            },
+            {
+              "word": "slowly",
+              "meaning": "缓慢地;慢速地",
+              "uncertain": false
+            },
+            {
+              "word": "fry",
+              "meaning": "用油煎,用油炸",
+              "uncertain": false
+            },
+            {
+              "word": "ingredient",
+              "meaning": "成分,原料",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,174 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 6,
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/111/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/02_教材页面_e99f7b3077.jpg",
+  "sha256": "7b888ac799eea46dd30db4519eecc474dfb56459ecaf699bb68201d1d65c376b",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "Library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Toilet",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "This",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "my",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "school",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Library",
+        "Art room",
+        "Toilet",
+        "Classroom 3",
+        "Music room",
+        "Toilet",
+        "Classroom 1",
+        "Classroom 2",
+        "Toilet",
+        "This is my school.",
+        "This is the ..."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "Library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "room",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Toilet",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "This",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "my",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "school",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Library",
+        "Art room",
+        "Toilet",
+        "Classroom 3",
+        "Music room",
+        "Toilet",
+        "Classroom 1",
+        "Classroom 2",
+        "Toilet",
+        "This is my school.",
+        "This is the ..."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,148 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 3,
+  "units": [
+    3
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/108/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 3 Fruits/课文/01_教材页面_95c23f0dd2.jpg",
+  "sha256": "4b341d883038960056dcba1a0717ae9e5e9a479cbde6eb987c6dcf2992165400",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "Have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "watermelon",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thanks",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "apples",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bananas",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "pears",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "oranges",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "grapes",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Have some watermelon.",
+        "Thanks.",
+        "apples",
+        "bananas",
+        "pears",
+        "oranges",
+        "grapes",
+        "watermelon"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "Have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "watermelon",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thanks",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "apples",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bananas",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "pears",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "oranges",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "grapes",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Have some watermelon.",
+        "Thanks.",
+        "apples",
+        "bananas",
+        "pears",
+        "oranges",
+        "grapes",
+        "watermelon"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

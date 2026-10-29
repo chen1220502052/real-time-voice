@@ -1,0 +1,335 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": ".local/curriculum-column-crops/f52d5a25270312f7579bee4b-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "58ca1cb55af4a5ab5b0ef9bd81427c9846450631f42a28df312357e487b216b1",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "display",
+              "meaning": "v. 显示，显露；展示",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "n. 屏幕；银幕",
+              "uncertain": false
+            },
+            {
+              "word": "alien",
+              "meaning": "n. 外星人 adj. 陌生的；外国的；外星的",
+              "uncertain": false
+            },
+            {
+              "word": "outer space",
+              "meaning": "外层空间",
+              "uncertain": false
+            },
+            {
+              "word": "describe",
+              "meaning": "v. 描述；形容；把……称为",
+              "uncertain": false
+            },
+            {
+              "word": "astronaut",
+              "meaning": "n. 宇航员",
+              "uncertain": false
+            },
+            {
+              "word": "admire",
+              "meaning": "v. 钦佩，羡慕",
+              "uncertain": false
+            },
+            {
+              "word": "master",
+              "meaning": "v. 掌握，精通 n. 主人",
+              "uncertain": false
+            },
+            {
+              "word": "dancer",
+              "meaning": "n. 跳舞者，舞蹈演员",
+              "uncertain": false
+            },
+            {
+              "word": "realize",
+              "meaning": "v. (realise BrE) 意识到，领会；实现",
+              "uncertain": false
+            },
+            {
+              "word": "universe",
+              "meaning": "n. 宇宙",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "system 太阳系",
+              "uncertain": false
+            },
+            {
+              "word": "Roman",
+              "meaning": "adj. 古罗马的，古罗马帝国的",
+              "uncertain": false
+            },
+            {
+              "word": "god",
+              "meaning": "n. 上帝；神",
+              "uncertain": false
+            },
+            {
+              "word": "diameter",
+              "meaning": "n. 直径",
+              "uncertain": false
+            },
+            {
+              "word": "storm",
+              "meaning": "n. 风暴，暴(风)雨",
+              "uncertain": false
+            },
+            {
+              "word": "gravity",
+              "meaning": "n. 重力；引力",
+              "uncertain": false
+            },
+            {
+              "word": "weigh",
+              "meaning": "v. 重，有……重",
+              "uncertain": false
+            },
+            {
+              "word": "generally",
+              "meaning": "adv. 一般地，通常",
+              "uncertain": false
+            },
+            {
+              "word": "journey",
+              "meaning": "n. (尤指长途)旅行",
+              "uncertain": false
+            },
+            {
+              "word": "limit",
+              "meaning": "v. 限制，限定 n. 限度；限制",
+              "uncertain": false
+            },
+            {
+              "word": "excitement",
+              "meaning": "n. 激动；令人激动的事",
+              "uncertain": false
+            },
+            {
+              "word": "launch",
+              "meaning": "v. 发射；发起；发行",
+              "uncertain": false
+            },
+            {
+              "word": "beyond",
+              "meaning": "prep. 超出；除……之外",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "prove",
+              "meaning": "v. 证明，证实",
+              "uncertain": false
+            },
+            {
+              "word": "lunar probe",
+              "meaning": "月球探测器",
+              "uncertain": false
+            },
+            {
+              "word": "legend",
+              "meaning": "n. 传说，传奇故事",
+              "uncertain": false
+            },
+            {
+              "word": "significance",
+              "meaning": "n. 重要性，意义",
+              "uncertain": false
+            },
+            {
+              "word": "independently",
+              "meaning": "adv. 独立地，自主地",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "display",
+              "meaning": "v. 显示，显露；展示",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "n. 屏幕；银幕",
+              "uncertain": false
+            },
+            {
+              "word": "alien",
+              "meaning": "n. 外星人 adj. 陌生的；外国的；外星的",
+              "uncertain": false
+            },
+            {
+              "word": "outer space",
+              "meaning": "外层空间",
+              "uncertain": false
+            },
+            {
+              "word": "describe",
+              "meaning": "v. 描述；形容；把……称为",
+              "uncertain": false
+            },
+            {
+              "word": "astronaut",
+              "meaning": "n. 宇航员",
+              "uncertain": false
+            },
+            {
+              "word": "admire",
+              "meaning": "v. 钦佩，羡慕",
+              "uncertain": false
+            },
+            {
+              "word": "master",
+              "meaning": "v. 掌握，精通 n. 主人",
+              "uncertain": false
+            },
+            {
+              "word": "dancer",
+              "meaning": "n. 跳舞者，舞蹈演员",
+              "uncertain": false
+            },
+            {
+              "word": "realize",
+              "meaning": "v. (realise BrE) 意识到，领会；实现",
+              "uncertain": false
+            },
+            {
+              "word": "universe",
+              "meaning": "n. 宇宙",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "system 太阳系",
+              "uncertain": false
+            },
+            {
+              "word": "Roman",
+              "meaning": "adj. 古罗马的，古罗马帝国的",
+              "uncertain": false
+            },
+            {
+              "word": "god",
+              "meaning": "n. 上帝；神",
+              "uncertain": false
+            },
+            {
+              "word": "diameter",
+              "meaning": "n. 直径",
+              "uncertain": false
+            },
+            {
+              "word": "storm",
+              "meaning": "n. 风暴，暴(风)雨",
+              "uncertain": false
+            },
+            {
+              "word": "gravity",
+              "meaning": "n. 重力；引力",
+              "uncertain": false
+            },
+            {
+              "word": "weigh",
+              "meaning": "v. 重，有……重",
+              "uncertain": false
+            },
+            {
+              "word": "generally",
+              "meaning": "adv. 一般地，通常",
+              "uncertain": false
+            },
+            {
+              "word": "journey",
+              "meaning": "n. (尤指长途)旅行",
+              "uncertain": false
+            },
+            {
+              "word": "limit",
+              "meaning": "v. 限制，限定 n. 限度；限制",
+              "uncertain": false
+            },
+            {
+              "word": "excitement",
+              "meaning": "n. 激动；令人激动的事",
+              "uncertain": false
+            },
+            {
+              "word": "launch",
+              "meaning": "v. 发射；发起；发行",
+              "uncertain": false
+            },
+            {
+              "word": "beyond",
+              "meaning": "prep. 超出；除……之外",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "prove",
+              "meaning": "v. 证明，证实",
+              "uncertain": false
+            },
+            {
+              "word": "lunar probe",
+              "meaning": "月球探测器",
+              "uncertain": false
+            },
+            {
+              "word": "legend",
+              "meaning": "n. 传说，传奇故事",
+              "uncertain": false
+            },
+            {
+              "word": "significance",
+              "meaning": "n. 重要性，意义",
+              "uncertain": false
+            },
+            {
+              "word": "independently",
+              "meaning": "adv. 独立地，自主地",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

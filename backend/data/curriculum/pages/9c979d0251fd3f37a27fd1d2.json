@@ -1,0 +1,505 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页146.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "9c979d0251fd3f37a27fd1d287d624cdc47d3a4e480f54c2a1c2bfe71a2783f4",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "left",
+              "meaning": "adv.向左 adj.左边的 n.左;左边",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "gift",
+              "meaning": "n.礼物;天赋 v.白送",
+              "uncertain": false
+            },
+            {
+              "word": "build",
+              "meaning": "v.建造",
+              "uncertain": false
+            },
+            {
+              "word": "speed",
+              "meaning": "n.速度;迅速 v.快速;加速",
+              "uncertain": false
+            },
+            {
+              "word": "sign",
+              "meaning": "n.标志,招牌;迹象,预兆",
+              "uncertain": false
+            },
+            {
+              "word": "stand",
+              "meaning": "v.站立,站起来;容忍,忍受",
+              "uncertain": false
+            },
+            {
+              "word": "dark",
+              "meaning": "adj.黑暗的;昏暗的",
+              "uncertain": false
+            },
+            {
+              "word": "row",
+              "meaning": "v.划(船)",
+              "uncertain": false
+            },
+            {
+              "word": "island",
+              "meaning": "n.岛",
+              "uncertain": false
+            },
+            {
+              "word": "front",
+              "meaning": "n.前面;前部",
+              "uncertain": false
+            },
+            {
+              "word": "safe",
+              "meaning": "adj.处境(或情况)安全;安全的",
+              "uncertain": false
+            },
+            {
+              "word": "myself",
+              "meaning": "pron.我自己;亲自",
+              "uncertain": false
+            },
+            {
+              "word": "evening",
+              "meaning": "n.晚上;傍晚",
+              "uncertain": false
+            },
+            {
+              "word": "sad",
+              "meaning": "adj.悲哀的,难过的;令人悲哀的,让人难过的",
+              "uncertain": false
+            },
+            {
+              "word": "back",
+              "meaning": "adv.回原处 n.背部;后部",
+              "uncertain": false
+            },
+            {
+              "word": "tent",
+              "meaning": "n.帐篷",
+              "uncertain": false
+            },
+            {
+              "word": "camp",
+              "meaning": "v.露营;宿营 n.营地",
+              "uncertain": false
+            },
+            {
+              "word": "unforgettable",
+              "meaning": "adj.令人难忘的",
+              "uncertain": false
+            },
+            {
+              "word": "trip",
+              "meaning": "n.旅行",
+              "uncertain": false
+            },
+            {
+              "word": "hold",
+              "meaning": "v.抓住;拿着;举行",
+              "uncertain": false
+            },
+            {
+              "word": "follow",
+              "meaning": "v.遵循,听从;跟随",
+              "uncertain": false
+            },
+            {
+              "word": "return",
+              "meaning": "v.返回;退还",
+              "uncertain": false
+            },
+            {
+              "word": "hug",
+              "meaning": "n., v.拥抱",
+              "uncertain": false
+            },
+            {
+              "word": "clear",
+              "meaning": "adj.无云的;晴朗的;清晰易懂的 v.移走,搬走;转晴",
+              "uncertain": false
+            },
+            {
+              "word": "safety",
+              "meaning": "n.安全",
+              "uncertain": false
+            },
+            {
+              "word": "problem",
+              "meaning": "n.难题;困难",
+              "uncertain": false
+            },
+            {
+              "word": "solve",
+              "meaning": "v.解决;处理",
+              "uncertain": false
+            },
+            {
+              "word": "behind",
+              "meaning": "prep.在……后面",
+              "uncertain": false
+            },
+            {
+              "word": "post",
+              "meaning": "n.邮寄;邮件;帖子",
+              "uncertain": false
+            },
+            {
+              "word": "office",
+              "meaning": "n.办公室",
+              "uncertain": false
+            },
+            {
+              "word": "post office",
+              "meaning": "邮局",
+              "uncertain": false
+            },
+            {
+              "word": "village",
+              "meaning": "n.村庄",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "prep.在旁边",
+              "uncertain": false
+            },
+            {
+              "word": "neighbour",
+              "meaning": "( neighbor AmE) n.邻居",
+              "uncertain": false
+            },
+            {
+              "word": "happen",
+              "meaning": "v.发生;碰巧",
+              "uncertain": false
+            },
+            {
+              "word": "community",
+              "meaning": "n.社区",
+              "uncertain": false
+            },
+            {
+              "word": "add",
+              "meaning": "v.增加;添加",
+              "uncertain": false
+            },
+            {
+              "word": "cry",
+              "meaning": "v.喊叫;哭 n.喊叫,叫声",
+              "uncertain": false
+            },
+            {
+              "word": "care",
+              "meaning": "v.关注,在意;关心,关怀 n.照料,护理;小心,谨慎",
+              "uncertain": false
+            },
+            {
+              "word": "suddenly",
+              "meaning": "adv.突然;忽然",
+              "uncertain": false
+            },
+            {
+              "word": "shake",
+              "meaning": "v.摇动;抖动",
+              "uncertain": false
+            },
+            {
+              "word": "sit",
+              "meaning": "v.坐",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "arrive",
+              "meaning": "v.到达",
+              "uncertain": false
+            },
+            {
+              "word": "sleep",
+              "meaning": "n.睡眠 v.睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "soon",
+              "meaning": "adv.很快,马上;快",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "left",
+              "meaning": "adv.向左 adj.左边的 n.左;左边",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "gift",
+              "meaning": "n.礼物;天赋 v.白送",
+              "uncertain": false
+            },
+            {
+              "word": "build",
+              "meaning": "v.建造",
+              "uncertain": false
+            },
+            {
+              "word": "speed",
+              "meaning": "n.速度;迅速 v.快速;加速",
+              "uncertain": false
+            },
+            {
+              "word": "sign",
+              "meaning": "n.标志,招牌;迹象,预兆",
+              "uncertain": false
+            },
+            {
+              "word": "stand",
+              "meaning": "v.站立,站起来;容忍,忍受",
+              "uncertain": false
+            },
+            {
+              "word": "dark",
+              "meaning": "adj.黑暗的;昏暗的",
+              "uncertain": false
+            },
+            {
+              "word": "row",
+              "meaning": "v.划(船)",
+              "uncertain": false
+            },
+            {
+              "word": "island",
+              "meaning": "n.岛",
+              "uncertain": false
+            },
+            {
+              "word": "front",
+              "meaning": "n.前面;前部",
+              "uncertain": false
+            },
+            {
+              "word": "safe",
+              "meaning": "adj.处境(或情况)安全;安全的",
+              "uncertain": false
+            },
+            {
+              "word": "myself",
+              "meaning": "pron.我自己;亲自",
+              "uncertain": false
+            },
+            {
+              "word": "evening",
+              "meaning": "n.晚上;傍晚",
+              "uncertain": false
+            },
+            {
+              "word": "sad",
+              "meaning": "adj.悲哀的,难过的;令人悲哀的,让人难过的",
+              "uncertain": false
+            },
+            {
+              "word": "back",
+              "meaning": "adv.回原处 n.背部;后部",
+              "uncertain": false
+            },
+            {
+              "word": "tent",
+              "meaning": "n.帐篷",
+              "uncertain": false
+            },
+            {
+              "word": "camp",
+              "meaning": "v.露营;宿营 n.营地",
+              "uncertain": false
+            },
+            {
+              "word": "unforgettable",
+              "meaning": "adj.令人难忘的",
+              "uncertain": false
+            },
+            {
+              "word": "trip",
+              "meaning": "n.旅行",
+              "uncertain": false
+            },
+            {
+              "word": "hold",
+              "meaning": "v.抓住;拿着;举行",
+              "uncertain": false
+            },
+            {
+              "word": "follow",
+              "meaning": "v.遵循,听从;跟随",
+              "uncertain": false
+            },
+            {
+              "word": "return",
+              "meaning": "v.返回;退还",
+              "uncertain": false
+            },
+            {
+              "word": "hug",
+              "meaning": "n., v.拥抱",
+              "uncertain": false
+            },
+            {
+              "word": "clear",
+              "meaning": "adj.无云的;晴朗的;清晰易懂的 v.移走,搬走;转晴",
+              "uncertain": false
+            },
+            {
+              "word": "safety",
+              "meaning": "n.安全",
+              "uncertain": false
+            },
+            {
+              "word": "problem",
+              "meaning": "n.难题;困难",
+              "uncertain": false
+            },
+            {
+              "word": "solve",
+              "meaning": "v.解决;处理",
+              "uncertain": false
+            },
+            {
+              "word": "behind",
+              "meaning": "prep.在……后面",
+              "uncertain": false
+            },
+            {
+              "word": "post",
+              "meaning": "n.邮寄;邮件;帖子",
+              "uncertain": false
+            },
+            {
+              "word": "office",
+              "meaning": "n.办公室",
+              "uncertain": false
+            },
+            {
+              "word": "post office",
+              "meaning": "邮局",
+              "uncertain": false
+            },
+            {
+              "word": "village",
+              "meaning": "n.村庄",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "prep.在旁边",
+              "uncertain": false
+            },
+            {
+              "word": "neighbour",
+              "meaning": "( neighbor AmE) n.邻居",
+              "uncertain": false
+            },
+            {
+              "word": "happen",
+              "meaning": "v.发生;碰巧",
+              "uncertain": false
+            },
+            {
+              "word": "community",
+              "meaning": "n.社区",
+              "uncertain": false
+            },
+            {
+              "word": "add",
+              "meaning": "v.增加;添加",
+              "uncertain": false
+            },
+            {
+              "word": "cry",
+              "meaning": "v.喊叫;哭 n.喊叫,叫声",
+              "uncertain": false
+            },
+            {
+              "word": "care",
+              "meaning": "v.关注,在意;关心,关怀 n.照料,护理;小心,谨慎",
+              "uncertain": false
+            },
+            {
+              "word": "suddenly",
+              "meaning": "adv.突然;忽然",
+              "uncertain": false
+            },
+            {
+              "word": "shake",
+              "meaning": "v.摇动;抖动",
+              "uncertain": false
+            },
+            {
+              "word": "sit",
+              "meaning": "v.坐",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "arrive",
+              "meaning": "v.到达",
+              "uncertain": false
+            },
+            {
+              "word": "sleep",
+              "meaning": "n.睡眠 v.睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "soon",
+              "meaning": "adv.很快,马上;快",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

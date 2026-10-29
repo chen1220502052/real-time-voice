@@ -1,0 +1,269 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/a3cf91634a51aa0ea54a7faa-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "9423467d03e0743ffececef9a741e3e236c9b63d83336aeec08c3d1632d97066",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "turn",
+              "meaning": "n.转弯;机会 v.转弯;转身;翻;成为",
+              "uncertain": false
+            },
+            {
+              "word": "move",
+              "meaning": "v.移动;搬(家)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "survey",
+              "meaning": "n.民意调查",
+              "uncertain": false
+            },
+            {
+              "word": "week",
+              "meaning": "n.周;一周",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "n.小时",
+              "uncertain": false
+            },
+            {
+              "word": "result",
+              "meaning": "n.结果;后果;成果",
+              "uncertain": false
+            },
+            {
+              "word": "cap",
+              "meaning": "n.便帽,制服帽",
+              "uncertain": false
+            },
+            {
+              "word": "pair",
+              "meaning": "n.由两个相连接部分组成的物体;俩;一双",
+              "uncertain": false
+            },
+            {
+              "word": "shorts",
+              "meaning": "n.短裤",
+              "uncertain": false
+            },
+            {
+              "word": "zoo",
+              "meaning": "n.动物园",
+              "uncertain": false
+            },
+            {
+              "word": "wind",
+              "meaning": "n.风",
+              "uncertain": false
+            },
+            {
+              "word": "leg",
+              "meaning": "n.有……腿的;腿",
+              "uncertain": false
+            },
+            {
+              "word": "race",
+              "meaning": "n.赛跑;速度竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "side",
+              "meaning": "n.一边;一侧",
+              "uncertain": false
+            },
+            {
+              "word": "even",
+              "meaning": "adv.甚至,连;更加",
+              "uncertain": false
+            },
+            {
+              "word": "write",
+              "meaning": "v.书写;写作;写信",
+              "uncertain": false
+            },
+            {
+              "word": "down",
+              "meaning": "adv.(写)在纸上;向下 prep.向下;沿着",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nature",
+              "meaning": "n.自然界;自然",
+              "uncertain": false
+            },
+            {
+              "word": "sea",
+              "meaning": "n.海;海洋",
+              "uncertain": false
+            },
+            {
+              "word": "desert",
+              "meaning": "n.沙漠",
+              "uncertain": false
+            },
+            {
+              "word": "rainforest",
+              "meaning": "",
+              "uncertain": true
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The entry 'rainforest' has no printed Chinese meaning on the page; meaning left empty and marked uncertain."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "turn",
+              "meaning": "n.转弯;机会 v.转弯;转身;翻;成为",
+              "uncertain": false
+            },
+            {
+              "word": "move",
+              "meaning": "v.移动;搬(家)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "survey",
+              "meaning": "n.民意调查",
+              "uncertain": false
+            },
+            {
+              "word": "week",
+              "meaning": "n.周;一周",
+              "uncertain": false
+            },
+            {
+              "word": "hour",
+              "meaning": "n.小时",
+              "uncertain": false
+            },
+            {
+              "word": "result",
+              "meaning": "n.结果;后果;成果",
+              "uncertain": false
+            },
+            {
+              "word": "cap",
+              "meaning": "n.便帽,制服帽",
+              "uncertain": false
+            },
+            {
+              "word": "pair",
+              "meaning": "n.由两个相连接部分组成的物体;俩;一双",
+              "uncertain": false
+            },
+            {
+              "word": "shorts",
+              "meaning": "n.短裤",
+              "uncertain": false
+            },
+            {
+              "word": "zoo",
+              "meaning": "n.动物园",
+              "uncertain": false
+            },
+            {
+              "word": "wind",
+              "meaning": "n.风",
+              "uncertain": false
+            },
+            {
+              "word": "leg",
+              "meaning": "n.有……腿的;腿",
+              "uncertain": false
+            },
+            {
+              "word": "race",
+              "meaning": "n.赛跑;速度竞赛",
+              "uncertain": false
+            },
+            {
+              "word": "side",
+              "meaning": "n.一边;一侧",
+              "uncertain": false
+            },
+            {
+              "word": "even",
+              "meaning": "adv.甚至,连;更加",
+              "uncertain": false
+            },
+            {
+              "word": "write",
+              "meaning": "v.书写;写作;写信",
+              "uncertain": false
+            },
+            {
+              "word": "down",
+              "meaning": "adv.(写)在纸上;向下 prep.向下;沿着",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nature",
+              "meaning": "n.自然界;自然",
+              "uncertain": false
+            },
+            {
+              "word": "sea",
+              "meaning": "n.海;海洋",
+              "uncertain": false
+            },
+            {
+              "word": "desert",
+              "meaning": "n.沙漠",
+              "uncertain": false
+            },
+            {
+              "word": "rainforest",
+              "meaning": "",
+              "uncertain": true
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The entry 'rainforest' has no printed Chinese meaning on the page; meaning left empty and marked uncertain."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

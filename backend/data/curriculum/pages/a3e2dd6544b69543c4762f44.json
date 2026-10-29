@@ -1,0 +1,325 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页144.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "a3e2dd6544b69543c4762f44a5f15eab066d610a7de69519b0beb1cd46d1d633",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "director",
+              "meaning": "n.导演",
+              "uncertain": false
+            },
+            {
+              "word": "postman",
+              "meaning": "n.邮递员,邮差",
+              "uncertain": false
+            },
+            {
+              "word": "builder",
+              "meaning": "n.建筑工人",
+              "uncertain": false
+            },
+            {
+              "word": "artist",
+              "meaning": "n.艺术家;(尤指)画家",
+              "uncertain": false
+            },
+            {
+              "word": "guide",
+              "meaning": "n.导游;指南 v.指引;指导",
+              "uncertain": false
+            },
+            {
+              "word": "pilot",
+              "meaning": "n.飞行员",
+              "uncertain": false
+            },
+            {
+              "word": "scientist",
+              "meaning": "n.科学家;科研人员",
+              "uncertain": false
+            },
+            {
+              "word": "send",
+              "meaning": "v.邮寄;发送;传达;派遣",
+              "uncertain": false
+            },
+            {
+              "word": "* letter",
+              "meaning": "n.信;信件",
+              "uncertain": false
+            },
+            {
+              "word": "paint",
+              "meaning": "v.用颜料画",
+              "uncertain": false
+            },
+            {
+              "word": "eraser",
+              "meaning": "n.橡皮",
+              "uncertain": false
+            },
+            {
+              "word": "tool",
+              "meaning": "n.工具",
+              "uncertain": false
+            },
+            {
+              "word": "actor",
+              "meaning": "n.演员",
+              "uncertain": false
+            },
+            {
+              "word": "actress",
+              "meaning": "n.女演员",
+              "uncertain": false
+            },
+            {
+              "word": "direction",
+              "meaning": "n.指导;方向",
+              "uncertain": false
+            },
+            {
+              "word": "produce",
+              "meaning": "v.制作;拍摄",
+              "uncertain": false
+            },
+            {
+              "word": "believe",
+              "meaning": "v.相信;把(某事)当真",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "adj.生病的",
+              "uncertain": false
+            },
+            {
+              "word": "thanks",
+              "meaning": "excl.谢谢,多谢 n.感谢;谢意",
+              "uncertain": false
+            },
+            {
+              "word": "vet",
+              "meaning": "n.兽医",
+              "uncertain": false
+            },
+            {
+              "word": "excellent",
+              "meaning": "adj.优秀的;杰出的;极好的",
+              "uncertain": false
+            },
+            {
+              "word": "dancer",
+              "meaning": "n.舞蹈演员;跳舞者",
+              "uncertain": false
+            },
+            {
+              "word": "lively",
+              "meaning": "adj.活跃热情的;精力充沛的",
+              "uncertain": false
+            },
+            {
+              "word": "news",
+              "meaning": "n.新闻;消息",
+              "uncertain": false
+            },
+            {
+              "word": "reporter",
+              "meaning": "n.记者",
+              "uncertain": false
+            },
+            {
+              "word": "maybe",
+              "meaning": "adv.或许",
+              "uncertain": false
+            },
+            {
+              "word": "report",
+              "meaning": "n., v.报道",
+              "uncertain": false
+            },
+            {
+              "word": "blind",
+              "meaning": "adj.瞎的;失明的",
+              "uncertain": false
+            },
+            {
+              "word": "patient",
+              "meaning": "n.病人 adj.有耐心的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "director",
+              "meaning": "n.导演",
+              "uncertain": false
+            },
+            {
+              "word": "postman",
+              "meaning": "n.邮递员,邮差",
+              "uncertain": false
+            },
+            {
+              "word": "builder",
+              "meaning": "n.建筑工人",
+              "uncertain": false
+            },
+            {
+              "word": "artist",
+              "meaning": "n.艺术家;(尤指)画家",
+              "uncertain": false
+            },
+            {
+              "word": "guide",
+              "meaning": "n.导游;指南 v.指引;指导",
+              "uncertain": false
+            },
+            {
+              "word": "pilot",
+              "meaning": "n.飞行员",
+              "uncertain": false
+            },
+            {
+              "word": "scientist",
+              "meaning": "n.科学家;科研人员",
+              "uncertain": false
+            },
+            {
+              "word": "send",
+              "meaning": "v.邮寄;发送;传达;派遣",
+              "uncertain": false
+            },
+            {
+              "word": "* letter",
+              "meaning": "n.信;信件",
+              "uncertain": false
+            },
+            {
+              "word": "paint",
+              "meaning": "v.用颜料画",
+              "uncertain": false
+            },
+            {
+              "word": "eraser",
+              "meaning": "n.橡皮",
+              "uncertain": false
+            },
+            {
+              "word": "tool",
+              "meaning": "n.工具",
+              "uncertain": false
+            },
+            {
+              "word": "actor",
+              "meaning": "n.演员",
+              "uncertain": false
+            },
+            {
+              "word": "actress",
+              "meaning": "n.女演员",
+              "uncertain": false
+            },
+            {
+              "word": "direction",
+              "meaning": "n.指导;方向",
+              "uncertain": false
+            },
+            {
+              "word": "produce",
+              "meaning": "v.制作;拍摄",
+              "uncertain": false
+            },
+            {
+              "word": "believe",
+              "meaning": "v.相信;把(某事)当真",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "adj.生病的",
+              "uncertain": false
+            },
+            {
+              "word": "thanks",
+              "meaning": "excl.谢谢,多谢 n.感谢;谢意",
+              "uncertain": false
+            },
+            {
+              "word": "vet",
+              "meaning": "n.兽医",
+              "uncertain": false
+            },
+            {
+              "word": "excellent",
+              "meaning": "adj.优秀的;杰出的;极好的",
+              "uncertain": false
+            },
+            {
+              "word": "dancer",
+              "meaning": "n.舞蹈演员;跳舞者",
+              "uncertain": false
+            },
+            {
+              "word": "lively",
+              "meaning": "adj.活跃热情的;精力充沛的",
+              "uncertain": false
+            },
+            {
+              "word": "news",
+              "meaning": "n.新闻;消息",
+              "uncertain": false
+            },
+            {
+              "word": "reporter",
+              "meaning": "n.记者",
+              "uncertain": false
+            },
+            {
+              "word": "maybe",
+              "meaning": "adv.或许",
+              "uncertain": false
+            },
+            {
+              "word": "report",
+              "meaning": "n., v.报道",
+              "uncertain": false
+            },
+            {
+              "word": "blind",
+              "meaning": "adj.瞎的;失明的",
+              "uncertain": false
+            },
+            {
+              "word": "patient",
+              "meaning": "n.病人 adj.有耐心的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

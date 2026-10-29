@@ -1,0 +1,305 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页134.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "316a41dc1e7907326599fd9f5b0b2ee9b3dda5a698f6cc3f2b04393252c858ee",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "let",
+              "meaning": "v.让;允许",
+              "uncertain": false
+            },
+            {
+              "word": "be",
+              "meaning": "(现在式 am, are, is;过去式 was, were;过去分词 been;现在分词 being) v.成为;是;在;等于",
+              "uncertain": false
+            },
+            {
+              "word": "friend",
+              "meaning": "n.朋友",
+              "uncertain": false
+            },
+            {
+              "word": "hello",
+              "meaning": "excl.你好,喂",
+              "uncertain": false
+            },
+            {
+              "word": "nice",
+              "meaning": "adj.令人愉快的;友好的",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "inf. m.(表示想做的事);(表示目的或意图);(表示结果或原因) prep.向;到",
+              "uncertain": false
+            },
+            {
+              "word": "meet",
+              "meaning": "v.结识;遇见",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "pron.你;你们",
+              "uncertain": false
+            },
+            {
+              "word": "too",
+              "meaning": "adv.也;太;非常",
+              "uncertain": false
+            },
+            {
+              "word": "good",
+              "meaning": "adj.令人愉快的;好的;擅长的;对……有好处;完全的",
+              "uncertain": false
+            },
+            {
+              "word": "morning",
+              "meaning": "n.上午",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "pron.我",
+              "uncertain": false
+            },
+            {
+              "word": "fine",
+              "meaning": "adj.身体好的,健康的;很好 v.对……处以罚款 n.罚款",
+              "uncertain": false
+            },
+            {
+              "word": "how",
+              "meaning": "adv.怎样;多少,多么",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "aux.(用于实义动词前构成否定句和疑问句) v.做;从事(职业);进行(活动)",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "v.喜欢;想要 prep.像;……怎么样;像……一样",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "n.科学",
+              "uncertain": false
+            },
+            {
+              "word": "my",
+              "meaning": "det.我的",
+              "uncertain": false
+            },
+            {
+              "word": "name",
+              "meaning": "n.名字 v.给……取名",
+              "uncertain": false
+            },
+            {
+              "word": "read",
+              "meaning": "v.阅读;朗读;读到",
+              "uncertain": false
+            },
+            {
+              "word": "love",
+              "meaning": "v., n.喜爱;爱",
+              "uncertain": false
+            },
+            {
+              "word": "hike",
+              "meaning": "v.远足;徒步旅行",
+              "uncertain": false
+            },
+            {
+              "word": "enjoy",
+              "meaning": "v.享受……的乐趣;喜爱;欣赏",
+              "uncertain": false
+            },
+            {
+              "word": "play",
+              "meaning": "v.参加比赛;玩耍;演奏 n.戏剧",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "n.足球运动;足球",
+              "uncertain": false
+            },
+            {
+              "word": "sing",
+              "meaning": "v.唱(歌)",
+              "uncertain": false
+            },
+            {
+              "word": "Miss",
+              "meaning": "n.小姐;女士",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "let",
+              "meaning": "v.让;允许",
+              "uncertain": false
+            },
+            {
+              "word": "be",
+              "meaning": "(现在式 am, are, is;过去式 was, were;过去分词 been;现在分词 being) v.成为;是;在;等于",
+              "uncertain": false
+            },
+            {
+              "word": "friend",
+              "meaning": "n.朋友",
+              "uncertain": false
+            },
+            {
+              "word": "hello",
+              "meaning": "excl.你好,喂",
+              "uncertain": false
+            },
+            {
+              "word": "nice",
+              "meaning": "adj.令人愉快的;友好的",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "inf. m.(表示想做的事);(表示目的或意图);(表示结果或原因) prep.向;到",
+              "uncertain": false
+            },
+            {
+              "word": "meet",
+              "meaning": "v.结识;遇见",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "pron.你;你们",
+              "uncertain": false
+            },
+            {
+              "word": "too",
+              "meaning": "adv.也;太;非常",
+              "uncertain": false
+            },
+            {
+              "word": "good",
+              "meaning": "adj.令人愉快的;好的;擅长的;对……有好处;完全的",
+              "uncertain": false
+            },
+            {
+              "word": "morning",
+              "meaning": "n.上午",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "pron.我",
+              "uncertain": false
+            },
+            {
+              "word": "fine",
+              "meaning": "adj.身体好的,健康的;很好 v.对……处以罚款 n.罚款",
+              "uncertain": false
+            },
+            {
+              "word": "how",
+              "meaning": "adv.怎样;多少,多么",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "aux.(用于实义动词前构成否定句和疑问句) v.做;从事(职业);进行(活动)",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "v.喜欢;想要 prep.像;……怎么样;像……一样",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "n.科学",
+              "uncertain": false
+            },
+            {
+              "word": "my",
+              "meaning": "det.我的",
+              "uncertain": false
+            },
+            {
+              "word": "name",
+              "meaning": "n.名字 v.给……取名",
+              "uncertain": false
+            },
+            {
+              "word": "read",
+              "meaning": "v.阅读;朗读;读到",
+              "uncertain": false
+            },
+            {
+              "word": "love",
+              "meaning": "v., n.喜爱;爱",
+              "uncertain": false
+            },
+            {
+              "word": "hike",
+              "meaning": "v.远足;徒步旅行",
+              "uncertain": false
+            },
+            {
+              "word": "enjoy",
+              "meaning": "v.享受……的乐趣;喜爱;欣赏",
+              "uncertain": false
+            },
+            {
+              "word": "play",
+              "meaning": "v.参加比赛;玩耍;演奏 n.戏剧",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "n.足球运动;足球",
+              "uncertain": false
+            },
+            {
+              "word": "sing",
+              "meaning": "v.唱(歌)",
+              "uncertain": false
+            },
+            {
+              "word": "Miss",
+              "meaning": "n.小姐;女士",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

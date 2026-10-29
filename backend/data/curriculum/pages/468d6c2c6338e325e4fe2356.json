@@ -1,0 +1,167 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/4年级/下册_完整教材词表/原图/06_09_教材页面_63ea1927b5.jpg",
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/129/detail/",
+  "sha256": "468d6c2c6338e325e4fe2356bcd56da847a12fc274967ea5331d8b601c5fb648",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "Monday",
+              "meaning": "星期一",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "星期二",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "星期三",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "星期四",
+              "uncertain": false
+            },
+            {
+              "word": "Friday",
+              "meaning": "星期五",
+              "uncertain": false
+            },
+            {
+              "word": "Saturday",
+              "meaning": "星期六",
+              "uncertain": false
+            },
+            {
+              "word": "Sunday",
+              "meaning": "星期日",
+              "uncertain": false
+            },
+            {
+              "word": "lesson",
+              "meaning": "一节课，一课时，经验",
+              "uncertain": false
+            },
+            {
+              "word": "activity",
+              "meaning": "活动",
+              "uncertain": false
+            },
+            {
+              "word": "kung fu",
+              "meaning": "功夫",
+              "uncertain": false
+            },
+            {
+              "word": "any",
+              "meaning": "一些；任何的",
+              "uncertain": false
+            },
+            {
+              "word": "enjoy",
+              "meaning": "享受，喜爱",
+              "uncertain": false
+            },
+            {
+              "word": "student",
+              "meaning": "学生",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "Monday",
+              "meaning": "星期一",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "星期二",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "星期三",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "星期四",
+              "uncertain": false
+            },
+            {
+              "word": "Friday",
+              "meaning": "星期五",
+              "uncertain": false
+            },
+            {
+              "word": "Saturday",
+              "meaning": "星期六",
+              "uncertain": false
+            },
+            {
+              "word": "Sunday",
+              "meaning": "星期日",
+              "uncertain": false
+            },
+            {
+              "word": "lesson",
+              "meaning": "一节课，一课时，经验",
+              "uncertain": false
+            },
+            {
+              "word": "activity",
+              "meaning": "活动",
+              "uncertain": false
+            },
+            {
+              "word": "kung fu",
+              "meaning": "功夫",
+              "uncertain": false
+            },
+            {
+              "word": "any",
+              "meaning": "一些；任何的",
+              "uncertain": false
+            },
+            {
+              "word": "enjoy",
+              "meaning": "享受，喜爱",
+              "uncertain": false
+            },
+            {
+              "word": "student",
+              "meaning": "学生",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,311 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/a3cf91634a51aa0ea54a7faa-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "dbda871d3a5a7ac1d91707ae299d0fa1a47639a160a3fb388bbbfce0a639cda2",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "rainforest",
+              "meaning": "(热带)雨林",
+              "uncertain": true
+            },
+            {
+              "word": "waterfall",
+              "meaning": "瀑布",
+              "uncertain": false
+            },
+            {
+              "word": "grassland",
+              "meaning": "草原",
+              "uncertain": false
+            },
+            {
+              "word": "wet",
+              "meaning": "潮湿的",
+              "uncertain": false
+            },
+            {
+              "word": "plant",
+              "meaning": "植物 种植",
+              "uncertain": false
+            },
+            {
+              "word": "animal",
+              "meaning": "动物",
+              "uncertain": false
+            },
+            {
+              "word": "fall",
+              "meaning": "落下;发生;跌倒",
+              "uncertain": false
+            },
+            {
+              "word": "hill",
+              "meaning": "山丘;小山",
+              "uncertain": false
+            },
+            {
+              "word": "grass",
+              "meaning": "草;草地",
+              "uncertain": false
+            },
+            {
+              "word": "elephant",
+              "meaning": "象",
+              "uncertain": false
+            },
+            {
+              "word": "air",
+              "meaning": "空气;空中",
+              "uncertain": false
+            },
+            {
+              "word": "top",
+              "meaning": "顶部 最高的",
+              "uncertain": false
+            },
+            {
+              "word": "place",
+              "meaning": "地方;场所 放置",
+              "uncertain": false
+            },
+            {
+              "word": "climate",
+              "meaning": "气候",
+              "uncertain": false
+            },
+            {
+              "word": "house",
+              "meaning": "房子",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "窗户",
+              "uncertain": false
+            },
+            {
+              "word": "get",
+              "meaning": "得到;收到;到达",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "bat",
+              "meaning": "蝙蝠;球拍",
+              "uncertain": false
+            },
+            {
+              "word": "fly",
+              "meaning": "飞;飞行;飞越;飞逝",
+              "uncertain": false
+            },
+            {
+              "word": "active",
+              "meaning": "活跃的;积极的",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "夜;夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "panda",
+              "meaning": "大熊猫;小熊猫",
+              "uncertain": false
+            },
+            {
+              "word": "tail",
+              "meaning": "尾;尾巴",
+              "uncertain": false
+            },
+            {
+              "word": "bamboo",
+              "meaning": "竹;竹子",
+              "uncertain": false
+            },
+            {
+              "word": "brown",
+              "meaning": "棕色的;褐色的 棕色;褐色",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "熊 承受;忍受",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The first entry's word is partially cut off at the top of the image; transcribed as 'rainforest' with uncertain=true.",
+        "The heading 'Exploring the Topic' is a topic heading, not a numbered unit, so unit=null is used for the entries below it."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "rainforest",
+              "meaning": "(热带)雨林",
+              "uncertain": true
+            },
+            {
+              "word": "waterfall",
+              "meaning": "瀑布",
+              "uncertain": false
+            },
+            {
+              "word": "grassland",
+              "meaning": "草原",
+              "uncertain": false
+            },
+            {
+              "word": "wet",
+              "meaning": "潮湿的",
+              "uncertain": false
+            },
+            {
+              "word": "plant",
+              "meaning": "植物 种植",
+              "uncertain": false
+            },
+            {
+              "word": "animal",
+              "meaning": "动物",
+              "uncertain": false
+            },
+            {
+              "word": "fall",
+              "meaning": "落下;发生;跌倒",
+              "uncertain": false
+            },
+            {
+              "word": "hill",
+              "meaning": "山丘;小山",
+              "uncertain": false
+            },
+            {
+              "word": "grass",
+              "meaning": "草;草地",
+              "uncertain": false
+            },
+            {
+              "word": "elephant",
+              "meaning": "象",
+              "uncertain": false
+            },
+            {
+              "word": "air",
+              "meaning": "空气;空中",
+              "uncertain": false
+            },
+            {
+              "word": "top",
+              "meaning": "顶部 最高的",
+              "uncertain": false
+            },
+            {
+              "word": "place",
+              "meaning": "地方;场所 放置",
+              "uncertain": false
+            },
+            {
+              "word": "climate",
+              "meaning": "气候",
+              "uncertain": false
+            },
+            {
+              "word": "house",
+              "meaning": "房子",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "窗户",
+              "uncertain": false
+            },
+            {
+              "word": "get",
+              "meaning": "得到;收到;到达",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "bat",
+              "meaning": "蝙蝠;球拍",
+              "uncertain": false
+            },
+            {
+              "word": "fly",
+              "meaning": "飞;飞行;飞越;飞逝",
+              "uncertain": false
+            },
+            {
+              "word": "active",
+              "meaning": "活跃的;积极的",
+              "uncertain": false
+            },
+            {
+              "word": "night",
+              "meaning": "夜;夜晚",
+              "uncertain": false
+            },
+            {
+              "word": "panda",
+              "meaning": "大熊猫;小熊猫",
+              "uncertain": false
+            },
+            {
+              "word": "tail",
+              "meaning": "尾;尾巴",
+              "uncertain": false
+            },
+            {
+              "word": "bamboo",
+              "meaning": "竹;竹子",
+              "uncertain": false
+            },
+            {
+              "word": "brown",
+              "meaning": "棕色的;褐色的 棕色;褐色",
+              "uncertain": false
+            },
+            {
+              "word": "bear",
+              "meaning": "熊 承受;忍受",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The first entry's word is partially cut off at the top of the image; transcribed as 'rainforest' with uncertain=true.",
+        "The heading 'Exploring the Topic' is a topic heading, not a numbered unit, so unit=null is used for the entries below it."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

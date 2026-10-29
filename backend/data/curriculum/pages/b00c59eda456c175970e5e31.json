@@ -1,0 +1,146 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 9,
+  "units": [
+    9
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/114/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/01_教材页面_24f303b5a7.jpg",
+  "sha256": "b00c59eda456c175970e5e31d8016d7061b15ef5e2649e96aab501a5864cf159",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "strong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "old",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thin",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look! He is strong.",
+        "Yes.",
+        "young",
+        "old",
+        "strong",
+        "lovely",
+        "thin"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "He",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "strong",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "old",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "thin",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look! He is strong.",
+        "Yes.",
+        "young",
+        "old",
+        "strong",
+        "lovely",
+        "thin"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

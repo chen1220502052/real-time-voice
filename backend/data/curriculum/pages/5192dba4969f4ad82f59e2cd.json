@@ -1,0 +1,176 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 1,
+  "units": [
+    1
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/106/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/01_教材页面_22c3aba54c.jpg",
+  "sha256": "5192dba4969f4ad82f59e2cdb8a37c38972411c5b057480e803abdc37fd19390",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "Some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Wang",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Lu",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "tea",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "water",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ice",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "cream",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Some bread for you, Wang Lu.",
+        "Thank you.",
+        "tea",
+        "water",
+        "ice cream",
+        "bread",
+        "juice"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "Some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Wang",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Lu",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "tea",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "water",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "ice",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "cream",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Some bread for you, Wang Lu.",
+        "Thank you.",
+        "tea",
+        "water",
+        "ice cream",
+        "bread",
+        "juice"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,165 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/1222d95d49576cf21af582db-left.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/93/detail/",
+  "sha256": "127c509f9100e8aacd185d9601cd0ee9ca8ee81585aefdd3a89fccc8a56fc162",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "coat",
+              "meaning": "外套，上衣",
+              "uncertain": false
+            },
+            {
+              "word": "sleep",
+              "meaning": "睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "tired",
+              "meaning": "累的",
+              "uncertain": false
+            },
+            {
+              "word": "pass",
+              "meaning": "传递，经过，通过",
+              "uncertain": false
+            },
+            {
+              "word": "headache",
+              "meaning": "头痛",
+              "uncertain": false
+            },
+            {
+              "word": "habit",
+              "meaning": "习惯",
+              "uncertain": false
+            },
+            {
+              "word": "have a cold",
+              "meaning": "感冒",
+              "uncertain": false
+            },
+            {
+              "word": "stay up",
+              "meaning": "熬夜",
+              "uncertain": false
+            },
+            {
+              "word": "go to bed",
+              "meaning": "上床睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "from then on",
+              "meaning": "从那时起",
+              "uncertain": false
+            },
+            {
+              "word": "What's the matter?",
+              "meaning": "怎么了？",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "photo",
+              "meaning": "照片",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "coat",
+              "meaning": "外套，上衣",
+              "uncertain": false
+            },
+            {
+              "word": "sleep",
+              "meaning": "睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "tired",
+              "meaning": "累的",
+              "uncertain": false
+            },
+            {
+              "word": "pass",
+              "meaning": "传递，经过，通过",
+              "uncertain": false
+            },
+            {
+              "word": "headache",
+              "meaning": "头痛",
+              "uncertain": false
+            },
+            {
+              "word": "habit",
+              "meaning": "习惯",
+              "uncertain": false
+            },
+            {
+              "word": "have a cold",
+              "meaning": "感冒",
+              "uncertain": false
+            },
+            {
+              "word": "stay up",
+              "meaning": "熬夜",
+              "uncertain": false
+            },
+            {
+              "word": "go to bed",
+              "meaning": "上床睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "from then on",
+              "meaning": "从那时起",
+              "uncertain": false
+            },
+            {
+              "word": "What's the matter?",
+              "meaning": "怎么了？",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "photo",
+              "meaning": "照片",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

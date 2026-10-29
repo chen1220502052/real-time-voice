@@ -1,0 +1,170 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 2,
+  "units": [
+    2
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/107/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 2 I can/课文/01_教材页面_b451337652.jpg",
+  "sha256": "7d23cfa465e733cfdcf6a737084552c3c4bee60281dda1731836a25e6f288a9a",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "swim",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "jump",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fly",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "kite",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sing",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "dance",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "climb",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "draw",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "swim",
+        "jump",
+        "fly a kite",
+        "Let's sing.",
+        "OK!",
+        "sing",
+        "dance",
+        "climb",
+        "draw"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "swim",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "jump",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "fly",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "kite",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sing",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "dance",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "climb",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "draw",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "swim",
+        "jump",
+        "fly a kite",
+        "Let's sing.",
+        "OK!",
+        "sing",
+        "dance",
+        "climb",
+        "draw"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,974 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页147.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "109dfbb0f6c541f722210d82c624b8e168a627a0a7fc148abe1e2413318af5a4",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "hear",
+              "meaning": "听见;听说",
+              "uncertain": false
+            },
+            {
+              "word": "kiss",
+              "meaning": "亲吻",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "easy",
+              "meaning": "容易的",
+              "uncertain": false
+            },
+            {
+              "word": "centre",
+              "meaning": "中心",
+              "uncertain": false
+            },
+            {
+              "word": "service",
+              "meaning": "服务",
+              "uncertain": false
+            },
+            {
+              "word": "pet",
+              "meaning": "宠物",
+              "uncertain": false
+            },
+            {
+              "word": "Italian",
+              "meaning": "意大利(人)的;意大利人;意大利语",
+              "uncertain": false
+            },
+            {
+              "word": "police",
+              "meaning": "警方",
+              "uncertain": false
+            },
+            {
+              "word": "famous",
+              "meaning": "著名的;出名的",
+              "uncertain": false
+            },
+            {
+              "word": "exciting",
+              "meaning": "令人兴奋的;令人激动的",
+              "uncertain": false
+            },
+            {
+              "word": "tired",
+              "meaning": "疲劳的",
+              "uncertain": false
+            },
+            {
+              "word": "yours",
+              "meaning": "你的(用于书信结尾的签名前);您的;你们的",
+              "uncertain": false
+            },
+            {
+              "word": "turning",
+              "meaning": "岔路口",
+              "uncertain": false
+            },
+            {
+              "word": "straight",
+              "meaning": "笔直地",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "lend",
+              "meaning": "给予,提供(帮助、支持等);借给;借出",
+              "uncertain": false
+            },
+            {
+              "word": "medical",
+              "meaning": "医疗的;医学的",
+              "uncertain": false
+            },
+            {
+              "word": "heavily",
+              "meaning": "在很大程度上;大量地",
+              "uncertain": false
+            },
+            {
+              "word": "volunteer",
+              "meaning": "志愿者;自愿做",
+              "uncertain": false
+            },
+            {
+              "word": "yesterday",
+              "meaning": "在昨天;昨天",
+              "uncertain": false
+            },
+            {
+              "word": "tennis",
+              "meaning": "网球",
+              "uncertain": false
+            },
+            {
+              "word": "table tennis",
+              "meaning": "乒乓球运动",
+              "uncertain": false
+            },
+            {
+              "word": "match",
+              "meaning": "比赛;竞赛;找相称的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "dad",
+              "meaning": "爸爸",
+              "uncertain": false
+            },
+            {
+              "word": "exam",
+              "meaning": "检查,检验;考试",
+              "uncertain": false
+            },
+            {
+              "word": "repair",
+              "meaning": "修理",
+              "uncertain": false
+            },
+            {
+              "word": "voluntary",
+              "meaning": "无偿的,义务性的;自愿的,主动的",
+              "uncertain": false
+            },
+            {
+              "word": "experience",
+              "meaning": "经历;经验;体验;经历;体验",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "忘了带,丢下;离开;遗弃",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙;关键;最重要的;关键的",
+              "uncertain": false
+            },
+            {
+              "word": "daughter",
+              "meaning": "女儿",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "丢失;输掉(比赛等)",
+              "uncertain": false
+            },
+            {
+              "word": "pick",
+              "meaning": "采,摘;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "host",
+              "meaning": "主人;东道主",
+              "uncertain": false
+            },
+            {
+              "word": "title",
+              "meaning": "标题,题目",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "以前",
+              "uncertain": false
+            },
+            {
+              "word": "crowded",
+              "meaning": "拥挤的",
+              "uncertain": false
+            },
+            {
+              "word": "meaningful",
+              "meaning": "重要的",
+              "uncertain": false
+            },
+            {
+              "word": "town",
+              "meaning": "镇;集镇",
+              "uncertain": false
+            },
+            {
+              "word": "offer",
+              "meaning": "主动提供,主动给予(某事物)",
+              "uncertain": false
+            },
+            {
+              "word": "Dr.",
+              "meaning": "医生;博士",
+              "uncertain": false
+            },
+            {
+              "word": "chat",
+              "meaning": "闲聊;聊天",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "hear",
+              "meaning": "听见;听说",
+              "uncertain": false
+            },
+            {
+              "word": "kiss",
+              "meaning": "亲吻",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "easy",
+              "meaning": "容易的",
+              "uncertain": false
+            },
+            {
+              "word": "centre",
+              "meaning": "中心",
+              "uncertain": false
+            },
+            {
+              "word": "service",
+              "meaning": "服务",
+              "uncertain": false
+            },
+            {
+              "word": "pet",
+              "meaning": "宠物",
+              "uncertain": false
+            },
+            {
+              "word": "Italian",
+              "meaning": "意大利(人)的;意大利人;意大利语",
+              "uncertain": false
+            },
+            {
+              "word": "police",
+              "meaning": "警方",
+              "uncertain": false
+            },
+            {
+              "word": "famous",
+              "meaning": "著名的;出名的",
+              "uncertain": false
+            },
+            {
+              "word": "exciting",
+              "meaning": "令人兴奋的;令人激动的",
+              "uncertain": false
+            },
+            {
+              "word": "tired",
+              "meaning": "疲劳的",
+              "uncertain": false
+            },
+            {
+              "word": "yours",
+              "meaning": "你的(用于书信结尾的签名前);您的;你们的",
+              "uncertain": false
+            },
+            {
+              "word": "turning",
+              "meaning": "岔路口",
+              "uncertain": false
+            },
+            {
+              "word": "straight",
+              "meaning": "笔直地",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "lend",
+              "meaning": "给予,提供(帮助、支持等);借给;借出",
+              "uncertain": false
+            },
+            {
+              "word": "medical",
+              "meaning": "医疗的;医学的",
+              "uncertain": false
+            },
+            {
+              "word": "heavily",
+              "meaning": "在很大程度上;大量地",
+              "uncertain": false
+            },
+            {
+              "word": "volunteer",
+              "meaning": "志愿者;自愿做",
+              "uncertain": false
+            },
+            {
+              "word": "yesterday",
+              "meaning": "在昨天;昨天",
+              "uncertain": false
+            },
+            {
+              "word": "tennis",
+              "meaning": "网球",
+              "uncertain": false
+            },
+            {
+              "word": "table tennis",
+              "meaning": "乒乓球运动",
+              "uncertain": false
+            },
+            {
+              "word": "match",
+              "meaning": "比赛;竞赛;找相称的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "dad",
+              "meaning": "爸爸",
+              "uncertain": false
+            },
+            {
+              "word": "exam",
+              "meaning": "检查,检验;考试",
+              "uncertain": false
+            },
+            {
+              "word": "repair",
+              "meaning": "修理",
+              "uncertain": false
+            },
+            {
+              "word": "voluntary",
+              "meaning": "无偿的,义务性的;自愿的,主动的",
+              "uncertain": false
+            },
+            {
+              "word": "experience",
+              "meaning": "经历;经验;体验;经历;体验",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "忘了带,丢下;离开;遗弃",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "钥匙;关键;最重要的;关键的",
+              "uncertain": false
+            },
+            {
+              "word": "daughter",
+              "meaning": "女儿",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "丢失;输掉(比赛等)",
+              "uncertain": false
+            },
+            {
+              "word": "pick",
+              "meaning": "采,摘;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "host",
+              "meaning": "主人;东道主",
+              "uncertain": false
+            },
+            {
+              "word": "title",
+              "meaning": "标题,题目",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "以前",
+              "uncertain": false
+            },
+            {
+              "word": "crowded",
+              "meaning": "拥挤的",
+              "uncertain": false
+            },
+            {
+              "word": "meaningful",
+              "meaning": "重要的",
+              "uncertain": false
+            },
+            {
+              "word": "town",
+              "meaning": "镇;集镇",
+              "uncertain": false
+            },
+            {
+              "word": "offer",
+              "meaning": "主动提供,主动给予(某事物)",
+              "uncertain": false
+            },
+            {
+              "word": "Dr.",
+              "meaning": "医生;博士",
+              "uncertain": false
+            },
+            {
+              "word": "chat",
+              "meaning": "闲聊;聊天",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "c366a0ccfb72c8c8dd51faaa0d4d9bca6e06e485078cdcb3d9b0200759fdcab8",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "hear",
+                  "meaning": "听见;听说",
+                  "uncertain": false
+                },
+                {
+                  "word": "kiss",
+                  "meaning": "亲吻  n.吻",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "easy",
+                  "meaning": "容易的",
+                  "uncertain": false
+                },
+                {
+                  "word": "centre",
+                  "meaning": "(center AmE) n.中心",
+                  "uncertain": false
+                },
+                {
+                  "word": "service",
+                  "meaning": "n.服务",
+                  "uncertain": false
+                },
+                {
+                  "word": "pet",
+                  "meaning": "n.宠物",
+                  "uncertain": false
+                },
+                {
+                  "word": "Italian",
+                  "meaning": "adj.意大利(人)的 n.意大利人;意大利语",
+                  "uncertain": false
+                },
+                {
+                  "word": "police",
+                  "meaning": "n.警方",
+                  "uncertain": false
+                },
+                {
+                  "word": "famous",
+                  "meaning": "adj.著名的;出名的",
+                  "uncertain": false
+                },
+                {
+                  "word": "exciting",
+                  "meaning": "adj.令人兴奋的;令人激动的",
+                  "uncertain": false
+                },
+                {
+                  "word": "tired",
+                  "meaning": "adj.疲劳的",
+                  "uncertain": false
+                },
+                {
+                  "word": "yours",
+                  "meaning": "pron.你的(用于书信结尾的签名前);您的;你们的",
+                  "uncertain": false
+                },
+                {
+                  "word": "turning",
+                  "meaning": "n.岔路口",
+                  "uncertain": false
+                },
+                {
+                  "word": "straight",
+                  "meaning": "adv.笔直地",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 10,
+              "entries": [
+                {
+                  "word": "lend",
+                  "meaning": "v.给予,提供(帮助、支持等);借给;借出",
+                  "uncertain": false
+                },
+                {
+                  "word": "medical",
+                  "meaning": "adj.医疗的;医学的",
+                  "uncertain": false
+                },
+                {
+                  "word": "heavily",
+                  "meaning": "adv.在很大程度上;大量地",
+                  "uncertain": false
+                },
+                {
+                  "word": "volunteer",
+                  "meaning": "n.志愿者 v.自愿做",
+                  "uncertain": false
+                },
+                {
+                  "word": "yesterday",
+                  "meaning": "",
+                  "uncertain": true
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The entry 'yesterday' has no printed Chinese meaning on the page; meaning left empty and marked uncertain."
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "hear",
+                  "meaning": "听见;听说",
+                  "uncertain": false
+                },
+                {
+                  "word": "kiss",
+                  "meaning": "亲吻  n.吻",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "easy",
+                  "meaning": "容易的",
+                  "uncertain": false
+                },
+                {
+                  "word": "centre",
+                  "meaning": "(center AmE) n.中心",
+                  "uncertain": false
+                },
+                {
+                  "word": "service",
+                  "meaning": "n.服务",
+                  "uncertain": false
+                },
+                {
+                  "word": "pet",
+                  "meaning": "n.宠物",
+                  "uncertain": false
+                },
+                {
+                  "word": "Italian",
+                  "meaning": "adj.意大利(人)的 n.意大利人;意大利语",
+                  "uncertain": false
+                },
+                {
+                  "word": "police",
+                  "meaning": "n.警方",
+                  "uncertain": false
+                },
+                {
+                  "word": "famous",
+                  "meaning": "adj.著名的;出名的",
+                  "uncertain": false
+                },
+                {
+                  "word": "exciting",
+                  "meaning": "adj.令人兴奋的;令人激动的",
+                  "uncertain": false
+                },
+                {
+                  "word": "tired",
+                  "meaning": "adj.疲劳的",
+                  "uncertain": false
+                },
+                {
+                  "word": "yours",
+                  "meaning": "pron.你的(用于书信结尾的签名前);您的;你们的",
+                  "uncertain": false
+                },
+                {
+                  "word": "turning",
+                  "meaning": "n.岔路口",
+                  "uncertain": false
+                },
+                {
+                  "word": "straight",
+                  "meaning": "adv.笔直地",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 10,
+              "entries": [
+                {
+                  "word": "lend",
+                  "meaning": "v.给予,提供(帮助、支持等);借给;借出",
+                  "uncertain": false
+                },
+                {
+                  "word": "medical",
+                  "meaning": "adj.医疗的;医学的",
+                  "uncertain": false
+                },
+                {
+                  "word": "heavily",
+                  "meaning": "adv.在很大程度上;大量地",
+                  "uncertain": false
+                },
+                {
+                  "word": "volunteer",
+                  "meaning": "n.志愿者 v.自愿做",
+                  "uncertain": false
+                },
+                {
+                  "word": "yesterday",
+                  "meaning": "",
+                  "uncertain": true
+                }
+              ]
+            }
+          ],
+          "issues": [
+            "The entry 'yesterday' has no printed Chinese meaning on the page; meaning left empty and marked uncertain."
+          ]
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "0aa5191d8d019dfa1b472ae167046296a486b1cf4160293be3ffd551fb9e4d9a",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "adv. 在昨天",
+                  "meaning": "n. 昨天",
+                  "uncertain": false
+                },
+                {
+                  "word": "tennis",
+                  "meaning": "n. 网球",
+                  "uncertain": false
+                },
+                {
+                  "word": "table tennis",
+                  "meaning": "n. 乒乓球运动",
+                  "uncertain": false
+                },
+                {
+                  "word": "match",
+                  "meaning": "n. 比赛;竞赛 v. 找相称的人(或物)",
+                  "uncertain": false
+                },
+                {
+                  "word": "dad",
+                  "meaning": "n. 爸爸",
+                  "uncertain": false
+                },
+                {
+                  "word": "exam",
+                  "meaning": "n. 检查,检验;考试",
+                  "uncertain": false
+                },
+                {
+                  "word": "repair",
+                  "meaning": "v. 修理",
+                  "uncertain": false
+                },
+                {
+                  "word": "voluntary",
+                  "meaning": "adj. 无偿的,义务性的;自愿的,志愿的,主动的",
+                  "uncertain": false
+                },
+                {
+                  "word": "experience",
+                  "meaning": "n. 经历;经验;体验 v. 经历;体验",
+                  "uncertain": false
+                },
+                {
+                  "word": "leave",
+                  "meaning": "v. 忘了带,丢下;离开;遗弃",
+                  "uncertain": false
+                },
+                {
+                  "word": "key",
+                  "meaning": "n. 钥匙;关键 adj. 最重要的;关键的",
+                  "uncertain": false
+                },
+                {
+                  "word": "daughter",
+                  "meaning": "n. 女儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "lose",
+                  "meaning": "v. 丢失;输掉(比赛等)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "pick",
+                  "meaning": "v. 采,摘;挑选",
+                  "uncertain": false
+                },
+                {
+                  "word": "host",
+                  "meaning": "n. 主人;东道主",
+                  "uncertain": false
+                },
+                {
+                  "word": "title",
+                  "meaning": "n. 标题,题目",
+                  "uncertain": false
+                },
+                {
+                  "word": "ago",
+                  "meaning": "adv. 以前",
+                  "uncertain": false
+                },
+                {
+                  "word": "crowded",
+                  "meaning": "adj. 拥挤的",
+                  "uncertain": false
+                },
+                {
+                  "word": "meaningful",
+                  "meaning": "adj. 重要的",
+                  "uncertain": false
+                },
+                {
+                  "word": "town",
+                  "meaning": "n. 镇;集镇",
+                  "uncertain": false
+                },
+                {
+                  "word": "offer",
+                  "meaning": "v. 主动提供,主动给予(某事物)",
+                  "uncertain": false
+                },
+                {
+                  "word": "Dr.",
+                  "meaning": "abbr. 医生;博士",
+                  "uncertain": false
+                },
+                {
+                  "word": "chat",
+                  "meaning": "v., n. 闲聊;聊天",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "adv. 在昨天",
+                  "meaning": "n. 昨天",
+                  "uncertain": false
+                },
+                {
+                  "word": "tennis",
+                  "meaning": "n. 网球",
+                  "uncertain": false
+                },
+                {
+                  "word": "table tennis",
+                  "meaning": "n. 乒乓球运动",
+                  "uncertain": false
+                },
+                {
+                  "word": "match",
+                  "meaning": "n. 比赛;竞赛 v. 找相称的人(或物)",
+                  "uncertain": false
+                },
+                {
+                  "word": "dad",
+                  "meaning": "n. 爸爸",
+                  "uncertain": false
+                },
+                {
+                  "word": "exam",
+                  "meaning": "n. 检查,检验;考试",
+                  "uncertain": false
+                },
+                {
+                  "word": "repair",
+                  "meaning": "v. 修理",
+                  "uncertain": false
+                },
+                {
+                  "word": "voluntary",
+                  "meaning": "adj. 无偿的,义务性的;自愿的,志愿的,主动的",
+                  "uncertain": false
+                },
+                {
+                  "word": "experience",
+                  "meaning": "n. 经历;经验;体验 v. 经历;体验",
+                  "uncertain": false
+                },
+                {
+                  "word": "leave",
+                  "meaning": "v. 忘了带,丢下;离开;遗弃",
+                  "uncertain": false
+                },
+                {
+                  "word": "key",
+                  "meaning": "n. 钥匙;关键 adj. 最重要的;关键的",
+                  "uncertain": false
+                },
+                {
+                  "word": "daughter",
+                  "meaning": "n. 女儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "lose",
+                  "meaning": "v. 丢失;输掉(比赛等)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "pick",
+                  "meaning": "v. 采,摘;挑选",
+                  "uncertain": false
+                },
+                {
+                  "word": "host",
+                  "meaning": "n. 主人;东道主",
+                  "uncertain": false
+                },
+                {
+                  "word": "title",
+                  "meaning": "n. 标题,题目",
+                  "uncertain": false
+                },
+                {
+                  "word": "ago",
+                  "meaning": "adv. 以前",
+                  "uncertain": false
+                },
+                {
+                  "word": "crowded",
+                  "meaning": "adj. 拥挤的",
+                  "uncertain": false
+                },
+                {
+                  "word": "meaningful",
+                  "meaning": "adj. 重要的",
+                  "uncertain": false
+                },
+                {
+                  "word": "town",
+                  "meaning": "n. 镇;集镇",
+                  "uncertain": false
+                },
+                {
+                  "word": "offer",
+                  "meaning": "v. 主动提供,主动给予(某事物)",
+                  "uncertain": false
+                },
+                {
+                  "word": "Dr.",
+                  "meaning": "abbr. 医生;博士",
+                  "uncertain": false
+                },
+                {
+                  "word": "chat",
+                  "meaning": "v., n. 闲聊;聊天",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

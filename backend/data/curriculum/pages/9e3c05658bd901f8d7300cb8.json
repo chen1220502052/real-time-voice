@@ -1,0 +1,247 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/6年级/上册_完整教材词表/原图/01_01_教材页面_a27f93f0c8.png",
+  "units": [
+    1
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/151/detail/",
+  "sha256": "9e3c05658bd901f8d7300cb822708e06fa6c8e4963df334571c8406f0be3d0fd",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "video",
+              "meaning": "录像",
+              "uncertain": false
+            },
+            {
+              "word": "tennis",
+              "meaning": "网球",
+              "uncertain": false
+            },
+            {
+              "word": "surf",
+              "meaning": "(网上)冲浪",
+              "uncertain": false
+            },
+            {
+              "word": "Sports Day",
+              "meaning": "运动会",
+              "uncertain": false
+            },
+            {
+              "word": "last",
+              "meaning": "上一个的，最后的",
+              "uncertain": false
+            },
+            {
+              "word": "worried",
+              "meaning": "担忧的",
+              "uncertain": false
+            },
+            {
+              "word": "do well in",
+              "meaning": "在……方面干得好",
+              "uncertain": false
+            },
+            {
+              "word": "fact",
+              "meaning": "事实",
+              "uncertain": false
+            },
+            {
+              "word": "in fact",
+              "meaning": "事实上，实际上",
+              "uncertain": false
+            },
+            {
+              "word": "win",
+              "meaning": "赢，获胜",
+              "uncertain": false
+            },
+            {
+              "word": "try one's best",
+              "meaning": "努力，尽力",
+              "uncertain": false
+            },
+            {
+              "word": "yesterday",
+              "meaning": "昨天",
+              "uncertain": false
+            },
+            {
+              "word": "half",
+              "meaning": "一半",
+              "uncertain": false
+            },
+            {
+              "word": "have a rest",
+              "meaning": "休息",
+              "uncertain": false
+            },
+            {
+              "word": "should",
+              "meaning": "应该",
+              "uncertain": false
+            },
+            {
+              "word": "problem",
+              "meaning": "问题",
+              "uncertain": false
+            },
+            {
+              "word": "relax",
+              "meaning": "放松",
+              "uncertain": false
+            },
+            {
+              "word": "crash",
+              "meaning": "碰撞，撞击",
+              "uncertain": false
+            },
+            {
+              "word": "lane",
+              "meaning": "车道",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "输掉，丢失",
+              "uncertain": false
+            },
+            {
+              "word": "sad",
+              "meaning": "悲伤的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "video",
+              "meaning": "录像",
+              "uncertain": false
+            },
+            {
+              "word": "tennis",
+              "meaning": "网球",
+              "uncertain": false
+            },
+            {
+              "word": "surf",
+              "meaning": "(网上)冲浪",
+              "uncertain": false
+            },
+            {
+              "word": "Sports Day",
+              "meaning": "运动会",
+              "uncertain": false
+            },
+            {
+              "word": "last",
+              "meaning": "上一个的，最后的",
+              "uncertain": false
+            },
+            {
+              "word": "worried",
+              "meaning": "担忧的",
+              "uncertain": false
+            },
+            {
+              "word": "do well in",
+              "meaning": "在……方面干得好",
+              "uncertain": false
+            },
+            {
+              "word": "fact",
+              "meaning": "事实",
+              "uncertain": false
+            },
+            {
+              "word": "in fact",
+              "meaning": "事实上，实际上",
+              "uncertain": false
+            },
+            {
+              "word": "win",
+              "meaning": "赢，获胜",
+              "uncertain": false
+            },
+            {
+              "word": "try one's best",
+              "meaning": "努力，尽力",
+              "uncertain": false
+            },
+            {
+              "word": "yesterday",
+              "meaning": "昨天",
+              "uncertain": false
+            },
+            {
+              "word": "half",
+              "meaning": "一半",
+              "uncertain": false
+            },
+            {
+              "word": "have a rest",
+              "meaning": "休息",
+              "uncertain": false
+            },
+            {
+              "word": "should",
+              "meaning": "应该",
+              "uncertain": false
+            },
+            {
+              "word": "problem",
+              "meaning": "问题",
+              "uncertain": false
+            },
+            {
+              "word": "relax",
+              "meaning": "放松",
+              "uncertain": false
+            },
+            {
+              "word": "crash",
+              "meaning": "碰撞，撞击",
+              "uncertain": false
+            },
+            {
+              "word": "lane",
+              "meaning": "车道",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "输掉，丢失",
+              "uncertain": false
+            },
+            {
+              "word": "sad",
+              "meaning": "悲伤的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

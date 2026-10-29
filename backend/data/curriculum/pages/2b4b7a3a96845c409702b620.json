@@ -1,0 +1,252 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 5,
+  "units": [
+    5
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/110/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 5 Numbers around us/课文/03_教材页面_60af844a23.jpg",
+  "sha256": "2b4b7a3a96845c409702b620f8f50f12fdf46613c8893dfbd0c49bd3df675293",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "at",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "apples",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Wow",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Uncle",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Li",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "how",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "apple",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "trees",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Cool",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "apple",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "trees",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look at the apples.",
+        "Wow, I like apples!",
+        "Uncle Li, how many apple trees do you have?",
+        "Cool!",
+        "I have seventeen apple trees."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "at",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "apples",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Wow",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Uncle",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Li",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "how",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "apple",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "trees",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Cool",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "seventeen",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Look at the apples.",
+        "Wow, I like apples!",
+        "Uncle Li, how many apple trees do you have?",
+        "Cool!",
+        "I have seventeen apple trees."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

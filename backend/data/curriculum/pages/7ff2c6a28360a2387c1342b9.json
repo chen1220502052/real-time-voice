@@ -1,0 +1,495 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页146.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "7ff2c6a28360a2387c1342b9a27c835a7152b6c290f37350a7c8320da5364941",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "celebrate",
+              "meaning": "v.庆祝;庆贺",
+              "uncertain": false
+            },
+            {
+              "word": "double",
+              "meaning": "adj.成双的;两倍的",
+              "uncertain": false
+            },
+            {
+              "word": "ninth",
+              "meaning": "ordinal num.第九",
+              "uncertain": false
+            },
+            {
+              "word": "festival",
+              "meaning": "n.节日;节",
+              "uncertain": false
+            },
+            {
+              "word": "tomb",
+              "meaning": "n.坟墓",
+              "uncertain": false
+            },
+            {
+              "word": "sweep",
+              "meaning": "v., n.打扫,清扫",
+              "uncertain": false
+            },
+            {
+              "word": "dragon",
+              "meaning": "n.龙",
+              "uncertain": false
+            },
+            {
+              "word": "lantern",
+              "meaning": "n.灯笼",
+              "uncertain": false
+            },
+            {
+              "word": "lunar",
+              "meaning": "adj.月球的;月亮的",
+              "uncertain": false
+            },
+            {
+              "word": "August",
+              "meaning": "n.八月",
+              "uncertain": false
+            },
+            {
+              "word": "mooncake",
+              "meaning": "n.月饼",
+              "uncertain": false
+            },
+            {
+              "word": "moon",
+              "meaning": "n.月亮;月球",
+              "uncertain": false
+            },
+            {
+              "word": "January",
+              "meaning": "n.一月",
+              "uncertain": false
+            },
+            {
+              "word": "lucky",
+              "meaning": "adj.带来好运的;幸运的",
+              "uncertain": false
+            },
+            {
+              "word": "money",
+              "meaning": "n.钱币;钱;财产",
+              "uncertain": false
+            },
+            {
+              "word": "around",
+              "meaning": "adv.大约;周围,四周 prep.围绕,环绕;在那边",
+              "uncertain": false
+            },
+            {
+              "word": "April",
+              "meaning": "n.四月",
+              "uncertain": false
+            },
+            {
+              "word": "late",
+              "meaning": "adj.已故的;迟到;近深夜的",
+              "uncertain": false
+            },
+            {
+              "word": "month",
+              "meaning": "n.月;一个月的时间",
+              "uncertain": false
+            },
+            {
+              "word": "July",
+              "meaning": "n.七月",
+              "uncertain": false
+            },
+            {
+              "word": "fifth",
+              "meaning": "ordinal num.第五",
+              "uncertain": false
+            },
+            {
+              "word": "labour",
+              "meaning": "(labor AmE) n.工人;劳动",
+              "uncertain": false
+            },
+            {
+              "word": "holiday",
+              "meaning": "n.假期",
+              "uncertain": false
+            },
+            {
+              "word": "buy",
+              "meaning": "v.购买",
+              "uncertain": false
+            },
+            {
+              "word": "remember",
+              "meaning": "v.纪念;记住;记起;记着",
+              "uncertain": false
+            },
+            {
+              "word": "thank",
+              "meaning": "v.谢谢,感谢(某人)",
+              "uncertain": false
+            },
+            {
+              "word": "Christmas",
+              "meaning": "n.圣诞节",
+              "uncertain": false
+            },
+            {
+              "word": "light",
+              "meaning": "n.电灯;光线;光 v.点燃 adj.浅色的;轻便的",
+              "uncertain": false
+            },
+            {
+              "word": "paper",
+              "meaning": "n.纸",
+              "uncertain": false
+            },
+            {
+              "word": "then",
+              "meaning": "adv.然后;当时;那么",
+              "uncertain": false
+            },
+            {
+              "word": "present",
+              "meaning": "n.礼物 adj.当前的",
+              "uncertain": false
+            },
+            {
+              "word": "Confucius",
+              "meaning": "孔子",
+              "uncertain": false
+            },
+            {
+              "word": "thinker",
+              "meaning": "n.思想家",
+              "uncertain": false
+            },
+            {
+              "word": "word",
+              "meaning": "n.话语;词,字",
+              "uncertain": false
+            },
+            {
+              "word": "another",
+              "meaning": "det., pron.又一",
+              "uncertain": false
+            },
+            {
+              "word": "September",
+              "meaning": "n.九月",
+              "uncertain": false
+            },
+            {
+              "word": "should",
+              "meaning": "modal v.可以;应当",
+              "uncertain": false
+            },
+            {
+              "word": "couplet",
+              "meaning": "n.对联",
+              "uncertain": false
+            },
+            {
+              "word": "last",
+              "meaning": "det.最后的;最近的 v.持续 adv.最终",
+              "uncertain": false
+            },
+            {
+              "word": "celebration",
+              "meaning": "n.庆祝活动;庆祝",
+              "uncertain": false
+            },
+            {
+              "word": "kitchen",
+              "meaning": "n.厨房",
+              "uncertain": false
+            },
+            {
+              "word": "delicious",
+              "meaning": "adj.美味的,可口的",
+              "uncertain": false
+            },
+            {
+              "word": "meal",
+              "meaning": "n.一顿饭",
+              "uncertain": false
+            },
+            {
+              "word": "finally",
+              "meaning": "adv.最后;最终",
+              "uncertain": false
+            },
+            {
+              "word": "excited",
+              "meaning": "adj.激动的;兴奋的",
+              "uncertain": false
+            },
+            {
+              "word": "author",
+              "meaning": "n.著者;作者;作家",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "celebrate",
+              "meaning": "v.庆祝;庆贺",
+              "uncertain": false
+            },
+            {
+              "word": "double",
+              "meaning": "adj.成双的;两倍的",
+              "uncertain": false
+            },
+            {
+              "word": "ninth",
+              "meaning": "ordinal num.第九",
+              "uncertain": false
+            },
+            {
+              "word": "festival",
+              "meaning": "n.节日;节",
+              "uncertain": false
+            },
+            {
+              "word": "tomb",
+              "meaning": "n.坟墓",
+              "uncertain": false
+            },
+            {
+              "word": "sweep",
+              "meaning": "v., n.打扫,清扫",
+              "uncertain": false
+            },
+            {
+              "word": "dragon",
+              "meaning": "n.龙",
+              "uncertain": false
+            },
+            {
+              "word": "lantern",
+              "meaning": "n.灯笼",
+              "uncertain": false
+            },
+            {
+              "word": "lunar",
+              "meaning": "adj.月球的;月亮的",
+              "uncertain": false
+            },
+            {
+              "word": "August",
+              "meaning": "n.八月",
+              "uncertain": false
+            },
+            {
+              "word": "mooncake",
+              "meaning": "n.月饼",
+              "uncertain": false
+            },
+            {
+              "word": "moon",
+              "meaning": "n.月亮;月球",
+              "uncertain": false
+            },
+            {
+              "word": "January",
+              "meaning": "n.一月",
+              "uncertain": false
+            },
+            {
+              "word": "lucky",
+              "meaning": "adj.带来好运的;幸运的",
+              "uncertain": false
+            },
+            {
+              "word": "money",
+              "meaning": "n.钱币;钱;财产",
+              "uncertain": false
+            },
+            {
+              "word": "around",
+              "meaning": "adv.大约;周围,四周 prep.围绕,环绕;在那边",
+              "uncertain": false
+            },
+            {
+              "word": "April",
+              "meaning": "n.四月",
+              "uncertain": false
+            },
+            {
+              "word": "late",
+              "meaning": "adj.已故的;迟到;近深夜的",
+              "uncertain": false
+            },
+            {
+              "word": "month",
+              "meaning": "n.月;一个月的时间",
+              "uncertain": false
+            },
+            {
+              "word": "July",
+              "meaning": "n.七月",
+              "uncertain": false
+            },
+            {
+              "word": "fifth",
+              "meaning": "ordinal num.第五",
+              "uncertain": false
+            },
+            {
+              "word": "labour",
+              "meaning": "(labor AmE) n.工人;劳动",
+              "uncertain": false
+            },
+            {
+              "word": "holiday",
+              "meaning": "n.假期",
+              "uncertain": false
+            },
+            {
+              "word": "buy",
+              "meaning": "v.购买",
+              "uncertain": false
+            },
+            {
+              "word": "remember",
+              "meaning": "v.纪念;记住;记起;记着",
+              "uncertain": false
+            },
+            {
+              "word": "thank",
+              "meaning": "v.谢谢,感谢(某人)",
+              "uncertain": false
+            },
+            {
+              "word": "Christmas",
+              "meaning": "n.圣诞节",
+              "uncertain": false
+            },
+            {
+              "word": "light",
+              "meaning": "n.电灯;光线;光 v.点燃 adj.浅色的;轻便的",
+              "uncertain": false
+            },
+            {
+              "word": "paper",
+              "meaning": "n.纸",
+              "uncertain": false
+            },
+            {
+              "word": "then",
+              "meaning": "adv.然后;当时;那么",
+              "uncertain": false
+            },
+            {
+              "word": "present",
+              "meaning": "n.礼物 adj.当前的",
+              "uncertain": false
+            },
+            {
+              "word": "Confucius",
+              "meaning": "孔子",
+              "uncertain": false
+            },
+            {
+              "word": "thinker",
+              "meaning": "n.思想家",
+              "uncertain": false
+            },
+            {
+              "word": "word",
+              "meaning": "n.话语;词,字",
+              "uncertain": false
+            },
+            {
+              "word": "another",
+              "meaning": "det., pron.又一",
+              "uncertain": false
+            },
+            {
+              "word": "September",
+              "meaning": "n.九月",
+              "uncertain": false
+            },
+            {
+              "word": "should",
+              "meaning": "modal v.可以;应当",
+              "uncertain": false
+            },
+            {
+              "word": "couplet",
+              "meaning": "n.对联",
+              "uncertain": false
+            },
+            {
+              "word": "last",
+              "meaning": "det.最后的;最近的 v.持续 adv.最终",
+              "uncertain": false
+            },
+            {
+              "word": "celebration",
+              "meaning": "n.庆祝活动;庆祝",
+              "uncertain": false
+            },
+            {
+              "word": "kitchen",
+              "meaning": "n.厨房",
+              "uncertain": false
+            },
+            {
+              "word": "delicious",
+              "meaning": "adj.美味的,可口的",
+              "uncertain": false
+            },
+            {
+              "word": "meal",
+              "meaning": "n.一顿饭",
+              "uncertain": false
+            },
+            {
+              "word": "finally",
+              "meaning": "adv.最后;最终",
+              "uncertain": false
+            },
+            {
+              "word": "excited",
+              "meaning": "adj.激动的;兴奋的",
+              "uncertain": false
+            },
+            {
+              "word": "author",
+              "meaning": "n.著者;作者;作家",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

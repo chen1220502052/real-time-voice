@@ -1,0 +1,890 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页146.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "1548ee9c1556e29420940f5834a8d087da760d0391950059348b0e69ef8ee266",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "zookeeper",
+              "meaning": "n.动物园管理员",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "v.(凭长期努力)达到(某目标、地位、标准);完成;成功",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "v.设计;构思;计划 n.设计;构思;设计方案",
+              "uncertain": false
+            },
+            {
+              "word": "model",
+              "meaning": "n.模型;模特儿",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "adj.科学(上)的",
+              "uncertain": false
+            },
+            {
+              "word": "knowledge",
+              "meaning": "n.知识;学问",
+              "uncertain": false
+            },
+            {
+              "word": "challenge",
+              "meaning": "n.挑战",
+              "uncertain": false
+            },
+            {
+              "word": "however",
+              "meaning": "adv.然而",
+              "uncertain": false
+            },
+            {
+              "word": "shelf",
+              "meaning": "(pl.shelves) n.架子,搁板",
+              "uncertain": false
+            },
+            {
+              "word": "reader",
+              "meaning": "n.读者",
+              "uncertain": false
+            },
+            {
+              "word": "record",
+              "meaning": "n.记录;记载 v.记录;记载",
+              "uncertain": false
+            },
+            {
+              "word": "dentist",
+              "meaning": "n.牙科医生",
+              "uncertain": false
+            },
+            {
+              "word": "reason",
+              "meaning": "n.原因;理由",
+              "uncertain": false
+            },
+            {
+              "word": "research",
+              "meaning": "n.研究;调查",
+              "uncertain": false
+            },
+            {
+              "word": "tourist",
+              "meaning": "n.游客",
+              "uncertain": false
+            },
+            {
+              "word": "speech",
+              "meaning": "n.演说;讲话",
+              "uncertain": false
+            },
+            {
+              "word": "term",
+              "meaning": "n.学期",
+              "uncertain": false
+            },
+            {
+              "word": "waitress",
+              "meaning": "n.女服务员",
+              "uncertain": false
+            },
+            {
+              "word": "greet",
+              "meaning": "v.和(某人)打招呼(或问好);欢迎;迎接",
+              "uncertain": false
+            },
+            {
+              "word": "guest",
+              "meaning": "n.客人;宾客",
+              "uncertain": false
+            },
+            {
+              "word": "smile",
+              "meaning": "n., v.微笑",
+              "uncertain": false
+            },
+            {
+              "word": "lead",
+              "meaning": "v.带路;领路",
+              "uncertain": false
+            },
+            {
+              "word": "boring",
+              "meaning": "adj.没趣的;令人厌倦(或厌烦)的",
+              "uncertain": false
+            },
+            {
+              "word": "customer",
+              "meaning": "n.顾客",
+              "uncertain": false
+            },
+            {
+              "word": "conversation",
+              "meaning": "n.交谈,谈话",
+              "uncertain": false
+            },
+            {
+              "word": "manager",
+              "meaning": "n.经理",
+              "uncertain": false
+            },
+            {
+              "word": "noisy",
+              "meaning": "adj.吵闹的;充满噪声的",
+              "uncertain": false
+            },
+            {
+              "word": "simple",
+              "meaning": "adj.简单的;易做的",
+              "uncertain": false
+            },
+            {
+              "word": "successful",
+              "meaning": "adj.获得成功的;有成就的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "literature",
+              "meaning": "n.文学;文学作品",
+              "uncertain": false
+            },
+            {
+              "word": "calligraphy",
+              "meaning": "n.书法;书法艺术",
+              "uncertain": false
+            },
+            {
+              "word": "swan",
+              "meaning": "n.天鹅",
+              "uncertain": false
+            },
+            {
+              "word": "west",
+              "meaning": "n.西;西方 adj.西方的;西部的;向西的",
+              "uncertain": false
+            },
+            {
+              "word": "teahouse",
+              "meaning": "n.茶馆",
+              "uncertain": false
+            },
+            {
+              "word": "ballet",
+              "meaning": "n.芭蕾舞剧;芭蕾舞",
+              "uncertain": false
+            },
+            {
+              "word": "century",
+              "meaning": "n.百年;世纪",
+              "uncertain": false
+            },
+            {
+              "word": "express",
+              "meaning": "v.表达",
+              "uncertain": false
+            },
+            {
+              "word": "spirit",
+              "meaning": "n.精神;情绪",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "zookeeper",
+              "meaning": "n.动物园管理员",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "v.(凭长期努力)达到(某目标、地位、标准);完成;成功",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "v.设计;构思;计划 n.设计;构思;设计方案",
+              "uncertain": false
+            },
+            {
+              "word": "model",
+              "meaning": "n.模型;模特儿",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "adj.科学(上)的",
+              "uncertain": false
+            },
+            {
+              "word": "knowledge",
+              "meaning": "n.知识;学问",
+              "uncertain": false
+            },
+            {
+              "word": "challenge",
+              "meaning": "n.挑战",
+              "uncertain": false
+            },
+            {
+              "word": "however",
+              "meaning": "adv.然而",
+              "uncertain": false
+            },
+            {
+              "word": "shelf",
+              "meaning": "(pl.shelves) n.架子,搁板",
+              "uncertain": false
+            },
+            {
+              "word": "reader",
+              "meaning": "n.读者",
+              "uncertain": false
+            },
+            {
+              "word": "record",
+              "meaning": "n.记录;记载 v.记录;记载",
+              "uncertain": false
+            },
+            {
+              "word": "dentist",
+              "meaning": "n.牙科医生",
+              "uncertain": false
+            },
+            {
+              "word": "reason",
+              "meaning": "n.原因;理由",
+              "uncertain": false
+            },
+            {
+              "word": "research",
+              "meaning": "n.研究;调查",
+              "uncertain": false
+            },
+            {
+              "word": "tourist",
+              "meaning": "n.游客",
+              "uncertain": false
+            },
+            {
+              "word": "speech",
+              "meaning": "n.演说;讲话",
+              "uncertain": false
+            },
+            {
+              "word": "term",
+              "meaning": "n.学期",
+              "uncertain": false
+            },
+            {
+              "word": "waitress",
+              "meaning": "n.女服务员",
+              "uncertain": false
+            },
+            {
+              "word": "greet",
+              "meaning": "v.和(某人)打招呼(或问好);欢迎;迎接",
+              "uncertain": false
+            },
+            {
+              "word": "guest",
+              "meaning": "n.客人;宾客",
+              "uncertain": false
+            },
+            {
+              "word": "smile",
+              "meaning": "n., v.微笑",
+              "uncertain": false
+            },
+            {
+              "word": "lead",
+              "meaning": "v.带路;领路",
+              "uncertain": false
+            },
+            {
+              "word": "boring",
+              "meaning": "adj.没趣的;令人厌倦(或厌烦)的",
+              "uncertain": false
+            },
+            {
+              "word": "customer",
+              "meaning": "n.顾客",
+              "uncertain": false
+            },
+            {
+              "word": "conversation",
+              "meaning": "n.交谈,谈话",
+              "uncertain": false
+            },
+            {
+              "word": "manager",
+              "meaning": "n.经理",
+              "uncertain": false
+            },
+            {
+              "word": "noisy",
+              "meaning": "adj.吵闹的;充满噪声的",
+              "uncertain": false
+            },
+            {
+              "word": "simple",
+              "meaning": "adj.简单的;易做的",
+              "uncertain": false
+            },
+            {
+              "word": "successful",
+              "meaning": "adj.获得成功的;有成就的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "literature",
+              "meaning": "n.文学;文学作品",
+              "uncertain": false
+            },
+            {
+              "word": "calligraphy",
+              "meaning": "n.书法;书法艺术",
+              "uncertain": false
+            },
+            {
+              "word": "swan",
+              "meaning": "n.天鹅",
+              "uncertain": false
+            },
+            {
+              "word": "west",
+              "meaning": "n.西;西方 adj.西方的;西部的;向西的",
+              "uncertain": false
+            },
+            {
+              "word": "teahouse",
+              "meaning": "n.茶馆",
+              "uncertain": false
+            },
+            {
+              "word": "ballet",
+              "meaning": "n.芭蕾舞剧;芭蕾舞",
+              "uncertain": false
+            },
+            {
+              "word": "century",
+              "meaning": "n.百年;世纪",
+              "uncertain": false
+            },
+            {
+              "word": "express",
+              "meaning": "v.表达",
+              "uncertain": false
+            },
+            {
+              "word": "spirit",
+              "meaning": "n.精神;情绪",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "8e7398c2d9fef0a391f7f703e0e18639dab1f9c6b5bd8c7295206474fb6fdd77",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "zookeeper",
+                  "meaning": "n.动物园管理员",
+                  "uncertain": false
+                },
+                {
+                  "word": "achieve",
+                  "meaning": "v.(凭长期努力)达到(某目标、地位、标准);完成;成功",
+                  "uncertain": false
+                },
+                {
+                  "word": "design",
+                  "meaning": "v.设计;构思;计划",
+                  "uncertain": false
+                },
+                {
+                  "word": "design",
+                  "meaning": "n.设计;构思;设计方案",
+                  "uncertain": false
+                },
+                {
+                  "word": "model",
+                  "meaning": "n.模型;模特儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "scientific",
+                  "meaning": "adj.科学(上)的",
+                  "uncertain": false
+                },
+                {
+                  "word": "knowledge",
+                  "meaning": "n.知识;学问",
+                  "uncertain": false
+                },
+                {
+                  "word": "challenge",
+                  "meaning": "n.挑战",
+                  "uncertain": false
+                },
+                {
+                  "word": "however",
+                  "meaning": "adv.然而",
+                  "uncertain": false
+                },
+                {
+                  "word": "shelf",
+                  "meaning": "n.架子,搁板",
+                  "uncertain": false
+                },
+                {
+                  "word": "reader",
+                  "meaning": "n.读者",
+                  "uncertain": false
+                },
+                {
+                  "word": "record",
+                  "meaning": "n.记录;记载",
+                  "uncertain": false
+                },
+                {
+                  "word": "record",
+                  "meaning": "v.记录;记载",
+                  "uncertain": false
+                },
+                {
+                  "word": "dentist",
+                  "meaning": "n.牙科医生",
+                  "uncertain": false
+                },
+                {
+                  "word": "reason",
+                  "meaning": "n.原因;理由",
+                  "uncertain": false
+                },
+                {
+                  "word": "research",
+                  "meaning": "n.研究;调查",
+                  "uncertain": false
+                },
+                {
+                  "word": "tourist",
+                  "meaning": "n.游客",
+                  "uncertain": false
+                },
+                {
+                  "word": "speech",
+                  "meaning": "n.演说;讲话",
+                  "uncertain": false
+                },
+                {
+                  "word": "term",
+                  "meaning": "n.学期",
+                  "uncertain": false
+                },
+                {
+                  "word": "waitress",
+                  "meaning": "n.女服务员",
+                  "uncertain": false
+                },
+                {
+                  "word": "greet",
+                  "meaning": "v.和(某人)打招呼(或问好);欢迎;迎接",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "zookeeper",
+                  "meaning": "n.动物园管理员",
+                  "uncertain": false
+                },
+                {
+                  "word": "achieve",
+                  "meaning": "v.(凭长期努力)达到(某目标、地位、标准);完成;成功",
+                  "uncertain": false
+                },
+                {
+                  "word": "design",
+                  "meaning": "v.设计;构思;计划",
+                  "uncertain": false
+                },
+                {
+                  "word": "design",
+                  "meaning": "n.设计;构思;设计方案",
+                  "uncertain": false
+                },
+                {
+                  "word": "model",
+                  "meaning": "n.模型;模特儿",
+                  "uncertain": false
+                },
+                {
+                  "word": "scientific",
+                  "meaning": "adj.科学(上)的",
+                  "uncertain": false
+                },
+                {
+                  "word": "knowledge",
+                  "meaning": "n.知识;学问",
+                  "uncertain": false
+                },
+                {
+                  "word": "challenge",
+                  "meaning": "n.挑战",
+                  "uncertain": false
+                },
+                {
+                  "word": "however",
+                  "meaning": "adv.然而",
+                  "uncertain": false
+                },
+                {
+                  "word": "shelf",
+                  "meaning": "n.架子,搁板",
+                  "uncertain": false
+                },
+                {
+                  "word": "reader",
+                  "meaning": "n.读者",
+                  "uncertain": false
+                },
+                {
+                  "word": "record",
+                  "meaning": "n.记录;记载",
+                  "uncertain": false
+                },
+                {
+                  "word": "record",
+                  "meaning": "v.记录;记载",
+                  "uncertain": false
+                },
+                {
+                  "word": "dentist",
+                  "meaning": "n.牙科医生",
+                  "uncertain": false
+                },
+                {
+                  "word": "reason",
+                  "meaning": "n.原因;理由",
+                  "uncertain": false
+                },
+                {
+                  "word": "research",
+                  "meaning": "n.研究;调查",
+                  "uncertain": false
+                },
+                {
+                  "word": "tourist",
+                  "meaning": "n.游客",
+                  "uncertain": false
+                },
+                {
+                  "word": "speech",
+                  "meaning": "n.演说;讲话",
+                  "uncertain": false
+                },
+                {
+                  "word": "term",
+                  "meaning": "n.学期",
+                  "uncertain": false
+                },
+                {
+                  "word": "waitress",
+                  "meaning": "n.女服务员",
+                  "uncertain": false
+                },
+                {
+                  "word": "greet",
+                  "meaning": "v.和(某人)打招呼(或问好);欢迎;迎接",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "0a18bb8f88cdfcafbc976489943f1c0dab78be8e0e8a24d491202e9b7f8e63b1",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "guest",
+                  "meaning": "n.客人;宾客",
+                  "uncertain": false
+                },
+                {
+                  "word": "smile",
+                  "meaning": "n., v.微笑",
+                  "uncertain": false
+                },
+                {
+                  "word": "lead",
+                  "meaning": "v.带路;领路",
+                  "uncertain": false
+                },
+                {
+                  "word": "boring",
+                  "meaning": "adj.没趣的;令人厌倦(或厌烦)的",
+                  "uncertain": false
+                },
+                {
+                  "word": "customer",
+                  "meaning": "n.顾客",
+                  "uncertain": false
+                },
+                {
+                  "word": "conversation",
+                  "meaning": "n.交谈,谈话",
+                  "uncertain": false
+                },
+                {
+                  "word": "manager",
+                  "meaning": "n.经理",
+                  "uncertain": false
+                },
+                {
+                  "word": "noisy",
+                  "meaning": "adj.吵闹的;充满噪声的",
+                  "uncertain": false
+                },
+                {
+                  "word": "simple",
+                  "meaning": "adj.简单的;易做的",
+                  "uncertain": false
+                },
+                {
+                  "word": "successful",
+                  "meaning": "adj.获得成功的;有成就的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "literature",
+                  "meaning": "n.文学;文学作品",
+                  "uncertain": false
+                },
+                {
+                  "word": "calligraphy",
+                  "meaning": "n.书法;书法艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "swan",
+                  "meaning": "n.天鹅",
+                  "uncertain": false
+                },
+                {
+                  "word": "west",
+                  "meaning": "n.西;西方 adj.西方的;西部的;向西的",
+                  "uncertain": false
+                },
+                {
+                  "word": "teahouse",
+                  "meaning": "n.茶馆",
+                  "uncertain": false
+                },
+                {
+                  "word": "ballet",
+                  "meaning": "n.芭蕾舞剧;芭蕾舞",
+                  "uncertain": false
+                },
+                {
+                  "word": "century",
+                  "meaning": "n.百年;世纪",
+                  "uncertain": false
+                },
+                {
+                  "word": "express",
+                  "meaning": "v.表达",
+                  "uncertain": false
+                },
+                {
+                  "word": "spirit",
+                  "meaning": "n.精神;情绪",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "guest",
+                  "meaning": "n.客人;宾客",
+                  "uncertain": false
+                },
+                {
+                  "word": "smile",
+                  "meaning": "n., v.微笑",
+                  "uncertain": false
+                },
+                {
+                  "word": "lead",
+                  "meaning": "v.带路;领路",
+                  "uncertain": false
+                },
+                {
+                  "word": "boring",
+                  "meaning": "adj.没趣的;令人厌倦(或厌烦)的",
+                  "uncertain": false
+                },
+                {
+                  "word": "customer",
+                  "meaning": "n.顾客",
+                  "uncertain": false
+                },
+                {
+                  "word": "conversation",
+                  "meaning": "n.交谈,谈话",
+                  "uncertain": false
+                },
+                {
+                  "word": "manager",
+                  "meaning": "n.经理",
+                  "uncertain": false
+                },
+                {
+                  "word": "noisy",
+                  "meaning": "adj.吵闹的;充满噪声的",
+                  "uncertain": false
+                },
+                {
+                  "word": "simple",
+                  "meaning": "adj.简单的;易做的",
+                  "uncertain": false
+                },
+                {
+                  "word": "successful",
+                  "meaning": "adj.获得成功的;有成就的",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 2,
+              "entries": [
+                {
+                  "word": "literature",
+                  "meaning": "n.文学;文学作品",
+                  "uncertain": false
+                },
+                {
+                  "word": "calligraphy",
+                  "meaning": "n.书法;书法艺术",
+                  "uncertain": false
+                },
+                {
+                  "word": "swan",
+                  "meaning": "n.天鹅",
+                  "uncertain": false
+                },
+                {
+                  "word": "west",
+                  "meaning": "n.西;西方 adj.西方的;西部的;向西的",
+                  "uncertain": false
+                },
+                {
+                  "word": "teahouse",
+                  "meaning": "n.茶馆",
+                  "uncertain": false
+                },
+                {
+                  "word": "ballet",
+                  "meaning": "n.芭蕾舞剧;芭蕾舞",
+                  "uncertain": false
+                },
+                {
+                  "word": "century",
+                  "meaning": "n.百年;世纪",
+                  "uncertain": false
+                },
+                {
+                  "word": "express",
+                  "meaning": "v.表达",
+                  "uncertain": false
+                },
+                {
+                  "word": "spirit",
+                  "meaning": "n.精神;情绪",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

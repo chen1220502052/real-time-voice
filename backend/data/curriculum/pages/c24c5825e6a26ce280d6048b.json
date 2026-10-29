@@ -1,0 +1,661 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页149.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "c24c5825e6a26ce280d6048b9a4ac55e6d4fa50eef193f419d01cd9b7e971871",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pretty",
+              "meaning": "漂亮的,俊俏的; 颇,相当;十分,非常",
+              "uncertain": false
+            },
+            {
+              "word": "handsome",
+              "meaning": "英俊的",
+              "uncertain": false
+            },
+            {
+              "word": "congratulation",
+              "meaning": "祝贺",
+              "uncertain": false
+            },
+            {
+              "word": "succeed",
+              "meaning": "达到目的;成功",
+              "uncertain": false
+            },
+            {
+              "word": "suitable",
+              "meaning": "合适的;适宜的",
+              "uncertain": false
+            },
+            {
+              "word": "customer",
+              "meaning": "顾客,客户",
+              "uncertain": false
+            },
+            {
+              "word": "simple",
+              "meaning": "简单的,简易的",
+              "uncertain": false
+            },
+            {
+              "word": "style",
+              "meaning": "样式,款式;方式,作风",
+              "uncertain": false
+            },
+            {
+              "word": "contrast",
+              "meaning": "明显的差异,对比,对照;对比,对照",
+              "uncertain": false
+            },
+            {
+              "word": "fancy",
+              "meaning": "绚丽的,花哨的",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "设计;设计方案;构思;设计,构思;计划",
+              "uncertain": false
+            },
+            {
+              "word": "broad",
+              "meaning": "宽阔的,广阔的;广泛的",
+              "uncertain": false
+            },
+            {
+              "word": "waist",
+              "meaning": "腰,腰部",
+              "uncertain": false
+            },
+            {
+              "word": "cold-colored",
+              "meaning": "冷色调的",
+              "uncertain": false
+            },
+            {
+              "word": "slim",
+              "meaning": "苗条的,纤细的;单薄的",
+              "uncertain": false
+            },
+            {
+              "word": "skin",
+              "meaning": "皮,皮肤",
+              "uncertain": false
+            },
+            {
+              "word": "material",
+              "meaning": "材料,布料",
+              "uncertain": false
+            },
+            {
+              "word": "uniform",
+              "meaning": "制服",
+              "uncertain": false
+            },
+            {
+              "word": "kimono",
+              "meaning": "(日本的)和服",
+              "uncertain": false
+            },
+            {
+              "word": "sportswear",
+              "meaning": "运动服装",
+              "uncertain": false
+            },
+            {
+              "word": "easy-going",
+              "meaning": "随和的",
+              "uncertain": false
+            },
+            {
+              "word": "saying",
+              "meaning": "俗话,谚语",
+              "uncertain": false
+            },
+            {
+              "word": "function",
+              "meaning": "作用,功能,职能",
+              "uncertain": false
+            },
+            {
+              "word": "discuss",
+              "meaning": "讨论,谈论",
+              "uncertain": false
+            },
+            {
+              "word": "meaning",
+              "meaning": "意义,意思",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "interview",
+              "meaning": "采访;面试",
+              "uncertain": false
+            },
+            {
+              "word": "plain",
+              "meaning": "普通的;家常的",
+              "uncertain": false
+            },
+            {
+              "word": "plain clothes",
+              "meaning": "便衣;便服",
+              "uncertain": false
+            },
+            {
+              "word": "carry out",
+              "meaning": "执行,开展",
+              "uncertain": false
+            },
+            {
+              "word": "gatekeeper",
+              "meaning": "门卫",
+              "uncertain": false
+            },
+            {
+              "word": "suit",
+              "meaning": "套装,一套(衣服);适合",
+              "uncertain": false
+            },
+            {
+              "word": "attendant",
+              "meaning": "服务员,侍者",
+              "uncertain": false
+            },
+            {
+              "word": "take off",
+              "meaning": "脱下(衣服),摘掉",
+              "uncertain": false
+            },
+            {
+              "word": "enter",
+              "meaning": "进去,进入;加入",
+              "uncertain": false
+            },
+            {
+              "word": "knee",
+              "meaning": "膝盖,膝关节",
+              "uncertain": false
+            },
+            {
+              "word": "occasion",
+              "meaning": "特别的事情(或仪式、庆典);时机",
+              "uncertain": false
+            },
+            {
+              "word": "correctly",
+              "meaning": "正确地,精确地",
+              "uncertain": false
+            },
+            {
+              "word": "text",
+              "meaning": "正文,文本",
+              "uncertain": false
+            },
+            {
+              "word": "reason",
+              "meaning": "原因;理由",
+              "uncertain": false
+            },
+            {
+              "word": "firefighter",
+              "meaning": "消防人员",
+              "uncertain": false
+            },
+            {
+              "word": "heat",
+              "meaning": "温度;热;把……加热",
+              "uncertain": false
+            },
+            {
+              "word": "ceiling",
+              "meaning": "天花板,顶棚",
+              "uncertain": false
+            },
+            {
+              "word": "official",
+              "meaning": "官员,高级职员",
+              "uncertain": false
+            },
+            {
+              "word": "airport",
+              "meaning": "航空站,飞机场",
+              "uncertain": false
+            },
+            {
+              "word": "officer",
+              "meaning": "警官;军官",
+              "uncertain": false
+            },
+            {
+              "word": "patient",
+              "meaning": "病人;有耐心的,能忍耐的",
+              "uncertain": false
+            },
+            {
+              "word": "spread",
+              "meaning": "传播,展开",
+              "uncertain": false
+            },
+            {
+              "word": "daily",
+              "meaning": "每日的,日常的",
+              "uncertain": false
+            },
+            {
+              "word": "opinion",
+              "meaning": "意见,想法,看法",
+              "uncertain": false
+            },
+            {
+              "word": "in one's opinion",
+              "meaning": "在某人看来",
+              "uncertain": false
+            },
+            {
+              "word": "greatly",
+              "meaning": "非常,很,大大地",
+              "uncertain": false
+            },
+            {
+              "word": "northern",
+              "meaning": "北方的,北部的",
+              "uncertain": false
+            },
+            {
+              "word": "casual",
+              "meaning": "随便的;漫不经心的",
+              "uncertain": false
+            },
+            {
+              "word": "beautifully",
+              "meaning": "漂亮地,美好地",
+              "uncertain": false
+            },
+            {
+              "word": "boot",
+              "meaning": "长筒靴,靴",
+              "uncertain": false
+            },
+            {
+              "word": "as well as",
+              "meaning": "除……之外;也;还",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "depend",
+              "meaning": "决定于",
+              "uncertain": false
+            },
+            {
+              "word": "depend on",
+              "meaning": "取决于;依靠,依赖",
+              "uncertain": false
+            },
+            {
+              "word": "discipline",
+              "meaning": "纪律,风纪",
+              "uncertain": false
+            },
+            {
+              "word": "survey",
+              "meaning": "调查;查看;民意调查,民意测验",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "Topic 2 heading appears mid-page; its entries are placed in a separate block with unit=null because no numeric unit is printed.",
+        "No printed Unit/Lesson numeric headings are visible on this page; all blocks use unit=null."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pretty",
+              "meaning": "漂亮的,俊俏的; 颇,相当;十分,非常",
+              "uncertain": false
+            },
+            {
+              "word": "handsome",
+              "meaning": "英俊的",
+              "uncertain": false
+            },
+            {
+              "word": "congratulation",
+              "meaning": "祝贺",
+              "uncertain": false
+            },
+            {
+              "word": "succeed",
+              "meaning": "达到目的;成功",
+              "uncertain": false
+            },
+            {
+              "word": "suitable",
+              "meaning": "合适的;适宜的",
+              "uncertain": false
+            },
+            {
+              "word": "customer",
+              "meaning": "顾客,客户",
+              "uncertain": false
+            },
+            {
+              "word": "simple",
+              "meaning": "简单的,简易的",
+              "uncertain": false
+            },
+            {
+              "word": "style",
+              "meaning": "样式,款式;方式,作风",
+              "uncertain": false
+            },
+            {
+              "word": "contrast",
+              "meaning": "明显的差异,对比,对照;对比,对照",
+              "uncertain": false
+            },
+            {
+              "word": "fancy",
+              "meaning": "绚丽的,花哨的",
+              "uncertain": false
+            },
+            {
+              "word": "design",
+              "meaning": "设计;设计方案;构思;设计,构思;计划",
+              "uncertain": false
+            },
+            {
+              "word": "broad",
+              "meaning": "宽阔的,广阔的;广泛的",
+              "uncertain": false
+            },
+            {
+              "word": "waist",
+              "meaning": "腰,腰部",
+              "uncertain": false
+            },
+            {
+              "word": "cold-colored",
+              "meaning": "冷色调的",
+              "uncertain": false
+            },
+            {
+              "word": "slim",
+              "meaning": "苗条的,纤细的;单薄的",
+              "uncertain": false
+            },
+            {
+              "word": "skin",
+              "meaning": "皮,皮肤",
+              "uncertain": false
+            },
+            {
+              "word": "material",
+              "meaning": "材料,布料",
+              "uncertain": false
+            },
+            {
+              "word": "uniform",
+              "meaning": "制服",
+              "uncertain": false
+            },
+            {
+              "word": "kimono",
+              "meaning": "(日本的)和服",
+              "uncertain": false
+            },
+            {
+              "word": "sportswear",
+              "meaning": "运动服装",
+              "uncertain": false
+            },
+            {
+              "word": "easy-going",
+              "meaning": "随和的",
+              "uncertain": false
+            },
+            {
+              "word": "saying",
+              "meaning": "俗话,谚语",
+              "uncertain": false
+            },
+            {
+              "word": "function",
+              "meaning": "作用,功能,职能",
+              "uncertain": false
+            },
+            {
+              "word": "discuss",
+              "meaning": "讨论,谈论",
+              "uncertain": false
+            },
+            {
+              "word": "meaning",
+              "meaning": "意义,意思",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "interview",
+              "meaning": "采访;面试",
+              "uncertain": false
+            },
+            {
+              "word": "plain",
+              "meaning": "普通的;家常的",
+              "uncertain": false
+            },
+            {
+              "word": "plain clothes",
+              "meaning": "便衣;便服",
+              "uncertain": false
+            },
+            {
+              "word": "carry out",
+              "meaning": "执行,开展",
+              "uncertain": false
+            },
+            {
+              "word": "gatekeeper",
+              "meaning": "门卫",
+              "uncertain": false
+            },
+            {
+              "word": "suit",
+              "meaning": "套装,一套(衣服);适合",
+              "uncertain": false
+            },
+            {
+              "word": "attendant",
+              "meaning": "服务员,侍者",
+              "uncertain": false
+            },
+            {
+              "word": "take off",
+              "meaning": "脱下(衣服),摘掉",
+              "uncertain": false
+            },
+            {
+              "word": "enter",
+              "meaning": "进去,进入;加入",
+              "uncertain": false
+            },
+            {
+              "word": "knee",
+              "meaning": "膝盖,膝关节",
+              "uncertain": false
+            },
+            {
+              "word": "occasion",
+              "meaning": "特别的事情(或仪式、庆典);时机",
+              "uncertain": false
+            },
+            {
+              "word": "correctly",
+              "meaning": "正确地,精确地",
+              "uncertain": false
+            },
+            {
+              "word": "text",
+              "meaning": "正文,文本",
+              "uncertain": false
+            },
+            {
+              "word": "reason",
+              "meaning": "原因;理由",
+              "uncertain": false
+            },
+            {
+              "word": "firefighter",
+              "meaning": "消防人员",
+              "uncertain": false
+            },
+            {
+              "word": "heat",
+              "meaning": "温度;热;把……加热",
+              "uncertain": false
+            },
+            {
+              "word": "ceiling",
+              "meaning": "天花板,顶棚",
+              "uncertain": false
+            },
+            {
+              "word": "official",
+              "meaning": "官员,高级职员",
+              "uncertain": false
+            },
+            {
+              "word": "airport",
+              "meaning": "航空站,飞机场",
+              "uncertain": false
+            },
+            {
+              "word": "officer",
+              "meaning": "警官;军官",
+              "uncertain": false
+            },
+            {
+              "word": "patient",
+              "meaning": "病人;有耐心的,能忍耐的",
+              "uncertain": false
+            },
+            {
+              "word": "spread",
+              "meaning": "传播,展开",
+              "uncertain": false
+            },
+            {
+              "word": "daily",
+              "meaning": "每日的,日常的",
+              "uncertain": false
+            },
+            {
+              "word": "opinion",
+              "meaning": "意见,想法,看法",
+              "uncertain": false
+            },
+            {
+              "word": "in one's opinion",
+              "meaning": "在某人看来",
+              "uncertain": false
+            },
+            {
+              "word": "greatly",
+              "meaning": "非常,很,大大地",
+              "uncertain": false
+            },
+            {
+              "word": "northern",
+              "meaning": "北方的,北部的",
+              "uncertain": false
+            },
+            {
+              "word": "casual",
+              "meaning": "随便的;漫不经心的",
+              "uncertain": false
+            },
+            {
+              "word": "beautifully",
+              "meaning": "漂亮地,美好地",
+              "uncertain": false
+            },
+            {
+              "word": "boot",
+              "meaning": "长筒靴,靴",
+              "uncertain": false
+            },
+            {
+              "word": "as well as",
+              "meaning": "除……之外;也;还",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "depend",
+              "meaning": "决定于",
+              "uncertain": false
+            },
+            {
+              "word": "depend on",
+              "meaning": "取决于;依靠,依赖",
+              "uncertain": false
+            },
+            {
+              "word": "discipline",
+              "meaning": "纪律,风纪",
+              "uncertain": false
+            },
+            {
+              "word": "survey",
+              "meaning": "调查;查看;民意调查,民意测验",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "Topic 2 heading appears mid-page; its entries are placed in a separate block with unit=null because no numeric unit is printed.",
+        "No printed Unit/Lesson numeric headings are visible on this page; all blocks use unit=null."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

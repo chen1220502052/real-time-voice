@@ -1,0 +1,225 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/7711373333534aaa25735d21-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "cc7a7e09cea526bacba96c17e09e98b5fda06ad3be0798b5834be6f1034dac36",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "band",
+              "meaning": "乐队",
+              "uncertain": false
+            },
+            {
+              "word": "ticket",
+              "meaning": "票,券",
+              "uncertain": false
+            },
+            {
+              "word": "crazy",
+              "meaning": "热衷的;狂热的",
+              "uncertain": false
+            },
+            {
+              "word": "surprised",
+              "meaning": "惊奇的;惊讶的",
+              "uncertain": false
+            },
+            {
+              "word": "gain",
+              "meaning": "获得;赢得;增加",
+              "uncertain": false
+            },
+            {
+              "word": "argue",
+              "meaning": "争论;争吵;争辩",
+              "uncertain": false
+            },
+            {
+              "word": "luckily",
+              "meaning": "幸好;幸运地",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "注意到;注意",
+              "uncertain": false
+            },
+            {
+              "word": "relationship",
+              "meaning": "关系;联系;关联",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "接受",
+              "uncertain": false
+            },
+            {
+              "word": "anymore",
+              "meaning": "再也(不);(不)再",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "复习",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "机器人",
+              "uncertain": false
+            },
+            {
+              "word": "similar",
+              "meaning": "相仿的;类似的",
+              "uncertain": false
+            },
+            {
+              "word": "manage",
+              "meaning": "完成(困难的事);成功获得;管理",
+              "uncertain": false
+            },
+            {
+              "word": "avoid",
+              "meaning": "避免;防止",
+              "uncertain": false
+            },
+            {
+              "word": "balance",
+              "meaning": "平衡",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nest",
+              "meaning": "鸟巢;鸟窝",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "band",
+              "meaning": "乐队",
+              "uncertain": false
+            },
+            {
+              "word": "ticket",
+              "meaning": "票,券",
+              "uncertain": false
+            },
+            {
+              "word": "crazy",
+              "meaning": "热衷的;狂热的",
+              "uncertain": false
+            },
+            {
+              "word": "surprised",
+              "meaning": "惊奇的;惊讶的",
+              "uncertain": false
+            },
+            {
+              "word": "gain",
+              "meaning": "获得;赢得;增加",
+              "uncertain": false
+            },
+            {
+              "word": "argue",
+              "meaning": "争论;争吵;争辩",
+              "uncertain": false
+            },
+            {
+              "word": "luckily",
+              "meaning": "幸好;幸运地",
+              "uncertain": false
+            },
+            {
+              "word": "notice",
+              "meaning": "注意到;注意",
+              "uncertain": false
+            },
+            {
+              "word": "relationship",
+              "meaning": "关系;联系;关联",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "接受",
+              "uncertain": false
+            },
+            {
+              "word": "anymore",
+              "meaning": "再也(不);(不)再",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "复习",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "机器人",
+              "uncertain": false
+            },
+            {
+              "word": "similar",
+              "meaning": "相仿的;类似的",
+              "uncertain": false
+            },
+            {
+              "word": "manage",
+              "meaning": "完成(困难的事);成功获得;管理",
+              "uncertain": false
+            },
+            {
+              "word": "avoid",
+              "meaning": "避免;防止",
+              "uncertain": false
+            },
+            {
+              "word": "balance",
+              "meaning": "平衡",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "nest",
+              "meaning": "鸟巢;鸟窝",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

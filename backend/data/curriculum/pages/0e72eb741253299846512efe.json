@@ -1,0 +1,515 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页141.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "0e72eb741253299846512efe014ba2cb7e7fd4996930ab7cd9cd838cb6e9f7bf",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "usually",
+              "meaning": "adv. 经常地",
+              "uncertain": false
+            },
+            {
+              "word": "come",
+              "meaning": "v. 来;来到",
+              "uncertain": false
+            },
+            {
+              "word": "far",
+              "meaning": "adv. 远",
+              "uncertain": false
+            },
+            {
+              "word": "never",
+              "meaning": "adv. 从不",
+              "uncertain": false
+            },
+            {
+              "word": "take",
+              "meaning": "v. 乘坐;带去;携带;拍照",
+              "uncertain": false
+            },
+            {
+              "word": "seldom",
+              "meaning": "adv. 不常,很少",
+              "uncertain": false
+            },
+            {
+              "word": "near",
+              "meaning": "prep. 在……附近",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "n. 图书馆",
+              "uncertain": false
+            },
+            {
+              "word": "building",
+              "meaning": "n. 建筑物;楼房",
+              "uncertain": false
+            },
+            {
+              "word": "floor",
+              "meaning": "n. 楼层;地板",
+              "uncertain": false
+            },
+            {
+              "word": "five",
+              "meaning": "num. 五",
+              "uncertain": false
+            },
+            {
+              "word": "playground",
+              "meaning": "n. 操场",
+              "uncertain": false
+            },
+            {
+              "word": "next",
+              "meaning": "adj. 紧挨着的;下一个的 adv. 紧接着;随后",
+              "uncertain": false
+            },
+            {
+              "word": "next to",
+              "meaning": "prep. 紧邻,在……近旁;紧接",
+              "uncertain": false
+            },
+            {
+              "word": "garden",
+              "meaning": "n. 花园",
+              "uncertain": false
+            },
+            {
+              "word": "flower",
+              "meaning": "n. 花,花朵;花卉",
+              "uncertain": false
+            },
+            {
+              "word": "tidy",
+              "meaning": "adj. 整洁的 v. 使整洁",
+              "uncertain": false
+            },
+            {
+              "word": "bright",
+              "meaning": "adj. 明亮的;光线充足的",
+              "uncertain": false
+            },
+            {
+              "word": "club",
+              "meaning": "n. 俱乐部;社团",
+              "uncertain": false
+            },
+            {
+              "word": "open",
+              "meaning": "v. 开门,开业;打开;睁开;张开 adj. 开着的;敞开的;张开的;展开的",
+              "uncertain": false
+            },
+            {
+              "word": "p.m.",
+              "meaning": "abbr. 下午,午后",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "n. 星期二",
+              "uncertain": false
+            },
+            {
+              "word": "hall",
+              "meaning": "n. 礼堂,大厅;走廊;门厅",
+              "uncertain": false
+            },
+            {
+              "word": "song",
+              "meaning": "n. 歌曲",
+              "uncertain": false
+            },
+            {
+              "word": "put",
+              "meaning": "v. 放;安置",
+              "uncertain": false
+            },
+            {
+              "word": "Friday",
+              "meaning": "n. 星期五",
+              "uncertain": false
+            },
+            {
+              "word": "water",
+              "meaning": "n. 水 v. 浇水",
+              "uncertain": false
+            },
+            {
+              "word": "game",
+              "meaning": "n. 游戏;运动项目;比赛",
+              "uncertain": false
+            },
+            {
+              "word": "fun",
+              "meaning": "adj. 有趣的 n. 乐趣",
+              "uncertain": false
+            },
+            {
+              "word": "Monday",
+              "meaning": "n. 星期一",
+              "uncertain": false
+            },
+            {
+              "word": "raise",
+              "meaning": "v. 提升,举起;增加;筹募;抚养",
+              "uncertain": false
+            },
+            {
+              "word": "national",
+              "meaning": "adj. 国家的;民族的;全国的",
+              "uncertain": false
+            },
+            {
+              "word": "flag",
+              "meaning": "n. 旗;旗帜",
+              "uncertain": false
+            },
+            {
+              "word": "start",
+              "meaning": "v. 开始 n. 开头",
+              "uncertain": false
+            },
+            {
+              "word": "first",
+              "meaning": "det., ordinal num. 第一;首要的 adv. 首先;第一次",
+              "uncertain": false
+            },
+            {
+              "word": "a.m.",
+              "meaning": "abbr. 上午,午前",
+              "uncertain": false
+            },
+            {
+              "word": "make",
+              "meaning": "v. 使成为;出产,写;做;使变得;使得",
+              "uncertain": false
+            },
+            {
+              "word": "hand",
+              "meaning": "n. 手;帮助",
+              "uncertain": false
+            },
+            {
+              "word": "answer",
+              "meaning": "v. 答复;回答 n. 答复,回答;答案",
+              "uncertain": false
+            },
+            {
+              "word": "question",
+              "meaning": "n. 问题",
+              "uncertain": false
+            },
+            {
+              "word": "box",
+              "meaning": "n. 盒,箱;方框",
+              "uncertain": false
+            },
+            {
+              "word": "knife",
+              "meaning": "n. 刀",
+              "uncertain": false
+            },
+            {
+              "word": "glass",
+              "meaning": "n. 玻璃杯;眼镜;玻璃",
+              "uncertain": false
+            },
+            {
+              "word": "dish",
+              "meaning": "n. 菜肴;餐具",
+              "uncertain": false
+            },
+            {
+              "word": "tomato",
+              "meaning": "n. 番茄",
+              "uncertain": false
+            },
+            {
+              "word": "country",
+              "meaning": "n. 国家",
+              "uncertain": false
+            },
+            {
+              "word": "American",
+              "meaning": "adj. 美国的 n. 美国人",
+              "uncertain": false
+            },
+            {
+              "word": "during",
+              "meaning": "prep. 在……期间",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "usually",
+              "meaning": "adv. 经常地",
+              "uncertain": false
+            },
+            {
+              "word": "come",
+              "meaning": "v. 来;来到",
+              "uncertain": false
+            },
+            {
+              "word": "far",
+              "meaning": "adv. 远",
+              "uncertain": false
+            },
+            {
+              "word": "never",
+              "meaning": "adv. 从不",
+              "uncertain": false
+            },
+            {
+              "word": "take",
+              "meaning": "v. 乘坐;带去;携带;拍照",
+              "uncertain": false
+            },
+            {
+              "word": "seldom",
+              "meaning": "adv. 不常,很少",
+              "uncertain": false
+            },
+            {
+              "word": "near",
+              "meaning": "prep. 在……附近",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "n. 图书馆",
+              "uncertain": false
+            },
+            {
+              "word": "building",
+              "meaning": "n. 建筑物;楼房",
+              "uncertain": false
+            },
+            {
+              "word": "floor",
+              "meaning": "n. 楼层;地板",
+              "uncertain": false
+            },
+            {
+              "word": "five",
+              "meaning": "num. 五",
+              "uncertain": false
+            },
+            {
+              "word": "playground",
+              "meaning": "n. 操场",
+              "uncertain": false
+            },
+            {
+              "word": "next",
+              "meaning": "adj. 紧挨着的;下一个的;接下来的 adv. 紧接着;随后",
+              "uncertain": false
+            },
+            {
+              "word": "next to",
+              "meaning": "prep. 紧邻,在……近旁;紧接",
+              "uncertain": false
+            },
+            {
+              "word": "garden",
+              "meaning": "n. 花园",
+              "uncertain": false
+            },
+            {
+              "word": "flower",
+              "meaning": "n. 花,花朵;花卉",
+              "uncertain": false
+            },
+            {
+              "word": "tidy",
+              "meaning": "adj. 整洁的 v. 使整洁",
+              "uncertain": false
+            },
+            {
+              "word": "bright",
+              "meaning": "adj. 明亮的;光线充足的",
+              "uncertain": false
+            },
+            {
+              "word": "club",
+              "meaning": "n. 俱乐部;社团",
+              "uncertain": false
+            },
+            {
+              "word": "open",
+              "meaning": "v. 开门,开业;打开;睁开;张开 adj. 开着的;敞开的;张开的;展开的",
+              "uncertain": false
+            },
+            {
+              "word": "p.m.",
+              "meaning": "abbr. 下午,午后",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "n. 星期二",
+              "uncertain": false
+            },
+            {
+              "word": "hall",
+              "meaning": "n. 礼堂,大厅;走廊;门厅",
+              "uncertain": false
+            },
+            {
+              "word": "song",
+              "meaning": "n. 歌曲",
+              "uncertain": false
+            },
+            {
+              "word": "put",
+              "meaning": "v. 放;安置",
+              "uncertain": false
+            },
+            {
+              "word": "Friday",
+              "meaning": "n. 星期五",
+              "uncertain": false
+            },
+            {
+              "word": "water",
+              "meaning": "n. 水 v. 浇水",
+              "uncertain": false
+            },
+            {
+              "word": "game",
+              "meaning": "n. 游戏;运动项目;比赛",
+              "uncertain": false
+            },
+            {
+              "word": "fun",
+              "meaning": "adj. 有趣的 n. 乐趣",
+              "uncertain": false
+            },
+            {
+              "word": "Monday",
+              "meaning": "n. 星期一",
+              "uncertain": false
+            },
+            {
+              "word": "raise",
+              "meaning": "v. 提升,举起;增加;筹募;抚养",
+              "uncertain": false
+            },
+            {
+              "word": "national",
+              "meaning": "adj. 国家的;民族的;全国的",
+              "uncertain": false
+            },
+            {
+              "word": "flag",
+              "meaning": "n. 旗;旗帜",
+              "uncertain": false
+            },
+            {
+              "word": "start",
+              "meaning": "v. 开始 n. 开头",
+              "uncertain": false
+            },
+            {
+              "word": "first",
+              "meaning": "det., ordinal num. 第一;首要的 adv. 首先;第一次",
+              "uncertain": false
+            },
+            {
+              "word": "a.m.",
+              "meaning": "abbr. 上午,午前",
+              "uncertain": false
+            },
+            {
+              "word": "make",
+              "meaning": "v. 使成为;出产,写;做;使变得;使得",
+              "uncertain": false
+            },
+            {
+              "word": "hand",
+              "meaning": "n. 手;帮助",
+              "uncertain": false
+            },
+            {
+              "word": "answer",
+              "meaning": "v. 答复;回答 n. 答复,回答;答案",
+              "uncertain": false
+            },
+            {
+              "word": "question",
+              "meaning": "n. 问题",
+              "uncertain": false
+            },
+            {
+              "word": "box",
+              "meaning": "n. 盒,箱;方框",
+              "uncertain": false
+            },
+            {
+              "word": "knife",
+              "meaning": "n. 刀",
+              "uncertain": false
+            },
+            {
+              "word": "glass",
+              "meaning": "n. 玻璃杯;眼镜;玻璃",
+              "uncertain": false
+            },
+            {
+              "word": "dish",
+              "meaning": "n. 菜肴;餐具",
+              "uncertain": false
+            },
+            {
+              "word": "tomato",
+              "meaning": "n. 番茄",
+              "uncertain": false
+            },
+            {
+              "word": "country",
+              "meaning": "n. 国家",
+              "uncertain": false
+            },
+            {
+              "word": "American",
+              "meaning": "adj. 美国的 n. 美国人",
+              "uncertain": false
+            },
+            {
+              "word": "during",
+              "meaning": "prep. 在……期间",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

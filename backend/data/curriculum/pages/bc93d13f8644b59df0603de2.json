@@ -1,0 +1,285 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/424c2fc70ba7adfc7a55f66c-left.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/73/detail/",
+  "sha256": "bc93d13f8644b59df0603de2f2bdf0caa00f158e44823fe17bb692ffbb62704e",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "interesting",
+              "meaning": "有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "policeman",
+              "meaning": "警察",
+              "uncertain": false
+            },
+            {
+              "word": "manager",
+              "meaning": "经理",
+              "uncertain": false
+            },
+            {
+              "word": "office",
+              "meaning": "办公室",
+              "uncertain": false
+            },
+            {
+              "word": "choose",
+              "meaning": "选择",
+              "uncertain": false
+            },
+            {
+              "word": "cleaner",
+              "meaning": "清洁工",
+              "uncertain": false
+            },
+            {
+              "word": "on a farm",
+              "meaning": "在农场",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "hospital",
+              "meaning": "医院",
+              "uncertain": false
+            },
+            {
+              "word": "thirty",
+              "meaning": "三十",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "breakfast",
+              "meaning": "早餐",
+              "uncertain": false
+            },
+            {
+              "word": "Monday",
+              "meaning": "星期一",
+              "uncertain": false
+            },
+            {
+              "word": "fifty",
+              "meaning": "五十",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "路",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "尝试",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "准备好的",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "星期二",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "星期四",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "星期三",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞，孔",
+              "uncertain": false
+            },
+            {
+              "word": "out",
+              "meaning": "在外",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "深的",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "填满",
+              "uncertain": false
+            },
+            {
+              "word": "smile",
+              "meaning": "微笑",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "interesting",
+              "meaning": "有趣的",
+              "uncertain": false
+            },
+            {
+              "word": "policeman",
+              "meaning": "警察",
+              "uncertain": false
+            },
+            {
+              "word": "manager",
+              "meaning": "经理",
+              "uncertain": false
+            },
+            {
+              "word": "office",
+              "meaning": "办公室",
+              "uncertain": false
+            },
+            {
+              "word": "choose",
+              "meaning": "选择",
+              "uncertain": false
+            },
+            {
+              "word": "cleaner",
+              "meaning": "清洁工",
+              "uncertain": false
+            },
+            {
+              "word": "on a farm",
+              "meaning": "在农场",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "hospital",
+              "meaning": "医院",
+              "uncertain": false
+            },
+            {
+              "word": "thirty",
+              "meaning": "三十",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "breakfast",
+              "meaning": "早餐",
+              "uncertain": false
+            },
+            {
+              "word": "Monday",
+              "meaning": "星期一",
+              "uncertain": false
+            },
+            {
+              "word": "fifty",
+              "meaning": "五十",
+              "uncertain": false
+            },
+            {
+              "word": "way",
+              "meaning": "路",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "尝试",
+              "uncertain": false
+            },
+            {
+              "word": "ready",
+              "meaning": "准备好的",
+              "uncertain": false
+            },
+            {
+              "word": "Tuesday",
+              "meaning": "星期二",
+              "uncertain": false
+            },
+            {
+              "word": "Thursday",
+              "meaning": "星期四",
+              "uncertain": false
+            },
+            {
+              "word": "Wednesday",
+              "meaning": "星期三",
+              "uncertain": false
+            },
+            {
+              "word": "hole",
+              "meaning": "洞，孔",
+              "uncertain": false
+            },
+            {
+              "word": "out",
+              "meaning": "在外",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "深的",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "填满",
+              "uncertain": false
+            },
+            {
+              "word": "smile",
+              "meaning": "微笑",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,245 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/797eba7cdcb3397cbf1e44ae-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "d394bef3514e6530e823aa80d0a6074c62d7edf973f1c877bad573c50182f243",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "though",
+              "meaning": "conj.虽然;尽管;即使",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "method",
+              "meaning": "n.方法;办法;措施",
+              "uncertain": false
+            },
+            {
+              "word": "focus",
+              "meaning": "v.集中(注意力、精力等于) n.中心点;关注",
+              "uncertain": false
+            },
+            {
+              "word": "smell",
+              "meaning": "n.气味;嗅觉",
+              "uncertain": false
+            },
+            {
+              "word": "mostly",
+              "meaning": "adv.通常;主要地;一般地",
+              "uncertain": false
+            },
+            {
+              "word": "sauce",
+              "meaning": "n.调味汁;酱",
+              "uncertain": false
+            },
+            {
+              "word": "serve",
+              "meaning": "v.端上;接待;服务",
+              "uncertain": false
+            },
+            {
+              "word": "hobby",
+              "meaning": "n.业余爱好",
+              "uncertain": false
+            },
+            {
+              "word": "hurry",
+              "meaning": "n.匆忙;急忙 v.匆忙,急忙(做某事)",
+              "uncertain": false
+            },
+            {
+              "word": "mad",
+              "meaning": "adj.很生气;气愤",
+              "uncertain": false
+            },
+            {
+              "word": "fit",
+              "meaning": "adj.健壮的;健康的",
+              "uncertain": false
+            },
+            {
+              "word": "physical",
+              "meaning": "adj.身体的",
+              "uncertain": false
+            },
+            {
+              "word": "balanced",
+              "meaning": "adj.保持(或显示)平衡的",
+              "uncertain": false
+            },
+            {
+              "word": "runner",
+              "meaning": "n.奔跑的人(或动物)",
+              "uncertain": false
+            },
+            {
+              "word": "spread",
+              "meaning": "v., n.蔓延;扩散",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "vision",
+              "meaning": "n.视力;视野",
+              "uncertain": false
+            },
+            {
+              "word": "touch",
+              "meaning": "n.触觉;触感 v.触摸;碰",
+              "uncertain": false
+            },
+            {
+              "word": "soft",
+              "meaning": "adj.轻柔的;柔软的",
+              "uncertain": false
+            },
+            {
+              "word": "calm",
+              "meaning": "adj.镇静的;沉着的 v.使平静",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "though",
+              "meaning": "conj.虽然;尽管;即使",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "method",
+              "meaning": "n.方法;办法;措施",
+              "uncertain": false
+            },
+            {
+              "word": "focus",
+              "meaning": "v.集中(注意力、精力等于) n.中心点;关注",
+              "uncertain": false
+            },
+            {
+              "word": "smell",
+              "meaning": "n.气味;嗅觉",
+              "uncertain": false
+            },
+            {
+              "word": "mostly",
+              "meaning": "adv.通常;主要地;一般地",
+              "uncertain": false
+            },
+            {
+              "word": "sauce",
+              "meaning": "n.调味汁;酱",
+              "uncertain": false
+            },
+            {
+              "word": "serve",
+              "meaning": "v.端上;接待;服务",
+              "uncertain": false
+            },
+            {
+              "word": "hobby",
+              "meaning": "n.业余爱好",
+              "uncertain": false
+            },
+            {
+              "word": "hurry",
+              "meaning": "n.匆忙;急忙 v.匆忙,急忙(做某事)",
+              "uncertain": false
+            },
+            {
+              "word": "mad",
+              "meaning": "adj.很生气;气愤",
+              "uncertain": false
+            },
+            {
+              "word": "fit",
+              "meaning": "adj.健壮的;健康的",
+              "uncertain": false
+            },
+            {
+              "word": "physical",
+              "meaning": "adj.身体的",
+              "uncertain": false
+            },
+            {
+              "word": "balanced",
+              "meaning": "adj.保持(或显示)平衡的",
+              "uncertain": false
+            },
+            {
+              "word": "runner",
+              "meaning": "n.奔跑的人(或动物)",
+              "uncertain": false
+            },
+            {
+              "word": "spread",
+              "meaning": "v., n.蔓延;扩散",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "vision",
+              "meaning": "n.视力;视野",
+              "uncertain": false
+            },
+            {
+              "word": "touch",
+              "meaning": "n.触觉;触感 v.触摸;碰",
+              "uncertain": false
+            },
+            {
+              "word": "soft",
+              "meaning": "adj.轻柔的;柔软的",
+              "uncertain": false
+            },
+            {
+              "word": "calm",
+              "meaning": "adj.镇静的;沉着的 v.使平静",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

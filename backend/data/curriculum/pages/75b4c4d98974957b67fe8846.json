@@ -1,0 +1,316 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 12,
+  "units": [
+    12
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_94d657f303.jpg",
+  "sha256": "75b4c4d98974957b67fe8846ff5433707dd8a4072f627568349a24e17fa441b8",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "You",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Big",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Boy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Sure",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Here",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "tidy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "clean",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "we",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "go",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "now",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "You Are a Big Boy",
+        "Can I have some juice?",
+        "Sure! Here you are.",
+        "Let's tidy up.",
+        "OK!",
+        "It is clean!",
+        "Yes, we can go now."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "You",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Big",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Boy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Sure",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Here",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "tidy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "clean",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "we",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "go",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "now",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "You Are a Big Boy",
+        "Can I have some juice?",
+        "Sure! Here you are.",
+        "Let's tidy up.",
+        "OK!",
+        "It is clean!",
+        "Yes, we can go now."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

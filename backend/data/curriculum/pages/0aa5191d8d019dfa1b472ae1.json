@@ -1,0 +1,275 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/109dfbb0f6c541f722210d82-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "0aa5191d8d019dfa1b472ae167046296a486b1cf4160293be3ffd551fb9e4d9a",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "adv. 在昨天",
+              "meaning": "n. 昨天",
+              "uncertain": false
+            },
+            {
+              "word": "tennis",
+              "meaning": "n. 网球",
+              "uncertain": false
+            },
+            {
+              "word": "table tennis",
+              "meaning": "n. 乒乓球运动",
+              "uncertain": false
+            },
+            {
+              "word": "match",
+              "meaning": "n. 比赛;竞赛 v. 找相称的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "dad",
+              "meaning": "n. 爸爸",
+              "uncertain": false
+            },
+            {
+              "word": "exam",
+              "meaning": "n. 检查,检验;考试",
+              "uncertain": false
+            },
+            {
+              "word": "repair",
+              "meaning": "v. 修理",
+              "uncertain": false
+            },
+            {
+              "word": "voluntary",
+              "meaning": "adj. 无偿的,义务性的;自愿的,志愿的,主动的",
+              "uncertain": false
+            },
+            {
+              "word": "experience",
+              "meaning": "n. 经历;经验;体验 v. 经历;体验",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "v. 忘了带,丢下;离开;遗弃",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "n. 钥匙;关键 adj. 最重要的;关键的",
+              "uncertain": false
+            },
+            {
+              "word": "daughter",
+              "meaning": "n. 女儿",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "v. 丢失;输掉(比赛等)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pick",
+              "meaning": "v. 采,摘;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "host",
+              "meaning": "n. 主人;东道主",
+              "uncertain": false
+            },
+            {
+              "word": "title",
+              "meaning": "n. 标题,题目",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "adv. 以前",
+              "uncertain": false
+            },
+            {
+              "word": "crowded",
+              "meaning": "adj. 拥挤的",
+              "uncertain": false
+            },
+            {
+              "word": "meaningful",
+              "meaning": "adj. 重要的",
+              "uncertain": false
+            },
+            {
+              "word": "town",
+              "meaning": "n. 镇;集镇",
+              "uncertain": false
+            },
+            {
+              "word": "offer",
+              "meaning": "v. 主动提供,主动给予(某事物)",
+              "uncertain": false
+            },
+            {
+              "word": "Dr.",
+              "meaning": "abbr. 医生;博士",
+              "uncertain": false
+            },
+            {
+              "word": "chat",
+              "meaning": "v., n. 闲聊;聊天",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "adv. 在昨天",
+              "meaning": "n. 昨天",
+              "uncertain": false
+            },
+            {
+              "word": "tennis",
+              "meaning": "n. 网球",
+              "uncertain": false
+            },
+            {
+              "word": "table tennis",
+              "meaning": "n. 乒乓球运动",
+              "uncertain": false
+            },
+            {
+              "word": "match",
+              "meaning": "n. 比赛;竞赛 v. 找相称的人(或物)",
+              "uncertain": false
+            },
+            {
+              "word": "dad",
+              "meaning": "n. 爸爸",
+              "uncertain": false
+            },
+            {
+              "word": "exam",
+              "meaning": "n. 检查,检验;考试",
+              "uncertain": false
+            },
+            {
+              "word": "repair",
+              "meaning": "v. 修理",
+              "uncertain": false
+            },
+            {
+              "word": "voluntary",
+              "meaning": "adj. 无偿的,义务性的;自愿的,志愿的,主动的",
+              "uncertain": false
+            },
+            {
+              "word": "experience",
+              "meaning": "n. 经历;经验;体验 v. 经历;体验",
+              "uncertain": false
+            },
+            {
+              "word": "leave",
+              "meaning": "v. 忘了带,丢下;离开;遗弃",
+              "uncertain": false
+            },
+            {
+              "word": "key",
+              "meaning": "n. 钥匙;关键 adj. 最重要的;关键的",
+              "uncertain": false
+            },
+            {
+              "word": "daughter",
+              "meaning": "n. 女儿",
+              "uncertain": false
+            },
+            {
+              "word": "lose",
+              "meaning": "v. 丢失;输掉(比赛等)",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pick",
+              "meaning": "v. 采,摘;挑选",
+              "uncertain": false
+            },
+            {
+              "word": "host",
+              "meaning": "n. 主人;东道主",
+              "uncertain": false
+            },
+            {
+              "word": "title",
+              "meaning": "n. 标题,题目",
+              "uncertain": false
+            },
+            {
+              "word": "ago",
+              "meaning": "adv. 以前",
+              "uncertain": false
+            },
+            {
+              "word": "crowded",
+              "meaning": "adj. 拥挤的",
+              "uncertain": false
+            },
+            {
+              "word": "meaningful",
+              "meaning": "adj. 重要的",
+              "uncertain": false
+            },
+            {
+              "word": "town",
+              "meaning": "n. 镇;集镇",
+              "uncertain": false
+            },
+            {
+              "word": "offer",
+              "meaning": "v. 主动提供,主动给予(某事物)",
+              "uncertain": false
+            },
+            {
+              "word": "Dr.",
+              "meaning": "abbr. 医生;博士",
+              "uncertain": false
+            },
+            {
+              "word": "chat",
+              "meaning": "v., n. 闲聊;聊天",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

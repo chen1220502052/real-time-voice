@@ -1,0 +1,19 @@
+{
+  "source": "Original Kitty English sample; local synthetic speech",
+  "voice": "macOS Samantha; dialogue: Mia=Samantha, Leo=Daniel",
+  "rate": 145,
+  "clips": {
+    "visit": "visit grandparents. I usually visit my grandparents on Sundays.",
+    "badminton": "play badminton. I play badminton with my friends.",
+    "read": "read a book. I like to read a book in the park.",
+    "picnic": "have a picnic. We have a picnic on Saturday.",
+    "usually": "usually. I usually get up at seven.",
+    "because": "because. I like reading because it is fun.",
+    "question": "What do you do on weekends?",
+    "sentence-usually": "I usually play badminton on Saturdays.",
+    "sentence-because": "I like reading because it is fun.",
+    "dialogue": "Mia: What do you do on weekends, Leo?\nLeo: I usually play badminton on Saturday mornings.\nMia: That sounds fun! What about Sundays?\nLeo: I visit my grandparents on Sundays. We read books together.\nMia: I like reading too. This Saturday, I will have a picnic in the park.\nLeo: Great! What time?\nMia: At ten in the morning.",
+    "story": "My name is Mia. I usually read a book at home on Saturdays. This Saturday is different. My friend Leo and I will have a picnic in the park at ten in the morning. I will bring some sandwiches and apples. Leo will bring water and a badminton set. We want to play badminton before lunch. My little brother Ben will come too. He likes drawing, so he will bring his pencils. After lunch, we will read a story under a big tree. I like the park because it is quiet and green. A good weekend does not have to be busy. Sometimes, time with friends is enough.",
+    "speaking": "I usually play badminton with my friends on Saturdays. I like it because it is fun. What do you do on weekends?"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Execution": {
+    "Status": "Started",
+    "CurrentTasks": [],
+    "LoopMode": "Automatic",
+    "Parameters": "{\"role\": \"ecs-night-scheduler-role\"}",
+    "Description": "Daily 21:00 economical stop only, startup on demand",
+    "ResourceGroupId": "rg-acfmzx332ecn2pi",
+    "Mode": "Automatic",
+    "TemplateVersion": "v1",
+    "StartDate": "2026-10-26T03:17:43Z",
+    "SafetyCheck": "Skip",
+    "Outputs": "{}",
+    "RamRole": "ecs-night-scheduler-role",
+    "TemplateName": "ACS::1846927c646045a5adfd531ffe0f24a63540148a13fc8c25f5aada21a4142118",
+    "Counters": {
+      "Failed": 0,
+      "Total": 0,
+      "Success": 0
+    },
+    "ExecutedBy": "catvoicenlsrole(300614257268849940)",
+    "Tags": {},
+    "TemplateId": "t-cdd7ac0739624eecb97b",
+    "ExecutionId": "exec-0211776a5a84458ab11d"
+  },
+  "RequestId": "01A17636-C37B-3EAC-ACC6-EBC42D4F0B39"
+}

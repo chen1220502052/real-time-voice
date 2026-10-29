@@ -1,0 +1,425 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": "英语/科普版/7年级/上册_2024年8月第1版_完整教材/单词/完整教材词表原图/PDF页147.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "3b1ebffb1120930c6d556ec79980bfee6614e448307b1e7ae5d8ee4c79075f6c",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "thirteenth",
+              "meaning": "ordinal num. 第十三",
+              "uncertain": false
+            },
+            {
+              "word": "birthday",
+              "meaning": "n. 生日",
+              "uncertain": false
+            },
+            {
+              "word": "hundred",
+              "meaning": "num. 一百",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "ordinal num., det. 第二 n. 秒",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "ordinal num. 第三",
+              "uncertain": false
+            },
+            {
+              "word": "nine",
+              "meaning": "num. 九",
+              "uncertain": false
+            },
+            {
+              "word": "twelfth",
+              "meaning": "ordinal num. 第十二",
+              "uncertain": false
+            },
+            {
+              "word": "twentieth",
+              "meaning": "ordinal num. 第二十",
+              "uncertain": false
+            },
+            {
+              "word": "forty",
+              "meaning": "num. 四十",
+              "uncertain": false
+            },
+            {
+              "word": "fortieth",
+              "meaning": "ordinal num. 第四十",
+              "uncertain": false
+            },
+            {
+              "word": "fifty",
+              "meaning": "num. 五十",
+              "uncertain": false
+            },
+            {
+              "word": "ninety",
+              "meaning": "num. 九十",
+              "uncertain": false
+            },
+            {
+              "word": "fourth",
+              "meaning": "ordinal num. 第四",
+              "uncertain": false
+            },
+            {
+              "word": "themselves",
+              "meaning": "pron. 他们自己；她们自己；它们自己",
+              "uncertain": false
+            },
+            {
+              "word": "hang",
+              "meaning": "v. 悬挂；吊",
+              "uncertain": false
+            },
+            {
+              "word": "date",
+              "meaning": "n. 日期",
+              "uncertain": false
+            },
+            {
+              "word": "October",
+              "meaning": "n. 十月",
+              "uncertain": false
+            },
+            {
+              "word": "square",
+              "meaning": "n. 广场；正方形 adj. 正方形的",
+              "uncertain": false
+            },
+            {
+              "word": "street",
+              "meaning": "n. 街道",
+              "uncertain": false
+            },
+            {
+              "word": "prepare",
+              "meaning": "v. 使做好 准备；做(饭)",
+              "uncertain": false
+            },
+            {
+              "word": "guess",
+              "meaning": "v. 猜测；猜到；以为",
+              "uncertain": false
+            },
+            {
+              "word": "riddle",
+              "meaning": "n. 谜；谜语",
+              "uncertain": false
+            },
+            {
+              "word": "lastly",
+              "meaning": "adv. 最后一点；最后",
+              "uncertain": false
+            },
+            {
+              "word": "poster",
+              "meaning": "n. 海报；招贴画",
+              "uncertain": false
+            },
+            {
+              "word": "traditional",
+              "meaning": "adj. 传统的",
+              "uncertain": false
+            },
+            {
+              "word": "February",
+              "meaning": "n. 二月",
+              "uncertain": false
+            },
+            {
+              "word": "March",
+              "meaning": "n. 三月",
+              "uncertain": false
+            },
+            {
+              "word": "republic",
+              "meaning": "n. 共和国",
+              "uncertain": false
+            },
+            {
+              "word": "Sunday",
+              "meaning": "n. 星期日",
+              "uncertain": false
+            },
+            {
+              "word": "cake",
+              "meaning": "n. 糕饼；蛋糕",
+              "uncertain": false
+            },
+            {
+              "word": "calendar",
+              "meaning": "n. 日历",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "adj. 精彩的；绝妙的",
+              "uncertain": false
+            },
+            {
+              "word": "December",
+              "meaning": "n. 十二月",
+              "uncertain": false
+            },
+            {
+              "word": "midnight",
+              "meaning": "n. 午夜",
+              "uncertain": false
+            },
+            {
+              "word": "bell",
+              "meaning": "n. 钟(声)；铃(声)",
+              "uncertain": false
+            },
+            {
+              "word": "ring",
+              "meaning": "v. (使)发出钟声 n. 钟声；指环",
+              "uncertain": false
+            },
+            {
+              "word": "say",
+              "meaning": "v. 说；指示",
+              "uncertain": false
+            },
+            {
+              "word": "luck",
+              "meaning": "n. 运气；好运",
+              "uncertain": false
+            },
+            {
+              "word": "idea",
+              "meaning": "n. 想法；主意",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "thirteenth",
+              "meaning": "ordinal num. 第十三",
+              "uncertain": false
+            },
+            {
+              "word": "birthday",
+              "meaning": "n. 生日",
+              "uncertain": false
+            },
+            {
+              "word": "hundred",
+              "meaning": "num. 一百",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "ordinal num., det. 第二 n. 秒",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "ordinal num. 第三",
+              "uncertain": false
+            },
+            {
+              "word": "nine",
+              "meaning": "num. 九",
+              "uncertain": false
+            },
+            {
+              "word": "twelfth",
+              "meaning": "ordinal num. 第十二",
+              "uncertain": false
+            },
+            {
+              "word": "twentieth",
+              "meaning": "ordinal num. 第二十",
+              "uncertain": false
+            },
+            {
+              "word": "forty",
+              "meaning": "num. 四十",
+              "uncertain": false
+            },
+            {
+              "word": "fortieth",
+              "meaning": "ordinal num. 第四十",
+              "uncertain": false
+            },
+            {
+              "word": "fifty",
+              "meaning": "num. 五十",
+              "uncertain": false
+            },
+            {
+              "word": "ninety",
+              "meaning": "num. 九十",
+              "uncertain": false
+            },
+            {
+              "word": "fourth",
+              "meaning": "ordinal num. 第四",
+              "uncertain": false
+            },
+            {
+              "word": "themselves",
+              "meaning": "pron. 他们自己；她们自己；它们自己",
+              "uncertain": false
+            },
+            {
+              "word": "hang",
+              "meaning": "v. 悬挂；吊",
+              "uncertain": false
+            },
+            {
+              "word": "date",
+              "meaning": "n. 日期",
+              "uncertain": false
+            },
+            {
+              "word": "October",
+              "meaning": "n. 十月",
+              "uncertain": false
+            },
+            {
+              "word": "square",
+              "meaning": "n. 广场；正方形 adj. 正方形的",
+              "uncertain": false
+            },
+            {
+              "word": "street",
+              "meaning": "n. 街道",
+              "uncertain": false
+            },
+            {
+              "word": "prepare",
+              "meaning": "v. 使做好 准备；做(饭)",
+              "uncertain": false
+            },
+            {
+              "word": "guess",
+              "meaning": "v. 猜测；猜到；以为",
+              "uncertain": false
+            },
+            {
+              "word": "riddle",
+              "meaning": "n. 谜；谜语",
+              "uncertain": false
+            },
+            {
+              "word": "lastly",
+              "meaning": "adv. 最后一点；最后",
+              "uncertain": false
+            },
+            {
+              "word": "poster",
+              "meaning": "n. 海报；招贴画",
+              "uncertain": false
+            },
+            {
+              "word": "traditional",
+              "meaning": "adj. 传统的",
+              "uncertain": false
+            },
+            {
+              "word": "February",
+              "meaning": "n. 二月",
+              "uncertain": false
+            },
+            {
+              "word": "March",
+              "meaning": "n. 三月",
+              "uncertain": false
+            },
+            {
+              "word": "republic",
+              "meaning": "n. 共和国",
+              "uncertain": false
+            },
+            {
+              "word": "Sunday",
+              "meaning": "n. 星期日",
+              "uncertain": false
+            },
+            {
+              "word": "cake",
+              "meaning": "n. 糕饼；蛋糕",
+              "uncertain": false
+            },
+            {
+              "word": "calendar",
+              "meaning": "n. 日历",
+              "uncertain": false
+            },
+            {
+              "word": "wonderful",
+              "meaning": "adj. 精彩的；绝妙的",
+              "uncertain": false
+            },
+            {
+              "word": "December",
+              "meaning": "n. 十二月",
+              "uncertain": false
+            },
+            {
+              "word": "midnight",
+              "meaning": "n. 午夜",
+              "uncertain": false
+            },
+            {
+              "word": "bell",
+              "meaning": "n. 钟(声)；铃(声)",
+              "uncertain": false
+            },
+            {
+              "word": "ring",
+              "meaning": "v. (使)发出钟声 n. 钟声；指环",
+              "uncertain": false
+            },
+            {
+              "word": "say",
+              "meaning": "v. 说；指示",
+              "uncertain": false
+            },
+            {
+              "word": "luck",
+              "meaning": "n. 运气；好运",
+              "uncertain": false
+            },
+            {
+              "word": "idea",
+              "meaning": "n. 想法；主意",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

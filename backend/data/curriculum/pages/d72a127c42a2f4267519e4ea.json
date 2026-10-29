@@ -1,0 +1,117 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/08_08_教材页面_a7e546a195.png",
+  "units": [
+    8
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "d72a127c42a2f4267519e4ea8d43cf73729254b5bbc50d5ff906e198199aa332",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "garden",
+              "meaning": "花园",
+              "uncertain": false
+            },
+            {
+              "word": "leaf",
+              "meaning": "树叶",
+              "uncertain": false
+            },
+            {
+              "word": "bamboo",
+              "meaning": "竹子",
+              "uncertain": false
+            },
+            {
+              "word": "cucumber",
+              "meaning": "黄瓜",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "生病的",
+              "uncertain": false
+            },
+            {
+              "word": "little",
+              "meaning": "小的，可爱的",
+              "uncertain": false
+            },
+            {
+              "word": "ink",
+              "meaning": "墨水",
+              "uncertain": false
+            },
+            {
+              "word": "lamp",
+              "meaning": "灯",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "garden",
+              "meaning": "花园",
+              "uncertain": false
+            },
+            {
+              "word": "leaf",
+              "meaning": "树叶",
+              "uncertain": false
+            },
+            {
+              "word": "bamboo",
+              "meaning": "竹子",
+              "uncertain": false
+            },
+            {
+              "word": "cucumber",
+              "meaning": "黄瓜",
+              "uncertain": false
+            },
+            {
+              "word": "sick",
+              "meaning": "生病的",
+              "uncertain": false
+            },
+            {
+              "word": "little",
+              "meaning": "小的，可爱的",
+              "uncertain": false
+            },
+            {
+              "word": "ink",
+              "meaning": "墨水",
+              "uncertain": false
+            },
+            {
+              "word": "lamp",
+              "meaning": "灯",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

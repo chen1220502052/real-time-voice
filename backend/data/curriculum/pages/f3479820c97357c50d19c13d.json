@@ -1,0 +1,117 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/07_09_教材页面_6e1693a47d.jpg",
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "f3479820c97357c50d19c13d3168ffc5a7ac59d59a969a50148aa7fa7cd46a0f",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "visit",
+              "meaning": "拜访",
+              "uncertain": false
+            },
+            {
+              "word": "star",
+              "meaning": "明星，星星",
+              "uncertain": false
+            },
+            {
+              "word": "middle",
+              "meaning": "中间",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "许多",
+              "uncertain": false
+            },
+            {
+              "word": "join",
+              "meaning": "加入",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "土壤",
+              "uncertain": false
+            },
+            {
+              "word": "coin",
+              "meaning": "硬币",
+              "uncertain": false
+            },
+            {
+              "word": "point",
+              "meaning": "指；得分",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "visit",
+              "meaning": "拜访",
+              "uncertain": false
+            },
+            {
+              "word": "star",
+              "meaning": "明星，星星",
+              "uncertain": false
+            },
+            {
+              "word": "middle",
+              "meaning": "中间",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "许多",
+              "uncertain": false
+            },
+            {
+              "word": "join",
+              "meaning": "加入",
+              "uncertain": false
+            },
+            {
+              "word": "soil",
+              "meaning": "土壤",
+              "uncertain": false
+            },
+            {
+              "word": "coin",
+              "meaning": "硬币",
+              "uncertain": false
+            },
+            {
+              "word": "point",
+              "meaning": "指；得分",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

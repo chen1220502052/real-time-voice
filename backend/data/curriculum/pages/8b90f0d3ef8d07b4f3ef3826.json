@@ -1,0 +1,107 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/09_11_教材页面_6424818922.jpg",
+  "units": [
+    8
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "8b90f0d3ef8d07b4f3ef382682995d0df3028695a0061d548eb426ec02677c8b",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "sport",
+              "meaning": "运动",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "排球运动，排球",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "篮球运动，篮球",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "羽毛球运动，羽毛球",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "足球运动，足球",
+              "uncertain": false
+            },
+            {
+              "word": "him",
+              "meaning": "他(宾格)",
+              "uncertain": false
+            },
+            {
+              "word": "us",
+              "meaning": "我们(宾格)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "sport",
+              "meaning": "运动",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "排球运动，排球",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "篮球运动，篮球",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "羽毛球运动，羽毛球",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "足球运动，足球",
+              "uncertain": false
+            },
+            {
+              "word": "him",
+              "meaning": "他(宾格)",
+              "uncertain": false
+            },
+            {
+              "word": "us",
+              "meaning": "我们(宾格)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

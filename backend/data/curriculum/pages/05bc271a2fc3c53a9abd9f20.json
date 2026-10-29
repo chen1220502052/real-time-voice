@@ -1,0 +1,157 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/11_13_教材页面_c2a9fdc7b1.jpg",
+  "units": [
+    10
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "05bc271a2fc3c53a9abd9f20f5563f44ffcf87d619fea25fa7c6e142ced2aa89",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "close",
+              "meaning": "关，关闭；接近",
+              "uncertain": false
+            },
+            {
+              "word": "door",
+              "meaning": "门",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "窗户",
+              "uncertain": false
+            },
+            {
+              "word": "rule",
+              "meaning": "规则",
+              "uncertain": false
+            },
+            {
+              "word": "clean",
+              "meaning": "打扫；清洁的",
+              "uncertain": false
+            },
+            {
+              "word": "blackboard",
+              "meaning": "黑板",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "在……之后",
+              "uncertain": false
+            },
+            {
+              "word": "quiet",
+              "meaning": "安静的",
+              "uncertain": false
+            },
+            {
+              "word": "stand",
+              "meaning": "站立",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "起来",
+              "uncertain": false
+            },
+            {
+              "word": "down",
+              "meaning": "向下；沿着",
+              "uncertain": false
+            },
+            {
+              "word": "ride",
+              "meaning": "骑",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "close",
+              "meaning": "关，关闭；接近",
+              "uncertain": false
+            },
+            {
+              "word": "door",
+              "meaning": "门",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "窗户",
+              "uncertain": false
+            },
+            {
+              "word": "rule",
+              "meaning": "规则",
+              "uncertain": false
+            },
+            {
+              "word": "clean",
+              "meaning": "打扫；清洁的",
+              "uncertain": false
+            },
+            {
+              "word": "blackboard",
+              "meaning": "黑板",
+              "uncertain": false
+            },
+            {
+              "word": "after",
+              "meaning": "在……之后",
+              "uncertain": false
+            },
+            {
+              "word": "quiet",
+              "meaning": "安静的",
+              "uncertain": false
+            },
+            {
+              "word": "stand",
+              "meaning": "站立",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "起来",
+              "uncertain": false
+            },
+            {
+              "word": "down",
+              "meaning": "向下；沿着",
+              "uncertain": false
+            },
+            {
+              "word": "ride",
+              "meaning": "骑",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

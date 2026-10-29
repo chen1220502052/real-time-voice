@@ -1,0 +1,505 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页151.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "c4a8127d37be7ee50a95817aa0f551972728d8815d78d0fa4fe3c39720aa5754",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "above",
+              "meaning": "在(或向)上面 prep. 在……上面",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "v. 接受",
+              "uncertain": false
+            },
+            {
+              "word": "add",
+              "meaning": "v. 增加,添加",
+              "uncertain": false
+            },
+            {
+              "word": "address",
+              "meaning": "n. 住址,地址",
+              "uncertain": false
+            },
+            {
+              "word": "advantage",
+              "meaning": "n. 优点;优势",
+              "uncertain": false
+            },
+            {
+              "word": "affect",
+              "meaning": "v. 影响",
+              "uncertain": false
+            },
+            {
+              "word": "afford",
+              "meaning": "v. 买得起;能做",
+              "uncertain": false
+            },
+            {
+              "word": "African",
+              "meaning": "adj. 非洲的 n. 非洲人",
+              "uncertain": false
+            },
+            {
+              "word": "air conditioner",
+              "meaning": "n. 空调",
+              "uncertain": false
+            },
+            {
+              "word": "airline",
+              "meaning": "n. 航空公司",
+              "uncertain": false
+            },
+            {
+              "word": "airport",
+              "meaning": "n. 航空站,飞机场",
+              "uncertain": false
+            },
+            {
+              "word": "almost",
+              "meaning": "adv. 几乎,差不多",
+              "uncertain": false
+            },
+            {
+              "word": "altitude",
+              "meaning": "n. 海拔",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "prep. 在……中",
+              "uncertain": false
+            },
+            {
+              "word": "announce",
+              "meaning": "v. 宣布,宣告;通知",
+              "uncertain": false
+            },
+            {
+              "word": "anyone",
+              "meaning": "pron. 任何人",
+              "uncertain": false
+            },
+            {
+              "word": "anyway",
+              "meaning": "adv. 尽管,即使这样",
+              "uncertain": false
+            },
+            {
+              "word": "anywhere",
+              "meaning": "adv. 任何地方",
+              "uncertain": false
+            },
+            {
+              "word": "as a result",
+              "meaning": "(作为)结果",
+              "uncertain": false
+            },
+            {
+              "word": "Asia",
+              "meaning": "n. 亚洲",
+              "uncertain": false
+            },
+            {
+              "word": "Asian",
+              "meaning": "adj. 亚洲的,亚洲人的 n. 亚洲人",
+              "uncertain": false
+            },
+            {
+              "word": "as soon as",
+              "meaning": "一……就……",
+              "uncertain": false
+            },
+            {
+              "word": "as usual",
+              "meaning": "像往常一样",
+              "uncertain": false
+            },
+            {
+              "word": "as well as",
+              "meaning": "除……之外;也;还",
+              "uncertain": false
+            },
+            {
+              "word": "attendant",
+              "meaning": "n. 服务员,侍者",
+              "uncertain": false
+            },
+            {
+              "word": "attractive",
+              "meaning": "adj. 迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "bean",
+              "meaning": "n. 豆",
+              "uncertain": false
+            },
+            {
+              "word": "beautifully",
+              "meaning": "adv. 漂亮地,美好地",
+              "uncertain": false
+            },
+            {
+              "word": "beer",
+              "meaning": "n. 啤酒",
+              "uncertain": false
+            },
+            {
+              "word": "be full of",
+              "meaning": "满的,充满的,满是……的",
+              "uncertain": false
+            },
+            {
+              "word": "be in trouble",
+              "meaning": "有麻烦,处于困境",
+              "uncertain": false
+            },
+            {
+              "word": "be proud of",
+              "meaning": "骄傲,自豪",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "prep. 在……旁边",
+              "uncertain": false
+            },
+            {
+              "word": "be strict with",
+              "meaning": "对……严格要求",
+              "uncertain": false
+            },
+            {
+              "word": "bicycle",
+              "meaning": "n. 自行车",
+              "uncertain": false
+            },
+            {
+              "word": "bill",
+              "meaning": "n. 账单;(美)钞票,纸币",
+              "uncertain": false
+            },
+            {
+              "word": "birthplace",
+              "meaning": "n. (尤指名人的)出生时的住宅,出生地",
+              "uncertain": false
+            },
+            {
+              "word": "blind",
+              "meaning": "adj. 瞎的,失明的",
+              "uncertain": false
+            },
+            {
+              "word": "blouse",
+              "meaning": "n. (妇女穿的)短上衣,衬衫",
+              "uncertain": false
+            },
+            {
+              "word": "boot",
+              "meaning": "n. 长筒靴,靴",
+              "uncertain": false
+            },
+            {
+              "word": "boss",
+              "meaning": "n. 老板;领班",
+              "uncertain": false
+            },
+            {
+              "word": "bowl",
+              "meaning": "n. 碗,盒",
+              "uncertain": false
+            },
+            {
+              "word": "broad",
+              "meaning": "adj. 宽阔的,广阔的;广泛的",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "adj. 破损的;伤残的;残缺的;出了毛病的",
+              "uncertain": false
+            },
+            {
+              "word": "business",
+              "meaning": "n. 生意;公事;职责",
+              "uncertain": false
+            },
+            {
+              "word": "butter",
+              "meaning": "n. 黄油,奶油",
+              "uncertain": false
+            },
+            {
+              "word": "by the way",
+              "meaning": "顺便提一下;捎带说一声",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "above",
+              "meaning": "adv. 在(或向)上面 prep. 在……上面",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "v. 接受",
+              "uncertain": false
+            },
+            {
+              "word": "add",
+              "meaning": "v. 增加,添加",
+              "uncertain": false
+            },
+            {
+              "word": "address",
+              "meaning": "n. 住址,地址",
+              "uncertain": false
+            },
+            {
+              "word": "advantage",
+              "meaning": "n. 优点;优势",
+              "uncertain": false
+            },
+            {
+              "word": "affect",
+              "meaning": "v. 影响",
+              "uncertain": false
+            },
+            {
+              "word": "afford",
+              "meaning": "v. 买得起;能做",
+              "uncertain": false
+            },
+            {
+              "word": "African",
+              "meaning": "adj. 非洲的 n. 非洲人",
+              "uncertain": false
+            },
+            {
+              "word": "air conditioner",
+              "meaning": "n. 空调",
+              "uncertain": false
+            },
+            {
+              "word": "airline",
+              "meaning": "n. 航空公司",
+              "uncertain": false
+            },
+            {
+              "word": "airport",
+              "meaning": "n. 航空站,飞机场",
+              "uncertain": false
+            },
+            {
+              "word": "almost",
+              "meaning": "adv. 几乎,差不多",
+              "uncertain": false
+            },
+            {
+              "word": "altitude",
+              "meaning": "n. 海拔",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "prep. 在……中",
+              "uncertain": false
+            },
+            {
+              "word": "announce",
+              "meaning": "v. 宣布,宣告;通知",
+              "uncertain": false
+            },
+            {
+              "word": "anyone",
+              "meaning": "pron. 任何人",
+              "uncertain": false
+            },
+            {
+              "word": "anyway",
+              "meaning": "adv. 尽管,即使这样",
+              "uncertain": false
+            },
+            {
+              "word": "anywhere",
+              "meaning": "adv. 任何地方",
+              "uncertain": false
+            },
+            {
+              "word": "as a result",
+              "meaning": "(作为)结果",
+              "uncertain": false
+            },
+            {
+              "word": "Asia",
+              "meaning": "n. 亚洲",
+              "uncertain": false
+            },
+            {
+              "word": "Asian",
+              "meaning": "adj. 亚洲的,亚洲人的 n. 亚洲人",
+              "uncertain": false
+            },
+            {
+              "word": "as soon as",
+              "meaning": "一……就……",
+              "uncertain": false
+            },
+            {
+              "word": "as usual",
+              "meaning": "像往常一样",
+              "uncertain": false
+            },
+            {
+              "word": "as well as",
+              "meaning": "除……之外;也;还",
+              "uncertain": false
+            },
+            {
+              "word": "attendant",
+              "meaning": "n. 服务员,侍者",
+              "uncertain": false
+            },
+            {
+              "word": "attractive",
+              "meaning": "adj. 迷人的",
+              "uncertain": false
+            },
+            {
+              "word": "bean",
+              "meaning": "n. 豆",
+              "uncertain": false
+            },
+            {
+              "word": "beautifully",
+              "meaning": "adv. 漂亮地,美好地",
+              "uncertain": false
+            },
+            {
+              "word": "beer",
+              "meaning": "n. 啤酒",
+              "uncertain": false
+            },
+            {
+              "word": "be full of",
+              "meaning": "满的,充满的,满是……的",
+              "uncertain": false
+            },
+            {
+              "word": "be in trouble",
+              "meaning": "有麻烦,处于困境",
+              "uncertain": false
+            },
+            {
+              "word": "be proud of",
+              "meaning": "骄傲,自豪",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "prep. 在……旁边",
+              "uncertain": false
+            },
+            {
+              "word": "be strict with",
+              "meaning": "对……严格要求",
+              "uncertain": false
+            },
+            {
+              "word": "bicycle",
+              "meaning": "n. 自行车",
+              "uncertain": false
+            },
+            {
+              "word": "bill",
+              "meaning": "n. 账单;(美)钞票,纸币",
+              "uncertain": false
+            },
+            {
+              "word": "birthplace",
+              "meaning": "n. (尤指名人的)出生时的住宅,出生地",
+              "uncertain": false
+            },
+            {
+              "word": "blind",
+              "meaning": "adj. 瞎的,失明的",
+              "uncertain": false
+            },
+            {
+              "word": "blouse",
+              "meaning": "n. (妇女穿的)短上衣,衬衫",
+              "uncertain": false
+            },
+            {
+              "word": "boot",
+              "meaning": "n. 长筒靴,靴",
+              "uncertain": false
+            },
+            {
+              "word": "boss",
+              "meaning": "n. 老板;领班",
+              "uncertain": false
+            },
+            {
+              "word": "bowl",
+              "meaning": "n. 碗,盒",
+              "uncertain": false
+            },
+            {
+              "word": "broad",
+              "meaning": "adj. 宽阔的,广阔的;广泛的",
+              "uncertain": false
+            },
+            {
+              "word": "broken",
+              "meaning": "adj. 破损的;伤残的;残缺的;出了毛病的",
+              "uncertain": false
+            },
+            {
+              "word": "business",
+              "meaning": "n. 生意;公事;职责",
+              "uncertain": false
+            },
+            {
+              "word": "butter",
+              "meaning": "n. 黄油,奶油",
+              "uncertain": false
+            },
+            {
+              "word": "by the way",
+              "meaning": "顺便提一下;捎带说一声",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fffef9">
+  <title>猫猫英语 · 单元写作助理</title>
+  <script src="/account-context.js"></script><script src="/account.js"></script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/practice.css"><link rel="stylesheet" href="/theme.css?v=20261023-2">
+  <link rel="stylesheet" href="/writing.css">
+  <script src="/course-selection.js" defer></script><script src="/writing.js" defer></script>
+</head>
+<body class="writing-page">
+  <header class="topbar"><div class="brand"><span class="brand-mark"><img class="brand-mascot" src="/kitty.svg" alt=""></span><div><p class="eyebrow">KITTY ENGLISH · WRITING</p><h1>用学过的词，写自己的故事</h1></div></div><nav class="page-navigation" aria-label="页面导航"><a class="return-home" href="/">← 返回学习首页</a></nav></header>
+  <main class="practice-layout">
+    <section class="panel chapter-picker" aria-label="写作设置">
+      <h2>写作文</h2>
+      <form id="writingForm">
+        <fieldset id="writingFields" disabled>
+          <label>教材版本<select id="publisher"></select></label>
+          <label>年级<select id="grade"></select></label>
+          <label>册次与版次<select id="edition"></select></label>
+          <label>单元<select id="chapter"></select></label>
+          <label>写作要求<textarea id="instruction" rows="4" maxlength="2000" placeholder="请根据这个单元写一篇作文，讲讲我的一天。" required>请围绕当前单元主题，写一篇适合我阅读和仿写的英语作文。</textarea></label>
+          <label>目标词数<input id="wordCount" type="number" min="30" max="300" value="80" required></label>
+          <button id="generate" type="submit">生成范文</button>
+        </fieldset>
+      </form>
+    </section>
+    <section class="panel writing-output" aria-label="写作文与批改">
+      <h2 id="unitTitle">正在读取课程…</h2>
+      <section class="student-writing" aria-label="学生作文">
+        <h3>我的作文</h3>
+        <fieldset id="studentFields" disabled>
+          <label for="studentTitle">我的标题</label><input id="studentTitle" maxlength="160" placeholder="My School Life" lang="en">
+          <label for="studentEssay">我的作文</label><textarea id="studentEssay" rows="7" maxlength="6000" lang="en" placeholder="Write your story here…"></textarea>
+          <p id="draftStatus" class="muted" role="status">草稿自动保存</p>
+          <button id="reviewEssay" type="button">批改作文</button>
+        </fieldset>
+        <section id="reviewResult" hidden aria-label="作文点评"><h3>这次写得怎么样</h3><p id="reviewScore"></p><p id="reviewOverall"></p><div id="reviewDetails"></div></section>
+      </section>
+      <p id="writingStatus" role="status" aria-live="polite">正在读取教材目录…</p>
+      <article id="result" hidden>
+        <p id="originLabel" class="muted"></p>
+        <h2 id="essayTitle" lang="en"></h2><p id="essayBody" lang="en"></p>
+        <p id="modelSource" hidden></p>
+        <button id="copyEssay" type="button">复制作文</button>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

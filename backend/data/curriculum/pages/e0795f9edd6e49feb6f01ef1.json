@@ -1,0 +1,96 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 1,
+  "units": [
+    1
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/106/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 1 Healthy eating and drinking/课文/02_教材页面_bcb934ef05.jpg",
+  "sha256": "e0795f9edd6e49feb6f01ef1058f1e26c53a2d7ebfe4cf2d2920327b812da17a",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Dad",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Thank you, Dad.",
+        "Some ... for you."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Dad",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Some",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "for",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Thank you, Dad.",
+        "Some ... for you."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

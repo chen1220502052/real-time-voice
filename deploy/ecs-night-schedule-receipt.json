@@ -1,0 +1,88 @@
+{
+  "Execution": {
+    "Status": "Started",
+    "CurrentTasks": [],
+    "LoopMode": "Automatic",
+    "Parameters": "{\"regionId\": \"cn-hongkong\", \"targets\": {\"Type\": \"ResourceIds\", \"ResourceIds\": [\"i-j6ci77fwjtiopeqqxctu\"], \"RegionId\": \"cn-hongkong\"}, \"startFirstOrStopFirst\": \"StopFirst\", \"dailyStopTime\": \"13:00:00Z\", \"dailyStartTime\": \"01:00:00Z\", \"weekdays\": \"*\", \"stoppedMode\": \"StopCharging\", \"OOSAssumeRole\": \"ecs-night-scheduler-role\", \"rateControl\": {\"Mode\": \"Concurrency\", \"MaxErrors\": 0, \"Concurrency\": 1}}",
+    "Description": "Daily 21:00 StopCharging, next day 09:00 start, Asia/Shanghai, including weekends",
+    "ResourceGroupId": "rg-acfmzx332ecn2pi",
+    "Mode": "Automatic",
+    "TemplateVersion": "v9",
+    "StartDate": "2026-10-22T05:48:16Z",
+    "SafetyCheck": "Skip",
+    "Outputs": "{}",
+    "RamRole": "ecs-night-scheduler-role",
+    "TemplateName": "ACS-ECS-ScheduleToStartAndStopOrStopAndStartInstances",
+    "Counters": {
+      "Failed": 0,
+      "Total": 0,
+      "Success": 0
+    },
+    "ExecutedBy": "catvoicenlsrole(300614257268849940)",
+    "Tags": {},
+    "TemplateId": "t-32575ed7ad66451ab3fc",
+    "ExecutionId": "exec-3f406ef813bb47f08d8f"
+  },
+  "RequestId": "01A16227-2AD5-3B7D-83D2-39C3DC72A10E",
+  "VerifiedExecution": {
+    "CurrentTasks": [
+      {
+        "TaskName": "timerTrigger",
+        "TaskAction": "ACS::TimerTrigger",
+        "TaskExecutionId": "exec-3f406ef813bb47f08d8f.t0001"
+      }
+    ],
+    "Description": "Daily 21:00 StopCharging, next day 09:00 start, Asia/Shanghai, including weekends",
+    "Category": "TimerTrigger",
+    "AccountId": "1614595363757373",
+    "ResourceGroupId": "rg-acfmzx332ecn2pi",
+    "TemplateVersion": "v9",
+    "CreateDate": "2026-10-22T05:48:17Z",
+    "StartDate": "2026-10-22T05:48:17Z",
+    "UpdateDate": "2026-10-22T05:48:17Z",
+    "LastTriggerTime": "2026-10-22T05:48:17Z",
+    "TemplateName": "ACS-ECS-ScheduleToStartAndStopOrStopAndStartInstances",
+    "ResourceStatus": "{}",
+    "Tags": {},
+    "ExecutedBy": "catvoicenlsrole(300614257268849940)",
+    "TemplateId": "t-32575ed7ad66451ab3fc",
+    "NextScheduleTime": "2026-10-22T13:00:00Z",
+    "Status": "Waiting",
+    "Parameters": {
+      "OOSAssumeRole": "ecs-night-scheduler-role",
+      "regionId": "cn-hongkong",
+      "weekdays": "*",
+      "dailyStopTime": "13:00:00Z",
+      "dailyStartTime": "01:00:00Z",
+      "rateControl": {
+        "MaxErrors": 0,
+        "Concurrency": 1,
+        "Mode": "Concurrency"
+      },
+      "startFirstOrStopFirst": "StopFirst",
+      "stoppedMode": "StopCharging",
+      "targets": {
+        "Type": "ResourceIds",
+        "ResourceIds": [
+          "i-j6ci77fwjtiopeqqxctu"
+        ],
+        "RegionId": "cn-hongkong"
+      }
+    },
+    "StatusReason": "TimerTrigger",
+    "IsParent": false,
+    "Mode": "Automatic",
+    "Targets": "{\"ResourceType\": \"ALIYUN::ECS::Instance\", \"Filters\": [{\"Type\": \"ResourceIds\", \"ApplicationName\": null, \"ApplicationGroupName\": null, \"ResourceIds\": [\"i-j6ci77fwjtiopeqqxctu\"], \"Tags\": null, \"ResourceGroupId\": null, \"RegionId\": \"cn-hongkong\", \"Parameters\": null, \"InventoryFilters\": null}], \"RegionId\": \"cn-hongkong\"}",
+    "LastTriggerOutputs": "{}",
+    "SafetyCheck": "Skip",
+    "Outputs": "{}",
+    "RamRole": "ecs-night-scheduler-role",
+    "Counters": {
+      "SuccessTasks": 0,
+      "FailedTasks": 0,
+      "TotalTasks": 8
+    },
+    "LastTriggerStatus": "Waiting",
+    "ExecutionId": "exec-3f406ef813bb47f08d8f"
+  }
+}

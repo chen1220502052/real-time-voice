@@ -1,0 +1,255 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/797eba7cdcb3397cbf1e44ae-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "951b4d4ce76c7901896a0bfcee4c11433deb999cbe333b6bf87057f0b7903388",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "fool",
+              "meaning": "n.蠢人 adj.傻的;愚蠢的",
+              "uncertain": false
+            },
+            {
+              "word": "regret",
+              "meaning": "v.感到遗憾;懊悔",
+              "uncertain": false
+            },
+            {
+              "word": "breath",
+              "meaning": "n.一次吸入的空气",
+              "uncertain": false
+            },
+            {
+              "word": "upset",
+              "meaning": "adj.难过;失望;沮丧 v.使烦恼;使生气",
+              "uncertain": false
+            },
+            {
+              "word": "nervous",
+              "meaning": "adj.焦虑的;担忧的",
+              "uncertain": false
+            },
+            {
+              "word": "sense",
+              "meaning": "v.感觉到;意识到;觉察出 n.感觉官能;意义,含义",
+              "uncertain": false
+            },
+            {
+              "word": "flu",
+              "meaning": "n.流感",
+              "uncertain": false
+            },
+            {
+              "word": "Chinatown",
+              "meaning": "n.唐人街",
+              "uncertain": false
+            },
+            {
+              "word": "firework",
+              "meaning": "n.烟火;烟花",
+              "uncertain": false
+            },
+            {
+              "word": "keeper",
+              "meaning": "n.保管人",
+              "uncertain": false
+            },
+            {
+              "word": "lonely",
+              "meaning": "adj.孤独的;寂寞的",
+              "uncertain": false
+            },
+            {
+              "word": "push",
+              "meaning": "v.推动;推进",
+              "uncertain": false
+            },
+            {
+              "word": "snake",
+              "meaning": "n.蛇",
+              "uncertain": false
+            },
+            {
+              "word": "miss",
+              "meaning": "v.错过;思念",
+              "uncertain": false
+            },
+            {
+              "word": "recommend",
+              "meaning": "v.推荐;举荐;介绍",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "laugh",
+              "meaning": "v.笑",
+              "uncertain": false
+            },
+            {
+              "word": "happily",
+              "meaning": "adv.快乐地;幸运地",
+              "uncertain": false
+            },
+            {
+              "word": "period",
+              "meaning": "n.一段时间;时期",
+              "uncertain": false
+            },
+            {
+              "word": "teenage",
+              "meaning": "adj.青少年的;十几岁的",
+              "uncertain": false
+            },
+            {
+              "word": "stage",
+              "meaning": "n.阶段;舞台",
+              "uncertain": false
+            },
+            {
+              "word": "purpose",
+              "meaning": "n.意图;目的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "fool",
+              "meaning": "n.蠢人 adj.傻的;愚蠢的",
+              "uncertain": false
+            },
+            {
+              "word": "regret",
+              "meaning": "v.感到遗憾;懊悔",
+              "uncertain": false
+            },
+            {
+              "word": "breath",
+              "meaning": "n.一次吸入的空气",
+              "uncertain": false
+            },
+            {
+              "word": "upset",
+              "meaning": "adj.难过;失望;沮丧 v.使烦恼;使生气",
+              "uncertain": false
+            },
+            {
+              "word": "nervous",
+              "meaning": "adj.焦虑的;担忧的",
+              "uncertain": false
+            },
+            {
+              "word": "sense",
+              "meaning": "v.感觉到;意识到;觉察出 n.感觉官能;意义,含义",
+              "uncertain": false
+            },
+            {
+              "word": "flu",
+              "meaning": "n.流感",
+              "uncertain": false
+            },
+            {
+              "word": "Chinatown",
+              "meaning": "n.唐人街",
+              "uncertain": false
+            },
+            {
+              "word": "firework",
+              "meaning": "n.烟火;烟花",
+              "uncertain": false
+            },
+            {
+              "word": "keeper",
+              "meaning": "n.保管人",
+              "uncertain": false
+            },
+            {
+              "word": "lonely",
+              "meaning": "adj.孤独的;寂寞的",
+              "uncertain": false
+            },
+            {
+              "word": "push",
+              "meaning": "v.推动;推进",
+              "uncertain": false
+            },
+            {
+              "word": "snake",
+              "meaning": "n.蛇",
+              "uncertain": false
+            },
+            {
+              "word": "miss",
+              "meaning": "v.错过;思念",
+              "uncertain": false
+            },
+            {
+              "word": "recommend",
+              "meaning": "v.推荐;举荐;介绍",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "laugh",
+              "meaning": "v.笑",
+              "uncertain": false
+            },
+            {
+              "word": "happily",
+              "meaning": "adv.快乐地;幸运地",
+              "uncertain": false
+            },
+            {
+              "word": "period",
+              "meaning": "n.一段时间;时期",
+              "uncertain": false
+            },
+            {
+              "word": "teenage",
+              "meaning": "adj.青少年的;十几岁的",
+              "uncertain": false
+            },
+            {
+              "word": "stage",
+              "meaning": "n.阶段;舞台",
+              "uncertain": false
+            },
+            {
+              "word": "purpose",
+              "meaning": "n.意图;目的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

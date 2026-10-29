@@ -1,0 +1,135 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/a2d58d2274a01ca0eef6eee5-right.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/93/detail/",
+  "sha256": "aedf2517ca6a2831283cf67703f222551fcaf31ca50fe5ced71587897dabdda9",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "if",
+              "meaning": "如果",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "holiday",
+              "meaning": "假日",
+              "uncertain": false
+            },
+            {
+              "word": "student",
+              "meaning": "学生",
+              "uncertain": false
+            },
+            {
+              "word": "travel",
+              "meaning": "旅行",
+              "uncertain": false
+            },
+            {
+              "word": "capital",
+              "meaning": "首都",
+              "uncertain": false
+            },
+            {
+              "word": "climb",
+              "meaning": "爬，攀登",
+              "uncertain": false
+            },
+            {
+              "word": "around",
+              "meaning": "在周围",
+              "uncertain": false
+            },
+            {
+              "word": "come to an end",
+              "meaning": "结束",
+              "uncertain": false
+            },
+            {
+              "word": "some day",
+              "meaning": "将来有一天",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "if",
+              "meaning": "如果",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "holiday",
+              "meaning": "假日",
+              "uncertain": false
+            },
+            {
+              "word": "student",
+              "meaning": "学生",
+              "uncertain": false
+            },
+            {
+              "word": "travel",
+              "meaning": "旅行",
+              "uncertain": false
+            },
+            {
+              "word": "capital",
+              "meaning": "首都",
+              "uncertain": false
+            },
+            {
+              "word": "climb",
+              "meaning": "爬，攀登",
+              "uncertain": false
+            },
+            {
+              "word": "around",
+              "meaning": "在周围",
+              "uncertain": false
+            },
+            {
+              "word": "come to an end",
+              "meaning": "结束",
+              "uncertain": false
+            },
+            {
+              "word": "some day",
+              "meaning": "将来有一天",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

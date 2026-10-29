@@ -1,0 +1,1380 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页147.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "f52d5a25270312f7579bee4bf47f0097e4df9245bb4de15e25b3da2ddb39dddb",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mention",
+              "meaning": "提到,说到",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "rocket",
+              "meaning": "火箭",
+              "uncertain": false
+            },
+            {
+              "word": "metal",
+              "meaning": "金属",
+              "uncertain": false
+            },
+            {
+              "word": "satellite",
+              "meaning": "卫星",
+              "uncertain": false
+            },
+            {
+              "word": "spaceship",
+              "meaning": "宇宙飞船",
+              "uncertain": false
+            },
+            {
+              "word": "lock",
+              "meaning": "(用锁)锁上,被锁住",
+              "uncertain": false
+            },
+            {
+              "word": "laptop",
+              "meaning": "手提电脑",
+              "uncertain": false
+            },
+            {
+              "word": "digital",
+              "meaning": "数码的,数字的",
+              "uncertain": false
+            },
+            {
+              "word": "bulb",
+              "meaning": "电灯泡",
+              "uncertain": false
+            },
+            {
+              "word": "airplane",
+              "meaning": "飞机",
+              "uncertain": false
+            },
+            {
+              "word": "hard-wearing",
+              "meaning": "耐磨的",
+              "uncertain": false
+            },
+            {
+              "word": "Korea",
+              "meaning": "朝鲜;韩国",
+              "uncertain": false
+            },
+            {
+              "word": "invention",
+              "meaning": "发明,创造",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "列清单,把……列表;名单;目录;清单",
+              "uncertain": false
+            },
+            {
+              "word": "crayon",
+              "meaning": "彩色铅笔(粉笔、蜡笔)等",
+              "uncertain": false
+            },
+            {
+              "word": "process",
+              "meaning": "步骤,过程;加工,处理",
+              "uncertain": false
+            },
+            {
+              "word": "thought",
+              "meaning": "想法,看法,主意",
+              "uncertain": false
+            },
+            {
+              "word": "silly",
+              "meaning": "愚蠢的,傻的",
+              "uncertain": false
+            },
+            {
+              "word": "brainstorm",
+              "meaning": "集思广益,动脑筋",
+              "uncertain": false
+            },
+            {
+              "word": "evaluate",
+              "meaning": "估值,评价,评估",
+              "uncertain": false
+            },
+            {
+              "word": "detailed",
+              "meaning": "详细的",
+              "uncertain": false
+            },
+            {
+              "word": "redesign",
+              "meaning": "重新设计",
+              "uncertain": false
+            },
+            {
+              "word": "imagination",
+              "meaning": "想象力;想象",
+              "uncertain": false
+            },
+            {
+              "word": "balloon",
+              "meaning": "气球;热气球",
+              "uncertain": false
+            },
+            {
+              "word": "gun",
+              "meaning": "枪,炮",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "机器人",
+              "uncertain": false
+            },
+            {
+              "word": "keyboard",
+              "meaning": "键盘",
+              "uncertain": false
+            },
+            {
+              "word": "explorer",
+              "meaning": "探险者,勘探者",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "标示;记号;符号;做记号,做标记",
+              "uncertain": false
+            },
+            {
+              "word": "system",
+              "meaning": "体系,方法,制度",
+              "uncertain": false
+            },
+            {
+              "word": "man-made",
+              "meaning": "人造的;非天然的",
+              "uncertain": false
+            },
+            {
+              "word": "disadvantage",
+              "meaning": "不利因素;障碍;不便之处",
+              "uncertain": false
+            },
+            {
+              "word": "display",
+              "meaning": "显示,显露;展示",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "屏幕;银幕",
+              "uncertain": false
+            },
+            {
+              "word": "alien",
+              "meaning": "外星人;陌生的;外国的;外星的",
+              "uncertain": false
+            },
+            {
+              "word": "outer space",
+              "meaning": "外层空间",
+              "uncertain": false
+            },
+            {
+              "word": "describe",
+              "meaning": "描述;形容;把……称为",
+              "uncertain": false
+            },
+            {
+              "word": "astronaut",
+              "meaning": "宇航员",
+              "uncertain": false
+            },
+            {
+              "word": "admire",
+              "meaning": "钦佩,羡慕",
+              "uncertain": false
+            },
+            {
+              "word": "master",
+              "meaning": "掌握,精通;主人",
+              "uncertain": false
+            },
+            {
+              "word": "dancer",
+              "meaning": "跳舞者,舞蹈演员",
+              "uncertain": false
+            },
+            {
+              "word": "realize",
+              "meaning": "意识到,领会;实现",
+              "uncertain": false
+            },
+            {
+              "word": "universe",
+              "meaning": "宇宙",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "太阳系",
+              "uncertain": false
+            },
+            {
+              "word": "Roman",
+              "meaning": "古罗马的,古罗马帝国的",
+              "uncertain": false
+            },
+            {
+              "word": "god",
+              "meaning": "上帝;神",
+              "uncertain": false
+            },
+            {
+              "word": "diameter",
+              "meaning": "直径",
+              "uncertain": false
+            },
+            {
+              "word": "storm",
+              "meaning": "风暴,暴(风)雨",
+              "uncertain": false
+            },
+            {
+              "word": "gravity",
+              "meaning": "重力;引力",
+              "uncertain": false
+            },
+            {
+              "word": "weigh",
+              "meaning": "重,有……重",
+              "uncertain": false
+            },
+            {
+              "word": "generally",
+              "meaning": "一般地,通常",
+              "uncertain": false
+            },
+            {
+              "word": "journey",
+              "meaning": "(尤指长途)旅行",
+              "uncertain": false
+            },
+            {
+              "word": "limit",
+              "meaning": "限制,限定;限度;限制",
+              "uncertain": false
+            },
+            {
+              "word": "excitement",
+              "meaning": "激动;令人激动的事",
+              "uncertain": false
+            },
+            {
+              "word": "launch",
+              "meaning": "发射;发起;发行",
+              "uncertain": false
+            },
+            {
+              "word": "beyond",
+              "meaning": "超出;除……之外",
+              "uncertain": false
+            },
+            {
+              "word": "prove",
+              "meaning": "证明,证实",
+              "uncertain": false
+            },
+            {
+              "word": "lunar probe",
+              "meaning": "月球探测器",
+              "uncertain": false
+            },
+            {
+              "word": "legend",
+              "meaning": "传说,传奇故事",
+              "uncertain": false
+            },
+            {
+              "word": "significance",
+              "meaning": "重要性,意义",
+              "uncertain": false
+            },
+            {
+              "word": "independently",
+              "meaning": "独立地,自主地",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mention",
+              "meaning": "提到,说到",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "rocket",
+              "meaning": "火箭",
+              "uncertain": false
+            },
+            {
+              "word": "metal",
+              "meaning": "金属",
+              "uncertain": false
+            },
+            {
+              "word": "satellite",
+              "meaning": "卫星",
+              "uncertain": false
+            },
+            {
+              "word": "spaceship",
+              "meaning": "宇宙飞船",
+              "uncertain": false
+            },
+            {
+              "word": "lock",
+              "meaning": "(用锁)锁上,被锁住",
+              "uncertain": false
+            },
+            {
+              "word": "laptop",
+              "meaning": "手提电脑",
+              "uncertain": false
+            },
+            {
+              "word": "digital",
+              "meaning": "数码的,数字的",
+              "uncertain": false
+            },
+            {
+              "word": "bulb",
+              "meaning": "电灯泡",
+              "uncertain": false
+            },
+            {
+              "word": "airplane",
+              "meaning": "飞机",
+              "uncertain": false
+            },
+            {
+              "word": "hard-wearing",
+              "meaning": "耐磨的",
+              "uncertain": false
+            },
+            {
+              "word": "Korea",
+              "meaning": "朝鲜;韩国",
+              "uncertain": false
+            },
+            {
+              "word": "invention",
+              "meaning": "发明,创造",
+              "uncertain": false
+            },
+            {
+              "word": "list",
+              "meaning": "列清单,把……列表;名单;目录;清单",
+              "uncertain": false
+            },
+            {
+              "word": "crayon",
+              "meaning": "彩色铅笔(粉笔、蜡笔)等",
+              "uncertain": false
+            },
+            {
+              "word": "process",
+              "meaning": "步骤,过程;加工,处理",
+              "uncertain": false
+            },
+            {
+              "word": "thought",
+              "meaning": "想法,看法,主意",
+              "uncertain": false
+            },
+            {
+              "word": "silly",
+              "meaning": "愚蠢的,傻的",
+              "uncertain": false
+            },
+            {
+              "word": "brainstorm",
+              "meaning": "集思广益,动脑筋",
+              "uncertain": false
+            },
+            {
+              "word": "evaluate",
+              "meaning": "估值,评价,评估",
+              "uncertain": false
+            },
+            {
+              "word": "detailed",
+              "meaning": "详细的",
+              "uncertain": false
+            },
+            {
+              "word": "redesign",
+              "meaning": "重新设计",
+              "uncertain": false
+            },
+            {
+              "word": "imagination",
+              "meaning": "想象力;想象",
+              "uncertain": false
+            },
+            {
+              "word": "balloon",
+              "meaning": "气球;热气球",
+              "uncertain": false
+            },
+            {
+              "word": "gun",
+              "meaning": "枪,炮",
+              "uncertain": false
+            },
+            {
+              "word": "robot",
+              "meaning": "机器人",
+              "uncertain": false
+            },
+            {
+              "word": "keyboard",
+              "meaning": "键盘",
+              "uncertain": false
+            },
+            {
+              "word": "explorer",
+              "meaning": "探险者,勘探者",
+              "uncertain": false
+            },
+            {
+              "word": "mark",
+              "meaning": "标示;记号;符号;做记号,做标记",
+              "uncertain": false
+            },
+            {
+              "word": "system",
+              "meaning": "体系,方法,制度",
+              "uncertain": false
+            },
+            {
+              "word": "man-made",
+              "meaning": "人造的;非天然的",
+              "uncertain": false
+            },
+            {
+              "word": "disadvantage",
+              "meaning": "不利因素;障碍;不便之处",
+              "uncertain": false
+            },
+            {
+              "word": "display",
+              "meaning": "显示,显露;展示",
+              "uncertain": false
+            },
+            {
+              "word": "screen",
+              "meaning": "屏幕;银幕",
+              "uncertain": false
+            },
+            {
+              "word": "alien",
+              "meaning": "外星人;陌生的;外国的;外星的",
+              "uncertain": false
+            },
+            {
+              "word": "outer space",
+              "meaning": "外层空间",
+              "uncertain": false
+            },
+            {
+              "word": "describe",
+              "meaning": "描述;形容;把……称为",
+              "uncertain": false
+            },
+            {
+              "word": "astronaut",
+              "meaning": "宇航员",
+              "uncertain": false
+            },
+            {
+              "word": "admire",
+              "meaning": "钦佩,羡慕",
+              "uncertain": false
+            },
+            {
+              "word": "master",
+              "meaning": "掌握,精通;主人",
+              "uncertain": false
+            },
+            {
+              "word": "dancer",
+              "meaning": "跳舞者,舞蹈演员",
+              "uncertain": false
+            },
+            {
+              "word": "realize",
+              "meaning": "意识到,领会;实现",
+              "uncertain": false
+            },
+            {
+              "word": "universe",
+              "meaning": "宇宙",
+              "uncertain": false
+            },
+            {
+              "word": "solar",
+              "meaning": "太阳系",
+              "uncertain": false
+            },
+            {
+              "word": "Roman",
+              "meaning": "古罗马的,古罗马帝国的",
+              "uncertain": false
+            },
+            {
+              "word": "god",
+              "meaning": "上帝;神",
+              "uncertain": false
+            },
+            {
+              "word": "diameter",
+              "meaning": "直径",
+              "uncertain": false
+            },
+            {
+              "word": "storm",
+              "meaning": "风暴,暴(风)雨",
+              "uncertain": false
+            },
+            {
+              "word": "gravity",
+              "meaning": "重力;引力",
+              "uncertain": false
+            },
+            {
+              "word": "weigh",
+              "meaning": "重,有……重",
+              "uncertain": false
+            },
+            {
+              "word": "generally",
+              "meaning": "一般地,通常",
+              "uncertain": false
+            },
+            {
+              "word": "journey",
+              "meaning": "(尤指长途)旅行",
+              "uncertain": false
+            },
+            {
+              "word": "limit",
+              "meaning": "限制,限定;限度;限制",
+              "uncertain": false
+            },
+            {
+              "word": "excitement",
+              "meaning": "激动;令人激动的事",
+              "uncertain": false
+            },
+            {
+              "word": "launch",
+              "meaning": "发射;发起;发行",
+              "uncertain": false
+            },
+            {
+              "word": "beyond",
+              "meaning": "超出;除……之外",
+              "uncertain": false
+            },
+            {
+              "word": "prove",
+              "meaning": "证明,证实",
+              "uncertain": false
+            },
+            {
+              "word": "lunar probe",
+              "meaning": "月球探测器",
+              "uncertain": false
+            },
+            {
+              "word": "legend",
+              "meaning": "传说,传奇故事",
+              "uncertain": false
+            },
+            {
+              "word": "significance",
+              "meaning": "重要性,意义",
+              "uncertain": false
+            },
+            {
+              "word": "independently",
+              "meaning": "独立地,自主地",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "25e0a02ea20758d77454c38ef95db5cab72fb4e9654cce4ada4949c698360049",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "mention",
+                  "meaning": "v.提到,说到",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 4,
+              "entries": [
+                {
+                  "word": "rocket",
+                  "meaning": "n.火箭",
+                  "uncertain": false
+                },
+                {
+                  "word": "metal",
+                  "meaning": "n.金属",
+                  "uncertain": false
+                },
+                {
+                  "word": "satellite",
+                  "meaning": "n.卫星",
+                  "uncertain": false
+                },
+                {
+                  "word": "spaceship",
+                  "meaning": "n.宇宙飞船",
+                  "uncertain": false
+                },
+                {
+                  "word": "lock",
+                  "meaning": "n.锁",
+                  "uncertain": false
+                },
+                {
+                  "word": "lock",
+                  "meaning": "v.(用锁)锁上,被锁住",
+                  "uncertain": false
+                },
+                {
+                  "word": "laptop",
+                  "meaning": "n.手提电脑",
+                  "uncertain": false
+                },
+                {
+                  "word": "digital",
+                  "meaning": "adj.数码的,数字的",
+                  "uncertain": false
+                },
+                {
+                  "word": "bulb",
+                  "meaning": "n.电灯泡",
+                  "uncertain": false
+                },
+                {
+                  "word": "airplane",
+                  "meaning": "n.飞机",
+                  "uncertain": false
+                },
+                {
+                  "word": "hard-wearing",
+                  "meaning": "adj.耐磨的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Korea",
+                  "meaning": "n.朝鲜;韩国",
+                  "uncertain": false
+                },
+                {
+                  "word": "invention",
+                  "meaning": "n.发明,创造",
+                  "uncertain": false
+                },
+                {
+                  "word": "list",
+                  "meaning": "v.列清单,把……列表",
+                  "uncertain": false
+                },
+                {
+                  "word": "list",
+                  "meaning": "n.名单;目录;清单",
+                  "uncertain": false
+                },
+                {
+                  "word": "crayon",
+                  "meaning": "n.彩色铅笔(粉笔、蜡笔)等",
+                  "uncertain": false
+                },
+                {
+                  "word": "process",
+                  "meaning": "n.步骤,过程",
+                  "uncertain": false
+                },
+                {
+                  "word": "process",
+                  "meaning": "v.加工,处理",
+                  "uncertain": false
+                },
+                {
+                  "word": "thought",
+                  "meaning": "n.想法,看法,主意",
+                  "uncertain": false
+                },
+                {
+                  "word": "silly",
+                  "meaning": "adj.愚蠢的,傻的",
+                  "uncertain": false
+                },
+                {
+                  "word": "brainstorm",
+                  "meaning": "v.集思广益,动脑筋",
+                  "uncertain": false
+                },
+                {
+                  "word": "evaluate",
+                  "meaning": "v.估值,评价,评估",
+                  "uncertain": false
+                },
+                {
+                  "word": "detailed",
+                  "meaning": "adj.详细的",
+                  "uncertain": false
+                },
+                {
+                  "word": "redesign",
+                  "meaning": "v.重新设计",
+                  "uncertain": false
+                },
+                {
+                  "word": "imagination",
+                  "meaning": "n.想象力;想象",
+                  "uncertain": false
+                },
+                {
+                  "word": "balloon",
+                  "meaning": "n.气球;热气球",
+                  "uncertain": false
+                },
+                {
+                  "word": "gun",
+                  "meaning": "n.枪,炮",
+                  "uncertain": false
+                },
+                {
+                  "word": "robot",
+                  "meaning": "n.机器人",
+                  "uncertain": false
+                },
+                {
+                  "word": "keyboard",
+                  "meaning": "n.键盘",
+                  "uncertain": false
+                },
+                {
+                  "word": "explorer",
+                  "meaning": "n.探险者,勘探者",
+                  "uncertain": false
+                },
+                {
+                  "word": "mark",
+                  "meaning": "n.标示;记号;符号",
+                  "uncertain": false
+                },
+                {
+                  "word": "mark",
+                  "meaning": "v.做记号,做标记",
+                  "uncertain": false
+                },
+                {
+                  "word": "system",
+                  "meaning": "n.体系,方法,制度",
+                  "uncertain": false
+                },
+                {
+                  "word": "man-made",
+                  "meaning": "adj.人造的;非天然的",
+                  "uncertain": false
+                },
+                {
+                  "word": "disadvantage",
+                  "meaning": "n.不利因素;障碍;不便之处",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "mention",
+                  "meaning": "v.提到,说到",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 4,
+              "entries": [
+                {
+                  "word": "rocket",
+                  "meaning": "n.火箭",
+                  "uncertain": false
+                },
+                {
+                  "word": "metal",
+                  "meaning": "n.金属",
+                  "uncertain": false
+                },
+                {
+                  "word": "satellite",
+                  "meaning": "n.卫星",
+                  "uncertain": false
+                },
+                {
+                  "word": "spaceship",
+                  "meaning": "n.宇宙飞船",
+                  "uncertain": false
+                },
+                {
+                  "word": "lock",
+                  "meaning": "n.锁",
+                  "uncertain": false
+                },
+                {
+                  "word": "lock",
+                  "meaning": "v.(用锁)锁上,被锁住",
+                  "uncertain": false
+                },
+                {
+                  "word": "laptop",
+                  "meaning": "n.手提电脑",
+                  "uncertain": false
+                },
+                {
+                  "word": "digital",
+                  "meaning": "adj.数码的,数字的",
+                  "uncertain": false
+                },
+                {
+                  "word": "bulb",
+                  "meaning": "n.电灯泡",
+                  "uncertain": false
+                },
+                {
+                  "word": "airplane",
+                  "meaning": "n.飞机",
+                  "uncertain": false
+                },
+                {
+                  "word": "hard-wearing",
+                  "meaning": "adj.耐磨的",
+                  "uncertain": false
+                },
+                {
+                  "word": "Korea",
+                  "meaning": "n.朝鲜;韩国",
+                  "uncertain": false
+                },
+                {
+                  "word": "invention",
+                  "meaning": "n.发明,创造",
+                  "uncertain": false
+                },
+                {
+                  "word": "list",
+                  "meaning": "v.列清单,把……列表",
+                  "uncertain": false
+                },
+                {
+                  "word": "list",
+                  "meaning": "n.名单;目录;清单",
+                  "uncertain": false
+                },
+                {
+                  "word": "crayon",
+                  "meaning": "n.彩色铅笔(粉笔、蜡笔)等",
+                  "uncertain": false
+                },
+                {
+                  "word": "process",
+                  "meaning": "n.步骤,过程",
+                  "uncertain": false
+                },
+                {
+                  "word": "process",
+                  "meaning": "v.加工,处理",
+                  "uncertain": false
+                },
+                {
+                  "word": "thought",
+                  "meaning": "n.想法,看法,主意",
+                  "uncertain": false
+                },
+                {
+                  "word": "silly",
+                  "meaning": "adj.愚蠢的,傻的",
+                  "uncertain": false
+                },
+                {
+                  "word": "brainstorm",
+                  "meaning": "v.集思广益,动脑筋",
+                  "uncertain": false
+                },
+                {
+                  "word": "evaluate",
+                  "meaning": "v.估值,评价,评估",
+                  "uncertain": false
+                },
+                {
+                  "word": "detailed",
+                  "meaning": "adj.详细的",
+                  "uncertain": false
+                },
+                {
+                  "word": "redesign",
+                  "meaning": "v.重新设计",
+                  "uncertain": false
+                },
+                {
+                  "word": "imagination",
+                  "meaning": "n.想象力;想象",
+                  "uncertain": false
+                },
+                {
+                  "word": "balloon",
+                  "meaning": "n.气球;热气球",
+                  "uncertain": false
+                },
+                {
+                  "word": "gun",
+                  "meaning": "n.枪,炮",
+                  "uncertain": false
+                },
+                {
+                  "word": "robot",
+                  "meaning": "n.机器人",
+                  "uncertain": false
+                },
+                {
+                  "word": "keyboard",
+                  "meaning": "n.键盘",
+                  "uncertain": false
+                },
+                {
+                  "word": "explorer",
+                  "meaning": "n.探险者,勘探者",
+                  "uncertain": false
+                },
+                {
+                  "word": "mark",
+                  "meaning": "n.标示;记号;符号",
+                  "uncertain": false
+                },
+                {
+                  "word": "mark",
+                  "meaning": "v.做记号,做标记",
+                  "uncertain": false
+                },
+                {
+                  "word": "system",
+                  "meaning": "n.体系,方法,制度",
+                  "uncertain": false
+                },
+                {
+                  "word": "man-made",
+                  "meaning": "adj.人造的;非天然的",
+                  "uncertain": false
+                },
+                {
+                  "word": "disadvantage",
+                  "meaning": "n.不利因素;障碍;不便之处",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "58ca1cb55af4a5ab5b0ef9bd81427c9846450631f42a28df312357e487b216b1",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "display",
+                  "meaning": "v. 显示，显露；展示",
+                  "uncertain": false
+                },
+                {
+                  "word": "screen",
+                  "meaning": "n. 屏幕；银幕",
+                  "uncertain": false
+                },
+                {
+                  "word": "alien",
+                  "meaning": "n. 外星人 adj. 陌生的；外国的；外星的",
+                  "uncertain": false
+                },
+                {
+                  "word": "outer space",
+                  "meaning": "外层空间",
+                  "uncertain": false
+                },
+                {
+                  "word": "describe",
+                  "meaning": "v. 描述；形容；把……称为",
+                  "uncertain": false
+                },
+                {
+                  "word": "astronaut",
+                  "meaning": "n. 宇航员",
+                  "uncertain": false
+                },
+                {
+                  "word": "admire",
+                  "meaning": "v. 钦佩，羡慕",
+                  "uncertain": false
+                },
+                {
+                  "word": "master",
+                  "meaning": "v. 掌握，精通 n. 主人",
+                  "uncertain": false
+                },
+                {
+                  "word": "dancer",
+                  "meaning": "n. 跳舞者，舞蹈演员",
+                  "uncertain": false
+                },
+                {
+                  "word": "realize",
+                  "meaning": "v. (realise BrE) 意识到，领会；实现",
+                  "uncertain": false
+                },
+                {
+                  "word": "universe",
+                  "meaning": "n. 宇宙",
+                  "uncertain": false
+                },
+                {
+                  "word": "solar",
+                  "meaning": "system 太阳系",
+                  "uncertain": false
+                },
+                {
+                  "word": "Roman",
+                  "meaning": "adj. 古罗马的，古罗马帝国的",
+                  "uncertain": false
+                },
+                {
+                  "word": "god",
+                  "meaning": "n. 上帝；神",
+                  "uncertain": false
+                },
+                {
+                  "word": "diameter",
+                  "meaning": "n. 直径",
+                  "uncertain": false
+                },
+                {
+                  "word": "storm",
+                  "meaning": "n. 风暴，暴(风)雨",
+                  "uncertain": false
+                },
+                {
+                  "word": "gravity",
+                  "meaning": "n. 重力；引力",
+                  "uncertain": false
+                },
+                {
+                  "word": "weigh",
+                  "meaning": "v. 重，有……重",
+                  "uncertain": false
+                },
+                {
+                  "word": "generally",
+                  "meaning": "adv. 一般地，通常",
+                  "uncertain": false
+                },
+                {
+                  "word": "journey",
+                  "meaning": "n. (尤指长途)旅行",
+                  "uncertain": false
+                },
+                {
+                  "word": "limit",
+                  "meaning": "v. 限制，限定 n. 限度；限制",
+                  "uncertain": false
+                },
+                {
+                  "word": "excitement",
+                  "meaning": "n. 激动；令人激动的事",
+                  "uncertain": false
+                },
+                {
+                  "word": "launch",
+                  "meaning": "v. 发射；发起；发行",
+                  "uncertain": false
+                },
+                {
+                  "word": "beyond",
+                  "meaning": "prep. 超出；除……之外",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "prove",
+                  "meaning": "v. 证明，证实",
+                  "uncertain": false
+                },
+                {
+                  "word": "lunar probe",
+                  "meaning": "月球探测器",
+                  "uncertain": false
+                },
+                {
+                  "word": "legend",
+                  "meaning": "n. 传说，传奇故事",
+                  "uncertain": false
+                },
+                {
+                  "word": "significance",
+                  "meaning": "n. 重要性，意义",
+                  "uncertain": false
+                },
+                {
+                  "word": "independently",
+                  "meaning": "adv. 独立地，自主地",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "display",
+                  "meaning": "v. 显示，显露；展示",
+                  "uncertain": false
+                },
+                {
+                  "word": "screen",
+                  "meaning": "n. 屏幕；银幕",
+                  "uncertain": false
+                },
+                {
+                  "word": "alien",
+                  "meaning": "n. 外星人 adj. 陌生的；外国的；外星的",
+                  "uncertain": false
+                },
+                {
+                  "word": "outer space",
+                  "meaning": "外层空间",
+                  "uncertain": false
+                },
+                {
+                  "word": "describe",
+                  "meaning": "v. 描述；形容；把……称为",
+                  "uncertain": false
+                },
+                {
+                  "word": "astronaut",
+                  "meaning": "n. 宇航员",
+                  "uncertain": false
+                },
+                {
+                  "word": "admire",
+                  "meaning": "v. 钦佩，羡慕",
+                  "uncertain": false
+                },
+                {
+                  "word": "master",
+                  "meaning": "v. 掌握，精通 n. 主人",
+                  "uncertain": false
+                },
+                {
+                  "word": "dancer",
+                  "meaning": "n. 跳舞者，舞蹈演员",
+                  "uncertain": false
+                },
+                {
+                  "word": "realize",
+                  "meaning": "v. (realise BrE) 意识到，领会；实现",
+                  "uncertain": false
+                },
+                {
+                  "word": "universe",
+                  "meaning": "n. 宇宙",
+                  "uncertain": false
+                },
+                {
+                  "word": "solar",
+                  "meaning": "system 太阳系",
+                  "uncertain": false
+                },
+                {
+                  "word": "Roman",
+                  "meaning": "adj. 古罗马的，古罗马帝国的",
+                  "uncertain": false
+                },
+                {
+                  "word": "god",
+                  "meaning": "n. 上帝；神",
+                  "uncertain": false
+                },
+                {
+                  "word": "diameter",
+                  "meaning": "n. 直径",
+                  "uncertain": false
+                },
+                {
+                  "word": "storm",
+                  "meaning": "n. 风暴，暴(风)雨",
+                  "uncertain": false
+                },
+                {
+                  "word": "gravity",
+                  "meaning": "n. 重力；引力",
+                  "uncertain": false
+                },
+                {
+                  "word": "weigh",
+                  "meaning": "v. 重，有……重",
+                  "uncertain": false
+                },
+                {
+                  "word": "generally",
+                  "meaning": "adv. 一般地，通常",
+                  "uncertain": false
+                },
+                {
+                  "word": "journey",
+                  "meaning": "n. (尤指长途)旅行",
+                  "uncertain": false
+                },
+                {
+                  "word": "limit",
+                  "meaning": "v. 限制，限定 n. 限度；限制",
+                  "uncertain": false
+                },
+                {
+                  "word": "excitement",
+                  "meaning": "n. 激动；令人激动的事",
+                  "uncertain": false
+                },
+                {
+                  "word": "launch",
+                  "meaning": "v. 发射；发起；发行",
+                  "uncertain": false
+                },
+                {
+                  "word": "beyond",
+                  "meaning": "prep. 超出；除……之外",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "prove",
+                  "meaning": "v. 证明，证实",
+                  "uncertain": false
+                },
+                {
+                  "word": "lunar probe",
+                  "meaning": "月球探测器",
+                  "uncertain": false
+                },
+                {
+                  "word": "legend",
+                  "meaning": "n. 传说，传奇故事",
+                  "uncertain": false
+                },
+                {
+                  "word": "significance",
+                  "meaning": "n. 重要性，意义",
+                  "uncertain": false
+                },
+                {
+                  "word": "independently",
+                  "meaning": "adv. 独立地，自主地",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

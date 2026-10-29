@@ -1,0 +1,770 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页141.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "21f9dd95afac791a0c6db59dd868175884a456b35abbe79a31a825419ffd9d28",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "increase",
+              "meaning": "v.(使)增加,(使)增大",
+              "uncertain": false
+            },
+            {
+              "word": "increase",
+              "meaning": "n.增加,增多,增大",
+              "uncertain": false
+            },
+            {
+              "word": "reach",
+              "meaning": "v.实现;达到;够得着;到达",
+              "uncertain": false
+            },
+            {
+              "word": "policy",
+              "meaning": "n.政策,方针",
+              "uncertain": false
+            },
+            {
+              "word": "create",
+              "meaning": "v.造成;创造",
+              "uncertain": false
+            },
+            {
+              "word": "Russia",
+              "meaning": "n.俄罗斯",
+              "uncertain": false
+            },
+            {
+              "word": "measure",
+              "meaning": "n.措施,方法",
+              "uncertain": false
+            },
+            {
+              "word": "social",
+              "meaning": "adj.社会的;社交的",
+              "uncertain": false
+            },
+            {
+              "word": "necessarily",
+              "meaning": "adv.必然地",
+              "uncertain": false
+            },
+            {
+              "word": "worse",
+              "meaning": "adj.更差的,更糟的",
+              "uncertain": false
+            },
+            {
+              "word": "worse",
+              "meaning": "adv.更差,更糟",
+              "uncertain": false
+            },
+            {
+              "word": "supply",
+              "meaning": "v.提供,供应",
+              "uncertain": false
+            },
+            {
+              "word": "supply",
+              "meaning": "n.供应量;补给;供应",
+              "uncertain": false
+            },
+            {
+              "word": "so far",
+              "meaning": "到目前为止",
+              "uncertain": false
+            },
+            {
+              "word": "government",
+              "meaning": "n.政府,内阁",
+              "uncertain": false
+            },
+            {
+              "word": "take measures to do sth.",
+              "meaning": "采取措施做某事",
+              "uncertain": false
+            },
+            {
+              "word": "thanks to",
+              "meaning": "幸亏,由于",
+              "uncertain": false
+            },
+            {
+              "word": "natural",
+              "meaning": "adj.天然的;天生的",
+              "uncertain": false
+            },
+            {
+              "word": "paragraph",
+              "meaning": "n.段;段落",
+              "uncertain": false
+            },
+            {
+              "word": "opportunity",
+              "meaning": "n.机会,时机",
+              "uncertain": false
+            },
+            {
+              "word": "luckily",
+              "meaning": "adv.幸运地,运气好地",
+              "uncertain": false
+            },
+            {
+              "word": "offer",
+              "meaning": "v.提供(东西或机会);主动提出",
+              "uncertain": false
+            },
+            {
+              "word": "surround",
+              "meaning": "v.围绕,环绕",
+              "uncertain": false
+            },
+            {
+              "word": "garbage",
+              "meaning": "n.(生活)垃圾,废物;垃圾场",
+              "uncertain": false
+            },
+            {
+              "word": "discourage",
+              "meaning": "v.阻拦,阻止;使灰心",
+              "uncertain": false
+            },
+            {
+              "word": "local",
+              "meaning": "adj.当地的,本地的",
+              "uncertain": false
+            },
+            {
+              "word": "capital",
+              "meaning": "n.首都;资本",
+              "uncertain": false
+            },
+            {
+              "word": "huge",
+              "meaning": "adj.巨大的,极多的",
+              "uncertain": false
+            },
+            {
+              "word": "market",
+              "meaning": "n.集市,市场",
+              "uncertain": false
+            },
+            {
+              "word": "transportation",
+              "meaning": "n.运输",
+              "uncertain": false
+            },
+            {
+              "word": "excellent",
+              "meaning": "adj.优秀的,杰出的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "as a matter of fact",
+              "meaning": "事实上,其实",
+              "uncertain": false
+            },
+            {
+              "word": "block",
+              "meaning": "n.街道(区);(方形)平面;大块",
+              "uncertain": false
+            },
+            {
+              "word": "artist",
+              "meaning": "n.艺术家,(尤指)画家",
+              "uncertain": false
+            },
+            {
+              "word": "millions of",
+              "meaning": "数以百万计",
+              "uncertain": false
+            },
+            {
+              "word": "visitor",
+              "meaning": "n.游客;来访者;参观者",
+              "uncertain": false
+            },
+            {
+              "word": "industry",
+              "meaning": "n.行业;工业",
+              "uncertain": false
+            },
+            {
+              "word": "chemistry",
+              "meaning": "n.化学;化学物质",
+              "uncertain": false
+            },
+            {
+              "word": "term",
+              "meaning": "n.学期;词语;措辞",
+              "uncertain": false
+            },
+            {
+              "word": "program",
+              "meaning": "n.计划,方案;节目",
+              "uncertain": false
+            },
+            {
+              "word": "homeless",
+              "meaning": "adj.无家的",
+              "uncertain": false
+            },
+            {
+              "word": "manage",
+              "meaning": "v.完成(困难的事);能解决(问题)",
+              "uncertain": false
+            },
+            {
+              "word": "treatment",
+              "meaning": "n.疗法,治疗",
+              "uncertain": false
+            },
+            {
+              "word": "training",
+              "meaning": "n.训练,培训",
+              "uncertain": false
+            },
+            {
+              "word": "immediately",
+              "meaning": "adv.立刻,立即",
+              "uncertain": false
+            },
+            {
+              "word": "immediately",
+              "meaning": "conj.一……就,即刻",
+              "uncertain": false
+            },
+            {
+              "word": "secretary",
+              "meaning": "n.秘书",
+              "uncertain": false
+            },
+            {
+              "word": "helper",
+              "meaning": "n.帮手,助手",
+              "uncertain": false
+            },
+            {
+              "word": "club",
+              "meaning": "n.俱乐部",
+              "uncertain": false
+            },
+            {
+              "word": "engineer",
+              "meaning": "n.工程师,设计师",
+              "uncertain": false
+            },
+            {
+              "word": "wound",
+              "meaning": "n.创伤;伤口",
+              "uncertain": false
+            },
+            {
+              "word": "wound",
+              "meaning": "v.伤,伤害",
+              "uncertain": false
+            },
+            {
+              "word": "basic",
+              "meaning": "adj.基本的,基础的",
+              "uncertain": false
+            },
+            {
+              "word": "human",
+              "meaning": "adj.人的",
+              "uncertain": false
+            },
+            {
+              "word": "human",
+              "meaning": "n.人",
+              "uncertain": false
+            },
+            {
+              "word": "value",
+              "meaning": "v.重视,珍视",
+              "uncertain": false
+            },
+            {
+              "word": "value",
+              "meaning": "n.价值",
+              "uncertain": false
+            },
+            {
+              "word": "period",
+              "meaning": "n.一段时间,时期",
+              "uncertain": false
+            },
+            {
+              "word": "shelter",
+              "meaning": "n.收容所;遮蔽物",
+              "uncertain": false
+            },
+            {
+              "word": "homelessness",
+              "meaning": "n.无家可归",
+              "uncertain": false
+            },
+            {
+              "word": "earn",
+              "meaning": "v.挣钱;挣得,赢得",
+              "uncertain": false
+            },
+            {
+              "word": "drug",
+              "meaning": "n.毒品;药,药物",
+              "uncertain": false
+            },
+            {
+              "word": "mental",
+              "meaning": "adj.精神健康的;思想的",
+              "uncertain": false
+            },
+            {
+              "word": "on purpose",
+              "meaning": "故意,有意地",
+              "uncertain": false
+            },
+            {
+              "word": "whatever",
+              "meaning": "pron.无论什么,不管什么;任何事物",
+              "uncertain": false
+            },
+            {
+              "word": "effect",
+              "meaning": "n.影响,结果;效果",
+              "uncertain": false
+            },
+            {
+              "word": "steal",
+              "meaning": "v.偷,窃取",
+              "uncertain": false
+            },
+            {
+              "word": "support",
+              "meaning": "v.帮助,援助;支持",
+              "uncertain": false
+            },
+            {
+              "word": "phrase",
+              "meaning": "n.短语,词组",
+              "uncertain": false
+            },
+            {
+              "word": "according to",
+              "meaning": "据……所说,按……所报道",
+              "uncertain": false
+            },
+            {
+              "word": "context",
+              "meaning": "n.上下文;",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "increase",
+              "meaning": "v.(使)增加,(使)增大",
+              "uncertain": false
+            },
+            {
+              "word": "increase",
+              "meaning": "n.增加,增多,增大",
+              "uncertain": false
+            },
+            {
+              "word": "reach",
+              "meaning": "v.实现;达到;够得着;到达",
+              "uncertain": false
+            },
+            {
+              "word": "policy",
+              "meaning": "n.政策,方针",
+              "uncertain": false
+            },
+            {
+              "word": "create",
+              "meaning": "v.造成;创造",
+              "uncertain": false
+            },
+            {
+              "word": "Russia",
+              "meaning": "n.俄罗斯",
+              "uncertain": false
+            },
+            {
+              "word": "measure",
+              "meaning": "n.措施,方法",
+              "uncertain": false
+            },
+            {
+              "word": "social",
+              "meaning": "adj.社会的;社交的",
+              "uncertain": false
+            },
+            {
+              "word": "necessarily",
+              "meaning": "adv.必然地",
+              "uncertain": false
+            },
+            {
+              "word": "worse",
+              "meaning": "adj.更差的,更糟的",
+              "uncertain": false
+            },
+            {
+              "word": "worse",
+              "meaning": "adv.更差,更糟",
+              "uncertain": false
+            },
+            {
+              "word": "supply",
+              "meaning": "v.提供,供应",
+              "uncertain": false
+            },
+            {
+              "word": "supply",
+              "meaning": "n.供应量;补给;供应",
+              "uncertain": false
+            },
+            {
+              "word": "so far",
+              "meaning": "到目前为止",
+              "uncertain": false
+            },
+            {
+              "word": "government",
+              "meaning": "n.政府,内阁",
+              "uncertain": false
+            },
+            {
+              "word": "take measures to do sth.",
+              "meaning": "采取措施做某事",
+              "uncertain": false
+            },
+            {
+              "word": "thanks to",
+              "meaning": "幸亏,由于",
+              "uncertain": false
+            },
+            {
+              "word": "natural",
+              "meaning": "adj.天然的;天生的",
+              "uncertain": false
+            },
+            {
+              "word": "paragraph",
+              "meaning": "n.段;段落",
+              "uncertain": false
+            },
+            {
+              "word": "opportunity",
+              "meaning": "n.机会,时机",
+              "uncertain": false
+            },
+            {
+              "word": "luckily",
+              "meaning": "adv.幸运地,运气好地",
+              "uncertain": false
+            },
+            {
+              "word": "offer",
+              "meaning": "v.提供(东西或机会);主动提出",
+              "uncertain": false
+            },
+            {
+              "word": "surround",
+              "meaning": "v.围绕,环绕",
+              "uncertain": false
+            },
+            {
+              "word": "garbage",
+              "meaning": "n.(生活)垃圾,废物;垃圾场",
+              "uncertain": false
+            },
+            {
+              "word": "discourage",
+              "meaning": "v.阻拦,阻止;使灰心",
+              "uncertain": false
+            },
+            {
+              "word": "local",
+              "meaning": "adj.当地的,本地的",
+              "uncertain": false
+            },
+            {
+              "word": "capital",
+              "meaning": "n.首都;资本",
+              "uncertain": false
+            },
+            {
+              "word": "huge",
+              "meaning": "adj.巨大的,极多的",
+              "uncertain": false
+            },
+            {
+              "word": "market",
+              "meaning": "n.集市,市场",
+              "uncertain": false
+            },
+            {
+              "word": "transportation",
+              "meaning": "n.运输",
+              "uncertain": false
+            },
+            {
+              "word": "excellent",
+              "meaning": "adj.优秀的,杰出的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "as a matter of fact",
+              "meaning": "事实上,其实",
+              "uncertain": false
+            },
+            {
+              "word": "block",
+              "meaning": "n.街道(区);(方形)平面;大块",
+              "uncertain": false
+            },
+            {
+              "word": "artist",
+              "meaning": "n.艺术家,(尤指)画家",
+              "uncertain": false
+            },
+            {
+              "word": "millions of",
+              "meaning": "数以百万计",
+              "uncertain": false
+            },
+            {
+              "word": "visitor",
+              "meaning": "n.游客;来访者;参观者",
+              "uncertain": false
+            },
+            {
+              "word": "industry",
+              "meaning": "n.行业;工业",
+              "uncertain": false
+            },
+            {
+              "word": "chemistry",
+              "meaning": "n.化学;化学物质",
+              "uncertain": false
+            },
+            {
+              "word": "term",
+              "meaning": "n.学期;词语;措辞",
+              "uncertain": false
+            },
+            {
+              "word": "program",
+              "meaning": "n.计划,方案;节目",
+              "uncertain": false
+            },
+            {
+              "word": "homeless",
+              "meaning": "adj.无家的",
+              "uncertain": false
+            },
+            {
+              "word": "manage",
+              "meaning": "v.完成(困难的事);能解决(问题)",
+              "uncertain": false
+            },
+            {
+              "word": "treatment",
+              "meaning": "n.疗法,治疗",
+              "uncertain": false
+            },
+            {
+              "word": "training",
+              "meaning": "n.训练,培训",
+              "uncertain": false
+            },
+            {
+              "word": "immediately",
+              "meaning": "adv.立刻,立即",
+              "uncertain": false
+            },
+            {
+              "word": "immediately",
+              "meaning": "conj.一……就,即刻",
+              "uncertain": false
+            },
+            {
+              "word": "secretary",
+              "meaning": "n.秘书",
+              "uncertain": false
+            },
+            {
+              "word": "helper",
+              "meaning": "n.帮手,助手",
+              "uncertain": false
+            },
+            {
+              "word": "club",
+              "meaning": "n.俱乐部",
+              "uncertain": false
+            },
+            {
+              "word": "engineer",
+              "meaning": "n.工程师,设计师",
+              "uncertain": false
+            },
+            {
+              "word": "wound",
+              "meaning": "n.创伤;伤口",
+              "uncertain": false
+            },
+            {
+              "word": "wound",
+              "meaning": "v.伤,伤害",
+              "uncertain": false
+            },
+            {
+              "word": "basic",
+              "meaning": "adj.基本的,基础的",
+              "uncertain": false
+            },
+            {
+              "word": "human",
+              "meaning": "adj.人的",
+              "uncertain": false
+            },
+            {
+              "word": "human",
+              "meaning": "n.人",
+              "uncertain": false
+            },
+            {
+              "word": "value",
+              "meaning": "v.重视,珍视",
+              "uncertain": false
+            },
+            {
+              "word": "value",
+              "meaning": "n.价值",
+              "uncertain": false
+            },
+            {
+              "word": "period",
+              "meaning": "n.一段时间,时期",
+              "uncertain": false
+            },
+            {
+              "word": "shelter",
+              "meaning": "n.收容所;遮蔽物",
+              "uncertain": false
+            },
+            {
+              "word": "homelessness",
+              "meaning": "n.无家可归",
+              "uncertain": false
+            },
+            {
+              "word": "earn",
+              "meaning": "v.挣钱;挣得,赢得",
+              "uncertain": false
+            },
+            {
+              "word": "drug",
+              "meaning": "n.毒品;药,药物",
+              "uncertain": false
+            },
+            {
+              "word": "mental",
+              "meaning": "adj.精神健康的;思想的",
+              "uncertain": false
+            },
+            {
+              "word": "on purpose",
+              "meaning": "故意,有意地",
+              "uncertain": false
+            },
+            {
+              "word": "whatever",
+              "meaning": "pron.无论什么,不管什么;任何事物",
+              "uncertain": false
+            },
+            {
+              "word": "effect",
+              "meaning": "n.影响,结果;效果",
+              "uncertain": false
+            },
+            {
+              "word": "steal",
+              "meaning": "v.偷,窃取",
+              "uncertain": false
+            },
+            {
+              "word": "support",
+              "meaning": "v.帮助,援助;支持",
+              "uncertain": false
+            },
+            {
+              "word": "phrase",
+              "meaning": "n.短语,词组",
+              "uncertain": false
+            },
+            {
+              "word": "according to",
+              "meaning": "据……所说,按……所报道",
+              "uncertain": false
+            },
+            {
+              "word": "context",
+              "meaning": "n.上下文;",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "pollute",
+              "meaning": "v.污染",
+              "uncertain": false
+            },
+            {
+              "word": "convenient",
+              "meaning": "adj.便利的;方便的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

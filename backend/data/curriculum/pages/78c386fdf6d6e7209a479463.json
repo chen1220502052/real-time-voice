@@ -1,0 +1,1410 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "下册",
+  "book": "下册_2014年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/9年级/下册_2014年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页080.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1968",
+  "sha256": "78c386fdf6d6e7209a47946352fb48d1942dc1585c90f4ccea641d2587e61f59",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "duty",
+              "meaning": "责任，义务；职责",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "两者都不",
+              "uncertain": false
+            },
+            {
+              "word": "adv.",
+              "meaning": "也不",
+              "uncertain": false
+            },
+            {
+              "word": "nor",
+              "meaning": "也不",
+              "uncertain": false
+            },
+            {
+              "word": "neither ... nor ...",
+              "meaning": "既不……也不……",
+              "uncertain": false
+            },
+            {
+              "word": "remarry",
+              "meaning": "再婚",
+              "uncertain": false
+            },
+            {
+              "word": "stepmother",
+              "meaning": "继母",
+              "uncertain": false
+            },
+            {
+              "word": "license",
+              "meaning": "许可证，执照",
+              "uncertain": false
+            },
+            {
+              "word": "lawyer",
+              "meaning": "律师",
+              "uncertain": false
+            },
+            {
+              "word": "trust",
+              "meaning": "信任，信赖，相信",
+              "uncertain": false
+            },
+            {
+              "word": "highly",
+              "meaning": "很，非常",
+              "uncertain": false
+            },
+            {
+              "word": "politician",
+              "meaning": "从政者；政治家",
+              "uncertain": false
+            },
+            {
+              "word": "elect",
+              "meaning": "选举；推选",
+              "uncertain": false
+            },
+            {
+              "word": "Civil War",
+              "meaning": "内战",
+              "uncertain": false
+            },
+            {
+              "word": "break out",
+              "meaning": "爆发",
+              "uncertain": false
+            },
+            {
+              "word": "union",
+              "meaning": "联邦；协会",
+              "uncertain": false
+            },
+            {
+              "word": "slave",
+              "meaning": "奴隶",
+              "uncertain": false
+            },
+            {
+              "word": "get rid of",
+              "meaning": "丢弃，摆脱，扔掉",
+              "uncertain": false
+            },
+            {
+              "word": "set free",
+              "meaning": "释放；解放",
+              "uncertain": false
+            },
+            {
+              "word": "shoot",
+              "meaning": "开（枪或其他武器），射击",
+              "uncertain": false
+            },
+            {
+              "word": "break up",
+              "meaning": "拆开，解散；粉碎",
+              "uncertain": false
+            },
+            {
+              "word": "unit",
+              "meaning": "单元；单位",
+              "uncertain": false
+            },
+            {
+              "word": "walker",
+              "meaning": "步行者",
+              "uncertain": false
+            },
+            {
+              "word": "backwards",
+              "meaning": "向后；朝反方向",
+              "uncertain": false
+            },
+            {
+              "word": "concern",
+              "meaning": "担心，忧虑",
+              "uncertain": false
+            },
+            {
+              "word": "v.",
+              "meaning": "与……有关；让（某人）担忧",
+              "uncertain": false
+            },
+            {
+              "word": "content",
+              "meaning": "满意的，满足的",
+              "uncertain": false
+            },
+            {
+              "word": "content",
+              "meaning": "内容",
+              "uncertain": false
+            },
+            {
+              "word": "failure",
+              "meaning": "失败",
+              "uncertain": false
+            },
+            {
+              "word": "brief",
+              "meaning": "简单的；短暂的",
+              "uncertain": false
+            },
+            {
+              "word": "achievement",
+              "meaning": "功绩，成就",
+              "uncertain": false
+            },
+            {
+              "word": "Egyptian",
+              "meaning": "埃及的；埃及人的",
+              "uncertain": false
+            },
+            {
+              "word": "n.",
+              "meaning": "埃及人（语）",
+              "uncertain": false
+            },
+            {
+              "word": "pyramid",
+              "meaning": "（古埃及的）金字塔",
+              "uncertain": false
+            },
+            {
+              "word": "tomb",
+              "meaning": "坟墓；冢",
+              "uncertain": false
+            },
+            {
+              "word": "complete",
+              "meaning": "结束，完成",
+              "uncertain": false
+            },
+            {
+              "word": "adj.",
+              "meaning": "完整的；彻底的",
+              "uncertain": false
+            },
+            {
+              "word": "A.D.",
+              "meaning": "公元",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "科学的；关于科学的",
+              "uncertain": false
+            },
+            {
+              "word": "ton",
+              "meaning": "吨",
+              "uncertain": false
+            },
+            {
+              "word": "fix",
+              "meaning": "安装；修理",
+              "uncertain": false
+            },
+            {
+              "word": "tool",
+              "meaning": "工具",
+              "uncertain": false
+            },
+            {
+              "word": "mystery",
+              "meaning": "不可理解的事；奥秘",
+              "uncertain": false
+            },
+            {
+              "word": "completion",
+              "meaning": "完成；竣工",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "graze",
+              "meaning": "放牧；吃青草",
+              "uncertain": false
+            },
+            {
+              "word": "make fun of",
+              "meaning": "嘲弄，取笑，拿……开玩笑",
+              "uncertain": false
+            },
+            {
+              "word": "wolf",
+              "meaning": "狼",
+              "uncertain": false
+            },
+            {
+              "word": "iron",
+              "meaning": "坚强的；强硬坚定的",
+              "uncertain": false
+            },
+            {
+              "word": "glory",
+              "meaning": "荣誉，光荣；赞美",
+              "uncertain": false
+            },
+            {
+              "word": "peasant",
+              "meaning": "农民",
+              "uncertain": false
+            },
+            {
+              "word": "battle",
+              "meaning": "战斗，战役",
+              "uncertain": false
+            },
+            {
+              "word": "battlefield",
+              "meaning": "战场",
+              "uncertain": false
+            },
+            {
+              "word": "memory",
+              "meaning": "记忆力，记性；回忆",
+              "uncertain": false
+            },
+            {
+              "word": "in memory of",
+              "meaning": "纪念",
+              "uncertain": false
+            },
+            {
+              "word": "romantic",
+              "meaning": "浪漫的；空想的",
+              "uncertain": false
+            },
+            {
+              "word": "tale",
+              "meaning": "故事",
+              "uncertain": false
+            },
+            {
+              "word": "home and abroad",
+              "meaning": "国内外",
+              "uncertain": false
+            },
+            {
+              "word": "scenery",
+              "meaning": "风景；景色",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "would rather ... than ...",
+              "meaning": "宁愿，更喜欢",
+              "uncertain": false
+            },
+            {
+              "word": "actress",
+              "meaning": "女演员",
+              "uncertain": false
+            },
+            {
+              "word": "charming",
+              "meaning": "令人着迷的；迷人的；吸引人的",
+              "uncertain": false
+            },
+            {
+              "word": "educational",
+              "meaning": "（有关）教育的",
+              "uncertain": false
+            },
+            {
+              "word": "science fiction",
+              "meaning": "科幻小说",
+              "uncertain": false
+            },
+            {
+              "word": "tragedy",
+              "meaning": "悲剧；悲剧作品",
+              "uncertain": false
+            },
+            {
+              "word": "documentary",
+              "meaning": "纪录片",
+              "uncertain": false
+            },
+            {
+              "word": "comedy",
+              "meaning": "喜剧；喜剧片",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "duty",
+              "meaning": "责任，义务；职责",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "两者都不",
+              "uncertain": false
+            },
+            {
+              "word": "adv.",
+              "meaning": "也不",
+              "uncertain": false
+            },
+            {
+              "word": "nor",
+              "meaning": "也不",
+              "uncertain": false
+            },
+            {
+              "word": "neither ... nor ...",
+              "meaning": "既不……也不……",
+              "uncertain": false
+            },
+            {
+              "word": "remarry",
+              "meaning": "再婚",
+              "uncertain": false
+            },
+            {
+              "word": "stepmother",
+              "meaning": "继母",
+              "uncertain": false
+            },
+            {
+              "word": "license",
+              "meaning": "许可证，执照",
+              "uncertain": false
+            },
+            {
+              "word": "lawyer",
+              "meaning": "律师",
+              "uncertain": false
+            },
+            {
+              "word": "trust",
+              "meaning": "信任，信赖，相信",
+              "uncertain": false
+            },
+            {
+              "word": "highly",
+              "meaning": "很，非常",
+              "uncertain": false
+            },
+            {
+              "word": "politician",
+              "meaning": "从政者；政治家",
+              "uncertain": false
+            },
+            {
+              "word": "elect",
+              "meaning": "选举；推选",
+              "uncertain": false
+            },
+            {
+              "word": "Civil War",
+              "meaning": "内战",
+              "uncertain": false
+            },
+            {
+              "word": "break out",
+              "meaning": "爆发",
+              "uncertain": false
+            },
+            {
+              "word": "union",
+              "meaning": "联邦；协会",
+              "uncertain": false
+            },
+            {
+              "word": "slave",
+              "meaning": "奴隶",
+              "uncertain": false
+            },
+            {
+              "word": "get rid of",
+              "meaning": "丢弃，摆脱，扔掉",
+              "uncertain": false
+            },
+            {
+              "word": "set free",
+              "meaning": "释放；解放",
+              "uncertain": false
+            },
+            {
+              "word": "shoot",
+              "meaning": "开（枪或其他武器），射击",
+              "uncertain": false
+            },
+            {
+              "word": "break up",
+              "meaning": "拆开，解散；粉碎",
+              "uncertain": false
+            },
+            {
+              "word": "unit",
+              "meaning": "单元；单位",
+              "uncertain": false
+            },
+            {
+              "word": "walker",
+              "meaning": "步行者",
+              "uncertain": false
+            },
+            {
+              "word": "backwards",
+              "meaning": "向后；朝反方向",
+              "uncertain": false
+            },
+            {
+              "word": "concern",
+              "meaning": "担心，忧虑",
+              "uncertain": false
+            },
+            {
+              "word": "v.",
+              "meaning": "与……有关；让（某人）担忧",
+              "uncertain": false
+            },
+            {
+              "word": "content",
+              "meaning": "满意的，满足的",
+              "uncertain": false
+            },
+            {
+              "word": "content",
+              "meaning": "内容",
+              "uncertain": false
+            },
+            {
+              "word": "failure",
+              "meaning": "失败",
+              "uncertain": false
+            },
+            {
+              "word": "brief",
+              "meaning": "简单的；短暂的",
+              "uncertain": false
+            },
+            {
+              "word": "achievement",
+              "meaning": "功绩，成就",
+              "uncertain": false
+            },
+            {
+              "word": "Egyptian",
+              "meaning": "埃及的；埃及人的",
+              "uncertain": false
+            },
+            {
+              "word": "n.",
+              "meaning": "埃及人（语）",
+              "uncertain": false
+            },
+            {
+              "word": "pyramid",
+              "meaning": "（古埃及的）金字塔",
+              "uncertain": false
+            },
+            {
+              "word": "tomb",
+              "meaning": "坟墓；冢",
+              "uncertain": false
+            },
+            {
+              "word": "complete",
+              "meaning": "结束，完成",
+              "uncertain": false
+            },
+            {
+              "word": "adj.",
+              "meaning": "完整的；彻底的",
+              "uncertain": false
+            },
+            {
+              "word": "A.D.",
+              "meaning": "公元",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "科学的；关于科学的",
+              "uncertain": false
+            },
+            {
+              "word": "ton",
+              "meaning": "吨",
+              "uncertain": false
+            },
+            {
+              "word": "fix",
+              "meaning": "安装；修理",
+              "uncertain": false
+            },
+            {
+              "word": "tool",
+              "meaning": "工具",
+              "uncertain": false
+            },
+            {
+              "word": "mystery",
+              "meaning": "不可理解的事；奥秘",
+              "uncertain": false
+            },
+            {
+              "word": "completion",
+              "meaning": "完成；竣工",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "graze",
+              "meaning": "放牧；吃青草",
+              "uncertain": false
+            },
+            {
+              "word": "make fun of",
+              "meaning": "嘲弄，取笑，拿……开玩笑",
+              "uncertain": false
+            },
+            {
+              "word": "wolf",
+              "meaning": "狼",
+              "uncertain": false
+            },
+            {
+              "word": "iron",
+              "meaning": "坚强的；强硬坚定的",
+              "uncertain": false
+            },
+            {
+              "word": "glory",
+              "meaning": "荣誉，光荣；赞美",
+              "uncertain": false
+            },
+            {
+              "word": "peasant",
+              "meaning": "农民",
+              "uncertain": false
+            },
+            {
+              "word": "battle",
+              "meaning": "战斗，战役",
+              "uncertain": false
+            },
+            {
+              "word": "battlefield",
+              "meaning": "战场",
+              "uncertain": false
+            },
+            {
+              "word": "memory",
+              "meaning": "记忆力，记性；回忆",
+              "uncertain": false
+            },
+            {
+              "word": "in memory of",
+              "meaning": "纪念",
+              "uncertain": false
+            },
+            {
+              "word": "romantic",
+              "meaning": "浪漫的；空想的",
+              "uncertain": false
+            },
+            {
+              "word": "tale",
+              "meaning": "故事",
+              "uncertain": false
+            },
+            {
+              "word": "home and abroad",
+              "meaning": "国内外",
+              "uncertain": false
+            },
+            {
+              "word": "scenery",
+              "meaning": "风景；景色",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "would rather ... than ...",
+              "meaning": "宁愿，更喜欢",
+              "uncertain": false
+            },
+            {
+              "word": "actress",
+              "meaning": "女演员",
+              "uncertain": false
+            },
+            {
+              "word": "charming",
+              "meaning": "令人着迷的；迷人的；吸引人的",
+              "uncertain": false
+            },
+            {
+              "word": "educational",
+              "meaning": "（有关）教育的",
+              "uncertain": false
+            },
+            {
+              "word": "science fiction",
+              "meaning": "科幻小说",
+              "uncertain": false
+            },
+            {
+              "word": "tragedy",
+              "meaning": "悲剧；悲剧作品",
+              "uncertain": false
+            },
+            {
+              "word": "documentary",
+              "meaning": "纪录片",
+              "uncertain": false
+            },
+            {
+              "word": "comedy",
+              "meaning": "喜剧；喜剧片",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "e54c3e9dcd745d86d36b7ce0af12a89db5159144d5c8666c0486984b87daa36c",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "duty",
+                  "meaning": "n.责任，义务；职责",
+                  "uncertain": false
+                },
+                {
+                  "word": "neither",
+                  "meaning": "pron.两者都不 adv.也不",
+                  "uncertain": false
+                },
+                {
+                  "word": "nor",
+                  "meaning": "conj.也不",
+                  "uncertain": false
+                },
+                {
+                  "word": "neither ... nor ...",
+                  "meaning": "既不……也不……",
+                  "uncertain": false
+                },
+                {
+                  "word": "remarry",
+                  "meaning": "v.再婚",
+                  "uncertain": false
+                },
+                {
+                  "word": "stepmother",
+                  "meaning": "n.继母",
+                  "uncertain": false
+                },
+                {
+                  "word": "license",
+                  "meaning": "n.许可证，执照",
+                  "uncertain": false
+                },
+                {
+                  "word": "lawyer",
+                  "meaning": "n.律师",
+                  "uncertain": false
+                },
+                {
+                  "word": "trust",
+                  "meaning": "v.& n.信任，信赖，相信",
+                  "uncertain": false
+                },
+                {
+                  "word": "highly",
+                  "meaning": "adv.很，非常",
+                  "uncertain": false
+                },
+                {
+                  "word": "politician",
+                  "meaning": "n.从政者；政治家",
+                  "uncertain": false
+                },
+                {
+                  "word": "elect",
+                  "meaning": "v.选举；推选",
+                  "uncertain": false
+                },
+                {
+                  "word": "Civil War",
+                  "meaning": "内战",
+                  "uncertain": false
+                },
+                {
+                  "word": "break out",
+                  "meaning": "爆发",
+                  "uncertain": false
+                },
+                {
+                  "word": "union",
+                  "meaning": "n.联邦；协会",
+                  "uncertain": false
+                },
+                {
+                  "word": "slave",
+                  "meaning": "n.奴隶",
+                  "uncertain": false
+                },
+                {
+                  "word": "get rid of",
+                  "meaning": "丢弃，摆脱，扔掉",
+                  "uncertain": false
+                },
+                {
+                  "word": "set free",
+                  "meaning": "释放；解放",
+                  "uncertain": false
+                },
+                {
+                  "word": "shoot",
+                  "meaning": "v.开（枪或其他武器），射击",
+                  "uncertain": false
+                },
+                {
+                  "word": "break up",
+                  "meaning": "拆开，解散；粉碎",
+                  "uncertain": false
+                },
+                {
+                  "word": "unit",
+                  "meaning": "n.单元；单位",
+                  "uncertain": false
+                },
+                {
+                  "word": "walker",
+                  "meaning": "n.步行者",
+                  "uncertain": false
+                },
+                {
+                  "word": "backwards",
+                  "meaning": "adv.向后；朝反方向",
+                  "uncertain": false
+                },
+                {
+                  "word": "concern",
+                  "meaning": "n.担心，忧虑 v.与……有关；让（某人）担忧",
+                  "uncertain": false
+                },
+                {
+                  "word": "content",
+                  "meaning": "adj.满意的，满足的 n.内容",
+                  "uncertain": false
+                },
+                {
+                  "word": "failure",
+                  "meaning": "n.失败",
+                  "uncertain": false
+                },
+                {
+                  "word": "brief",
+                  "meaning": "adj.简单的；短暂的",
+                  "uncertain": false
+                },
+                {
+                  "word": "achievement",
+                  "meaning": "n.功绩，成就",
+                  "uncertain": false
+                },
+                {
+                  "word": "Egyptian",
+                  "meaning": "adj.埃及的；埃及人的 n.埃及人（语）",
+                  "uncertain": false
+                },
+                {
+                  "word": "pyramid",
+                  "meaning": "n.（古埃及的）金字塔",
+                  "uncertain": false
+                },
+                {
+                  "word": "tomb",
+                  "meaning": "n.坟墓；冢",
+                  "uncertain": false
+                },
+                {
+                  "word": "complete",
+                  "meaning": "v.结束，完成 adj.完整的；彻底的",
+                  "uncertain": false
+                },
+                {
+                  "word": "A.D.",
+                  "meaning": "abbr.公元",
+                  "uncertain": false
+                },
+                {
+                  "word": "scientific",
+                  "meaning": "adj.科学的；",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "duty",
+                  "meaning": "n.责任，义务；职责",
+                  "uncertain": false
+                },
+                {
+                  "word": "neither",
+                  "meaning": "pron.两者都不 adv.也不",
+                  "uncertain": false
+                },
+                {
+                  "word": "nor",
+                  "meaning": "conj.也不",
+                  "uncertain": false
+                },
+                {
+                  "word": "neither ... nor ...",
+                  "meaning": "既不……也不……",
+                  "uncertain": false
+                },
+                {
+                  "word": "remarry",
+                  "meaning": "v.再婚",
+                  "uncertain": false
+                },
+                {
+                  "word": "stepmother",
+                  "meaning": "n.继母",
+                  "uncertain": false
+                },
+                {
+                  "word": "license",
+                  "meaning": "n.许可证，执照",
+                  "uncertain": false
+                },
+                {
+                  "word": "lawyer",
+                  "meaning": "n.律师",
+                  "uncertain": false
+                },
+                {
+                  "word": "trust",
+                  "meaning": "v.& n.信任，信赖，相信",
+                  "uncertain": false
+                },
+                {
+                  "word": "highly",
+                  "meaning": "adv.很，非常",
+                  "uncertain": false
+                },
+                {
+                  "word": "politician",
+                  "meaning": "n.从政者；政治家",
+                  "uncertain": false
+                },
+                {
+                  "word": "elect",
+                  "meaning": "v.选举；推选",
+                  "uncertain": false
+                },
+                {
+                  "word": "Civil War",
+                  "meaning": "内战",
+                  "uncertain": false
+                },
+                {
+                  "word": "break out",
+                  "meaning": "爆发",
+                  "uncertain": false
+                },
+                {
+                  "word": "union",
+                  "meaning": "n.联邦；协会",
+                  "uncertain": false
+                },
+                {
+                  "word": "slave",
+                  "meaning": "n.奴隶",
+                  "uncertain": false
+                },
+                {
+                  "word": "get rid of",
+                  "meaning": "丢弃，摆脱，扔掉",
+                  "uncertain": false
+                },
+                {
+                  "word": "set free",
+                  "meaning": "释放；解放",
+                  "uncertain": false
+                },
+                {
+                  "word": "shoot",
+                  "meaning": "v.开（枪或其他武器），射击",
+                  "uncertain": false
+                },
+                {
+                  "word": "break up",
+                  "meaning": "拆开，解散；粉碎",
+                  "uncertain": false
+                },
+                {
+                  "word": "unit",
+                  "meaning": "n.单元；单位",
+                  "uncertain": false
+                },
+                {
+                  "word": "walker",
+                  "meaning": "n.步行者",
+                  "uncertain": false
+                },
+                {
+                  "word": "backwards",
+                  "meaning": "adv.向后；朝反方向",
+                  "uncertain": false
+                },
+                {
+                  "word": "concern",
+                  "meaning": "n.担心，忧虑 v.与……有关；让（某人）担忧",
+                  "uncertain": false
+                },
+                {
+                  "word": "content",
+                  "meaning": "adj.满意的，满足的 n.内容",
+                  "uncertain": false
+                },
+                {
+                  "word": "failure",
+                  "meaning": "n.失败",
+                  "uncertain": false
+                },
+                {
+                  "word": "brief",
+                  "meaning": "adj.简单的；短暂的",
+                  "uncertain": false
+                },
+                {
+                  "word": "achievement",
+                  "meaning": "n.功绩，成就",
+                  "uncertain": false
+                },
+                {
+                  "word": "Egyptian",
+                  "meaning": "adj.埃及的；埃及人的 n.埃及人（语）",
+                  "uncertain": false
+                },
+                {
+                  "word": "pyramid",
+                  "meaning": "n.（古埃及的）金字塔",
+                  "uncertain": false
+                },
+                {
+                  "word": "tomb",
+                  "meaning": "n.坟墓；冢",
+                  "uncertain": false
+                },
+                {
+                  "word": "complete",
+                  "meaning": "v.结束，完成 adj.完整的；彻底的",
+                  "uncertain": false
+                },
+                {
+                  "word": "A.D.",
+                  "meaning": "abbr.公元",
+                  "uncertain": false
+                },
+                {
+                  "word": "scientific",
+                  "meaning": "adj.科学的；",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "c4cc8cfd388c9de82699a64e91f909fd59cf8f608cc3905957337554ecb423e8",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "关于科学的",
+                  "meaning": "(23)",
+                  "uncertain": false
+                },
+                {
+                  "word": "ton",
+                  "meaning": "吨 (23)",
+                  "uncertain": false
+                },
+                {
+                  "word": "fix",
+                  "meaning": "安装;修理 (23)",
+                  "uncertain": false
+                },
+                {
+                  "word": "tool",
+                  "meaning": "工具 (24)",
+                  "uncertain": false
+                },
+                {
+                  "word": "mystery",
+                  "meaning": "不可理解的事;奥秘 (24)",
+                  "uncertain": false
+                },
+                {
+                  "word": "completion",
+                  "meaning": "完成;竣工 (24)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "graze",
+                  "meaning": "放牧;吃青草 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "make fun of",
+                  "meaning": "嘲弄,取笑,拿……开玩笑 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "wolf",
+                  "meaning": "狼 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "iron",
+                  "meaning": "adj.坚强的;强硬坚定的 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "glory",
+                  "meaning": "n.荣誉,光荣;赞美 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "peasant",
+                  "meaning": "n.农民 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "battle",
+                  "meaning": "n.战斗,战役 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "battlefield",
+                  "meaning": "n.战场 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "memory",
+                  "meaning": "n.记忆力,记性;回忆 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "in memory of",
+                  "meaning": "纪念 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "romantic",
+                  "meaning": "adj.浪漫的;空想的 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "tale",
+                  "meaning": "n.故事 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "home and abroad",
+                  "meaning": "国内外 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "scenery",
+                  "meaning": "n.风景;景色 (26)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 6,
+              "entries": [
+                {
+                  "word": "would rather ... than ...",
+                  "meaning": "宁愿,更喜欢 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "actress",
+                  "meaning": "n.女演员 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "charming",
+                  "meaning": "adj.令人着迷的;迷人的;吸引人的 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "educational",
+                  "meaning": "adj.(有关)教育的 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "science fiction",
+                  "meaning": "科幻小说 (28)",
+                  "uncertain": false
+                },
+                {
+                  "word": "tragedy",
+                  "meaning": "n.悲剧;悲剧作品 (28)",
+                  "uncertain": false
+                },
+                {
+                  "word": "documentary",
+                  "meaning": "n.纪录片 (28)",
+                  "uncertain": false
+                },
+                {
+                  "word": "comedy",
+                  "meaning": "n.喜剧;喜剧片 (28)",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "关于科学的",
+                  "meaning": "(23)",
+                  "uncertain": false
+                },
+                {
+                  "word": "ton",
+                  "meaning": "n.吨 (23)",
+                  "uncertain": false
+                },
+                {
+                  "word": "fix",
+                  "meaning": "v.安装;修理 (23)",
+                  "uncertain": false
+                },
+                {
+                  "word": "tool",
+                  "meaning": "n.工具 (24)",
+                  "uncertain": false
+                },
+                {
+                  "word": "mystery",
+                  "meaning": "n.不可理解的事;奥秘 (24)",
+                  "uncertain": false
+                },
+                {
+                  "word": "completion",
+                  "meaning": "n.完成;竣工 (24)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 5,
+              "entries": [
+                {
+                  "word": "graze",
+                  "meaning": "v.放牧;吃青草 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "make fun of",
+                  "meaning": "嘲弄,取笑,拿……开玩笑 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "wolf",
+                  "meaning": "n.狼 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "iron",
+                  "meaning": "adj.坚强的;强硬坚定的 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "glory",
+                  "meaning": "n.荣誉,光荣;赞美 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "peasant",
+                  "meaning": "n.农民 (25)",
+                  "uncertain": false
+                },
+                {
+                  "word": "battle",
+                  "meaning": "n.战斗,战役 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "battlefield",
+                  "meaning": "n.战场 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "memory",
+                  "meaning": "n.记忆力,记性;回忆 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "in memory of",
+                  "meaning": "纪念 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "romantic",
+                  "meaning": "adj.浪漫的;空想的 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "tale",
+                  "meaning": "n.故事 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "home and abroad",
+                  "meaning": "国内外 (26)",
+                  "uncertain": false
+                },
+                {
+                  "word": "scenery",
+                  "meaning": "n.风景;景色 (26)",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 6,
+              "entries": [
+                {
+                  "word": "would rather ... than ...",
+                  "meaning": "宁愿,更喜欢 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "actress",
+                  "meaning": "n.女演员 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "charming",
+                  "meaning": "adj.令人着迷的;迷人的;吸引人的 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "educational",
+                  "meaning": "adj.(有关)教育的 (27)",
+                  "uncertain": false
+                },
+                {
+                  "word": "science fiction",
+                  "meaning": "科幻小说 (28)",
+                  "uncertain": false
+                },
+                {
+                  "word": "tragedy",
+                  "meaning": "n.悲剧;悲剧作品 (28)",
+                  "uncertain": false
+                },
+                {
+                  "word": "documentary",
+                  "meaning": "n.纪录片 (28)",
+                  "uncertain": false
+                },
+                {
+                  "word": "comedy",
+                  "meaning": "n.喜剧;喜剧片 (28)",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

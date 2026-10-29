@@ -1,0 +1,375 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "下册",
+  "book": "下册_2014年10月第1版_2024重印_完整教材",
+  "image": ".local/curriculum-column-crops/78c386fdf6d6e7209a479463-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1968",
+  "sha256": "e54c3e9dcd745d86d36b7ce0af12a89db5159144d5c8666c0486984b87daa36c",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "duty",
+              "meaning": "n.责任，义务；职责",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "pron.两者都不 adv.也不",
+              "uncertain": false
+            },
+            {
+              "word": "nor",
+              "meaning": "conj.也不",
+              "uncertain": false
+            },
+            {
+              "word": "neither ... nor ...",
+              "meaning": "既不……也不……",
+              "uncertain": false
+            },
+            {
+              "word": "remarry",
+              "meaning": "v.再婚",
+              "uncertain": false
+            },
+            {
+              "word": "stepmother",
+              "meaning": "n.继母",
+              "uncertain": false
+            },
+            {
+              "word": "license",
+              "meaning": "n.许可证，执照",
+              "uncertain": false
+            },
+            {
+              "word": "lawyer",
+              "meaning": "n.律师",
+              "uncertain": false
+            },
+            {
+              "word": "trust",
+              "meaning": "v.& n.信任，信赖，相信",
+              "uncertain": false
+            },
+            {
+              "word": "highly",
+              "meaning": "adv.很，非常",
+              "uncertain": false
+            },
+            {
+              "word": "politician",
+              "meaning": "n.从政者；政治家",
+              "uncertain": false
+            },
+            {
+              "word": "elect",
+              "meaning": "v.选举；推选",
+              "uncertain": false
+            },
+            {
+              "word": "Civil War",
+              "meaning": "内战",
+              "uncertain": false
+            },
+            {
+              "word": "break out",
+              "meaning": "爆发",
+              "uncertain": false
+            },
+            {
+              "word": "union",
+              "meaning": "n.联邦；协会",
+              "uncertain": false
+            },
+            {
+              "word": "slave",
+              "meaning": "n.奴隶",
+              "uncertain": false
+            },
+            {
+              "word": "get rid of",
+              "meaning": "丢弃，摆脱，扔掉",
+              "uncertain": false
+            },
+            {
+              "word": "set free",
+              "meaning": "释放；解放",
+              "uncertain": false
+            },
+            {
+              "word": "shoot",
+              "meaning": "v.开（枪或其他武器），射击",
+              "uncertain": false
+            },
+            {
+              "word": "break up",
+              "meaning": "拆开，解散；粉碎",
+              "uncertain": false
+            },
+            {
+              "word": "unit",
+              "meaning": "n.单元；单位",
+              "uncertain": false
+            },
+            {
+              "word": "walker",
+              "meaning": "n.步行者",
+              "uncertain": false
+            },
+            {
+              "word": "backwards",
+              "meaning": "adv.向后；朝反方向",
+              "uncertain": false
+            },
+            {
+              "word": "concern",
+              "meaning": "n.担心，忧虑 v.与……有关；让（某人）担忧",
+              "uncertain": false
+            },
+            {
+              "word": "content",
+              "meaning": "adj.满意的，满足的 n.内容",
+              "uncertain": false
+            },
+            {
+              "word": "failure",
+              "meaning": "n.失败",
+              "uncertain": false
+            },
+            {
+              "word": "brief",
+              "meaning": "adj.简单的；短暂的",
+              "uncertain": false
+            },
+            {
+              "word": "achievement",
+              "meaning": "n.功绩，成就",
+              "uncertain": false
+            },
+            {
+              "word": "Egyptian",
+              "meaning": "adj.埃及的；埃及人的 n.埃及人（语）",
+              "uncertain": false
+            },
+            {
+              "word": "pyramid",
+              "meaning": "n.（古埃及的）金字塔",
+              "uncertain": false
+            },
+            {
+              "word": "tomb",
+              "meaning": "n.坟墓；冢",
+              "uncertain": false
+            },
+            {
+              "word": "complete",
+              "meaning": "v.结束，完成 adj.完整的；彻底的",
+              "uncertain": false
+            },
+            {
+              "word": "A.D.",
+              "meaning": "abbr.公元",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "adj.科学的；",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "duty",
+              "meaning": "n.责任，义务；职责",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "pron.两者都不 adv.也不",
+              "uncertain": false
+            },
+            {
+              "word": "nor",
+              "meaning": "conj.也不",
+              "uncertain": false
+            },
+            {
+              "word": "neither ... nor ...",
+              "meaning": "既不……也不……",
+              "uncertain": false
+            },
+            {
+              "word": "remarry",
+              "meaning": "v.再婚",
+              "uncertain": false
+            },
+            {
+              "word": "stepmother",
+              "meaning": "n.继母",
+              "uncertain": false
+            },
+            {
+              "word": "license",
+              "meaning": "n.许可证，执照",
+              "uncertain": false
+            },
+            {
+              "word": "lawyer",
+              "meaning": "n.律师",
+              "uncertain": false
+            },
+            {
+              "word": "trust",
+              "meaning": "v.& n.信任，信赖，相信",
+              "uncertain": false
+            },
+            {
+              "word": "highly",
+              "meaning": "adv.很，非常",
+              "uncertain": false
+            },
+            {
+              "word": "politician",
+              "meaning": "n.从政者；政治家",
+              "uncertain": false
+            },
+            {
+              "word": "elect",
+              "meaning": "v.选举；推选",
+              "uncertain": false
+            },
+            {
+              "word": "Civil War",
+              "meaning": "内战",
+              "uncertain": false
+            },
+            {
+              "word": "break out",
+              "meaning": "爆发",
+              "uncertain": false
+            },
+            {
+              "word": "union",
+              "meaning": "n.联邦；协会",
+              "uncertain": false
+            },
+            {
+              "word": "slave",
+              "meaning": "n.奴隶",
+              "uncertain": false
+            },
+            {
+              "word": "get rid of",
+              "meaning": "丢弃，摆脱，扔掉",
+              "uncertain": false
+            },
+            {
+              "word": "set free",
+              "meaning": "释放；解放",
+              "uncertain": false
+            },
+            {
+              "word": "shoot",
+              "meaning": "v.开（枪或其他武器），射击",
+              "uncertain": false
+            },
+            {
+              "word": "break up",
+              "meaning": "拆开，解散；粉碎",
+              "uncertain": false
+            },
+            {
+              "word": "unit",
+              "meaning": "n.单元；单位",
+              "uncertain": false
+            },
+            {
+              "word": "walker",
+              "meaning": "n.步行者",
+              "uncertain": false
+            },
+            {
+              "word": "backwards",
+              "meaning": "adv.向后；朝反方向",
+              "uncertain": false
+            },
+            {
+              "word": "concern",
+              "meaning": "n.担心，忧虑 v.与……有关；让（某人）担忧",
+              "uncertain": false
+            },
+            {
+              "word": "content",
+              "meaning": "adj.满意的，满足的 n.内容",
+              "uncertain": false
+            },
+            {
+              "word": "failure",
+              "meaning": "n.失败",
+              "uncertain": false
+            },
+            {
+              "word": "brief",
+              "meaning": "adj.简单的；短暂的",
+              "uncertain": false
+            },
+            {
+              "word": "achievement",
+              "meaning": "n.功绩，成就",
+              "uncertain": false
+            },
+            {
+              "word": "Egyptian",
+              "meaning": "adj.埃及的；埃及人的 n.埃及人（语）",
+              "uncertain": false
+            },
+            {
+              "word": "pyramid",
+              "meaning": "n.（古埃及的）金字塔",
+              "uncertain": false
+            },
+            {
+              "word": "tomb",
+              "meaning": "n.坟墓；冢",
+              "uncertain": false
+            },
+            {
+              "word": "complete",
+              "meaning": "v.结束，完成 adj.完整的；彻底的",
+              "uncertain": false
+            },
+            {
+              "word": "A.D.",
+              "meaning": "abbr.公元",
+              "uncertain": false
+            },
+            {
+              "word": "scientific",
+              "meaning": "adj.科学的；",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

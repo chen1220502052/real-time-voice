@@ -1,10 +1,14 @@
 # 实时语音虚拟人：整体架构与 WebSocket 协议
 
+当前试用部署使用香港服务器、HTTPS 与 WSS，并提供独立文字入口。本文的 WebSocket 控制和 PCM 帧仍为 v1；双工与文本 Bot 的内部服务边界已升级为 [TextBot v2](12-text-bot-interface.md)，不能将两个版本号混为一谈。
+
+双工负责实时交互、播放与打断事实；Bot 服务拥有会话、语义历史、内容状态恢复、幂等结果与持久化。完整英语聊天架构见 [分年级聊天架构](11-english-tutor-agent-architecture.md)。以下本地模式和旧供应商示例不意味着线上仍使用无状态的上游历史拼装方式。
+
 ## 1. 目标与范围
 
 页面展示由图片驱动的虚拟人，用户与其进行实时双向语音对话。前端与 Python 后端运行在同一台电脑，通过 WebSocket 通信。首期虚拟人仅支持开口、闭口两种状态，不做表情、头部动作或精确口型。
 
-范围包含：资源探测、会话管理、上下行语音流、开闭口图片状态与主动/用户挂断。范围不包含：文本聊天、视频流、鉴权、跨设备网络优化、音色克隆或具体模型实现。音频以 **100 ms** 为一个传输包。
+本文范围包含资源探测、会话管理、上下行语音流、动画状态与挂断。文字聊天契约和 Bot 状态由独立接口文档描述，公网访问沿用已有 HTTPS 与试用认证。音频以 100ms 为一个传输包，不包含视频或音色克隆。
 
 ## 2. 系统架构
 
@@ -77,6 +81,13 @@ stateDiagram-v2
 | 后端 → 前端 | `close_session` | 后端因用户告别、超时、资源策略或内部错误而主动通知前端挂断。 |
 | 后端 → 前端 | `avatar_frame` | 与下行音频同序号的虚拟人开/闭口状态。 |
 | 后端 → 前端 | `playback_interrupt` | 用户打断时，要求前端停止尚未播放的旧回复。 |
+| 后端 → 前端 | `reply_failed` | 当前 Reply 的 LLM/TTS/播放失败并已收敛；页面清理该 Reply 的播放状态，但 Session 可继续下一轮。 |
+| 后端 → 前端 | `asr_result` / `assistant_delta` | 逐包 ASR 状态/文本与机器人流式文本。 |
+| 后端 → 前端 | `session_event` | 统一可观测事件，供状态、指标和时间线使用。 |
+| 后端 → 前端 | `runtime_stats` | 每 500 ms 更新有界队列深度和音频包计数。 |
+| 前端 → 后端 | `client_event` | 浏览器播放开始、完成、停止和错误等统一事件。 |
+
+播放事实新增 playback_progress，并为 progress、stopped、completed 携带稳定 eventId、同回复递增 sequence 和 attributes.playedMs。进度来自 AudioContext 已播放的帧时长，不包含网络和排队音频；停止前采样最终位置。双工转交这些事实及服务端 TTS 对齐，不自行换算或裁剪模型历史。Bot 的 done、服务器 reply_complete 与客户端 playback_completed 分别表示生成完成、发送完成与播放完成。
 
 `prepare` 与成功结果示例：
 
@@ -126,6 +137,15 @@ stateDiagram-v2
 {"type":"playback_interrupt","version":1,"sessionId":"sess_01J...","replyId":3,"reason":"barge_in"}
 ```
 
+Reply 失败消息：
+
+```json
+{"type":"reply_failed","version":1,"sessionId":"sess_01J...","turnId":"turn_...","replyId":"reply_...","generationEpoch":3,"component":"tts","code":"TTS_FAILED"}
+```
+
+收到后前端必须停止并清空该 `replyId` 的音频、口型和定时器，将机器人状态恢复
+为 Idle。该错误不关闭 Session；用户下一次有效发言可以创建新的 Reply。
+
 ## 6. 音频二进制帧
 
 每个二进制帧由固定 24 字节头部和 PCM 载荷组成，采用网络字节序（big-endian）。同一格式用于上行和下行，通过 `direction` 区分。
@@ -136,13 +156,31 @@ stateDiagram-v2
 | 2 | 1 | `version` | 固定 `1` |
 | 3 | 1 | `direction` | `0`：前端→后端；`1`：后端→前端 |
 | 4 | 8 | `sessionIdHash` | `sessionId` 的前 8 字节 SHA-256，用于快速校验归属 |
-| 12 | 4 | `sequence` | 从 0 递增的帧序号；每个方向独立计数 |
+| 12 | 4 | `sequence` | 从 0 连续递增的传输帧序号；每个方向独立计数，在真正下发/上发时分配 |
 | 16 | 8 | `timestampMs` | 采集（上行）或生成（下行）的 Unix 毫秒时间 |
 | 24 | N | `payload` | 原始 PCM 音频数据 |
 
 首期音频格式固定为 `pcm_s16le`、16 kHz、单声道、16 bit。每 100 ms payload 大小为 `16000 × 0.1 × 1 × 2 = 3200` 字节，帧总长为 3224 字节。非法格式、方向、会话哈希、长度或序号的帧应被丢弃并记录；持续异常可关闭会话。
 
-`avatar_frame.sequence` 与下行音频帧的 `sequence` 一致。WebSocket 保证单连接内帧的顺序；前端仍应容忍两帧短暂不同步：播放时若尚未收到对应状态，就使用上一张图片。
+`avatar_frame.sequence` 与下行音频帧的 `sequence` 一致。被打断且尚未发送的内部
+媒体包不会占用传输序号，因此下一条有效下行仍连续。WebSocket 保证单连接内帧的
+顺序；前端仍应容忍两帧短暂不同步：播放时若尚未收到对应状态，就使用闭嘴图片。
+
+`avatar_frame` 还携带 `turnId`、`replyId` 与 `generationEpoch`。前端在收到 `playback_interrupt` 后必须把对应 `replyId` 加入失效集合；即使旧二进制包晚到，也不得再进入播放队列。服务端在生成、媒体缓存和下发三处执行同样的 `replyId + generationEpoch` 校验。
+
+## 6.1 统一事件格式
+
+```json
+{
+  "eventId": "evt_...", "eventType": "llm_first_token", "component": "llm", "level": "info",
+  "sessionId": "sess_...", "turnId": "turn_...", "replyId": "reply_...",
+  "generationEpoch": 3, "sequence": null,
+  "timestampMs": 1788768000000, "monotonicMs": 123456.789,
+  "attributes": {}
+}
+```
+
+默认时间线隐藏 `attributes.highFrequency=true` 的逐包事件。延迟指标使用同一 Turn 内的事件时间差计算；服务端与浏览器跨进程指标使用 `timestampMs`，单进程诊断可使用 `monotonicMs`。
 
 ## 7. 前后端交互时序
 

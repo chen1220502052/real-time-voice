@@ -1,0 +1,107 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/13_14_教材页面_7dd4d9b6c0.jpg",
+  "units": [
+    11
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "ccd5b76dd16f6624a12ba6172d8f037221aa279388440779ed06b7b045fb0769",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "kick",
+              "meaning": "踢",
+              "uncertain": false
+            },
+            {
+              "word": "metre (AmE meter)",
+              "meaning": "米",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "投，掷",
+              "uncertain": false
+            },
+            {
+              "word": "hand",
+              "meaning": "手",
+              "uncertain": false
+            },
+            {
+              "word": "foot",
+              "meaning": "脚",
+              "uncertain": false
+            },
+            {
+              "word": "catch",
+              "meaning": "接住",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "用，具有，和……在一起",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "kick",
+              "meaning": "踢",
+              "uncertain": false
+            },
+            {
+              "word": "metre (AmE meter)",
+              "meaning": "米",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "投，掷",
+              "uncertain": false
+            },
+            {
+              "word": "hand",
+              "meaning": "手",
+              "uncertain": false
+            },
+            {
+              "word": "foot",
+              "meaning": "脚",
+              "uncertain": false
+            },
+            {
+              "word": "catch",
+              "meaning": "接住",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "用，具有，和……在一起",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

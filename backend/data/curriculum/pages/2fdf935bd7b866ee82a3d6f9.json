@@ -1,0 +1,265 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/e6accfe436c947002617184d-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "2fdf935bd7b866ee82a3d6f9e5bd06cf9fc2bcd6f4e076c10d69fe33429eb384",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "gym",
+              "meaning": "n.健身房;体育馆",
+              "uncertain": false
+            },
+            {
+              "word": "hotel",
+              "meaning": "n.旅馆",
+              "uncertain": false
+            },
+            {
+              "word": "theatre",
+              "meaning": "n.戏院;剧场",
+              "uncertain": false
+            },
+            {
+              "word": "museum",
+              "meaning": "n.博物馆",
+              "uncertain": false
+            },
+            {
+              "word": "road",
+              "meaning": "n.路;道路",
+              "uncertain": false
+            },
+            {
+              "word": "bridge",
+              "meaning": "n.桥",
+              "uncertain": false
+            },
+            {
+              "word": "across",
+              "meaning": "adv., prep.从一边到另一边;横过",
+              "uncertain": false
+            },
+            {
+              "word": "corner",
+              "meaning": "n.街角;拐角",
+              "uncertain": false
+            },
+            {
+              "word": "excuse",
+              "meaning": "v.原谅",
+              "uncertain": false
+            },
+            {
+              "word": "excuse",
+              "meaning": "n.借口",
+              "uncertain": false
+            },
+            {
+              "word": "cinema",
+              "meaning": "n.电影院",
+              "uncertain": false
+            },
+            {
+              "word": "madam",
+              "meaning": "n.女士;夫人",
+              "uncertain": false
+            },
+            {
+              "word": "could",
+              "meaning": "modal v.能,可以",
+              "uncertain": false
+            },
+            {
+              "word": "policeman",
+              "meaning": "n.(男)警察",
+              "uncertain": false
+            },
+            {
+              "word": "sir",
+              "meaning": "n.先生",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "n.(铁)路线;线;行,列",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "v.沿……形成行(或列、排)",
+              "uncertain": false
+            },
+            {
+              "word": "station",
+              "meaning": "n.公共汽车站,长途汽车站;火车站",
+              "uncertain": false
+            },
+            {
+              "word": "change",
+              "meaning": "v.换乘;改变 n.改变",
+              "uncertain": false
+            },
+            {
+              "word": "minute",
+              "meaning": "n.分钟",
+              "uncertain": false
+            },
+            {
+              "word": "along",
+              "meaning": "prep.沿着,顺着",
+              "uncertain": false
+            },
+            {
+              "word": "until",
+              "meaning": "conj., prep.(till /tɪl/) 直到……为止",
+              "uncertain": false
+            },
+            {
+              "word": "crossing",
+              "meaning": "n.安全通行处;人行横道",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "gym",
+              "meaning": "n.健身房;体育馆",
+              "uncertain": false
+            },
+            {
+              "word": "hotel",
+              "meaning": "n.旅馆",
+              "uncertain": false
+            },
+            {
+              "word": "theatre",
+              "meaning": "n.戏院;剧场",
+              "uncertain": false
+            },
+            {
+              "word": "museum",
+              "meaning": "n.博物馆",
+              "uncertain": false
+            },
+            {
+              "word": "road",
+              "meaning": "n.路;道路",
+              "uncertain": false
+            },
+            {
+              "word": "bridge",
+              "meaning": "n.桥",
+              "uncertain": false
+            },
+            {
+              "word": "across",
+              "meaning": "adv., prep.从一边到另一边;横过",
+              "uncertain": false
+            },
+            {
+              "word": "corner",
+              "meaning": "n.街角;拐角",
+              "uncertain": false
+            },
+            {
+              "word": "excuse",
+              "meaning": "v.原谅",
+              "uncertain": false
+            },
+            {
+              "word": "excuse",
+              "meaning": "n.借口",
+              "uncertain": false
+            },
+            {
+              "word": "cinema",
+              "meaning": "n.电影院",
+              "uncertain": false
+            },
+            {
+              "word": "madam",
+              "meaning": "n.女士;夫人",
+              "uncertain": false
+            },
+            {
+              "word": "could",
+              "meaning": "modal v.能,可以",
+              "uncertain": false
+            },
+            {
+              "word": "policeman",
+              "meaning": "n.(男)警察",
+              "uncertain": false
+            },
+            {
+              "word": "sir",
+              "meaning": "n.先生",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "n.(铁)路线;线;行,列",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "v.沿……形成行(或列、排)",
+              "uncertain": false
+            },
+            {
+              "word": "station",
+              "meaning": "n.公共汽车站,长途汽车站;火车站",
+              "uncertain": false
+            },
+            {
+              "word": "change",
+              "meaning": "v.换乘;改变 n.改变",
+              "uncertain": false
+            },
+            {
+              "word": "minute",
+              "meaning": "n.分钟",
+              "uncertain": false
+            },
+            {
+              "word": "along",
+              "meaning": "prep.沿着,顺着",
+              "uncertain": false
+            },
+            {
+              "word": "until",
+              "meaning": "conj., prep.(till /tɪl/) 直到……为止",
+              "uncertain": false
+            },
+            {
+              "word": "crossing",
+              "meaning": "n.安全通行处;人行横道",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

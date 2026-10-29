@@ -1,0 +1,235 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页151.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "0430c97426a46e59abd385787f516fb4c1eaba77547992258a220ea5c47f6a62",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sound",
+              "meaning": "v.听起来好像 n.声音",
+              "uncertain": false
+            },
+            {
+              "word": "soccer",
+              "meaning": "n.足球,足球运动",
+              "uncertain": false
+            },
+            {
+              "word": "channel",
+              "meaning": "n.水道;航道",
+              "uncertain": false
+            },
+            {
+              "word": "tunnel",
+              "meaning": "n.地下通道;隧道",
+              "uncertain": false
+            },
+            {
+              "word": "difficult",
+              "meaning": "adj.困难的",
+              "uncertain": false
+            },
+            {
+              "word": "project",
+              "meaning": "n.项目;方案;专题研究",
+              "uncertain": false
+            },
+            {
+              "word": "British",
+              "meaning": "adj.英国的;英国人的",
+              "uncertain": false
+            },
+            {
+              "word": "dream",
+              "meaning": "n.梦想;梦 v.做梦",
+              "uncertain": false
+            },
+            {
+              "word": "chalk",
+              "meaning": "n.粉笔",
+              "uncertain": false
+            },
+            {
+              "word": "copy",
+              "meaning": "v.复制;复印 n.复印件,副本",
+              "uncertain": false
+            },
+            {
+              "word": "support",
+              "meaning": "v., n.支持",
+              "uncertain": false
+            },
+            {
+              "word": "task",
+              "meaning": "n.任务,工作;活动",
+              "uncertain": false
+            },
+            {
+              "word": "goal",
+              "meaning": "n.目标,目的;球门",
+              "uncertain": false
+            },
+            {
+              "word": "face",
+              "meaning": "v.面临,必须对付(某情况);面对,面向 n.脸",
+              "uncertain": false
+            },
+            {
+              "word": "trust",
+              "meaning": "n., v.信任;信赖",
+              "uncertain": false
+            },
+            {
+              "word": "hard-working",
+              "meaning": "adj.工作努力的;辛勤的",
+              "uncertain": false
+            },
+            {
+              "word": "lunch",
+              "meaning": "n.午餐;午饭",
+              "uncertain": false
+            },
+            {
+              "word": "rainbow",
+              "meaning": "n.彩虹",
+              "uncertain": false
+            },
+            {
+              "word": "mistake",
+              "meaning": "n.错误,失误 v.误解,误会",
+              "uncertain": false
+            },
+            {
+              "word": "peace",
+              "meaning": "n.和平;平静",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "sound",
+              "meaning": "v.听起来好像 n.声音",
+              "uncertain": false
+            },
+            {
+              "word": "soccer",
+              "meaning": "n.足球,足球运动",
+              "uncertain": false
+            },
+            {
+              "word": "channel",
+              "meaning": "n.水道;航道",
+              "uncertain": false
+            },
+            {
+              "word": "tunnel",
+              "meaning": "n.地下通道;隧道",
+              "uncertain": false
+            },
+            {
+              "word": "difficult",
+              "meaning": "adj.困难的",
+              "uncertain": false
+            },
+            {
+              "word": "project",
+              "meaning": "n.项目;方案;专题研究",
+              "uncertain": false
+            },
+            {
+              "word": "British",
+              "meaning": "adj.英国的;英国人的",
+              "uncertain": false
+            },
+            {
+              "word": "dream",
+              "meaning": "n.梦想;梦 v.做梦",
+              "uncertain": false
+            },
+            {
+              "word": "chalk",
+              "meaning": "n.粉笔",
+              "uncertain": false
+            },
+            {
+              "word": "copy",
+              "meaning": "v.复制;复印 n.复印件,副本",
+              "uncertain": false
+            },
+            {
+              "word": "support",
+              "meaning": "v., n.支持",
+              "uncertain": false
+            },
+            {
+              "word": "task",
+              "meaning": "n.任务,工作;活动",
+              "uncertain": false
+            },
+            {
+              "word": "goal",
+              "meaning": "n.目标,目的;球门",
+              "uncertain": false
+            },
+            {
+              "word": "face",
+              "meaning": "v.面临,必须对付(某情况);面对,面向 n.脸",
+              "uncertain": false
+            },
+            {
+              "word": "trust",
+              "meaning": "n., v.信任;信赖",
+              "uncertain": false
+            },
+            {
+              "word": "hard-working",
+              "meaning": "adj.工作努力的;辛勤的",
+              "uncertain": false
+            },
+            {
+              "word": "lunch",
+              "meaning": "n.午餐;午饭",
+              "uncertain": false
+            },
+            {
+              "word": "rainbow",
+              "meaning": "n.彩虹",
+              "uncertain": false
+            },
+            {
+              "word": "mistake",
+              "meaning": "n.错误,失误 v.误解,误会",
+              "uncertain": false
+            },
+            {
+              "word": "peace",
+              "meaning": "n.和平;平静",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

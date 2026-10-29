@@ -1,0 +1,237 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/02_02_教材页面_f51bf115fa.png",
+  "units": [
+    2
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "830cb4255ff64be599545df0ee57985a01dd8a8c05253f8064ba8ab3d207439a",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "piano",
+              "meaning": "钢琴",
+              "uncertain": false
+            },
+            {
+              "word": "go shopping",
+              "meaning": "去购物",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese chess",
+              "meaning": "象棋",
+              "uncertain": false
+            },
+            {
+              "word": "go swimming",
+              "meaning": "去游泳",
+              "uncertain": false
+            },
+            {
+              "word": "club",
+              "meaning": "俱乐部",
+              "uncertain": false
+            },
+            {
+              "word": "weekend",
+              "meaning": "周末",
+              "uncertain": false
+            },
+            {
+              "word": "busy",
+              "meaning": "忙碌的",
+              "uncertain": false
+            },
+            {
+              "word": "often",
+              "meaning": "经常",
+              "uncertain": false
+            },
+            {
+              "word": "sometimes",
+              "meaning": "有时",
+              "uncertain": false
+            },
+            {
+              "word": "never",
+              "meaning": "从不",
+              "uncertain": false
+            },
+            {
+              "word": "always",
+              "meaning": "总是",
+              "uncertain": false
+            },
+            {
+              "word": "really",
+              "meaning": "真的(表示兴趣或惊讶)",
+              "uncertain": false
+            },
+            {
+              "word": "keep",
+              "meaning": "保持",
+              "uncertain": false
+            },
+            {
+              "word": "week",
+              "meaning": "周，星期",
+              "uncertain": false
+            },
+            {
+              "word": "enough",
+              "meaning": "足够的",
+              "uncertain": false
+            },
+            {
+              "word": "Coke",
+              "meaning": "可乐",
+              "uncertain": false
+            },
+            {
+              "word": "before",
+              "meaning": "在……之前",
+              "uncertain": false
+            },
+            {
+              "word": "bedtime",
+              "meaning": "就寝时间",
+              "uncertain": false
+            },
+            {
+              "word": "sleep",
+              "meaning": "睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "train",
+              "meaning": "火车",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "piano",
+              "meaning": "钢琴",
+              "uncertain": false
+            },
+            {
+              "word": "go shopping",
+              "meaning": "去购物",
+              "uncertain": false
+            },
+            {
+              "word": "Chinese chess",
+              "meaning": "象棋",
+              "uncertain": false
+            },
+            {
+              "word": "go swimming",
+              "meaning": "去游泳",
+              "uncertain": false
+            },
+            {
+              "word": "club",
+              "meaning": "俱乐部",
+              "uncertain": false
+            },
+            {
+              "word": "weekend",
+              "meaning": "周末",
+              "uncertain": false
+            },
+            {
+              "word": "busy",
+              "meaning": "忙碌的",
+              "uncertain": false
+            },
+            {
+              "word": "often",
+              "meaning": "经常",
+              "uncertain": false
+            },
+            {
+              "word": "sometimes",
+              "meaning": "有时",
+              "uncertain": false
+            },
+            {
+              "word": "never",
+              "meaning": "从不",
+              "uncertain": false
+            },
+            {
+              "word": "always",
+              "meaning": "总是",
+              "uncertain": false
+            },
+            {
+              "word": "really",
+              "meaning": "真的(表示兴趣或惊讶)",
+              "uncertain": false
+            },
+            {
+              "word": "keep",
+              "meaning": "保持",
+              "uncertain": false
+            },
+            {
+              "word": "week",
+              "meaning": "周，星期",
+              "uncertain": false
+            },
+            {
+              "word": "enough",
+              "meaning": "足够的",
+              "uncertain": false
+            },
+            {
+              "word": "Coke",
+              "meaning": "可乐",
+              "uncertain": false
+            },
+            {
+              "word": "before",
+              "meaning": "在……之前",
+              "uncertain": false
+            },
+            {
+              "word": "bedtime",
+              "meaning": "就寝时间",
+              "uncertain": false
+            },
+            {
+              "word": "sleep",
+              "meaning": "睡觉",
+              "uncertain": false
+            },
+            {
+              "word": "train",
+              "meaning": "火车",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

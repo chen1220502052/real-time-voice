@@ -1,0 +1,154 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 10,
+  "units": [
+    10
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/115/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 10 Following rules/课文/03_教材页面_f1522e4fc4.jpg",
+  "sha256": "0668f81a978ad1d89fea1e57f3b49ab2a08c6d35710eaf1ad221d94c1956d5f5",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "Classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tidy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Window",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Close",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Door",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "door",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Classroom, classroom,",
+        "Tidy up the classroom.",
+        "Window, window,",
+        "Close the window.",
+        "Door, door,",
+        "Close the door."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "Classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "classroom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tidy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Window",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "window",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Close",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Door",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "door",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Classroom, classroom,",
+        "Tidy up the classroom.",
+        "Window, window,",
+        "Close the window.",
+        "Door, door,",
+        "Close the door."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

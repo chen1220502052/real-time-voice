@@ -5,6 +5,7 @@ import contextvars
 import json
 import logging
 import os
+import re
 import time
 import uuid
 from typing import Dict, Iterator, Optional
@@ -49,20 +50,42 @@ def trace_context(trace_id: str) -> Iterator[None]:
 
 
 def log_event(event: str, level: int = logging.INFO, **fields: object) -> None:
-    payload: Dict[str, object] = {"event": event, "traceId": _trace_id.get(), **fields}
+    # Per-frame start/end pairs alone exhausted journald's service-wide budget,
+    # hiding login, rejection and disconnect logs. Timelines sent to the browser
+    # remain unchanged; detailed server spans can be explicitly re-enabled.
+    if os.getenv('LOG_AUDIO_SPANS', '0') != '1':
+        if event in {'span.start', 'span.end'} and (fields.get('span') in {'duplex.asr_vad', 'websocket.audio.decode'} or
+                (fields.get('span') == 'websocket.control' and fields.get('messageType') == 'client_event')):
+            return
+        if event == 'control.received' and fields.get('messageType') == 'client_event':
+            return
+        if event == 'client.event' and fields.get('eventType') == 'playback_progress':
+            return
+    payload: Dict[str, object] = {"event": event, "traceId": _trace_id.get(),
+                                  **{key: _sanitize(value) for key, value in fields.items()}}
     logging.getLogger("real_time_voice").log(level, json.dumps(payload, ensure_ascii=False, default=str))
+
+
+def _sanitize(value: object) -> object:
+    if not isinstance(value, str):
+        return value
+    text = re.sub(r"\b(?:ghp_|sk-[A-Za-z0-9_-]*|sk-proj-)[A-Za-z0-9_-]+", "<secret>", value)
+    home = os.path.expanduser("~")
+    text = re.sub(re.escape(home) + r"/[^\s\"']+", "<path>", text)
+    return text
 
 
 @contextlib.contextmanager
 def span(name: str, **attributes: object) -> Iterator[None]:
     started = time.perf_counter()
     log_event("span.start", span=name, **attributes)
+    tracer_scope = None
     tracer_span = None
     try:
         if OTEL_AVAILABLE:
             tracer = otel_trace.get_tracer("real_time_voice")
-            tracer_span = tracer.start_as_current_span(name, attributes=attributes)
-            tracer_span.__enter__()
+            tracer_scope = tracer.start_as_current_span(name, attributes=attributes)
+            tracer_span = tracer_scope.__enter__()
         yield
     except Exception as exc:
         log_event("span.error", level=logging.ERROR, span=name, error=str(exc), **attributes)
@@ -71,6 +94,6 @@ def span(name: str, **attributes: object) -> Iterator[None]:
         raise
     finally:
         elapsed_ms = round((time.perf_counter() - started) * 1000, 2)
-        if tracer_span is not None:
-            tracer_span.__exit__(None, None, None)
+        if tracer_scope is not None:
+            tracer_scope.__exit__(None, None, None)
         log_event("span.end", span=name, durationMs=elapsed_ms, **attributes)

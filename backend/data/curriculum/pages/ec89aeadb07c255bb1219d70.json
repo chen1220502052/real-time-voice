@@ -1,0 +1,267 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/5年级/上册_完整教材词表/原图/04_04_教材页面_319d4faf03.png",
+  "units": [
+    4
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/150/detail/",
+  "sha256": "ec89aeadb07c255bb1219d70efd6e32aede941c30682fad57c4cc58a7a84235d",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "sixty",
+              "meaning": "六十",
+              "uncertain": false
+            },
+            {
+              "word": "seventy",
+              "meaning": "七十",
+              "uncertain": false
+            },
+            {
+              "word": "eighty",
+              "meaning": "八十",
+              "uncertain": false
+            },
+            {
+              "word": "ninety",
+              "meaning": "九十",
+              "uncertain": false
+            },
+            {
+              "word": "hundred",
+              "meaning": "百",
+              "uncertain": false
+            },
+            {
+              "word": "buy",
+              "meaning": "购买",
+              "uncertain": false
+            },
+            {
+              "word": "pair",
+              "meaning": "一双，一对",
+              "uncertain": false
+            },
+            {
+              "word": "expensive",
+              "meaning": "昂贵的",
+              "uncertain": false
+            },
+            {
+              "word": "money",
+              "meaning": "钱",
+              "uncertain": false
+            },
+            {
+              "word": "pocket money",
+              "meaning": "零用钱",
+              "uncertain": false
+            },
+            {
+              "word": "clever",
+              "meaning": "聪明的",
+              "uncertain": false
+            },
+            {
+              "word": "think",
+              "meaning": "思考",
+              "uncertain": false
+            },
+            {
+              "word": "need",
+              "meaning": "需要",
+              "uncertain": false
+            },
+            {
+              "word": "save",
+              "meaning": "储存，节约",
+              "uncertain": false
+            },
+            {
+              "word": "different",
+              "meaning": "不同的",
+              "uncertain": false
+            },
+            {
+              "word": "shop",
+              "meaning": "商店；购物",
+              "uncertain": false
+            },
+            {
+              "word": "then",
+              "meaning": "然后，接下来",
+              "uncertain": false
+            },
+            {
+              "word": "price",
+              "meaning": "价格",
+              "uncertain": false
+            },
+            {
+              "word": "learn",
+              "meaning": "学习，学会",
+              "uncertain": false
+            },
+            {
+              "word": "lot",
+              "meaning": "大量，许多",
+              "uncertain": false
+            },
+            {
+              "word": "a lot",
+              "meaning": "大量，许多",
+              "uncertain": false
+            },
+            {
+              "word": "glove",
+              "meaning": "手套",
+              "uncertain": false
+            },
+            {
+              "word": "slow",
+              "meaning": "缓慢的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 4,
+          "entries": [
+            {
+              "word": "sixty",
+              "meaning": "六十",
+              "uncertain": false
+            },
+            {
+              "word": "seventy",
+              "meaning": "七十",
+              "uncertain": false
+            },
+            {
+              "word": "eighty",
+              "meaning": "八十",
+              "uncertain": false
+            },
+            {
+              "word": "ninety",
+              "meaning": "九十",
+              "uncertain": false
+            },
+            {
+              "word": "hundred",
+              "meaning": "百",
+              "uncertain": false
+            },
+            {
+              "word": "buy",
+              "meaning": "购买",
+              "uncertain": false
+            },
+            {
+              "word": "pair",
+              "meaning": "一双，一对",
+              "uncertain": false
+            },
+            {
+              "word": "expensive",
+              "meaning": "昂贵的",
+              "uncertain": false
+            },
+            {
+              "word": "money",
+              "meaning": "钱",
+              "uncertain": false
+            },
+            {
+              "word": "pocket money",
+              "meaning": "零用钱",
+              "uncertain": false
+            },
+            {
+              "word": "clever",
+              "meaning": "聪明的",
+              "uncertain": false
+            },
+            {
+              "word": "think",
+              "meaning": "思考",
+              "uncertain": false
+            },
+            {
+              "word": "need",
+              "meaning": "需要",
+              "uncertain": false
+            },
+            {
+              "word": "save",
+              "meaning": "储存，节约",
+              "uncertain": false
+            },
+            {
+              "word": "different",
+              "meaning": "不同的",
+              "uncertain": false
+            },
+            {
+              "word": "shop",
+              "meaning": "商店；购物",
+              "uncertain": false
+            },
+            {
+              "word": "then",
+              "meaning": "然后，接下来",
+              "uncertain": false
+            },
+            {
+              "word": "price",
+              "meaning": "价格",
+              "uncertain": false
+            },
+            {
+              "word": "learn",
+              "meaning": "学习，学会",
+              "uncertain": false
+            },
+            {
+              "word": "lot",
+              "meaning": "大量，许多",
+              "uncertain": false
+            },
+            {
+              "word": "a lot",
+              "meaning": "大量，许多",
+              "uncertain": false
+            },
+            {
+              "word": "glove",
+              "meaning": "手套",
+              "uncertain": false
+            },
+            {
+              "word": "slow",
+              "meaning": "缓慢的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

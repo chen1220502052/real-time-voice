@@ -1,0 +1,127 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/01_04_教材页面_9552a1ad05.jpg",
+  "units": [
+    1
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "ce08eaba99fca6b8300de2a8f0786c43b05fc6a0a2b5c5994152be557c4a86fb",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "some",
+              "meaning": "一些",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "面包",
+              "uncertain": false
+            },
+            {
+              "word": "water",
+              "meaning": "水，水域； 给……浇水",
+              "uncertain": false
+            },
+            {
+              "word": "ice cream",
+              "meaning": "冰激凌",
+              "uncertain": false
+            },
+            {
+              "word": "tea",
+              "meaning": "茶，茶叶",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "果汁",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "可以，能，会",
+              "uncertain": false
+            },
+            {
+              "word": "please",
+              "meaning": "请",
+              "uncertain": false
+            },
+            {
+              "word": "sure",
+              "meaning": "当然",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "some",
+              "meaning": "一些",
+              "uncertain": false
+            },
+            {
+              "word": "bread",
+              "meaning": "面包",
+              "uncertain": false
+            },
+            {
+              "word": "water",
+              "meaning": "水，水域； 给……浇水",
+              "uncertain": false
+            },
+            {
+              "word": "ice cream",
+              "meaning": "冰激凌",
+              "uncertain": false
+            },
+            {
+              "word": "tea",
+              "meaning": "茶，茶叶",
+              "uncertain": false
+            },
+            {
+              "word": "juice",
+              "meaning": "果汁",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "可以，能，会",
+              "uncertain": false
+            },
+            {
+              "word": "please",
+              "meaning": "请",
+              "uncertain": false
+            },
+            {
+              "word": "sure",
+              "meaning": "当然",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

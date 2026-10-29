@@ -1,0 +1,117 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/4年级/下册_完整教材词表/原图/10_13_教材页面_f88d67a8dd.jpg",
+  "units": [
+    10
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/129/detail/",
+  "sha256": "5a76989cdeeb67dd8448c364e9a3ea8e6fe52f45ec427a264b52e97af242fa6c",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "read",
+              "meaning": "阅读",
+              "uncertain": false
+            },
+            {
+              "word": "homework",
+              "meaning": "家庭作业",
+              "uncertain": false
+            },
+            {
+              "word": "word",
+              "meaning": "字，词",
+              "uncertain": false
+            },
+            {
+              "word": "word puzzle",
+              "meaning": "字谜",
+              "uncertain": false
+            },
+            {
+              "word": "walk",
+              "meaning": "遛，步行",
+              "uncertain": false
+            },
+            {
+              "word": "TV",
+              "meaning": "电视",
+              "uncertain": false
+            },
+            {
+              "word": "tidy",
+              "meaning": "整理",
+              "uncertain": false
+            },
+            {
+              "word": "glad",
+              "meaning": "高兴的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "read",
+              "meaning": "阅读",
+              "uncertain": false
+            },
+            {
+              "word": "homework",
+              "meaning": "家庭作业",
+              "uncertain": false
+            },
+            {
+              "word": "word",
+              "meaning": "字，词",
+              "uncertain": false
+            },
+            {
+              "word": "word puzzle",
+              "meaning": "字谜",
+              "uncertain": false
+            },
+            {
+              "word": "walk",
+              "meaning": "遛，步行",
+              "uncertain": false
+            },
+            {
+              "word": "TV",
+              "meaning": "电视",
+              "uncertain": false
+            },
+            {
+              "word": "tidy",
+              "meaning": "整理",
+              "uncertain": false
+            },
+            {
+              "word": "glad",
+              "meaning": "高兴的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

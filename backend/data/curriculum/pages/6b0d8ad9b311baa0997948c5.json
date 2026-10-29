@@ -1,0 +1,302 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 9,
+  "units": [
+    9
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/114/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 9 Our teachers and classmates/课文/03_教材页面_8edd836b72.jpg",
+  "sha256": "6b0d8ad9b311baa0997948c590edcbb0eca7e0b11610bee0bc002ad25323f338",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "new",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "teacher",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "does",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "she",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "She",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "has",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "long",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "black",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "hair",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "her",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "class",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sings",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "well",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "We have a new music teacher.",
+        "What does she look like?",
+        "She is young. She has long black hair.",
+        "Do you like her class?",
+        "Yes. She sings well."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 9,
+          "entries": [
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "new",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "music",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "teacher",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "does",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "she",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "She",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "young",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "has",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "long",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "black",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "hair",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "her",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "class",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sings",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "well",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "We have a new music teacher.",
+        "What does she look like?",
+        "She is young. She has long black hair.",
+        "Do you like her class?",
+        "Yes. She sings well."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

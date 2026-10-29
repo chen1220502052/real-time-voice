@@ -1,0 +1,107 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/12_13_教材页面_deba4bdee0.jpg",
+  "units": [
+    10
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "1a537762b5611cb6568a869bc58b10af81301341b780b3ba7c754157ad81c82d",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "skateboard",
+              "meaning": "(在滑板上)滑行；滑板",
+              "uncertain": false
+            },
+            {
+              "word": "run",
+              "meaning": "奔跑",
+              "uncertain": false
+            },
+            {
+              "word": "find",
+              "meaning": "找到",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "尝试",
+              "uncertain": false
+            },
+            {
+              "word": "litter",
+              "meaning": "乱扔",
+              "uncertain": false
+            },
+            {
+              "word": "follow",
+              "meaning": "遵循，跟随",
+              "uncertain": false
+            },
+            {
+              "word": "roar",
+              "meaning": "吼叫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 10,
+          "entries": [
+            {
+              "word": "skateboard",
+              "meaning": "(在滑板上)滑行；滑板",
+              "uncertain": false
+            },
+            {
+              "word": "run",
+              "meaning": "奔跑",
+              "uncertain": false
+            },
+            {
+              "word": "find",
+              "meaning": "找到",
+              "uncertain": false
+            },
+            {
+              "word": "try",
+              "meaning": "尝试",
+              "uncertain": false
+            },
+            {
+              "word": "litter",
+              "meaning": "乱扔",
+              "uncertain": false
+            },
+            {
+              "word": "follow",
+              "meaning": "遵循，跟随",
+              "uncertain": false
+            },
+            {
+              "word": "roar",
+              "meaning": "吼叫",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

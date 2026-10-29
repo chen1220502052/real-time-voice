@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="mascot" viewBox="0 0 320 320" fill="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="fur" x1="95" y1="66" x2="220" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFEF8"/><stop offset="1" stop-color="#E9E3D7"/></linearGradient>
+                <linearGradient id="ear" x1="100" y1="65" x2="109" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#F3B8B2"/><stop offset="1" stop-color="#F8D9CD"/></linearGradient>
+                <linearGradient id="mint" x1="87" y1="125" x2="233" y2="220" gradientUnits="userSpaceOnUse"><stop stop-color="#B1E6D7"/><stop offset="1" stop-color="#68AD9E"/></linearGradient>
+                <radialGradient id="blush"><stop stop-color="#F2B3A7" stop-opacity=".78"/><stop offset="1" stop-color="#F2B3A7" stop-opacity="0"/></radialGradient>
+              </defs>
+              <ellipse class="mascot-shadow" cx="160" cy="289" rx="78" ry="10" fill="#030A14" opacity=".23"/>
+              <g class="mascot-character">
+                <path class="mascot-tail" d="M207 265C258 278 262 230 244 228C229 227 240 254 215 249" stroke="#EAE4D8" stroke-width="19" stroke-linecap="round"/>
+                <path d="M113 229C114 206 134 198 160 198C186 198 206 211 207 238L208 269C186 283 135 283 112 269L113 229Z" fill="url(#fur)"/>
+                <ellipse cx="160" cy="252" rx="29" ry="22" fill="#FFFDF5" opacity=".7"/>
+                <path d="M105 258C91 252 92 238 104 237C118 237 124 251 117 261" fill="#F7F3E9"/>
+                <path d="M215 258C229 252 228 238 216 237C202 237 196 251 203 261" fill="#F7F3E9"/>
+                <ellipse cx="130" cy="276" rx="23" ry="13" fill="#F7F3E9"/>
+                <ellipse cx="190" cy="276" rx="23" ry="13" fill="#F7F3E9"/>
+                <path d="M125 277V280M134 277V281M186 277V281M195 277V280" stroke="#D7CEC0" stroke-width="2" stroke-linecap="round"/>
+                <path d="M93 122C85 103 86 65 97 57C103 53 130 70 141 84H179C190 70 217 53 223 57C234 65 235 103 227 122" fill="url(#fur)"/>
+                <path d="M102 108C98 93 98 76 102 72C107 72 122 85 128 94L102 108Z" fill="url(#ear)"/>
+                <path d="M218 108C222 93 222 76 218 72C213 72 198 85 192 94L218 108Z" fill="url(#ear)"/>
+                <path d="M74 158C74 111 110 88 160 88C210 88 246 111 246 158C246 205 213 227 160 227C107 227 74 205 74 158Z" fill="url(#fur)"/>
+                <path d="M147 94L151 105M160 92V104M173 94L169 105" stroke="#DCD4C7" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+                <ellipse cx="106" cy="178" rx="25" ry="17" fill="url(#blush)"/>
+                <ellipse cx="214" cy="178" rx="25" ry="17" fill="url(#blush)"/>
+                <g class="mascot-eyes">
+                  <ellipse cx="125" cy="153" rx="8" ry="11" fill="#3E4547"/>
+                  <ellipse cx="195" cy="153" rx="8" ry="11" fill="#3E4547"/>
+                  <circle cx="128" cy="149" r="2.5" fill="#FFFDF5"/>
+                  <circle cx="198" cy="149" r="2.5" fill="#FFFDF5"/>
+                </g>
+                <path d="M155 170Q160 167 165 170Q166 172 160 176Q154 172 155 170Z" fill="#B4877F"/>
+                <g id="mouth">
+                  <path class="mascot-smile" d="M147 180Q151 187 160 180Q169 187 173 180" stroke="#655851" stroke-width="2.5" stroke-linecap="round"/>
+                  <g class="mascot-open-mouth"><path d="M150 180Q160 184 170 180V186Q170 198 160 198Q150 198 150 186V180Z" fill="#65505A"/><ellipse cx="160" cy="195" rx="7" ry="4" fill="#E8A7AE"/></g>
+                </g>
+                <path d="M95 170L84 167M95 180L83 182M225 170L236 167M225 180L237 182" stroke="#B9AEA0" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+                <path d="M73 153C71 92 108 69 160 69C212 69 249 92 247 153" stroke="#41665F" stroke-width="11" stroke-linecap="round"/>
+                <path d="M73 143C73 93 109 72 160 72C211 72 247 93 247 143" stroke="#A6DACD" stroke-width="7" stroke-linecap="round"/>
+                <rect x="63" y="138" width="26" height="49" rx="13" fill="url(#mint)"/>
+                <rect x="231" y="138" width="26" height="49" rx="13" fill="url(#mint)"/>
+                <path d="M71 150V172M249 150V172" stroke="#DAF5E9" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+                <path d="M244 184C244 204 224 206 207 203" stroke="#86C5B4" stroke-width="5" stroke-linecap="round"/>
+                <rect x="194" y="198" width="20" height="9" rx="4.5" fill="#486B62"/>
+                <path d="M134 222Q160 234 186 222" stroke="#8AC9B5" stroke-width="10" stroke-linecap="round"/>
+                <path d="M174 227L184 245L190 234L186 222" fill="#8AC9B5"/>
+                <circle cx="160" cy="231" r="8" fill="#F5D694"/>
+                <path d="M160 227V231L163 233" stroke="#B4975C" stroke-width="1.5" stroke-linecap="round"/>
+              </g>
+              <g class="mascot-sparkle" stroke="#C7E9DF" stroke-width="2" stroke-linecap="round"><path d="M264 103V115M258 109H270"/><path d="M59 215V223M55 219H63" opacity=".55"/></g>
+            </svg>

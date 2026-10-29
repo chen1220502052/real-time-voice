@@ -1,0 +1,505 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页143.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "afe92dfce8689082cae3a4ca097f81e571a6c5e1d753e49ac54db38ec02a4e83",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "invite",
+              "meaning": "(正式)邀请",
+              "uncertain": false
+            },
+            {
+              "word": "disappointed",
+              "meaning": "失望的,沮丧的",
+              "uncertain": false
+            },
+            {
+              "word": "film",
+              "meaning": "电影;影片",
+              "uncertain": false
+            },
+            {
+              "word": "smell",
+              "meaning": "发气味;闻(到),嗅(到) n.气味",
+              "uncertain": false
+            },
+            {
+              "word": "seem",
+              "meaning": "似乎,好像",
+              "uncertain": false
+            },
+            {
+              "word": "opera",
+              "meaning": "歌剧;歌剧剧本",
+              "uncertain": false
+            },
+            {
+              "word": "excite",
+              "meaning": "使激动,使兴奋",
+              "uncertain": false
+            },
+            {
+              "word": "care for",
+              "meaning": "照顾,照料",
+              "uncertain": false
+            },
+            {
+              "word": "lonely",
+              "meaning": "孤独的,寂寞的",
+              "uncertain": false
+            },
+            {
+              "word": "lively",
+              "meaning": "充满趣味的;充满生气的",
+              "uncertain": false
+            },
+            {
+              "word": "cheer up",
+              "meaning": "(使)振作起来;(使)高兴起来",
+              "uncertain": false
+            },
+            {
+              "word": "almost",
+              "meaning": "几乎,差不多",
+              "uncertain": false
+            },
+            {
+              "word": "mainly",
+              "meaning": "主要地",
+              "uncertain": false
+            },
+            {
+              "word": "role",
+              "meaning": "角色",
+              "uncertain": false
+            },
+            {
+              "word": "be full of",
+              "meaning": "满的,充满的,满是……的",
+              "uncertain": false
+            },
+            {
+              "word": "facial",
+              "meaning": "面部的",
+              "uncertain": false
+            },
+            {
+              "word": "painting",
+              "meaning": "油画,绘画",
+              "uncertain": false
+            },
+            {
+              "word": "gesture",
+              "meaning": "姿势,手势",
+              "uncertain": false
+            },
+            {
+              "word": "frightened",
+              "meaning": "惊吓的;受惊的;害怕的",
+              "uncertain": false
+            },
+            {
+              "word": "worried",
+              "meaning": "担心的,担忧的",
+              "uncertain": false
+            },
+            {
+              "word": "in the end",
+              "meaning": "最后,终于",
+              "uncertain": false
+            },
+            {
+              "word": "interested",
+              "meaning": "感兴趣的",
+              "uncertain": false
+            },
+            {
+              "word": "upset",
+              "meaning": "心烦的,苦恼的",
+              "uncertain": false
+            },
+            {
+              "word": "exam",
+              "meaning": "考试",
+              "uncertain": false
+            },
+            {
+              "word": "strict",
+              "meaning": "严格的;严密的",
+              "uncertain": false
+            },
+            {
+              "word": "be strict with",
+              "meaning": "对……严格要求",
+              "uncertain": false
+            },
+            {
+              "word": "shy",
+              "meaning": "害羞的",
+              "uncertain": false
+            },
+            {
+              "word": "take it easy",
+              "meaning": "别紧张,别着急",
+              "uncertain": false
+            },
+            {
+              "word": "fail",
+              "meaning": "不及格;失败;未做",
+              "uncertain": false
+            },
+            {
+              "word": "someone",
+              "meaning": "某人",
+              "uncertain": false
+            },
+            {
+              "word": "feeling",
+              "meaning": "感觉,感触;想法",
+              "uncertain": false
+            },
+            {
+              "word": "joke",
+              "meaning": "笑话,玩笑 v.说笑话,开玩笑",
+              "uncertain": false
+            },
+            {
+              "word": "by the way",
+              "meaning": "顺便提一下;捎带说一声",
+              "uncertain": false
+            },
+            {
+              "word": "yeah",
+              "meaning": "(口语)是,是的;好的",
+              "uncertain": false
+            },
+            {
+              "word": "usual",
+              "meaning": "通常的,平常的",
+              "uncertain": false
+            },
+            {
+              "word": "as usual",
+              "meaning": "像往常一样",
+              "uncertain": false
+            },
+            {
+              "word": "either",
+              "meaning": "二者之一;要么…… pron.二者之一;要么……",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "接受",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "可爱的;美丽的",
+              "uncertain": false
+            },
+            {
+              "word": "helpful",
+              "meaning": "有用的;有益的",
+              "uncertain": false
+            },
+            {
+              "word": "international",
+              "meaning": "国际的",
+              "uncertain": false
+            },
+            {
+              "word": "useless",
+              "meaning": "无用的,无效的",
+              "uncertain": false
+            },
+            {
+              "word": "deal",
+              "meaning": "处理;给予;发牌",
+              "uncertain": false
+            },
+            {
+              "word": "deal with",
+              "meaning": "处理,解决;对付",
+              "uncertain": false
+            },
+            {
+              "word": "elder",
+              "meaning": "年长的,年纪较大的",
+              "uncertain": false
+            },
+            {
+              "word": "refuse",
+              "meaning": "拒绝,回绝",
+              "uncertain": false
+            },
+            {
+              "word": "sadness",
+              "meaning": "忧伤,悲哀",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "invite",
+              "meaning": "(正式)邀请",
+              "uncertain": false
+            },
+            {
+              "word": "disappointed",
+              "meaning": "失望的,沮丧的",
+              "uncertain": false
+            },
+            {
+              "word": "film",
+              "meaning": "电影;影片",
+              "uncertain": false
+            },
+            {
+              "word": "smell",
+              "meaning": "发气味;闻(到),嗅(到) n.气味",
+              "uncertain": false
+            },
+            {
+              "word": "seem",
+              "meaning": "似乎,好像",
+              "uncertain": false
+            },
+            {
+              "word": "opera",
+              "meaning": "歌剧;歌剧剧本",
+              "uncertain": false
+            },
+            {
+              "word": "excite",
+              "meaning": "使激动,使兴奋",
+              "uncertain": false
+            },
+            {
+              "word": "care for",
+              "meaning": "照顾,照料",
+              "uncertain": false
+            },
+            {
+              "word": "lonely",
+              "meaning": "孤独的,寂寞的",
+              "uncertain": false
+            },
+            {
+              "word": "lively",
+              "meaning": "充满趣味的;充满生气的",
+              "uncertain": false
+            },
+            {
+              "word": "cheer up",
+              "meaning": "(使)振作起来;(使)高兴起来",
+              "uncertain": false
+            },
+            {
+              "word": "almost",
+              "meaning": "几乎,差不多",
+              "uncertain": false
+            },
+            {
+              "word": "mainly",
+              "meaning": "主要地",
+              "uncertain": false
+            },
+            {
+              "word": "role",
+              "meaning": "角色",
+              "uncertain": false
+            },
+            {
+              "word": "be full of",
+              "meaning": "满的,充满的,满是……的",
+              "uncertain": false
+            },
+            {
+              "word": "facial",
+              "meaning": "面部的",
+              "uncertain": false
+            },
+            {
+              "word": "painting",
+              "meaning": "油画,绘画",
+              "uncertain": false
+            },
+            {
+              "word": "gesture",
+              "meaning": "姿势,手势",
+              "uncertain": false
+            },
+            {
+              "word": "frightened",
+              "meaning": "惊吓的;受惊的;害怕的",
+              "uncertain": false
+            },
+            {
+              "word": "worried",
+              "meaning": "担心的,担忧的",
+              "uncertain": false
+            },
+            {
+              "word": "in the end",
+              "meaning": "最后,终于",
+              "uncertain": false
+            },
+            {
+              "word": "interested",
+              "meaning": "感兴趣的",
+              "uncertain": false
+            },
+            {
+              "word": "upset",
+              "meaning": "心烦的,苦恼的",
+              "uncertain": false
+            },
+            {
+              "word": "exam",
+              "meaning": "考试",
+              "uncertain": false
+            },
+            {
+              "word": "strict",
+              "meaning": "严格的;严密的",
+              "uncertain": false
+            },
+            {
+              "word": "be strict with",
+              "meaning": "对……严格要求",
+              "uncertain": false
+            },
+            {
+              "word": "shy",
+              "meaning": "害羞的",
+              "uncertain": false
+            },
+            {
+              "word": "take it easy",
+              "meaning": "别紧张,别着急",
+              "uncertain": false
+            },
+            {
+              "word": "fail",
+              "meaning": "不及格;失败;未做",
+              "uncertain": false
+            },
+            {
+              "word": "someone",
+              "meaning": "某人",
+              "uncertain": false
+            },
+            {
+              "word": "feeling",
+              "meaning": "感觉,感触;想法",
+              "uncertain": false
+            },
+            {
+              "word": "joke",
+              "meaning": "笑话,玩笑 v.说笑话,开玩笑",
+              "uncertain": false
+            },
+            {
+              "word": "by the way",
+              "meaning": "顺便提一下;捎带说一声",
+              "uncertain": false
+            },
+            {
+              "word": "yeah",
+              "meaning": "(口语)是,是的;好的",
+              "uncertain": false
+            },
+            {
+              "word": "usual",
+              "meaning": "通常的,平常的",
+              "uncertain": false
+            },
+            {
+              "word": "as usual",
+              "meaning": "像往常一样",
+              "uncertain": false
+            },
+            {
+              "word": "either",
+              "meaning": "二者之一;要么…… pron.二者之一;要么……",
+              "uncertain": false
+            },
+            {
+              "word": "accept",
+              "meaning": "接受",
+              "uncertain": false
+            },
+            {
+              "word": "lovely",
+              "meaning": "可爱的;美丽的",
+              "uncertain": false
+            },
+            {
+              "word": "helpful",
+              "meaning": "有用的;有益的",
+              "uncertain": false
+            },
+            {
+              "word": "international",
+              "meaning": "国际的",
+              "uncertain": false
+            },
+            {
+              "word": "useless",
+              "meaning": "无用的,无效的",
+              "uncertain": false
+            },
+            {
+              "word": "deal",
+              "meaning": "处理;给予;发牌",
+              "uncertain": false
+            },
+            {
+              "word": "deal with",
+              "meaning": "处理,解决;对付",
+              "uncertain": false
+            },
+            {
+              "word": "elder",
+              "meaning": "年长的,年纪较大的",
+              "uncertain": false
+            },
+            {
+              "word": "refuse",
+              "meaning": "拒绝,回绝",
+              "uncertain": false
+            },
+            {
+              "word": "sadness",
+              "meaning": "忧伤,悲哀",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

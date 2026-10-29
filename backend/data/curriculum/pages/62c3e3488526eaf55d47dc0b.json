@@ -1,0 +1,392 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 11,
+  "units": [
+    11
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/116/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg",
+  "sha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "How",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bones",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "we",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "in",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "our",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "hands",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "feet",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "arms",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "legs",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "catch",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "One",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "hand",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "has",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "27",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "kick",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "foot",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "26",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "play",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "arm",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "3",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "run",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "leg",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "too",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "How many bones do we have in our hands, feet, arms and legs?",
+        "We throw and catch a basketball with our hands. One hand has 27 bones.",
+        "We kick a football with our feet. One foot has 26 bones.",
+        "We play badminton with our arms. One arm has 3 bones.",
+        "We run with our legs. One leg has 3 bones, too."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 11,
+          "entries": [
+            {
+              "word": "How",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bones",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "we",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "have",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "in",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "our",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "hands",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "feet",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "arms",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "and",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "legs",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "throw",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "catch",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "basketball",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "One",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "hand",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "has",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "27",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "kick",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "football",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "foot",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "26",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "play",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "badminton",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "arm",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "3",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "run",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "leg",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "too",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "How many bones do we have in our hands, feet, arms and legs?",
+        "We throw and catch a basketball with our hands. One hand has 27 bones.",
+        "We kick a football with our feet. One foot has 26 bones.",
+        "We play badminton with our arms. One arm has 3 bones.",
+        "We run with our legs. One leg has 3 bones, too."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

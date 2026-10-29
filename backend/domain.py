@@ -37,4 +37,7 @@ class Session:
     current_time: int = 0
     user: UserCurrent = field(default_factory=UserCurrent)
     robot: RobotCurrent = field(default_factory=RobotCurrent)
+    grade: int = 7
+    tts_speed: float = 1.0
+    chapter_id: str = ""
 

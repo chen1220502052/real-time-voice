@@ -1,0 +1,645 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "下册",
+  "book": "下册_2013年10月第1版_2024重印_完整教材",
+  "image": "英语/科普版/8年级/下册_2013年10月第1版_2024重印_完整教材/单词/完整教材词表原图/PDF页145.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1969",
+  "sha256": "5d4175f628d97a0d48fe802ea09e3e3add8e828ba62e52c2da3f2827c16d3755",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "single",
+              "meaning": "adj.单一的,单个的",
+              "uncertain": false
+            },
+            {
+              "word": "condition",
+              "meaning": "n.条件,状况",
+              "uncertain": false
+            },
+            {
+              "word": "comfortable",
+              "meaning": "adj.舒服的;安逸的;舒服自在的",
+              "uncertain": false
+            },
+            {
+              "word": "raise",
+              "meaning": "v.筹集;使升高;饲养",
+              "uncertain": false
+            },
+            {
+              "word": "king",
+              "meaning": "n.国王,君主",
+              "uncertain": false
+            },
+            {
+              "word": "queen",
+              "meaning": "n.女王;王后",
+              "uncertain": false
+            },
+            {
+              "word": "Canadian",
+              "meaning": "adj.加拿大的;加拿大人的 n.加拿大人",
+              "uncertain": false
+            },
+            {
+              "word": "common",
+              "meaning": "adj.普通的,一般的;共有的",
+              "uncertain": false
+            },
+            {
+              "word": "home-made",
+              "meaning": "adj.自制的;家里做的",
+              "uncertain": false
+            },
+            {
+              "word": "dollar",
+              "meaning": "n.(美国、加拿大等货币单位)元",
+              "uncertain": false
+            },
+            {
+              "word": "business",
+              "meaning": "n.生意;公事;职责",
+              "uncertain": false
+            },
+            {
+              "word": "somebody",
+              "meaning": "pron.某人",
+              "uncertain": false
+            },
+            {
+              "word": "forward",
+              "meaning": "adv.向前;前进",
+              "uncertain": false
+            },
+            {
+              "word": "hear from",
+              "meaning": "收到某人来信",
+              "uncertain": false
+            },
+            {
+              "word": "top",
+              "meaning": "n.顶部;(物体的)上面",
+              "uncertain": false
+            },
+            {
+              "word": "chairman",
+              "meaning": "n.主席,主持人",
+              "uncertain": false
+            },
+            {
+              "word": "announce",
+              "meaning": "v.宣布,宣告;通知",
+              "uncertain": false
+            },
+            {
+              "word": "found",
+              "meaning": "v.建立,兴建;创办",
+              "uncertain": false
+            },
+            {
+              "word": "republic",
+              "meaning": "n.共和国",
+              "uncertain": false
+            },
+            {
+              "word": "meaningful",
+              "meaning": "adj.重要的,重大的;意味深长的",
+              "uncertain": false
+            },
+            {
+              "word": "wait",
+              "meaning": "v.等,等待",
+              "uncertain": false
+            },
+            {
+              "word": "memorial",
+              "meaning": "adj.纪念的;悼念的",
+              "uncertain": false
+            },
+            {
+              "word": "northwest",
+              "meaning": "n.西北;西北方;西北地区",
+              "uncertain": false
+            },
+            {
+              "word": "northeast",
+              "meaning": "n.东北;东北方;东北地区",
+              "uncertain": false
+            },
+            {
+              "word": "southeast",
+              "meaning": "n.东南;东南方;东南地区",
+              "uncertain": false
+            },
+            {
+              "word": "ceremony",
+              "meaning": "n.典礼;仪式",
+              "uncertain": false
+            },
+            {
+              "word": "bicycle",
+              "meaning": "n.自行车",
+              "uncertain": false
+            },
+            {
+              "word": "crowd",
+              "meaning": "n.人群",
+              "uncertain": false
+            },
+            {
+              "word": "toward",
+              "meaning": "prep.向,朝",
+              "uncertain": false
+            },
+            {
+              "word": "push",
+              "meaning": "v.& n.推",
+              "uncertain": false
+            },
+            {
+              "word": "shove",
+              "meaning": "v.猛推,乱挤",
+              "uncertain": false
+            },
+            {
+              "word": "soldier",
+              "meaning": "n.士兵",
+              "uncertain": false
+            },
+            {
+              "word": "moment",
+              "meaning": "n.片刻;某个时刻",
+              "uncertain": false
+            },
+            {
+              "word": "as soon as",
+              "meaning": "一……就……",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "prep.在……旁边",
+              "uncertain": false
+            },
+            {
+              "word": "pole",
+              "meaning": "n.竿",
+              "uncertain": false
+            },
+            {
+              "word": "pride",
+              "meaning": "n.自豪,骄傲",
+              "uncertain": false
+            },
+            {
+              "word": "excitement",
+              "meaning": "n.激动,兴奋",
+              "uncertain": false
+            },
+            {
+              "word": "tour",
+              "meaning": "n.旅游,旅行;观光,游览",
+              "uncertain": false
+            },
+            {
+              "word": "experience",
+              "meaning": "n.经历;经验",
+              "uncertain": false
+            },
+            {
+              "word": "everywhere",
+              "meaning": "adv.到处,处处,各个地方",
+              "uncertain": false
+            },
+            {
+              "word": "Thank goodness!",
+              "meaning": "谢天谢地!",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "receive",
+              "meaning": "v.收到,得到",
+              "uncertain": false
+            },
+            {
+              "word": "postcard",
+              "meaning": "n.明信片",
+              "uncertain": false
+            },
+            {
+              "word": "vacation",
+              "meaning": "n.假期",
+              "uncertain": false
+            },
+            {
+              "word": "on vacation",
+              "meaning": "度假",
+              "uncertain": false
+            },
+            {
+              "word": "explore",
+              "meaning": "v.考察;探索;勘察",
+              "uncertain": false
+            },
+            {
+              "word": "camp",
+              "meaning": "v.野营,度假",
+              "uncertain": false
+            },
+            {
+              "word": "work out",
+              "meaning": "算出;制订;完成",
+              "uncertain": false
+            },
+            {
+              "word": "seaside",
+              "meaning": "n.海边,海滨",
+              "uncertain": false
+            },
+            {
+              "word": "north",
+              "meaning": "n.北,北方",
+              "uncertain": false
+            },
+            {
+              "word": "east",
+              "meaning": "n.东,东方 adj.东方的;向东的;东部的 adv.向东,朝东",
+              "uncertain": false
+            },
+            {
+              "word": "west",
+              "meaning": "n.西,西方 adj.西方的;向西的;西部的 adv.向西,朝西",
+              "uncertain": false
+            },
+            {
+              "word": "monument",
+              "meaning": "n.纪念碑(馆、堂、像等)",
+              "uncertain": false
+            },
+            {
+              "word": "rostrum",
+              "meaning": "n.指挥台",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "passenger",
+              "meaning": "n.乘客",
+              "uncertain": false
+            },
+            {
+              "word": "crazy",
+              "meaning": "adj.疯狂的",
+              "uncertain": false
+            },
+            {
+              "word": "anywhere",
+              "meaning": "adv.任何地方",
+              "uncertain": false
+            },
+            {
+              "word": "pollution",
+              "meaning": "n.污染",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "single",
+              "meaning": "adj.单一的,单个的",
+              "uncertain": false
+            },
+            {
+              "word": "condition",
+              "meaning": "n.条件,状况",
+              "uncertain": false
+            },
+            {
+              "word": "comfortable",
+              "meaning": "adj.舒服的;安逸的;舒服自在的",
+              "uncertain": false
+            },
+            {
+              "word": "raise",
+              "meaning": "v.筹集;使升高;饲养",
+              "uncertain": false
+            },
+            {
+              "word": "king",
+              "meaning": "n.国王,君主",
+              "uncertain": false
+            },
+            {
+              "word": "queen",
+              "meaning": "n.女王;王后",
+              "uncertain": false
+            },
+            {
+              "word": "Canadian",
+              "meaning": "adj.加拿大的;加拿大人的 n.加拿大人",
+              "uncertain": false
+            },
+            {
+              "word": "common",
+              "meaning": "adj.普通的,一般的;共有的",
+              "uncertain": false
+            },
+            {
+              "word": "home-made",
+              "meaning": "adj.自制的;家里做的",
+              "uncertain": false
+            },
+            {
+              "word": "dollar",
+              "meaning": "n.(美国、加拿大等货币单位)元",
+              "uncertain": false
+            },
+            {
+              "word": "business",
+              "meaning": "n.生意;公事;职责",
+              "uncertain": false
+            },
+            {
+              "word": "somebody",
+              "meaning": "pron.某人",
+              "uncertain": false
+            },
+            {
+              "word": "forward",
+              "meaning": "adv.向前;前进",
+              "uncertain": false
+            },
+            {
+              "word": "hear from",
+              "meaning": "收到某人来信",
+              "uncertain": false
+            },
+            {
+              "word": "top",
+              "meaning": "n.顶部;(物体的)上面",
+              "uncertain": false
+            },
+            {
+              "word": "chairman",
+              "meaning": "n.主席,主持人",
+              "uncertain": false
+            },
+            {
+              "word": "announce",
+              "meaning": "v.宣布,宣告;通知",
+              "uncertain": false
+            },
+            {
+              "word": "found",
+              "meaning": "v.建立,兴建;创办",
+              "uncertain": false
+            },
+            {
+              "word": "republic",
+              "meaning": "n.共和国",
+              "uncertain": false
+            },
+            {
+              "word": "meaningful",
+              "meaning": "adj.重要的,重大的;意味深长的",
+              "uncertain": false
+            },
+            {
+              "word": "wait",
+              "meaning": "v.等,等待",
+              "uncertain": false
+            },
+            {
+              "word": "memorial",
+              "meaning": "adj.纪念的;悼念的",
+              "uncertain": false
+            },
+            {
+              "word": "northwest",
+              "meaning": "n.西北;西北方;西北地区",
+              "uncertain": false
+            },
+            {
+              "word": "northeast",
+              "meaning": "n.东北;东北方;东北地区",
+              "uncertain": false
+            },
+            {
+              "word": "southeast",
+              "meaning": "n.东南;东南方;东南地区",
+              "uncertain": false
+            },
+            {
+              "word": "ceremony",
+              "meaning": "n.典礼;仪式",
+              "uncertain": false
+            },
+            {
+              "word": "bicycle",
+              "meaning": "n.自行车",
+              "uncertain": false
+            },
+            {
+              "word": "crowd",
+              "meaning": "n.人群",
+              "uncertain": false
+            },
+            {
+              "word": "toward",
+              "meaning": "prep.向,朝",
+              "uncertain": false
+            },
+            {
+              "word": "push",
+              "meaning": "v.& n.推",
+              "uncertain": false
+            },
+            {
+              "word": "shove",
+              "meaning": "v.猛推,乱挤",
+              "uncertain": false
+            },
+            {
+              "word": "soldier",
+              "meaning": "n.士兵",
+              "uncertain": false
+            },
+            {
+              "word": "moment",
+              "meaning": "n.片刻;某个时刻",
+              "uncertain": false
+            },
+            {
+              "word": "as soon as",
+              "meaning": "一……就……",
+              "uncertain": false
+            },
+            {
+              "word": "beside",
+              "meaning": "prep.在……旁边",
+              "uncertain": false
+            },
+            {
+              "word": "pole",
+              "meaning": "n.竿",
+              "uncertain": false
+            },
+            {
+              "word": "pride",
+              "meaning": "n.自豪,骄傲",
+              "uncertain": false
+            },
+            {
+              "word": "excitement",
+              "meaning": "n.激动,兴奋",
+              "uncertain": false
+            },
+            {
+              "word": "tour",
+              "meaning": "n.旅游,旅行;观光,游览",
+              "uncertain": false
+            },
+            {
+              "word": "experience",
+              "meaning": "n.经历;经验",
+              "uncertain": false
+            },
+            {
+              "word": "everywhere",
+              "meaning": "adv.到处,处处,各个地方",
+              "uncertain": false
+            },
+            {
+              "word": "Thank goodness!",
+              "meaning": "谢天谢地!",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "receive",
+              "meaning": "v.收到,得到",
+              "uncertain": false
+            },
+            {
+              "word": "postcard",
+              "meaning": "n.明信片",
+              "uncertain": false
+            },
+            {
+              "word": "vacation",
+              "meaning": "n.假期",
+              "uncertain": false
+            },
+            {
+              "word": "on vacation",
+              "meaning": "度假",
+              "uncertain": false
+            },
+            {
+              "word": "explore",
+              "meaning": "v.考察;探索;勘察",
+              "uncertain": false
+            },
+            {
+              "word": "camp",
+              "meaning": "v.野营,度假",
+              "uncertain": false
+            },
+            {
+              "word": "work out",
+              "meaning": "算出;制订;完成",
+              "uncertain": false
+            },
+            {
+              "word": "seaside",
+              "meaning": "n.海边,海滨",
+              "uncertain": false
+            },
+            {
+              "word": "north",
+              "meaning": "n.北,北方",
+              "uncertain": false
+            },
+            {
+              "word": "east",
+              "meaning": "n.东,东方 adj.东方的;向东的;东部的 adv.向东,朝东",
+              "uncertain": false
+            },
+            {
+              "word": "west",
+              "meaning": "n.西,西方 adj.西方的;向西的;西部的 adv.向西,朝西",
+              "uncertain": false
+            },
+            {
+              "word": "monument",
+              "meaning": "n.纪念碑(馆、堂、像等)",
+              "uncertain": false
+            },
+            {
+              "word": "rostrum",
+              "meaning": "n.指挥台",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "passenger",
+              "meaning": "n.乘客",
+              "uncertain": false
+            },
+            {
+              "word": "crazy",
+              "meaning": "adj.疯狂的",
+              "uncertain": false
+            },
+            {
+              "word": "anywhere",
+              "meaning": "adv.任何地方",
+              "uncertain": false
+            },
+            {
+              "word": "pollution",
+              "meaning": "n.污染",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

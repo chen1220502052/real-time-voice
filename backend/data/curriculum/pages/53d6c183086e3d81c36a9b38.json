@@ -1,0 +1,235 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/ef8ed72090c4d92e762462ca-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "53d6c183086e3d81c36a9b385d17cc3b46d4c817a072e7a27cfc3f53cb107885",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mask",
+              "meaning": "n.面具;面罩",
+              "uncertain": false
+            },
+            {
+              "word": "role",
+              "meaning": "n.角色",
+              "uncertain": false
+            },
+            {
+              "word": "style",
+              "meaning": "n.方式;作风",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "prep.在……中",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "n.粉丝;风扇",
+              "uncertain": false
+            },
+            {
+              "word": "pleasant",
+              "meaning": "adj.愉快的;友好的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "stadium",
+              "meaning": "n.体育场",
+              "uncertain": false
+            },
+            {
+              "word": "creative",
+              "meaning": "adj.创造(性)的;创作的",
+              "uncertain": false
+            },
+            {
+              "word": "musician",
+              "meaning": "n.音乐家",
+              "uncertain": false
+            },
+            {
+              "word": "relaxed",
+              "meaning": "adj.放松的;自在的",
+              "uncertain": false
+            },
+            {
+              "word": "operate",
+              "meaning": "v.操作;运转;控制;动手术",
+              "uncertain": false
+            },
+            {
+              "word": "control",
+              "meaning": "n.指挥(或控制)站;控制 v.指挥;控制",
+              "uncertain": false
+            },
+            {
+              "word": "electronic",
+              "meaning": "adj.电子的",
+              "uncertain": false
+            },
+            {
+              "word": "photographer",
+              "meaning": "n.摄影师;拍照者",
+              "uncertain": false
+            },
+            {
+              "word": "sportswoman",
+              "meaning": "(pl.sportswomen)n.女运动员",
+              "uncertain": false
+            },
+            {
+              "word": "singer",
+              "meaning": "n.歌唱家;歌手",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "cough",
+              "meaning": "n.咳嗽",
+              "uncertain": false
+            },
+            {
+              "word": "fever",
+              "meaning": "n.发烧",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "mask",
+              "meaning": "n.面具;面罩",
+              "uncertain": false
+            },
+            {
+              "word": "role",
+              "meaning": "n.角色",
+              "uncertain": false
+            },
+            {
+              "word": "style",
+              "meaning": "n.方式;作风",
+              "uncertain": false
+            },
+            {
+              "word": "among",
+              "meaning": "prep.在……中",
+              "uncertain": false
+            },
+            {
+              "word": "fan",
+              "meaning": "n.粉丝;风扇",
+              "uncertain": false
+            },
+            {
+              "word": "pleasant",
+              "meaning": "adj.愉快的;友好的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "stadium",
+              "meaning": "n.体育场",
+              "uncertain": false
+            },
+            {
+              "word": "creative",
+              "meaning": "adj.创造(性)的;创作的",
+              "uncertain": false
+            },
+            {
+              "word": "musician",
+              "meaning": "n.音乐家",
+              "uncertain": false
+            },
+            {
+              "word": "relaxed",
+              "meaning": "adj.放松的;自在的",
+              "uncertain": false
+            },
+            {
+              "word": "operate",
+              "meaning": "v.操作;运转;控制;动手术",
+              "uncertain": false
+            },
+            {
+              "word": "control",
+              "meaning": "n.指挥(或控制)站;控制 v.指挥;控制",
+              "uncertain": false
+            },
+            {
+              "word": "electronic",
+              "meaning": "adj.电子的",
+              "uncertain": false
+            },
+            {
+              "word": "photographer",
+              "meaning": "n.摄影师;拍照者",
+              "uncertain": false
+            },
+            {
+              "word": "sportswoman",
+              "meaning": "(pl.sportswomen)n.女运动员",
+              "uncertain": false
+            },
+            {
+              "word": "singer",
+              "meaning": "n.歌唱家;歌手",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "cough",
+              "meaning": "n.咳嗽",
+              "uncertain": false
+            },
+            {
+              "word": "fever",
+              "meaning": "n.发烧",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

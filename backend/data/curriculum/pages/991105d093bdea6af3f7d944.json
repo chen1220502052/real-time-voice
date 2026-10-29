@@ -1,0 +1,435 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": "英语/科普版/7年级/下册_2024年12月第1版_完整教材/单词/完整教材词表原图/PDF页144.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "991105d093bdea6af3f7d9446eadf3072a231046dfe2a3ebfed2f25dd734fd24",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "useful",
+              "meaning": "adj.有用的;有帮助的",
+              "uncertain": false
+            },
+            {
+              "word": "wash",
+              "meaning": "v.洗",
+              "uncertain": false
+            },
+            {
+              "word": "outside",
+              "meaning": "prep.在……外面 adv.在外面",
+              "uncertain": false
+            },
+            {
+              "word": "cycle",
+              "meaning": "n.循环",
+              "uncertain": false
+            },
+            {
+              "word": "quick",
+              "meaning": "adj.快的;迅速的",
+              "uncertain": false
+            },
+            {
+              "word": "shower",
+              "meaning": "n.淋浴;淋浴间,淋浴器 v.(洗)淋浴",
+              "uncertain": false
+            },
+            {
+              "word": "off",
+              "meaning": "adv.(用以表示除去了某物);休假;休息",
+              "uncertain": false
+            },
+            {
+              "word": "tap",
+              "meaning": "n.水龙头",
+              "uncertain": false
+            },
+            {
+              "word": "while",
+              "meaning": "conj.当……的时候;而,然而",
+              "uncertain": false
+            },
+            {
+              "word": "brush",
+              "meaning": "v.(用刷子)刷净,刷亮 n.刷子",
+              "uncertain": false
+            },
+            {
+              "word": "tooth",
+              "meaning": "(pl.teeth) n.牙;齿",
+              "uncertain": false
+            },
+            {
+              "word": "reuse",
+              "meaning": "v.再次使用;重复使用",
+              "uncertain": false
+            },
+            {
+              "word": "matter",
+              "meaning": "n.关于……的事情;事情 v.事关紧要;要紧",
+              "uncertain": false
+            },
+            {
+              "word": "fact",
+              "meaning": "n.事实,真相;现实",
+              "uncertain": false
+            },
+            {
+              "word": "valuable",
+              "meaning": "adj.宝贵的",
+              "uncertain": false
+            },
+            {
+              "word": "enough",
+              "meaning": "det.足够的,充足的 adv.足够地",
+              "uncertain": false
+            },
+            {
+              "word": "once",
+              "meaning": "adv.仅一次;一次;曾经 conj.一……就",
+              "uncertain": false
+            },
+            {
+              "word": "must",
+              "meaning": "modal v.必须 n.必须做(或看、买等)的事",
+              "uncertain": false
+            },
+            {
+              "word": "collect",
+              "meaning": "v.收集;采集",
+              "uncertain": false
+            },
+            {
+              "word": "dig",
+              "meaning": "v.掘(地);挖(土)",
+              "uncertain": false
+            },
+            {
+              "word": "worry",
+              "meaning": "v.担心,发愁;使担忧,使发愁 n.令人担忧的事;担心,忧虑",
+              "uncertain": false
+            },
+            {
+              "word": "story",
+              "meaning": "n.故事;小说",
+              "uncertain": false
+            },
+            {
+              "word": "cover",
+              "meaning": "v.覆盖;遮盖 n.覆盖物;躲避处",
+              "uncertain": false
+            },
+            {
+              "word": "coastline",
+              "meaning": "n.海岸线;沿海地带",
+              "uncertain": false
+            },
+            {
+              "word": "than",
+              "meaning": "prep., conj.(比较数量、距离等)多于,少于;(用于引出比较的第二部分)比",
+              "uncertain": false
+            },
+            {
+              "word": "thousand",
+              "meaning": "num.一千",
+              "uncertain": false
+            },
+            {
+              "word": "eighty",
+              "meaning": "num.八十",
+              "uncertain": false
+            },
+            {
+              "word": "sixty",
+              "meaning": "num.六十",
+              "uncertain": false
+            },
+            {
+              "word": "billion",
+              "meaning": "num.十亿",
+              "uncertain": false
+            },
+            {
+              "word": "per cent",
+              "meaning": "n.百分之……",
+              "uncertain": false
+            },
+            {
+              "word": "land",
+              "meaning": "n.陆地,大地;地带,土地",
+              "uncertain": false
+            },
+            {
+              "word": "knock",
+              "meaning": "v.敲;击 n.敲击声;敲门(或窗户)声",
+              "uncertain": false
+            },
+            {
+              "word": "door",
+              "meaning": "n.门",
+              "uncertain": false
+            },
+            {
+              "word": "oh",
+              "meaning": "excl.哦;啊;嘿",
+              "uncertain": false
+            },
+            {
+              "word": "step",
+              "meaning": "n.迈步;步骤;阶段",
+              "uncertain": false
+            },
+            {
+              "word": "litter",
+              "meaning": "v.乱扔 n.垃圾",
+              "uncertain": false
+            },
+            {
+              "word": "suggestion",
+              "meaning": "n.建议;提议",
+              "uncertain": false
+            },
+            {
+              "word": "search",
+              "meaning": "v., n.搜索;搜查",
+              "uncertain": false
+            },
+            {
+              "word": "information",
+              "meaning": "n.信息",
+              "uncertain": false
+            },
+            {
+              "word": "introduce",
+              "meaning": "v.介绍",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "useful",
+              "meaning": "adj.有用的;有帮助的",
+              "uncertain": false
+            },
+            {
+              "word": "wash",
+              "meaning": "v.洗",
+              "uncertain": false
+            },
+            {
+              "word": "outside",
+              "meaning": "prep.在……外面 adv.在外面",
+              "uncertain": false
+            },
+            {
+              "word": "cycle",
+              "meaning": "n.循环",
+              "uncertain": false
+            },
+            {
+              "word": "quick",
+              "meaning": "adj.快的;迅速的",
+              "uncertain": false
+            },
+            {
+              "word": "shower",
+              "meaning": "n.淋浴;淋浴间,淋浴器 v.(洗)淋浴",
+              "uncertain": false
+            },
+            {
+              "word": "off",
+              "meaning": "adv.(用以表示除去了某物);休假;休息",
+              "uncertain": false
+            },
+            {
+              "word": "tap",
+              "meaning": "n.水龙头",
+              "uncertain": false
+            },
+            {
+              "word": "while",
+              "meaning": "conj.当……的时候;而,然而",
+              "uncertain": false
+            },
+            {
+              "word": "brush",
+              "meaning": "v.(用刷子)刷净,刷亮 n.刷子",
+              "uncertain": false
+            },
+            {
+              "word": "tooth",
+              "meaning": "(pl.teeth) n.牙;齿",
+              "uncertain": false
+            },
+            {
+              "word": "reuse",
+              "meaning": "v.再次使用;重复使用",
+              "uncertain": false
+            },
+            {
+              "word": "matter",
+              "meaning": "n.关于……的事情;事情 v.事关紧要;要紧",
+              "uncertain": false
+            },
+            {
+              "word": "fact",
+              "meaning": "n.事实,真相;现实",
+              "uncertain": false
+            },
+            {
+              "word": "valuable",
+              "meaning": "adj.宝贵的",
+              "uncertain": false
+            },
+            {
+              "word": "enough",
+              "meaning": "det.足够的,充足的 adv.足够地",
+              "uncertain": false
+            },
+            {
+              "word": "once",
+              "meaning": "adv.仅一次;一次;曾经 conj.一……就",
+              "uncertain": false
+            },
+            {
+              "word": "must",
+              "meaning": "modal v.必须 n.必须做(或看、买等)的事",
+              "uncertain": false
+            },
+            {
+              "word": "collect",
+              "meaning": "v.收集;采集",
+              "uncertain": false
+            },
+            {
+              "word": "dig",
+              "meaning": "v.掘(地);挖(土)",
+              "uncertain": false
+            },
+            {
+              "word": "worry",
+              "meaning": "v.担心,发愁;使担忧,使发愁 n.令人担忧的事;担心,忧虑",
+              "uncertain": false
+            },
+            {
+              "word": "story",
+              "meaning": "n.故事;小说",
+              "uncertain": false
+            },
+            {
+              "word": "cover",
+              "meaning": "v.覆盖;遮盖 n.覆盖物;躲避处",
+              "uncertain": false
+            },
+            {
+              "word": "coastline",
+              "meaning": "n.海岸线;沿海地带",
+              "uncertain": false
+            },
+            {
+              "word": "than",
+              "meaning": "prep., conj.(比较数量、距离等)多于,少于;(用于引出比较的第二部分)比",
+              "uncertain": false
+            },
+            {
+              "word": "thousand",
+              "meaning": "num.一千",
+              "uncertain": false
+            },
+            {
+              "word": "eighty",
+              "meaning": "num.八十",
+              "uncertain": false
+            },
+            {
+              "word": "sixty",
+              "meaning": "num.六十",
+              "uncertain": false
+            },
+            {
+              "word": "billion",
+              "meaning": "num.十亿",
+              "uncertain": false
+            },
+            {
+              "word": "per cent",
+              "meaning": "n.百分之……",
+              "uncertain": false
+            },
+            {
+              "word": "land",
+              "meaning": "n.陆地,大地;地带,土地",
+              "uncertain": false
+            },
+            {
+              "word": "knock",
+              "meaning": "v.敲;击 n.敲击声;敲门(或窗户)声",
+              "uncertain": false
+            },
+            {
+              "word": "door",
+              "meaning": "n.门",
+              "uncertain": false
+            },
+            {
+              "word": "oh",
+              "meaning": "excl.哦;啊;嘿",
+              "uncertain": false
+            },
+            {
+              "word": "step",
+              "meaning": "n.迈步;步骤;阶段",
+              "uncertain": false
+            },
+            {
+              "word": "litter",
+              "meaning": "v.乱扔 n.垃圾",
+              "uncertain": false
+            },
+            {
+              "word": "suggestion",
+              "meaning": "n.建议;提议",
+              "uncertain": false
+            },
+            {
+              "word": "search",
+              "meaning": "v., n.搜索;搜查",
+              "uncertain": false
+            },
+            {
+              "word": "information",
+              "meaning": "n.信息",
+              "uncertain": false
+            },
+            {
+              "word": "introduce",
+              "meaning": "v.介绍",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

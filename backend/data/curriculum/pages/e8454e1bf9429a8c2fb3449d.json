@@ -1,0 +1,255 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "下册",
+  "book": "下册_2024年12月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/4ecc287cbd2c8512e755158a-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1981",
+  "sha256": "e8454e1bf9429a8c2fb3449de03766e615ca7906e99bd3ca5af93913a6f69c72",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "metre",
+              "meaning": "n.米",
+              "uncertain": false
+            },
+            {
+              "word": "kilometre",
+              "meaning": "n.千米;公里",
+              "uncertain": false
+            },
+            {
+              "word": "through",
+              "meaning": "prep.穿过;贯穿",
+              "uncertain": false
+            },
+            {
+              "word": "eastern",
+              "meaning": "adj.东方的;东部的",
+              "uncertain": false
+            },
+            {
+              "word": "freshwater",
+              "meaning": "adj.淡水的",
+              "uncertain": false
+            },
+            {
+              "word": "million",
+              "meaning": "num.一百万",
+              "uncertain": false
+            },
+            {
+              "word": "inland",
+              "meaning": "adj.(在)内陆的",
+              "uncertain": false
+            },
+            {
+              "word": "inland",
+              "meaning": "adv.向(或在)内陆",
+              "uncertain": false
+            },
+            {
+              "word": "north-east",
+              "meaning": "n.东北;东北方;东北地区",
+              "uncertain": false
+            },
+            {
+              "word": "large",
+              "meaning": "adj.大的,大量的;大号的;广泛的,众多的",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "adj.深的,厚的;纵深的,宽的",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "adv.深深地;至深处",
+              "uncertain": false
+            },
+            {
+              "word": "wide",
+              "meaning": "adj.宽的;宽阔的",
+              "uncertain": false
+            },
+            {
+              "word": "everywhere",
+              "meaning": "adv.到处",
+              "uncertain": false
+            },
+            {
+              "word": "ground",
+              "meaning": "n.地,地面",
+              "uncertain": false
+            },
+            {
+              "word": "into",
+              "meaning": "prep.到……里面,进入",
+              "uncertain": false
+            },
+            {
+              "word": "form",
+              "meaning": "v.(使)形成;产生;建立",
+              "uncertain": false
+            },
+            {
+              "word": "cloud",
+              "meaning": "n.云;云彩",
+              "uncertain": false
+            },
+            {
+              "word": "ice",
+              "meaning": "n.冰",
+              "uncertain": false
+            },
+            {
+              "word": "drop",
+              "meaning": "n.滴,水珠",
+              "uncertain": false
+            },
+            {
+              "word": "drop",
+              "meaning": "v.(使)掉落",
+              "uncertain": false
+            },
+            {
+              "word": "full",
+              "meaning": "adj.(有)大量的,丰富的;充满的;完全的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "metre",
+              "meaning": "n.米",
+              "uncertain": false
+            },
+            {
+              "word": "kilometre",
+              "meaning": "n.千米;公里",
+              "uncertain": false
+            },
+            {
+              "word": "through",
+              "meaning": "prep.穿过;贯穿",
+              "uncertain": false
+            },
+            {
+              "word": "eastern",
+              "meaning": "adj.东方的;东部的",
+              "uncertain": false
+            },
+            {
+              "word": "freshwater",
+              "meaning": "adj.淡水的",
+              "uncertain": false
+            },
+            {
+              "word": "million",
+              "meaning": "num.一百万",
+              "uncertain": false
+            },
+            {
+              "word": "inland",
+              "meaning": "adj.(在)内陆的",
+              "uncertain": false
+            },
+            {
+              "word": "inland",
+              "meaning": "adv.向(或在)内陆",
+              "uncertain": false
+            },
+            {
+              "word": "north-east",
+              "meaning": "n.东北;东北方;东北地区",
+              "uncertain": false
+            },
+            {
+              "word": "large",
+              "meaning": "adj.大的,大量的;大号的;广泛的,众多的",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "adj.深的,厚的;纵深的,宽的",
+              "uncertain": false
+            },
+            {
+              "word": "deep",
+              "meaning": "adv.深深地;至深处",
+              "uncertain": false
+            },
+            {
+              "word": "wide",
+              "meaning": "adj.宽的;宽阔的",
+              "uncertain": false
+            },
+            {
+              "word": "everywhere",
+              "meaning": "adv.到处",
+              "uncertain": false
+            },
+            {
+              "word": "ground",
+              "meaning": "n.地,地面",
+              "uncertain": false
+            },
+            {
+              "word": "into",
+              "meaning": "prep.到……里面,进入",
+              "uncertain": false
+            },
+            {
+              "word": "form",
+              "meaning": "v.(使)形成;产生;建立",
+              "uncertain": false
+            },
+            {
+              "word": "cloud",
+              "meaning": "n.云;云彩",
+              "uncertain": false
+            },
+            {
+              "word": "ice",
+              "meaning": "n.冰",
+              "uncertain": false
+            },
+            {
+              "word": "drop",
+              "meaning": "n.滴,水珠",
+              "uncertain": false
+            },
+            {
+              "word": "drop",
+              "meaning": "v.(使)掉落",
+              "uncertain": false
+            },
+            {
+              "word": "full",
+              "meaning": "adj.(有)大量的,丰富的;充满的;完全的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

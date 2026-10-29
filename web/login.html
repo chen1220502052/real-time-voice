@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta name="theme-color" content="#fffef9">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>登录 · 猫猫英语</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/account.css">
+  <script src="/login.js" defer></script>
+  <link rel="stylesheet" href="/theme.css?v=20261023-2">
+</head>
+<body class="login-page">
+  <main class="login-card">
+    <div class="login-cat" aria-hidden="true"><img class="brand-mascot" src="/kitty.svg" alt=""></div><p class="login-brand">猫猫英语 · KITTY ENGLISH</p>
+    <h1 id="title">欢迎回来</h1><p id="subtitle">登录你的账户，继续每天的学习。</p>
+    <form id="loginForm">
+      <label for="username">账户名</label><input id="username" name="username" autocomplete="username" required minlength="3" maxlength="32" pattern="[A-Za-z0-9_\-]{3,32}" placeholder="字母、数字、下划线或短横线" autocapitalize="none" spellcheck="false">
+      <label for="password">密码</label><input id="password" name="password" type="password" autocomplete="current-password" required minlength="8" maxlength="128" placeholder="至少 8 位">
+      <p id="error" role="alert" aria-live="polite"></p>
+      <button class="login-submit" id="submit" type="submit">登录</button>
+    </form>
+    <button id="switchMode" type="button" class="login-switch">还没有账户？注册新账户</button>
+    <p class="login-note">每个人都有自己的学习空间。</p>
+  </main>
+</body>
+</html>

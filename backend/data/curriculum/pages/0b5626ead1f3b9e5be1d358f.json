@@ -1,0 +1,130 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 8,
+  "units": [
+    8
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/113/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 8 Playing sports/课文/02_教材页面_e316a82ba9.jpg",
+  "sha256": "0b5626ead1f3b9e5be1d358f16ce152d78e7b6a7e8a595521af7a618c12ef219",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "Sport",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Name",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Sport",
+        "Name",
+        "What sports do you like?",
+        "I like ..."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 8,
+          "entries": [
+            {
+              "word": "Sport",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Name",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "What",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "sports",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "do",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "I",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Sport",
+        "Name",
+        "What sports do you like?",
+        "I like ..."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

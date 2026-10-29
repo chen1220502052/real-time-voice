@@ -1,0 +1,435 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页156.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "eab3878e0e647b3e6309a8498fb0d9b11ce66ba0589b8ffc6208461b5af97098",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Jupiter",
+              "meaning": "n.木星",
+              "uncertain": false
+            },
+            {
+              "word": "Saturn",
+              "meaning": "n.土星",
+              "uncertain": false
+            },
+            {
+              "word": "Uranus",
+              "meaning": "n.天王星",
+              "uncertain": false
+            },
+            {
+              "word": "Neptune",
+              "meaning": "n.海王星",
+              "uncertain": false
+            },
+            {
+              "word": "rock",
+              "meaning": "n.岩石;摇滚乐",
+              "uncertain": false
+            },
+            {
+              "word": "gas",
+              "meaning": "n.气体;天然气",
+              "uncertain": false
+            },
+            {
+              "word": "inside",
+              "meaning": "adv.在(或向)里面 prep.在(或向)……里",
+              "uncertain": false
+            },
+            {
+              "word": "least",
+              "meaning": "adv.最少;最小",
+              "uncertain": false
+            },
+            {
+              "word": "power",
+              "meaning": "n.能量;控制力;影响力;电力供应",
+              "uncertain": false
+            },
+            {
+              "word": "mainly",
+              "meaning": "adv.主要地;首要地",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "adv.也不 det., pron.两者都不",
+              "uncertain": false
+            },
+            {
+              "word": "nor",
+              "meaning": "conj., adv.也不",
+              "uncertain": false
+            },
+            {
+              "word": "distance",
+              "meaning": "n.距离",
+              "uncertain": false
+            },
+            {
+              "word": "minus",
+              "meaning": "prep.零下",
+              "uncertain": false
+            },
+            {
+              "word": "survive",
+              "meaning": "v.生存;存活;幸存",
+              "uncertain": false
+            },
+            {
+              "word": "alive",
+              "meaning": "adj.活着;在世",
+              "uncertain": false
+            },
+            {
+              "word": "responsibility",
+              "meaning": "n.责任;负责",
+              "uncertain": false
+            },
+            {
+              "word": "related",
+              "meaning": "adj.相关的;有联系的",
+              "uncertain": false
+            },
+            {
+              "word": "exploration",
+              "meaning": "n.探索;勘探",
+              "uncertain": false
+            },
+            {
+              "word": "development",
+              "meaning": "n.发展;开发",
+              "uncertain": false
+            },
+            {
+              "word": "industry",
+              "meaning": "n.工业;生产制造",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "v.(使)充满",
+              "uncertain": false
+            },
+            {
+              "word": "due",
+              "meaning": "adj.由于;因为",
+              "uncertain": false
+            },
+            {
+              "word": "death",
+              "meaning": "n.死;死亡",
+              "uncertain": false
+            },
+            {
+              "word": "valley",
+              "meaning": "n.山谷",
+              "uncertain": false
+            },
+            {
+              "word": "rainfall",
+              "meaning": "n.降雨量;下雨",
+              "uncertain": false
+            },
+            {
+              "word": "low",
+              "meaning": "adj.低的",
+              "uncertain": false
+            },
+            {
+              "word": "rise",
+              "meaning": "v.升起;上升",
+              "uncertain": false
+            },
+            {
+              "word": "although",
+              "meaning": "conj.虽然;尽管;即使",
+              "uncertain": false
+            },
+            {
+              "word": "common",
+              "meaning": "n.公地 adj.共有的,共同的;普遍的",
+              "uncertain": false
+            },
+            {
+              "word": "file",
+              "meaning": "n.档案;卷宗;文件夹",
+              "uncertain": false
+            },
+            {
+              "word": "born",
+              "meaning": "v.出生",
+              "uncertain": false
+            },
+            {
+              "word": "publish",
+              "meaning": "v.(使)发表;出版",
+              "uncertain": false
+            },
+            {
+              "word": "prove",
+              "meaning": "v.证明;证实",
+              "uncertain": false
+            },
+            {
+              "word": "strange",
+              "meaning": "adj.奇怪的;奇特的",
+              "uncertain": false
+            },
+            {
+              "word": "comet",
+              "meaning": "n.彗星",
+              "uncertain": false
+            },
+            {
+              "word": "snowball",
+              "meaning": "n.雪球",
+              "uncertain": false
+            },
+            {
+              "word": "Pluto",
+              "meaning": "n.冥王星",
+              "uncertain": false
+            },
+            {
+              "word": "freeze",
+              "meaning": "v.(使)冻结,结冰",
+              "uncertain": false
+            },
+            {
+              "word": "being",
+              "meaning": "n.生物;存在",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "Jupiter",
+              "meaning": "n.木星",
+              "uncertain": false
+            },
+            {
+              "word": "Saturn",
+              "meaning": "n.土星",
+              "uncertain": false
+            },
+            {
+              "word": "Uranus",
+              "meaning": "n.天王星",
+              "uncertain": false
+            },
+            {
+              "word": "Neptune",
+              "meaning": "n.海王星",
+              "uncertain": false
+            },
+            {
+              "word": "rock",
+              "meaning": "n.岩石;摇滚乐",
+              "uncertain": false
+            },
+            {
+              "word": "gas",
+              "meaning": "n.气体;天然气",
+              "uncertain": false
+            },
+            {
+              "word": "inside",
+              "meaning": "adv.在(或向)里面 prep.在(或向)……里",
+              "uncertain": false
+            },
+            {
+              "word": "least",
+              "meaning": "adv.最少;最小",
+              "uncertain": false
+            },
+            {
+              "word": "power",
+              "meaning": "n.能量;控制力;影响力;电力供应",
+              "uncertain": false
+            },
+            {
+              "word": "mainly",
+              "meaning": "adv.主要地;首要地",
+              "uncertain": false
+            },
+            {
+              "word": "neither",
+              "meaning": "adv.也不 det., pron.两者都不",
+              "uncertain": false
+            },
+            {
+              "word": "nor",
+              "meaning": "conj., adv.也不",
+              "uncertain": false
+            },
+            {
+              "word": "distance",
+              "meaning": "n.距离",
+              "uncertain": false
+            },
+            {
+              "word": "minus",
+              "meaning": "prep.零下",
+              "uncertain": false
+            },
+            {
+              "word": "survive",
+              "meaning": "v.生存;存活;幸存",
+              "uncertain": false
+            },
+            {
+              "word": "alive",
+              "meaning": "adj.活着;在世",
+              "uncertain": false
+            },
+            {
+              "word": "responsibility",
+              "meaning": "n.责任;负责",
+              "uncertain": false
+            },
+            {
+              "word": "related",
+              "meaning": "adj.相关的;有联系的",
+              "uncertain": false
+            },
+            {
+              "word": "exploration",
+              "meaning": "n.探索;勘探",
+              "uncertain": false
+            },
+            {
+              "word": "development",
+              "meaning": "n.发展;开发",
+              "uncertain": false
+            },
+            {
+              "word": "industry",
+              "meaning": "n.工业;生产制造",
+              "uncertain": false
+            },
+            {
+              "word": "fill",
+              "meaning": "v.(使)充满",
+              "uncertain": false
+            },
+            {
+              "word": "due",
+              "meaning": "adj.由于;因为",
+              "uncertain": false
+            },
+            {
+              "word": "death",
+              "meaning": "n.死;死亡",
+              "uncertain": false
+            },
+            {
+              "word": "valley",
+              "meaning": "n.山谷",
+              "uncertain": false
+            },
+            {
+              "word": "rainfall",
+              "meaning": "n.降雨量;下雨",
+              "uncertain": false
+            },
+            {
+              "word": "low",
+              "meaning": "adj.低的",
+              "uncertain": false
+            },
+            {
+              "word": "rise",
+              "meaning": "v.升起;上升",
+              "uncertain": false
+            },
+            {
+              "word": "although",
+              "meaning": "conj.虽然;尽管;即使",
+              "uncertain": false
+            },
+            {
+              "word": "common",
+              "meaning": "n.公地 adj.共有的,共同的;普遍的",
+              "uncertain": false
+            },
+            {
+              "word": "file",
+              "meaning": "n.档案;卷宗;文件夹",
+              "uncertain": false
+            },
+            {
+              "word": "born",
+              "meaning": "v.出生",
+              "uncertain": false
+            },
+            {
+              "word": "publish",
+              "meaning": "v.(使)发表;出版",
+              "uncertain": false
+            },
+            {
+              "word": "prove",
+              "meaning": "v.证明;证实",
+              "uncertain": false
+            },
+            {
+              "word": "strange",
+              "meaning": "adj.奇怪的;奇特的",
+              "uncertain": false
+            },
+            {
+              "word": "comet",
+              "meaning": "n.彗星",
+              "uncertain": false
+            },
+            {
+              "word": "snowball",
+              "meaning": "n.雪球",
+              "uncertain": false
+            },
+            {
+              "word": "Pluto",
+              "meaning": "n.冥王星",
+              "uncertain": false
+            },
+            {
+              "word": "freeze",
+              "meaning": "v.(使)冻结,结冰",
+              "uncertain": false
+            },
+            {
+              "word": "being",
+              "meaning": "n.生物;存在",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

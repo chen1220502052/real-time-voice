@@ -1,0 +1,235 @@
+{
+  "publisher": "科普版",
+  "grade": 5,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/07adfcd5d22937e04acdb74e-left.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/73/detail/",
+  "sha256": "030f18244ef0489f18e7d484e93d1c7f95fc853db96b4a8f4fc1eeb219a69961",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "speak",
+              "meaning": "讲，说",
+              "uncertain": false
+            },
+            {
+              "word": "afternoon",
+              "meaning": "下午",
+              "uncertain": false
+            },
+            {
+              "word": "put",
+              "meaning": "放",
+              "uncertain": false
+            },
+            {
+              "word": "question",
+              "meaning": "问题",
+              "uncertain": false
+            },
+            {
+              "word": "number",
+              "meaning": "号码，数字",
+              "uncertain": false
+            },
+            {
+              "word": "certainly",
+              "meaning": "当然",
+              "uncertain": false
+            },
+            {
+              "word": "into",
+              "meaning": "到……里",
+              "uncertain": false
+            },
+            {
+              "word": "meat",
+              "meaning": "肉",
+              "uncertain": false
+            },
+            {
+              "word": "job",
+              "meaning": "工作",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "must",
+              "meaning": "必须",
+              "uncertain": false
+            },
+            {
+              "word": "street",
+              "meaning": "街道",
+              "uncertain": false
+            },
+            {
+              "word": "light",
+              "meaning": "灯，光线",
+              "uncertain": false
+            },
+            {
+              "word": "cousin",
+              "meaning": "堂/表兄弟姐妹",
+              "uncertain": false
+            },
+            {
+              "word": "answer",
+              "meaning": "回答",
+              "uncertain": false
+            },
+            {
+              "word": "cross",
+              "meaning": "穿过",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "线",
+              "uncertain": false
+            },
+            {
+              "word": "all right",
+              "meaning": "好",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "blackboard",
+              "meaning": "黑板",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 1,
+          "entries": [
+            {
+              "word": "speak",
+              "meaning": "讲，说",
+              "uncertain": false
+            },
+            {
+              "word": "afternoon",
+              "meaning": "下午",
+              "uncertain": false
+            },
+            {
+              "word": "put",
+              "meaning": "放",
+              "uncertain": false
+            },
+            {
+              "word": "question",
+              "meaning": "问题",
+              "uncertain": false
+            },
+            {
+              "word": "number",
+              "meaning": "号码，数字",
+              "uncertain": false
+            },
+            {
+              "word": "certainly",
+              "meaning": "当然",
+              "uncertain": false
+            },
+            {
+              "word": "into",
+              "meaning": "到……里",
+              "uncertain": false
+            },
+            {
+              "word": "meat",
+              "meaning": "肉",
+              "uncertain": false
+            },
+            {
+              "word": "job",
+              "meaning": "工作",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "entries": [
+            {
+              "word": "must",
+              "meaning": "必须",
+              "uncertain": false
+            },
+            {
+              "word": "street",
+              "meaning": "街道",
+              "uncertain": false
+            },
+            {
+              "word": "light",
+              "meaning": "灯，光线",
+              "uncertain": false
+            },
+            {
+              "word": "cousin",
+              "meaning": "堂/表兄弟姐妹",
+              "uncertain": false
+            },
+            {
+              "word": "answer",
+              "meaning": "回答",
+              "uncertain": false
+            },
+            {
+              "word": "cross",
+              "meaning": "穿过",
+              "uncertain": false
+            },
+            {
+              "word": "line",
+              "meaning": "线",
+              "uncertain": false
+            },
+            {
+              "word": "all right",
+              "meaning": "好",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "blackboard",
+              "meaning": "黑板",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

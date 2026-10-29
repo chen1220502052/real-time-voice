@@ -1,0 +1,212 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 7,
+  "units": [
+    7
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/112/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 7 Helping/课文/03_教材页面_4fa0a6d296.jpg",
+  "sha256": "4890f76bce8596d3dc4629ec77ca66cb1ba5b9a76543c683ab3360bc6cc5c152",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "Whose",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "skipping",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "rope",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "it",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "at",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "name",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tom's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "this",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "your",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Whose skipping rope is it?",
+        "Look at the name!",
+        "It is Tom's skipping rope.",
+        "Tom, is this your skipping rope?",
+        "Yes, it is. Thank you."
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "Whose",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "skipping",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "rope",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "it",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Look",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "at",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "name",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tom's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Tom",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "this",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "your",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Yes",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Whose skipping rope is it?",
+        "Look at the name!",
+        "It is Tom's skipping rope.",
+        "Tom, is this your skipping rope?",
+        "Yes, it is. Thank you."
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

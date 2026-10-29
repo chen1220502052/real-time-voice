@@ -1,0 +1,365 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": ".local/curriculum-column-crops/30fe45caf7b99bc0731b8aff-right.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "27d40df7c99e7660ffc6adf1af59f928ec3462ea85d0917734fbf7e64e4bbf13",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "composition",
+              "meaning": "n. 作文;作曲;构成",
+              "uncertain": false
+            },
+            {
+              "word": "copy",
+              "meaning": "n./v. 抄写;复印",
+              "uncertain": false
+            },
+            {
+              "word": "notebook",
+              "meaning": "n. 笔记本",
+              "uncertain": false
+            },
+            {
+              "word": "diary",
+              "meaning": "n. 记事簿;日记;日记簿",
+              "uncertain": false
+            },
+            {
+              "word": "keep a diary",
+              "meaning": "写日记",
+              "uncertain": false
+            },
+            {
+              "word": "tape",
+              "meaning": "n. 磁带,录音带",
+              "uncertain": false
+            },
+            {
+              "word": "aloud",
+              "meaning": "adv. 大声地",
+              "uncertain": false
+            },
+            {
+              "word": "object",
+              "meaning": "n. 物品,东西;目的,目标",
+              "uncertain": false
+            },
+            {
+              "word": "textbook",
+              "meaning": "n. 教科书,课本",
+              "uncertain": false
+            },
+            {
+              "word": "ability",
+              "meaning": "n. 能力;才能",
+              "uncertain": false
+            },
+            {
+              "word": "take a breath",
+              "meaning": "吸一口气",
+              "uncertain": false
+            },
+            {
+              "word": "toothpaste",
+              "meaning": "n. 牙膏",
+              "uncertain": false
+            },
+            {
+              "word": "preview",
+              "meaning": "v. 预习;预告",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "v. 复习;回顾 n. 复习;复查;评论",
+              "uncertain": false
+            },
+            {
+              "word": "translate",
+              "meaning": "v. 翻译",
+              "uncertain": false
+            },
+            {
+              "word": "discussion",
+              "meaning": "n. 讨论,谈论,商讨",
+              "uncertain": false
+            },
+            {
+              "word": "exactly",
+              "meaning": "adv. 精确地,确切地",
+              "uncertain": false
+            },
+            {
+              "word": "honor",
+              "meaning": "n. 尊敬,荣幸 v. 给予表扬(或者奖励、头衔、称号);尊敬,尊重",
+              "uncertain": false
+            },
+            {
+              "word": "as long as",
+              "meaning": "只要",
+              "uncertain": false
+            },
+            {
+              "word": "stick to (doing) sth.",
+              "meaning": "坚持(做)某事",
+              "uncertain": false
+            },
+            {
+              "word": "chant",
+              "meaning": "n. 重复唱的歌词;圣歌",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "v. 达到,获得;成功",
+              "uncertain": false
+            },
+            {
+              "word": "easily",
+              "meaning": "adv. 容易地,轻易地",
+              "uncertain": false
+            },
+            {
+              "word": "download",
+              "meaning": "v. 下载",
+              "uncertain": false
+            },
+            {
+              "word": "actually",
+              "meaning": "adv. 的确,事实上",
+              "uncertain": false
+            },
+            {
+              "word": "effective",
+              "meaning": "adj. 有效的,产生预期效果的",
+              "uncertain": false
+            },
+            {
+              "word": "imitate",
+              "meaning": "v. 模仿,仿效",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "company",
+              "meaning": "n. 公司",
+              "uncertain": false
+            },
+            {
+              "word": "bored",
+              "meaning": "adj. 厌倦的,烦闷的",
+              "uncertain": false
+            },
+            {
+              "word": "concentrate",
+              "meaning": "v. 集中(注意力),聚精会神",
+              "uncertain": false
+            },
+            {
+              "word": "pull",
+              "meaning": "v. 拉;拽;扯;拖",
+              "uncertain": false
+            },
+            {
+              "word": "fold",
+              "meaning": "v. 折叠;包",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "composition",
+              "meaning": "n. 作文;作曲;构成",
+              "uncertain": false
+            },
+            {
+              "word": "copy",
+              "meaning": "n./v. 抄写;复印",
+              "uncertain": false
+            },
+            {
+              "word": "notebook",
+              "meaning": "n. 笔记本",
+              "uncertain": false
+            },
+            {
+              "word": "diary",
+              "meaning": "n. 记事簿;日记;日记簿",
+              "uncertain": false
+            },
+            {
+              "word": "keep a diary",
+              "meaning": "写日记",
+              "uncertain": false
+            },
+            {
+              "word": "tape",
+              "meaning": "n. 磁带,录音带",
+              "uncertain": false
+            },
+            {
+              "word": "aloud",
+              "meaning": "adv. 大声地",
+              "uncertain": false
+            },
+            {
+              "word": "object",
+              "meaning": "n. 物品,东西;目的,目标",
+              "uncertain": false
+            },
+            {
+              "word": "textbook",
+              "meaning": "n. 教科书,课本",
+              "uncertain": false
+            },
+            {
+              "word": "ability",
+              "meaning": "n. 能力;才能",
+              "uncertain": false
+            },
+            {
+              "word": "take a breath",
+              "meaning": "吸一口气",
+              "uncertain": false
+            },
+            {
+              "word": "toothpaste",
+              "meaning": "n. 牙膏",
+              "uncertain": false
+            },
+            {
+              "word": "preview",
+              "meaning": "v. 预习;预告",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "v. 复习;回顾 n. 复习;复查;评论",
+              "uncertain": false
+            },
+            {
+              "word": "translate",
+              "meaning": "v. 翻译",
+              "uncertain": false
+            },
+            {
+              "word": "discussion",
+              "meaning": "n. 讨论,谈论,商讨",
+              "uncertain": false
+            },
+            {
+              "word": "exactly",
+              "meaning": "adv. 精确地,确切地",
+              "uncertain": false
+            },
+            {
+              "word": "honor",
+              "meaning": "n. 尊敬,荣幸 v. 给予表扬(或者奖励、头衔、称号);尊敬,尊重",
+              "uncertain": false
+            },
+            {
+              "word": "as long as",
+              "meaning": "只要",
+              "uncertain": false
+            },
+            {
+              "word": "stick to (doing) sth.",
+              "meaning": "坚持(做)某事",
+              "uncertain": false
+            },
+            {
+              "word": "chant",
+              "meaning": "n. 重复唱的歌词;圣歌",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "v. 达到,获得;成功",
+              "uncertain": false
+            },
+            {
+              "word": "easily",
+              "meaning": "adv. 容易地,轻易地",
+              "uncertain": false
+            },
+            {
+              "word": "download",
+              "meaning": "v. 下载",
+              "uncertain": false
+            },
+            {
+              "word": "actually",
+              "meaning": "adv. 的确,事实上",
+              "uncertain": false
+            },
+            {
+              "word": "effective",
+              "meaning": "adj. 有效的,产生预期效果的",
+              "uncertain": false
+            },
+            {
+              "word": "imitate",
+              "meaning": "v. 模仿,仿效",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "company",
+              "meaning": "n. 公司",
+              "uncertain": false
+            },
+            {
+              "word": "bored",
+              "meaning": "adj. 厌倦的,烦闷的",
+              "uncertain": false
+            },
+            {
+              "word": "concentrate",
+              "meaning": "v. 集中(注意力),聚精会神",
+              "uncertain": false
+            },
+            {
+              "word": "pull",
+              "meaning": "v. 拉;拽;扯;拖",
+              "uncertain": false
+            },
+            {
+              "word": "fold",
+              "meaning": "v. 折叠;包",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

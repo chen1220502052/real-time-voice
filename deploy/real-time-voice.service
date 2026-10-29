@@ -1,0 +1,36 @@
+[Unit]
+Description=Cat English real-time voice trial
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=catvoice
+Group=catvoice
+WorkingDirectory=/opt/real-time-voice
+EnvironmentFile=/etc/real-time-voice.env
+Environment=ACCOUNT_DB=/var/lib/real-time-voice/accounts.sqlite3
+ExecStart=/opt/real-time-voice/.venv/bin/python -m backend.app
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=300
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/real-time-voice
+Environment=HOME=/var/lib/real-time-voice
+MemoryMax=5G
+TasksMax=256
+LimitNOFILE=4096
+StandardOutput=journal
+StandardError=journal
+LogRateLimitIntervalSec=30s
+LogRateLimitBurst=200
+
+[Install]
+WantedBy=multi-user.target

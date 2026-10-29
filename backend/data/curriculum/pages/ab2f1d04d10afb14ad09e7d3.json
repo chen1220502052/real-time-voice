@@ -1,0 +1,195 @@
+{
+  "publisher": "科普版",
+  "grade": 6,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": ".local/curriculum-column-crops/9a7846dfc4446de890161137-right.jpg",
+  "units": [],
+  "source": "https://www.xdstudy.com/h5/follow/93/detail/",
+  "sha256": "ab2f1d04d10afb14ad09e7d3174d459dc8ebaa1c38e94283ba5c44c8f7cdaebb",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "brave",
+              "meaning": "勇敢的",
+              "uncertain": false
+            },
+            {
+              "word": "famous",
+              "meaning": "著名的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "umbrella",
+              "meaning": "雨伞",
+              "uncertain": false
+            },
+            {
+              "word": "luck",
+              "meaning": "运气",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "library",
+              "meaning": "图书馆",
+              "uncertain": false
+            },
+            {
+              "word": "left",
+              "meaning": "左边",
+              "uncertain": false
+            },
+            {
+              "word": "end",
+              "meaning": "末端，尽头",
+              "uncertain": false
+            },
+            {
+              "word": "surprised",
+              "meaning": "感到惊讶的",
+              "uncertain": false
+            },
+            {
+              "word": "at the end",
+              "meaning": "最后",
+              "uncertain": false
+            },
+            {
+              "word": "on the right",
+              "meaning": "在右边",
+              "uncertain": false
+            },
+            {
+              "word": "next to",
+              "meaning": "紧挨着",
+              "uncertain": false
+            },
+            {
+              "word": "look for",
+              "meaning": "寻找",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "lovely",
+              "meaning": "可爱的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "brave",
+              "meaning": "勇敢的",
+              "uncertain": false
+            },
+            {
+              "word": "famous",
+              "meaning": "著名的",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "entries": [
+            {
+              "word": "umbrella",
+              "meaning": "雨伞",
+              "uncertain": false
+            },
+            {
+              "word": "luck",
+              "meaning": "运气",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "library",
+              "meaning": "图书馆",
+              "uncertain": false
+            },
+            {
+              "word": "left",
+              "meaning": "左边",
+              "uncertain": false
+            },
+            {
+              "word": "end",
+              "meaning": "末端，尽头",
+              "uncertain": false
+            },
+            {
+              "word": "surprised",
+              "meaning": "感到惊讶的",
+              "uncertain": false
+            },
+            {
+              "word": "at the end",
+              "meaning": "最后",
+              "uncertain": false
+            },
+            {
+              "word": "on the right",
+              "meaning": "在右边",
+              "uncertain": false
+            },
+            {
+              "word": "next to",
+              "meaning": "紧挨着",
+              "uncertain": false
+            },
+            {
+              "word": "look for",
+              "meaning": "寻找",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "lovely",
+              "meaning": "可爱的",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

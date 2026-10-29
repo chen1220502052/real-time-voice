@@ -1,0 +1,259 @@
+{
+  "publisher": "科普版",
+  "grade": 7,
+  "term": "上册",
+  "book": "上册_2024年8月第1版_完整教材",
+  "image": ".local/curriculum-column-crops/8f68e2ef30774549f25ebfc0-left.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1975",
+  "sha256": "1529174d8a5ccdb611492cf59ff2682c380328a73b2fc4742afafeba8401ffe8",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "everybody",
+              "meaning": "每人",
+              "uncertain": false
+            },
+            {
+              "word": "her",
+              "meaning": "她的；她",
+              "uncertain": false
+            },
+            {
+              "word": "beautiful",
+              "meaning": "美丽的；美好的",
+              "uncertain": false
+            },
+            {
+              "word": "picture",
+              "meaning": "图画；照片；想象",
+              "uncertain": false
+            },
+            {
+              "word": "book",
+              "meaning": "书；预约，预订",
+              "uncertain": false
+            },
+            {
+              "word": "also",
+              "meaning": "也；而且",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "许多",
+              "uncertain": false
+            },
+            {
+              "word": "thing",
+              "meaning": "事件；东西",
+              "uncertain": false
+            },
+            {
+              "word": "such",
+              "meaning": "这样；这样的，那样的",
+              "uncertain": false
+            },
+            {
+              "word": "as",
+              "meaning": "像；作为；如同",
+              "uncertain": false
+            },
+            {
+              "word": "great",
+              "meaning": "（强调某种情况）；好极的；优秀的",
+              "uncertain": false
+            },
+            {
+              "word": "time",
+              "meaning": "时间；一段时间；次；时刻",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "和；有；用",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "know",
+              "meaning": "知道；认识",
+              "uncertain": false
+            },
+            {
+              "word": "card",
+              "meaning": "卡片纸；贺卡",
+              "uncertain": false
+            },
+            {
+              "word": "talk",
+              "meaning": "说话；讨论",
+              "uncertain": false
+            },
+            {
+              "word": "much",
+              "meaning": "非常；十分；很；许多，大量",
+              "uncertain": false
+            },
+            {
+              "word": "but",
+              "meaning": "相反；然而",
+              "uncertain": false
+            },
+            {
+              "word": "really",
+              "meaning": "（加强形容词或副词的语气）；确实；真正地",
+              "uncertain": false
+            },
+            {
+              "word": "different",
+              "meaning": "不同的；各种的",
+              "uncertain": false
+            },
+            {
+              "word": "Mr",
+              "meaning": "先生",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The heading 'Wrapping Up the Topic' is a topic heading without a numeric unit, so its entries are placed in a unit=null block."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "everybody",
+              "meaning": "每人",
+              "uncertain": false
+            },
+            {
+              "word": "her",
+              "meaning": "她的；她",
+              "uncertain": false
+            },
+            {
+              "word": "beautiful",
+              "meaning": "美丽的；美好的",
+              "uncertain": false
+            },
+            {
+              "word": "picture",
+              "meaning": "图画；照片；想象",
+              "uncertain": false
+            },
+            {
+              "word": "book",
+              "meaning": "书；预约，预订",
+              "uncertain": false
+            },
+            {
+              "word": "also",
+              "meaning": "也；而且",
+              "uncertain": false
+            },
+            {
+              "word": "many",
+              "meaning": "许多",
+              "uncertain": false
+            },
+            {
+              "word": "thing",
+              "meaning": "事件；东西",
+              "uncertain": false
+            },
+            {
+              "word": "such",
+              "meaning": "这样；这样的，那样的",
+              "uncertain": false
+            },
+            {
+              "word": "as",
+              "meaning": "像；作为；如同",
+              "uncertain": false
+            },
+            {
+              "word": "great",
+              "meaning": "（强调某种情况）；好极的；优秀的",
+              "uncertain": false
+            },
+            {
+              "word": "time",
+              "meaning": "时间；一段时间；次；时刻",
+              "uncertain": false
+            },
+            {
+              "word": "with",
+              "meaning": "和；有；用",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "know",
+              "meaning": "知道；认识",
+              "uncertain": false
+            },
+            {
+              "word": "card",
+              "meaning": "卡片纸；贺卡",
+              "uncertain": false
+            },
+            {
+              "word": "talk",
+              "meaning": "说话；讨论",
+              "uncertain": false
+            },
+            {
+              "word": "much",
+              "meaning": "非常；十分；很；许多，大量",
+              "uncertain": false
+            },
+            {
+              "word": "but",
+              "meaning": "相反；然而",
+              "uncertain": false
+            },
+            {
+              "word": "really",
+              "meaning": "（加强形容词或副词的语气）；确实；真正地",
+              "uncertain": false
+            },
+            {
+              "word": "different",
+              "meaning": "不同的；各种的",
+              "uncertain": false
+            },
+            {
+              "word": "Mr",
+              "meaning": "先生",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "The heading 'Wrapping Up the Topic' is a topic heading without a numeric unit, so its entries are placed in a unit=null block."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

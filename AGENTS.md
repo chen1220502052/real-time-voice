@@ -1,0 +1,9 @@
+# ECS deployment and testing
+
+- The Hong Kong ECS is intended to run on demand. Do not create a daily startup task.
+- Use `.local/deploy-venv/bin/python scripts/deploy_ssh.py` for remote commands and file transfer. It checks SSH, starts the ECS through the independent local cloud identity if necessary, and holds a maintenance lease during each operation. Never disable SSH host-key verification.
+- For a full multi-step deployment or any local/browser test against production, hold the lease for the entire workflow with `.local/deploy-venv/bin/python scripts/ecs_use.py -- COMMAND [ARGS...]`. For an interactive tool workflow, run `scripts/ecs_use.py -- /bin/cat` in a persistent PTY, keep it open until the workflow is complete, then send EOF. Do not leave leases open after testing.
+- The idle guard stops ECS in economical mode after 30 minutes without successful business requests and without active requests, voice sessions, or maintenance leases. Public health checks and background diagnostic polling do not keep it awake. Never fake browser traffic to avoid shutdown; hold a maintenance lease instead.
+- A separate OOS stop-only task is intended to stop the instance at 21:00 Asia/Shanghai, even if there is a maintenance lease. Avoid long deployments across that deadline unless the user explicitly changes the schedule.
+- Local startup requires an identity outside the stopped ECS. Never save instance-role temporary credentials as a long-term startup identity or print secrets. If the local dedicated RAM identity has not been configured, report that automatic startup is unavailable and give console startup instructions.
+- See `docs/16-ecs-on-demand.md` for current deployment/activation status, access policy paths and console startup steps. Do not claim an old daily startup task has been cancelled until its cloud state is verified.

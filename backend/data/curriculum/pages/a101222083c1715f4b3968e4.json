@@ -1,0 +1,322 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 12,
+  "units": [
+    12
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg",
+  "sha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "go",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "back",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "home",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "now",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "green",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "You",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "follow",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "rules",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "today",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "big",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "boy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Shop",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Restaurant",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Let's go to the library.",
+        "OK!",
+        "Let's go back home now.",
+        "OK!",
+        "It's green. We can go now.",
+        "You can follow the rules today. You are a big boy.",
+        "Thank you.",
+        "Library",
+        "Shop",
+        "Restaurant"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 12,
+          "entries": [
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "go",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "OK",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "back",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "home",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "now",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "green",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "You",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "follow",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "rules",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "today",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "a",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "big",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "boy",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Thank",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "you",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Shop",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Restaurant",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Let's go to the library.",
+        "OK!",
+        "Let's go back home now.",
+        "OK!",
+        "It's green. We can go now.",
+        "You can follow the rules today. You are a big boy.",
+        "Thank you.",
+        "Library",
+        "Shop",
+        "Restaurant"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

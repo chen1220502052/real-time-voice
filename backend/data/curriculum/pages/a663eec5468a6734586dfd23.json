@@ -1,0 +1,463 @@
+{
+  "publisher": "科普版",
+  "grade": 8,
+  "term": "上册",
+  "book": "上册_2025年7月第1版_完整教材",
+  "image": "英语/科普版/8年级/上册_2025年7月第1版_完整教材/单词/完整教材词表原图/PDF页150.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1976",
+  "sha256": "a663eec5468a6734586dfd230643e0b0cc9ac7b056b853853364a1cd35cef597",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "chocolate",
+              "meaning": "n.巧克力",
+              "uncertain": false
+            },
+            {
+              "word": "cookie",
+              "meaning": "n.曲奇饼",
+              "uncertain": false
+            },
+            {
+              "word": "ice cream",
+              "meaning": "n.冰激凌",
+              "uncertain": false
+            },
+            {
+              "word": "cream",
+              "meaning": "n.奶油",
+              "uncertain": false
+            },
+            {
+              "word": "jogging",
+              "meaning": "n.慢跑锻炼",
+              "uncertain": false
+            },
+            {
+              "word": "lazy",
+              "meaning": "adj.懒惰的;懒散的",
+              "uncertain": false
+            },
+            {
+              "word": "condition",
+              "meaning": "n.健康状况;状态;状况",
+              "uncertain": false
+            },
+            {
+              "word": "uncomfortable",
+              "meaning": "adj.使人不舒服的;令人不舒适的",
+              "uncertain": false
+            },
+            {
+              "word": "diary",
+              "meaning": "n.日记;日记簿",
+              "uncertain": false
+            },
+            {
+              "word": "positive",
+              "meaning": "adj.积极乐观的;积极的;正面的",
+              "uncertain": false
+            },
+            {
+              "word": "benefit",
+              "meaning": "n.益处;优势",
+              "uncertain": false
+            },
+            {
+              "word": "mood",
+              "meaning": "n.心情;情绪",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "n.排球运动",
+              "uncertain": false
+            },
+            {
+              "word": "energy",
+              "meaning": "n.精力;能源;能量",
+              "uncertain": false
+            },
+            {
+              "word": "glad",
+              "meaning": "adj.高兴;愉快",
+              "uncertain": false
+            },
+            {
+              "word": "confident",
+              "meaning": "adj.自信的;有把握的",
+              "uncertain": false
+            },
+            {
+              "word": "absent",
+              "meaning": "adj.缺席;不在",
+              "uncertain": false
+            },
+            {
+              "word": "moment",
+              "meaning": "n.片刻;瞬间",
+              "uncertain": false
+            },
+            {
+              "word": "oneself",
+              "meaning": "pron.自己;亲自",
+              "uncertain": false
+            },
+            {
+              "word": "seem",
+              "meaning": "v.好像,似乎",
+              "uncertain": false
+            },
+            {
+              "word": "unhealthy",
+              "meaning": "adj.不健康的",
+              "uncertain": false
+            },
+            {
+              "word": "empty",
+              "meaning": "adj.空的;无意义的",
+              "uncertain": false
+            },
+            {
+              "word": "stomach",
+              "meaning": "n.胃",
+              "uncertain": false
+            },
+            {
+              "word": "living",
+              "meaning": "n.生活方式 adj.生活的;活着的",
+              "uncertain": false
+            },
+            {
+              "word": "nonsense",
+              "meaning": "n.胡扯;谬论;胡言乱语",
+              "uncertain": false
+            },
+            {
+              "word": "improper",
+              "meaning": "adj.不正确的;不适当的;不诚实的",
+              "uncertain": false
+            },
+            {
+              "word": "clearly",
+              "meaning": "adv.明显地;清楚地,清晰地",
+              "uncertain": false
+            },
+            {
+              "word": "sleepy",
+              "meaning": "adj.困倦的;瞌睡的",
+              "uncertain": false
+            },
+            {
+              "word": "worse",
+              "meaning": "adj.更差的;更糟的;更坏的",
+              "uncertain": false
+            },
+            {
+              "word": "rid",
+              "meaning": "v.摆脱",
+              "uncertain": false
+            },
+            {
+              "word": "fridge",
+              "meaning": "n.冰箱",
+              "uncertain": false
+            },
+            {
+              "word": "weight",
+              "meaning": "n.重量",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "potato",
+              "meaning": "n.马铃薯;土豆",
+              "uncertain": false
+            },
+            {
+              "word": "corn",
+              "meaning": "n.玉米;(小麦等)谷物",
+              "uncertain": false
+            },
+            {
+              "word": "candy",
+              "meaning": "n.糖果;巧克力;一块糖(或巧克力)",
+              "uncertain": false
+            },
+            {
+              "word": "biscuit",
+              "meaning": "n.饼干",
+              "uncertain": false
+            },
+            {
+              "word": "beef",
+              "meaning": "n.牛肉",
+              "uncertain": false
+            },
+            {
+              "word": "cucumber",
+              "meaning": "n.黄瓜",
+              "uncertain": false
+            },
+            {
+              "word": "lifestyle",
+              "meaning": "n.生活方式;工作方式",
+              "uncertain": false
+            },
+            {
+              "word": "prefer",
+              "meaning": "v.较喜欢;喜欢……多于……",
+              "uncertain": false
+            },
+            {
+              "word": "bean",
+              "meaning": "n.豆;豆荚",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "No Unit/Lesson heading is printed on this page; all entries are assigned unit=null.",
+        "The heading 'Developing the Topic' is a section heading, not a numbered Unit/Lesson, so its entries are included in the same unit=null block.",
+        "The entry 'fridge' includes the parenthetical '(refrigerator /rɪ'frɪdʒəreɪtə(r)/)' printed after it; the parenthetical pronunciation was excluded from the word field."
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "chocolate",
+              "meaning": "n.巧克力",
+              "uncertain": false
+            },
+            {
+              "word": "cookie",
+              "meaning": "n.曲奇饼",
+              "uncertain": false
+            },
+            {
+              "word": "ice cream",
+              "meaning": "n.冰激凌",
+              "uncertain": false
+            },
+            {
+              "word": "cream",
+              "meaning": "n.奶油",
+              "uncertain": false
+            },
+            {
+              "word": "jogging",
+              "meaning": "n.慢跑锻炼",
+              "uncertain": false
+            },
+            {
+              "word": "lazy",
+              "meaning": "adj.懒惰的;懒散的",
+              "uncertain": false
+            },
+            {
+              "word": "condition",
+              "meaning": "n.健康状况;状态;状况",
+              "uncertain": false
+            },
+            {
+              "word": "uncomfortable",
+              "meaning": "adj.使人不舒服的;令人不舒适的",
+              "uncertain": false
+            },
+            {
+              "word": "diary",
+              "meaning": "n.日记;日记簿",
+              "uncertain": false
+            },
+            {
+              "word": "positive",
+              "meaning": "adj.积极乐观的;积极的;正面的",
+              "uncertain": false
+            },
+            {
+              "word": "benefit",
+              "meaning": "n.益处;优势",
+              "uncertain": false
+            },
+            {
+              "word": "mood",
+              "meaning": "n.心情;情绪",
+              "uncertain": false
+            },
+            {
+              "word": "volleyball",
+              "meaning": "n.排球运动",
+              "uncertain": false
+            },
+            {
+              "word": "energy",
+              "meaning": "n.精力;能源;能量",
+              "uncertain": false
+            },
+            {
+              "word": "glad",
+              "meaning": "adj.高兴;愉快",
+              "uncertain": false
+            },
+            {
+              "word": "confident",
+              "meaning": "adj.自信的;有把握的",
+              "uncertain": false
+            },
+            {
+              "word": "absent",
+              "meaning": "adj.缺席;不在",
+              "uncertain": false
+            },
+            {
+              "word": "moment",
+              "meaning": "n.片刻;瞬间",
+              "uncertain": false
+            },
+            {
+              "word": "oneself",
+              "meaning": "pron.自己;亲自",
+              "uncertain": false
+            },
+            {
+              "word": "seem",
+              "meaning": "v.好像,似乎",
+              "uncertain": false
+            },
+            {
+              "word": "unhealthy",
+              "meaning": "adj.不健康的",
+              "uncertain": false
+            },
+            {
+              "word": "empty",
+              "meaning": "adj.空的;无意义的",
+              "uncertain": false
+            },
+            {
+              "word": "stomach",
+              "meaning": "n.胃",
+              "uncertain": false
+            },
+            {
+              "word": "living",
+              "meaning": "n.生活方式 adj.生活的;活着的",
+              "uncertain": false
+            },
+            {
+              "word": "nonsense",
+              "meaning": "n.胡扯;谬论;胡言乱语",
+              "uncertain": false
+            },
+            {
+              "word": "improper",
+              "meaning": "adj.不正确的;不适当的;不诚实的",
+              "uncertain": false
+            },
+            {
+              "word": "clearly",
+              "meaning": "adv.明显地;清楚地,清晰地",
+              "uncertain": false
+            },
+            {
+              "word": "sleepy",
+              "meaning": "adj.困倦的;瞌睡的",
+              "uncertain": false
+            },
+            {
+              "word": "worse",
+              "meaning": "adj.更差的;更糟的;更坏的",
+              "uncertain": false
+            },
+            {
+              "word": "rid",
+              "meaning": "v.摆脱",
+              "uncertain": false
+            },
+            {
+              "word": "fridge",
+              "meaning": "n.冰箱",
+              "uncertain": false
+            },
+            {
+              "word": "weight",
+              "meaning": "n.重量",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "potato",
+              "meaning": "n.马铃薯;土豆",
+              "uncertain": false
+            },
+            {
+              "word": "corn",
+              "meaning": "n.玉米;(小麦等)谷物",
+              "uncertain": false
+            },
+            {
+              "word": "candy",
+              "meaning": "n.糖果;巧克力;一块糖(或巧克力)",
+              "uncertain": false
+            },
+            {
+              "word": "biscuit",
+              "meaning": "n.饼干",
+              "uncertain": false
+            },
+            {
+              "word": "beef",
+              "meaning": "n.牛肉",
+              "uncertain": false
+            },
+            {
+              "word": "cucumber",
+              "meaning": "n.黄瓜",
+              "uncertain": false
+            },
+            {
+              "word": "lifestyle",
+              "meaning": "n.生活方式;工作方式",
+              "uncertain": false
+            },
+            {
+              "word": "prefer",
+              "meaning": "v.较喜欢;喜欢……多于……",
+              "uncertain": false
+            },
+            {
+              "word": "bean",
+              "meaning": "n.豆;豆荚",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": [
+        "No Unit/Lesson heading is printed on this page; all entries are assigned unit=null.",
+        "The heading 'Developing the Topic' is a section heading, not a numbered Unit/Lesson, so its entries are included in the same unit=null block.",
+        "The entry 'fridge' includes the parenthetical '(refrigerator /rɪ'frɪdʒəreɪtə(r)/)' printed after it; the parenthetical pronunciation was excluded from the word field."
+      ]
+    }
+  ],
+  "changedOnVerification": false
+}

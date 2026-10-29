@@ -1,0 +1,157 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "下册",
+  "book": "下册_完整教材词表",
+  "image": "英语/科普版/4年级/下册_完整教材词表/原图/07_10_教材页面_195f534dc9.jpg",
+  "units": [
+    7
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/129/detail/",
+  "sha256": "34840a30f5a53a79dacd69aedcbcffb4e2e5e072dc5332f88c25808bf1b5c682",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "spring",
+              "meaning": "春季，泉",
+              "uncertain": false
+            },
+            {
+              "word": "warm",
+              "meaning": "温暖的",
+              "uncertain": false
+            },
+            {
+              "word": "summer",
+              "meaning": "夏季",
+              "uncertain": false
+            },
+            {
+              "word": "hot",
+              "meaning": "炎热的，辣的",
+              "uncertain": false
+            },
+            {
+              "word": "autumn",
+              "meaning": "秋季",
+              "uncertain": false
+            },
+            {
+              "word": "winter",
+              "meaning": "冬季",
+              "uncertain": false
+            },
+            {
+              "word": "cold",
+              "meaning": "寒冷的；感冒",
+              "uncertain": false
+            },
+            {
+              "word": "season",
+              "meaning": "季节",
+              "uncertain": false
+            },
+            {
+              "word": "snow",
+              "meaning": "雪；下雪",
+              "uncertain": false
+            },
+            {
+              "word": "because",
+              "meaning": "因为",
+              "uncertain": false
+            },
+            {
+              "word": "pick",
+              "meaning": "采，摘",
+              "uncertain": false
+            },
+            {
+              "word": "snowman",
+              "meaning": "雪人",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 7,
+          "entries": [
+            {
+              "word": "spring",
+              "meaning": "春季，泉",
+              "uncertain": false
+            },
+            {
+              "word": "warm",
+              "meaning": "温暖的",
+              "uncertain": false
+            },
+            {
+              "word": "summer",
+              "meaning": "夏季",
+              "uncertain": false
+            },
+            {
+              "word": "hot",
+              "meaning": "炎热的，辣的",
+              "uncertain": false
+            },
+            {
+              "word": "autumn",
+              "meaning": "秋季",
+              "uncertain": false
+            },
+            {
+              "word": "winter",
+              "meaning": "冬季",
+              "uncertain": false
+            },
+            {
+              "word": "cold",
+              "meaning": "寒冷的；感冒",
+              "uncertain": false
+            },
+            {
+              "word": "season",
+              "meaning": "季节",
+              "uncertain": false
+            },
+            {
+              "word": "snow",
+              "meaning": "雪；下雪",
+              "uncertain": false
+            },
+            {
+              "word": "because",
+              "meaning": "因为",
+              "uncertain": false
+            },
+            {
+              "word": "pick",
+              "meaning": "采，摘",
+              "uncertain": false
+            },
+            {
+              "word": "snowman",
+              "meaning": "雪人",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

@@ -1,0 +1,1470 @@
+{
+  "publisher": "科普版",
+  "grade": 9,
+  "term": "上册",
+  "book": "上册_2014年7月第1版_2025重印_完整教材",
+  "image": "英语/科普版/9年级/上册_2014年7月第1版_2025重印_完整教材/单词/完整教材词表原图/PDF页146.jpg",
+  "units": [],
+  "source": "https://keben.app/book/1967",
+  "sha256": "30fe45caf7b99bc0731b8aff5fd4110cabf418b251d364ee700ea82ac12de4ad",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "at times",
+              "meaning": "有时;间或",
+              "uncertain": false
+            },
+            {
+              "word": "ancient",
+              "meaning": "古代的;古老的",
+              "uncertain": false
+            },
+            {
+              "word": "magical",
+              "meaning": "奇妙的;有魔力的",
+              "uncertain": false
+            },
+            {
+              "word": "creature",
+              "meaning": "生物;动物",
+              "uncertain": false
+            },
+            {
+              "word": "emperor",
+              "meaning": "皇帝",
+              "uncertain": false
+            },
+            {
+              "word": "compare",
+              "meaning": "比较,对比",
+              "uncertain": false
+            },
+            {
+              "word": "compare ... to ...",
+              "meaning": "把……比作……",
+              "uncertain": false
+            },
+            {
+              "word": "courage",
+              "meaning": "勇气,胆略",
+              "uncertain": false
+            },
+            {
+              "word": "underline",
+              "meaning": "在(词语等下)画线;画底线标出",
+              "uncertain": false
+            },
+            {
+              "word": "difference",
+              "meaning": "差别;差异",
+              "uncertain": false
+            },
+            {
+              "word": "mistake",
+              "meaning": "错误,失误",
+              "uncertain": false
+            },
+            {
+              "word": "make mistakes",
+              "meaning": "犯错误",
+              "uncertain": false
+            },
+            {
+              "word": "peacock",
+              "meaning": "雄孔雀",
+              "uncertain": false
+            },
+            {
+              "word": "pride",
+              "meaning": "骄傲,自豪",
+              "uncertain": false
+            },
+            {
+              "word": "wisdom",
+              "meaning": "智慧,精明",
+              "uncertain": false
+            },
+            {
+              "word": "British",
+              "meaning": "英国的,英国人的",
+              "uncertain": false
+            },
+            {
+              "word": "kowtow",
+              "meaning": "叩头,磕头;唯命是从",
+              "uncertain": false
+            },
+            {
+              "word": "expression",
+              "meaning": "词语;表达;表情",
+              "uncertain": false
+            },
+            {
+              "word": "spelling",
+              "meaning": "拼写;拼法",
+              "uncertain": false
+            },
+            {
+              "word": "elevator",
+              "meaning": "电梯;升降机",
+              "uncertain": false
+            },
+            {
+              "word": "pronunciation",
+              "meaning": "发音",
+              "uncertain": false
+            },
+            {
+              "word": "cent",
+              "meaning": "分",
+              "uncertain": false
+            },
+            {
+              "word": "cookbook",
+              "meaning": "烹饪书,烹饪菜谱",
+              "uncertain": false
+            },
+            {
+              "word": "totally",
+              "meaning": "完全,全部地,整个地",
+              "uncertain": false
+            },
+            {
+              "word": "composition",
+              "meaning": "作文;作曲;构成",
+              "uncertain": false
+            },
+            {
+              "word": "copy",
+              "meaning": "抄写;复印",
+              "uncertain": false
+            },
+            {
+              "word": "notebook",
+              "meaning": "笔记本",
+              "uncertain": false
+            },
+            {
+              "word": "diary",
+              "meaning": "记事簿;日记,日记簿",
+              "uncertain": false
+            },
+            {
+              "word": "keep a diary",
+              "meaning": "写日记",
+              "uncertain": false
+            },
+            {
+              "word": "tape",
+              "meaning": "磁带,录音带",
+              "uncertain": false
+            },
+            {
+              "word": "aloud",
+              "meaning": "大声地",
+              "uncertain": false
+            },
+            {
+              "word": "object",
+              "meaning": "物品,东西;目的,目标",
+              "uncertain": false
+            },
+            {
+              "word": "textbook",
+              "meaning": "教科书,课本",
+              "uncertain": false
+            },
+            {
+              "word": "ability",
+              "meaning": "能力;才能",
+              "uncertain": false
+            },
+            {
+              "word": "take a breath",
+              "meaning": "吸一口气",
+              "uncertain": false
+            },
+            {
+              "word": "toothpaste",
+              "meaning": "牙膏",
+              "uncertain": false
+            },
+            {
+              "word": "preview",
+              "meaning": "预习;预告",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "复习;回顾",
+              "uncertain": false
+            },
+            {
+              "word": "translate",
+              "meaning": "翻译",
+              "uncertain": false
+            },
+            {
+              "word": "discussion",
+              "meaning": "讨论,谈论,商讨",
+              "uncertain": false
+            },
+            {
+              "word": "exactly",
+              "meaning": "精确地,确切地",
+              "uncertain": false
+            },
+            {
+              "word": "honor",
+              "meaning": "尊敬,荣幸",
+              "uncertain": false
+            },
+            {
+              "word": "as long as",
+              "meaning": "只要",
+              "uncertain": false
+            },
+            {
+              "word": "stick to (doing) sth.",
+              "meaning": "坚持(做)某事",
+              "uncertain": false
+            },
+            {
+              "word": "chant",
+              "meaning": "重复唱的歌词;圣歌",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "达到,获得;成功",
+              "uncertain": false
+            },
+            {
+              "word": "easily",
+              "meaning": "容易地,轻易地",
+              "uncertain": false
+            },
+            {
+              "word": "download",
+              "meaning": "下载",
+              "uncertain": false
+            },
+            {
+              "word": "actually",
+              "meaning": "的确,事实上",
+              "uncertain": false
+            },
+            {
+              "word": "effective",
+              "meaning": "有效的,产生预期效果的",
+              "uncertain": false
+            },
+            {
+              "word": "imitate",
+              "meaning": "模仿,仿效",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "accent",
+              "meaning": "口音,腔调",
+              "uncertain": false
+            },
+            {
+              "word": "oral",
+              "meaning": "口头的",
+              "uncertain": false
+            },
+            {
+              "word": "dare",
+              "meaning": "敢,敢于",
+              "uncertain": false
+            },
+            {
+              "word": "sleepy",
+              "meaning": "想睡的,困倦的,瞌睡的",
+              "uncertain": false
+            },
+            {
+              "word": "final",
+              "meaning": "最终的,最后的",
+              "uncertain": false
+            },
+            {
+              "word": "real",
+              "meaning": "真实的,实际存在的;真正的",
+              "uncertain": false
+            },
+            {
+              "word": "retell",
+              "meaning": "复述,重新讲述",
+              "uncertain": false
+            },
+            {
+              "word": "indirect",
+              "meaning": "间接的,附带的",
+              "uncertain": false
+            },
+            {
+              "word": "granddaughter",
+              "meaning": "(外)孙女",
+              "uncertain": false
+            },
+            {
+              "word": "pronounce",
+              "meaning": "发音,读(音)",
+              "uncertain": false
+            },
+            {
+              "word": "dialog",
+              "meaning": "对话,对白",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "company",
+              "meaning": "公司",
+              "uncertain": false
+            },
+            {
+              "word": "bored",
+              "meaning": "厌倦的,烦闷的",
+              "uncertain": false
+            },
+            {
+              "word": "concentrate",
+              "meaning": "(集中)注意力,聚精会神",
+              "uncertain": false
+            },
+            {
+              "word": "pull",
+              "meaning": "拉;拽;扯;拖",
+              "uncertain": false
+            },
+            {
+              "word": "fold",
+              "meaning": "折叠;包",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": null,
+          "entries": [
+            {
+              "word": "at times",
+              "meaning": "有时;间或",
+              "uncertain": false
+            },
+            {
+              "word": "ancient",
+              "meaning": "古代的;古老的",
+              "uncertain": false
+            },
+            {
+              "word": "magical",
+              "meaning": "奇妙的;有魔力的",
+              "uncertain": false
+            },
+            {
+              "word": "creature",
+              "meaning": "生物;动物",
+              "uncertain": false
+            },
+            {
+              "word": "emperor",
+              "meaning": "皇帝",
+              "uncertain": false
+            },
+            {
+              "word": "compare",
+              "meaning": "比较,对比",
+              "uncertain": false
+            },
+            {
+              "word": "compare ... to ...",
+              "meaning": "把……比作……",
+              "uncertain": false
+            },
+            {
+              "word": "courage",
+              "meaning": "勇气,胆略",
+              "uncertain": false
+            },
+            {
+              "word": "underline",
+              "meaning": "在(词语等下)画线;画底线标出",
+              "uncertain": false
+            },
+            {
+              "word": "difference",
+              "meaning": "差别;差异",
+              "uncertain": false
+            },
+            {
+              "word": "mistake",
+              "meaning": "错误,失误",
+              "uncertain": false
+            },
+            {
+              "word": "make mistakes",
+              "meaning": "犯错误",
+              "uncertain": false
+            },
+            {
+              "word": "peacock",
+              "meaning": "雄孔雀",
+              "uncertain": false
+            },
+            {
+              "word": "pride",
+              "meaning": "骄傲,自豪",
+              "uncertain": false
+            },
+            {
+              "word": "wisdom",
+              "meaning": "智慧,精明",
+              "uncertain": false
+            },
+            {
+              "word": "British",
+              "meaning": "英国的,英国人的",
+              "uncertain": false
+            },
+            {
+              "word": "kowtow",
+              "meaning": "叩头,磕头;唯命是从",
+              "uncertain": false
+            },
+            {
+              "word": "expression",
+              "meaning": "词语;表达;表情",
+              "uncertain": false
+            },
+            {
+              "word": "spelling",
+              "meaning": "拼写;拼法",
+              "uncertain": false
+            },
+            {
+              "word": "elevator",
+              "meaning": "电梯;升降机",
+              "uncertain": false
+            },
+            {
+              "word": "pronunciation",
+              "meaning": "发音",
+              "uncertain": false
+            },
+            {
+              "word": "cent",
+              "meaning": "分",
+              "uncertain": false
+            },
+            {
+              "word": "cookbook",
+              "meaning": "烹饪书,烹饪菜谱",
+              "uncertain": false
+            },
+            {
+              "word": "totally",
+              "meaning": "完全,全部地,整个地",
+              "uncertain": false
+            },
+            {
+              "word": "composition",
+              "meaning": "作文;作曲;构成",
+              "uncertain": false
+            },
+            {
+              "word": "copy",
+              "meaning": "抄写;复印",
+              "uncertain": false
+            },
+            {
+              "word": "notebook",
+              "meaning": "笔记本",
+              "uncertain": false
+            },
+            {
+              "word": "diary",
+              "meaning": "记事簿;日记,日记簿",
+              "uncertain": false
+            },
+            {
+              "word": "keep a diary",
+              "meaning": "写日记",
+              "uncertain": false
+            },
+            {
+              "word": "tape",
+              "meaning": "磁带,录音带",
+              "uncertain": false
+            },
+            {
+              "word": "aloud",
+              "meaning": "大声地",
+              "uncertain": false
+            },
+            {
+              "word": "object",
+              "meaning": "物品,东西;目的,目标",
+              "uncertain": false
+            },
+            {
+              "word": "textbook",
+              "meaning": "教科书,课本",
+              "uncertain": false
+            },
+            {
+              "word": "ability",
+              "meaning": "能力;才能",
+              "uncertain": false
+            },
+            {
+              "word": "take a breath",
+              "meaning": "吸一口气",
+              "uncertain": false
+            },
+            {
+              "word": "toothpaste",
+              "meaning": "牙膏",
+              "uncertain": false
+            },
+            {
+              "word": "preview",
+              "meaning": "预习;预告",
+              "uncertain": false
+            },
+            {
+              "word": "review",
+              "meaning": "复习;回顾",
+              "uncertain": false
+            },
+            {
+              "word": "translate",
+              "meaning": "翻译",
+              "uncertain": false
+            },
+            {
+              "word": "discussion",
+              "meaning": "讨论,谈论,商讨",
+              "uncertain": false
+            },
+            {
+              "word": "exactly",
+              "meaning": "精确地,确切地",
+              "uncertain": false
+            },
+            {
+              "word": "honor",
+              "meaning": "尊敬,荣幸",
+              "uncertain": false
+            },
+            {
+              "word": "as long as",
+              "meaning": "只要",
+              "uncertain": false
+            },
+            {
+              "word": "stick to (doing) sth.",
+              "meaning": "坚持(做)某事",
+              "uncertain": false
+            },
+            {
+              "word": "chant",
+              "meaning": "重复唱的歌词;圣歌",
+              "uncertain": false
+            },
+            {
+              "word": "achieve",
+              "meaning": "达到,获得;成功",
+              "uncertain": false
+            },
+            {
+              "word": "easily",
+              "meaning": "容易地,轻易地",
+              "uncertain": false
+            },
+            {
+              "word": "download",
+              "meaning": "下载",
+              "uncertain": false
+            },
+            {
+              "word": "actually",
+              "meaning": "的确,事实上",
+              "uncertain": false
+            },
+            {
+              "word": "effective",
+              "meaning": "有效的,产生预期效果的",
+              "uncertain": false
+            },
+            {
+              "word": "imitate",
+              "meaning": "模仿,仿效",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "accent",
+              "meaning": "口音,腔调",
+              "uncertain": false
+            },
+            {
+              "word": "oral",
+              "meaning": "口头的",
+              "uncertain": false
+            },
+            {
+              "word": "dare",
+              "meaning": "敢,敢于",
+              "uncertain": false
+            },
+            {
+              "word": "sleepy",
+              "meaning": "想睡的,困倦的,瞌睡的",
+              "uncertain": false
+            },
+            {
+              "word": "final",
+              "meaning": "最终的,最后的",
+              "uncertain": false
+            },
+            {
+              "word": "real",
+              "meaning": "真实的,实际存在的;真正的",
+              "uncertain": false
+            },
+            {
+              "word": "retell",
+              "meaning": "复述,重新讲述",
+              "uncertain": false
+            },
+            {
+              "word": "indirect",
+              "meaning": "间接的,附带的",
+              "uncertain": false
+            },
+            {
+              "word": "granddaughter",
+              "meaning": "(外)孙女",
+              "uncertain": false
+            },
+            {
+              "word": "pronounce",
+              "meaning": "发音,读(音)",
+              "uncertain": false
+            },
+            {
+              "word": "dialog",
+              "meaning": "对话,对白",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "company",
+              "meaning": "公司",
+              "uncertain": false
+            },
+            {
+              "word": "bored",
+              "meaning": "厌倦的,烦闷的",
+              "uncertain": false
+            },
+            {
+              "word": "concentrate",
+              "meaning": "(集中)注意力,聚精会神",
+              "uncertain": false
+            },
+            {
+              "word": "pull",
+              "meaning": "拉;拽;扯;拖",
+              "uncertain": false
+            },
+            {
+              "word": "fold",
+              "meaning": "折叠;包",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false,
+  "columnPasses": [
+    {
+      "side": "left",
+      "sha256": "390d28d41e9db4bf2ccb6f7f7bc29dfd29f24a9065b5e200de8916ed1a5a7d23",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "at times",
+                  "meaning": "有时;间或",
+                  "uncertain": false
+                },
+                {
+                  "word": "ancient",
+                  "meaning": "古代的;古老的",
+                  "uncertain": false
+                },
+                {
+                  "word": "magical",
+                  "meaning": "奇妙的;有魔力的",
+                  "uncertain": false
+                },
+                {
+                  "word": "creature",
+                  "meaning": "生物;动物",
+                  "uncertain": false
+                },
+                {
+                  "word": "emperor",
+                  "meaning": "皇帝",
+                  "uncertain": false
+                },
+                {
+                  "word": "compare",
+                  "meaning": "v. 比较,对比",
+                  "uncertain": false
+                },
+                {
+                  "word": "compare ... to ...",
+                  "meaning": "把……比作……",
+                  "uncertain": false
+                },
+                {
+                  "word": "courage",
+                  "meaning": "n. 勇气;胆略",
+                  "uncertain": false
+                },
+                {
+                  "word": "underline",
+                  "meaning": "v. 在(词语等下)画线;画底线标出",
+                  "uncertain": false
+                },
+                {
+                  "word": "difference",
+                  "meaning": "n. 差别;差异",
+                  "uncertain": false
+                },
+                {
+                  "word": "mistake",
+                  "meaning": "n. 错误,失误",
+                  "uncertain": false
+                },
+                {
+                  "word": "make mistakes",
+                  "meaning": "犯错误",
+                  "uncertain": false
+                },
+                {
+                  "word": "peacock",
+                  "meaning": "n. 雄孔雀",
+                  "uncertain": false
+                },
+                {
+                  "word": "pride",
+                  "meaning": "n. 骄傲,自豪",
+                  "uncertain": false
+                },
+                {
+                  "word": "wisdom",
+                  "meaning": "n. 智慧,精明",
+                  "uncertain": false
+                },
+                {
+                  "word": "British",
+                  "meaning": "adj. 英国的,英国人的",
+                  "uncertain": false
+                },
+                {
+                  "word": "kowtow",
+                  "meaning": "v. 叩头,磕头;唯命是从",
+                  "uncertain": false
+                },
+                {
+                  "word": "expression",
+                  "meaning": "n. 词语;表达;表情",
+                  "uncertain": false
+                },
+                {
+                  "word": "spelling",
+                  "meaning": "n. 拼写;拼法",
+                  "uncertain": false
+                },
+                {
+                  "word": "elevator",
+                  "meaning": "n. 电梯;升降机",
+                  "uncertain": false
+                },
+                {
+                  "word": "pronunciation",
+                  "meaning": "n. 发音",
+                  "uncertain": false
+                },
+                {
+                  "word": "cent",
+                  "meaning": "n. 分",
+                  "uncertain": false
+                },
+                {
+                  "word": "cookbook",
+                  "meaning": "n. 烹饪书,烹饪菜谱",
+                  "uncertain": false
+                },
+                {
+                  "word": "totally",
+                  "meaning": "adv. 完全,全部地,整个地",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "accent",
+                  "meaning": "n. 口音,腔调",
+                  "uncertain": false
+                },
+                {
+                  "word": "oral",
+                  "meaning": "adj. 口头的",
+                  "uncertain": false
+                },
+                {
+                  "word": "dare",
+                  "meaning": "modal v. 敢,敢于",
+                  "uncertain": false
+                },
+                {
+                  "word": "sleepy",
+                  "meaning": "adj. 想睡的,困倦的,瞌睡的",
+                  "uncertain": false
+                },
+                {
+                  "word": "final",
+                  "meaning": "adj. 最终的,最后的",
+                  "uncertain": false
+                },
+                {
+                  "word": "real",
+                  "meaning": "adj. 真实的,实际存在的;真正的",
+                  "uncertain": false
+                },
+                {
+                  "word": "retell",
+                  "meaning": "v. 复述,重新讲述",
+                  "uncertain": false
+                },
+                {
+                  "word": "indirect",
+                  "meaning": "adj. 间接的,附带的",
+                  "uncertain": false
+                },
+                {
+                  "word": "granddaughter",
+                  "meaning": "n. (外)孙女",
+                  "uncertain": false
+                },
+                {
+                  "word": "pronounce",
+                  "meaning": "v. 发音,读(音)",
+                  "uncertain": false
+                },
+                {
+                  "word": "dialog",
+                  "meaning": "n. 对话,对白",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "at times",
+                  "meaning": "有时;间或",
+                  "uncertain": false
+                },
+                {
+                  "word": "ancient",
+                  "meaning": "adj.古代的;古老的",
+                  "uncertain": false
+                },
+                {
+                  "word": "magical",
+                  "meaning": "adj.奇妙的;有魔力的",
+                  "uncertain": false
+                },
+                {
+                  "word": "creature",
+                  "meaning": "n.生物;动物",
+                  "uncertain": false
+                },
+                {
+                  "word": "emperor",
+                  "meaning": "n.皇帝",
+                  "uncertain": false
+                },
+                {
+                  "word": "compare",
+                  "meaning": "v.比较,对比",
+                  "uncertain": false
+                },
+                {
+                  "word": "compare ... to ...",
+                  "meaning": "把……比作……",
+                  "uncertain": false
+                },
+                {
+                  "word": "courage",
+                  "meaning": "n.勇气;胆略",
+                  "uncertain": false
+                },
+                {
+                  "word": "underline",
+                  "meaning": "v.在(词语等下)画线;画底线标出",
+                  "uncertain": false
+                },
+                {
+                  "word": "difference",
+                  "meaning": "n.差别;差异",
+                  "uncertain": false
+                },
+                {
+                  "word": "mistake",
+                  "meaning": "n.错误,失误",
+                  "uncertain": false
+                },
+                {
+                  "word": "make mistakes",
+                  "meaning": "犯错误",
+                  "uncertain": false
+                },
+                {
+                  "word": "peacock",
+                  "meaning": "n.雄孔雀",
+                  "uncertain": false
+                },
+                {
+                  "word": "pride",
+                  "meaning": "n.骄傲,自豪",
+                  "uncertain": false
+                },
+                {
+                  "word": "wisdom",
+                  "meaning": "n.智慧,精明",
+                  "uncertain": false
+                },
+                {
+                  "word": "British",
+                  "meaning": "adj.英国的,英国人的",
+                  "uncertain": false
+                },
+                {
+                  "word": "kowtow",
+                  "meaning": "v.叩头,磕头;唯命是从",
+                  "uncertain": false
+                },
+                {
+                  "word": "expression",
+                  "meaning": "n.词语;表达;表情",
+                  "uncertain": false
+                },
+                {
+                  "word": "spelling",
+                  "meaning": "n.拼写;拼法",
+                  "uncertain": false
+                },
+                {
+                  "word": "elevator",
+                  "meaning": "n.电梯;升降机",
+                  "uncertain": false
+                },
+                {
+                  "word": "pronunciation",
+                  "meaning": "n.发音",
+                  "uncertain": false
+                },
+                {
+                  "word": "cent",
+                  "meaning": "n.分",
+                  "uncertain": false
+                },
+                {
+                  "word": "cookbook",
+                  "meaning": "n.烹饪书,烹饪菜谱",
+                  "uncertain": false
+                },
+                {
+                  "word": "totally",
+                  "meaning": "adv.完全,全部地,整个地",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "accent",
+                  "meaning": "n.口音,腔调",
+                  "uncertain": false
+                },
+                {
+                  "word": "oral",
+                  "meaning": "adj.口头的",
+                  "uncertain": false
+                },
+                {
+                  "word": "dare",
+                  "meaning": "modal v.敢,敢于",
+                  "uncertain": false
+                },
+                {
+                  "word": "sleepy",
+                  "meaning": "adj.想睡的,困倦的,瞌睡的",
+                  "uncertain": false
+                },
+                {
+                  "word": "final",
+                  "meaning": "adj.最终的,最后的",
+                  "uncertain": false
+                },
+                {
+                  "word": "real",
+                  "meaning": "adj.真实的,实际存在的;真正的",
+                  "uncertain": false
+                },
+                {
+                  "word": "retell",
+                  "meaning": "v.复述,重新讲述",
+                  "uncertain": false
+                },
+                {
+                  "word": "indirect",
+                  "meaning": "adj.间接的,附带的",
+                  "uncertain": false
+                },
+                {
+                  "word": "granddaughter",
+                  "meaning": "n.(外)孙女",
+                  "uncertain": false
+                },
+                {
+                  "word": "pronounce",
+                  "meaning": "v.发音,读(音)",
+                  "uncertain": false
+                },
+                {
+                  "word": "dialog",
+                  "meaning": "n.对话,对白",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    },
+    {
+      "side": "right",
+      "sha256": "27d40df7c99e7660ffc6adf1af59f928ec3462ea85d0917734fbf7e64e4bbf13",
+      "passes": [
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "composition",
+                  "meaning": "n. 作文;作曲;构成",
+                  "uncertain": false
+                },
+                {
+                  "word": "copy",
+                  "meaning": "n./v. 抄写;复印",
+                  "uncertain": false
+                },
+                {
+                  "word": "notebook",
+                  "meaning": "n. 笔记本",
+                  "uncertain": false
+                },
+                {
+                  "word": "diary",
+                  "meaning": "n. 记事簿;日记;日记簿",
+                  "uncertain": false
+                },
+                {
+                  "word": "keep a diary",
+                  "meaning": "写日记",
+                  "uncertain": false
+                },
+                {
+                  "word": "tape",
+                  "meaning": "n. 磁带,录音带",
+                  "uncertain": false
+                },
+                {
+                  "word": "aloud",
+                  "meaning": "adv. 大声地",
+                  "uncertain": false
+                },
+                {
+                  "word": "object",
+                  "meaning": "n. 物品,东西;目的,目标",
+                  "uncertain": false
+                },
+                {
+                  "word": "textbook",
+                  "meaning": "n. 教科书,课本",
+                  "uncertain": false
+                },
+                {
+                  "word": "ability",
+                  "meaning": "n. 能力;才能",
+                  "uncertain": false
+                },
+                {
+                  "word": "take a breath",
+                  "meaning": "吸一口气",
+                  "uncertain": false
+                },
+                {
+                  "word": "toothpaste",
+                  "meaning": "n. 牙膏",
+                  "uncertain": false
+                },
+                {
+                  "word": "preview",
+                  "meaning": "v. 预习;预告",
+                  "uncertain": false
+                },
+                {
+                  "word": "review",
+                  "meaning": "v. 复习;回顾 n. 复习;复查;评论",
+                  "uncertain": false
+                },
+                {
+                  "word": "translate",
+                  "meaning": "v. 翻译",
+                  "uncertain": false
+                },
+                {
+                  "word": "discussion",
+                  "meaning": "n. 讨论,谈论,商讨",
+                  "uncertain": false
+                },
+                {
+                  "word": "exactly",
+                  "meaning": "adv. 精确地,确切地",
+                  "uncertain": false
+                },
+                {
+                  "word": "honor",
+                  "meaning": "n. 尊敬,荣幸 v. 给予表扬(或者奖励、头衔、称号);尊敬,尊重",
+                  "uncertain": false
+                },
+                {
+                  "word": "as long as",
+                  "meaning": "只要",
+                  "uncertain": false
+                },
+                {
+                  "word": "stick to (doing) sth.",
+                  "meaning": "坚持(做)某事",
+                  "uncertain": false
+                },
+                {
+                  "word": "chant",
+                  "meaning": "n. 重复唱的歌词;圣歌",
+                  "uncertain": false
+                },
+                {
+                  "word": "achieve",
+                  "meaning": "v. 达到,获得;成功",
+                  "uncertain": false
+                },
+                {
+                  "word": "easily",
+                  "meaning": "adv. 容易地,轻易地",
+                  "uncertain": false
+                },
+                {
+                  "word": "download",
+                  "meaning": "v. 下载",
+                  "uncertain": false
+                },
+                {
+                  "word": "actually",
+                  "meaning": "adv. 的确,事实上",
+                  "uncertain": false
+                },
+                {
+                  "word": "effective",
+                  "meaning": "adj. 有效的,产生预期效果的",
+                  "uncertain": false
+                },
+                {
+                  "word": "imitate",
+                  "meaning": "v. 模仿,仿效",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "company",
+                  "meaning": "n. 公司",
+                  "uncertain": false
+                },
+                {
+                  "word": "bored",
+                  "meaning": "adj. 厌倦的,烦闷的",
+                  "uncertain": false
+                },
+                {
+                  "word": "concentrate",
+                  "meaning": "v. 集中(注意力),聚精会神",
+                  "uncertain": false
+                },
+                {
+                  "word": "pull",
+                  "meaning": "v. 拉;拽;扯;拖",
+                  "uncertain": false
+                },
+                {
+                  "word": "fold",
+                  "meaning": "v. 折叠;包",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        },
+        {
+          "blocks": [
+            {
+              "unit": null,
+              "entries": [
+                {
+                  "word": "composition",
+                  "meaning": "n. 作文;作曲;构成",
+                  "uncertain": false
+                },
+                {
+                  "word": "copy",
+                  "meaning": "n./v. 抄写;复印",
+                  "uncertain": false
+                },
+                {
+                  "word": "notebook",
+                  "meaning": "n. 笔记本",
+                  "uncertain": false
+                },
+                {
+                  "word": "diary",
+                  "meaning": "n. 记事簿;日记;日记簿",
+                  "uncertain": false
+                },
+                {
+                  "word": "keep a diary",
+                  "meaning": "写日记",
+                  "uncertain": false
+                },
+                {
+                  "word": "tape",
+                  "meaning": "n. 磁带,录音带",
+                  "uncertain": false
+                },
+                {
+                  "word": "aloud",
+                  "meaning": "adv. 大声地",
+                  "uncertain": false
+                },
+                {
+                  "word": "object",
+                  "meaning": "n. 物品,东西;目的,目标",
+                  "uncertain": false
+                },
+                {
+                  "word": "textbook",
+                  "meaning": "n. 教科书,课本",
+                  "uncertain": false
+                },
+                {
+                  "word": "ability",
+                  "meaning": "n. 能力;才能",
+                  "uncertain": false
+                },
+                {
+                  "word": "take a breath",
+                  "meaning": "吸一口气",
+                  "uncertain": false
+                },
+                {
+                  "word": "toothpaste",
+                  "meaning": "n. 牙膏",
+                  "uncertain": false
+                },
+                {
+                  "word": "preview",
+                  "meaning": "v. 预习;预告",
+                  "uncertain": false
+                },
+                {
+                  "word": "review",
+                  "meaning": "v. 复习;回顾 n. 复习;复查;评论",
+                  "uncertain": false
+                },
+                {
+                  "word": "translate",
+                  "meaning": "v. 翻译",
+                  "uncertain": false
+                },
+                {
+                  "word": "discussion",
+                  "meaning": "n. 讨论,谈论,商讨",
+                  "uncertain": false
+                },
+                {
+                  "word": "exactly",
+                  "meaning": "adv. 精确地,确切地",
+                  "uncertain": false
+                },
+                {
+                  "word": "honor",
+                  "meaning": "n. 尊敬,荣幸 v. 给予表扬(或者奖励、头衔、称号);尊敬,尊重",
+                  "uncertain": false
+                },
+                {
+                  "word": "as long as",
+                  "meaning": "只要",
+                  "uncertain": false
+                },
+                {
+                  "word": "stick to (doing) sth.",
+                  "meaning": "坚持(做)某事",
+                  "uncertain": false
+                },
+                {
+                  "word": "chant",
+                  "meaning": "n. 重复唱的歌词;圣歌",
+                  "uncertain": false
+                },
+                {
+                  "word": "achieve",
+                  "meaning": "v. 达到,获得;成功",
+                  "uncertain": false
+                },
+                {
+                  "word": "easily",
+                  "meaning": "adv. 容易地,轻易地",
+                  "uncertain": false
+                },
+                {
+                  "word": "download",
+                  "meaning": "v. 下载",
+                  "uncertain": false
+                },
+                {
+                  "word": "actually",
+                  "meaning": "adv. 的确,事实上",
+                  "uncertain": false
+                },
+                {
+                  "word": "effective",
+                  "meaning": "adj. 有效的,产生预期效果的",
+                  "uncertain": false
+                },
+                {
+                  "word": "imitate",
+                  "meaning": "v. 模仿,仿效",
+                  "uncertain": false
+                }
+              ]
+            },
+            {
+              "unit": 3,
+              "entries": [
+                {
+                  "word": "company",
+                  "meaning": "n. 公司",
+                  "uncertain": false
+                },
+                {
+                  "word": "bored",
+                  "meaning": "adj. 厌倦的,烦闷的",
+                  "uncertain": false
+                },
+                {
+                  "word": "concentrate",
+                  "meaning": "v. 集中(注意力),聚精会神",
+                  "uncertain": false
+                },
+                {
+                  "word": "pull",
+                  "meaning": "v. 拉;拽;扯;拖",
+                  "uncertain": false
+                },
+                {
+                  "word": "fold",
+                  "meaning": "v. 折叠;包",
+                  "uncertain": false
+                }
+              ]
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "columnChecked": true
+}

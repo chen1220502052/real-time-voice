@@ -1,0 +1,127 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_完整教材词表",
+  "image": "英语/科普版/4年级/上册_完整教材词表/原图/03_06_教材页面_18adeacfa6.jpg",
+  "units": [
+    3
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/117/detail/",
+  "sha256": "bbd96b8fba2e6e47cfa10c2c6db87e67c7dd7921463c65f8b3adbc8de419d700",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "watermelon",
+              "meaning": "西瓜",
+              "uncertain": false
+            },
+            {
+              "word": "apple",
+              "meaning": "苹果",
+              "uncertain": false
+            },
+            {
+              "word": "pear",
+              "meaning": "梨",
+              "uncertain": false
+            },
+            {
+              "word": "banana",
+              "meaning": "香蕉",
+              "uncertain": false
+            },
+            {
+              "word": "grape",
+              "meaning": "葡萄",
+              "uncertain": false
+            },
+            {
+              "word": "fruit",
+              "meaning": "水果",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "喜欢；像",
+              "uncertain": false
+            },
+            {
+              "word": "table",
+              "meaning": "桌子",
+              "uncertain": false
+            },
+            {
+              "word": "candle",
+              "meaning": "蜡烛",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 3,
+          "entries": [
+            {
+              "word": "watermelon",
+              "meaning": "西瓜",
+              "uncertain": false
+            },
+            {
+              "word": "apple",
+              "meaning": "苹果",
+              "uncertain": false
+            },
+            {
+              "word": "pear",
+              "meaning": "梨",
+              "uncertain": false
+            },
+            {
+              "word": "banana",
+              "meaning": "香蕉",
+              "uncertain": false
+            },
+            {
+              "word": "grape",
+              "meaning": "葡萄",
+              "uncertain": false
+            },
+            {
+              "word": "fruit",
+              "meaning": "水果",
+              "uncertain": false
+            },
+            {
+              "word": "like",
+              "meaning": "喜欢；像",
+              "uncertain": false
+            },
+            {
+              "word": "table",
+              "meaning": "桌子",
+              "uncertain": false
+            },
+            {
+              "word": "candle",
+              "meaning": "蜡烛",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": false
+}

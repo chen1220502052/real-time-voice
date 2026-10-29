@@ -1,0 +1,391 @@
+{
+  "publisher": "科普版",
+  "grade": 4,
+  "term": "上册",
+  "book": "上册_官方当前目录_版次待与学校核对",
+  "unit": 6,
+  "units": [
+    6
+  ],
+  "source": "https://www.xdstudy.com/h5/follow/111/detail/",
+  "image": "英语/科普版/4年级/上册_官方当前目录_版次待与学校核对/Unit 6 My school/课文/03_教材页面_fd5ec02ebe.jpg",
+  "sha256": "9ecc1eb5b3847e95bb8eee69aa87457338629c33d9c9287dcaf4d9de2e3468ef",
+  "checked": true,
+  "method": "deepseek-vision-two-pass",
+  "passes": [
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "Hurry",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "up!",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "go",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "floor.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "help",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "teacher",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "in",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "library.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Ok.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Where",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "books?",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "They're",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "on",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bookshelf.",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "first",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "You",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "great!",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Science",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "LIBRARY",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It's",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Hurry up! Let's go to the third floor. We can help the teacher in the library.",
+        "Ok.",
+        "Where are the art books?",
+        "They're on the second bookshelf.",
+        "The science books are on the first bookshelf.",
+        "You are great!",
+        "Where is the library?",
+        "It's on the",
+        "Where are the art books?",
+        "They're on the",
+        "Where are the science books?",
+        "They're on the"
+      ],
+      "issues": []
+    },
+    {
+      "blocks": [
+        {
+          "unit": 6,
+          "entries": [
+            {
+              "word": "Hurry",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "up",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Let's",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "go",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "to",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "the",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "third",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "floor",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "We",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "can",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "help",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "teacher",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "in",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "library",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Ok",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Where",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "are",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "books",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "They're",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "on",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "second",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "bookshelf",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "The",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "science",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "first",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "You",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "great",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Science",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "Art",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "LIBRARY",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "is",
+              "meaning": "",
+              "uncertain": false
+            },
+            {
+              "word": "It's",
+              "meaning": "",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "evidenceSentences": [
+        "Hurry up! Let's go to the third floor. We can help the teacher in the library.",
+        "Ok.",
+        "Where are the art books?",
+        "They're on the second bookshelf.",
+        "The science books are on the first bookshelf.",
+        "You are great!",
+        "Where is the library?",
+        "It's on the",
+        "Where are the art books?",
+        "They're on the",
+        "Where are the science books?",
+        "They're on the"
+      ],
+      "issues": []
+    }
+  ],
+  "changedOnVerification": true
+}

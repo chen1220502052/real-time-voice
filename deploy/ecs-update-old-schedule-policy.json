@@ -1,0 +1,8 @@
+{
+  "Version": "1",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": "oos:UpdateExecution",
+    "Resource": "acs:oos:cn-hongkong:1614595363757373:execution/exec-3f406ef813bb47f08d8f"
+  }]
+}
