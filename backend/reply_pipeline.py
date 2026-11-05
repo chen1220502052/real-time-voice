@@ -54,6 +54,8 @@ class ReplyPipeline:
         dialogue._epoch += 1
         epoch = dialogue._epoch
         reply_id = "reply_{}".format(uuid.uuid4().hex[:12])
+        if dialogue.interruption.local is not None:
+            dialogue.interruption.local.new_reply()
         dialogue._active_reply_id = reply_id
         dialogue._active_turn_id = turn_id
         dialogue.timing.begin(reply_id, turn_id)
@@ -187,6 +189,8 @@ class ReplyPipeline:
                             return
                         if first_audio:
                             dialogue.timing.mark(reply_id, "ttsFirstPcmMs")
+                            detail=getattr(dialogue.tts,'last_timing',None)
+                            if detail:dialogue.timing.replies[reply_id]['localTts']=dict(detail)
                             first_audio = False
                             dialogue._emit_timeline("tts_first_audio", "tts", turn_id=dialogue._active_turn_id,
                                                     reply_id=reply_id, generation_epoch=epoch)
@@ -289,12 +293,18 @@ class ReplyPipeline:
 
     async def enqueue_playback(self, reply_id: str, epoch: int, pcm: bytes) -> None:
         dialogue = self.dialogue
+        if dialogue.interruption.local is not None and reply_id not in dialogue._reply_audio:
+            await dialogue.interruption.local.wait_before_first_audio()
+        if not dialogue._is_current(reply_id, epoch):
+            return
         dialogue.timing.mark(reply_id, "firstPcmEnqueuedMs")
         sequence = dialogue._down_sequence
         dialogue._down_sequence += 1
         speech_time = (sequence + 1) * 100
         audio = dialogue._reply_audio.setdefault(reply_id, {"first_seq": sequence, "bytes": 0})
         audio["bytes"] += len(pcm)
+        if dialogue.interruption.local is not None:
+            dialogue.interruption.local.echo.output(pcm)
         avatar = dialogue.cat.drive(pcm, sequence, speech_time)
         dialogue._last_enqueued = sequence
         if dialogue.session.robot.status == 1:

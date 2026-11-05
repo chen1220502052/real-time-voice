@@ -11,6 +11,7 @@ from typing import TYPE_CHECKING, Any, Dict, Optional
 from .duplex_events import DuplexEvent
 from .history import HistoryItem
 from .observability import log_event
+from .local_turn_taking import LocalTurnTaking
 
 if TYPE_CHECKING:
     from .duplex import DuplexDialogue
@@ -26,6 +27,7 @@ class InterruptionController:
         self._pending_barge_in: Optional[Dict[str, Any]] = None
         self._last_barge_in_time: Optional[int] = None
         self._asr_text_capable = False
+        self.local = LocalTurnTaking(dialogue) if getattr(dialogue.asr, 'supports_barge_in_partials', False) else None
 
     async def maybe_barge_in(self, result) -> None:
         """Gate robot interruption on sustained user speech, not one VAD frame.
@@ -35,6 +37,24 @@ class InterruptionController:
         interruption intent keeps talking long enough to confirm.
         """
         dialogue = self.dialogue
+        if self.local is not None:
+            return await self.local.update(result)
+        if getattr(dialogue.asr, "barge_in_requires_final", False):
+            # Local batch ASR keeps status 2 during the silence needed to
+            # finalize an utterance. Counting that as sustained speech cancels
+            # replies even for a 200 ms noise burst. Wait for recognized words;
+            # empty/noise finals must leave the current reply running.
+            if (result.status == 3 and result.text.strip()
+                    and dialogue.session.robot.status in (1, 2)
+                    and dialogue._active_reply_id is not None):
+                dialogue._emit_timeline(
+                    "barge_in_confirmed", "strategy",
+                    turn_id=dialogue._active_user_turn_id,
+                    reply_id=dialogue._active_reply_id,
+                    attributes={"evidence": "asr_final", "sawText": True},
+                )
+                await dialogue._interrupt()
+            return
         if self._barge_in_confirm_ms <= 0:
             if result.status == 1 and dialogue.session.robot.status in (1, 2):
                 await dialogue._interrupt()
@@ -113,6 +133,8 @@ class InterruptionController:
 
     async def interrupt(self, emit: bool = True) -> None:
         dialogue = self.dialogue
+        if self.local is not None:
+            self.local.release()
         dialogue._playback_deadline.cancel()
         dialogue._pending_action = None
         self._pending_barge_in = None

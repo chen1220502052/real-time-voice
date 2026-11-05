@@ -1,0 +1,1744 @@
+{
+  "variant": "baseline",
+  "mode": "live",
+  "startedUtc": "2026-11-04T08:31:26Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T08:28:09Z",
+    "casesSha256": "a5858a460c7945a8fc59e6dedf1aa756f86d2ebc571394c4bbf5c3fbc0dd433f",
+    "sources": {
+      "scripts/local_speech_worker.py": "4c95daa3b4ecdf0cfec63b5759ef7ce91f49c54d40a0ecff5abe91d9b5a5a4f8",
+      "backend/providers/speech_local.py": "08395a5dd0cf800816379e47461b91b33dbd5a6cb1932e86a7d3e76a73d3102f",
+      "backend/providers/speech_worker.py": "7be8d3d620f36bc47c4aadbbe4120691208618ea1c8ffe9dfb2d51f61c0c4570",
+      "backend/voice_grounding.py": "13f9ec3e11766baca3d2670a182bd5c76e126e01f7ae4aae9700a1859a3c4702",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/speech_text.py": "5c421b20313f419ef54bf5c45e5cc7163757e3aa00fe47d21c8c24cc638bcdb8",
+      "backend/data/chat/curriculum-vocabulary.json": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8",
+      "backend/data/chat/voice-glossary-supplement.json": "8c21c30e167c2ef2f8cdc10a87c9c8915ba08aef359cf22c1aa4656324d30300"
+    },
+    "baselineSources": {
+      ".local/code-switch-eval/baseline/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      ".local/code-switch-eval/baseline/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      ".local/code-switch-eval/baseline/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      ".local/code-switch-eval/baseline/speech_local.py": "08395a5dd0cf800816379e47461b91b33dbd5a6cb1932e86a7d3e76a73d3102f",
+      ".local/code-switch-eval/baseline/voice_grounding.py": "702af34150a772ecc4df42b2eae0aa927ab2d41eaee813a4ff034898cb218117"
+    },
+    "harnessSha256": {
+      "scripts/evaluate_code_switch_voice.py": "d1536aa2d15cd217abf931cc2c0053bd9c7393f4cd68b51b69d4ca8a1d77bb21",
+      "scripts/evaluate_bilingual_voice.py": "523871f9c07854befbd28584e82d32d52f5798ae1784bdcf7adaf2b773e63d76"
+    },
+    "model": {
+      "name": "qwen2.5:3b",
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 32768,
+        "embedding_length": 2048
+      }
+    },
+    "multilingualModel": {
+      "id": "mlx-community/Qwen3-ASR-0.6B-8bit",
+      "revision": "89e96d92ba34aca20b3e29fb10cc284097d1219f",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size": 1519,
+          "lfs": null
+        },
+        {
+          "name": "README.md",
+          "size": 1008,
+          "lfs": null
+        },
+        {
+          "name": "chat_template.json",
+          "size": 1161,
+          "lfs": null
+        },
+        {
+          "name": "config.json",
+          "size": 7187,
+          "lfs": null
+        },
+        {
+          "name": "generation_config.json",
+          "size": 142,
+          "lfs": null
+        },
+        {
+          "name": "merges.txt",
+          "size": 1671853,
+          "lfs": null
+        },
+        {
+          "name": "model.safetensors",
+          "size": 1006229426,
+          "lfs": {
+            "size": 1006229426,
+            "sha256": "b5bfe4abc1b4c6e58b633096682ec2b6297298add1527119936107d211adf0e8",
+            "pointer_size": 135
+          }
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size": 71815,
+          "lfs": null
+        },
+        {
+          "name": "preprocessor_config.json",
+          "size": 330,
+          "lfs": null
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 12487,
+          "lfs": null
+        },
+        {
+          "name": "vocab.json",
+          "size": 2776833,
+          "lfs": null
+        }
+      ]
+    },
+    "versions": {
+      "mlx-audio": "0.6.4",
+      "mlx": "0.32.4",
+      "parakeet-mlx": "0.6.0",
+      "mlx-whisper": "0.4.3",
+      "transformers": "5.22.1",
+      "numpy": "2.4.6"
+    },
+    "machine": "Apple M4 Pro / 24 GB",
+    "measurement": "18 fresh utterances, 12 target-word code-switch tasks; three noise/silence controls. Two repeats per variant. Offline full PCM/known end and eight paced live tasks reported separately; repeats/modes are not additional independent questions. Do not alter product sources after freeze. No dataset filtering using ASR. Clarification on a fully specified request counts as failure."
+  },
+  "rows": [
+    {
+      "id": "c01",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "英语里面Cat这个词的中文含义是什么?",
+      "asrMs": 604.4478747062385,
+      "asrDetail": {
+        "text": "英语里面Cat这个词的中文含义是什么?",
+        "requestStartedMs": 3130343229.736208,
+        "responseReadyMs": 3130343790.680375,
+        "workerInferenceMs": 558.56,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 560.37,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8181938592912428,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130343627.660541,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "英语里的Cat这个词中文含义是“猫”。",
+      "firstAudioMs": 1091.294708661735,
+      "totalMs": 1091.83558402583,
+      "audioSeconds": 6.47,
+      "output": ".local/code-switch-eval/baseline/c01-live-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.46,
+        "promptChars": 2507,
+        "systemPromptChars": 2488,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 6.15,
+        "providerHeadersMs": 81.37,
+        "providerFirstTokenMs": 81.41,
+        "modelLoadMs": 15.467,
+        "promptEvalMs": 53.073,
+        "tokenGenerationMs": 124.927,
+        "promptTokens": 551,
+        "generatedTokens": 11,
+        "firstSentenceReadyMs": 208.29,
+        "firstSentenceChars": 20,
+        "firstSpeechTextReadyMs": 208.3
+      },
+      "speech": [
+        {
+          "text": "英语里的Cat这个词中文含义是“猫”。",
+          "pcmBytes": 207040,
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 275.182,
+              "postprocess": 1.848
+            },
+            "memory": {
+              "activeBytes": 165501362,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 277.08,
+            "queueWaitMs": 0.024,
+            "startupMs": 0.008,
+            "ipcWallMs": 278.265
+          }
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "用中文解释再给一个英语例句",
+      "asrMs": 546.1546666920185,
+      "asrDetail": {
+        "text": "用中文解释再给一个英语例句",
+        "requestStartedMs": 3130347481.31075,
+        "responseReadyMs": 3130348028.5263333,
+        "workerInferenceMs": 545.31,
+        "snapshotEndMediaMs": 3300,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 546.849,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7235189791171185,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130347880.656416,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3200,
+        "fedMediaMs": 3700
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 707.8201249241829,
+      "totalMs": 870.1813747175038,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c03-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.23
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 159.073,
+              "postprocess": 1.494
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 160.58,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 161.281
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 159.677,
+              "postprocess": 1.548
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 161.24,
+            "queueWaitMs": 161.286,
+            "startupMs": 0.002,
+            "ipcWallMs": 161.856
+          }
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释并给两个英语例句",
+      "asrMs": 590.2244169265032,
+      "asrDetail": {
+        "text": "请用中文解释并给两个英语例句",
+        "requestStartedMs": 3130352056.0066247,
+        "responseReadyMs": 3130352622.045625,
+        "workerInferenceMs": 562.84,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.008,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 565.385,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8819110598181814,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130352455.301916,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 746.2131669744849,
+      "totalMs": 905.4970829747617,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c05-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 153.314,
+              "postprocess": 1.715
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 155.05,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 155.812
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 155.584,
+              "postprocess": 1.608
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 157.21,
+            "queueWaitMs": 155.815,
+            "startupMs": 0.002,
+            "ipcWallMs": 157.931
+          }
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "是什么意思?请用中文解释。",
+      "asrMs": 531.1842919327319,
+      "asrDetail": {
+        "text": "是什么意思?请用中文解释。",
+        "requestStartedMs": 3130356538.851041,
+        "responseReadyMs": 3130357074.431791,
+        "workerInferenceMs": 533.45,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.004,
+        "workerStartupMs": 0.007,
+        "workerIpcWallMs": 535.196,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7774535126574389,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130356939.95025,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 685.6422079727054,
+      "totalMs": 844.008166808635,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c08-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 151.796,
+              "postprocess": 1.719
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 153.54,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 154.281
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 155.433,
+              "postprocess": 1.716
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 157.16,
+            "queueWaitMs": 154.284,
+            "startupMs": 0.002,
+            "ipcWallMs": 157.881
+          }
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释,并给一个英语例句。",
+      "asrMs": 543.7292917631567,
+      "asrDetail": {
+        "text": "请用中文解释,并给一个英语例句。",
+        "requestStartedMs": 3130360990.73125,
+        "responseReadyMs": 3130361546.4657497,
+        "workerInferenceMs": 553.69,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 555.361,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8689007974091798,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130361390.200791,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 703.211999963969,
+      "totalMs": 862.5273327343166,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c11-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 156.972,
+              "postprocess": 1.567
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 158.55,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 159.304
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 156.603,
+              "postprocess": 1.51
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 158.13,
+            "queueWaitMs": 159.306,
+            "startupMs": 0.002,
+            "ipcWallMs": 158.822
+          }
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释再用英语写两个例句",
+      "asrMs": 568.5164998285472,
+      "asrDetail": {
+        "text": "请用中文解释再用英语写两个例句",
+        "requestStartedMs": 3130366168.2765408,
+        "responseReadyMs": 3130366742.472541,
+        "workerInferenceMs": 572.12,
+        "snapshotEndMediaMs": 4400,
+        "workerQueueWaitMs": 0.004,
+        "workerStartupMs": 0.005,
+        "workerIpcWallMs": 573.731,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9053037889777058,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130366567.033208,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4300,
+        "fedMediaMs": 4800
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 743.0423749610782,
+      "totalMs": 903.1927920877934,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c12-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 172.305,
+              "postprocess": 1.407
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 173.73,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 174.358
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 157.848,
+              "postprocess": 1.194
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.05,
+            "queueWaitMs": 174.357,
+            "startupMs": 0.002,
+            "ipcWallMs": 159.687
+          }
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "请用中文回答,你的真实生日是什么时候?",
+      "asrMs": 546.7729168012738,
+      "asrDetail": {
+        "text": "请用中文回答,你的真实生日是什么时候?",
+        "requestStartedMs": 3130371080.0855002,
+        "responseReadyMs": 3130371649.4971657,
+        "workerInferenceMs": 568.32,
+        "snapshotEndMediaMs": 4100,
+        "workerQueueWaitMs": 0.002,
+        "workerStartupMs": 0.004,
+        "workerIpcWallMs": 569.229,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8470935858833482,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130371479.99975,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4000,
+        "fedMediaMs": 4500
+      },
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 755.2634999155998,
+      "totalMs": 1152.4282917380333,
+      "audioSeconds": 11.28,
+      "output": ".local/code-switch-eval/baseline/c13-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 2.86
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "pcmBytes": 95680,
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 203.817,
+              "postprocess": 0.89
+            },
+            "memory": {
+              "activeBytes": 165140798,
+              "cacheBytes": 128089556
+            },
+            "inferenceMs": 204.73,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.003,
+            "ipcWallMs": 205.41
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "pcmBytes": 155520,
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 243.971,
+              "postprocess": 2.378
+            },
+            "memory": {
+              "activeBytes": 165370174,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 246.38,
+            "queueWaitMs": 205.402,
+            "startupMs": 0.004,
+            "ipcWallMs": 247.331
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "pcmBytes": 109760,
+          "detail": {
+            "id": 16,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 147.262,
+              "postprocess": 1.264
+            },
+            "memory": {
+              "activeBytes": 165190094,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 148.54,
+            "queueWaitMs": 452.77,
+            "startupMs": 0.008,
+            "ipcWallMs": 149.278
+          }
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does river mean in Chinese? Give an English example.",
+      "asrMs": 452.04904209822416,
+      "asrDetail": {
+        "text": "What does river mean in Chinese? Give an English example.",
+        "requestStartedMs": 3130375958.772791,
+        "responseReadyMs": 3130376115.042916,
+        "workerInferenceMs": 153.38,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.004,
+        "workerStartupMs": 0.008,
+        "workerIpcWallMs": 155.65,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9939665350203387,
+        "engine": "parakeet",
+        "language": "en",
+        "endpointReachedMs": 3130376358.66825,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "river in Chinese means \"河流；河;江\"。 例如：I like to go for a walk along the river on weekends.",
+      "firstAudioMs": 1798.0772089213133,
+      "totalMs": 2514.3168340437114,
+      "audioSeconds": 11.74,
+      "output": ".local/code-switch-eval/baseline/c16-live-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 32.87,
+        "promptChars": 1539,
+        "systemPromptChars": 1482,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 33.56,
+        "providerHeadersMs": 261.41,
+        "providerFirstTokenMs": 261.46,
+        "modelLoadMs": 4.525,
+        "promptEvalMs": 217.449,
+        "tokenGenerationMs": 758.371,
+        "promptTokens": 643,
+        "generatedTokens": 28,
+        "firstSentenceReadyMs": 1023.14,
+        "firstSentenceChars": 33,
+        "firstSpeechTextReadyMs": 1023.15
+      },
+      "speech": [
+        {
+          "text": "river in Chinese means \"河流；",
+          "pcmBytes": 133920,
+          "detail": {
+            "id": 17,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 319.183,
+              "postprocess": 2.146
+            },
+            "memory": {
+              "activeBytes": 165255494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 321.36,
+            "queueWaitMs": 0.008,
+            "startupMs": 0.005,
+            "ipcWallMs": 322.227
+          }
+        },
+        {
+          "text": "河;江\"。",
+          "pcmBytes": 66400,
+          "detail": {
+            "id": 18,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 204.042,
+              "postprocess": 1.564
+            },
+            "memory": {
+              "activeBytes": 165058890,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 205.62,
+            "queueWaitMs": 322.179,
+            "startupMs": 0.003,
+            "ipcWallMs": 206.144
+          }
+        },
+        {
+          "text": " 例如：I like to go for a walk along the river on weekends.",
+          "pcmBytes": 175360,
+          "detail": {
+            "id": 19,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 507.071,
+              "postprocess": 1.318
+            },
+            "memory": {
+              "activeBytes": 165386750,
+              "cacheBytes": 134054556
+            },
+            "inferenceMs": 508.42,
+            "queueWaitMs": 528.0,
+            "startupMs": 0.004,
+            "ipcWallMs": 509.354
+          }
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.265124861151,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.3871672339737,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "loud-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1300.4556656815112,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "loud-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1301.964707672596,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1301.4594167470932,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "silence",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.3959156125784,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "c16",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does river mean in Chinese? Give an English example.",
+      "asrMs": 450.2111249603331,
+      "asrDetail": {
+        "text": "What does river mean in Chinese? Give an English example.",
+        "requestStartedMs": 3130407961.4095407,
+        "responseReadyMs": 3130408045.473458,
+        "workerInferenceMs": 82.09,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 83.693,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9939665350203387,
+        "engine": "parakeet",
+        "language": "en",
+        "endpointReachedMs": 3130408359.220333,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "river in Chinese means \"河流；河;江\"。 例如：I like to go for a walk along the river on weekends.",
+      "firstAudioMs": 994.8661662638187,
+      "totalMs": 1292.6047081127763,
+      "audioSeconds": 11.74,
+      "output": ".local/code-switch-eval/baseline/c16-live-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 2.73,
+        "promptChars": 1539,
+        "systemPromptChars": 1482,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 3.57,
+        "providerHeadersMs": 52.23,
+        "providerFirstTokenMs": 52.28,
+        "modelLoadMs": 18.435,
+        "promptEvalMs": 20.831,
+        "tokenGenerationMs": 300.086,
+        "promptTokens": 643,
+        "generatedTokens": 28,
+        "firstSentenceReadyMs": 352.99,
+        "firstSentenceChars": 33,
+        "firstSpeechTextReadyMs": 353.0
+      },
+      "speech": [
+        {
+          "text": "river in Chinese means \"河流；",
+          "pcmBytes": 133920,
+          "detail": {
+            "id": 20,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 188.977,
+              "postprocess": 1.503
+            },
+            "memory": {
+              "activeBytes": 165255494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 190.5,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.005,
+            "ipcWallMs": 191.257
+          }
+        },
+        {
+          "text": "河;江\"。",
+          "pcmBytes": 66400,
+          "detail": {
+            "id": 21,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 81.436,
+              "postprocess": 1.437
+            },
+            "memory": {
+              "activeBytes": 165075274,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 82.89,
+            "queueWaitMs": 191.229,
+            "startupMs": 0.002,
+            "ipcWallMs": 83.315
+          }
+        },
+        {
+          "text": " 例如：I like to go for a walk along the river on weekends.",
+          "pcmBytes": 175360,
+          "detail": {
+            "id": 22,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 211.595,
+              "postprocess": 1.103
+            },
+            "memory": {
+              "activeBytes": 165386750,
+              "cacheBytes": 133037894
+            },
+            "inferenceMs": 212.71,
+            "queueWaitMs": 274.308,
+            "startupMs": 0.002,
+            "ipcWallMs": 213.769
+          }
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "请用中文回答,你的真实生日是什么时候?",
+      "asrMs": 542.1995418146253,
+      "asrDetail": {
+        "text": "请用中文回答,你的真实生日是什么时候?",
+        "requestStartedMs": 3130413206.655791,
+        "responseReadyMs": 3130413770.456333,
+        "workerInferenceMs": 560.65,
+        "snapshotEndMediaMs": 4100,
+        "workerQueueWaitMs": 0.008,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 563.108,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8470935858833482,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130413605.499625,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4000,
+        "fedMediaMs": 4500
+      },
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 674.8120416887105,
+      "totalMs": 1001.8242918886244,
+      "audioSeconds": 11.28,
+      "output": ".local/code-switch-eval/baseline/c13-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "pcmBytes": 95680,
+          "detail": {
+            "id": 23,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 130.925,
+              "postprocess": 0.873
+            },
+            "memory": {
+              "activeBytes": 165140794,
+              "cacheBytes": 133651416
+            },
+            "inferenceMs": 131.81,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 132.411
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "pcmBytes": 155520,
+          "detail": {
+            "id": 24,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 187.986,
+              "postprocess": 1.884
+            },
+            "memory": {
+              "activeBytes": 165353778,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 189.89,
+            "queueWaitMs": 132.414,
+            "startupMs": 0.002,
+            "ipcWallMs": 190.681
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "pcmBytes": 109760,
+          "detail": {
+            "id": 25,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 133.72,
+              "postprocess": 1.352
+            },
+            "memory": {
+              "activeBytes": 165206478,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 135.09,
+            "queueWaitMs": 323.119,
+            "startupMs": 0.002,
+            "ipcWallMs": 135.721
+          }
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释再用英语写两个例句",
+      "asrMs": 538.2413333281875,
+      "asrDetail": {
+        "text": "请用中文解释再用英语写两个例句",
+        "requestStartedMs": 3130418534.431125,
+        "responseReadyMs": 3130419077.6615,
+        "workerInferenceMs": 540.04,
+        "snapshotEndMediaMs": 4400,
+        "workerQueueWaitMs": 0.009,
+        "workerStartupMs": 0.015,
+        "workerIpcWallMs": 542.454,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9053037889777058,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130418933.507625,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4300,
+        "fedMediaMs": 4800
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 691.2557920441031,
+      "totalMs": 852.4238751269877,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c12-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 26,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 150.469,
+              "postprocess": 1.574
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 152.06,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 152.838
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 27,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 158.243,
+              "postprocess": 1.694
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.95,
+            "queueWaitMs": 152.839,
+            "startupMs": 0.002,
+            "ipcWallMs": 160.688
+          }
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释,并给一个英语例句。",
+      "asrMs": 554.014166817069,
+      "asrDetail": {
+        "text": "请用中文解释,并给一个英语例句。",
+        "requestStartedMs": 3130422996.2762084,
+        "responseReadyMs": 3130423562.064375,
+        "workerInferenceMs": 563.01,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.004,
+        "workerStartupMs": 0.007,
+        "workerIpcWallMs": 565.267,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8689007974091798,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130423395.5237913,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 714.5099169574678,
+      "totalMs": 882.1942918002605,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c11-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 28,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 157.992,
+              "postprocess": 1.546
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.56,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 160.314
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 29,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 164.704,
+              "postprocess": 1.74
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 166.46,
+            "queueWaitMs": 160.319,
+            "startupMs": 0.002,
+            "ipcWallMs": 167.19
+          }
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "是什么意思?请用中文解释。",
+      "asrMs": 549.7430842369795,
+      "asrDetail": {
+        "text": "是什么意思?请用中文解释。",
+        "requestStartedMs": 3130427493.337458,
+        "responseReadyMs": 3130428046.76725,
+        "workerInferenceMs": 551.41,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 553.08,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7774535126574389,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130427893.7689576,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 711.0229171812534,
+      "totalMs": 876.7452500760555,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c08-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 30,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 158.536,
+              "postprocess": 1.676
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 160.24,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.002,
+            "ipcWallMs": 161.061
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 31,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 162.984,
+              "postprocess": 1.523
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 164.52,
+            "queueWaitMs": 161.052,
+            "startupMs": 0.003,
+            "ipcWallMs": 165.205
+          }
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释并给两个英语例句",
+      "asrMs": 595.232792198658,
+      "asrDetail": {
+        "text": "请用中文解释并给两个英语例句",
+        "requestStartedMs": 3130432078.204791,
+        "responseReadyMs": 3130432649.362666,
+        "workerInferenceMs": 568.24,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.022,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 570.691,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8819110598181814,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130432477.592,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 752.6522502303123,
+      "totalMs": 915.2830000966787,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c05-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 32,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 154.848,
+              "postprocess": 1.636
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 156.5,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 157.246
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 33,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 159.807,
+              "postprocess": 1.569
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 161.39,
+            "queueWaitMs": 157.251,
+            "startupMs": 0.002,
+            "ipcWallMs": 162.112
+          }
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "用中文解释再给一个英语例句",
+      "asrMs": 554.6122500672936,
+      "asrDetail": {
+        "text": "用中文解释再给一个英语例句",
+        "requestStartedMs": 3130436172.270083,
+        "responseReadyMs": 3130436729.2337503,
+        "workerInferenceMs": 554.48,
+        "snapshotEndMediaMs": 3300,
+        "workerQueueWaitMs": 0.009,
+        "workerStartupMs": 0.028,
+        "workerIpcWallMs": 556.324,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7235189791171185,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130436571.375208,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3200,
+        "fedMediaMs": 3700
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 706.8441668525338,
+      "totalMs": 867.0099996961653,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/baseline/c03-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 34,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 149.625,
+              "postprocess": 1.571
+            },
+            "memory": {
+              "activeBytes": 165239282,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 151.21,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 151.955
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 35,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 157.366,
+              "postprocess": 1.52
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 158.9,
+            "queueWaitMs": 151.956,
+            "startupMs": 0.003,
+            "ipcWallMs": 159.637
+          }
+        }
+      ]
+    },
+    {
+      "id": "c01",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "英语里面Cat这个词的中文含义是什么?",
+      "asrMs": 602.4790829978883,
+      "asrDetail": {
+        "text": "英语里面Cat这个词的中文含义是什么?",
+        "requestStartedMs": 3130440644.9329157,
+        "responseReadyMs": 3130441204.619666,
+        "workerInferenceMs": 557.58,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.014,
+        "workerIpcWallMs": 559.325,
+        "workerMemory": {
+          "activeBytes": 2479981938,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8181938592912428,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3130441044.194166,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "英语里的Cat这个词中文意思是“猫”。",
+      "firstAudioMs": 1018.0559582076967,
+      "totalMs": 1019.4710828363895,
+      "audioSeconds": 6.42,
+      "output": ".local/code-switch-eval/baseline/c01-live-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.51,
+        "promptChars": 2507,
+        "systemPromptChars": 2488,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 2.48,
+        "providerHeadersMs": 44.36,
+        "providerFirstTokenMs": 44.41,
+        "modelLoadMs": 13.936,
+        "promptEvalMs": 14.548,
+        "tokenGenerationMs": 97.815,
+        "promptTokens": 551,
+        "generatedTokens": 10,
+        "firstSentenceReadyMs": 142.81,
+        "firstSentenceChars": 20,
+        "firstSpeechTextReadyMs": 142.82
+      },
+      "speech": [
+        {
+          "text": "英语里的Cat这个词中文意思是“猫”。",
+          "pcmBytes": 205440,
+          "detail": {
+            "id": 36,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 269.531,
+              "postprocess": 1.866
+            },
+            "memory": {
+              "activeBytes": 165484970,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 271.43,
+            "queueWaitMs": 0.009,
+            "startupMs": 0.007,
+            "ipcWallMs": 272.524
+          }
+        }
+      ]
+    }
+  ],
+  "workerWarmupMs": 9559.421834070235,
+  "completedUtc": "2026-11-04T08:33:18Z"
+}

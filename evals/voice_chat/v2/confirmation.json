@@ -1,0 +1,3693 @@
+{
+  "version": 2,
+  "purpose": "final_independent",
+  "date": "2026-11-03",
+  "cases": [
+    {
+      "id": "confirm-pref-0-4",
+      "group": "pref-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like seahorses."
+        },
+        {
+          "role": "user",
+          "content": "Have I said seahorses are my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-0-7",
+      "group": "pref-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like seahorses."
+        },
+        {
+          "role": "user",
+          "content": "Have I said seahorses are my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-0-8",
+      "group": "pref-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like seahorses."
+        },
+        {
+          "role": "user",
+          "content": "Have I said seahorses are my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-1-4",
+      "group": "pref-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love playing the violin."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-1-7",
+      "group": "pref-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love playing the violin."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-1-8",
+      "group": "pref-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love playing the violin."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-2-4",
+      "group": "pref-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is soup."
+        },
+        {
+          "role": "user",
+          "content": "I also like noodles."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "soup"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-2-7",
+      "group": "pref-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is soup."
+        },
+        {
+          "role": "user",
+          "content": "I also like noodles."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "soup"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-2-8",
+      "group": "pref-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is soup."
+        },
+        {
+          "role": "user",
+          "content": "I also like noodles."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "soup"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-3-4",
+      "group": "pref-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like cocoa best."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "cocoa"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-3-7",
+      "group": "pref-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like cocoa best."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "cocoa"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-3-8",
+      "group": "pref-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like cocoa best."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "cocoa"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-4-4",
+      "group": "pref-4",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite instrument is the flute."
+        },
+        {
+          "role": "user",
+          "content": "Did I say the flute is my favourite instrument?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "flute"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-4-7",
+      "group": "pref-4",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite instrument is the flute."
+        },
+        {
+          "role": "user",
+          "content": "Did I say the flute is my favourite instrument?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "flute"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-4-8",
+      "group": "pref-4",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite instrument is the flute."
+        },
+        {
+          "role": "user",
+          "content": "Did I say the flute is my favourite instrument?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "flute"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-5-4",
+      "group": "pref-5",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite animal is a penguin."
+        },
+        {
+          "role": "user",
+          "content": "Actually, my favourite animal is an otter."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "otter"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-5-7",
+      "group": "pref-5",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite animal is a penguin."
+        },
+        {
+          "role": "user",
+          "content": "Actually, my favourite animal is an otter."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "otter"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-5-8",
+      "group": "pref-5",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite animal is a penguin."
+        },
+        {
+          "role": "user",
+          "content": "Actually, my favourite animal is an otter."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "otter"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-6-4",
+      "group": "pref-6",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I don't have a favourite subject."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite subject?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-6-7",
+      "group": "pref-6",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I don't have a favourite subject."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite subject?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-6-8",
+      "group": "pref-6",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I don't have a favourite subject."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite subject?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-7-4",
+      "group": "pref-7",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Grey is my favourite colour."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "grey"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-7-7",
+      "group": "pref-7",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Grey is my favourite colour."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "grey"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-7-8",
+      "group": "pref-7",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Grey is my favourite colour."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "grey"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-8-4",
+      "group": "pref-8",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like dumplings and rice."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-8-7",
+      "group": "pref-8",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like dumplings and rice."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-8-8",
+      "group": "pref-8",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like dumplings and rice."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|not know|don.t know|unknown|not.*like best|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-9-4",
+      "group": "pref-9",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢弹钢琴。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的爱好是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|没.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-9-7",
+      "group": "pref-9",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢弹钢琴。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的爱好是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|没.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-9-8",
+      "group": "pref-9",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢弹钢琴。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的爱好是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|没.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-10-4",
+      "group": "pref-10",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的动物是海豚。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文说，我最喜欢的动物是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "海豚"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-10-7",
+      "group": "pref-10",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的动物是海豚。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文说，我最喜欢的动物是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "海豚"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-10-8",
+      "group": "pref-10",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的动物是海豚。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文说，我最喜欢的动物是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "海豚"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-11-4",
+      "group": "pref-11",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is pink."
+        },
+        {
+          "role": "user",
+          "content": "My favourite subject is maths."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "pink"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-11-7",
+      "group": "pref-11",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is pink."
+        },
+        {
+          "role": "user",
+          "content": "My favourite subject is maths."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "pink"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-pref-11-8",
+      "group": "pref-11",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is pink."
+        },
+        {
+          "role": "user",
+          "content": "My favourite subject is maths."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "pink"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-0-4",
+      "group": "age-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Could you tell me your actual age, please?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-0-7",
+      "group": "age-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Could you tell me your actual age, please?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-0-8",
+      "group": "age-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Could you tell me your actual age, please?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-1-4",
+      "group": "age-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is your birthday, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-1-7",
+      "group": "age-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is your birthday, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-1-8",
+      "group": "age-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is your birthday, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-2-4",
+      "group": "age-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really twelve years old?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-2-7",
+      "group": "age-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really twelve years old?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-2-8",
+      "group": "age-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really twelve years old?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-3-4",
+      "group": "age-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old were you last year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-3-7",
+      "group": "age-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old were you last year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-3-8",
+      "group": "age-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old were you last year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-4-4",
+      "group": "age-4",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "When were you born, little AI cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-4-7",
+      "group": "age-4",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "When were you born, little AI cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-4-8",
+      "group": "age-4",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "When were you born, little AI cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-5-4",
+      "group": "age-5",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned seven already?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-5-7",
+      "group": "age-5",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned seven already?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-5-8",
+      "group": "age-5",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned seven already?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-6-4",
+      "group": "age-6",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old you really are is what I want to know."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-6-7",
+      "group": "age-6",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old you really are is what I want to know."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-6-8",
+      "group": "age-6",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old you really are is what I want to know."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-7-4",
+      "group": "age-7",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Does your age change each year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-7-7",
+      "group": "age-7",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Does your age change each year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-7-8",
+      "group": "age-7",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Does your age change each year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-8-4",
+      "group": "age-8",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文说，你的真实年龄是多少？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-8-7",
+      "group": "age-8",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文说，你的真实年龄是多少？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-8-8",
+      "group": "age-8",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文说，你的真实年龄是多少？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-9-4",
+      "group": "age-9",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "你现在有几岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-9-7",
+      "group": "age-9",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "你现在有几岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-9-8",
+      "group": "age-9",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "你现在有几岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-10-4",
+      "group": "age-10",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you a four-year-old cat or a five-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-10-7",
+      "group": "age-10",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you a four-year-old cat or a five-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-10-8",
+      "group": "age-10",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you a four-year-old cat or a five-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-11-4",
+      "group": "age-11",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you in human years?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-11-7",
+      "group": "age-11",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you in human years?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-age-11-8",
+      "group": "age-11",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you in human years?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-umbrella-4",
+      "group": "word-umbrella",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"umbrella\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "伞"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-umbrella-7",
+      "group": "word-umbrella",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"umbrella\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "伞"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-umbrella-8",
+      "group": "word-umbrella",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"umbrella\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "伞"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-rainy-4",
+      "group": "word-rainy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 rainy 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雨"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-rainy-7",
+      "group": "word-rainy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 rainy 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雨"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-rainy-8",
+      "group": "word-rainy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 rainy 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雨"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-windy-4",
+      "group": "word-windy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"windy\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "风"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-windy-7",
+      "group": "word-windy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"windy\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "风"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-windy-8",
+      "group": "word-windy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"windy\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "风"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-snowy-4",
+      "group": "word-snowy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"snowy\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雪"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-snowy-7",
+      "group": "word-snowy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"snowy\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雪"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-snowy-8",
+      "group": "word-snowy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"snowy\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雪"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-healthy-4",
+      "group": "word-healthy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 healthy 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "健康"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-healthy-7",
+      "group": "word-healthy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 healthy 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "健康"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-healthy-8",
+      "group": "word-healthy",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 healthy 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "健康"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-sweater-4",
+      "group": "word-sweater",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"sweater\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "毛衣|线衣"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-sweater-7",
+      "group": "word-sweater",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"sweater\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "毛衣|线衣"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-sweater-8",
+      "group": "word-sweater",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"sweater\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "毛衣|线衣"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-trousers-4",
+      "group": "word-trousers",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"trousers\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "裤"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-trousers-7",
+      "group": "word-trousers",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"trousers\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "裤"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-trousers-8",
+      "group": "word-trousers",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"trousers\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "裤"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-sandwich-4",
+      "group": "word-sandwich",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 sandwich 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "三明治"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-sandwich-7",
+      "group": "word-sandwich",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 sandwich 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "三明治"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-sandwich-8",
+      "group": "word-sandwich",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 sandwich 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "三明治"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-water-4",
+      "group": "word-water",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"water\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "水"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-water-7",
+      "group": "word-water",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"water\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "水"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-water-8",
+      "group": "word-water",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"water\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "水"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-window-4",
+      "group": "word-window",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"window\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "窗"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-window-7",
+      "group": "word-window",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"window\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "窗"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-window-8",
+      "group": "word-window",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"window\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "窗"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-garden-4",
+      "group": "word-garden",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 garden 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "花园"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-garden-7",
+      "group": "word-garden",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 garden 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "花园"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-garden-8",
+      "group": "word-garden",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 garden 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "花园"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-vegetable-4",
+      "group": "word-vegetable",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"vegetable\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "蔬菜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-vegetable-7",
+      "group": "word-vegetable",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"vegetable\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "蔬菜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-vegetable-8",
+      "group": "word-vegetable",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"vegetable\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "蔬菜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-rabbit-4",
+      "group": "word-rabbit",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"rabbit\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "兔"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-rabbit-7",
+      "group": "word-rabbit",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"rabbit\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "兔"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-rabbit-8",
+      "group": "word-rabbit",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"rabbit\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "兔"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-cinema-4",
+      "group": "word-cinema",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 cinema 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "电影院|影院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-cinema-7",
+      "group": "word-cinema",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 cinema 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "电影院|影院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-cinema-8",
+      "group": "word-cinema",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请告诉我 cinema 的中文意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "电影院|影院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-weekend-4",
+      "group": "word-weekend",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"weekend\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "周末"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-weekend-7",
+      "group": "word-weekend",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"weekend\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "周末"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-weekend-8",
+      "group": "word-weekend",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"weekend\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "周末"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-patient-4",
+      "group": "word-patient",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"patient\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "病人|耐心"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-patient-7",
+      "group": "word-patient",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"patient\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "病人|耐心"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-word-patient-8",
+      "group": "word-patient",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"patient\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "病人|耐心"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-boy-age-4",
+      "group": "control-boy-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The boy Max is fifteen. How old is Max?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fifteen|15"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-boy-age-7",
+      "group": "control-boy-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The boy Max is fifteen. How old is Max?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fifteen|15"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-boy-age-8",
+      "group": "control-boy-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The boy Max is fifteen. How old is Max?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fifteen|15"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-my-age-4",
+      "group": "control-my-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am thirteen. What is my age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirteen|13"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-my-age-7",
+      "group": "control-my-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am thirteen. What is my age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirteen|13"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-my-age-8",
+      "group": "control-my-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am thirteen. What is my age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirteen|13"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-fiction-age-4",
+      "group": "control-fiction-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In my story an AI called Kitty was made eight years ago. How many years ago was it made in the story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "eight|8"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-fiction-age-7",
+      "group": "control-fiction-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In my story an AI called Kitty was made eight years ago. How many years ago was it made in the story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "eight|8"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-fiction-age-8",
+      "group": "control-fiction-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In my story an AI called Kitty was made eight years ago. How many years ago was it made in the story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "eight|8"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-quoted-age-4",
+      "group": "control-quoted-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"Are you seven years old?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:七|7).*岁"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-quoted-age-7",
+      "group": "control-quoted-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"Are you seven years old?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:七|7).*岁"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-quoted-age-8",
+      "group": "control-quoted-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"Are you seven years old?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:七|7).*岁"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-quoted-name-4",
+      "group": "control-quoted-name",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"What is your name?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:叫|名字)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-quoted-name-7",
+      "group": "control-quoted-name",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"What is your name?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:叫|名字)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-quoted-name-8",
+      "group": "control-quoted-name",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"What is your name?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:叫|名字)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-meaning-example-4",
+      "group": "control-meaning-example",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does windy mean in Chinese and give one short English statement as an example?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "风",
+          "\\b(?:it|today|the|we|I)\\b.*windy"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-meaning-example-7",
+      "group": "control-meaning-example",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does windy mean in Chinese and give one short English statement as an example?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "风",
+          "\\b(?:it|today|the|we|I)\\b.*windy"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-meaning-example-8",
+      "group": "control-meaning-example",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does windy mean in Chinese and give one short English statement as an example?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "风",
+          "\\b(?:it|today|the|we|I)\\b.*windy"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-unknown-4",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please give the Chinese meaning of \"vornelisk\". If you cannot verify it, say so."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|无法确认|查不到|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-unknown-7",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please give the Chinese meaning of \"vornelisk\". If you cannot verify it, say so."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|无法确认|查不到|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-unknown-8",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please give the Chinese meaning of \"vornelisk\". If you cannot verify it, say so."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|无法确认|查不到|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-right-answer-4",
+      "group": "control-right-answer",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Your answer is right\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "正确|对的"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-right-answer-7",
+      "group": "control-right-answer",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Your answer is right\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "正确|对的"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    },
+    {
+      "id": "confirm-control-right-answer-8",
+      "group": "control-right-answer",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Your answer is right\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "正确|对的"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Evaluate actual requested facts and language; translated questions may contain question marks."
+    }
+  ],
+  "scope": "144 fresh scenarios after exploratory 192-case results were inspected; text and Bot delivery, not audio.",
+  "independence": "New question/history signatures versus v1 and exploratory v2; new grades 4/7/8 and glossary requests. No adaptation after this final set is executed.",
+  "sources": [
+    {
+      "path": "backend/data/chat/curriculum-vocabulary.json",
+      "sha256": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8"
+    }
+  ]
+}

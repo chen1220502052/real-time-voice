@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03",
+  "stage": "Final independent acceptance frozen after language repair; all prior suites are regressions",
+  "files": {
+    "backend/voice_grounding.py": "768d7a2834a33bc18ec3a49809ee68d5f938d12031518cac8e291c539af4b414",
+    "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+    "backend/english_chat.py": "4b39d14308a84c99d6b92c974d9f63d5aedef92c4d28e2cb3e28f0ffb768bfa1",
+    "backend/curriculum_chat.py": "ea1b494330aa47d6299989090cd11283b8539c596310f2c64b244be4a28e4444",
+    "backend/data/chat/voice-glossary-supplement.json": "8c21c30e167c2ef2f8cdc10a87c9c8915ba08aef359cf22c1aa4656324d30300",
+    "scripts/evaluate_voice_chat.py": "417e7fc88f9d06ed68d57e61578e91077b15d424aab42f1d8fd195db6d861142",
+    "scripts/build_voice_eval_v2.py": "8510b2f5296c8eee5681b0df1cd1dd4a47b9921313f85fc5f340e559bb3dc744",
+    "scripts/build_voice_acceptance_eval.py": "220b1d449d4b83e35a73053accdb39814732d53e774464b804e2bfba198e0c51",
+    "evals/voice_chat/v2/acceptance.json": "a6d38693ff7ed1609d2dccbd199be199cfc18ef44efb1316f88de4621012cd3e"
+  }
+}

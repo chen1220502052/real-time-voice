@@ -1,0 +1,250 @@
+--- baseline/scripts/local_speech_worker.py
++++ current/scripts/local_speech_worker.py
+@@ -12,6 +12,7 @@
+ import re
+ from collections import OrderedDict
+ 
++CODE_SWITCH_ASR_CONTEXT = '请逐字转写音频。中英混说时保留英语词原有的英文拼写，不要翻译、遗漏或替换。'
+ 
+ def accepted_asr_text(result):
+     """Discard uncertain decoder guesses on room noise, without word blacklists."""
+@@ -85,7 +86,10 @@
+             'mlx-community/whisper-tiny', revision='78c52ab98ca87f570bc57ad852e15ef7060f9f76',
+             local_files_only=True, allow_patterns=['config.json', '*.npz', '*.safetensors'])
+         detector = load_model(detector_path, dtype=mx.float16)
+-        fallback = load_asr(language='auto')
++        multilingual_engine = os.getenv('LOCAL_ASR_MULTILINGUAL_ENGINE', 'whisper')
++        if multilingual_engine not in {'whisper', 'qwen3'}:
++            raise ValueError('LOCAL_ASR_MULTILINGUAL_ENGINE must be whisper or qwen3')
++        fallback = load_qwen_asr() if multilingual_engine == 'qwen3' else load_asr(language='auto')
+ 
+         def detect_language(samples):
+             mel = log_mel_spectrogram(samples, n_mels=detector.dims.n_mels)
+@@ -108,13 +112,93 @@
+             language = detect_language(samples)
+             if language == 'zh' or not accepted['text']:
+                 accepted = fallback({**request, 'language': 'zh' if language == 'zh' else 'auto'})
+-                accepted['engine'] = 'whisper'
++                accepted.setdefault('engine', 'whisper')
+             else:
+                 accepted['language'] = language
+         if mx.get_cache_memory()>cache_limit:mx.clear_cache()
+         accepted['memory']={'activeBytes':mx.get_active_memory(),'cacheBytes':mx.get_cache_memory(),
+                             'quantizationBits':quantization_bits}
+         return accepted
++    return transcribe
++
++
++def scored_qwen_transcription(model, samples, *, max_tokens=256):
++    """Keep actual decoder probabilities; never invent a confidence for ASR.
++
++    mlx-audio 0.6.4's STTOutput omits scores, while stream_generate exposes
++    them. This adapter runs serially in the existing isolated ASR worker.
++    Ignore the auto-language header when measuring transcription confidence.
++    """
++    original = model.stream_generate
++    tokens, logprobs = [], []
++
++    def capture(*args, **kwargs):
++        for token, probabilities in original(*args, **kwargs):
++            token_id = int(token)
++            tokens.append(token_id)
++            logprobs.append(float(probabilities[token_id]))
++            yield token, probabilities
++
++    model.stream_generate = capture
++    try:
++        result = model.generate(samples, language=None, max_tokens=max_tokens,
++                                temperature=0, verbose=False, system_prompt=CODE_SWITCH_ASR_CONTEXT)
++    finally:
++        model.stream_generate = original
++    if len(tokens) >= max_tokens:
++        raise ValueError('Multilingual ASR reached its token limit before completion')
++    raw = model._tokenizer.decode(tokens, skip_special_tokens=True)
++    marker = '<asr_text>'
++    if not raw.startswith('language ') or marker not in raw:
++        return {'text': '', 'confidence': 0, 'language': None, 'engine': 'qwen3-asr'}
++    prefix = raw[:raw.index(marker) + len(marker)]
++    count = len(model._tokenizer.encode(prefix, add_special_tokens=False))
++    scores = logprobs[count:]
++    valid = bool(scores) and all(math.isfinite(score) and score <= 0 for score in scores)
++    confidence = math.exp(sum(scores) / len(scores)) if valid else 0
++    text = result.text.strip()
++    minimum = math.exp(float(os.getenv('LOCAL_ASR_MIN_LOGPROB', '-1.0')))
++    languages = result.language if isinstance(result.language, list) else [result.language]
++    detected = next((language for language in languages if language), None)
++    language = {'Chinese': 'zh', 'English': 'en', 'Cantonese': 'yue'}.get(detected, detected)
++    return {'text': text if confidence >= minimum else '', 'confidence': confidence if text else 0,
++            'language': language, 'engine': 'qwen3-asr', 'generationTokens': len(tokens)}
++
++
++def load_qwen_asr():
++    """Small bilingual recognizer, separate from the unchanged 3B dialogue LLM."""
++    import mlx.core as mx
++    import numpy as np
++    from huggingface_hub import snapshot_download
++    from mlx_audio.stt import load
++    name = os.getenv('LOCAL_CODE_SWITCH_MODEL', 'mlx-community/Qwen3-ASR-0.6B-8bit')
++    revision = os.getenv('LOCAL_CODE_SWITCH_REVISION') or (
++        '89e96d92ba34aca20b3e29fb10cc284097d1219f' if name == 'mlx-community/Qwen3-ASR-0.6B-8bit' else None)
++    path = Path(name).expanduser()
++    if not path.is_dir():
++        path = Path(snapshot_download(name, revision=revision, local_files_only=True,
++            allow_patterns=['*.json', '*.txt', '*.safetensors']))
++    loaded = load(str(path))
++    # The pinned MLX adapter wraps the decoder. Capture the actual decoder's
++    # stream, rather than assigning a method to a non-forwarding outer wrapper.
++    model = loaded._model
++    if not callable(getattr(model, 'stream_generate', None)):
++        raise RuntimeError('Installed mlx-audio is incompatible with the Qwen ASR score adapter')
++    scored_qwen_transcription(model, np.zeros(16000, dtype=np.float32), max_tokens=32)
++    mx.clear_cache()
++
++    def transcribe(request):
++        raw = base64.b64decode(request['pcm'], validate=True)
++        if not raw or len(raw) % 2 or len(raw) > 16000 * 2 * 35:
++            raise ValueError('Invalid ASR audio length')
++        samples = np.frombuffer(raw, dtype='<i2').astype(np.float32) / 32768
++        # The live VAD uses this same energy floor. Do not ask an autoregressive
++        # decoder to turn silence/quiet room noise into plausible words.
++        if float(np.sqrt(np.mean(samples * samples))) < float(os.getenv('LOCAL_VAD_MIN_RMS', '.006')):
++            return {'text': '', 'confidence': 0, 'language': None, 'engine': 'qwen3-asr'}
++        # Leave decoder language automatic even when the utterance routes from
++        # Mandarin detection: a mixed sentence must retain its English words.
++        return scored_qwen_transcription(model, samples)
+     return transcribe
+ 
+ 
+--- baseline/backend/providers/speech_local.py
++++ current/backend/providers/speech_local.py
+@@ -34,7 +34,10 @@
+         draft=getattr(self,'_draft',None)
+         if draft is not None and not draft.done():draft.cancel()
+         self._draft=None;self._draft_valid=False
+-        self.pre_roll=deque(maxlen=3);self.buffer=bytearray();self.in_speech=False
++        # Two positive VAD frames may follow several quiet consonant frames.
++        # Preserve those frames rather than starting the ASR at the vowel.
++        pre_roll=max(3,min(10,int(os.getenv('LOCAL_VAD_PRE_ROLL_MS','500'))//100))
++        self.pre_roll=deque(maxlen=pre_roll);self.buffer=bytearray();self.in_speech=False
+         self.start_time=None;self.onset=0;self.quiet=0;self.voiced=0;self.packets=0
+         self._draft_quiet=0;self._last_snapshot_time=0;self._observed_draft=None
+         self._partial_text='';self._partial_confidence=0;self._partial_changed_ms=None
+@@ -171,15 +174,25 @@
+ 
+     def _endpoint_policy(self):
+         words=re.findall(r"[a-z]+(?:'[a-z]+)?",self._partial_text.lower())
++        current=(self._draft_valid and self._draft_quiet>=self.snapshot_quiet_packets
++                 and self._draft is not None and self._draft.done() and not self._draft.cancelled()
++                 and self._draft.exception() is None)
++        if self.speculative and self.quiet and not current:
++            # Keep consuming new PCM while a quiet snapshot decodes. Awaiting
++            # it inside finalization would discard speech that resumes during
++            # inference, especially an English word after a Mandarin carrier.
++            return max(self.end_packets,9),'await_current_transcript'
+         if unfinished_english(self._partial_text):
+             return max(self.end_packets,9),'unfinished_phrase'
++        compact=re.sub(r'[\s，,。.!！？?：:"“”\x27]', '', self._partial_text)
++        if (not re.search(r'[A-Za-z]',compact) and re.search(
++                r'(?:请|帮我)?(?:用中文)?(?:告诉我|说说|说|解释|翻译)(?:一下)?(?:这个)?(?:英语|英文)?(?:单词|词)?$'
++                r'|(?:英语|英文)单词$',compact)):
++            return max(self.end_packets,9),'pending_target_word'
+         if re.search(r'\b(?:mean|meaning|translate|example)\b|解释|意思|例句|造句', self._partial_text, re.I):
+             # A natural question/extra-task pause can be 300 ms. Releasing at
+             # that point loses "Give an example" before the Bot can see it.
+             return max(self.end_packets,5),'compound_request_window'
+-        current=(self._draft_valid and self._draft_quiet>=self.snapshot_quiet_packets
+-                 and self._draft is not None and self._draft.done() and not self._draft.cancelled()
+-                 and self._draft.exception() is None)
+         stable=(self._partial_changed_ms is not None and self._now()-self._partial_changed_ms>=180)
+         complete=(len(words)>=3 or len(re.findall(r'[\u4e00-\u9fff]',self._partial_text))>=2
+                   or self._partial_text.lower().strip(' .!?') in
+--- baseline/backend/voice_grounding.py
++++ current/backend/voice_grounding.py
+@@ -398,9 +398,11 @@
+     if not messages or messages[-1].role != 'user':
+         return None
+     text = _plain(messages[-1].content)
+-    if chinese_requested(text) and re.search(
++    quoted_target = bool(re.search(r'["“\x27][\u4e00-\u9fff]{1,16}["”\x27]', text))
++    if chinese_requested(text) and not re.search(r'[A-Za-z]', text) and not quoted_target and re.search(
+             r'解释\s*[,，。]*(?:的(?:中文)?意思)?\s*[,，。]*(?:再|并|然后|给|写|$)|'
+-            r'(?:英语|英文)单词\s*的中文意思', _unquoted(text)):
++            r'(?:告诉我|说说)\s*的中文(?:意思|含义)|'
++            r'(?:英语|英文)单词\s*[,，]?\s*(?:的中文意思|(?:中文)?(?:是)?什么(?:意思|含义)|中文怎么说)', _unquoted(text)):
+         # An empty word slot is a recognition failure, not permission for the
+         # model to choose a word (previously "pass" or "learn") by itself.
+         return GroundedReply('我没有听清要解释的英语单词，请把单词再说一遍或发文字。',
+@@ -474,6 +476,43 @@
+     text = ''.join(parts)
+     outside = _unquoted(messages[-1].content)
+     required_examples = 2 if re.search(r'\b(?:two|2)\s+(?:short\s+)?(?:English\s+)?(?:examples?|sentences?)|两(?:个|句|条)', outside, re.I) else 1
++    canonical = None
++    headword = None
++    if chinese and examples and not re.search(
++            r'\b(?:compare|difference|why|spell|pronounce|antonym|synonym)\b|'
++            r'比较|区别|原因|为什么|拼写|发音|反义|同义|词性|复数|过去式|时态|年龄|几岁|生日|'
++            r'翻译例句|例句.*翻译|translate.*example|另外|顺便|'
++            r'\band (?:what|how|where|who|when|which)\b', outside, re.I):
++        verified = _glossary_reply(messages[-1].content, allow_compound=True)
++        match = re.match(r'([a-z]+)\s+(?:的意思|在这里)', verified.text, re.I) if verified else None
++        if verified and verified.source == 'grounded_glossary' and match:
++            canonical, headword = verified.text, match[1].lower()
++
++    def english_examples(value):
++        found = re.findall(r"[A-Za-z]+(?:['’\-][A-Za-z]+)*(?:[ ,]+(?:[A-Za-z]+(?:['’\-][A-Za-z]+)*|\d+))+[.!?]", value)
++        if not headword:
++            return found
++        forms = {headword, headword+'s', headword+'es', headword+'ed', headword+'ing', headword+'ly'}
++        return [sentence for sentence in found
++                if forms.intersection(re.findall(r'[a-z]+', sentence.lower()))
++                and not re.match(r'(?:\w+ means?\b|what does\b|the word\b|for this (?:task|reply)\b)', sentence, re.I)]
++
++    def verified_definition(value):
++        # A narrow meaning + examples request has an authoritative definition.
++        # Preserve generated English examples, rather than asking the 3B to
++        # reproduce the definition correctly or letting an English-only repair
++        # fail after the right word has already been heard.
++        found = english_examples(value)
++        if canonical and len(found) >= required_examples:
++            first = re.split(r'[。！？.!?]', value, maxsplit=1)[0]
++            meaning = re.split(r'(?:意思|含义)(?:就是|是|为)?', first, maxsplit=1)[-1]
++            supplied = re.sub(r'[^\u4e00-\u9fff]', '', meaning).lstrip('的是')
++            known = re.sub(r'[^\u4e00-\u9fff]', '', re.split(r'意思是', canonical, maxsplit=1)[-1])
++            if (supplied and supplied in known and (len(supplied) >= 2 or supplied == known)
++                    and len(found) == required_examples):
++                return value
++            return canonical + ' ' + ' '.join(found[:required_examples])
++        return value
+ 
+     def without_example_translations(value):
+         if chinese and examples and not re.search(r'翻译例句|例句.*翻译|translate.*example', outside, re.I):
+@@ -482,14 +521,14 @@
+             value = re.sub(r'[（(][^()（）]*[\u4e00-\u9fff][^()（）]*[）)]', ' ', value)
+         return value
+ 
+-    text = without_example_translations(text)
++    text = verified_definition(without_example_translations(text))
+ 
+     def valid_examples(value):
+         if not examples:
+             return True
+         # Standalone English sentences, including short ones such as "Birds
+         # fly." A bare headword in a Chinese definition is not an example.
+-        found = re.findall(r"[A-Za-z]+(?:['’\-][A-Za-z]+)*(?:[ ,]+(?:[A-Za-z]+(?:['’\-][A-Za-z]+)*|\d+))+[.!?]", value)
++        found = english_examples(value)
+         from .reply_sentences import sentences
+         complete, tail = sentences(value, final=True)
+         return len(found) >= required_examples and len(complete) + bool(tail.strip()) <= 3
+@@ -555,10 +594,10 @@
+         try:
+             fields = json.loads(converted)
+             from .reply_sentences import complete_tail
+-            converted = complete_tail(fields['definition']) + ' ' + ' '.join(fields['examples'])
++            converted = (canonical or complete_tail(fields['definition'])) + ' ' + ' '.join(fields['examples'])
+         except (ValueError, KeyError, TypeError):
+             converted = ''
+-    converted = brief(without_example_translations(converted))
++    converted = brief(verified_definition(without_example_translations(converted)))
+     if probe:
+         probe.metrics['languageRepairMs'] = round((time.perf_counter()-started)*1000, 2)
+     if not valid_language(converted) or not valid_examples(converted) or converted.lstrip().startswith(('{','[','`')):

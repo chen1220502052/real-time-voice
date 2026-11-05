@@ -74,7 +74,7 @@ def health():
 
 def connections():
     result = subprocess.run(
-        ['ss', '-Hnt', 'state', 'established', '( sport = :8765 )'],
+        ['ss', '-Hnt', 'state', 'established', '( sport = :8765 or sport = :18765 )'],
         capture_output=True, text=True, check=True, timeout=5)
     return bool(result.stdout.strip())
 

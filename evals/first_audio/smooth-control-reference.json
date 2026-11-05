@@ -1,0 +1,5850 @@
+{
+  "date": "2026-11-05",
+  "cases": [
+    {
+      "id": "q35-01",
+      "split": "heldout",
+      "grade": 4,
+      "category": "reason",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Why do turtles have shells?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "protect|safe|protection"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "说明壳保护身体，不编造脱壳习性。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-01.wav",
+      "audioSha256": "167da1a6143134f6d8b42ec356c815eb049943896f041489bf15817b16685382"
+    },
+    {
+      "id": "q35-02",
+      "split": "heldout",
+      "grade": 6,
+      "category": "compare",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How is a duck different from a cat? Tell me one thing about each animal."
+        }
+      ],
+      "checks": {
+        "required": [
+          "duck",
+          "cat",
+          "swim|feather|quack|fly|webbed|wing|beak",
+          "fur|meow|paw|claw|climb|cannot|can.t"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "同时回答鸭与猫各一特点。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-02.wav",
+      "audioSha256": "a730540609529adad36434dd492798ebe67a6161735a279c1827251197053499"
+    },
+    {
+      "id": "q35-03",
+      "split": "heldout",
+      "grade": 8,
+      "category": "invitation",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Give me one short English sentence inviting a friend to draw with me."
+        }
+      ],
+      "checks": {
+        "required": [
+          "draw",
+          "let.s|would you|do you|can you|come|want"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "rubric": "提供可直接使用的完整邀请句。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-03.wav",
+      "audioSha256": "a4ee089f45c970443334640193662d521975c755410764ff9fe7e0cfe10a381c"
+    },
+    {
+      "id": "q35-04",
+      "split": "heldout",
+      "grade": 4,
+      "category": "sequence",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I want to make a cheese sandwich. What should I do first?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "bread|wash|hand"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "给一个合理且简单的起始步骤。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-04.wav",
+      "audioSha256": "ca9ca1aeba9ef89c76af941cfcd78403fe3842a79ea8728fef182332118c8e19"
+    },
+    {
+      "id": "q35-05",
+      "split": "heldout",
+      "grade": 6,
+      "category": "advice",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "It is raining and I need to walk home. What can I use to stay dry?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "umbrella|raincoat"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "建议雨伞或雨衣。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-05.wav",
+      "audioSha256": "068f8b24343f60d85fea3545b08c83f561ae6359e4260941089465aa8904cbf4"
+    },
+    {
+      "id": "q35-06",
+      "split": "heldout",
+      "grade": 8,
+      "category": "passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Nora has three green pencils. She gives one pencil to Leo. How many pencils does Nora have now?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "\\btwo\\b|\\b2\\b"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "Nora 剩两支，不错误归给 Leo。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-06.wav",
+      "audioSha256": "6e0f743b389351d0f3532f9364c301b5ffba2bf7bf1f0c9df0f5f4dc0a9525b4"
+    },
+    {
+      "id": "q35-07",
+      "split": "heldout",
+      "grade": 4,
+      "category": "missing_fact",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Ben has a red kite. What colour are his shoes?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "don.t know|do not know|not know|doesn.t say|not (?:given|mentioned)|no information|not (?:told|said)"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "明确鞋子颜色未知，不拿风筝颜色代替。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-07.wav",
+      "audioSha256": "89197eb7bcc689460478621d943953d0cde37ad25043eac3f923ff7662e22813"
+    },
+    {
+      "id": "q35-08",
+      "split": "heldout",
+      "grade": 6,
+      "category": "recall",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I used to ride a bike to school."
+        },
+        {
+          "role": "assistant",
+          "content": "I see."
+        },
+        {
+          "role": "user",
+          "content": "Now I take the bus every school day."
+        },
+        {
+          "role": "assistant",
+          "content": "You take the bus now."
+        },
+        {
+          "role": "user",
+          "content": "What do I use to go to school?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "bus"
+        ],
+        "forbidden": [
+          "\\bbike\\b"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "按更新的交通方式回答 bus。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-08.wav",
+      "audioSha256": "4b0d1e8de4664bb53481dc68816d057d9cd2dd31fdc97779f4d5775c68ac3903"
+    },
+    {
+      "id": "q35-09",
+      "split": "heldout",
+      "grade": 8,
+      "category": "followup",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I want to visit the zoo."
+        },
+        {
+          "role": "assistant",
+          "content": "When will you go?"
+        },
+        {
+          "role": "user",
+          "content": "On Sunday."
+        }
+      ],
+      "checks": {
+        "required": [
+          "sunday"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "承接去动物园的时间，不误解为问题。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-09.wav",
+      "audioSha256": "1c1646ef64255425aca1e26b57710bed67280e1770fc7985c713c8c14c75e7ae"
+    },
+    {
+      "id": "q35-10",
+      "split": "heldout",
+      "grade": 4,
+      "category": "topic_switch",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me about turtles."
+        },
+        {
+          "role": "assistant",
+          "content": "Turtles have shells."
+        },
+        {
+          "role": "user",
+          "content": "Stop talking about animals. Tell me one thing a piano can do."
+        }
+      ],
+      "checks": {
+        "required": [
+          "music|sound|note|play|song|tune"
+        ],
+        "forbidden": [
+          "\\bturtle\\b|\\bcat\\b|\\bdog\\b"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "切换到钢琴，不继续讲动物。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-10.wav",
+      "audioSha256": "72809f8e9caca045b55cb081c8e2d8ef07a13965c0111de6f728a57cef51ee81"
+    },
+    {
+      "id": "q35-11",
+      "split": "heldout",
+      "grade": 6,
+      "category": "compound_meaning",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does cherry mean in Chinese? Give one English sentence using cherry."
+        }
+      ],
+      "checks": {
+        "required": [
+          "樱桃",
+          "\\bcherr(?:y|ies)\\b"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "樱桃加完整英文例句；只有释义不够。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-11.wav",
+      "audioSha256": "3984d7699a3c94ecb0f42f5b9bdb5abf7ae87256df99ad3ffa3563534a3faffa"
+    },
+    {
+      "id": "q35-12",
+      "split": "heldout",
+      "grade": 8,
+      "category": "pronunciation_boundary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Was my pronunciation of rabbit correct?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "can.t|cannot|can not|only.*(?:text|transcript)|don.t.*hear|do not.*hear"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "说明收到的是转写，不能评价发音，不假装听出音准。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/q35-12.wav",
+      "audioSha256": "ee296b1b6a8561f2d13d426bcb5d435da62f0646ced6b01a1f027784cab2ae2f"
+    },
+    {
+      "id": "opt-hold-01",
+      "split": "heldout",
+      "grade": 4,
+      "category": "rain",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How does a raincoat help when it rains?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dry|rain|wet"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "说明挡雨或保持干燥，不编造功能。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-01.wav",
+      "audioSha256": "e46381cf2677051720c040ceedd62ea87ecf39bd13ff94ea24ab146b961fb4d4"
+    },
+    {
+      "id": "opt-hold-02",
+      "split": "heldout",
+      "grade": 6,
+      "category": "arithmetic",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In this story, Lena has five stickers and gives two to Omar. How many does Lena have left?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "\\bthree\\b|\\b3\\b"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "Lena 剩三张，不把 Omar 的数量当答案。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-02.wav",
+      "audioSha256": "bc757711126054ab6e5b6a35e3e0764551e4674a4b7eaddb1742cbfab1a66f6e"
+    },
+    {
+      "id": "opt-hold-03",
+      "split": "heldout",
+      "grade": 8,
+      "category": "unknown",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The story says a rabbit sleeps in a blue box. What does it eat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "don.t know|do not know|not (?:say|know|given|mentioned)|doesn.t say|no information"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "食物未给出，不能猜胡萝卜。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-03.wav",
+      "audioSha256": "462be736233e9f8e4c68111f343343aa7e33dd2703c5450ed3af23ec3c691594"
+    },
+    {
+      "id": "opt-hold-04",
+      "split": "heldout",
+      "grade": 9,
+      "category": "update",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I used to walk to the library."
+        },
+        {
+          "role": "assistant",
+          "content": "You used to walk."
+        },
+        {
+          "role": "user",
+          "content": "Now I take a train to the library."
+        },
+        {
+          "role": "assistant",
+          "content": "You take a train now."
+        },
+        {
+          "role": "user",
+          "content": "How do I get to the library now?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "train"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "明确现在乘火车，可回顾旧事实但不能混成现在可选项。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-04.wav",
+      "audioSha256": "8a0b734b2fbe555f0066ad16106873881a0bb5fc7d2228e2b0b31992b48e66ea"
+    },
+    {
+      "id": "opt-hold-05",
+      "split": "heldout",
+      "grade": 4,
+      "category": "invitation",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Ask my cousin to read a book with me in one short English sentence."
+        }
+      ],
+      "checks": {
+        "required": [
+          "read",
+          "book"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "rubric": "给可直接使用的邀请问句或祈使句。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-05.wav",
+      "audioSha256": "8412a3b4d885e3d668d0154edc91ddd4bde6191958bd386e1c9dbd304dc329d0"
+    },
+    {
+      "id": "opt-hold-06",
+      "split": "heldout",
+      "grade": 6,
+      "category": "compare",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me one difference between a spoon and a fork."
+        }
+      ],
+      "checks": {
+        "required": [
+          "spoon",
+          "fork"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "说明勺子与叉子的一个真实区别，不只复述名称。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-06.wav",
+      "audioSha256": "f111066adaca1eaa39a468bc0ff733c105976477c8e16e016c043ec6b7933e05"
+    },
+    {
+      "id": "opt-hold-07",
+      "split": "heldout",
+      "grade": 8,
+      "category": "meaning_example",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In the sentence, the bag is light, what does light mean? Give one short English example using light."
+        }
+      ],
+      "checks": {
+        "required": [
+          "light"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "轻、不重，并给用 light 的完整英文例句；不能说发光。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-07.wav",
+      "audioSha256": "ca584353388508a0cd1a1e5532e0c0f9de695146a7eb9d795cc5c4cdc8bca68b"
+    },
+    {
+      "id": "opt-hold-08",
+      "split": "heldout",
+      "grade": 9,
+      "category": "pronunciation",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Did I say the word yellow correctly?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "can.t|cannot|can not|only.*(?:text|transcript)|don.t.*hear|do not.*hear"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 65
+      },
+      "rubric": "收到的只是转写，不能评价发音；不暗示重录后自己可听。",
+      "audioTest": true,
+      "set": "prior_regression",
+      "audio": ".local/first-audio-inputs/opt-hold-08.wav",
+      "audioSha256": "81b7fcd64f82de5705c4fcbd0a2dae880d6aff9d577cc3f376478342e9ab3e2d"
+    },
+    {
+      "id": "onset-01",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Mia has twenty five blue beads and gives three to Leo. How many beads are left?"
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-01.wav",
+      "audioSha256": "d00f085911195cd2135e4f24b10225c5b0cd2a6b28e00bb6c1be00ec499847bf"
+    },
+    {
+      "id": "onset-02",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The ticket costs three dollars and fifty cents. How much does it cost?"
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-02.wav",
+      "audioSha256": "96a1ccaa92e4e8f9c3178f6613c213b41bc4b3616f1c8eb545e8fcf013c1aa10"
+    },
+    {
+      "id": "onset-03",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I used to drink tea, but now I drink water. What do I drink now?"
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-03.wav",
+      "audioSha256": "18d240e5a14254abe4c12995d96e1ade051e075bfc7c7073b4350ef47372abcc"
+    },
+    {
+      "id": "onset-04",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Give me one short sentence inviting Sam to play chess with me."
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-04.wav",
+      "audioSha256": "566eb7d5b422f3e2458fd03dd5d59c17ea99f0c9c99444054f3c70cbdcb6d2b4"
+    },
+    {
+      "id": "onset-05",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Explain what light means in this sentence: This suitcase is light."
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-05.wav",
+      "audioSha256": "ffb8f74e837ad3922e1be061176f4e04ec6f904a7660146c8804a9dca07f47e6"
+    },
+    {
+      "id": "onset-06",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Luca has a green bicycle. What colour is his helmet?"
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-06.wav",
+      "audioSha256": "047cf513a357ce704431a189ecb1176c425f5ceab69efd35dbbeaf37478b6f77"
+    },
+    {
+      "id": "onset-07",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Say that I should not touch a hot pan, in one short English sentence."
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-07.wav",
+      "audioSha256": "461ef61cd2dcd60576d51f847a13902358659b42056bf1c3a15da7a269da4125"
+    },
+    {
+      "id": "onset-08",
+      "set": "new_cases",
+      "category": "first_audio",
+      "grade": 6,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does apple mean in Chinese? Give one short English example."
+        }
+      ],
+      "audioTest": true,
+      "checks": {
+        "required": [],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 1,
+        "max_words": 65
+      },
+      "audio": ".local/first-audio-inputs/onset-08.wav",
+      "audioSha256": "110e560ad2aa23302ce9382c9f21766c42689312decc4a23462e6067701fd7f2"
+    }
+  ],
+  "rows": [
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-07",
+      "set": "prior_regression",
+      "seed": 4037445762,
+      "recognized": "Ben has a red kite, what colour are his shoes?",
+      "asrMs": 61.26250000670552,
+      "text": "I do not know the color of Ben's shoes. The text only says he has a red kite. I cannot find information about his shoes.",
+      "textSha256": "04a69a2963e71e89294fb8953b68c2742be40ea00e586bb62b9436f0ae2a0751",
+      "firstTextDeltaMs": 213.14637502655387,
+      "firstAudioMs": 321.79170893505216,
+      "totalMs": 885.4364170692861,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.24,
+        "promptChars": 2261,
+        "systemPromptChars": 2215,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 126.06,
+        "firstSpeechTextReadyMs": 151.81,
+        "firstSentenceReadyMs": 332.46,
+        "firstSentenceChars": 40,
+        "modelLoadMs": 0,
+        "promptEvalMs": 106.62816697731614,
+        "tokenGenerationMs": 542.8430000320077,
+        "promptTokens": 492,
+        "cachedPromptTokens": 432,
+        "generatedTokens": 30
+      },
+      "events": [
+        {
+          "atMs": 213.1469170562923,
+          "text": "I do "
+        },
+        {
+          "atMs": 239.33274997398257,
+          "text": "not know "
+        },
+        {
+          "atMs": 328.84104223921895,
+          "text": "the color "
+        },
+        {
+          "atMs": 368.1670422665775,
+          "text": "of Ben's "
+        },
+        {
+          "atMs": 393.78154231235385,
+          "text": "shoes. "
+        },
+        {
+          "atMs": 425.47854222357273,
+          "text": "The text "
+        },
+        {
+          "atMs": 454.3988751247525,
+          "text": "only says "
+        },
+        {
+          "atMs": 499.3443749845028,
+          "text": "he has "
+        },
+        {
+          "atMs": 550.5406251177192,
+          "text": "a red "
+        },
+        {
+          "atMs": 577.2660002112389,
+          "text": "kite. "
+        },
+        {
+          "atMs": 607.9678749665618,
+          "text": "I cannot "
+        },
+        {
+          "atMs": 636.4549999125302,
+          "text": "find information "
+        },
+        {
+          "atMs": 672.5995419546962,
+          "text": "about his "
+        },
+        {
+          "atMs": 750.6115841679275,
+          "text": "shoes. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "I do not know ",
+          "queuedAtMs": 239.42841729149222,
+          "llmPausedMs": 82.33462506905198,
+          "readyAtMs": 321.79170893505216,
+          "seconds": 1.375,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 81.202,
+              "postprocess": 0.647
+            },
+            "memory": {
+              "activeBytes": 164976990,
+              "cacheBytes": 534828701
+            },
+            "inferenceMs": 81.9,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 82.255
+          },
+          "pcmSha256": "618b857be55cae6ac6f5d86b25c3e647aca1ad07c592dcce3ca614076d9b8ce9",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "the color of Ben's shoes.",
+          "queuedAtMs": 393.90120934695005,
+          "readyAtMs": 549.9397502280772,
+          "seconds": 1.78,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 154.569,
+              "postprocess": 0.777
+            },
+            "memory": {
+              "activeBytes": 165009790,
+              "cacheBytes": 535398424
+            },
+            "inferenceMs": 155.41,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 155.956
+          },
+          "pcmSha256": "12c978672610cefff09b3c20656b5544088b4535a6bf66a5aa837176204a87cd",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " The text only says he has a red kite.",
+          "queuedAtMs": 577.3412501439452,
+          "readyAtMs": 770.0001671910286,
+          "seconds": 2.505,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 191.282,
+              "postprocess": 0.719
+            },
+            "memory": {
+              "activeBytes": 165075478,
+              "cacheBytes": 535624476
+            },
+            "inferenceMs": 192.05,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 192.581
+          },
+          "pcmSha256": "4295f9a89439d734f272dab2b27c8cd3e1c3415d7c48517946c44f11c28919b2",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " I cannot find information about his shoes.",
+          "queuedAtMs": 770.157459191978,
+          "readyAtMs": 884.7087500616908,
+          "seconds": 2.71,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 113.224,
+              "postprocess": 0.712
+            },
+            "memory": {
+              "activeBytes": 165091862,
+              "cacheBytes": 535321994
+            },
+            "inferenceMs": 113.96,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 114.481
+          },
+          "pcmSha256": "07f8b18219e57036ba0ee27738a348af32365ef07ebdb792bfb5062dda0a9295",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-07-0.wav",
+      "audioSha256": "c32e33a246dffe1bc6bad1577c6bb9b314830c207bd3ffb326826b3ca0320c6c",
+      "audioSeconds": 8.37,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 25
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-08",
+      "set": "prior_regression",
+      "seed": 4091810586,
+      "recognized": "What do I use to go to school?",
+      "asrMs": 43.13545813784003,
+      "text": "You used to ride a bike, but now you take the bus every school day.",
+      "textSha256": "3ca5d63b2b3b143f05d61d239ec173f7e4e2a6f61a0ef04a1d6aa74863b288cb",
+      "firstTextDeltaMs": 419.71783293411136,
+      "firstAudioMs": 529.7194998711348,
+      "totalMs": 840.0265830568969,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.55,
+        "promptChars": 2902,
+        "systemPromptChars": 2777,
+        "historyMessages": 5,
+        "connectionReused": true,
+        "providerFirstTokenMs": 351.7,
+        "firstSpeechTextReadyMs": 376.49,
+        "modelLoadMs": 0,
+        "promptEvalMs": 331.9040001370013,
+        "tokenGenerationMs": 290.14470940455794,
+        "promptTokens": 686,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 18,
+        "firstSentenceReadyMs": 652.58,
+        "firstSentenceChars": 68
+      },
+      "events": [
+        {
+          "atMs": 419.7183749638498,
+          "text": "You used "
+        },
+        {
+          "atMs": 446.0943751037121,
+          "text": "to ride "
+        },
+        {
+          "atMs": 550.1614999957383,
+          "text": "a bike, "
+        },
+        {
+          "atMs": 576.7456660978496,
+          "text": "but now "
+        },
+        {
+          "atMs": 603.3014161512256,
+          "text": "you take "
+        },
+        {
+          "atMs": 628.9139157161117,
+          "text": "the bus "
+        },
+        {
+          "atMs": 654.256290756166,
+          "text": "every school "
+        },
+        {
+          "atMs": 695.8010829985142,
+          "text": "day. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "You used to ride ",
+          "queuedAtMs": 446.19708275422454,
+          "llmPausedMs": 83.50004116073251,
+          "readyAtMs": 529.7194998711348,
+          "seconds": 1.355,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 82.144,
+              "postprocess": 0.801
+            },
+            "memory": {
+              "activeBytes": 164960610,
+              "cacheBytes": 531238214
+            },
+            "inferenceMs": 83.0,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.001,
+            "ipcWallMs": 83.414
+          },
+          "pcmSha256": "2b7abebe042c04547aeb024507143c837a1160b533f28503e8704ad52835b117",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "a bike, but now you take the bus every school ",
+          "queuedAtMs": 654.358415864408,
+          "readyAtMs": 784.196250140667,
+          "seconds": 2.43,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 128.544,
+              "postprocess": 0.669
+            },
+            "memory": {
+              "activeBytes": 165059094,
+              "cacheBytes": 534885590
+            },
+            "inferenceMs": 129.27,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 129.766
+          },
+          "pcmSha256": "b3f0d8eaf989801403470bafc1da9bcfe4b9d9be242347b2de715f2b899ca320",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "day.",
+          "queuedAtMs": 784.3309161253273,
+          "readyAtMs": 839.5746657624841,
+          "seconds": 1.015,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 52.209,
+              "postprocess": 2.681
+            },
+            "memory": {
+              "activeBytes": 164944186,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 54.92,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 55.175
+          },
+          "pcmSha256": "b452845962a3fae2cb53923aad8cace81cd8c0ba2ad1db2fa5e178413dfbcecc",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-08-0.wav",
+      "audioSha256": "fd3b19b26b961cac9312b0129418da56f136c3c81099098f74d1d9aebb9aa158",
+      "audioSeconds": 4.8,
+      "textPreserved": true,
+      "score": {
+        "passed": false,
+        "failures": [
+          "forbidden:\\bbike\\b"
+        ],
+        "questions": 0,
+        "words": 15
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-02",
+      "set": "prior_regression",
+      "seed": 1492041248,
+      "recognized": "How is a duck different from a cat? Tell me one thing about each animal.",
+      "asrMs": 61.7876248434186,
+      "text": "A duck swims well in water, while a cat runs on land. A duck lays eggs, but a cat gives birth to babies. Both are animals, yet they live in very different ways.",
+      "textSha256": "b3780b6891a19f06dce2cd3368b84b0cba4a0af5eeaec7f9b323f5d59595bfab",
+      "firstTextDeltaMs": 254.2924997396767,
+      "firstAudioMs": 356.81320913136005,
+      "totalMs": 1150.708292145282,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.69,
+        "promptChars": 2305,
+        "systemPromptChars": 2233,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 166.85,
+        "firstSpeechTextReadyMs": 192.44,
+        "firstSentenceReadyMs": 407.67,
+        "firstSentenceChars": 54,
+        "modelLoadMs": 0,
+        "promptEvalMs": 143.35133414715528,
+        "tokenGenerationMs": 746.4116658084095,
+        "promptTokens": 502,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 40
+      },
+      "events": [
+        {
+          "atMs": 254.292834084481,
+          "text": "A duck "
+        },
+        {
+          "atMs": 279.8830419778824,
+          "text": "swims well "
+        },
+        {
+          "atMs": 377.4575418792665,
+          "text": "in water, "
+        },
+        {
+          "atMs": 403.8739590905607,
+          "text": "while a "
+        },
+        {
+          "atMs": 430.77266681939363,
+          "text": "cat runs "
+        },
+        {
+          "atMs": 469.51637510210276,
+          "text": "on land. "
+        },
+        {
+          "atMs": 499.99349983409047,
+          "text": "A duck "
+        },
+        {
+          "atMs": 543.7273341231048,
+          "text": "lays eggs, "
+        },
+        {
+          "atMs": 592.5032920204103,
+          "text": "but a "
+        },
+        {
+          "atMs": 661.0928340815008,
+          "text": "cat gives "
+        },
+        {
+          "atMs": 695.8194999024272,
+          "text": "birth to "
+        },
+        {
+          "atMs": 725.0448339618742,
+          "text": "babies. "
+        },
+        {
+          "atMs": 756.9772088900208,
+          "text": "Both are "
+        },
+        {
+          "atMs": 840.2248751372099,
+          "text": "animals, yet "
+        },
+        {
+          "atMs": 882.381958886981,
+          "text": "they live "
+        },
+        {
+          "atMs": 910.9594998881221,
+          "text": "in very "
+        },
+        {
+          "atMs": 994.3948751315475,
+          "text": "different ways. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "A duck swims well ",
+          "queuedAtMs": 279.9789169803262,
+          "llmPausedMs": 76.81316696107388,
+          "readyAtMs": 356.81320913136005,
+          "seconds": 1.13,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 75.748,
+              "postprocess": 0.611
+            },
+            "memory": {
+              "activeBytes": 164944234,
+              "cacheBytes": 534626074
+            },
+            "inferenceMs": 76.42,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 76.74
+          },
+          "pcmSha256": "102780fc062b0dfc4d9f7dba501d3e7398c55e9defc3351e729c2e4be9e39232",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "in water, while a cat runs on land.",
+          "queuedAtMs": 469.62845884263515,
+          "readyAtMs": 677.5039588101208,
+          "seconds": 2.675,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 206.094,
+              "postprocess": 1.027
+            },
+            "memory": {
+              "activeBytes": 165091862,
+              "cacheBytes": 534924119
+            },
+            "inferenceMs": 207.18,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 207.799
+          },
+          "pcmSha256": "5e4e102feb94fb50bef0257e002bd104bf425e38f6af304511a7a6050cdebdb2",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " A duck lays eggs, but a cat gives ",
+          "queuedAtMs": 677.7032087557018,
+          "readyAtMs": 868.6232091858983,
+          "seconds": 2.42,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 189.418,
+              "postprocess": 0.792
+            },
+            "memory": {
+              "activeBytes": 165058986,
+              "cacheBytes": 536493990
+            },
+            "inferenceMs": 190.25,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.003,
+            "ipcWallMs": 190.844
+          },
+          "pcmSha256": "5936f732a213032b1ab5643f5f54b5100165d781876d8d59174c1245004e3351",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "birth to babies.",
+          "queuedAtMs": 868.7900421209633,
+          "readyAtMs": 1003.6779590882361,
+          "seconds": 1.545,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 133.77,
+              "postprocess": 0.633
+            },
+            "memory": {
+              "activeBytes": 164976992,
+              "cacheBytes": 535557264
+            },
+            "inferenceMs": 134.44,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 134.815
+          },
+          "pcmSha256": "3474c2e2f9e10e73a129984748ec0e9f51facdd266d3513c90627d62c7c8c097",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Both are animals, yet they live in very different ways.",
+          "queuedAtMs": 1003.8070417940617,
+          "readyAtMs": 1150.0776251778007,
+          "seconds": 3.47,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 144.739,
+              "postprocess": 0.823
+            },
+            "memory": {
+              "activeBytes": 165173782,
+              "cacheBytes": 534526400
+            },
+            "inferenceMs": 145.59,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 146.199
+          },
+          "pcmSha256": "bafdc660f98c0fe9eb77807607b979cb12edbc22b67b08136fb392833cb78eb8",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-02-0.wav",
+      "audioSha256": "8fca6e0eb0ba17f8bbd250954b08edc508473ef22c409fb8e0390a226663b274",
+      "audioSeconds": 11.24,
+      "textPreserved": true,
+      "score": {
+        "passed": false,
+        "failures": [
+          "missing:fur|meow|paw|claw|climb|cannot|can.t"
+        ],
+        "questions": 0,
+        "words": 33
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-07",
+      "set": "prior_regression",
+      "seed": 3085838570,
+      "recognized": "In the sentence, the bag is light. What does light mean? Give one short English example using light.",
+      "asrMs": 84.61575023829937,
+      "text": "In this sentence, \"light\" means having little weight or not heavy. For example: The feather is very light to hold.",
+      "textSha256": "9138454de2d018bea8798e5a472878a91f4eef926ee4b6d4b064c6518faf06ba",
+      "firstTextDeltaMs": 823.7936669029295,
+      "firstAudioMs": 915.256957989186,
+      "totalMs": 1156.3376248814166,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.25,
+        "promptChars": 3100,
+        "systemPromptChars": 3000,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 392.6,
+        "modelLoadMs": 0,
+        "promptEvalMs": 370.6238749437034,
+        "tokenGenerationMs": 336.0271672718227,
+        "promptTokens": 703,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 27,
+        "firstSentenceReadyMs": 739.11,
+        "firstSentenceChars": 67,
+        "firstSpeechTextReadyMs": 739.11
+      },
+      "events": [
+        {
+          "atMs": 823.7942080013454,
+          "text": "In this sentence, \"light\" means having little weight or not heavy. "
+        },
+        {
+          "atMs": 823.8231670111418,
+          "text": "For example: The feather is very light to "
+        },
+        {
+          "atMs": 824.1647500544786,
+          "text": "hold. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "In this sentence, \"light\" ",
+          "queuedAtMs": 823.9430421963334,
+          "llmPausedMs": 91.28575026988983,
+          "readyAtMs": 915.256957989186,
+          "seconds": 1.935,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 89.948,
+              "postprocess": 0.709
+            },
+            "memory": {
+              "activeBytes": 165026170,
+              "cacheBytes": 532445096
+            },
+            "inferenceMs": 90.71,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.003,
+            "ipcWallMs": 91.185
+          },
+          "pcmSha256": "70d89362ae65531685755b22b92e1ca958defadc51d7b2ae41403942231e5b4f",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "means having little weight or not heavy.",
+          "queuedAtMs": 915.4275832697749,
+          "readyAtMs": 1026.8164579756558,
+          "seconds": 2.635,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 109.977,
+              "postprocess": 0.725
+            },
+            "memory": {
+              "activeBytes": 165091862,
+              "cacheBytes": 535337218
+            },
+            "inferenceMs": 110.74,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 111.291
+          },
+          "pcmSha256": "597fcea9ff0bfe13ca0f375721acba07b21519fe06564b7f88b0f932c07c80b5",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " For example: The feather is very light to hold.",
+          "queuedAtMs": 1026.9842501729727,
+          "readyAtMs": 1155.1342499442399,
+          "seconds": 3.165,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 126.689,
+              "postprocess": 0.777
+            },
+            "memory": {
+              "activeBytes": 165141014,
+              "cacheBytes": 536749045
+            },
+            "inferenceMs": 127.51,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 128.078
+          },
+          "pcmSha256": "a7cf19e664163ab6d8e0b38e818b93725dbd5dbb773c20ad6882cb23561fd73b",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-07-0.wav",
+      "audioSha256": "734ec1bc3480a4ff07a9cf83f5cc047a2eb7a55c5183587a2e15e4d22a024029",
+      "audioSeconds": 7.735,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 20
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-03",
+      "set": "new_cases",
+      "seed": 1219457375,
+      "recognized": "I used to drink tea, but now I drink water. What do I drink now?",
+      "asrMs": 66.57875003293157,
+      "text": "You drink water now. Do you like drinking water?",
+      "textSha256": "93035552a8df5011bf5b0660ea6feb2d3f3e667c3364083817d6ee0ef66608c0",
+      "firstTextDeltaMs": 327.6057089678943,
+      "firstAudioMs": 459.003624971956,
+      "totalMs": 610.6380419805646,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.57,
+        "promptChars": 2519,
+        "systemPromptChars": 2455,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 235.16,
+        "firstSpeechTextReadyMs": 260.97,
+        "firstSentenceReadyMs": 299.64,
+        "firstSentenceChars": 21,
+        "modelLoadMs": 0,
+        "promptEvalMs": 218.86050002649424,
+        "tokenGenerationMs": 217.2935833223164,
+        "promptTokens": 562,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 12
+      },
+      "events": [
+        {
+          "atMs": 327.60591711848974,
+          "text": "You drink "
+        },
+        {
+          "atMs": 366.27420876175165,
+          "text": "water now. "
+        },
+        {
+          "atMs": 467.093541752547,
+          "text": "Do you "
+        },
+        {
+          "atMs": 493.60299995169044,
+          "text": "like drinking "
+        },
+        {
+          "atMs": 528.4084170125425,
+          "text": "water? "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "You drink water now.",
+          "queuedAtMs": 366.37016711756587,
+          "llmPausedMs": 92.611666303128,
+          "readyAtMs": 459.003624971956,
+          "seconds": 1.62,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 91.289,
+              "postprocess": 0.68
+            },
+            "memory": {
+              "activeBytes": 164993398,
+              "cacheBytes": 530625868
+            },
+            "inferenceMs": 92.04,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 92.525
+          },
+          "pcmSha256": "9d25ce93c582946df241108cac050530ed20270ee5a2297971cd34d124e19618",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Do you like drinking water?",
+          "queuedAtMs": 528.4952498041093,
+          "readyAtMs": 610.0929169915617,
+          "seconds": 1.78,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 80.461,
+              "postprocess": 0.598
+            },
+            "memory": {
+              "activeBytes": 165009806,
+              "cacheBytes": 536000356
+            },
+            "inferenceMs": 81.1,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 81.524
+          },
+          "pcmSha256": "f8099ab286ef322b2a9035b7d9c00437d11d4f8e906add134ec148e14b316843",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-03-0.wav",
+      "audioSha256": "c90cb04fe04ae5eba7d8d8b52888d2eec87aded72638b7e1aebbdb34bf21821d",
+      "audioSeconds": 3.4,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 1,
+        "words": 9
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-04",
+      "set": "prior_regression",
+      "seed": 1343092998,
+      "recognized": "How do I get to the library now?",
+      "asrMs": 46.558457892388105,
+      "text": "You take a train to the library now.",
+      "textSha256": "f9e6fc3a4f84f50bf2b4c6b5c1c2ae0924d84061fd6098f92f853b1bc270dcc3",
+      "firstTextDeltaMs": 350.50116619095206,
+      "firstAudioMs": 462.4866251833737,
+      "totalMs": 596.7965829186141,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.14,
+        "promptChars": 2691,
+        "systemPromptChars": 2557,
+        "historyMessages": 5,
+        "connectionReused": true,
+        "providerFirstTokenMs": 278.17,
+        "firstSpeechTextReadyMs": 303.88,
+        "modelLoadMs": 0,
+        "promptEvalMs": 258.51499987766147,
+        "tokenGenerationMs": 186.1001248471439,
+        "promptTokens": 615,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 10,
+        "firstSentenceReadyMs": 472.83,
+        "firstSentenceChars": 37
+      },
+      "events": [
+        {
+          "atMs": 350.5015829578042,
+          "text": "You take "
+        },
+        {
+          "atMs": 376.9677500240505,
+          "text": "a train "
+        },
+        {
+          "atMs": 471.3102909736335,
+          "text": "to the "
+        },
+        {
+          "atMs": 519.4413750432432,
+          "text": "library now. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "You take a train ",
+          "queuedAtMs": 377.06620804965496,
+          "llmPausedMs": 85.40716674178839,
+          "readyAtMs": 462.4866251833737,
+          "seconds": 1.46,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 84.254,
+              "postprocess": 0.657
+            },
+            "memory": {
+              "activeBytes": 164976992,
+              "cacheBytes": 536356436
+            },
+            "inferenceMs": 84.96,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.001,
+            "ipcWallMs": 85.325
+          },
+          "pcmSha256": "81129ee3009bc3e1fdea4586088a28ab0453109edfe6c2042b6129cf454fc655",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "to the library now.",
+          "queuedAtMs": 519.5215828716755,
+          "readyAtMs": 596.1767910048366,
+          "seconds": 1.615,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 75.577,
+              "postprocess": 0.552
+            },
+            "memory": {
+              "activeBytes": 164993390,
+              "cacheBytes": 534865110
+            },
+            "inferenceMs": 76.17,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 76.573
+          },
+          "pcmSha256": "9271aa68f824be2cb32f028d1979952fa73859082ccfc1bd038880d2db05a805",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-04-0.wav",
+      "audioSha256": "d416bdcebbe7f63d74451746b248780c1ef7f0481a036e57e3538c6920284d90",
+      "audioSeconds": 3.075,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 8
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-11",
+      "set": "prior_regression",
+      "seed": 3738949405,
+      "recognized": "What does cherry mean in Chinese? Give one English sentence using cherry.",
+      "asrMs": 66.67520897462964,
+      "text": "Cherry\"在中文里是“樱桃”的意思。 例如：She ate a sweet red cherry from the tree.",
+      "textSha256": "8884039b2d5722d2f5a2066dfa66c96a8d96bd6df3e6a2dccb9d6ead7c176cb2",
+      "firstTextDeltaMs": 588.0022090859711,
+      "firstAudioMs": 730.8435421437025,
+      "totalMs": 1025.8228750899434,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 18.98,
+        "promptChars": 967,
+        "systemPromptChars": 894,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 186.54,
+        "modelLoadMs": 0,
+        "promptEvalMs": 143.61362485215068,
+        "tokenGenerationMs": 325.6699168123305,
+        "promptTokens": 461,
+        "cachedPromptTokens": 375,
+        "generatedTokens": 26,
+        "firstSentenceReadyMs": 521.27,
+        "firstSentenceChars": 21,
+        "firstSpeechTextReadyMs": 521.27
+      },
+      "events": [
+        {
+          "atMs": 588.0025001242757,
+          "text": "Cherry\"在中文里是“樱桃”的意思。 "
+        },
+        {
+          "atMs": 588.0200839601457,
+          "text": "例如：She ate a sweet red cherry from the "
+        },
+        {
+          "atMs": 588.2911249063909,
+          "text": "tree. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Cherry\"在中文",
+          "queuedAtMs": 588.10312487185,
+          "llmPausedMs": 142.72070908918977,
+          "readyAtMs": 730.8435421437025,
+          "seconds": 3.48,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 138.885,
+              "postprocess": 2.895
+            },
+            "memory": {
+              "activeBytes": 165189974,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 141.83,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 142.604
+          },
+          "pcmSha256": "46efad7a5df334c075f022a78221f65b9dcb312837817f390527bfbb586ceb1d",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "里是“樱桃”的意思。",
+          "queuedAtMs": 731.0643750242889,
+          "readyAtMs": 840.728959068656,
+          "seconds": 2.755,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 106.192,
+              "postprocess": 2.876
+            },
+            "memory": {
+              "activeBytes": 165108109,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 109.1,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 109.592
+          },
+          "pcmSha256": "27d3fe2b6e8e644e65b9da01e768eb2006529f2d7abc14b31eec7378c20d3f31",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " 例如：She ate a sweet red cherry from the tree.",
+          "queuedAtMs": 840.9116249531507,
+          "readyAtMs": 1025.2075837925076,
+          "seconds": 4.68,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 182.218,
+              "postprocess": 1.136
+            },
+            "memory": {
+              "activeBytes": 165321238,
+              "cacheBytes": 534759814
+            },
+            "inferenceMs": 183.4,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 184.226
+          },
+          "pcmSha256": "ca36b4336c8cb32d1cf0e1b882103d104d4a9393ea4df6ce9310089b1219f596",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-11-0.wav",
+      "audioSha256": "62da926819f88563b52142fad89b766fa2a718d1ad7feaaf2c01bf66bded9e84",
+      "audioSeconds": 10.915,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 10
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-09",
+      "set": "prior_regression",
+      "seed": 2055718986,
+      "recognized": "On Sunday.",
+      "asrMs": 42.905041947960854,
+      "text": "That sounds like a great plan for a relaxing day. You can see many animals and enjoy their stories. Do you have a favorite animal to see there?",
+      "textSha256": "2f45614372d4c958afd9ed41e7b8980379f92e944750e136f09ac2fe3f240021",
+      "firstTextDeltaMs": 305.0635000690818,
+      "firstAudioMs": 441.5934169664979,
+      "totalMs": 1036.6741251200438,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.5,
+        "promptChars": 2562,
+        "systemPromptChars": 2511,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerFirstTokenMs": 236.47,
+        "firstSpeechTextReadyMs": 262.1,
+        "firstSentenceReadyMs": 447.6,
+        "firstSentenceChars": 50,
+        "modelLoadMs": 0,
+        "promptEvalMs": 219.5510836318135,
+        "tokenGenerationMs": 612.160624936223,
+        "promptTokens": 576,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 32
+      },
+      "events": [
+        {
+          "atMs": 305.0637920387089,
+          "text": "That sounds "
+        },
+        {
+          "atMs": 331.5447922796011,
+          "text": "like a "
+        },
+        {
+          "atMs": 358.9250831864774,
+          "text": "great plan "
+        },
+        {
+          "atMs": 449.973416980356,
+          "text": "for a "
+        },
+        {
+          "atMs": 490.55633321404457,
+          "text": "relaxing day. "
+        },
+        {
+          "atMs": 520.3798329457641,
+          "text": "You can "
+        },
+        {
+          "atMs": 548.2982923276722,
+          "text": "see many "
+        },
+        {
+          "atMs": 584.5742919482291,
+          "text": "animals and "
+        },
+        {
+          "atMs": 639.018667396158,
+          "text": "enjoy their "
+        },
+        {
+          "atMs": 688.4472081437707,
+          "text": "stories. "
+        },
+        {
+          "atMs": 718.0644581094384,
+          "text": "Do you "
+        },
+        {
+          "atMs": 747.6615002378821,
+          "text": "have a "
+        },
+        {
+          "atMs": 778.7739583291113,
+          "text": "favorite animal "
+        },
+        {
+          "atMs": 827.9607919976115,
+          "text": "to see "
+        },
+        {
+          "atMs": 911.4127079956234,
+          "text": "there? "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "That sounds like ",
+          "queuedAtMs": 359.04179234057665,
+          "llmPausedMs": 82.52787496894598,
+          "readyAtMs": 441.5934169664979,
+          "seconds": 1.405,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 81.395,
+              "postprocess": 0.614
+            },
+            "memory": {
+              "activeBytes": 164976990,
+              "cacheBytes": 534525628
+            },
+            "inferenceMs": 82.07,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 82.441
+          },
+          "pcmSha256": "5bb7c6544d9bf9d2f84cd1b3a5e5767776d028a9ef69122c15f5b08d092d1087",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "a great plan for a relaxing day.",
+          "queuedAtMs": 490.67604215815663,
+          "readyAtMs": 683.3462920039892,
+          "seconds": 2.355,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 191.243,
+              "postprocess": 0.739
+            },
+            "memory": {
+              "activeBytes": 165059094,
+              "cacheBytes": 534874104
+            },
+            "inferenceMs": 192.03,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 192.593
+          },
+          "pcmSha256": "62ed6b9be9ad6cb29969dbbf0fcb7d89cbdc58455160c66630c90cc93760d715",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " You can see many animals and enjoy their stories.",
+          "queuedAtMs": 688.5407501831651,
+          "readyAtMs": 925.4530831240118,
+          "seconds": 3.175,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 235.295,
+              "postprocess": 0.877
+            },
+            "memory": {
+              "activeBytes": 165140962,
+              "cacheBytes": 536595516
+            },
+            "inferenceMs": 236.23,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 236.824
+          },
+          "pcmSha256": "b917994a268be57fa2bb67095a93e5716af29ba89f68ea45a7209367559aa8d4",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Do you have a favorite animal to see there?",
+          "queuedAtMs": 925.6341671571136,
+          "readyAtMs": 1036.1022921279073,
+          "seconds": 2.56,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 109.195,
+              "postprocess": 0.691
+            },
+            "memory": {
+              "activeBytes": 165091782,
+              "cacheBytes": 535643666
+            },
+            "inferenceMs": 109.92,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 110.401
+          },
+          "pcmSha256": "7fe3bd9cf24aa066ab4f1ac9a566f51eced4045e4acaabc6ce5844acbbda9a1b",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-09-0.wav",
+      "audioSha256": "2afae960da004502f93528f1c993117021f0d7c23db8ca5867095791dfe433da",
+      "audioSeconds": 9.495,
+      "textPreserved": true,
+      "score": {
+        "passed": false,
+        "failures": [
+          "unrequested_question",
+          "missing:sunday"
+        ],
+        "questions": 1,
+        "words": 28
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-05",
+      "set": "new_cases",
+      "seed": 1787470043,
+      "recognized": "Explain what light means in this sentence. This suitcase is light.",
+      "asrMs": 63.038666266947985,
+      "text": "In this sentence, \"light\" means having little weight or being easy to carry. It does not refer to visible rays from the sun here. The suitcase feels very small and simple to lift.",
+      "textSha256": "5996733ac93ee7977ebb71578508445b743a2d520204f1a4fb99850b574c00eb",
+      "firstTextDeltaMs": 326.9885410554707,
+      "firstAudioMs": 491.50916608050466,
+      "totalMs": 1256.773583125323,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.59,
+        "promptChars": 2540,
+        "systemPromptChars": 2474,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 238.16,
+        "firstSpeechTextReadyMs": 263.89,
+        "firstSentenceReadyMs": 539.07,
+        "firstSentenceChars": 77,
+        "modelLoadMs": 0,
+        "promptEvalMs": 218.06966559961438,
+        "tokenGenerationMs": 766.2255000323057,
+        "promptTokens": 562,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 40
+      },
+      "events": [
+        {
+          "atMs": 326.988791115582,
+          "text": "In this "
+        },
+        {
+          "atMs": 391.8762500397861,
+          "text": "sentence, \"light\" "
+        },
+        {
+          "atMs": 498.2341662980616,
+          "text": "means having "
+        },
+        {
+          "atMs": 524.6368329972029,
+          "text": "little weight "
+        },
+        {
+          "atMs": 551.0543752461672,
+          "text": "or being "
+        },
+        {
+          "atMs": 577.4264163337648,
+          "text": "easy to "
+        },
+        {
+          "atMs": 602.1568332798779,
+          "text": "carry. "
+        },
+        {
+          "atMs": 633.1279161386192,
+          "text": "It does "
+        },
+        {
+          "atMs": 661.9936660863459,
+          "text": "not refer "
+        },
+        {
+          "atMs": 693.0325832217932,
+          "text": "to visible "
+        },
+        {
+          "atMs": 744.247708003968,
+          "text": "rays from "
+        },
+        {
+          "atMs": 817.2849579714239,
+          "text": "the sun "
+        },
+        {
+          "atMs": 854.4668750837445,
+          "text": "here. "
+        },
+        {
+          "atMs": 885.020041372627,
+          "text": "The suitcase "
+        },
+        {
+          "atMs": 914.2112913541496,
+          "text": "feels very "
+        },
+        {
+          "atMs": 951.228333171457,
+          "text": "small and "
+        },
+        {
+          "atMs": 1008.3847912028432,
+          "text": "simple to "
+        },
+        {
+          "atMs": 1078.4898330457509,
+          "text": "lift. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "In this sentence, \"light\" ",
+          "queuedAtMs": 391.98691630735993,
+          "llmPausedMs": 99.49820768088102,
+          "readyAtMs": 491.50916608050466,
+          "seconds": 1.935,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 98.219,
+              "postprocess": 0.652
+            },
+            "memory": {
+              "activeBytes": 165042554,
+              "cacheBytes": 536045200
+            },
+            "inferenceMs": 98.92,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 99.415
+          },
+          "pcmSha256": "e09aea8e4ef78803a201c7936918ad1482a476feafba83d77e5fba28ecc78f8b",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "means having little weight or being easy to carry.",
+          "queuedAtMs": 602.2923332639039,
+          "readyAtMs": 840.9911249764264,
+          "seconds": 3.2,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 236.966,
+              "postprocess": 0.935
+            },
+            "memory": {
+              "activeBytes": 165141014,
+              "cacheBytes": 534641602
+            },
+            "inferenceMs": 237.95,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 238.622
+          },
+          "pcmSha256": "98c66ad0deba784ebb4a79d3a98a4c52888cac19d5fa7695a4d8e07c249af623",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " It does not refer to visible rays from the sun ",
+          "queuedAtMs": 841.3191251456738,
+          "readyAtMs": 1068.241958040744,
+          "seconds": 2.95,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 225.366,
+              "postprocess": 0.845
+            },
+            "memory": {
+              "activeBytes": 165124582,
+              "cacheBytes": 535220690
+            },
+            "inferenceMs": 226.26,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 226.827
+          },
+          "pcmSha256": "e5dd88ae623e6e4a8fd7e280f988ca5a3e14f362cfbdc57d424acb22f94f1cb7",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "here.",
+          "queuedAtMs": 1068.4073329903185,
+          "readyAtMs": 1125.915916170925,
+          "seconds": 0.975,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 56.637,
+              "postprocess": 0.513
+            },
+            "memory": {
+              "activeBytes": 164927802,
+              "cacheBytes": 530265000
+            },
+            "inferenceMs": 57.18,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.002,
+            "ipcWallMs": 57.437
+          },
+          "pcmSha256": "510c7e3adc2d303fa87f41263f7cc6de3b11bccef4cb1f6b3546e8f8f0535bcf",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " The suitcase feels very small and simple to lift.",
+          "queuedAtMs": 1126.0055000893772,
+          "readyAtMs": 1256.1557502485812,
+          "seconds": 3.11,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 128.789,
+              "postprocess": 0.71
+            },
+            "memory": {
+              "activeBytes": 165124630,
+              "cacheBytes": 531607420
+            },
+            "inferenceMs": 129.52,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.002,
+            "ipcWallMs": 130.08
+          },
+          "pcmSha256": "d6dd6ee2f8cab08180512f0eccfe579eea373f170b5ed4d441e1fa2b7148a343",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-05-0.wav",
+      "audioSha256": "9d617e69990ae81eccd1969dc46d15e76edaf2fcfc03981c1d1177f64b961512",
+      "audioSeconds": 12.17,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 33
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-01",
+      "set": "prior_regression",
+      "seed": 1404889527,
+      "recognized": "Why do turtles have shells?",
+      "asrMs": 47.92958404868841,
+      "text": "Turtles have shells to protect their soft bodies from danger. The shell acts like a hard armor that stops predators from hurting them. It also helps keep the turtle safe while it sleeps or swims.",
+      "textSha256": "a63adb69fae99f78926db3da4a901fe68d092aa583831d485a2f8c25f8734201",
+      "firstTextDeltaMs": 176.53575027361512,
+      "firstAudioMs": 317.17633409425616,
+      "totalMs": 1095.3181250952184,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.94,
+        "promptChars": 2213,
+        "systemPromptChars": 2186,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 90.55,
+        "firstSpeechTextReadyMs": 128.55,
+        "firstSentenceReadyMs": 316.15,
+        "firstSentenceChars": 62,
+        "modelLoadMs": 0,
+        "promptEvalMs": 68.81883274763823,
+        "tokenGenerationMs": 757.1757081896067,
+        "promptTokens": 478,
+        "cachedPromptTokens": 458,
+        "generatedTokens": 40
+      },
+      "events": [
+        {
+          "atMs": 176.53591698035598,
+          "text": "Turtles have "
+        },
+        {
+          "atMs": 202.97187520191073,
+          "text": "shells to "
+        },
+        {
+          "atMs": 228.2259170897305,
+          "text": "protect their "
+        },
+        {
+          "atMs": 325.3542920574546,
+          "text": "soft bodies "
+        },
+        {
+          "atMs": 364.13508420810103,
+          "text": "from danger. "
+        },
+        {
+          "atMs": 394.68412520363927,
+          "text": "The shell "
+        },
+        {
+          "atMs": 424.07725006341934,
+          "text": "acts like "
+        },
+        {
+          "atMs": 460.7910420745611,
+          "text": "a hard "
+        },
+        {
+          "atMs": 519.6968340314925,
+          "text": "armor that "
+        },
+        {
+          "atMs": 571.8536251224577,
+          "text": "stops predators "
+        },
+        {
+          "atMs": 603.7752921693027,
+          "text": "from hurting "
+        },
+        {
+          "atMs": 632.1295001544058,
+          "text": "them. "
+        },
+        {
+          "atMs": 673.7584173679352,
+          "text": "It also "
+        },
+        {
+          "atMs": 728.9764173328876,
+          "text": "helps keep "
+        },
+        {
+          "atMs": 764.2892091535032,
+          "text": "the turtle "
+        },
+        {
+          "atMs": 794.3878341466188,
+          "text": "safe while "
+        },
+        {
+          "atMs": 823.6890840344131,
+          "text": "it sleeps "
+        },
+        {
+          "atMs": 916.9774590991437,
+          "text": "or swims. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Turtles have shells ",
+          "queuedAtMs": 228.32833416759968,
+          "llmPausedMs": 88.82279181852937,
+          "readyAtMs": 317.17633409425616,
+          "seconds": 1.58,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 87.621,
+              "postprocess": 0.638
+            },
+            "memory": {
+              "activeBytes": 164993382,
+              "cacheBytes": 535825220
+            },
+            "inferenceMs": 88.31,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 88.737
+          },
+          "pcmSha256": "8f49a3b13969efed8eae19f1372c78d2045e522c4f59ba671716edff1361ebd4",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "to protect their soft bodies from danger.",
+          "queuedAtMs": 364.27366733551025,
+          "readyAtMs": 569.8186671361327,
+          "seconds": 2.63,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 203.906,
+              "postprocess": 0.882
+            },
+            "memory": {
+              "activeBytes": 165075478,
+              "cacheBytes": 536423926
+            },
+            "inferenceMs": 204.85,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 205.458
+          },
+          "pcmSha256": "7a75c0a0280aa84d5950d741a6ccb115ae3e21fe348561f2b38ef802b3f9e985",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " The shell acts like a hard armor ",
+          "queuedAtMs": 569.9974172748625,
+          "readyAtMs": 747.2623339854181,
+          "seconds": 2.02,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 175.793,
+              "postprocess": 0.818
+            },
+            "memory": {
+              "activeBytes": 165026326,
+              "cacheBytes": 535228594
+            },
+            "inferenceMs": 176.65,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 177.186
+          },
+          "pcmSha256": "f8b74adbe370188696e7148ae9dddceef3b66bcd3ce89c8174b10258d2a89159",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "that stops predators from hurting them.",
+          "queuedAtMs": 747.4142923019826,
+          "readyAtMs": 934.6929593011737,
+          "seconds": 2.355,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 185.997,
+              "postprocess": 0.716
+            },
+            "memory": {
+              "activeBytes": 165075478,
+              "cacheBytes": 535912883
+            },
+            "inferenceMs": 186.75,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 187.205
+          },
+          "pcmSha256": "a5d3646d160d275b85fdc8f6c46ec536a1a8a5daf17e613ed6207209d982fb54",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " It also helps keep the turtle safe while it sleeps or swims.",
+          "queuedAtMs": 934.8639170639217,
+          "readyAtMs": 1094.698749948293,
+          "seconds": 3.9,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 158.213,
+              "postprocess": 0.849
+            },
+            "memory": {
+              "activeBytes": 165206806,
+              "cacheBytes": 535911343
+            },
+            "inferenceMs": 159.09,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 159.764
+          },
+          "pcmSha256": "29a724adaf94f48d9ccc4a300e35f42c8c44eb855aaca033a9db2a388f7d3f8d",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-01-0.wav",
+      "audioSha256": "2d0823e950c22c125cef8465fc888210feaa78789e633da18266681dba5c05d1",
+      "audioSeconds": 12.485,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 35
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-12",
+      "set": "prior_regression",
+      "seed": 3198317158,
+      "recognized": "Was my pronunciation of rabbit correct?",
+      "asrMs": 48.65645803511143,
+      "text": "I cannot hear your voice or see how you say words. I can only read the text you type here. Please write the word \"rabbit\" again if you want me to check its spelling.",
+      "textSha256": "2ac4cf4d8fcdaae9979828ad354637d1403eeaffe32ba60c1ce507a6bcb76ae3",
+      "firstTextDeltaMs": 164.30295770987868,
+      "firstAudioMs": 296.06866696849465,
+      "totalMs": 1055.6956669315696,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.42,
+        "promptChars": 2205,
+        "systemPromptChars": 2166,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 90.03,
+        "firstSpeechTextReadyMs": 115.59,
+        "firstSentenceReadyMs": 307.68,
+        "firstSentenceChars": 51,
+        "modelLoadMs": 0,
+        "promptEvalMs": 68.73087538406253,
+        "tokenGenerationMs": 741.0395410843194,
+        "promptTokens": 476,
+        "cachedPromptTokens": 455,
+        "generatedTokens": 40
+      },
+      "events": [
+        {
+          "atMs": 164.30329158902168,
+          "text": "I cannot "
+        },
+        {
+          "atMs": 188.79837496206164,
+          "text": "hear your "
+        },
+        {
+          "atMs": 215.1308748871088,
+          "text": "voice or "
+        },
+        {
+          "atMs": 304.577499628067,
+          "text": "see how "
+        },
+        {
+          "atMs": 331.01204177364707,
+          "text": "you say "
+        },
+        {
+          "atMs": 356.3892496749759,
+          "text": "words. "
+        },
+        {
+          "atMs": 387.0867076329887,
+          "text": "I can "
+        },
+        {
+          "atMs": 417.3081247135997,
+          "text": "only read "
+        },
+        {
+          "atMs": 453.3455828204751,
+          "text": "the text "
+        },
+        {
+          "atMs": 512.9585419781506,
+          "text": "you type "
+        },
+        {
+          "atMs": 558.8337918743491,
+          "text": "here. "
+        },
+        {
+          "atMs": 590.1644579134881,
+          "text": "Please write "
+        },
+        {
+          "atMs": 619.303916580975,
+          "text": "the word "
+        },
+        {
+          "atMs": 721.4575000107288,
+          "text": "\"rabbit\" again "
+        },
+        {
+          "atMs": 754.7242497093976,
+          "text": "if you "
+        },
+        {
+          "atMs": 787.5247919000685,
+          "text": "want me "
+        },
+        {
+          "atMs": 836.4822915755212,
+          "text": "to check "
+        },
+        {
+          "atMs": 888.2787497714162,
+          "text": "its spelling. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "I cannot hear ",
+          "queuedAtMs": 215.22587491199374,
+          "llmPausedMs": 80.82079188898206,
+          "readyAtMs": 296.06866696849465,
+          "seconds": 1.31,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 79.751,
+              "postprocess": 0.605
+            },
+            "memory": {
+              "activeBytes": 164960598,
+              "cacheBytes": 533437322
+            },
+            "inferenceMs": 80.41,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 80.745
+          },
+          "pcmSha256": "c282c0e47455e23def777a6800cba99ea973ed907fd1638952e66ae29b4a44c4",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "your voice or see how you say words.",
+          "queuedAtMs": 356.51629185304046,
+          "readyAtMs": 556.0238328762352,
+          "seconds": 2.46,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 197.926,
+              "postprocess": 0.854
+            },
+            "memory": {
+              "activeBytes": 165091862,
+              "cacheBytes": 535782232
+            },
+            "inferenceMs": 198.83,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 199.415
+          },
+          "pcmSha256": "d3b15c5ca27033126fc2eeb4715e098d042d77e79f043ed01273b0573895addb",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " I can only read the text you type ",
+          "queuedAtMs": 556.1938327737153,
+          "readyAtMs": 735.2091670036316,
+          "seconds": 2.12,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 177.486,
+              "postprocess": 0.862
+            },
+            "memory": {
+              "activeBytes": 165042710,
+              "cacheBytes": 535464149
+            },
+            "inferenceMs": 178.38,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 178.925
+          },
+          "pcmSha256": "79b6f4b6f10b632a122bdc257550a96371d99e318f6ba258947d25e5959e0930",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "here.",
+          "queuedAtMs": 735.3832498192787,
+          "readyAtMs": 849.1353327408433,
+          "seconds": 0.975,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 112.67,
+              "postprocess": 0.675
+            },
+            "memory": {
+              "activeBytes": 164927802,
+              "cacheBytes": 536099369
+            },
+            "inferenceMs": 113.38,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 113.677
+          },
+          "pcmSha256": "510c7e3adc2d303fa87f41263f7cc6de3b11bccef4cb1f6b3546e8f8f0535bcf",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Please write the word \"rabbit\" again if you want me to check its spelling.",
+          "queuedAtMs": 888.3778746239841,
+          "readyAtMs": 1055.058874655515,
+          "seconds": 4.13,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 164.83,
+              "postprocess": 1.002
+            },
+            "memory": {
+              "activeBytes": 165223190,
+              "cacheBytes": 531315999
+            },
+            "inferenceMs": 165.88,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 166.605
+          },
+          "pcmSha256": "95683430390d275bffc72c9b96418b39b8d76a1c97949f8663f562e311060a67",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-12-0.wav",
+      "audioSha256": "27cabe28f1d17d614f972ef13c4f0f063870fd43e060fa000860592349070c93",
+      "audioSeconds": 10.995,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 34
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-03",
+      "set": "prior_regression",
+      "seed": 2249717118,
+      "recognized": "Give me one short English sentence inviting a friend to draw with me.",
+      "asrMs": 64.72095800563693,
+      "text": "Would you like to draw with me?",
+      "textSha256": "ce2fcf87d801992613e9bfb62a698bfe6e32dcf24f6d43a3d7add5879f5dea35",
+      "firstTextDeltaMs": 525.0203749164939,
+      "firstAudioMs": 590.6572081148624,
+      "totalMs": 659.8994168452919,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.19,
+        "promptChars": 2963,
+        "systemPromptChars": 2894,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 348.13,
+        "modelLoadMs": 0,
+        "promptEvalMs": 332.0371247828007,
+        "tokenGenerationMs": 103.43474987894297,
+        "promptTokens": 659,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 9,
+        "firstSpeechTextReadyMs": 460.25,
+        "firstSentenceReadyMs": 460.51,
+        "firstSentenceChars": 32
+      },
+      "events": [
+        {
+          "atMs": 525.0207497738302,
+          "text": "Would you like to draw with "
+        },
+        {
+          "atMs": 525.282499846071,
+          "text": "me? "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Would you like ",
+          "queuedAtMs": 525.0919167883694,
+          "llmPausedMs": 65.54295821115375,
+          "readyAtMs": 590.6572081148624,
+          "seconds": 1.235,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 64.328,
+              "postprocess": 0.705
+            },
+            "memory": {
+              "activeBytes": 164960607,
+              "cacheBytes": 529222673
+            },
+            "inferenceMs": 65.08,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 65.452
+          },
+          "pcmSha256": "3d8501e358ea19863b5be8f790860d28dadc54c9d98a62357ccb61e7c5d32757",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "to draw with me?",
+          "queuedAtMs": 590.7923327758908,
+          "readyAtMs": 659.2767918482423,
+          "seconds": 1.42,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 67.428,
+              "postprocess": 0.624
+            },
+            "memory": {
+              "activeBytes": 164977048,
+              "cacheBytes": 535588227
+            },
+            "inferenceMs": 68.08,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 68.409
+          },
+          "pcmSha256": "ef40bce338a7120e77cf3a2e76d1420b7010b1af783d63b22597a131256c332d",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-03-0.wav",
+      "audioSha256": "61469cd28ec2f91fe81c90156adaf927cad6625f31dc6f1ff9e58a6c5aa7f72d",
+      "audioSeconds": 2.655,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 1,
+        "words": 7
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-05",
+      "set": "prior_regression",
+      "seed": 3101160097,
+      "recognized": "Ask my cousin to read a book with me in one short English sentence.",
+      "asrMs": 62.27387534454465,
+      "text": "Please ask your cousin to read a book with you.",
+      "textSha256": "05e97fa788f4e9a0ffaa91c5aa394d51e814049219a282a39625a3031dcb0712",
+      "firstTextDeltaMs": 404.1368751786649,
+      "firstAudioMs": 519.9623750522733,
+      "totalMs": 676.7077501863241,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.77,
+        "promptChars": 2889,
+        "systemPromptChars": 2822,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 316.18,
+        "firstSpeechTextReadyMs": 341.8,
+        "modelLoadMs": 0,
+        "promptEvalMs": 296.34320829063654,
+        "tokenGenerationMs": 214.92387494072318,
+        "promptTokens": 655,
+        "cachedPromptTokens": 432,
+        "generatedTokens": 12,
+        "firstSentenceReadyMs": 539.58,
+        "firstSentenceChars": 48
+      },
+      "events": [
+        {
+          "atMs": 404.1374162770808,
+          "text": "Please ask "
+        },
+        {
+          "atMs": 429.79991622269154,
+          "text": "your cousin "
+        },
+        {
+          "atMs": 528.0625410377979,
+          "text": "to read "
+        },
+        {
+          "atMs": 553.5296252928674,
+          "text": "a book "
+        },
+        {
+          "atMs": 601.9142079167068,
+          "text": "with you. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Please ask your cousin ",
+          "queuedAtMs": 429.91341603919864,
+          "llmPausedMs": 90.03175003454089,
+          "readyAtMs": 519.9623750522733,
+          "seconds": 1.585,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 88.893,
+              "postprocess": 0.607
+            },
+            "memory": {
+              "activeBytes": 164977010,
+              "cacheBytes": 535168108
+            },
+            "inferenceMs": 89.55,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 89.951
+          },
+          "pcmSha256": "42ff56bed899fa407b8690f71c828d79bbc7a41fee174730fe23977bc33add30",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "to read a book with you. ",
+          "queuedAtMs": 602.0007501356304,
+          "readyAtMs": 676.2405000627041,
+          "seconds": 1.595,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 73.146,
+              "postprocess": 0.565
+            },
+            "memory": {
+              "activeBytes": 164977014,
+              "cacheBytes": 535662916
+            },
+            "inferenceMs": 73.76,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.003,
+            "ipcWallMs": 74.165
+          },
+          "pcmSha256": "6044fcaea0e0eab0374daf54b9cdee0966a14c0c5954af08a8533d7b06e7972a",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-05-0.wav",
+      "audioSha256": "9a0037d6c5fad5c872e7225b662bdec88a397ad8c717381cbbd82b1678607199",
+      "audioSeconds": 3.18,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 10
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-01",
+      "set": "prior_regression",
+      "seed": 3795132479,
+      "recognized": "How does a raincoat help when it rains?",
+      "asrMs": 48.100125044584274,
+      "text": "A raincoat keeps your clothes dry from water. It has a hood to stop rain on your head. You can wear it while playing outside.",
+      "textSha256": "1e7f1e4b982a65beea20489c41cf0328820d980b3d608753c87e76780f8c5419",
+      "firstTextDeltaMs": 400.54575027897954,
+      "firstAudioMs": 538.2113340310752,
+      "totalMs": 1078.2380839809775,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.69,
+        "promptChars": 2841,
+        "systemPromptChars": 2802,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 313.18,
+        "firstSpeechTextReadyMs": 352.39,
+        "firstSentenceReadyMs": 510.08,
+        "firstSentenceChars": 46,
+        "modelLoadMs": 0,
+        "promptEvalMs": 293.0352077819407,
+        "tokenGenerationMs": 566.2536663003266,
+        "promptTokens": 638,
+        "cachedPromptTokens": 432,
+        "generatedTokens": 30
+      },
+      "events": [
+        {
+          "atMs": 400.54620895534754,
+          "text": "A raincoat "
+        },
+        {
+          "atMs": 426.0757090523839,
+          "text": "keeps your "
+        },
+        {
+          "atMs": 452.375375200063,
+          "text": "clothes dry "
+        },
+        {
+          "atMs": 558.2279590889812,
+          "text": "from water. "
+        },
+        {
+          "atMs": 588.949833996594,
+          "text": "It has "
+        },
+        {
+          "atMs": 618.267958983779,
+          "text": "a hood "
+        },
+        {
+          "atMs": 659.9503750912845,
+          "text": "to stop "
+        },
+        {
+          "atMs": 719.4330422207713,
+          "text": "rain on "
+        },
+        {
+          "atMs": 764.5261669531465,
+          "text": "your head. "
+        },
+        {
+          "atMs": 795.1282090507448,
+          "text": "You can "
+        },
+        {
+          "atMs": 831.4003748819232,
+          "text": "wear it "
+        },
+        {
+          "atMs": 889.2009588889778,
+          "text": "while playing "
+        },
+        {
+          "atMs": 938.0282089114189,
+          "text": "outside. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "A raincoat keeps ",
+          "queuedAtMs": 452.4637092836201,
+          "llmPausedMs": 85.7285838574171,
+          "readyAtMs": 538.2113340310752,
+          "seconds": 1.47,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 84.363,
+              "postprocess": 0.798
+            },
+            "memory": {
+              "activeBytes": 164976992,
+              "cacheBytes": 536853460
+            },
+            "inferenceMs": 85.22,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.001,
+            "ipcWallMs": 85.641
+          },
+          "pcmSha256": "ef62e0e8dc74188a2735ac67fe2b2df5f96b2230068f135812beab25588fb2fc",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "your clothes dry from water.",
+          "queuedAtMs": 558.339917100966,
+          "readyAtMs": 727.1674172952771,
+          "seconds": 2.01,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 167.435,
+              "postprocess": 0.747
+            },
+            "memory": {
+              "activeBytes": 165026190,
+              "cacheBytes": 536321306
+            },
+            "inferenceMs": 168.25,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 168.749
+          },
+          "pcmSha256": "87ff67d90b3a70d972341fc502b5ea86eae21a4fd7fefce84db9d3289e548bbf",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " It has a hood to stop rain on ",
+          "queuedAtMs": 739.1030420549214,
+          "readyAtMs": 911.5853752009571,
+          "seconds": 1.96,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 171.047,
+              "postprocess": 0.762
+            },
+            "memory": {
+              "activeBytes": 165026326,
+              "cacheBytes": 536263366
+            },
+            "inferenceMs": 171.88,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 172.398
+          },
+          "pcmSha256": "308f27f66320e54db4c8c21b40100c869dc1ec647ba25eef6eff035f17ce333a",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "your head.",
+          "queuedAtMs": 911.7353749461472,
+          "readyAtMs": 982.2645420208573,
+          "seconds": 1.18,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 69.548,
+              "postprocess": 0.587
+            },
+            "memory": {
+              "activeBytes": 164960578,
+              "cacheBytes": 535962524
+            },
+            "inferenceMs": 70.17,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 70.451
+          },
+          "pcmSha256": "d38990c2a5eb03311db188d6945c8ae5eb2db3781f6cecde1a3dc6f6623252ef",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " You can wear it while playing outside.",
+          "queuedAtMs": 982.3527089320123,
+          "readyAtMs": 1077.7160841971636,
+          "seconds": 2.16,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 94.171,
+              "postprocess": 0.654
+            },
+            "memory": {
+              "activeBytes": 165042606,
+              "cacheBytes": 535656910
+            },
+            "inferenceMs": 94.85,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 95.292
+          },
+          "pcmSha256": "29bf7abdef8dc27ea4483888ff0bc99ed380d13eb2c6053b3419754e1d4acb7b",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-01-0.wav",
+      "audioSha256": "d2a924821f9b642b2b3293a4b2535dd1a1ca4ec72fc2d6979776dc044864544f",
+      "audioSeconds": 8.78,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 25
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-06",
+      "set": "prior_regression",
+      "seed": 957072342,
+      "recognized": "Tell me one difference between a spoon and a fork.",
+      "asrMs": 59.35333389788866,
+      "text": "A spoon has a bowl for soup, but a fork has tines for vegetables. They are both used to eat food.",
+      "textSha256": "b2b10bb42caf9ba3ee5b4cc70a4e5e49eb771dc9bfc296238c5a0452e806cc97",
+      "firstTextDeltaMs": 207.67008420079947,
+      "firstAudioMs": 341.2423338741064,
+      "totalMs": 803.7919588387012,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.69,
+        "promptChars": 2246,
+        "systemPromptChars": 2196,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 123.55,
+        "firstSpeechTextReadyMs": 148.26,
+        "firstSentenceReadyMs": 410.64,
+        "firstSentenceChars": 66,
+        "modelLoadMs": 0,
+        "promptEvalMs": 109.39666721969843,
+        "tokenGenerationMs": 463.32108322530985,
+        "promptTokens": 488,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 26
+      },
+      "events": [
+        {
+          "atMs": 207.67062483355403,
+          "text": "A spoon "
+        },
+        {
+          "atMs": 234.0403338894248,
+          "text": "has a "
+        },
+        {
+          "atMs": 260.33537508919835,
+          "text": "bowl for "
+        },
+        {
+          "atMs": 362.0305838994682,
+          "text": "soup, but "
+        },
+        {
+          "atMs": 388.43362499028444,
+          "text": "a fork "
+        },
+        {
+          "atMs": 427.24554194137454,
+          "text": "has tines "
+        },
+        {
+          "atMs": 470.04250017926097,
+          "text": "for vegetables. "
+        },
+        {
+          "atMs": 498.9962922409177,
+          "text": "They are "
+        },
+        {
+          "atMs": 533.6206671781838,
+          "text": "both used "
+        },
+        {
+          "atMs": 592.9057919420302,
+          "text": "to eat "
+        },
+        {
+          "atMs": 658.1408749334514,
+          "text": "food. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "A spoon has ",
+          "queuedAtMs": 260.4371248744428,
+          "llmPausedMs": 80.77979134395719,
+          "readyAtMs": 341.2423338741064,
+          "seconds": 1.39,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 79.663,
+              "postprocess": 0.624
+            },
+            "memory": {
+              "activeBytes": 164976974,
+              "cacheBytes": 533543602
+            },
+            "inferenceMs": 80.34,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 80.695
+          },
+          "pcmSha256": "a1f0faf813e2f1b836042202856285d646c77d7d339e6c1ebebe965b41d7d774",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "a bowl for soup, but a fork has tines ",
+          "queuedAtMs": 440.8816248178482,
+          "readyAtMs": 646.3578748516738,
+          "seconds": 2.695,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 203.723,
+              "postprocess": 0.889
+            },
+            "memory": {
+              "activeBytes": 165091862,
+              "cacheBytes": 534804604
+            },
+            "inferenceMs": 204.67,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 205.398
+          },
+          "pcmSha256": "b16fc13294caccdb61bc4e9f0a303a05b301479f6c038c01e2435e56ad4399b3",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "for vegetables.",
+          "queuedAtMs": 646.5590838342905,
+          "readyAtMs": 718.5929170809686,
+          "seconds": 1.38,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 71.025,
+              "postprocess": 0.58
+            },
+            "memory": {
+              "activeBytes": 164960603,
+              "cacheBytes": 535789962
+            },
+            "inferenceMs": 71.64,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 71.96
+          },
+          "pcmSha256": "9f45cd32c9e5376a9bbfc8dc480344f7518a5221a856a9ca8cd61d039fccac3e",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " They are both used to eat food.",
+          "queuedAtMs": 718.7039591372013,
+          "readyAtMs": 803.2617089338601,
+          "seconds": 1.99,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 83.429,
+              "postprocess": 0.603
+            },
+            "memory": {
+              "activeBytes": 165026199,
+              "cacheBytes": 534548722
+            },
+            "inferenceMs": 84.06,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 84.487
+          },
+          "pcmSha256": "9a386502edba140f6afde7decece9335afd70dafbc559b53a4513be2aa2c551a",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-06-0.wav",
+      "audioSha256": "80bf1b7840e1014737de0d559586adc6611be5616375c9b419624d005e794465",
+      "audioSeconds": 7.455,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 21
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-03",
+      "set": "prior_regression",
+      "seed": 2803241963,
+      "recognized": "The story says a rabbit sleeps in a blue box, what does it eat?",
+      "asrMs": 66.38262467458844,
+      "text": "I do not know what the rabbit eats because the passage you mentioned is not provided. Without that text, I cannot find the answer about its food. Please share the story or the relevant part so I can help.",
+      "textSha256": "282d6de64cb4039a2b02f12ea215c1f9df2fa697366dd0ac167cdf546c1dd68e",
+      "firstTextDeltaMs": 330.9673327021301,
+      "firstAudioMs": 438.8827499933541,
+      "totalMs": 1325.8317080326378,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.1,
+        "promptChars": 2605,
+        "systemPromptChars": 2542,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 239.37,
+        "firstSpeechTextReadyMs": 264.52,
+        "firstSentenceReadyMs": 522.75,
+        "firstSentenceChars": 86,
+        "modelLoadMs": 0,
+        "promptEvalMs": 221.21762530878183,
+        "tokenGenerationMs": 774.4322088547051,
+        "promptTokens": 570,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 44
+      },
+      "events": [
+        {
+          "atMs": 330.9676246717572,
+          "text": "I do "
+        },
+        {
+          "atMs": 356.5362920053303,
+          "text": "not know "
+        },
+        {
+          "atMs": 446.46945782005787,
+          "text": "what the "
+        },
+        {
+          "atMs": 472.23724983632565,
+          "text": "rabbit eats "
+        },
+        {
+          "atMs": 499.38866682350636,
+          "text": "because the "
+        },
+        {
+          "atMs": 524.0749167278409,
+          "text": "passage you "
+        },
+        {
+          "atMs": 550.4834577441216,
+          "text": "mentioned is "
+        },
+        {
+          "atMs": 589.1940826550126,
+          "text": "not provided. "
+        },
+        {
+          "atMs": 619.5591669529676,
+          "text": "Without that "
+        },
+        {
+          "atMs": 664.1927496530116,
+          "text": "text, I "
+        },
+        {
+          "atMs": 703.0825419351459,
+          "text": "cannot find "
+        },
+        {
+          "atMs": 757.9103750176728,
+          "text": "the answer "
+        },
+        {
+          "atMs": 811.9089170359075,
+          "text": "about its "
+        },
+        {
+          "atMs": 842.7492077462375,
+          "text": "food. "
+        },
+        {
+          "atMs": 876.7353328876197,
+          "text": "Please share "
+        },
+        {
+          "atMs": 929.4511247426271,
+          "text": "the story "
+        },
+        {
+          "atMs": 965.2284998446703,
+          "text": "or the "
+        },
+        {
+          "atMs": 995.8825828507543,
+          "text": "relevant part "
+        },
+        {
+          "atMs": 1023.9796247333288,
+          "text": "so I "
+        },
+        {
+          "atMs": 1100.8793748915195,
+          "text": "can help. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "I do not know ",
+          "queuedAtMs": 356.6410830244422,
+          "llmPausedMs": 82.2261250577867,
+          "readyAtMs": 438.8827499933541,
+          "seconds": 1.375,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 81.153,
+              "postprocess": 0.57
+            },
+            "memory": {
+              "activeBytes": 164976986,
+              "cacheBytes": 536556861
+            },
+            "inferenceMs": 81.78,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 82.144
+          },
+          "pcmSha256": "618b857be55cae6ac6f5d86b25c3e647aca1ad07c592dcce3ca614076d9b8ce9",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "what the rabbit eats because the passage you mentioned ",
+          "queuedAtMs": 589.3604168668389,
+          "readyAtMs": 807.624832727015,
+          "seconds": 2.68,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 216.612,
+              "postprocess": 0.863
+            },
+            "memory": {
+              "activeBytes": 165091806,
+              "cacheBytes": 536610424
+            },
+            "inferenceMs": 217.55,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 218.182
+          },
+          "pcmSha256": "ce7f15d7307371e3b50968d7acb150ae9a292b99a91ce4822f32ff7a22e4f6b7",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "is not provided.",
+          "queuedAtMs": 807.8147498890758,
+          "readyAtMs": 949.5328329503536,
+          "seconds": 1.53,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 140.484,
+              "postprocess": 0.733
+            },
+            "memory": {
+              "activeBytes": 164976998,
+              "cacheBytes": 531447354
+            },
+            "inferenceMs": 141.27,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 141.64
+          },
+          "pcmSha256": "aa3e1d77a7d98875651eb9320aad7a0acfbf1759140629c803ddcf8149b41110",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Without that text, I cannot find the answer about its food.",
+          "queuedAtMs": 949.6936667710543,
+          "readyAtMs": 1178.3994575962424,
+          "seconds": 3.83,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 227.012,
+              "postprocess": 0.919
+            },
+            "memory": {
+              "activeBytes": 165206550,
+              "cacheBytes": 535256229
+            },
+            "inferenceMs": 227.96,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 228.63
+          },
+          "pcmSha256": "1f025b0d8b22cf94a0e2b2548e784b42304868e7dc4891e00c3c367b28dde0fd",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Please share the story or the relevant part so I can help.",
+          "queuedAtMs": 1178.6065828055143,
+          "readyAtMs": 1325.1982079818845,
+          "seconds": 3.58,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 145.056,
+              "postprocess": 0.821
+            },
+            "memory": {
+              "activeBytes": 165190166,
+              "cacheBytes": 536171878
+            },
+            "inferenceMs": 145.91,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.002,
+            "ipcWallMs": 146.523
+          },
+          "pcmSha256": "0610fdca159fd3108ac96e938a3816e030489e9135c228689eaeb72849a972d1",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-03-0.wav",
+      "audioSha256": "cd692feadd720121ea974be4a78be5aa3983eed6a778e04f7cc3c8a2fa9b946b",
+      "audioSeconds": 12.995,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 39
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-01",
+      "set": "new_cases",
+      "seed": 2276084501,
+      "recognized": "Mia has 25 blue beads and gives three to Leo. How many beads are left?",
+      "asrMs": 77.8315830975771,
+      "text": "Mia starts with 25 beads and gives away 3, so she has 22 beads left.",
+      "textSha256": "003bc6b31764d4f5235e8e199f91e3b9bf763d4574e1821fd4b468787341cb49",
+      "firstTextDeltaMs": 275.3751249983907,
+      "firstAudioMs": 454.51162476092577,
+      "totalMs": 790.7874579541385,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.73,
+        "promptChars": 2265,
+        "systemPromptChars": 2195,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 159.39,
+        "firstSpeechTextReadyMs": 197.48,
+        "modelLoadMs": 0,
+        "promptEvalMs": 143.7430833466351,
+        "tokenGenerationMs": 414.6350836381316,
+        "promptTokens": 497,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 24,
+        "firstSentenceReadyMs": 595.25,
+        "firstSentenceChars": 69
+      },
+      "events": [
+        {
+          "atMs": 275.3755417652428,
+          "text": "Mia starts "
+        },
+        {
+          "atMs": 328.17925000563264,
+          "text": "with 25 "
+        },
+        {
+          "atMs": 352.67891688272357,
+          "text": "beads and "
+        },
+        {
+          "atMs": 474.5519580319524,
+          "text": "gives away "
+        },
+        {
+          "atMs": 514.0943750739098,
+          "text": "3, so "
+        },
+        {
+          "atMs": 557.6931671239436,
+          "text": "she has "
+        },
+        {
+          "atMs": 602.8952919878066,
+          "text": "22 beads "
+        },
+        {
+          "atMs": 673.1398748233914,
+          "text": "left. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Mia starts with 25 ",
+          "queuedAtMs": 352.7989168651402,
+          "llmPausedMs": 101.69062530621886,
+          "readyAtMs": 454.51162476092577,
+          "seconds": 1.905,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 100.292,
+              "postprocess": 0.646
+            },
+            "memory": {
+              "activeBytes": 165009810,
+              "cacheBytes": 536839164
+            },
+            "inferenceMs": 101.0,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 101.514
+          },
+          "pcmSha256": "7f95e29fa3926c44a32fd9f7215e94f403dcc8c1b5b63c800fd1b407408e8c7c",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "beads and gives away 3, ",
+          "queuedAtMs": 534.2580829747021,
+          "readyAtMs": 688.5100831277668,
+          "seconds": 2.005,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 152.936,
+              "postprocess": 0.666
+            },
+            "memory": {
+              "activeBytes": 165026182,
+              "cacheBytes": 536252776
+            },
+            "inferenceMs": 153.68,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.006,
+            "ipcWallMs": 154.15
+          },
+          "pcmSha256": "23f5473822720222d68c8f4099ec610e2784a24964703868d05dba216819d00b",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "so she has 22 beads left.",
+          "queuedAtMs": 688.6684577912092,
+          "readyAtMs": 790.1134169660509,
+          "seconds": 2.3,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 100.206,
+              "postprocess": 0.671
+            },
+            "memory": {
+              "activeBytes": 165042710,
+              "cacheBytes": 535782483
+            },
+            "inferenceMs": 100.9,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 101.371
+          },
+          "pcmSha256": "e0711077c412e67423e758c82022fab7340384d7926687b98f2e303e65813f1b",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-01-0.wav",
+      "audioSha256": "247039d7d0d801360ae8adf67bbb2bead32b146fa5c6f8039960825036831b5a",
+      "audioSeconds": 6.21,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 15
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-10",
+      "set": "prior_regression",
+      "seed": 1469766531,
+      "recognized": "Stop talking about animals. Tell me one thing a piano can do.",
+      "asrMs": 60.62920903787017,
+      "text": "A piano can make music. It has many keys. People play it with their hands.",
+      "textSha256": "b768347631e7057dfe9b73280cf21cf9b7bfce476faa33b8154812ab51dc4fab",
+      "firstTextDeltaMs": 404.40833382308483,
+      "firstAudioMs": 515.4131250455976,
+      "totalMs": 863.0197090096772,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.8,
+        "promptChars": 2875,
+        "systemPromptChars": 2772,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerFirstTokenMs": 317.66,
+        "firstSpeechTextReadyMs": 343.71,
+        "firstSentenceReadyMs": 461.6,
+        "firstSentenceChars": 24,
+        "modelLoadMs": 0,
+        "promptEvalMs": 298.24554175138474,
+        "tokenGenerationMs": 369.5086659863591,
+        "promptTokens": 654,
+        "cachedPromptTokens": 432,
+        "generatedTokens": 19
+      },
+      "events": [
+        {
+          "atMs": 404.4085838831961,
+          "text": "A piano "
+        },
+        {
+          "atMs": 430.70758366957307,
+          "text": "can make "
+        },
+        {
+          "atMs": 522.2862088121474,
+          "text": "music. "
+        },
+        {
+          "atMs": 552.734499797225,
+          "text": "It has "
+        },
+        {
+          "atMs": 613.080333918333,
+          "text": "many keys. "
+        },
+        {
+          "atMs": 656.2727917917073,
+          "text": "People play "
+        },
+        {
+          "atMs": 685.8472917228937,
+          "text": "it with "
+        },
+        {
+          "atMs": 767.763374838978,
+          "text": "their hands. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "A piano can make ",
+          "queuedAtMs": 430.80700002610683,
+          "llmPausedMs": 84.58566619083285,
+          "readyAtMs": 515.4131250455976,
+          "seconds": 1.545,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 83.458,
+              "postprocess": 0.617
+            },
+            "memory": {
+              "activeBytes": 164976994,
+              "cacheBytes": 535831036
+            },
+            "inferenceMs": 84.13,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 84.506
+          },
+          "pcmSha256": "a2b0c9b66d87ad5fea250c972077848c67553a6c570439003eed68144920dfca",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "music.",
+          "queuedAtMs": 522.3551667295396,
+          "readyAtMs": 643.4312919154763,
+          "seconds": 1.14,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 119.961,
+              "postprocess": 0.669
+            },
+            "memory": {
+              "activeBytes": 164944190,
+              "cacheBytes": 536657274
+            },
+            "inferenceMs": 120.68,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 120.994
+          },
+          "pcmSha256": "5f77cf198ee9500edb203cf9900174b5ec30b7c2dea7a6e2f0cb8930fdb0f6cf",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " It has many keys.",
+          "queuedAtMs": 643.5314998961985,
+          "readyAtMs": 777.1594170480967,
+          "seconds": 1.505,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 132.622,
+              "postprocess": 0.591
+            },
+            "memory": {
+              "activeBytes": 164977002,
+              "cacheBytes": 535407328
+            },
+            "inferenceMs": 133.25,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 133.551
+          },
+          "pcmSha256": "863940cb936ad7e02b4535b35cf7ee2a80ae0a7740a35b23eb0589315cc8d6c7",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " People play it with their hands.",
+          "queuedAtMs": 777.2665000520647,
+          "readyAtMs": 862.4987918883562,
+          "seconds": 1.895,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 84.124,
+              "postprocess": 0.61
+            },
+            "memory": {
+              "activeBytes": 165009814,
+              "cacheBytes": 535670798
+            },
+            "inferenceMs": 84.76,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 85.164
+          },
+          "pcmSha256": "83f2140db17993527bdaf015e56c18f8920879f558ac2c0a0fad2ca65cb561c2",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-10-0.wav",
+      "audioSha256": "eaa31477b514f62822d4e2e8e1fc67dad5053fd6c3baae7a8a345557920ed993",
+      "audioSeconds": 6.085,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 15
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-07",
+      "set": "new_cases",
+      "seed": 2624603557,
+      "recognized": "Say that I should not touch a hot pan, in one short English sentence.",
+      "asrMs": 63.82875004783273,
+      "text": "You should not touch a hot pan because it will burn your hand.",
+      "textSha256": "3ecbb0e5dba6e05134c683dcf1908d6707aa4ae7cbc6cf43ebefac2d900fd721",
+      "firstTextDeltaMs": 214.821457862854,
+      "firstAudioMs": 325.61974972486496,
+      "totalMs": 558.958875015378,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.72,
+        "promptChars": 2267,
+        "systemPromptChars": 2198,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 124.17,
+        "firstSpeechTextReadyMs": 150.93,
+        "modelLoadMs": 0,
+        "promptEvalMs": 109.23979198560119,
+        "tokenGenerationMs": 248.1130831874907,
+        "promptTokens": 493,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 15,
+        "firstSentenceReadyMs": 382.54,
+        "firstSentenceChars": 63
+      },
+      "events": [
+        {
+          "atMs": 214.82187509536743,
+          "text": "You should "
+        },
+        {
+          "atMs": 240.30212499201298,
+          "text": "not touch "
+        },
+        {
+          "atMs": 332.30479108169675,
+          "text": "a hot "
+        },
+        {
+          "atMs": 358.7122499011457,
+          "text": "pan because "
+        },
+        {
+          "atMs": 385.21783286705613,
+          "text": "it will "
+        },
+        {
+          "atMs": 411.487499717623,
+          "text": "burn your "
+        },
+        {
+          "atMs": 446.42183277755976,
+          "text": "hand. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "You should not touch ",
+          "queuedAtMs": 240.39862491190434,
+          "llmPausedMs": 85.19691694527864,
+          "readyAtMs": 325.61974972486496,
+          "seconds": 1.405,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 84.055,
+              "postprocess": 0.638
+            },
+            "memory": {
+              "activeBytes": 164976998,
+              "cacheBytes": 535671022
+            },
+            "inferenceMs": 84.75,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 85.113
+          },
+          "pcmSha256": "f64fcecf1be5c5c5e6b22ccbad8dc54cd507adfa49ec6d964251d67b3497cf7f",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "a hot pan because it will burn your hand.",
+          "queuedAtMs": 446.5188328176737,
+          "readyAtMs": 558.3913330920041,
+          "seconds": 2.585,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 110.509,
+              "postprocess": 0.732
+            },
+            "memory": {
+              "activeBytes": 165075478,
+              "cacheBytes": 532259536
+            },
+            "inferenceMs": 111.28,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 111.785
+          },
+          "pcmSha256": "efb1ea77e00f12667260851c7682694d775e47b31149c457cb0dfc01bc68fc2e",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-07-0.wav",
+      "audioSha256": "79eef815468879a9ae3bcdb5dd2d1c6a87e3f9064b96188073c68ed0b01bf296",
+      "audioSeconds": 3.99,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 13
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-06",
+      "set": "prior_regression",
+      "seed": 147724498,
+      "recognized": "Nora has three green pencils. She gives one pencil to Leo. How many pencils does Nora have now?",
+      "asrMs": 84.67041607946157,
+      "text": "Nora starts with three pencils and gives away one, so she has two left.",
+      "textSha256": "ef117066a7a5cbf661524218c47c9293e1379fea17c6305e78ec685a256ffe14",
+      "firstTextDeltaMs": 368.93229139968753,
+      "firstAudioMs": 514.0188331715763,
+      "totalMs": 773.8421251997352,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.21,
+        "promptChars": 2621,
+        "systemPromptChars": 2526,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 245.06,
+        "firstSpeechTextReadyMs": 284.2,
+        "modelLoadMs": 0,
+        "promptEvalMs": 220.54208302870393,
+        "tokenGenerationMs": 297.2523751668632,
+        "promptTokens": 575,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 18,
+        "firstSentenceReadyMs": 552.07,
+        "firstSentenceChars": 72
+      },
+      "events": [
+        {
+          "atMs": 368.93258336931467,
+          "text": "Nora starts "
+        },
+        {
+          "atMs": 394.35383304953575,
+          "text": "with three "
+        },
+        {
+          "atMs": 420.75620824471116,
+          "text": "pencils and "
+        },
+        {
+          "atMs": 520.8563753403723,
+          "text": "gives away "
+        },
+        {
+          "atMs": 559.564583003521,
+          "text": "one, so "
+        },
+        {
+          "atMs": 587.3326254077256,
+          "text": "she has "
+        },
+        {
+          "atMs": 636.7935412563384,
+          "text": "two left. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Nora starts with three ",
+          "queuedAtMs": 420.8807912655175,
+          "llmPausedMs": 93.11916679143906,
+          "readyAtMs": 514.0188331715763,
+          "seconds": 1.645,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 91.67,
+              "postprocess": 0.763
+            },
+            "memory": {
+              "activeBytes": 164993406,
+              "cacheBytes": 535179040
+            },
+            "inferenceMs": 92.49,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 93.031
+          },
+          "pcmSha256": "2fedb96ec02e2f6e34be8be6edf9be429518073221d78dabad11d8cd9714a5e7",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "pencils and gives away one, so she has two left.",
+          "queuedAtMs": 636.8418331257999,
+          "readyAtMs": 773.2938332483172,
+          "seconds": 3.295,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 134.958,
+              "postprocess": 0.795
+            },
+            "memory": {
+              "activeBytes": 165141014,
+              "cacheBytes": 536866445
+            },
+            "inferenceMs": 135.8,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.002,
+            "ipcWallMs": 136.384
+          },
+          "pcmSha256": "147fa1620dcb7436dd556525e38ed9cb02441160abd50de4ebee8824c7fc4546",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-06-0.wav",
+      "audioSha256": "5387d7c0e7ec533df9f7cbb2d7f38ea1c85f2468eb5c9fe7e9a8df09e0e6ad34",
+      "audioSeconds": 4.94,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 14
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-04",
+      "set": "new_cases",
+      "seed": 1761961295,
+      "recognized": "Give me one short sentence inviting Sam to play chess with me.",
+      "asrMs": 59.46137476712465,
+      "text": "Let's play chess together, Sam!",
+      "textSha256": "c9d8fe1d788cb9c141dab6dca6a3333fcd46f0bc6ec4cc8a676ae4b8c5d2577d",
+      "firstTextDeltaMs": 490.3000839985907,
+      "firstAudioMs": 577.7712087146938,
+      "totalMs": 637.3205417767167,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.61,
+        "promptChars": 2818,
+        "systemPromptChars": 2756,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 316.9,
+        "modelLoadMs": 0,
+        "promptEvalMs": 293.0030836723745,
+        "tokenGenerationMs": 103.63954212516546,
+        "promptTokens": 630,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 9,
+        "firstSpeechTextReadyMs": 430.78,
+        "firstSentenceReadyMs": 431.01,
+        "firstSentenceChars": 32
+      },
+      "events": [
+        {
+          "atMs": 490.30041694641113,
+          "text": "Let's play chess together, "
+        },
+        {
+          "atMs": 490.52445916458964,
+          "text": "Sam! "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Let's play chess together, ",
+          "queuedAtMs": 490.36962492391467,
+          "llmPausedMs": 87.3849168419838,
+          "readyAtMs": 577.7712087146938,
+          "seconds": 1.825,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 86.055,
+              "postprocess": 0.699
+            },
+            "memory": {
+              "activeBytes": 165009794,
+              "cacheBytes": 536106462
+            },
+            "inferenceMs": 86.82,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 87.3
+          },
+          "pcmSha256": "4c8d0c4263cdff9a293060284c6f6de53c546adc5d7292335325ba5deb67b0d5",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "Sam!",
+          "queuedAtMs": 577.9280001297593,
+          "readyAtMs": 636.7942919023335,
+          "seconds": 1.125,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 57.906,
+              "postprocess": 0.573
+            },
+            "memory": {
+              "activeBytes": 164944186,
+              "cacheBytes": 536787904
+            },
+            "inferenceMs": 58.51,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 58.795
+          },
+          "pcmSha256": "ac79fa98696675386f0d0a113637d9ed5f39ef1aac4bb1bc848bc9040b0312b6",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-04-0.wav",
+      "audioSha256": "6628b48cf4cae2f6d2335401c05415505cca1ec334cf8da72747636ea450973f",
+      "audioSeconds": 2.95,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 5
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-02",
+      "set": "prior_regression",
+      "seed": 3114323816,
+      "recognized": "In this story, Lana has five stickers and gives two to Omar. How many does Lana have left?",
+      "asrMs": 83.00345810130239,
+      "text": "Lana started with five stickers and gave away two. After giving them to Omar, she has three stickers left.",
+      "textSha256": "daf7a00ddea8beb6794e6cf57fb928d626947c5ea45b67492b00b1c0cb0f584c",
+      "firstTextDeltaMs": 286.8237500078976,
+      "firstAudioMs": 432.26529099047184,
+      "totalMs": 839.8337080143392,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.79,
+        "promptChars": 2285,
+        "systemPromptChars": 2195,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 165.67,
+        "firstSpeechTextReadyMs": 203.75,
+        "firstSentenceReadyMs": 383.33,
+        "firstSentenceChars": 51,
+        "modelLoadMs": 0,
+        "promptEvalMs": 142.64420792460442,
+        "tokenGenerationMs": 436.72966584563255,
+        "promptTokens": 498,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 24
+      },
+      "events": [
+        {
+          "atMs": 286.8239157833159,
+          "text": "Lana started "
+        },
+        {
+          "atMs": 313.3244998753071,
+          "text": "with five "
+        },
+        {
+          "atMs": 339.80470802634954,
+          "text": "stickers and "
+        },
+        {
+          "atMs": 440.6242910772562,
+          "text": "gave away "
+        },
+        {
+          "atMs": 466.39020787552,
+          "text": "two. "
+        },
+        {
+          "atMs": 491.86229100450873,
+          "text": "After giving "
+        },
+        {
+          "atMs": 523.4086657874286,
+          "text": "them to "
+        },
+        {
+          "atMs": 574.5797078125179,
+          "text": "Omar, she "
+        },
+        {
+          "atMs": 630.4162498563528,
+          "text": "has three "
+        },
+        {
+          "atMs": 694.1889580339193,
+          "text": "stickers left. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Lana started with five ",
+          "queuedAtMs": 339.9048326537013,
+          "llmPausedMs": 92.34054107218981,
+          "readyAtMs": 432.26529099047184,
+          "seconds": 1.735,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 90.841,
+              "postprocess": 0.641
+            },
+            "memory": {
+              "activeBytes": 164993411,
+              "cacheBytes": 514649061
+            },
+            "inferenceMs": 91.56,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 92.252
+          },
+          "pcmSha256": "cf5739330c6609b57be5451a64f4646bd76bdb5af737d4b257d67dc365de18de",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "stickers and gave away two.",
+          "queuedAtMs": 492.00262501835823,
+          "readyAtMs": 662.9954157397151,
+          "seconds": 2.025,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 169.581,
+              "postprocess": 0.746
+            },
+            "memory": {
+              "activeBytes": 165026195,
+              "cacheBytes": 535938499
+            },
+            "inferenceMs": 170.38,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 170.915
+          },
+          "pcmSha256": "e14a558647547e6c0f98bab6970666999e860a8ae951a2a39419d3234d144fd8",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " After giving them to Omar, she has three stickers left.",
+          "queuedAtMs": 694.2491657100618,
+          "readyAtMs": 839.2132907174528,
+          "seconds": 3.585,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 143.403,
+              "postprocess": 0.826
+            },
+            "memory": {
+              "activeBytes": 165173782,
+              "cacheBytes": 532893467
+            },
+            "inferenceMs": 144.27,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.002,
+            "ipcWallMs": 144.894
+          },
+          "pcmSha256": "3d67fdba54ad3d126faca96185abbb8a4b9760f4a817dc08fd8f9afdf05a3aad",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-02-0.wav",
+      "audioSha256": "5324430d5871c313503cd3a3e76b16b83cfe2a5e080d1211bee592f3cd9cd7b7",
+      "audioSeconds": 7.345,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 19
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-04",
+      "set": "prior_regression",
+      "seed": 3512904944,
+      "recognized": "I want to make a cheese sandwich. What should I do first?",
+      "asrMs": 60.003084130585194,
+      "text": "First, get two slices of bread and some cheese. Then put the cheese on one slice. Finally, stack the other slice on top.",
+      "textSha256": "aad738ec836edc3747e5ce62ee5af6bcbfef0930c39cf9657dcd6e8abe59a2e7",
+      "firstTextDeltaMs": 189.05012542381883,
+      "firstAudioMs": 309.79341734200716,
+      "totalMs": 863.733584061265,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.02,
+        "promptChars": 2243,
+        "systemPromptChars": 2186,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 89.83,
+        "firstSpeechTextReadyMs": 128.98,
+        "firstSentenceReadyMs": 308.43,
+        "firstSentenceChars": 48,
+        "modelLoadMs": 0,
+        "promptEvalMs": 70.19862486049533,
+        "tokenGenerationMs": 559.1756668873131,
+        "promptTokens": 486,
+        "cachedPromptTokens": 458,
+        "generatedTokens": 29
+      },
+      "events": [
+        {
+          "atMs": 189.05054219067097,
+          "text": "First, get "
+        },
+        {
+          "atMs": 215.40204202756286,
+          "text": "two slices "
+        },
+        {
+          "atMs": 316.43725000321865,
+          "text": "of bread "
+        },
+        {
+          "atMs": 342.0031671412289,
+          "text": "and some "
+        },
+        {
+          "atMs": 368.4926670975983,
+          "text": "cheese. "
+        },
+        {
+          "atMs": 399.25091713666916,
+          "text": "Then put "
+        },
+        {
+          "atMs": 429.0879173204303,
+          "text": "the cheese "
+        },
+        {
+          "atMs": 474.62470922619104,
+          "text": "on one "
+        },
+        {
+          "atMs": 525.9600002318621,
+          "text": "slice. "
+        },
+        {
+          "atMs": 570.2885841019452,
+          "text": "Finally, stack "
+        },
+        {
+          "atMs": 601.6688751988113,
+          "text": "the other "
+        },
+        {
+          "atMs": 651.8591670319438,
+          "text": "slice on "
+        },
+        {
+          "atMs": 720.1543343253434,
+          "text": "top. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "First, get two slices ",
+          "queuedAtMs": 215.50629241392016,
+          "llmPausedMs": 94.25995824858546,
+          "readyAtMs": 309.79341734200716,
+          "seconds": 1.925,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 92.974,
+              "postprocess": 0.672
+            },
+            "memory": {
+              "activeBytes": 165009786,
+              "cacheBytes": 535296486
+            },
+            "inferenceMs": 93.7,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.001,
+            "ipcWallMs": 94.175
+          },
+          "pcmSha256": "0121d965e32c8e15221497d464c616187881da061632c2abde1debdb7fa31db3",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "of bread and some cheese.",
+          "queuedAtMs": 368.5967503115535,
+          "readyAtMs": 525.640417356044,
+          "seconds": 1.78,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 155.643,
+              "postprocess": 0.758
+            },
+            "memory": {
+              "activeBytes": 165009786,
+              "cacheBytes": 536696094
+            },
+            "inferenceMs": 156.45,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 156.969
+          },
+          "pcmSha256": "2a9843e26e7aa01273d9bf55a716d9d3f669ece8eb56c8bff1bb4e3bab8bac82",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Then put the cheese on one slice.",
+          "queuedAtMs": 526.0514593683183,
+          "readyAtMs": 711.6241250187159,
+          "seconds": 2.155,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 184.172,
+              "postprocess": 0.794
+            },
+            "memory": {
+              "activeBytes": 165042710,
+              "cacheBytes": 534530686
+            },
+            "inferenceMs": 185.02,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 185.503
+          },
+          "pcmSha256": "90e26606d888edfec15106ec00c3a05b0daf30287df714c136bd982100fc2bd0",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Finally, stack the other slice on ",
+          "queuedAtMs": 711.7850841023028,
+          "readyAtMs": 809.4680001959205,
+          "seconds": 2.275,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 96.434,
+              "postprocess": 0.64
+            },
+            "memory": {
+              "activeBytes": 165042710,
+              "cacheBytes": 532378870
+            },
+            "inferenceMs": 97.11,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 97.574
+          },
+          "pcmSha256": "289c27b65086034fb91163437c158887e4bf72b677cf31c47e59188e2d51f018",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "top.",
+          "queuedAtMs": 809.6160423010588,
+          "readyAtMs": 863.2291252724826,
+          "seconds": 1.015,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 52.613,
+              "postprocess": 0.622
+            },
+            "memory": {
+              "activeBytes": 164944198,
+              "cacheBytes": 535457340
+            },
+            "inferenceMs": 53.26,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 53.537
+          },
+          "pcmSha256": "c053bcc07909ff81c052d6ccd5cdbcbc204e85553211d6b275a1b90570107b95",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-04-0.wav",
+      "audioSha256": "d2f5aedd4887eade144836c5c0adb84df0f3322d8de02bec0a623b45a016beed",
+      "audioSeconds": 9.15,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 23
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "opt-hold-08",
+      "set": "prior_regression",
+      "seed": 1857375983,
+      "recognized": "Did I say the word yellow correctly?",
+      "asrMs": 46.26637510955334,
+      "text": "I cannot hear your voice or know what you said. Since I only receive text transcripts, I do not know if you pronounced \"yellow\" correctly. Please tell me how you spelled it in writing so I can check.",
+      "textSha256": "fc3e4415c1568f1dc7aa599c5ef1d112808819c7ce2d6807deaebadfd5ad3745",
+      "firstTextDeltaMs": 310.3008330799639,
+      "firstAudioMs": 442.2357501462102,
+      "totalMs": 1310.976583044976,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.68,
+        "promptChars": 2597,
+        "systemPromptChars": 2561,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 238.01,
+        "firstSpeechTextReadyMs": 263.98,
+        "firstSentenceReadyMs": 442.85,
+        "firstSentenceChars": 48,
+        "modelLoadMs": 0,
+        "promptEvalMs": 221.51433443650603,
+        "tokenGenerationMs": 864.3977497704327,
+        "promptTokens": 562,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 45
+      },
+      "events": [
+        {
+          "atMs": 310.3009997867048,
+          "text": "I cannot "
+        },
+        {
+          "atMs": 336.72512508928776,
+          "text": "hear your "
+        },
+        {
+          "atMs": 361.3345418125391,
+          "text": "voice or "
+        },
+        {
+          "atMs": 450.3701669164002,
+          "text": "know what "
+        },
+        {
+          "atMs": 489.1697079874575,
+          "text": "you said. "
+        },
+        {
+          "atMs": 519.7066669352353,
+          "text": "Since I "
+        },
+        {
+          "atMs": 549.2967921309173,
+          "text": "only receive "
+        },
+        {
+          "atMs": 617.6709169521928,
+          "text": "text transcripts, "
+        },
+        {
+          "atMs": 669.6613747626543,
+          "text": "I do "
+        },
+        {
+          "atMs": 700.6902499124408,
+          "text": "not know "
+        },
+        {
+          "atMs": 728.7280419841409,
+          "text": "if you "
+        },
+        {
+          "atMs": 819.2065418697894,
+          "text": "pronounced \"yellow\" "
+        },
+        {
+          "atMs": 872.8744168765843,
+          "text": "correctly. "
+        },
+        {
+          "atMs": 904.3935001827776,
+          "text": "Please tell "
+        },
+        {
+          "atMs": 931.7705421708524,
+          "text": "me how "
+        },
+        {
+          "atMs": 962.4099577777088,
+          "text": "you spelled "
+        },
+        {
+          "atMs": 1009.289292152971,
+          "text": "it in "
+        },
+        {
+          "atMs": 1068.5056247748435,
+          "text": "writing so "
+        },
+        {
+          "atMs": 1117.0737077482045,
+          "text": "I can "
+        },
+        {
+          "atMs": 1158.0134578980505,
+          "text": "check. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "I cannot hear ",
+          "queuedAtMs": 361.4279581233859,
+          "llmPausedMs": 80.78491687774658,
+          "readyAtMs": 442.2357501462102,
+          "seconds": 1.31,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 79.672,
+              "postprocess": 0.563
+            },
+            "memory": {
+              "activeBytes": 164960610,
+              "cacheBytes": 536760808
+            },
+            "inferenceMs": 80.28,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 80.617
+          },
+          "pcmSha256": "f15e22c27a5a33017713b8bf29228bc419c31ea9c2b035b56a94a0e289f1862a",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "your voice or know what you said.",
+          "queuedAtMs": 489.2800827510655,
+          "readyAtMs": 668.7109577469528,
+          "seconds": 2.135,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 177.864,
+              "postprocess": 0.852
+            },
+            "memory": {
+              "activeBytes": 165042578,
+              "cacheBytes": 534969388
+            },
+            "inferenceMs": 178.79,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 179.357
+          },
+          "pcmSha256": "1330c06ffc0aa5195e959638a8882632e490ae642f18b0254f749200bf3efe59",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Since I only receive text transcripts,",
+          "queuedAtMs": 668.8888748176396,
+          "readyAtMs": 873.1790417805314,
+          "seconds": 2.5,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 202.837,
+              "postprocess": 0.844
+            },
+            "memory": {
+              "activeBytes": 165075490,
+              "cacheBytes": 535081043
+            },
+            "inferenceMs": 203.72,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 204.222
+          },
+          "pcmSha256": "3486466a25566363e00798cfd4656543c9086e1cbab88469f6f8cba877cb07eb",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " I do not know if you pronounced \"yellow\" correctly.",
+          "queuedAtMs": 873.3688751235604,
+          "readyAtMs": 1112.6665831543505,
+          "seconds": 3.06,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 237.563,
+              "postprocess": 0.948
+            },
+            "memory": {
+              "activeBytes": 165124582,
+              "cacheBytes": 536258564
+            },
+            "inferenceMs": 238.55,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 239.218
+          },
+          "pcmSha256": "07cdadcb600e9b741bf63ded9895f35248a349a7b074eb8d6cfdb40bacb5b367",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Please tell me how you spelled it in writing ",
+          "queuedAtMs": 1112.86774976179,
+          "readyAtMs": 1240.8186667598784,
+          "seconds": 2.32,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 126.701,
+              "postprocess": 0.673
+            },
+            "memory": {
+              "activeBytes": 165075394,
+              "cacheBytes": 535853823
+            },
+            "inferenceMs": 127.41,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 127.871
+          },
+          "pcmSha256": "34a84ed576a67313e1ff953e3d88707d777575d0f1bbdf92dbbdf61090aab58c",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "so I can check.",
+          "queuedAtMs": 1240.9550831653178,
+          "readyAtMs": 1310.450917109847,
+          "seconds": 1.405,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 68.532,
+              "postprocess": 0.564
+            },
+            "memory": {
+              "activeBytes": 164976992,
+              "cacheBytes": 535169322
+            },
+            "inferenceMs": 69.12,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 69.428
+          },
+          "pcmSha256": "241dafbe0b4c39e7f2a47c1e2293e7b1d2bf625a34414b482262d89d0ec7e72a",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/opt-hold-08-0.wav",
+      "audioSha256": "f670b25da35686b3680807ad1b192993b186d77b23d0fb49eb9abbcbbc90f415",
+      "audioSeconds": 12.73,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 38
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-08",
+      "set": "new_cases",
+      "seed": 437227161,
+      "recognized": "What does Apple mean in Chinese? Give one short English example.",
+      "asrMs": 66.55387487262487,
+      "text": "Apple 在中文里是“苹果”。 例如：I eat an apple every day.",
+      "textSha256": "c924ae9c73346710677356ac003891185bd650ebc8cd0b412c7d06d4077d7982",
+      "firstTextDeltaMs": 471.0773751139641,
+      "firstAudioMs": 614.1780000180006,
+      "totalMs": 871.6044160537422,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.73,
+        "promptChars": 957,
+        "systemPromptChars": 893,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 161.4,
+        "modelLoadMs": 0,
+        "promptEvalMs": 143.64004088565707,
+        "tokenGenerationMs": 234.17058400809765,
+        "promptTokens": 459,
+        "cachedPromptTokens": 375,
+        "generatedTokens": 19,
+        "firstSentenceReadyMs": 404.46,
+        "firstSentenceChars": 17,
+        "firstSpeechTextReadyMs": 404.47
+      },
+      "events": [
+        {
+          "atMs": 471.07774997130036,
+          "text": "Apple 在中文里是“苹果”。 "
+        },
+        {
+          "atMs": 471.10495809465647,
+          "text": "例如：I eat an apple every "
+        },
+        {
+          "atMs": 471.369749866426,
+          "text": "day. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "Apple 在中文",
+          "queuedAtMs": 471.192458178848,
+          "llmPausedMs": 142.96591700986028,
+          "readyAtMs": 614.1780000180006,
+          "seconds": 3.445,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 139.112,
+              "postprocess": 3.093
+            },
+            "memory": {
+              "activeBytes": 165189984,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 142.25,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 142.874
+          },
+          "pcmSha256": "7bf950ecdbe20ad19778a4c3bcf02cd01e16d95aa0f0d9fd3ba661dee52dd0b2",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "里是“苹果”。",
+          "queuedAtMs": 614.4112078472972,
+          "readyAtMs": 708.5540411062539,
+          "seconds": 2.29,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 90.195,
+              "postprocess": 3.274
+            },
+            "memory": {
+              "activeBytes": 165058927,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 93.5,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 94.066
+          },
+          "pcmSha256": "fb192ba0749fc1e4a7d11e3e93ce1ea1ae4a3a4ff8629bb03e5b37a18afc4974",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " 例如：I eat an apple every day.",
+          "queuedAtMs": 708.7150001898408,
+          "readyAtMs": 870.7734160125256,
+          "seconds": 4.13,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 160.361,
+              "postprocess": 0.895
+            },
+            "memory": {
+              "activeBytes": 165288330,
+              "cacheBytes": 534930224
+            },
+            "inferenceMs": 161.3,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 161.984
+          },
+          "pcmSha256": "3575e4236a32b6d635eb1aacfc20dde571e321e121b8220f9b80483e7f65a9fe",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-08-0.wav",
+      "audioSha256": "54a399f293bea2dca0fa7c17815aded4e072ec3da70dd5abb240a40c8e4f98f7",
+      "audioSeconds": 9.865,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 7
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-02",
+      "set": "new_cases",
+      "seed": 1817647118,
+      "recognized": "The ticket costs $3.50. How much does it cost?",
+      "asrMs": 66.23149989172816,
+      "text": "It costs three dollars and fifty cents.",
+      "textSha256": "d12567e8c96158d8a813d16ddd2fab9b5605f49839c431a228fa45d577bf2bc4",
+      "firstTextDeltaMs": 178.66229079663754,
+      "firstAudioMs": 296.3115000165999,
+      "totalMs": 408.46779104322195,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.73,
+        "promptChars": 2212,
+        "systemPromptChars": 2166,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 86.61,
+        "firstSpeechTextReadyMs": 112.37,
+        "modelLoadMs": 0,
+        "promptEvalMs": 69.36108320951462,
+        "tokenGenerationMs": 178.0564170330763,
+        "promptTokens": 484,
+        "cachedPromptTokens": 455,
+        "generatedTokens": 9,
+        "firstSentenceReadyMs": 273.27,
+        "firstSentenceChars": 40
+      },
+      "events": [
+        {
+          "atMs": 178.66262514144182,
+          "text": "It costs "
+        },
+        {
+          "atMs": 205.07854083552957,
+          "text": "three dollars "
+        },
+        {
+          "atMs": 304.4611248187721,
+          "text": "and fifty "
+        },
+        {
+          "atMs": 339.55645794048905,
+          "text": "cents. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "It costs three dollars ",
+          "queuedAtMs": 205.17850015312433,
+          "llmPausedMs": 91.110167093575,
+          "readyAtMs": 296.3115000165999,
+          "seconds": 1.735,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 89.934,
+              "postprocess": 0.601
+            },
+            "memory": {
+              "activeBytes": 164993402,
+              "cacheBytes": 536278074
+            },
+            "inferenceMs": 90.59,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.001,
+            "ipcWallMs": 91.034
+          },
+          "pcmSha256": "a4287c8917f6c26c34b56366c4961609cebd2251d935893ea52fe1f04be29141",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "and fifty cents.",
+          "queuedAtMs": 339.6351248957217,
+          "readyAtMs": 407.969166059047,
+          "seconds": 1.43,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 67.299,
+              "postprocess": 0.573
+            },
+            "memory": {
+              "activeBytes": 164976998,
+              "cacheBytes": 534956814
+            },
+            "inferenceMs": 67.92,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.002,
+            "ipcWallMs": 68.259
+          },
+          "pcmSha256": "684cd57d596d9e4dc025c6f7cf45338d70b90fdf60cd1fbbfc7a5eb31ddb57bf",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-02-0.wav",
+      "audioSha256": "db060871080d81fd2f8cab4f16c0cebf68caf51709c06539e955bb0c334ebd80",
+      "audioSeconds": 3.165,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 7
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "onset-06",
+      "set": "new_cases",
+      "seed": 1884415191,
+      "recognized": "Luca has a green bicycle. What color is his helmet?",
+      "asrMs": 62.09554197266698,
+      "text": "We do not know the color of Luca's helmet because it is not mentioned in the story. The text only says he has a green bicycle. Therefore, we cannot tell what color his helmet is.",
+      "textSha256": "4840b202bbf2726b58858ca2f5874bb379155ec0f84d8604cd9f27395ec7a3bd",
+      "firstTextDeltaMs": 213.6880001053214,
+      "firstAudioMs": 321.3272080756724,
+      "totalMs": 1140.4533330351114,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.74,
+        "promptChars": 2249,
+        "systemPromptChars": 2198,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 125.65,
+        "firstSpeechTextReadyMs": 151.53,
+        "firstSentenceReadyMs": 442.95,
+        "firstSentenceChars": 84,
+        "modelLoadMs": 0,
+        "promptEvalMs": 107.75137506425379,
+        "tokenGenerationMs": 734.7658751532435,
+        "promptTokens": 491,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 41
+      },
+      "events": [
+        {
+          "atMs": 213.68858311325312,
+          "text": "We do "
+        },
+        {
+          "atMs": 240.05687469616532,
+          "text": "not know "
+        },
+        {
+          "atMs": 328.08054191991687,
+          "text": "the color "
+        },
+        {
+          "atMs": 366.862874943763,
+          "text": "of Luca's "
+        },
+        {
+          "atMs": 393.1320416741073,
+          "text": "helmet because "
+        },
+        {
+          "atMs": 419.5874170400202,
+          "text": "it is "
+        },
+        {
+          "atMs": 446.1025418713689,
+          "text": "not mentioned "
+        },
+        {
+          "atMs": 476.53920808807015,
+          "text": "in the "
+        },
+        {
+          "atMs": 505.0993748009205,
+          "text": "story. "
+        },
+        {
+          "atMs": 535.0261246785522,
+          "text": "The text "
+        },
+        {
+          "atMs": 579.0833327919245,
+          "text": "only says "
+        },
+        {
+          "atMs": 646.7089997604489,
+          "text": "he has "
+        },
+        {
+          "atMs": 697.3224580287933,
+          "text": "a green "
+        },
+        {
+          "atMs": 727.4874169379473,
+          "text": "bicycle. "
+        },
+        {
+          "atMs": 782.4218748137355,
+          "text": "Therefore, we "
+        },
+        {
+          "atMs": 831.7443747073412,
+          "text": "cannot tell "
+        },
+        {
+          "atMs": 862.0778750628233,
+          "text": "what color "
+        },
+        {
+          "atMs": 891.1319999024272,
+          "text": "his helmet "
+        },
+        {
+          "atMs": 937.8477497957647,
+          "text": "is. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "We do not know ",
+          "queuedAtMs": 240.18779210746288,
+          "llmPausedMs": 81.11637504771352,
+          "readyAtMs": 321.3272080756724,
+          "seconds": 1.32,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 79.955,
+              "postprocess": 0.652
+            },
+            "memory": {
+              "activeBytes": 164960608,
+              "cacheBytes": 534729732
+            },
+            "inferenceMs": 80.66,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 81.025
+          },
+          "pcmSha256": "c0cedb86b6347c472434bdfe8149b867e0381ab1f17d4dd431cd2fe96902b1ce",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "the color of Luca's helmet because it is not mentioned ",
+          "queuedAtMs": 446.24483305960894,
+          "readyAtMs": 697.9644997045398,
+          "seconds": 3.395,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 249.854,
+              "postprocess": 1.037
+            },
+            "memory": {
+              "activeBytes": 165157366,
+              "cacheBytes": 530590212
+            },
+            "inferenceMs": 250.96,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 251.647
+          },
+          "pcmSha256": "6bbf53fdca63ebbc325367b1d06a00d8185cb3cf1a955148dee385e1c6a831b5",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "in the story.",
+          "queuedAtMs": 698.193958029151,
+          "readyAtMs": 834.0713330544531,
+          "seconds": 1.34,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 134.667,
+              "postprocess": 0.746
+            },
+            "memory": {
+              "activeBytes": 164960594,
+              "cacheBytes": 527997066
+            },
+            "inferenceMs": 135.45,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 135.792
+          },
+          "pcmSha256": "1848ef7fc206c524615911eb751ebe744955b4d5e148572c48494e58805fb302",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " The text only says he has a green bicycle.",
+          "queuedAtMs": 834.2182501219213,
+          "readyAtMs": 1006.6213747486472,
+          "seconds": 2.86,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 171.013,
+              "postprocess": 0.734
+            },
+            "memory": {
+              "activeBytes": 165108178,
+              "cacheBytes": 535484122
+            },
+            "inferenceMs": 171.79,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.003,
+            "ipcWallMs": 172.325
+          },
+          "pcmSha256": "69abab7ce7b99780ab47a0c53af28c2e9b13226a4b97f729fcdc6e358f281c30",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " Therefore, we cannot tell what color his helmet is. ",
+          "queuedAtMs": 1006.7888330668211,
+          "readyAtMs": 1139.8670417256653,
+          "seconds": 3.185,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 131.608,
+              "postprocess": 0.787
+            },
+            "memory": {
+              "activeBytes": 165140974,
+              "cacheBytes": 536330260
+            },
+            "inferenceMs": 132.42,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 133.007
+          },
+          "pcmSha256": "5b30d2e98231a56a12297e6c044aab6979c8d728f0bb3254968bb3733a00571a",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/onset-06-0.wav",
+      "audioSha256": "6d22fe10411da9bdf57e3c3c1e16fbb2ae2f98f5ac8589279656a1c3917eab46",
+      "audioSeconds": 12.1,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 35
+      }
+    },
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "id": "q35-05",
+      "set": "prior_regression",
+      "seed": 3983247071,
+      "recognized": "It is raining and I need to walk home. What can I use to stay dry?",
+      "asrMs": 69.35745803639293,
+      "text": "You can use an umbrella or a raincoat to stay dry. A hat might also help if the rain isn't too heavy. You should choose what feels most comfortable for you.",
+      "textSha256": "f5dabbf4a44ed929ed311b8c8b3fa531bec8c1db26dd903352bb4f1da90fd437",
+      "firstTextDeltaMs": 441.8485830537975,
+      "firstAudioMs": 573.6427907831967,
+      "totalMs": 1267.999874893576,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.73,
+        "promptChars": 2874,
+        "systemPromptChars": 2808,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerFirstTokenMs": 347.58,
+        "firstSpeechTextReadyMs": 372.43,
+        "firstSentenceReadyMs": 577.59,
+        "firstSentenceChars": 51,
+        "modelLoadMs": 0,
+        "promptEvalMs": 331.09041675925255,
+        "tokenGenerationMs": 682.2464582510293,
+        "promptTokens": 656,
+        "cachedPromptTokens": 429,
+        "generatedTokens": 37
+      },
+      "events": [
+        {
+          "atMs": 441.84908317402005,
+          "text": "You can "
+        },
+        {
+          "atMs": 468.40874990448356,
+          "text": "use an "
+        },
+        {
+          "atMs": 494.8907499201596,
+          "text": "umbrella or "
+        },
+        {
+          "atMs": 595.3635829500854,
+          "text": "a raincoat "
+        },
+        {
+          "atMs": 621.9742079265416,
+          "text": "to stay "
+        },
+        {
+          "atMs": 646.9987500458956,
+          "text": "dry. "
+        },
+        {
+          "atMs": 676.9216251559556,
+          "text": "A hat "
+        },
+        {
+          "atMs": 705.8112910017371,
+          "text": "might also "
+        },
+        {
+          "atMs": 740.304125007242,
+          "text": "help if "
+        },
+        {
+          "atMs": 795.7579581998289,
+          "text": "the rain "
+        },
+        {
+          "atMs": 873.7417911179364,
+          "text": "isn't too "
+        },
+        {
+          "atMs": 904.5660411939025,
+          "text": "heavy. "
+        },
+        {
+          "atMs": 935.2390002459288,
+          "text": "You should "
+        },
+        {
+          "atMs": 984.6150828525424,
+          "text": "choose what "
+        },
+        {
+          "atMs": 1035.9605001285672,
+          "text": "feels most "
+        },
+        {
+          "atMs": 1066.8265828862786,
+          "text": "comfortable for "
+        },
+        {
+          "atMs": 1111.6057080216706,
+          "text": "you. "
+        }
+      ],
+      "chunks": [
+        {
+          "text": "You can use ",
+          "queuedAtMs": 494.9929998256266,
+          "llmPausedMs": 78.63462530076504,
+          "readyAtMs": 573.6427907831967,
+          "seconds": 1.315,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 77.192,
+              "postprocess": 0.848
+            },
+            "memory": {
+              "activeBytes": 164960590,
+              "cacheBytes": 531495014
+            },
+            "inferenceMs": 78.1,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 78.539
+          },
+          "pcmSha256": "3501cd8a33e4ecb6368f3eefc9eea4768047255dce0667f4fbb167a897bb921e",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "an umbrella or a raincoat to stay dry.",
+          "queuedAtMs": 647.165791131556,
+          "readyAtMs": 862.8222909756005,
+          "seconds": 2.85,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 213.909,
+              "postprocess": 0.916
+            },
+            "memory": {
+              "activeBytes": 165108246,
+              "cacheBytes": 535989480
+            },
+            "inferenceMs": 214.87,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.007,
+            "ipcWallMs": 215.54
+          },
+          "pcmSha256": "7e6812c9e5d63c9cf1a70d0a34cec91301f1bf5cdd4b74b2d502ce9091ac5044",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " A hat might also help if the rain ",
+          "queuedAtMs": 863.006791099906,
+          "readyAtMs": 1035.6211247853935,
+          "seconds": 1.885,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 171.125,
+              "postprocess": 0.757
+            },
+            "memory": {
+              "activeBytes": 165026214,
+              "cacheBytes": 534948602
+            },
+            "inferenceMs": 171.92,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.006,
+            "ipcWallMs": 172.533
+          },
+          "pcmSha256": "dad44bf3dd51637f5cdc8cc0ccf6893b291a0b3ece755e873a847fe5f80dcacc",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": "isn't too heavy.",
+          "queuedAtMs": 1035.7833332382143,
+          "readyAtMs": 1147.6168748922646,
+          "seconds": 1.46,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 110.691,
+              "postprocess": 0.619
+            },
+            "memory": {
+              "activeBytes": 164976994,
+              "cacheBytes": 535852908
+            },
+            "inferenceMs": 111.35,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.003,
+            "ipcWallMs": 111.767
+          },
+          "pcmSha256": "f7183438ac57621f210db4f107fe71fc974e242a4cc8ba27ffb70c196acfe219",
+          "playbackUnderrunMs": 0
+        },
+        {
+          "text": " You should choose what feels most comfortable for you. ",
+          "queuedAtMs": 1147.7411659434438,
+          "readyAtMs": 1267.3847498372197,
+          "seconds": 2.885,
+          "details": {
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 118.236,
+              "postprocess": 0.736
+            },
+            "memory": {
+              "activeBytes": 165124630,
+              "cacheBytes": 534896714
+            },
+            "inferenceMs": 119.0,
+            "queueWaitMs": 0.0,
+            "startupMs": 0.002,
+            "ipcWallMs": 119.57
+          },
+          "pcmSha256": "c5b78052289411f91db61ea495879ccdef2a0cfa881018e9ca31492800f3766e",
+          "playbackUnderrunMs": 0
+        }
+      ],
+      "output": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace/.local/first-audio-output/native_priority_smooth/q35-05-0.wav",
+      "audioSha256": "df4303a6e64d51df9d4ab4932a427d8a6deb18a3bc8db3203f273a8d2db87fd0",
+      "audioSeconds": 10.395,
+      "textPreserved": true,
+      "score": {
+        "passed": true,
+        "failures": [],
+        "questions": 0,
+        "words": 31
+      }
+    }
+  ],
+  "preparation": [
+    {
+      "profile": "native_priority_smooth",
+      "repeat": 0,
+      "ms": 20449.48145793751,
+      "prefixes": {
+        "id": 2,
+        "done": true,
+        "prefixes": [
+          {
+            "sha256": "459bcb69c115a5aeba9c2635de6e9dd67ce62914f0141a8ddf1b3cc14e7d6999",
+            "tokens": 375,
+            "milliseconds": 465.0735827162862
+          },
+          {
+            "sha256": "a99f20c7ccdce3fae37e5cd49d72b3c137efe6f2eddcb369fcb4a0f4f39f0834",
+            "tokens": 375,
+            "milliseconds": 460.34837514162064
+          },
+          {
+            "sha256": "84df0ff2256755c1892c6b6fa5fad6748e9b8ee18cf8422ab987efd82a753f7b",
+            "tokens": 375,
+            "milliseconds": 460.0375001318753
+          },
+          {
+            "sha256": "71066c9c6038616191875ce0baa8485d771d836e64af21becf9d2473371d9549",
+            "tokens": 375,
+            "milliseconds": 462.58604200556874
+          },
+          {
+            "sha256": "c4ac750ff06f1ed6467a366908188b9729f61884636f025e3357aaa19f34205f",
+            "tokens": 385,
+            "milliseconds": 34.54379178583622
+          },
+          {
+            "sha256": "b887a734fbde5673a7916c9eb6231ae4d8e78e19d3dcd262d070ab5e3d02c8c2",
+            "tokens": 385,
+            "milliseconds": 36.6280828602612
+          },
+          {
+            "sha256": "e76e1e684c0759026f95e5981eaca3ba9f2b1cc9eca18a04555ffdd72cde0ce7",
+            "tokens": 385,
+            "milliseconds": 34.26175005733967
+          },
+          {
+            "sha256": "c3b66b2eca388abf826bbcece9e117e34b190c5b66c0b310eb3230c186edfed2",
+            "tokens": 385,
+            "milliseconds": 34.199082758277655
+          },
+          {
+            "sha256": "2fa07cc49c8d57b3d5674b5568cbe95db94331b27343740cc26060aa40b884c3",
+            "tokens": 451,
+            "milliseconds": 120.2637916430831
+          },
+          {
+            "sha256": "b668a50233a1909afa562c94ec176a0212779ab8ea59efe8950f53dbf12966e1",
+            "tokens": 451,
+            "milliseconds": 118.04775008931756
+          },
+          {
+            "sha256": "45649a07a7ef324e096dc2397b2d5e84dffa7746c14bf545632b603784566f5f",
+            "tokens": 451,
+            "milliseconds": 119.17662480846047
+          },
+          {
+            "sha256": "e2ed68788f8116941368bbb5c30229468aa40b55d501227a1a7bbf79d9fe8d28",
+            "tokens": 605,
+            "milliseconds": 306.8653750233352
+          },
+          {
+            "sha256": "9c342f6334a42a03870b971183445cb7276f5e02d220f66ee3ff455837928c39",
+            "tokens": 429,
+            "milliseconds": 534.1857499442995
+          },
+          {
+            "sha256": "1c1e7c92a7fd433ae636b0f5d95ed9f32cc5de783d4139f47767e7d60aff25a8",
+            "tokens": 429,
+            "milliseconds": 535.61249980703
+          },
+          {
+            "sha256": "461fa3d0692a93860ae344970d33a19ca60cf766b0d6a7e37b7d22fac5b5a86d",
+            "tokens": 429,
+            "milliseconds": 534.4538749195635
+          },
+          {
+            "sha256": "b59b262ea994b56c1497374be7f6a9f0f231af2d963771f1b196566c8f03b1f9",
+            "tokens": 432,
+            "milliseconds": 535.1625410839915
+          },
+          {
+            "sha256": "c2996225135dac774b88a4c784049e5050773c5710b027a1f70bee11513ade63",
+            "tokens": 439,
+            "milliseconds": 34.66791706159711
+          },
+          {
+            "sha256": "a0f20c912d2e6a80b266ab57f762dad0fa6803100598a8c7df4fbe065e3ea169",
+            "tokens": 439,
+            "milliseconds": 34.26649980247021
+          },
+          {
+            "sha256": "fb36b6d994dac5f37ca58e427df90bdd8469069237ca2c81966f5ee8cf47bb13",
+            "tokens": 439,
+            "milliseconds": 34.504459239542484
+          },
+          {
+            "sha256": "845ea83287c316679aa1d6875e4e30d3c12f8c0812dff9d4a651717add00a91e",
+            "tokens": 442,
+            "milliseconds": 34.598457626998425
+          },
+          {
+            "sha256": "a668fbb552e43d93eae764e6a53a866f8b6a156097cd661a5ea62da3274c75c1",
+            "tokens": 455,
+            "milliseconds": 46.006124932318926
+          },
+          {
+            "sha256": "960187cdc4f06b3c3cbb1d4ae7f304375c8bae9cf95d0b2350e530190ae41dce",
+            "tokens": 455,
+            "milliseconds": 44.78441597893834
+          },
+          {
+            "sha256": "8f7eea4a569bb659d32d684373c0cf8ac8cb123bc6536793c4ce51f7d6a5f1cc",
+            "tokens": 455,
+            "milliseconds": 45.87120795622468
+          },
+          {
+            "sha256": "8d18293e9d65dc3c120442752ffa27b605602eecef56545c044ea344a776c3f2",
+            "tokens": 458,
+            "milliseconds": 44.720707926899195
+          }
+        ],
+        "activeMemoryBytes": 4015644222
+      }
+    }
+  ],
+  "scope": "Same frozen LLM/Bot/ASR/TTS weights. Native profiles use identical per-case/repeat RNG seeds; only segmentation/scheduling and TTS allocator budget differ. Actual buffer uses SpeechBuffer, legacy matches prior benchmark. PCM-ready latency excludes live VAD/browser/speaker buffering.",
+  "settings": {
+    "thinking": false,
+    "temperature": 0.3,
+    "maxTokens": 256,
+    "context": 4096,
+    "ttsSpeed": 0.95,
+    "ttsVolume": 0.2,
+    "ttsAudioCache": false
+  },
+  "executionRoot": "/Users/chenqiankun/Documents/real-time-voice/.local/qwen35-first-audio/smooth-workspace"
+}

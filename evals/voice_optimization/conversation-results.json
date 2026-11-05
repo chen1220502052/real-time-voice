@@ -1,0 +1,1352 @@
+{
+  "scope": "Six entirely new successive audio turns, grade 6. Actual delivered Bot text becomes each model history. No repeated questions, no prefix priming, model unloaded before each conversation. One conversation per model; descriptive timing only.",
+  "rows": [
+    {
+      "recognized": "Tell me one thing I can do on a rainy day.",
+      "asrMs": 69.43370820954442,
+      "asrConfidence": 0.9990095960589208,
+      "asrDetails": {
+        "text": "Tell me one thing I can do on a rainy day.",
+        "confidence": 0.9990095960589208,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 67.87,
+        "queueWaitMs": 0.006,
+        "startupMs": 0.01,
+        "ipcWallMs": 69.12
+      },
+      "text": "You can read a book or play indoor games on a rainy day.",
+      "firstTextDeltaMs": 774.6969158761203,
+      "firstAudioMs": 970.0030409730971,
+      "firstAudioAfterAsrMs": 900.5693327635527,
+      "totalMs": 1064.2722081393003,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 3.71,
+        "promptChars": 2820,
+        "systemPromptChars": 2778,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 681.52,
+        "providerFirstTokenMs": 681.6,
+        "firstSpeechTextReadyMs": 705.21,
+        "modelLoadMs": 18.702,
+        "promptEvalMs": 650.756,
+        "tokenGenerationMs": 170.882,
+        "promptTokens": 639,
+        "generatedTokens": 15,
+        "firstSentenceReadyMs": 852.95,
+        "firstSentenceChars": 57
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 127.007,
+            "postprocess": 0.674
+          },
+          "memory": {
+            "activeBytes": 165009815,
+            "cacheBytes": 127980103
+          },
+          "inferenceMs": 127.71,
+          "queueWaitMs": 0.005,
+          "startupMs": 0.01,
+          "ipcWallMs": 128.211
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 92.611,
+            "postprocess": 0.66
+          },
+          "memory": {
+            "activeBytes": 165026198,
+            "cacheBytes": 131132906
+          },
+          "inferenceMs": 93.29,
+          "queueWaitMs": 47.391,
+          "startupMs": 0.003,
+          "ipcWallMs": 93.789
+        }
+      ],
+      "audioSeconds": 3.86,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen2.5-3b/novel-turn-1-0.wav",
+      "audioSha256": "095ded3d9dd3ec6767820d5de9cec601556a5ec545ae191fea7bc8a59119d69a",
+      "model": "qwen2.5:3b",
+      "id": "novel-turn-1",
+      "historyInput": []
+    },
+    {
+      "recognized": "I choose reading. What can I read?",
+      "asrMs": 47.96958388760686,
+      "asrConfidence": 0.9936039822246108,
+      "asrDetails": {
+        "text": "I choose reading. What can I read?",
+        "confidence": 0.9936039822246108,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 47.44,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 47.856
+      },
+      "text": "You can read a book about space to learn about the moon and stars.",
+      "firstTextDeltaMs": 370.1984998770058,
+      "firstAudioMs": 554.4515419751406,
+      "firstAudioAfterAsrMs": 506.4819580875337,
+      "totalMs": 677.8465840034187,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.4,
+        "promptChars": 2944,
+        "systemPromptChars": 2812,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 283.26,
+        "providerFirstTokenMs": 283.32,
+        "firstSpeechTextReadyMs": 322.19,
+        "modelLoadMs": 15.037,
+        "promptEvalMs": 259.62,
+        "tokenGenerationMs": 234.405,
+        "promptTokens": 679,
+        "generatedTokens": 16,
+        "firstSentenceReadyMs": 517.62,
+        "firstSentenceChars": 67
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 138.6,
+            "postprocess": 0.852
+          },
+          "memory": {
+            "activeBytes": 164993421,
+            "cacheBytes": 133697080
+          },
+          "inferenceMs": 139.48,
+          "queueWaitMs": 0.009,
+          "startupMs": 0.005,
+          "ipcWallMs": 140.128
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 110.468,
+            "postprocess": 0.672
+          },
+          "memory": {
+            "activeBytes": 165059094,
+            "cacheBytes": 128655838
+          },
+          "inferenceMs": 111.16,
+          "queueWaitMs": 0.002,
+          "startupMs": 0.003,
+          "ipcWallMs": 111.646
+        }
+      ],
+      "audioSeconds": 4.12,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen2.5-3b/novel-turn-2-0.wav",
+      "audioSha256": "2d7e68f0ec12048482f2be283c1112342d3472a7a5f1291c74a1a555b912922c",
+      "model": "qwen2.5:3b",
+      "id": "novel-turn-2",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book or play indoor games on a rainy day."
+        }
+      ]
+    },
+    {
+      "recognized": "I like short stories about cats. Suggest one simple story idea.",
+      "asrMs": 65.96966600045562,
+      "asrConfidence": 0.9948630447110242,
+      "asrDetails": {
+        "text": "I like short stories about cats. Suggest one simple story idea.",
+        "confidence": 0.9948630447110242,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 65.09,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 65.804
+      },
+      "text": "How about a story where a shy cat finds courage to play with a friend, making new friends along the way?",
+      "firstTextDeltaMs": 330.8459999971092,
+      "firstAudioMs": 526.1822082102299,
+      "firstAudioAfterAsrMs": 460.21254220977426,
+      "totalMs": 813.7470409274101,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.44,
+        "promptChars": 2757,
+        "systemPromptChars": 2496,
+        "historyMessages": 5,
+        "connectionReused": true,
+        "providerHeadersMs": 225.43,
+        "providerFirstTokenMs": 225.48,
+        "firstSpeechTextReadyMs": 264.83,
+        "modelLoadMs": 17.915,
+        "promptEvalMs": 199.445,
+        "tokenGenerationMs": 346.359,
+        "promptTokens": 630,
+        "generatedTokens": 24,
+        "firstSentenceReadyMs": 572.01,
+        "firstSentenceChars": 105
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 147.694,
+            "postprocess": 0.76
+          },
+          "memory": {
+            "activeBytes": 165026189,
+            "cacheBytes": 129431493
+          },
+          "inferenceMs": 148.48,
+          "queueWaitMs": 0.008,
+          "startupMs": 0.008,
+          "ipcWallMs": 149.637
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 157.315,
+            "postprocess": 0.797
+          },
+          "memory": {
+            "activeBytes": 165091862,
+            "cacheBytes": 128265220
+          },
+          "inferenceMs": 158.15,
+          "queueWaitMs": 0.006,
+          "startupMs": 0.005,
+          "ipcWallMs": 158.708
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 94.033,
+            "postprocess": 0.641
+          },
+          "memory": {
+            "activeBytes": 165042590,
+            "cacheBytes": 122984722
+          },
+          "inferenceMs": 94.69,
+          "queueWaitMs": 79.997,
+          "startupMs": 0.003,
+          "ipcWallMs": 95.135
+        }
+      ],
+      "audioSeconds": 6.76,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen2.5-3b/novel-turn-3-0.wav",
+      "audioSha256": "1b648e83eaa13b7277a13898c47c2733ffdad41694e1703fb7015187c3111e2f",
+      "model": "qwen2.5:3b",
+      "id": "novel-turn-3",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book or play indoor games on a rainy day."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book about space to learn about the moon and stars."
+        }
+      ]
+    },
+    {
+      "recognized": "Name the cat Luna, what happens next?",
+      "asrMs": 48.72366692870855,
+      "asrConfidence": 0.9829856837930481,
+      "asrDetails": {
+        "text": "Name the cat Luna, what happens next?",
+        "confidence": 0.9829856837930481,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 132635740,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 48.07,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.002,
+        "ipcWallMs": 48.585
+      },
+      "text": "Luna, who was scared of meeting new cats, decides to invite a neighbor's cat to play, leading to a fun day of games and friendship.",
+      "firstTextDeltaMs": 394.79962503537536,
+      "firstAudioMs": 595.4760829918087,
+      "firstAudioAfterAsrMs": 546.7524160631001,
+      "totalMs": 979.1126670315862,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.65,
+        "promptChars": 3177,
+        "systemPromptChars": 2775,
+        "historyMessages": 7,
+        "connectionReused": true,
+        "providerHeadersMs": 284.16,
+        "providerFirstTokenMs": 284.24,
+        "firstSpeechTextReadyMs": 346.03,
+        "modelLoadMs": 10.614,
+        "promptEvalMs": 264.172,
+        "tokenGenerationMs": 490.867,
+        "promptTokens": 745,
+        "generatedTokens": 32,
+        "firstSentenceReadyMs": 775.25,
+        "firstSentenceChars": 132
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 155.048,
+            "postprocess": 0.728
+          },
+          "memory": {
+            "activeBytes": 165026326,
+            "cacheBytes": 128302806
+          },
+          "inferenceMs": 155.8,
+          "queueWaitMs": 0.005,
+          "startupMs": 0.004,
+          "ipcWallMs": 156.35
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 214.195,
+            "postprocess": 0.893
+          },
+          "memory": {
+            "activeBytes": 165157398,
+            "cacheBytes": 133509482
+          },
+          "inferenceMs": 215.12,
+          "queueWaitMs": 0.005,
+          "startupMs": 0.004,
+          "ipcWallMs": 215.817
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 119.187,
+            "postprocess": 0.713
+          },
+          "memory": {
+            "activeBytes": 165091794,
+            "cacheBytes": 133791470
+          },
+          "inferenceMs": 119.92,
+          "queueWaitMs": 34.088,
+          "startupMs": 0.002,
+          "ipcWallMs": 120.406
+        }
+      ],
+      "audioSeconds": 8.055,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen2.5-3b/novel-turn-4-0.wav",
+      "audioSha256": "f74d59587c5555408764dfc0d8e2f85c87027b260753a5fd59dc192c13e820df",
+      "model": "qwen2.5:3b",
+      "id": "novel-turn-4",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book or play indoor games on a rainy day."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book about space to learn about the moon and stars."
+        },
+        {
+          "role": "user",
+          "content": "I like short stories about cats. Suggest one simple story idea."
+        },
+        {
+          "role": "assistant",
+          "content": "How about a story where a shy cat finds courage to play with a friend, making new friends along the way?"
+        }
+      ]
+    },
+    {
+      "recognized": "Now call the cat Milo instead. What is the name of the cat now?",
+      "asrMs": 65.40120812132955,
+      "asrConfidence": 0.9943919384097781,
+      "asrDetails": {
+        "text": "Now call the cat Milo instead. What is the name of the cat now?",
+        "confidence": 0.9943919384097781,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 64.63,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.002,
+        "ipcWallMs": 65.242
+      },
+      "text": "The name of the cat is now Milo.",
+      "firstTextDeltaMs": 348.5571248456836,
+      "firstAudioMs": 531.2303747050464,
+      "firstAudioAfterAsrMs": 465.82916658371687,
+      "totalMs": 531.6950418055058,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.6,
+        "promptChars": 3062,
+        "systemPromptChars": 2466,
+        "historyMessages": 9,
+        "connectionReused": true,
+        "providerHeadersMs": 259.29,
+        "providerFirstTokenMs": 259.32,
+        "firstSpeechTextReadyMs": 283.11,
+        "modelLoadMs": 10.011,
+        "promptEvalMs": 238.871,
+        "tokenGenerationMs": 102.25,
+        "promptTokens": 721,
+        "generatedTokens": 10,
+        "firstSentenceReadyMs": 361.63,
+        "firstSentenceChars": 33
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 102.94,
+            "postprocess": 0.666
+          },
+          "memory": {
+            "activeBytes": 165042590,
+            "cacheBytes": 123160804
+          },
+          "inferenceMs": 103.62,
+          "queueWaitMs": 0.002,
+          "startupMs": 0.002,
+          "ipcWallMs": 104.069
+        }
+      ],
+      "audioSeconds": 2.17,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen2.5-3b/novel-turn-5-0.wav",
+      "audioSha256": "40e2b921663a46c2c2946f67131e09053b4283eb7293f4a2f3c13cb0d737cf8b",
+      "model": "qwen2.5:3b",
+      "id": "novel-turn-5",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book or play indoor games on a rainy day."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book about space to learn about the moon and stars."
+        },
+        {
+          "role": "user",
+          "content": "I like short stories about cats. Suggest one simple story idea."
+        },
+        {
+          "role": "assistant",
+          "content": "How about a story where a shy cat finds courage to play with a friend, making new friends along the way?"
+        },
+        {
+          "role": "user",
+          "content": "Name the cat Luna, what happens next?"
+        },
+        {
+          "role": "assistant",
+          "content": "Luna, who was scared of meeting new cats, decides to invite a neighbor's cat to play, leading to a fun day of games and friendship."
+        }
+      ]
+    },
+    {
+      "recognized": "Stop the story, give me one sentence asking a friend to read with me.",
+      "asrMs": 65.32962480559945,
+      "asrConfidence": 0.9960760499566031,
+      "asrDetails": {
+        "text": "Stop the story, give me one sentence asking a friend to read with me.",
+        "confidence": 0.9960760499566031,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 128431528,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 64.36,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.003,
+        "ipcWallMs": 65.049
+      },
+      "text": "Would you like to read this story about Milo with me?",
+      "firstTextDeltaMs": 608.2992916926742,
+      "firstAudioMs": 705.5042497813702,
+      "firstAudioAfterAsrMs": 640.1746249757707,
+      "totalMs": 793.3983746916056,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.54,
+        "promptChars": 3532,
+        "systemPromptChars": 2835,
+        "historyMessages": 11,
+        "connectionReused": true,
+        "providerHeadersMs": 394.71,
+        "providerFirstTokenMs": 394.75,
+        "modelLoadMs": 18.311,
+        "promptEvalMs": 367.847,
+        "tokenGenerationMs": 145.671,
+        "promptTokens": 853,
+        "generatedTokens": 13,
+        "firstSpeechTextReadyMs": 542.74,
+        "firstSentenceReadyMs": 543.5,
+        "firstSentenceChars": 54
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 95.707,
+            "postprocess": 0.626
+          },
+          "memory": {
+            "activeBytes": 164993421,
+            "cacheBytes": 121888896
+          },
+          "inferenceMs": 96.37,
+          "queueWaitMs": 0.009,
+          "startupMs": 0.006,
+          "ipcWallMs": 96.89
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 86.435,
+            "postprocess": 0.614
+          },
+          "memory": {
+            "activeBytes": 165009802,
+            "cacheBytes": 131391146
+          },
+          "inferenceMs": 87.06,
+          "queueWaitMs": 96.42,
+          "startupMs": 0.002,
+          "ipcWallMs": 87.421
+        }
+      ],
+      "audioSeconds": 3.575,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen2.5-3b/novel-turn-6-0.wav",
+      "audioSha256": "139fbfd4cd41e8a9f7b10fe41ad2db0ba27fd3b546e1c8783fcf504f0b429a3c",
+      "model": "qwen2.5:3b",
+      "id": "novel-turn-6",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book or play indoor games on a rainy day."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book about space to learn about the moon and stars."
+        },
+        {
+          "role": "user",
+          "content": "I like short stories about cats. Suggest one simple story idea."
+        },
+        {
+          "role": "assistant",
+          "content": "How about a story where a shy cat finds courage to play with a friend, making new friends along the way?"
+        },
+        {
+          "role": "user",
+          "content": "Name the cat Luna, what happens next?"
+        },
+        {
+          "role": "assistant",
+          "content": "Luna, who was scared of meeting new cats, decides to invite a neighbor's cat to play, leading to a fun day of games and friendship."
+        },
+        {
+          "role": "user",
+          "content": "Now call the cat Milo instead. What is the name of the cat now?"
+        },
+        {
+          "role": "assistant",
+          "content": "The name of the cat is now Milo."
+        }
+      ]
+    },
+    {
+      "recognized": "Tell me one thing I can do on a rainy day.",
+      "asrMs": 122.55695881322026,
+      "asrConfidence": 0.9990095960589208,
+      "asrDetails": {
+        "text": "Tell me one thing I can do on a rainy day.",
+        "confidence": 0.9990095960589208,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 120.91,
+        "queueWaitMs": 0.005,
+        "startupMs": 0.006,
+        "ipcWallMs": 122.063
+      },
+      "text": "You can read a book, draw pictures, or listen to music while it rains outside.",
+      "firstTextDeltaMs": 1058.5743747651577,
+      "firstAudioMs": 1350.1114998944104,
+      "firstAudioAfterAsrMs": 1227.55454108119,
+      "totalMs": 1546.5811248868704,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.44,
+        "promptChars": 2820,
+        "systemPromptChars": 2778,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 0.83,
+        "providerHeadersMs": 902.43,
+        "providerFirstTokenMs": 902.49,
+        "firstSpeechTextReadyMs": 935.98,
+        "modelLoadMs": 17.965,
+        "promptEvalMs": 858.469,
+        "tokenGenerationMs": 369.286,
+        "promptTokens": 642,
+        "generatedTokens": 18,
+        "firstSentenceReadyMs": 1255.08,
+        "firstSentenceChars": 79
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 205.155,
+            "postprocess": 1.638
+          },
+          "memory": {
+            "activeBytes": 164977006,
+            "cacheBytes": 134133912
+          },
+          "inferenceMs": 206.85,
+          "queueWaitMs": 0.009,
+          "startupMs": 0.006,
+          "ipcWallMs": 207.377
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 166.66,
+            "postprocess": 0.897
+          },
+          "memory": {
+            "activeBytes": 165206534,
+            "cacheBytes": 131904636
+          },
+          "inferenceMs": 167.58,
+          "queueWaitMs": 0.002,
+          "startupMs": 0.002,
+          "ipcWallMs": 168.272
+        }
+      ],
+      "audioSeconds": 5.275,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen3.5-4b-mlx/novel-turn-1-0.wav",
+      "audioSha256": "4d63330d7243f8663a83eab932b1ecc4f369dca3c23c0b6bc3a1a5446bf7e326",
+      "model": "qwen3.5:4b-mlx",
+      "id": "novel-turn-1",
+      "historyInput": []
+    },
+    {
+      "recognized": "I choose reading. What can I read?",
+      "asrMs": 52.91512468829751,
+      "asrConfidence": 0.9936039822246108,
+      "asrDetails": {
+        "text": "I choose reading. What can I read?",
+        "confidence": 0.9936039822246108,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 52.35,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 52.792
+      },
+      "text": "You can read any storybook about space, animals, or adventures. You might also try science books about planets and stars.",
+      "firstTextDeltaMs": 1051.4788329601288,
+      "firstAudioMs": 1352.4239999242127,
+      "firstAudioAfterAsrMs": 1299.5088752359152,
+      "totalMs": 1756.648374721408,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.42,
+        "promptChars": 2966,
+        "systemPromptChars": 2812,
+        "historyMessages": 3,
+        "connectionReused": false,
+        "connectionReadyMs": 0.83,
+        "providerHeadersMs": 965.05,
+        "providerFirstTokenMs": 965.11,
+        "firstSpeechTextReadyMs": 998.53,
+        "firstSentenceReadyMs": 1239.62,
+        "firstSentenceChars": 64,
+        "modelLoadMs": 22.476,
+        "promptEvalMs": 917.468,
+        "tokenGenerationMs": 556.035,
+        "promptTokens": 684,
+        "generatedTokens": 25
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 216.085,
+            "postprocess": 0.685
+          },
+          "memory": {
+            "activeBytes": 165009820,
+            "cacheBytes": 134175738
+          },
+          "inferenceMs": 216.8,
+          "queueWaitMs": 0.004,
+          "startupMs": 0.003,
+          "ipcWallMs": 217.231
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 252.58,
+            "postprocess": 0.89
+          },
+          "memory": {
+            "activeBytes": 165108146,
+            "cacheBytes": 130198532
+          },
+          "inferenceMs": 253.49,
+          "queueWaitMs": 59.675,
+          "startupMs": 0.002,
+          "ipcWallMs": 254.054
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 148.0,
+            "postprocess": 0.838
+          },
+          "memory": {
+            "activeBytes": 165157386,
+            "cacheBytes": 127913170
+          },
+          "inferenceMs": 148.86,
+          "queueWaitMs": 48.726,
+          "startupMs": 0.003,
+          "ipcWallMs": 149.496
+        }
+      ],
+      "audioSeconds": 8.04,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen3.5-4b-mlx/novel-turn-2-0.wav",
+      "audioSha256": "9e96027c336a0ef237f1873fc22dff2938dc26e08ba2d8e2f80565d741aab0a6",
+      "model": "qwen3.5:4b-mlx",
+      "id": "novel-turn-2",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book, draw pictures, or listen to music while it rains outside."
+        }
+      ]
+    },
+    {
+      "recognized": "I like short stories about cats. Suggest one simple story idea.",
+      "asrMs": 67.75204185396433,
+      "asrConfidence": 0.9948630447110242,
+      "asrDetails": {
+        "text": "I like short stories about cats. Suggest one simple story idea.",
+        "confidence": 0.9948630447110242,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 66.83,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 67.512
+      },
+      "text": "A cat named Whiskers finds a lost ball in the garden. He chases it until he brings it back to his owner for a happy hug.",
+      "firstTextDeltaMs": 452.7849997393787,
+      "firstAudioMs": 782.9914586618543,
+      "firstAudioAfterAsrMs": 715.2394168078899,
+      "totalMs": 1244.8031669482589,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.42,
+        "promptChars": 2834,
+        "systemPromptChars": 2496,
+        "historyMessages": 5,
+        "connectionReused": false,
+        "connectionReadyMs": 0.88,
+        "providerHeadersMs": 351.53,
+        "providerFirstTokenMs": 351.61,
+        "firstSpeechTextReadyMs": 385.0,
+        "firstSentenceReadyMs": 605.1,
+        "firstSentenceChars": 54,
+        "modelLoadMs": 21.93,
+        "promptEvalMs": 297.86,
+        "tokenGenerationMs": 662.366,
+        "promptTokens": 648,
+        "generatedTokens": 31
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 224.455,
+            "postprocess": 0.783
+          },
+          "memory": {
+            "activeBytes": 165026204,
+            "cacheBytes": 134099116
+          },
+          "inferenceMs": 225.27,
+          "queueWaitMs": 0.015,
+          "startupMs": 0.008,
+          "ipcWallMs": 225.864
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 220.437,
+            "postprocess": 0.668
+          },
+          "memory": {
+            "activeBytes": 165009816,
+            "cacheBytes": 134200278
+          },
+          "inferenceMs": 221.13,
+          "queueWaitMs": 109.951,
+          "startupMs": 0.004,
+          "ipcWallMs": 221.559
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 173.668,
+            "postprocess": 0.825
+          },
+          "memory": {
+            "activeBytes": 165223190,
+            "cacheBytes": 133932746
+          },
+          "inferenceMs": 174.53,
+          "queueWaitMs": 0.003,
+          "startupMs": 0.003,
+          "ipcWallMs": 175.147
+        }
+      ],
+      "audioSeconds": 7.9,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen3.5-4b-mlx/novel-turn-3-0.wav",
+      "audioSha256": "33dc1428c504c7df2e754e1001075e7ab581bbfd815fb8ff7cfb3dc6c06eed00",
+      "model": "qwen3.5:4b-mlx",
+      "id": "novel-turn-3",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book, draw pictures, or listen to music while it rains outside."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read any storybook about space, animals, or adventures. You might also try science books about planets and stars."
+        }
+      ]
+    },
+    {
+      "recognized": "Name the cat Luna, what happens next?",
+      "asrMs": 55.914708878844976,
+      "asrConfidence": 0.9829856837930481,
+      "asrDetails": {
+        "text": "Name the cat Luna, what happens next?",
+        "confidence": 0.9829856837930481,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 55.17,
+        "queueWaitMs": 0.006,
+        "startupMs": 0.007,
+        "ipcWallMs": 55.719
+      },
+      "text": "Luna jumps on the sofa and naps there. She dreams of chasing butterflies while her owner feeds her some milk.",
+      "firstTextDeltaMs": 582.2373749688268,
+      "firstAudioMs": 888.6577091179788,
+      "firstAudioAfterAsrMs": 832.7430002391338,
+      "totalMs": 1236.1435838975012,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.59,
+        "promptChars": 3270,
+        "systemPromptChars": 2775,
+        "historyMessages": 7,
+        "connectionReused": false,
+        "connectionReadyMs": 0.96,
+        "providerHeadersMs": 474.97,
+        "providerFirstTokenMs": 475.03,
+        "firstSpeechTextReadyMs": 526.28,
+        "firstSentenceReadyMs": 667.49,
+        "firstSentenceChars": 39,
+        "modelLoadMs": 16.071,
+        "promptEvalMs": 428.663,
+        "tokenGenerationMs": 526.808,
+        "promptTokens": 769,
+        "generatedTokens": 24
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 237.755,
+            "postprocess": 0.714
+          },
+          "memory": {
+            "activeBytes": 165026209,
+            "cacheBytes": 131284290
+          },
+          "inferenceMs": 238.5,
+          "queueWaitMs": 0.009,
+          "startupMs": 0.006,
+          "ipcWallMs": 239.04
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 170.218,
+            "postprocess": 0.795
+          },
+          "memory": {
+            "activeBytes": 164960586,
+            "cacheBytes": 131809529
+          },
+          "inferenceMs": 171.03,
+          "queueWaitMs": 165.072,
+          "startupMs": 0.003,
+          "ipcWallMs": 171.386
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 174.123,
+            "postprocess": 0.874
+          },
+          "memory": {
+            "activeBytes": 165239346,
+            "cacheBytes": 133325226
+          },
+          "inferenceMs": 175.02,
+          "queueWaitMs": 15.397,
+          "startupMs": 0.003,
+          "ipcWallMs": 175.637
+        }
+      ],
+      "audioSeconds": 7.63,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen3.5-4b-mlx/novel-turn-4-0.wav",
+      "audioSha256": "1515448f5efe092ac598568152b2ca8a9fd3390169262fbfdbfc62195c68eb28",
+      "model": "qwen3.5:4b-mlx",
+      "id": "novel-turn-4",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book, draw pictures, or listen to music while it rains outside."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read any storybook about space, animals, or adventures. You might also try science books about planets and stars."
+        },
+        {
+          "role": "user",
+          "content": "I like short stories about cats. Suggest one simple story idea."
+        },
+        {
+          "role": "assistant",
+          "content": "A cat named Whiskers finds a lost ball in the garden. He chases it until he brings it back to his owner for a happy hug."
+        }
+      ]
+    },
+    {
+      "recognized": "Now call the cat Milo instead. What is the name of the cat now?",
+      "asrMs": 68.14704090356827,
+      "asrConfidence": 0.9943919384097781,
+      "asrDetails": {
+        "text": "Now call the cat Milo instead. What is the name of the cat now?",
+        "confidence": 0.9943919384097781,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 67.4,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.002,
+        "ipcWallMs": 67.979
+      },
+      "text": "The cat's name is now Milo. He is still the same friendly cat who chases balls and naps on the sofa.",
+      "firstTextDeltaMs": 490.96741573885083,
+      "firstAudioMs": 811.8529156781733,
+      "firstAudioAfterAsrMs": 743.705874774605,
+      "totalMs": 1161.5835828706622,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.62,
+        "promptChars": 3133,
+        "systemPromptChars": 2466,
+        "historyMessages": 9,
+        "connectionReused": false,
+        "connectionReadyMs": 1.22,
+        "providerHeadersMs": 367.77,
+        "providerFirstTokenMs": 367.82,
+        "firstSpeechTextReadyMs": 422.77,
+        "firstSentenceReadyMs": 513.59,
+        "firstSentenceChars": 28,
+        "modelLoadMs": 12.958,
+        "promptEvalMs": 323.994,
+        "tokenGenerationMs": 523.839,
+        "promptTokens": 740,
+        "generatedTokens": 26
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 228.226,
+            "postprocess": 0.946
+          },
+          "memory": {
+            "activeBytes": 165009815,
+            "cacheBytes": 133870778
+          },
+          "inferenceMs": 229.21,
+          "queueWaitMs": 0.008,
+          "startupMs": 0.007,
+          "ipcWallMs": 229.709
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 211.918,
+            "postprocess": 1.269
+          },
+          "memory": {
+            "activeBytes": 165288522,
+            "cacheBytes": 130134962
+          },
+          "inferenceMs": 213.23,
+          "queueWaitMs": 0.008,
+          "startupMs": 0.006,
+          "ipcWallMs": 214.191
+        }
+      ],
+      "audioSeconds": 6.725,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen3.5-4b-mlx/novel-turn-5-0.wav",
+      "audioSha256": "65e46b3537507cbae5601dd540d665d0432a8cf3c553eb2a7356a90b3c4f268a",
+      "model": "qwen3.5:4b-mlx",
+      "id": "novel-turn-5",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book, draw pictures, or listen to music while it rains outside."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read any storybook about space, animals, or adventures. You might also try science books about planets and stars."
+        },
+        {
+          "role": "user",
+          "content": "I like short stories about cats. Suggest one simple story idea."
+        },
+        {
+          "role": "assistant",
+          "content": "A cat named Whiskers finds a lost ball in the garden. He chases it until he brings it back to his owner for a happy hug."
+        },
+        {
+          "role": "user",
+          "content": "Name the cat Luna, what happens next?"
+        },
+        {
+          "role": "assistant",
+          "content": "Luna jumps on the sofa and naps there. She dreams of chasing butterflies while her owner feeds her some milk."
+        }
+      ]
+    },
+    {
+      "recognized": "Stop the story, give me one sentence asking a friend to read with me.",
+      "asrMs": 66.27229088917375,
+      "asrConfidence": 0.9960760499566031,
+      "asrDetails": {
+        "text": "Stop the story, give me one sentence asking a friend to read with me.",
+        "confidence": 0.9960760499566031,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 65.09,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 66.062
+      },
+      "text": "Can you invite your friend to read this story with you?",
+      "firstTextDeltaMs": 828.9352082647383,
+      "firstAudioMs": 926.2152081355453,
+      "firstAudioAfterAsrMs": 859.9429172463715,
+      "totalMs": 1011.2760830670595,
+      "metrics": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.57,
+        "promptChars": 3671,
+        "systemPromptChars": 2835,
+        "historyMessages": 11,
+        "connectionReused": true,
+        "providerHeadersMs": 560.31,
+        "providerFirstTokenMs": 560.38,
+        "modelLoadMs": 12.192,
+        "promptEvalMs": 517.811,
+        "tokenGenerationMs": 217.022,
+        "promptTokens": 887,
+        "generatedTokens": 12,
+        "firstSpeechTextReadyMs": 762.55,
+        "firstSentenceReadyMs": 763.19,
+        "firstSentenceChars": 56
+      },
+      "ttsDetails": [
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 95.656,
+            "postprocess": 0.654
+          },
+          "memory": {
+            "activeBytes": 164993421,
+            "cacheBytes": 130841246
+          },
+          "inferenceMs": 96.35,
+          "queueWaitMs": 0.008,
+          "startupMs": 0.01,
+          "ipcWallMs": 96.949
+        },
+        {
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 83.468,
+            "postprocess": 0.65
+          },
+          "memory": {
+            "activeBytes": 165009810,
+            "cacheBytes": 130298398
+          },
+          "inferenceMs": 84.13,
+          "queueWaitMs": 96.496,
+          "startupMs": 0.003,
+          "ipcWallMs": 84.529
+        }
+      ],
+      "audioSeconds": 3.465,
+      "output": ".local/qwen35-optimization/workspace/.local/conversation-output/qwen3.5-4b-mlx/novel-turn-6-0.wav",
+      "audioSha256": "8c515f797842125786485ea5cb7d45169cc33de21160d015eaddd078e6df7bc8",
+      "model": "qwen3.5:4b-mlx",
+      "id": "novel-turn-6",
+      "historyInput": [
+        {
+          "role": "user",
+          "content": "Tell me one thing I can do on a rainy day."
+        },
+        {
+          "role": "assistant",
+          "content": "You can read a book, draw pictures, or listen to music while it rains outside."
+        },
+        {
+          "role": "user",
+          "content": "I choose reading. What can I read?"
+        },
+        {
+          "role": "assistant",
+          "content": "You can read any storybook about space, animals, or adventures. You might also try science books about planets and stars."
+        },
+        {
+          "role": "user",
+          "content": "I like short stories about cats. Suggest one simple story idea."
+        },
+        {
+          "role": "assistant",
+          "content": "A cat named Whiskers finds a lost ball in the garden. He chases it until he brings it back to his owner for a happy hug."
+        },
+        {
+          "role": "user",
+          "content": "Name the cat Luna, what happens next?"
+        },
+        {
+          "role": "assistant",
+          "content": "Luna jumps on the sofa and naps there. She dreams of chasing butterflies while her owner feeds her some milk."
+        },
+        {
+          "role": "user",
+          "content": "Now call the cat Milo instead. What is the name of the cat now?"
+        },
+        {
+          "role": "assistant",
+          "content": "The cat's name is now Milo. He is still the same friendly cat who chases balls and naps on the sofa."
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "novel-turn-1",
+      "text": "Tell me one thing I can do on a rainy day.",
+      "audio": ".local/qwen35-optimization/conversation-inputs/turn-1.wav"
+    },
+    {
+      "id": "novel-turn-2",
+      "text": "I choose reading. What can I read?",
+      "audio": ".local/qwen35-optimization/conversation-inputs/turn-2.wav"
+    },
+    {
+      "id": "novel-turn-3",
+      "text": "I like short stories about cats. Suggest one simple story idea.",
+      "audio": ".local/qwen35-optimization/conversation-inputs/turn-3.wav"
+    },
+    {
+      "id": "novel-turn-4",
+      "text": "Name the cat Luna. What happens next?",
+      "audio": ".local/qwen35-optimization/conversation-inputs/turn-4.wav"
+    },
+    {
+      "id": "novel-turn-5",
+      "text": "Now call the cat Milo instead. What is the name of the cat now?",
+      "audio": ".local/qwen35-optimization/conversation-inputs/turn-5.wav"
+    },
+    {
+      "id": "novel-turn-6",
+      "text": "Stop the story. Give me one sentence asking a friend to read with me.",
+      "audio": ".local/qwen35-optimization/conversation-inputs/turn-6.wav"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-11-04T09:56:26.329590+00:00",
+  "service": {
+    "ok": true,
+    "pid": 7366,
+    "resources": {
+      "capacity": 1,
+      "inUse": 0
+    }
+  },
+  "residentModels": [
+    {
+      "name": "qwen2.5:3b",
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b"
+    }
+  ],
+  "defaults": {
+    ".env.local": "75b2a918480a699cff4a059058f5fa8e813930bd0ed710b85e68877c376a12c3",
+    "scripts/run_learning_local.sh": "217bd63094c4038d2966d8ca3624b66a7949e9bfea0b3e334e2c61301839480a"
+  },
+  "unitTests": "3 adapter tests passed",
+  "sourceFilesVerified": 414,
+  "ownNativeWorkersClosed": true,
+  "otherSessionProcesses": "Left untouched; a separate frontend code-switch evaluation started after this benchmark completed."
+}

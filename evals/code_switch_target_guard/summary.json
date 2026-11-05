@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "completeTaskTrials": 5,
+    "completeTaskPass": 3,
+    "missingTargetRequests": 3,
+    "missingTargetClarifications": 1,
+    "allNonNoiseResponsesLatency": {
+      "n": 7,
+      "p50Ms": 922.25,
+      "p95Ms": 1692.16
+    },
+    "errors": 1,
+    "noiseSilent": 3,
+    "asrTargetRecoveryEnabled": false,
+    "repairedRequests": 0
+  },
+  "candidate": {
+    "completeTaskTrials": 5,
+    "completeTaskPass": 3,
+    "missingTargetRequests": 3,
+    "missingTargetClarifications": 3,
+    "allNonNoiseResponsesLatency": {
+      "n": 8,
+      "p50Ms": 807.66,
+      "p95Ms": 1057.1
+    },
+    "errors": 0,
+    "noiseSilent": 3,
+    "asrTargetRecoveryEnabled": false,
+    "repairedRequests": 0
+  },
+  "sourceChecks": {
+    "backend/asr_target.py": true,
+    "scripts/local_speech_worker.py": true,
+    "backend/providers/speech_local.py": true,
+    "backend/providers/speech_worker.py": true,
+    "backend/voice_grounding.py": true,
+    "backend/voice_prompt.py": true,
+    "backend/english_chat.py": true,
+    "backend/curriculum_chat.py": true,
+    "backend/reply_sentences.py": true,
+    "backend/speech_text.py": true,
+    "backend/data/chat/curriculum-vocabulary.json": true,
+    "backend/data/chat/voice-glossary-supplement.json": true
+  },
+  "inputIntegrity": {
+    "files": 11,
+    "sourceSegments": 10,
+    "allHashesMatch": true
+  },
+  "conclusion": "Safe missing-slot clarification only. No ASR accuracy improvement claim; automatic acoustic recovery remains disabled."
+}

@@ -16,13 +16,19 @@ def create_asr_engine():
     backend = os.getenv("ASR_BACKEND", "funasr").lower()
     if backend == "stub":
         return VadAsrStub()
+    if backend == "mlx":
+        from .providers.speech_local import MlxWhisperAsr
+        return MlxWhisperAsr()
+    if backend == "parakeet":
+        from .providers.speech_local import ParakeetAsr
+        return ParakeetAsr()
     if backend == "funasr":
         return FunAsrVadAdapter()
     if backend == "dashscope":
         return DashScopeAsrVadAdapter()
     if backend == "nls":
         return AliyunNlsAsrVadAdapter()
-    raise ValueError("ASR_BACKEND must be 'nls', 'dashscope', 'funasr', or 'stub'")
+    raise ValueError("ASR_BACKEND must be 'parakeet', 'mlx', 'nls', 'dashscope', 'funasr', or 'stub'")
 
 
 def create_agent():
@@ -49,4 +55,7 @@ def create_tts():
         return PiperTts()
     if backend == "demo":
         return DemoTts()
-    raise ValueError("TTS_BACKEND must be 'piper' or 'demo'")
+    if backend == "kokoro":
+        from .providers.speech_local import KokoroTts
+        return KokoroTts()
+    raise ValueError("TTS_BACKEND must be 'kokoro', 'piper' or 'demo'")

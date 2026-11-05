@@ -1,0 +1,1165 @@
+{
+  "method": "Independent Whisper-large-v3-turbo auto-language transcription of all 72 WAVs. Eight code-switched/Chinese outputs also transcribed with language=zh to diagnose language detection losses. Both transcripts retained; transcription is fallible and is not a human listening score. All files verified against SHA-256, mono PCM16 16 kHz format, nonzero RMS.",
+  "rows": [
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-07",
+      "repeat": 0,
+      "text": "I don't know the color of his shoes.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-07-0.wav",
+      "audioSha256": "06688048a38e5f9034baeb3bf855a79e5053746aa7fdd816060f8a4e3b47e669",
+      "audioTranscript": " I don't know the color of. His shoes.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 45920,
+        "seconds": 2.87,
+        "rms": 0.046997581163739914,
+        "peak": 0.4581298828125
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-03",
+      "repeat": 0,
+      "text": "Why not draw together and share your creative ideas?",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-03-0.wav",
+      "audioSha256": "ffc11a980862ebaa57b5a0caf61d824020ad10e40deeaebc34ab73a4efbe3a5a",
+      "audioTranscript": " Why not draw together and share your creative ideas?",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 59760,
+        "seconds": 3.735,
+        "rms": 0.046029927298327056,
+        "peak": 0.3375244140625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-02",
+      "repeat": 0,
+      "text": "A duck can swim and has webbed feet, while a cat can climb and has claws.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-02-0.wav",
+      "audioSha256": "6fde43bb1dbf2ec8bc827b8e11c98b35e9f5afad3b1205a568cca0fff1fdfb85",
+      "audioTranscript": " A duck can swim and has webbed feet, while a cat can climb and has claws.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 75280,
+        "seconds": 4.705,
+        "rms": 0.04677287972048739,
+        "peak": 0.353546142578125
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-05",
+      "repeat": 0,
+      "text": "You can use an umbrella or a raincoat to stay dry.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-05-0.wav",
+      "audioSha256": "22fd2ee67cb19d13871d472de4a412fb873f3266151ceedd7f7109dc2c76f1e0",
+      "audioTranscript": " You can use an umbrella or a raincoat to stay dry.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 63440,
+        "seconds": 3.965,
+        "rms": 0.047564951012032855,
+        "peak": 0.37664794921875
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-09",
+      "repeat": 0,
+      "text": "Great! Sunday is a perfect day for a fun visit to the zoo.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-09-0.wav",
+      "audioSha256": "9494d38704bce1fde0be9d520802f6a9d507641c8a11335f73ea1bfeb3d221d1",
+      "audioTranscript": " Great! Sunday is a perfect day for a fun visit to the zoo.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 73200,
+        "seconds": 4.575,
+        "rms": 0.050612536848079925,
+        "peak": 0.383453369140625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-10",
+      "repeat": 0,
+      "text": "A piano can play music.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-10-0.wav",
+      "audioSha256": "f4027b1765b4f697b0724bd0a9c26cfe04e6b35c99585b2c64cd3b7a5a83df74",
+      "audioTranscript": " A piano can play music.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 30080,
+        "seconds": 1.88,
+        "rms": 0.047151065544847964,
+        "peak": 0.367279052734375
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-01",
+      "repeat": 0,
+      "text": "Turtles have shells to protect their bodies from predators.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-01-0.wav",
+      "audioSha256": "39aa213c9d534d3f903b26d3236ab33c341c114cd532b0b8ae0337381dd79629",
+      "audioTranscript": " Turtles have shells to protect. Their bodies from predators.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 64880,
+        "seconds": 4.055,
+        "rms": 0.04710735445123958,
+        "peak": 0.320648193359375
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-08",
+      "repeat": 0,
+      "text": "You use the bus to go to school now.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-08-0.wav",
+      "audioSha256": "6411087b4b951adb263a384fc50bb82ccae2cb7e6bfa3b3f86c9daf9f95e0ccb",
+      "audioTranscript": " You use the bus to go too. School now.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 50720,
+        "seconds": 3.17,
+        "rms": 0.04949557457308197,
+        "peak": 0.388916015625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-06",
+      "repeat": 0,
+      "text": "Nora now has 2 green pencils.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-06-0.wav",
+      "audioSha256": "28ca9fbfbbeed1e8b894d6cd1730974737a12948b52981d00c59094cb84f56bb",
+      "audioTranscript": " Nora now has two green pencils.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 38160,
+        "seconds": 2.385,
+        "rms": 0.04771022138076634,
+        "peak": 0.28546142578125
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-04",
+      "repeat": 0,
+      "text": "First, you need to get some cheese and bread. Then, spread the cheese evenly on one slice of bread. Finally, put the other slice on top to make the sandwich.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-04-0.wav",
+      "audioSha256": "c775869904a31951508c04410f4972678e00ae231bd893b177e84bba9cb16e30",
+      "audioTranscript": " First, you need to get some. Cheese and bread. Then, spread the cheese evenly on one slice of bread. Finally, put the other slice on top to make the sandwich.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 164240,
+        "seconds": 10.265,
+        "rms": 0.048854626556443376,
+        "peak": 0.46826171875
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-11",
+      "repeat": 0,
+      "text": "cherry 的意思是“樱桃”。 这里有一个用 cherry 构成的句子：I picked a cherry from the tree.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-11-0.wav",
+      "audioSha256": "ff7bd4c793947950a500291f76f3171e6b984c405d269832a65d5c6d5cf3445f",
+      "audioTranscript": " Cherry. Dei yisi shi ying tau. Ze li yu yi ga yung. Cherry. Go cheng dei ju zi. I picked a cherry from the tree.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 206320,
+        "seconds": 12.895,
+        "rms": 0.05005599038970051,
+        "peak": 0.53680419921875
+      },
+      "forcedChineseTranscript": "cherrycherryI picked a cherry from the tree."
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-12",
+      "repeat": 0,
+      "text": "Your pronunciation of \"rabbit\" seems correct to me. Good job!",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-12-0.wav",
+      "audioSha256": "98d9432179b1648cfe90307588baf58cf8d8659f4930358c6433d07c12a045ed",
+      "audioTranscript": " Your pronunciation of rabbit seems correct to me. Good job.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 79200,
+        "seconds": 4.95,
+        "rms": 0.049815902589875,
+        "peak": 0.466156005859375
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-07",
+      "repeat": 0,
+      "text": "Ben 的鞋子是黑色的。",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-07-0.wav",
+      "audioSha256": "61b0434cc64ac7c0dd1577bbc96848d96aea34cfaf6360d06983f6158723e0f4",
+      "audioTranscript": "Ben鞋子是黑色的",
+      "transcriptLanguage": "zh",
+      "signal": {
+        "frames": 68240,
+        "seconds": 4.265,
+        "rms": 0.048275763079682066,
+        "peak": 0.41156005859375
+      },
+      "forcedChineseTranscript": "Ben鞋子是黑色的"
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-03",
+      "repeat": 0,
+      "text": "Come draw with me today, and let's make some fun art together!",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-03-0.wav",
+      "audioSha256": "29bae658891e82d4c778d240c2e0655cdc3ba04b335d05e3fc6dabed97882fb2",
+      "audioTranscript": " Come draw with me today, and let's make some fun art together.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 64080,
+        "seconds": 4.005,
+        "rms": 0.05036840738003948,
+        "peak": 0.327301025390625
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-02",
+      "repeat": 0,
+      "text": "Ducks have feathers and swim in water, while cats have fur and hunt on land. Both animals are pets that humans love to keep at home.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-02-0.wav",
+      "audioSha256": "d1c5e3414895be1acb51a0f56d3d082b277aff847e865f891532a64c5283898b",
+      "audioTranscript": " Ducks have feathers and swim in water, while cats have fur and hunt on land. Both animals are pets that humans love to keep at home.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 134960,
+        "seconds": 8.435,
+        "rms": 0.04888513761478653,
+        "peak": 0.3653564453125
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-05",
+      "repeat": 0,
+      "text": "You can wear a raincoat or an umbrella to stay dry while walking home.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-05-0.wav",
+      "audioSha256": "42d6eb23f31c582cc36f96919b178211ceb095dc44450b6ab885e30a96458c95",
+      "audioTranscript": " You can wear a raincoat or an umbrella to stay dry while walking home.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 73920,
+        "seconds": 4.62,
+        "rms": 0.047110241524164244,
+        "peak": 0.3004150390625
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-09",
+      "repeat": 0,
+      "text": "You can visit on Sunday. The zoo is open then. Do you have a ticket ready?",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-09-0.wav",
+      "audioSha256": "50bc5cc4c5b483a0bb41de09acd7076a1cbe692528f03e5ec9bab181ef2c829d",
+      "audioTranscript": " You can visit on Sunday. The zoo is open then. Do you have a ticket ready?",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 86640,
+        "seconds": 5.415,
+        "rms": 0.04770541236788859,
+        "peak": 0.378387451171875
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-10",
+      "repeat": 0,
+      "text": "A piano can make music.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-10-0.wav",
+      "audioSha256": "9d960f51ca879aea956f25136dde78efceb28e71e7e6d4032b7cbd005de79b1d",
+      "audioTranscript": " A piano can make music.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 29280,
+        "seconds": 1.83,
+        "rms": 0.04891291260192994,
+        "peak": 0.327545166015625
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-01",
+      "repeat": 0,
+      "text": "Turtles have shells because they protect their soft bodies from danger and help them move on land. They also use the shell as a home for their eggs when they are not ready to hatch. This special feature helps them survive in many different places around the world.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-01-0.wav",
+      "audioSha256": "21c074f29123831f4ea0811f78579586d0413fa9b5bb0aa4cb6857791de98a1b",
+      "audioTranscript": " Turtles have shells because they protect their soft bodies from danger and help them move on land. They also use the shell as a home for their eggs when they are not ready to hatch. This special feature helps them survive in many different places around the world.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 260400,
+        "seconds": 16.275,
+        "rms": 0.04802226927175453,
+        "peak": 0.42401123046875
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-08",
+      "repeat": 0,
+      "text": "You use your feet and legs to walk. You also can ride a bike or take a bus.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-08-0.wav",
+      "audioSha256": "0352563ac411b3eea482af6333e70c90e23c9cfb7272d478fbc94d6df447b19a",
+      "audioTranscript": " you use your feet and legs to walk. You also can ride a bike or take a bus.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 87760,
+        "seconds": 5.485,
+        "rms": 0.04926037339707992,
+        "peak": 0.40789794921875
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-06",
+      "repeat": 0,
+      "text": "Nora starts with three pencils and loses one, so she has two left.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-06-0.wav",
+      "audioSha256": "981dabf701c0406b5fc505cd99730749eda3601c4101e90aaca693076b75035e",
+      "audioTranscript": " Nora starts with three pencils and loses one, so she has two left.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 74080,
+        "seconds": 4.63,
+        "rms": 0.04926029668004943,
+        "peak": 0.455108642578125
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-04",
+      "repeat": 0,
+      "text": "You need to get bread first. Then you put cheese on it. Finally, you add meat and veggies.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-04-0.wav",
+      "audioSha256": "d078aae47e2a2c0e8723b5f54673c720e38f560510db70653cc23370953bf638",
+      "audioTranscript": " You need to get bread first. Then you put cheese on it. Finally, you add meat and veggies.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 94640,
+        "seconds": 5.915,
+        "rms": 0.050172686761562425,
+        "peak": 0.438568115234375
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-11",
+      "repeat": 0,
+      "text": "樱桃的意思是“樱桃”。 One English sentence is: \"I like to eat a red cherry.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-11-0.wav",
+      "audioSha256": "ba07dfbf09a3fa819c4450b6e868945d705286dc6f4c4c9d040b713fd7a385f2",
+      "audioTranscript": " 樱桃的意思是樱桃。 One English sentence is, I like to eat a red cherry.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 107840,
+        "seconds": 6.74,
+        "rms": 0.05027519914026371,
+        "peak": 0.475830078125
+      },
+      "forcedChineseTranscript": "樱桃的意思是樱桃。One English sentence is, I like to eat a red cherry."
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-12",
+      "repeat": 0,
+      "text": "I am an AI with no human voice or hearing. I cannot hear your pronunciation. Please try speaking again so I can tell you if it sounds right.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-12-0.wav",
+      "audioSha256": "4f76a3c96a7603426b850084b5c4dc9bf65091b1a460ae3b9247e8cbd80ae9a0",
+      "audioTranscript": " I am an AI with no human. Voice or hearing. I cannot hear your pronunciation. Please try speaking again so I can tell you if it sounds right.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 153440,
+        "seconds": 9.59,
+        "rms": 0.04790746725735389,
+        "peak": 0.487701416015625
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-07",
+      "repeat": 0,
+      "text": "I do not know the colour of his shoes. The text only says he has a red kite.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-07-0.wav",
+      "audioSha256": "966203bd6d759410e3b71168e4c5e78b2625257acba30832ab25dffe9aa50784",
+      "audioTranscript": " I do not know the color of his shoes. The text only says he has a red kite.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 88240,
+        "seconds": 5.515,
+        "rms": 0.0488022219003777,
+        "peak": 0.45892333984375
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-03",
+      "repeat": 0,
+      "text": "Would you like to draw with me?",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-03-0.wav",
+      "audioSha256": "13c2ea4ffd3664ba448536dad38f9cf7aa2d61b8af7c9861ea3a84c0c1cb27b7",
+      "audioTranscript": " Would you like to draw with me?",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 40720,
+        "seconds": 2.545,
+        "rms": 0.048989356462312963,
+        "peak": 0.31182861328125
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-02",
+      "repeat": 0,
+      "text": "A duck swims in water while a cat runs on land. A duck lays eggs, but a cat gives birth to babies. Ducks have webbed feet, and cats have soft paws for climbing.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-02-0.wav",
+      "audioSha256": "f4d00e5e8c66e74cebd73e619c13bc2ce97d787c9d96cd81df36006b354d780a",
+      "audioTranscript": " A duck swims in water while. A cat runs on land. A duck lays eggs, but a cat gives birth to babies. Ducks have webbed feet, and cats have soft paws for climbing.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 177600,
+        "seconds": 11.1,
+        "rms": 0.046507418834319025,
+        "peak": 0.42462158203125
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-05",
+      "repeat": 0,
+      "text": "You can use an umbrella or a raincoat to stay dry when it rains. You might also carry a waterproof bag for your books.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-05-0.wav",
+      "audioSha256": "a349f20252befbdc2e7f7ef1caf4e898008443f4d4c9c1c10021ad22fa9c0502",
+      "audioTranscript": " You can use an umbrella or a raincoat to stay dry when it rains. You might also carry a waterproof bag for your books.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 122640,
+        "seconds": 7.665,
+        "rms": 0.047315957369354865,
+        "peak": 0.46630859375
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-09",
+      "repeat": 0,
+      "text": "That sounds like a great plan! Do you know which zoo you want to visit?",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-09-0.wav",
+      "audioSha256": "d8c18152286aee9c2a01a091e152145bf2519b540d7ed1aa9b74d498bbf6a8a0",
+      "audioTranscript": " That sounds like a great plan. Do you know which zoo you want to visit?",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 66000,
+        "seconds": 4.125,
+        "rms": 0.0493958079080999,
+        "peak": 0.297576904296875
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-10",
+      "repeat": 0,
+      "text": "A piano makes music. It plays many songs.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-10-0.wav",
+      "audioSha256": "a02307a0f3250963a809fe4fdf889f9c3bc1a25d55d221912c7129e09976ae53",
+      "audioTranscript": " A piano makes music. It plays many songs.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 55040,
+        "seconds": 3.44,
+        "rms": 0.04761782913492912,
+        "peak": 0.370025634765625
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-01",
+      "repeat": 0,
+      "text": "Turtles wear shells for protection. They use them to hide from danger. The shell is their hard home.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-01-0.wav",
+      "audioSha256": "95781df6d4c38576a8710da49c30af2a1d3ed23268269cc816bf36ef85ba123e",
+      "audioTranscript": " Turtles wear shells for protection. They use them to hide from danger. The shell is their hard home.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 106000,
+        "seconds": 6.625,
+        "rms": 0.046133846472172405,
+        "peak": 0.373992919921875
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-08",
+      "repeat": 0,
+      "text": "You use a bus to go to school now. Before, you used a bike.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-08-0.wav",
+      "audioSha256": "2776c92c1999bd7557c4d968b3b2588ad774c1c4fd5a4464e94f80d32f80c6b0",
+      "audioTranscript": " You use a bus to go to school. Now, before you used a bike.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 74880,
+        "seconds": 4.68,
+        "rms": 0.0484917772940198,
+        "peak": 0.35333251953125
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-06",
+      "repeat": 0,
+      "text": "Nora starts with three pencils and gives away one, so she has two left. Two is the correct answer for how many remain.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-06-0.wav",
+      "audioSha256": "f7843407ff8ade4428c84dfa795a1b9b090e9d354825ab540923180f3b088856",
+      "audioTranscript": " Nora starts with three pencils and gives away one, so she has two left. Two is the correct answer for how many remain.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 126400,
+        "seconds": 7.9,
+        "rms": 0.04840954237744971,
+        "peak": 0.391815185546875
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-04",
+      "repeat": 0,
+      "text": "First, get the bread and cheese. Then cut them into slices. Finally, put the cheese on the bread.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-04-0.wav",
+      "audioSha256": "49fbad4c01196fbb94dd643e4d685fcd68050a69b23d8445edf63a469cacfe34",
+      "audioTranscript": " First, get the bread and cheese. Then cut them into slices. Finally, put the cheese on the bread.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 102000,
+        "seconds": 6.375,
+        "rms": 0.049291847167644426,
+        "peak": 0.478057861328125
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-11",
+      "repeat": 0,
+      "text": "Cherry\"在中文里是“樱桃”。 The cherry is red and sweet.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-11-0.wav",
+      "audioSha256": "0819110b946e9111bf27d49007ddf49dfb105f173350b5f20935a2eea91613b0",
+      "audioTranscript": " Cherry. 在中文里是樱桃。 The cherry is red and sweet.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 100000,
+        "seconds": 6.25,
+        "rms": 0.05126799777825726,
+        "peak": 0.38275146484375
+      },
+      "forcedChineseTranscript": "cherry在中文里是樱桃The cherry is red and sweet."
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-12",
+      "repeat": 0,
+      "text": "I cannot assess your pronunciation because I only receive text transcripts and do not hear audio. Please know that \"rabbit\" is pronounced /ˈræbɪt/ in English.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-12-0.wav",
+      "audioSha256": "21f4389d06a6b644a120d1d52b6b693c1349704984faac179abc331854529ca8",
+      "audioTranscript": " I cannot assess your pronunciation because I only receive text transcripts and do not hear audio. Please know that rabbit is pronounced slash stress are a eb small cap i t slash in English.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 196320,
+        "seconds": 12.27,
+        "rms": 0.04810341466303937,
+        "peak": 0.405059814453125
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-01",
+      "repeat": 1,
+      "text": "Turtles wear shells to stay safe from predators. The hard shell protects their soft bodies inside. It also helps them swim in water or hide on land.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-01-1.wav",
+      "audioSha256": "ebd137a07b159e13836a32717e631d20ee2403a85380e7da3b91801a9d24cc75",
+      "audioTranscript": " Turtles wear shells to stay, safe from predators. The hard shell protects their soft bodies inside. It also helps them swim in water or hide on land.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 162560,
+        "seconds": 10.16,
+        "rms": 0.04633277153950471,
+        "peak": 0.4097900390625
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-05",
+      "repeat": 1,
+      "text": "You can use an umbrella or a raincoat to stay dry. A hat might also help keep the rain off your head. These items will protect you while you walk home.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-05-1.wav",
+      "audioSha256": "922de67205f92d7114d0f4d89fc63c0329774f6ad45a4cdbd20db8eefcb8a303",
+      "audioTranscript": " You can use an umbrella or a raincoat to stay dry. A hat might also help keep the rain off your head. These items will protect you while you walk home.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 157280,
+        "seconds": 9.83,
+        "rms": 0.04729903101595471,
+        "peak": 0.69024658203125
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-06",
+      "repeat": 1,
+      "text": "Nora started with three pencils and gave away one, so she has two left.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-06-1.wav",
+      "audioSha256": "25cce15ea859017fd580ff6ea6bb32a448f9ba727ce2b3e685ec91fba5be9a21",
+      "audioTranscript": " Nora started with three pencils and gave away one, so she has two left.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 77520,
+        "seconds": 4.845,
+        "rms": 0.048912194907790287,
+        "peak": 0.362274169921875
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-09",
+      "repeat": 1,
+      "text": "That sounds like a great plan for your holiday. You might see many animals and have a memorable experience. Don't forget to relax after your journey there.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-09-1.wav",
+      "audioSha256": "9d4a151a82ce62b5c731e67dca12d48d85fc0912513e14beff69cc5f12e5986c",
+      "audioTranscript": " That sounds like a great plan for your holiday. You might see many animals and have a memorable experience. Don't forget to relax after your journey there.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 155920,
+        "seconds": 9.745,
+        "rms": 0.048521045521159746,
+        "peak": 0.45135498046875
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-08",
+      "repeat": 1,
+      "text": "You used to use a bike, but now you use a bus.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-08-1.wav",
+      "audioSha256": "61349f9a4aa2304611b017b807b6fd632b72707997ebb27d3ffed572615c9c83",
+      "audioTranscript": " You used to use a bike, but now you use a bus.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 53040,
+        "seconds": 3.315,
+        "rms": 0.048515371382838145,
+        "peak": 0.286102294921875
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-04",
+      "repeat": 1,
+      "text": "First, cut the bread into two slices. Then put the cheese on one slice. Finally, close it gently.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-04-1.wav",
+      "audioSha256": "9b75455a5589a2db93a51a550516562bf1287b6221dd283b481fca961c0c570c",
+      "audioTranscript": " First, cut the bread in two. Two slices. Then put the cheese on one slice. Finally, close it gently.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 123840,
+        "seconds": 7.74,
+        "rms": 0.048903164511207006,
+        "peak": 0.451568603515625
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-12",
+      "repeat": 1,
+      "text": "I cannot check your pronunciation because I only receive written text and do not hear sounds. Please write the word again if you want me to confirm its spelling or meaning.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-12-1.wav",
+      "audioSha256": "681a34fb48efcd867d3f8b1494c73321702b83829fe68e47034c73d5abacddbf",
+      "audioTranscript": " I cannot check your pronunciation because I only receive written text and do not hear sounds. Please write the word again if you want me to confirm its spelling or meaning.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 165040,
+        "seconds": 10.315,
+        "rms": 0.04938176701073348,
+        "peak": 0.4520263671875
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-07",
+      "repeat": 1,
+      "text": "I do not know the colour of his shoes.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-07-1.wav",
+      "audioSha256": "ae6131838ae5ac3611e8b4354134698ab0d6eba1d35bb9a00c4114c194181cb6",
+      "audioTranscript": " I do not know the color of his shoes.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 48160,
+        "seconds": 3.01,
+        "rms": 0.04985035162220859,
+        "peak": 0.46685791015625
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-02",
+      "repeat": 1,
+      "text": "A duck swims well in water, while a cat runs fast on land. A duck lays eggs, but a cat gives birth to baby cats.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-02-1.wav",
+      "audioSha256": "c19856dc31f2975172a296d2018c1c2de9c8dc74a70d24d67523b47926dc808a",
+      "audioTranscript": " A duck swims well in water, while a cat runs fast on land. A duck lays eggs, but a cat gives birth to baby cats.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 126560,
+        "seconds": 7.91,
+        "rms": 0.0465790519627763,
+        "peak": 0.3662109375
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-10",
+      "repeat": 1,
+      "text": "A piano makes music. It plays many songs. People like listening to it.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-10-1.wav",
+      "audioSha256": "85e3f38529c7e60add841681f92694997434ee4d4ba9401d63ff852f2f995fa6",
+      "audioTranscript": " A piano makes music. It plays many songs. People like listening to it.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 83760,
+        "seconds": 5.235,
+        "rms": 0.04832332308028264,
+        "peak": 0.3760986328125
+      }
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-11",
+      "repeat": 1,
+      "text": "Cherry 的意思是“樱桃”。 The cherry is red and sweet.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-11-1.wav",
+      "audioSha256": "537f6466b43d2dd938d2c3c8dd5f52362c17afd34c53c1870341222005f2adf4",
+      "audioTranscript": " Cherry. The cherry is red and sweet.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 96400,
+        "seconds": 6.025,
+        "rms": 0.04715872795830493,
+        "peak": 0.35382080078125
+      },
+      "forcedChineseTranscript": "cherry的意思是樱桃the cherry is red and sweet"
+    },
+    {
+      "model": "qwen3.5:4b",
+      "id": "q35-03",
+      "repeat": 1,
+      "text": "Would you like to draw with me?",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-4b/q35-03-1.wav",
+      "audioSha256": "7f648fb6f83f2d08bcb985de96579bbb035a190685406525ef82d5cbbecbd94d",
+      "audioTranscript": " Would you like to draw with me?",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 40720,
+        "seconds": 2.545,
+        "rms": 0.04900553579924357,
+        "peak": 0.3271484375
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-01",
+      "repeat": 1,
+      "text": "Turtles have shells because their ancestors lived on land and needed protection from predators. The shell is made of hard bone called osteoderms that cover their soft bodies. This structure helps them survive in the wild today.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-01-1.wav",
+      "audioSha256": "d68d4136b88686c6ad117d237b32b7e9a502bc97cb699ef1a78b83a4cf820945",
+      "audioTranscript": " Turtles have shells because their ancestors lived on land and needed protection from predators. The shell is made of hard bone called osteoderms that cover their soft bodies. This structure helps them survive in the wild today.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 233200,
+        "seconds": 14.575,
+        "rms": 0.046732004855335636,
+        "peak": 0.364532470703125
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-05",
+      "repeat": 1,
+      "text": "You can wear a raincoat or an umbrella to stay dry while walking home.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-05-1.wav",
+      "audioSha256": "8f312306a05f28c5e6b13f1b1d8e4c8377e63573dfed1d998859f2fec91d1aea",
+      "audioTranscript": " You can wear a raincoat or an umbrella to stay dry while walking home.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 73920,
+        "seconds": 4.62,
+        "rms": 0.04712850677013371,
+        "peak": 0.2957763671875
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-06",
+      "repeat": 1,
+      "text": "Nora has two pencils left after giving one to Leo.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-06-1.wav",
+      "audioSha256": "0de4d1b9600986052fb5a76e18ad14029e6b519b9643972448553630b2a49838",
+      "audioTranscript": " Nora has two pencils left. After giving one to Leo,",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 62480,
+        "seconds": 3.905,
+        "rms": 0.04796136547586408,
+        "peak": 0.553466796875
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-09",
+      "repeat": 1,
+      "text": "You can visit the zoo on Sunday. It is a good day for animals and fun activities. Do you like animals or prefer other places to see them?",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-09-1.wav",
+      "audioSha256": "a5b616296b8db69aea1bbe9cb6f63c0f2aeeb0ecd9684044d6741a4691a5240f",
+      "audioTranscript": " You can visit the zoo on Sunday. It is a good day for animals and fun activities. Do you like animals or prefer other places to see them?",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 153280,
+        "seconds": 9.58,
+        "rms": 0.04869172783937105,
+        "peak": 0.51531982421875
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-08",
+      "repeat": 1,
+      "text": "You use your feet, hands, legs, and mouth to go to school.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-08-1.wav",
+      "audioSha256": "6d9130fec5916cd5e75bad0daef8ada0ef3f10cf4c3639c29eac3a07926825a4",
+      "audioTranscript": " You use your feet, hands, legs, and mouth to go to school.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 67200,
+        "seconds": 4.2,
+        "rms": 0.04824862841411217,
+        "peak": 0.329437255859375
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-04",
+      "repeat": 1,
+      "text": "You need to get the bread and cheese ready first. Then you can put them together on your plate. This is the very first step for making food.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-04-1.wav",
+      "audioSha256": "cd55fa0fa576a0b5da40161743629597f4a5f7501032fa0330191eeb5f219e4a",
+      "audioTranscript": " You need to get the bread and cheese ready first. Then you can put them together on your plate. This is the very first step for making food.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 138800,
+        "seconds": 8.675,
+        "rms": 0.04893794446743779,
+        "peak": 0.35394287109375
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-12",
+      "repeat": 1,
+      "text": "I am an AI with no human voice or ears to hear your speech. I cannot judge how you sound, but I can tell you that the English word for a rabbit is 兔子 in Chinese. Your question was translated correctly as it stands.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-12-1.wav",
+      "audioSha256": "26d338d0bfa4429cc0a1cb7148d23592e2670d06db7cc1b5b5cef89c50dfa366",
+      "audioTranscript": " I am an AI with no human. Voice or ears to hear your speech. I cannot judge how you sound, but I can tell you that the English word for a rabbit is 鱼子 In Chinese, your question was translated correctly as it stands.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 258640,
+        "seconds": 16.165,
+        "rms": 0.046923555932030236,
+        "peak": 0.457061767578125
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-07",
+      "repeat": 1,
+      "text": "Ben 有红色的风筝。 我不知道他鞋子的颜色。",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-07-1.wav",
+      "audioSha256": "d179f36ff7ad4c55da2d50b8abf3e0ec0dbbef6c5d87c92f65771b5f681144d3",
+      "audioTranscript": "Ben",
+      "transcriptLanguage": "zh",
+      "signal": {
+        "frames": 118320,
+        "seconds": 7.395,
+        "rms": 0.058711022437530555,
+        "peak": 0.485992431640625
+      },
+      "forcedChineseTranscript": "Ben"
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-02",
+      "repeat": 1,
+      "text": "Ducks have feathers and swim in water, while cats have fur and hunt on land. Both animals are mammals that eat food to stay healthy.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-02-1.wav",
+      "audioSha256": "0987b159ba47eb17514e005e415f3d9b726dd88dadc812a829e0cf3e297af2f0",
+      "audioTranscript": " Ducks have feathers and swim in water, while cats have fur and hunt on land. Both animals are mammals that eat food to stay healthy.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 135760,
+        "seconds": 8.485,
+        "rms": 0.04782286533469275,
+        "peak": 0.3692626953125
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-10",
+      "repeat": 1,
+      "text": "Pianos make music with keys.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-10-1.wav",
+      "audioSha256": "34be2474b75b5b1de3e6f3d345134ed13a705691eca6bd071ddf39d8f11fa3bb",
+      "audioTranscript": " Pianos make music with keys.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 34320,
+        "seconds": 2.145,
+        "rms": 0.04925457323241825,
+        "peak": 0.326629638671875
+      }
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-11",
+      "repeat": 1,
+      "text": "樱桃的意思是“樱桃”。 One English sentence is: I like eating cherries every day.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-11-1.wav",
+      "audioSha256": "58b247030845018323147afb208dc883e70fab08c4a39222b48010268395b48f",
+      "audioTranscript": " 樱桃的意思是樱桃。 One English sentence is, I like eating cherries every day.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 111280,
+        "seconds": 6.955,
+        "rms": 0.05017231448611332,
+        "peak": 0.5218505859375
+      },
+      "forcedChineseTranscript": "樱桃的意思是樱桃。One English sentence is, I like eating cherries every day."
+    },
+    {
+      "model": "qwen3.5:2b",
+      "id": "q35-03",
+      "repeat": 1,
+      "text": "Come over and let's draw together!",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen3.5-2b/q35-03-1.wav",
+      "audioSha256": "4fbb267f3086a0abe0e4e0c1827c3d4e1b624b4f13a459071f5666ba1ceb8665",
+      "audioTranscript": " Come over and let's draw. Together.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 44960,
+        "seconds": 2.81,
+        "rms": 0.050716517280962194,
+        "peak": 0.3436279296875
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-01",
+      "repeat": 1,
+      "text": "Turtles have shells to protect their bodies from predators.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-01-1.wav",
+      "audioSha256": "ea39c69596f8bdcb29513553a464b806cede7bb706079de2ef62b096eeb4fe38",
+      "audioTranscript": " Turtles have shells to protect. Their bodies from predators.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 64880,
+        "seconds": 4.055,
+        "rms": 0.04704495132957921,
+        "peak": 0.316986083984375
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-05",
+      "repeat": 1,
+      "text": "You can use an umbrella or a raincoat to stay dry.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-05-1.wav",
+      "audioSha256": "d20f9004af3fda3e9a9b41177f12861e0034a2595d6bc6566c047a7260094a44",
+      "audioTranscript": " You can use an umbrella or a raincoat to stay dry.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 63440,
+        "seconds": 3.965,
+        "rms": 0.0475297726771962,
+        "peak": 0.373565673828125
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-06",
+      "repeat": 1,
+      "text": "Nora now has 2 green pencils.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-06-1.wav",
+      "audioSha256": "b8342f38cf4c354972ba71dd2c820d1a206291d1a343ac113342fd25144828c9",
+      "audioTranscript": " Nora now has two green pencils.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 38160,
+        "seconds": 2.385,
+        "rms": 0.04767664374399019,
+        "peak": 0.26763916015625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-09",
+      "repeat": 1,
+      "text": "Great! You can plan to visit the zoo on Sunday.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-09-1.wav",
+      "audioSha256": "ba572e79e5d73e5fb2adce7c0bcd187dbad9197380322f6e09f6c764118f6250",
+      "audioTranscript": " Great! You can plan to visit the zoo on Sunday.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 57760,
+        "seconds": 3.61,
+        "rms": 0.04834860026680786,
+        "peak": 0.350738525390625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-08",
+      "repeat": 1,
+      "text": "You use the bus to go to school now.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-08-1.wav",
+      "audioSha256": "931b5ceb0079f0ded37fb71417020b484ab0fe4e25c4af70d5ade8bd891a80f1",
+      "audioTranscript": " You use the bus to go too. School now.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 50720,
+        "seconds": 3.17,
+        "rms": 0.049477508446565066,
+        "peak": 0.3837890625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-04",
+      "repeat": 1,
+      "text": "First, you need to get some cheese and bread. Then, spread the cheese on one slice of bread. Finally, put the other slice on top to make the sandwich.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-04-1.wav",
+      "audioSha256": "26c6888c929095234725bff614bb212af9ef00176593813f2c9c1b653a114257",
+      "audioTranscript": " First, you need to get some. Cheese and bread. Then, spread the cheese on one slice of bread. Finally, put the other slice on top to make the sandwich.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 156000,
+        "seconds": 9.75,
+        "rms": 0.049222324659184774,
+        "peak": 0.483306884765625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-12",
+      "repeat": 1,
+      "text": "I can't hear you, so I can't check your pronunciation. Try repeating it or ask a friend to listen.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-12-1.wav",
+      "audioSha256": "02f9a68377f84524b20f75e5ed75738eb172c39e1485b2b1f94f65b6711af212",
+      "audioTranscript": " I can't hear you, so I can't check your pronunciation. Try repeating it or ask a friend to listen.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 103440,
+        "seconds": 6.465,
+        "rms": 0.04770985606757841,
+        "peak": 0.640106201171875
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-07",
+      "repeat": 1,
+      "text": "His shoes are not mentioned, so I don't know the color.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-07-1.wav",
+      "audioSha256": "cf2ea5410a91138691255b02379deb9d2cf5c28d0c3c9a043cf8e8aed58e8e8d",
+      "audioTranscript": " His shoes are not mentioned, so I don't know the color.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 56960,
+        "seconds": 3.56,
+        "rms": 0.04646429215405149,
+        "peak": 0.39031982421875
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-02",
+      "repeat": 1,
+      "text": "A duck can swim and has webbed feet, while a cat is a carnivorous predator.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-02-1.wav",
+      "audioSha256": "9f2ea5eeb3df91ab900c0a3df125f8579f5cf985cdaabfa290f165e8282f3f35",
+      "audioTranscript": " A duck can swim and has webbed feet, while a cat is a carnivorous predator.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 78880,
+        "seconds": 4.93,
+        "rms": 0.04749988475307229,
+        "peak": 0.3521728515625
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-10",
+      "repeat": 1,
+      "text": "A piano can play music.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-10-1.wav",
+      "audioSha256": "f0b3fd2d6db57b45da9205550427af915f91857bac05105ae6bedb230dbc43b8",
+      "audioTranscript": " A piano can play music.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 30080,
+        "seconds": 1.88,
+        "rms": 0.04713597032529611,
+        "peak": 0.33978271484375
+      }
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-11",
+      "repeat": 1,
+      "text": "cherry 的意思是“樱桃”。 这里有一个用 cherry 构成的句子：The cherry on top of the cake is the whipped cream.",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-11-1.wav",
+      "audioSha256": "e64c0a5f24f17b83805ebb74b0bd34c15b1d690e715cc6655002b7d05a27f490",
+      "audioTranscript": " Cherry. 得意思是樱桃。 这里有一个用。 Cherry. 勾成的句子。 The cherry on top of the cake is the whipped cream.",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 221920,
+        "seconds": 13.87,
+        "rms": 0.05064902845181205,
+        "peak": 0.497711181640625
+      },
+      "forcedChineseTranscript": "cherrycherrythe cherry on top of the cake is the whipped cream"
+    },
+    {
+      "model": "qwen2.5:3b",
+      "id": "q35-03",
+      "repeat": 1,
+      "text": "Why not draw together and share your creative ideas?",
+      "output": ".local/qwen35-comparison/frozen-workspace/.local/qwen35-comparison/qwen2.5-3b/q35-03-1.wav",
+      "audioSha256": "ed086ca52d0bb5f4e2482ef0cf27f6e334dc2e65c4374b59f3ac1f8bccefbc96",
+      "audioTranscript": " Why not draw together and share your creative ideas?",
+      "transcriptLanguage": "en",
+      "signal": {
+        "frames": 59760,
+        "seconds": 3.735,
+        "rms": 0.04606119539755051,
+        "peak": 0.3255615234375
+      }
+    }
+  ]
+}

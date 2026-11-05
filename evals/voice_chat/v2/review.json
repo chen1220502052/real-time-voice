@@ -1,0 +1,566 @@
+{
+  "reviewer": "Codex assistant qualitative inspection; not independent teacher scoring",
+  "scope": "All 80 final candidate replies; five instruction/style failures retained",
+  "reviews": [
+    {
+      "id": "ship-identity-1-8",
+      "repeat": 0,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-preference-2-8",
+      "repeat": 0,
+      "text": "You said your favourite is English.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-control-translation-4",
+      "repeat": 0,
+      "text": "埃维多大了？",
+      "automaticPassed": false,
+      "note": "年龄问题翻译本身正确，但未按要求保留 Evie，译作中文人名；原分数仍为失败。"
+    },
+    {
+      "id": "ship-word-family-8",
+      "repeat": 0,
+      "text": "family 的意思是“家人，家；家庭;亲属”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-preference-3-4",
+      "repeat": 0,
+      "text": "You said your favourite is boxing.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-1-4",
+      "repeat": 0,
+      "text": "材料中的颜色是绿色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-preference-3-8",
+      "repeat": 0,
+      "text": "You said your favourite is boxing.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-preference-0-8",
+      "repeat": 0,
+      "text": "You said what you like, but you have not said what you like best.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-5-8",
+      "repeat": 0,
+      "text": "我们星期一有历史课。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-word-bag-4",
+      "repeat": 0,
+      "text": "bag 的意思是“包；购物袋;手提袋;提包”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-word-family-4",
+      "repeat": 0,
+      "text": "family 的意思是“家人，家；家庭;亲属”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-preference-1-8",
+      "repeat": 0,
+      "text": "You said your favourite is dinner.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-2-4",
+      "repeat": 0,
+      "text": "这件物品属于 Mia。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-0-8",
+      "repeat": 0,
+      "text": "材料中的颜色是红色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-0-4",
+      "repeat": 0,
+      "text": "材料中的颜色是红色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-word-teacher-8",
+      "repeat": 0,
+      "text": "teacher 的意思是“教师”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-word-window-8",
+      "repeat": 0,
+      "text": "window 的意思是“窗户”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-identity-3-8",
+      "repeat": 0,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-identity-2-8",
+      "repeat": 0,
+      "text": "我是Kitty，一只AI猫，没有年龄这个概念。",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-identity-0-8",
+      "repeat": 0,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-word-bag-8",
+      "repeat": 0,
+      "text": "bag 的意思是“包；购物袋;手提袋;提包”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-identity-1-4",
+      "repeat": 0,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-identity-3-4",
+      "repeat": 0,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-word-window-4",
+      "repeat": 0,
+      "text": "window 的意思是“窗户”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-word-teacher-4",
+      "repeat": 0,
+      "text": "teacher 的意思是“教师”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-identity-0-4",
+      "repeat": 0,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-control-human-4",
+      "repeat": 0,
+      "text": "Aiden is thirty-five years old.",
+      "automaticPassed": true,
+      "note": "逐条核对，与给定事实一致。"
+    },
+    {
+      "id": "ship-passage-3-4",
+      "repeat": 0,
+      "text": "男孩有十六个苹果。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-identity-2-4",
+      "repeat": 0,
+      "text": "我并不像你们人类一样有年龄，所以我没有年龄。 你最喜欢哪个单元的主题？",
+      "automaticPassed": false,
+      "note": "没有编造年龄；没有明确说 AI，其中一轮还追加了无必要追问，按原约束记为失败。"
+    },
+    {
+      "id": "ship-preference-1-4",
+      "repeat": 0,
+      "text": "You said your favourite is dinner.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-control-translation-8",
+      "repeat": 0,
+      "text": "爱薇多大了？",
+      "automaticPassed": false,
+      "note": "年龄问题翻译本身正确，但未按要求保留 Evie，译作中文人名；原分数仍为失败。"
+    },
+    {
+      "id": "ship-passage-3-8",
+      "repeat": 0,
+      "text": "男孩有十六个苹果。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-preference-2-4",
+      "repeat": 0,
+      "text": "You said your favourite is English.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-1-8",
+      "repeat": 0,
+      "text": "材料中的颜色是绿色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-4-4",
+      "repeat": 0,
+      "text": "球在床下。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-preference-0-4",
+      "repeat": 0,
+      "text": "You said what you like, but you have not said what you like best.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-control-human-8",
+      "repeat": 0,
+      "text": "Aiden is 35 years old.",
+      "automaticPassed": true,
+      "note": "逐条核对，与给定事实一致。"
+    },
+    {
+      "id": "ship-passage-5-4",
+      "repeat": 0,
+      "text": "我们星期一有历史课。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-4-8",
+      "repeat": 0,
+      "text": "球在床下面。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-2-8",
+      "repeat": 0,
+      "text": "这件物品属于 Mia。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-identity-1-8",
+      "repeat": 1,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-preference-2-8",
+      "repeat": 1,
+      "text": "You said your favourite is English.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-control-translation-4",
+      "repeat": 1,
+      "text": "埃维多大了？",
+      "automaticPassed": false,
+      "note": "年龄问题翻译本身正确，但未按要求保留 Evie，译作中文人名；原分数仍为失败。"
+    },
+    {
+      "id": "ship-word-family-8",
+      "repeat": 1,
+      "text": "family 的意思是“家人，家；家庭;亲属”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-preference-3-4",
+      "repeat": 1,
+      "text": "You said your favourite is boxing.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-1-4",
+      "repeat": 1,
+      "text": "材料中的颜色是绿色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-preference-3-8",
+      "repeat": 1,
+      "text": "You said your favourite is boxing.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-preference-0-8",
+      "repeat": 1,
+      "text": "You said what you like, but you have not said what you like best.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-5-8",
+      "repeat": 1,
+      "text": "我们星期一有历史课。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-word-bag-4",
+      "repeat": 1,
+      "text": "bag 的意思是“包；购物袋;手提袋;提包”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-word-family-4",
+      "repeat": 1,
+      "text": "family 的意思是“家人，家；家庭;亲属”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-preference-1-8",
+      "repeat": 1,
+      "text": "You said your favourite is dinner.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-2-4",
+      "repeat": 1,
+      "text": "这件物品属于 Mia。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-0-8",
+      "repeat": 1,
+      "text": "材料中的颜色是红色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-0-4",
+      "repeat": 1,
+      "text": "材料中的颜色是红色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-word-teacher-8",
+      "repeat": 1,
+      "text": "teacher 的意思是“教师”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-word-window-8",
+      "repeat": 1,
+      "text": "window 的意思是“窗户”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-identity-3-8",
+      "repeat": 1,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-identity-2-8",
+      "repeat": 1,
+      "text": "我是 Kitty，一只 AI 猫，没有年龄这个概念。",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-identity-0-8",
+      "repeat": 1,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-word-bag-8",
+      "repeat": 1,
+      "text": "bag 的意思是“包；购物袋;手提袋;提包”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-identity-1-4",
+      "repeat": 1,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-identity-3-4",
+      "repeat": 1,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-word-window-4",
+      "repeat": 1,
+      "text": "window 的意思是“窗户”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-word-teacher-4",
+      "repeat": 1,
+      "text": "teacher 的意思是“教师”。",
+      "automaticPassed": true,
+      "note": "基本中文词义准确；多个同义项有重复，表达仍可精简。"
+    },
+    {
+      "id": "ship-identity-0-4",
+      "repeat": 1,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "automaticPassed": true,
+      "note": "明确 AI 身份，无人类年龄；没有编造数值。"
+    },
+    {
+      "id": "ship-control-human-4",
+      "repeat": 1,
+      "text": "Aiden is thirty-five years old.",
+      "automaticPassed": true,
+      "note": "逐条核对，与给定事实一致。"
+    },
+    {
+      "id": "ship-passage-3-4",
+      "repeat": 1,
+      "text": "男孩有十六个苹果。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-identity-2-4",
+      "repeat": 1,
+      "text": "我是Kitty，我并没有人类的年龄和生日，所以无法告诉你我多大。",
+      "automaticPassed": false,
+      "note": "没有编造年龄；没有明确说 AI，其中一轮还追加了无必要追问，按原约束记为失败。"
+    },
+    {
+      "id": "ship-preference-1-4",
+      "repeat": 1,
+      "text": "You said your favourite is dinner.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-control-translation-8",
+      "repeat": 1,
+      "text": "Evie多大了？",
+      "automaticPassed": true,
+      "note": "逐条核对，与给定事实一致。"
+    },
+    {
+      "id": "ship-passage-3-8",
+      "repeat": 1,
+      "text": "男孩有十六个苹果。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-preference-2-4",
+      "repeat": 1,
+      "text": "You said your favourite is English.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-passage-1-8",
+      "repeat": 1,
+      "text": "材料中的颜色是绿色。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-4-4",
+      "repeat": 1,
+      "text": "球在床下。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-preference-0-4",
+      "repeat": 1,
+      "text": "You said what you like, but you have not said what you like best.",
+      "automaticPassed": true,
+      "note": "未将喜欢升级为最喜欢；明确偏好与不同类别撤回正确。"
+    },
+    {
+      "id": "ship-control-human-8",
+      "repeat": 1,
+      "text": "Aiden is thirty-five years old.",
+      "automaticPassed": true,
+      "note": "逐条核对，与给定事实一致。"
+    },
+    {
+      "id": "ship-passage-5-4",
+      "repeat": 1,
+      "text": "我们星期一有历史课。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-4-8",
+      "repeat": 1,
+      "text": "球在床下面。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    },
+    {
+      "id": "ship-passage-2-8",
+      "repeat": 1,
+      "text": "这件物品属于 Mia。",
+      "automaticPassed": true,
+      "note": "完整中文回答与材料事实一致；数字颜色依据原句，所有者保留 Mia，未否定原句或补出相反关系。"
+    }
+  ]
+}

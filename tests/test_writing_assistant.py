@@ -178,6 +178,27 @@ def test_server_requires_glossary_and_bounds_failed_rewrites():
     assert len(agent.calls) == 3
 
 
+def test_local_glossary_repair_preserves_a_valid_edited_passage_and_strict_audit(monkeypatch):
+    monkeypatch.setenv('LLM_PROVIDER','ollama')
+    from backend import natural_writing
+    calls = []
+    async def translate(title, body, words):
+        calls.append((title,body,words))
+        return {'quantum':'量子'}
+    monkeypatch.setattr(natural_writing,'translate_glossary',translate)
+    draft = essay(title='Quantum',text=' '.join(['I play']*20))
+    service = WritingAssistant(agent_factory=lambda *args:Agent([draft,draft]))
+    result = asyncio.run(service.generate(scope(),'写作文',40,False))
+    assert result['essay'] == draft['essay'] and result['audit']['passed']
+    assert result['glossary'] == {'quantum':'量子'} and result['attempts'] == 2
+    assert calls[0][2] == ['quantum']
+    calls.clear()
+    strict = WritingAssistant(agent_factory=lambda *args:Agent([draft]*3))
+    with pytest.raises(WritingError):
+        asyncio.run(strict.generate(scope(),'写作文',40,True))
+    assert calls == []  # Translation must never override failed vocabulary checks.
+
+
 def test_bad_json_repaired_and_glossary_is_chinese():
     agent = Agent(['not json', essay(title='Quantum', text=' '.join(['I play'] * 20), glossary={'quantum':'量子'})])
     service = WritingAssistant(agent_factory=lambda *args: agent)

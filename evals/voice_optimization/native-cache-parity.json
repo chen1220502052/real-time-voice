@@ -1,0 +1,35 @@
+{
+  "method": "Original Ollama rendered prompts; same native model and greedy decoding with cached and uncached full-prompt states. This is cache implementation evidence, not quality equivalence to GGUF.",
+  "sourceLogSha256": "27df0294eb36c858955f81799e2b8c37ad55598688f253b236a9fc976728497a",
+  "rows": [
+    {
+      "id": 2,
+      "done": true,
+      "parity": true,
+      "tokensCompared": 32,
+      "cachedPrefixTokens": 429
+    },
+    {
+      "id": 3,
+      "done": true,
+      "parity": true,
+      "tokensCompared": 18,
+      "cachedPrefixTokens": 439
+    },
+    {
+      "id": 4,
+      "done": true,
+      "parity": true,
+      "tokensCompared": 32,
+      "cachedPrefixTokens": 439
+    },
+    {
+      "id": 5,
+      "done": true,
+      "parity": true,
+      "tokensCompared": 16,
+      "cachedPrefixTokens": 375
+    }
+  ],
+  "schemaSmoke": "Constrained definition/examples JSON generated and parsed in the same log. Subsequent business-language rejection is retained as failure in final run."
+}

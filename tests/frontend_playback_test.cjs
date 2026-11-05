@@ -10,6 +10,7 @@ const context = vm.createContext({
   scheduledSources: new Set(), completionTimers: new Set(), interruptedReplyIds: new Set(),
   playbackFrames: [], playbackStarted: false, nextPlaybackTime: 0, activePlaybackReply: "r1",
   conversationRecorder: null, latencyTrace: {stop(){}}, outputObserver: null,
+  firstPlaybackGuard:{reset(){}},firstPlaybackGuardTimer:undefined,
   emitClientEvent: (type, component, data) => sent.push({type, ...data}),
   clearMouthSchedule() {}, updatePlaybackBuffer() {}, setMouth() {},
   setTimeout: (fn) => {timers.push(fn); return timers.length;}, clearTimeout() {},
@@ -31,6 +32,16 @@ assert.equal(sent.at(-1).type, "playback_stopped");
 const frozen = sent.at(-1).attributes.playedMs;
 run('audioContext.currentTime=10;');
 assert.equal(run('playedPosition("r1")'), frozen);
+
+// A stream completion cannot acknowledge a first packet held for resumed
+// speech. It waits for the queued packet to be scheduled and actually finish.
+sent.length=0;
+run('audioContext.currentTime=1;playbackFrames.push({replyId:"held"});');
+context.drainPlayback=()=>{context.playbackFrames.length=0;context.nextPlaybackTime=2;};
+run('finishPlayback({replyId:"held"},0);');
+assert.equal(sent.length,0);timers.at(-1)();assert.equal(sent.length,0);
+run('audioContext.currentTime=2;');timers.at(-1)();
+assert.equal(sent.at(-1).type,'playback_completed');
 
 // Wall time passing while AudioContext is suspended cannot confirm completion.
 sent.length = 0;

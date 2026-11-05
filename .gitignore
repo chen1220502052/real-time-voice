@@ -1,12 +1,14 @@
 # Local model weights and vendor checkouts are provisioned separately.
 pretrained_models/
 third_party/
+英语/
 
 # Python build and test artefacts.
 *.egg-info/
 __pycache__/
 .pytest_cache/
 *.py[cod]
+.DS_Store
 
 # Local runtime configuration.
 .env

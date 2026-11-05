@@ -1,0 +1,1414 @@
+{
+  "variant": "candidate",
+  "mode": "live",
+  "startedUtc": "2026-11-04T06:00:31Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:59:16Z",
+    "casesSha256": "8a014877957e1ef6e10c47064ac5e7dccefcac644226def232e5a4b075fef5ac",
+    "sources": {
+      "backend/voice_grounding.py": "702af34150a772ecc4df42b2eae0aa927ab2d41eaee813a4ff034898cb218117",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "08395a5dd0cf800816379e47461b91b33dbd5a6cb1932e86a7d3e76a73d3102f",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice-live-release/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      ".local/bilingual-voice-live-release/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice-live-release/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice-live-release/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice-live-release/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "harnessSha256": "006b17861c3cfd2e45022a37a10a09713c42ee921520455b824de30a22d73458",
+    "model": "qwen2.5:3b Q4_K_M",
+    "measurement": "Six fresh real-time paced speech questions + silence/noise controls, two repeats, full-chain live VAD. Earlier offline final13 corpus remains independent for the offline stages: the only subsequent product change is endpoint policy, which its offline runner does not invoke. Earlier live13 corpus promoted to development after detecting a 300ms premature endpoint. Negative/end-before-speech latencies count as failures, never a speed advantage."
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does farmer mean in Chinese? Give one English example.",
+      "asrMs": 382.37012503668666,
+      "asrDetail": {
+        "text": "What does farmer mean in Chinese? Give one English example.",
+        "requestStartedMs": 3121285074.705958,
+        "responseReadyMs": 3121285165.0846252,
+        "workerInferenceMs": 86.82,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.017,
+        "workerIpcWallMs": 89.627,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9934240825570689,
+        "engine": "parakeet",
+        "language": "en",
+        "endpointReachedMs": 3121285474.1385,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "farmer 的意思是“农民；农场主;农人”。 例如：The farmer grows vegetables in his garden.",
+      "firstAudioMs": 1189.8408331908286,
+      "totalMs": 1493.868375197053,
+      "audioSeconds": 11.57,
+      "output": ".local/bilingual-voice-live-release/candidate/b01-live-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 37.4,
+        "promptChars": 1544,
+        "systemPromptChars": 1485,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 44.28,
+        "providerHeadersMs": 361.26,
+        "providerFirstTokenMs": 361.36,
+        "modelLoadMs": 19.766,
+        "promptEvalMs": 289.864,
+        "tokenGenerationMs": 259.585,
+        "promptTokens": 650,
+        "generatedTokens": 24,
+        "firstSentenceReadyMs": 625.6,
+        "firstSentenceChars": 24,
+        "firstSpeechTextReadyMs": 625.61
+      },
+      "speech": [
+        {
+          "text": "farmer 的意思是“农民；",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 179.14,
+              "postprocess": 1.399
+            },
+            "memory": {
+              "activeBytes": 165239154,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 180.58,
+            "queueWaitMs": 0.013,
+            "startupMs": 0.004,
+            "ipcWallMs": 181.438
+          }
+        },
+        {
+          "text": "农场主;农人”。",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 105.148,
+              "postprocess": 1.44
+            },
+            "memory": {
+              "activeBytes": 165091715,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 106.61,
+            "queueWaitMs": 181.418,
+            "startupMs": 0.002,
+            "ipcWallMs": 107.135
+          }
+        },
+        {
+          "text": " 例如：The farmer grows vegetables in his garden.",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 194.182,
+              "postprocess": 1.027
+            },
+            "memory": {
+              "activeBytes": 165321162,
+              "cacheBytes": 130904656
+            },
+            "inferenceMs": 195.23,
+            "queueWaitMs": 288.282,
+            "startupMs": 0.002,
+            "ipcWallMs": 196.051
+          }
+        }
+      ],
+      "audioTranscript": "Farmer 地意思是农民。 农场住农人。 例如。 The farmer grows vegetables in his garden.",
+      "audioLanguage": "en",
+      "waveformSha256": "71259b1948953811b97c8650a69518d890f0023085abe75480bb57f8c488f463",
+      "waveformRms": 0.050763458013534546,
+      "waveformPeak": 0.48004150390625,
+      "audioTranscriptZH": "Farmer 地意思是农民。农场住农人。例如。The farmer grows vegetables in his garden.",
+      "audioTranscriptEN": "Farmer 地意思是农民。 农场住农人。 例如。 The farmer grows vegetables in his garden."
+    },
+    {
+      "id": "b02",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What is the Chinese meaning of clever? Please give two English examples.",
+      "asrMs": 409.14933336898685,
+      "asrDetail": {
+        "text": "What is the Chinese meaning of clever? Please give two English examples.",
+        "requestStartedMs": 3121290987.764916,
+        "responseReadyMs": 3121291082.859416,
+        "workerInferenceMs": 92.36,
+        "snapshotEndMediaMs": 4500,
+        "workerQueueWaitMs": 0.005,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 94.598,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9974052675180846,
+        "engine": "parakeet",
+        "language": "en",
+        "endpointReachedMs": 3121291388.801666,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4400,
+        "fedMediaMs": 4900
+      },
+      "text": "聪明的。 He is a clever boy who always gets good grades. She is very clever and solved the math problem quickly.",
+      "firstAudioMs": 1839.696666225791,
+      "totalMs": 2128.358625341207,
+      "audioSeconds": 8.785,
+      "output": ".local/bilingual-voice-live-release/candidate/b02-live-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 4.13,
+        "promptChars": 651,
+        "systemPromptChars": 398,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 268.95,
+        "providerFirstTokenMs": 269.0,
+        "modelLoadMs": 5.716,
+        "promptEvalMs": 76.907,
+        "tokenGenerationMs": 487.601,
+        "promptTokens": 141,
+        "generatedTokens": 44,
+        "exampleRepairRequests": 1,
+        "languageRepairMs": 578.22,
+        "firstSentenceReadyMs": 1322.89,
+        "firstSentenceChars": 5,
+        "firstSpeechTextReadyMs": 1322.89
+      },
+      "speech": [
+        {
+          "text": "聪明的。",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 104.866,
+              "postprocess": 1.527
+            },
+            "memory": {
+              "activeBytes": 165026130,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 106.46,
+            "queueWaitMs": 0.013,
+            "startupMs": 0.008,
+            "ipcWallMs": 107.07
+          }
+        },
+        {
+          "text": " He is a clever boy who always gets good grades.",
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 139.063,
+              "postprocess": 0.791
+            },
+            "memory": {
+              "activeBytes": 165140966,
+              "cacheBytes": 132885662
+            },
+            "inferenceMs": 139.88,
+            "queueWaitMs": 106.993,
+            "startupMs": 0.003,
+            "ipcWallMs": 140.577
+          }
+        },
+        {
+          "text": " She is very clever and solved the math problem quickly.",
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 146.156,
+              "postprocess": 0.775
+            },
+            "memory": {
+              "activeBytes": 165173762,
+              "cacheBytes": 131950792
+            },
+            "inferenceMs": 146.95,
+            "queueWaitMs": 247.116,
+            "startupMs": 0.002,
+            "ipcWallMs": 147.561
+          }
+        }
+      ],
+      "audioTranscript": "He is a clever boy who always gets good grades. She is very clever and solved the math problem quickly.",
+      "audioLanguage": "en",
+      "waveformSha256": "9e6788adc1fd4868af9586b9c5b54fa8d02542ae98e91f5c85c1194e2dd2badf",
+      "waveformRms": 0.04932851344347,
+      "waveformPeak": 0.354949951171875,
+      "audioTranscriptZH": "聰明的他是个晓得好男孩她是很晓得的而且解决了数据的问题",
+      "audioTranscriptEN": "He is a clever boy who always gets good grades. She is very clever and solved the math problem quickly."
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "能用中文告诉我你的生日吗?",
+      "asrMs": 562.3940420337021,
+      "asrDetail": {
+        "text": "能用中文告诉我你的生日吗?",
+        "requestStartedMs": 3121295711.5775003,
+        "responseReadyMs": 3121296234.080833,
+        "workerInferenceMs": 521.33,
+        "snapshotEndMediaMs": 2700,
+        "workerQueueWaitMs": 0.002,
+        "workerStartupMs": 0.003,
+        "workerIpcWallMs": 522.305,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8350781745255704,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121296111.40225,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2600,
+        "fedMediaMs": 3100
+      },
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 699.6360002085567,
+      "totalMs": 1038.0076672881842,
+      "audioSeconds": 11.28,
+      "output": ".local/bilingual-voice-live-release/candidate/b03-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 1.47
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 134.215,
+              "postprocess": 0.825
+            },
+            "memory": {
+              "activeBytes": 165124414,
+              "cacheBytes": 128574654
+            },
+            "inferenceMs": 135.06,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 135.619
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 195.932,
+              "postprocess": 1.641
+            },
+            "memory": {
+              "activeBytes": 165337394,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 197.59,
+            "queueWaitMs": 135.623,
+            "startupMs": 0.002,
+            "ipcWallMs": 198.459
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 137.568,
+              "postprocess": 1.205
+            },
+            "memory": {
+              "activeBytes": 165173710,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 138.79,
+            "queueWaitMs": 334.105,
+            "startupMs": 0.002,
+            "ipcWallMs": 139.396
+          }
+        }
+      ],
+      "audioTranscript": "我是 Kitty你这是猫没有人类的年龄或生日",
+      "audioLanguage": "zh",
+      "waveformSha256": "bfc99d9eeec9b7677e4fb647ffedf994db34295d0a6b7e7cb04f43152100b332",
+      "waveformRms": 0.04834038019180298,
+      "waveformPeak": 0.396331787109375
+    },
+    {
+      "id": "b04",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "我最喜欢什么动物?请用中文回答",
+      "asrMs": 608.7082917802036,
+      "asrDetail": {
+        "text": "我最喜欢什么动物?请用中文回答",
+        "requestStartedMs": 3121300213.611791,
+        "responseReadyMs": 3121300762.248666,
+        "workerInferenceMs": 545.68,
+        "snapshotEndMediaMs": 3600,
+        "workerQueueWaitMs": 0.009,
+        "workerStartupMs": 0.02,
+        "workerIpcWallMs": 547.952,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8307758376916383,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121300612.6321254,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3500,
+        "fedMediaMs": 4000
+      },
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "firstAudioMs": 723.6623750068247,
+      "totalMs": 873.770291917026,
+      "audioSeconds": 6.365,
+      "output": ".local/bilingual-voice-live-release/candidate/b04-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 1.22
+      },
+      "speech": [
+        {
+          "text": "你只说过喜欢，",
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 111.611,
+              "postprocess": 1.391
+            },
+            "memory": {
+              "activeBytes": 165091735,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 113.02,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 113.585
+          }
+        },
+        {
+          "text": "还没有明确说最喜欢什么。",
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 147.48,
+              "postprocess": 1.47
+            },
+            "memory": {
+              "activeBytes": 165190122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 148.96,
+            "queueWaitMs": 113.587,
+            "startupMs": 0.002,
+            "ipcWallMs": 149.646
+          }
+        }
+      ],
+      "audioTranscript": "你只说过喜欢还没有明确说最喜欢什么",
+      "audioLanguage": "zh",
+      "waveformSha256": "5d0fbe35a16ad4b500558cb744efa8d37d9ae0eaa0f71931706deb400b48c28f",
+      "waveformRms": 0.05876493081450462,
+      "waveformPeak": 0.442108154296875
+    },
+    {
+      "id": "b05",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "英语单词是什么意思?请用中文回答",
+      "asrMs": 594.7183328680694,
+      "asrDetail": {
+        "text": "英语单词是什么意思?请用中文回答",
+        "requestStartedMs": 3121305431.284666,
+        "responseReadyMs": 3121306002.6531253,
+        "workerInferenceMs": 567.87,
+        "snapshotEndMediaMs": 4500,
+        "workerQueueWaitMs": 0.01,
+        "workerStartupMs": 0.014,
+        "workerIpcWallMs": 570.613,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8158169122217179,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121305830.465916,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4400,
+        "fedMediaMs": 4900
+      },
+      "text": "英语单词的意思需要根据具体的单词来解释，你有具体的单词需要了解它的意思吗？",
+      "firstAudioMs": 1199.757541064173,
+      "totalMs": 1383.2709998823702,
+      "audioSeconds": 10.14,
+      "output": ".local/bilingual-voice-live-release/candidate/b05-live-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.04,
+        "promptChars": 1608,
+        "systemPromptChars": 1592,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 136.98,
+        "providerFirstTokenMs": 137.03,
+        "modelLoadMs": 16.58,
+        "promptEvalMs": 107.487,
+        "tokenGenerationMs": 234.287,
+        "promptTokens": 658,
+        "generatedTokens": 21,
+        "firstSentenceReadyMs": 372.45,
+        "firstSentenceChars": 38,
+        "firstSpeechTextReadyMs": 372.46
+      },
+      "speech": [
+        {
+          "text": "英语单词的意思需要根据具体的单词来解释，",
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 229.619,
+              "postprocess": 1.533
+            },
+            "memory": {
+              "activeBytes": 165370426,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 231.18,
+            "queueWaitMs": 0.011,
+            "startupMs": 0.011,
+            "ipcWallMs": 232.276
+          }
+        },
+        {
+          "text": "你有具体的单词需要了解它的意思吗？",
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 179.204,
+              "postprocess": 1.402
+            },
+            "memory": {
+              "activeBytes": 165288474,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 180.63,
+            "queueWaitMs": 232.18,
+            "startupMs": 0.002,
+            "ipcWallMs": 181.434
+          }
+        }
+      ],
+      "audioTranscript": "英语单词的意思需要根据具体的单词来解释你有具体的单词需要了解它的意思吗?",
+      "audioLanguage": "zh",
+      "waveformSha256": "62b41de110e80c09c5367b7c681d67339fb3d79d1c7885009325f76249a8f86b",
+      "waveformRms": 0.06658119708299637,
+      "waveformPeak": 0.47943115234375
+    },
+    {
+      "id": "b06",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释的意思,再给一个英语例句。",
+      "asrMs": 732.5730407610536,
+      "asrDetail": {
+        "text": "请用中文解释的意思,再给一个英语例句。",
+        "requestStartedMs": 3121311593.714375,
+        "responseReadyMs": 3121312167.368291,
+        "workerInferenceMs": 570.73,
+        "snapshotEndMediaMs": 4800,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 573.125,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8971027447606312,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121311894.176958,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 9
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4700,
+        "fedMediaMs": 5200
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 891.9985825195909,
+      "totalMs": 1053.3679155632854,
+      "audioSeconds": 7.985,
+      "output": ".local/bilingual-voice-live-release/candidate/b06-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "detail": {
+            "id": 16,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 156.974,
+              "postprocess": 1.536
+            },
+            "memory": {
+              "activeBytes": 165222898,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 158.52,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 159.247
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "detail": {
+            "id": 17,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 157.501,
+              "postprocess": 1.761
+            },
+            "memory": {
+              "activeBytes": 165239278,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.28,
+            "queueWaitMs": 159.251,
+            "startupMs": 0.002,
+            "ipcWallMs": 159.995
+          }
+        }
+      ],
+      "audioTranscript": "我没有听清要解释的英语单词请把单词再说一遍或发文字",
+      "audioLanguage": "zh",
+      "waveformSha256": "da1a62bc078c1ef8934229ccb306daa6aae749054fccb56abcf2ca7b0396553d",
+      "waveformRms": 0.0632232278585434,
+      "waveformPeak": 0.471282958984375
+    },
+    {
+      "id": "silence",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1301.4684161171317,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.106250077486,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.2000417113304,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "silence",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.5387497618794,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释的意思,再给一个英语例句。",
+      "asrMs": 730.052915867418,
+      "asrDetail": {
+        "text": "请用中文解释的意思,再给一个英语例句。",
+        "requestStartedMs": 3121334516.403541,
+        "responseReadyMs": 3121335087.449666,
+        "workerInferenceMs": 568.48,
+        "snapshotEndMediaMs": 4800,
+        "workerQueueWaitMs": 0.005,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 570.285,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8971027447606312,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121334816.802458,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 9
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4700,
+        "fedMediaMs": 5200
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 889.3663329072297,
+      "totalMs": 1050.2111660316586,
+      "audioSeconds": 7.985,
+      "output": ".local/bilingual-voice-live-release/candidate/b06-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.03
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "detail": {
+            "id": 18,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 156.625,
+              "postprocess": 1.626
+            },
+            "memory": {
+              "activeBytes": 165222898,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 158.27,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 159.12
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "detail": {
+            "id": 19,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 158.054,
+              "postprocess": 1.51
+            },
+            "memory": {
+              "activeBytes": 165239278,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.58,
+            "queueWaitMs": 159.124,
+            "startupMs": 0.002,
+            "ipcWallMs": 160.365
+          }
+        }
+      ],
+      "audioTranscript": "我没有听清要解释的英语单词请把单词再说一遍或发文字",
+      "audioLanguage": "zh",
+      "waveformSha256": "0345a7f28db6d9ac6dbefe7197feffa110020d9388feed2da04bb59225142227",
+      "waveformRms": 0.06316958367824554,
+      "waveformPeak": 0.46563720703125
+    },
+    {
+      "id": "b05",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "英语单词是什么意思?请用中文回答",
+      "asrMs": 587.8563332371414,
+      "asrDetail": {
+        "text": "英语单词是什么意思?请用中文回答",
+        "requestStartedMs": 3121339811.302166,
+        "responseReadyMs": 3121340375.7978754,
+        "workerInferenceMs": 560.44,
+        "snapshotEndMediaMs": 4500,
+        "workerQueueWaitMs": 0.008,
+        "workerStartupMs": 0.016,
+        "workerIpcWallMs": 563.567,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8158169122217179,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121340210.4329996,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4400,
+        "fedMediaMs": 4900
+      },
+      "text": "英语单词的意思需要根据具体的单词来解释，你有具体的单词需要了解它的意思吗？",
+      "firstAudioMs": 1091.0550830885768,
+      "totalMs": 1273.4273332171142,
+      "audioSeconds": 10.14,
+      "output": ".local/bilingual-voice-live-release/candidate/b05-live-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.54,
+        "promptChars": 1608,
+        "systemPromptChars": 1592,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 0.95,
+        "providerHeadersMs": 48.36,
+        "providerFirstTokenMs": 48.42,
+        "modelLoadMs": 12.399,
+        "promptEvalMs": 24.361,
+        "tokenGenerationMs": 220.362,
+        "promptTokens": 658,
+        "generatedTokens": 21,
+        "firstSentenceReadyMs": 269.59,
+        "firstSentenceChars": 38,
+        "firstSpeechTextReadyMs": 269.6
+      },
+      "speech": [
+        {
+          "text": "英语单词的意思需要根据具体的单词来解释，",
+          "detail": {
+            "id": 20,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 230.738,
+              "postprocess": 1.616
+            },
+            "memory": {
+              "activeBytes": 165370426,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 232.38,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 233.404
+          }
+        },
+        {
+          "text": "你有具体的单词需要了解它的意思吗？",
+          "detail": {
+            "id": 21,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 179.431,
+              "postprocess": 1.491
+            },
+            "memory": {
+              "activeBytes": 165288474,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 180.94,
+            "queueWaitMs": 233.376,
+            "startupMs": 0.002,
+            "ipcWallMs": 181.843
+          }
+        }
+      ],
+      "audioTranscript": "英语单词的意思需要根据具体的单词来解释你有具体的单词需要了解它的意思吗?",
+      "audioLanguage": "zh",
+      "waveformSha256": "5b38404c5df91cb16dc16e899f6b83901dfb5dcff54b1344bc250e52f15607a6",
+      "waveformRms": 0.06658782064914703,
+      "waveformPeak": 0.48883056640625
+    },
+    {
+      "id": "b04",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "我最喜欢什么动物?请用中文回答",
+      "asrMs": 611.2160417251289,
+      "asrDetail": {
+        "text": "我最喜欢什么动物?请用中文回答",
+        "requestStartedMs": 3121344564.8971252,
+        "responseReadyMs": 3121345116.429708,
+        "workerInferenceMs": 548.91,
+        "snapshotEndMediaMs": 3600,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.019,
+        "workerIpcWallMs": 550.901,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8307758376916383,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121344964.079833,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3500,
+        "fedMediaMs": 4000
+      },
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "firstAudioMs": 728.0745417810977,
+      "totalMs": 878.3211670815945,
+      "audioSeconds": 6.365,
+      "output": ".local/bilingual-voice-live-release/candidate/b04-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "你只说过喜欢，",
+          "detail": {
+            "id": 22,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 114.572,
+              "postprocess": 1.466
+            },
+            "memory": {
+              "activeBytes": 165091735,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 116.06,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 116.638
+          }
+        },
+        {
+          "text": "还没有明确说最喜欢什么。",
+          "detail": {
+            "id": 23,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 147.125,
+              "postprocess": 1.436
+            },
+            "memory": {
+              "activeBytes": 165190122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 148.57,
+            "queueWaitMs": 116.643,
+            "startupMs": 0.002,
+            "ipcWallMs": 149.215
+          }
+        }
+      ],
+      "audioTranscript": "你只说过喜欢还没有明确说最喜欢什么",
+      "audioLanguage": "zh",
+      "waveformSha256": "83e2641cf07149f985978507dc753044747578167110b9c52095977a68968db7",
+      "waveformRms": 0.058791808784008026,
+      "waveformPeak": 0.43597412109375
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "能用中文告诉我你的生日吗?",
+      "asrMs": 555.1614169962704,
+      "asrDetail": {
+        "text": "能用中文告诉我你的生日吗?",
+        "requestStartedMs": 3121347986.768958,
+        "responseReadyMs": 3121348501.935958,
+        "workerInferenceMs": 513.96,
+        "snapshotEndMediaMs": 2700,
+        "workerQueueWaitMs": 0.003,
+        "workerStartupMs": 0.005,
+        "workerIpcWallMs": 514.953,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8350781745255704,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3121348386.45575,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2600,
+        "fedMediaMs": 3100
+      },
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 690.4124170541763,
+      "totalMs": 1026.3909590430558,
+      "audioSeconds": 11.28,
+      "output": ".local/bilingual-voice-live-release/candidate/b03-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "detail": {
+            "id": 24,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 133.495,
+              "postprocess": 0.86
+            },
+            "memory": {
+              "activeBytes": 165124402,
+              "cacheBytes": 134051968
+            },
+            "inferenceMs": 134.47,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 135.032
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "detail": {
+            "id": 25,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 194.839,
+              "postprocess": 1.667
+            },
+            "memory": {
+              "activeBytes": 165353790,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 196.52,
+            "queueWaitMs": 135.048,
+            "startupMs": 0.003,
+            "ipcWallMs": 197.275
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "detail": {
+            "id": 26,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 136.249,
+              "postprocess": 1.339
+            },
+            "memory": {
+              "activeBytes": 165190094,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 137.6,
+            "queueWaitMs": 332.348,
+            "startupMs": 0.002,
+            "ipcWallMs": 138.206
+          }
+        }
+      ],
+      "audioTranscript": "我是 Kitty你这是猫没有人类的年龄或生日",
+      "audioLanguage": "zh",
+      "waveformSha256": "6eb7c6dfae5fad51568cdfa9a267cb0020159cfbce46241c4e07b36d5ad16482",
+      "waveformRms": 0.04837901517748833,
+      "waveformPeak": 0.38043212890625
+    },
+    {
+      "id": "b02",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What is the Chinese meaning of clever? Please give two English examples.",
+      "asrMs": 409.0913343243301,
+      "asrDetail": {
+        "text": "What is the Chinese meaning of clever? Please give two English examples.",
+        "requestStartedMs": 3121353375.712666,
+        "responseReadyMs": 3121353471.056541,
+        "workerInferenceMs": 91.59,
+        "snapshotEndMediaMs": 4500,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.019,
+        "workerIpcWallMs": 94.564,
+        "workerMemory": {
+          "activeBytes": 2480047474,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9974052675180846,
+        "engine": "parakeet",
+        "language": "en",
+        "endpointReachedMs": 3121353776.46975,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4400,
+        "fedMediaMs": 4900
+      },
+      "text": "聪明的。 He is a clever boy who always gets good grades in school. She is very clever and figured out the puzzle quickly.",
+      "firstAudioMs": 1606.9088345393538,
+      "totalMs": 1903.7319174967706,
+      "audioSeconds": 9.07,
+      "output": ".local/bilingual-voice-live-release/candidate/b02-live-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 3.51,
+        "promptChars": 651,
+        "systemPromptChars": 398,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 115.67,
+        "providerFirstTokenMs": 115.73,
+        "modelLoadMs": 5.416,
+        "promptEvalMs": 12.579,
+        "tokenGenerationMs": 505.354,
+        "promptTokens": 141,
+        "generatedTokens": 46,
+        "exampleRepairRequests": 1,
+        "languageRepairMs": 527.91,
+        "firstSentenceReadyMs": 1087.95,
+        "firstSentenceChars": 5,
+        "firstSpeechTextReadyMs": 1087.95
+      },
+      "speech": [
+        {
+          "text": "聪明的。",
+          "detail": {
+            "id": 27,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 107.298,
+              "postprocess": 1.313
+            },
+            "memory": {
+              "activeBytes": 165026130,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 108.65,
+            "queueWaitMs": 0.008,
+            "startupMs": 0.007,
+            "ipcWallMs": 109.278
+          }
+        },
+        {
+          "text": " He is a clever boy who always gets good grades in school.",
+          "detail": {
+            "id": 28,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 153.919,
+              "postprocess": 0.921
+            },
+            "memory": {
+              "activeBytes": 165190154,
+              "cacheBytes": 130187386
+            },
+            "inferenceMs": 154.86,
+            "queueWaitMs": 109.202,
+            "startupMs": 0.024,
+            "ipcWallMs": 155.621
+          }
+        },
+        {
+          "text": " She is very clever and figured out the puzzle quickly.",
+          "detail": {
+            "id": 29,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 139.328,
+              "postprocess": 0.767
+            },
+            "memory": {
+              "activeBytes": 165140990,
+              "cacheBytes": 128461292
+            },
+            "inferenceMs": 140.11,
+            "queueWaitMs": 264.49,
+            "startupMs": 0.002,
+            "ipcWallMs": 140.732
+          }
+        }
+      ],
+      "audioTranscript": "He is a clever boy who always gets good grades in school. She is very clever and figured out the puzzle quickly.",
+      "audioLanguage": "en",
+      "waveformSha256": "19478ad12f6fa7bc2d8617c6d4ce66ce277ac669d074750a4250115017c7f5a4",
+      "waveformRms": 0.04906097799539566,
+      "waveformPeak": 0.42974853515625,
+      "audioTranscriptZH": "聰明的他是一位素晴的男生他一直得到好高等級的學校她是非常素晴他就很快解決了這個問題",
+      "audioTranscriptEN": "He is a clever boy who always gets good grades in school. She is very clever and figured out the puzzle quickly."
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does farmer mean in Chinese? Give one English example.",
+      "asrMs": 381.3928752206266,
+      "asrDetail": {
+        "text": "What does farmer mean in Chinese? Give one English example.",
+        "requestStartedMs": 3121358974.814083,
+        "responseReadyMs": 3121359062.935291,
+        "workerInferenceMs": 85.78,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 87.669,
+        "workerMemory": {
+          "activeBytes": 2499805656,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9934240825570689,
+        "engine": "parakeet",
+        "language": "en",
+        "endpointReachedMs": 3121359373.64575,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "farmer 的意思是“农民；农场主;农人”。 例如：The farmer grows crops in his field.",
+      "firstAudioMs": 1099.347083363682,
+      "totalMs": 1386.5888752043247,
+      "audioSeconds": 11.145,
+      "output": ".local/bilingual-voice-live-release/candidate/b01-live-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 3.25,
+        "promptChars": 1544,
+        "systemPromptChars": 1485,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 270.08,
+        "providerFirstTokenMs": 270.15,
+        "modelLoadMs": 12.156,
+        "promptEvalMs": 239.078,
+        "tokenGenerationMs": 258.935,
+        "promptTokens": 650,
+        "generatedTokens": 24,
+        "firstSentenceReadyMs": 529.6,
+        "firstSentenceChars": 24,
+        "firstSpeechTextReadyMs": 529.61
+      },
+      "speech": [
+        {
+          "text": "farmer 的意思是“农民；",
+          "detail": {
+            "id": 30,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 185.661,
+              "postprocess": 1.454
+            },
+            "memory": {
+              "activeBytes": 165239154,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 187.14,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.006,
+            "ipcWallMs": 187.912
+          }
+        },
+        {
+          "text": "农场主;农人”。",
+          "detail": {
+            "id": 31,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 102.03,
+              "postprocess": 1.236
+            },
+            "memory": {
+              "activeBytes": 165091715,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 103.28,
+            "queueWaitMs": 187.879,
+            "startupMs": 0.002,
+            "ipcWallMs": 103.756
+          }
+        },
+        {
+          "text": " 例如：The farmer grows crops in his field.",
+          "detail": {
+            "id": 32,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 181.176,
+              "postprocess": 1.007
+            },
+            "memory": {
+              "activeBytes": 165304754,
+              "cacheBytes": 131369734
+            },
+            "inferenceMs": 182.2,
+            "queueWaitMs": 291.395,
+            "startupMs": 0.002,
+            "ipcWallMs": 182.947
+          }
+        }
+      ],
+      "audioTranscript": "farmer the",
+      "audioLanguage": "en",
+      "waveformSha256": "dc0c84998e59432e1b085b222e58c9ee531e900fb7d244e09e14265b4e1f9e35",
+      "waveformRms": 0.05120358243584633,
+      "waveformPeak": 0.47808837890625,
+      "audioTranscriptZH": "Farmer 地意思是农民 农场主农人例如The farmer grows crops in his field.",
+      "audioTranscriptEN": "farmer the"
+    }
+  ],
+  "workerWarmupMs": 6712.977583985776,
+  "completedUtc": "2026-11-04T06:01:57Z"
+}

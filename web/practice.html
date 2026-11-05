@@ -3,25 +3,25 @@
 <head>
   <meta name="theme-color" content="#fffef9">
   <script src="/account-context.js"></script>
-  <script src="/account.js"></script>
+  <script src="/account.js?v=20261105-ui-review"></script>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>猫猫英语 · 教材同步练习</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/practice.css?v=20261024-practice-cards-r1">
-  <script src="/course-selection.js?v=20261024-grade3-r1" defer></script><script src="/sentence-player.js?v=20261024-grade3-r1" defer></script><script src="/shadow-content.js?v=20261024-grade3-r1" defer></script><script src="/practice.js?v=20261024-practice-cards-r1" defer></script>
-  <link rel="stylesheet" href="/theme.css?v=20261023-2">
+  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/practice.css?v=20261103-local-audio">
+  <script src="/course-selection.js?v=20261105-ui-review" defer></script><script src="/sentence-player.js?v=20261024-grade3-r1" defer></script><script src="/shadow-content.js?v=20261103-local-audio" defer></script><script src="/practice.js?v=20261105-ui-review" defer></script>
+  <link rel="stylesheet" href="/theme.css?v=20261105-ui-review">
 </head>
 <body>
   <header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true"><img class="brand-mascot" src="/kitty.svg" alt=""></span><div><p class="eyebrow">KITTY ENGLISH</p><h1>教材同步练习</h1></div></div><nav class="practice-navigation"><a class="return-home" href="/">← 返回学习首页</a></nav></header>
   <main class="practice-layout">
-    <section class="panel chapter-picker" aria-label="选择教材章节">
+    <section id="chapterPicker" class="panel chapter-picker" aria-label="选择教材章节">
       <details id="coursePickerDetails" open><summary id="coursePickerSummary">换教材、选单元</summary>
       <h2>跟着课本，一课一练</h2>
       <p>选好教材，跟读、听力和口语都从这一课开始。</p>
-      <label>教材版本<select id="publisher"></select></label>
-      <label>年级<select id="grade"></select></label>
-      <label>册次与版次<select id="edition"></select></label>
-      <label>章节<select id="chapter"></select></label></details>
+      <label>教材版本<select id="publisher" disabled></select></label>
+      <label>年级<select id="grade" disabled></select></label>
+      <label>册次与版次<select id="edition" disabled></select></label>
+      <label>章节<select id="chapter" disabled></select></label></details>
     </section>
     <section class="panel practice-panel" aria-label="练习内容">
       <p class="section-kicker">听一听 · 跟着说 · 自己表达</p><h2 id="chapterTitle">正在加载教材…</h2>
@@ -50,13 +50,16 @@
       </section>
       <div id="audioPractice" hidden>
 
-        <section class="audio-player-card" aria-label="教材录音播放器">
-        <label id="recordingPicker">教材录音<select id="recording"></select></label>
+        <section class="audio-player-card" aria-label="听读音频播放器">
+        <label id="recordingPicker">选择听读内容<select id="recording"></select></label>
         <div id="audioPlaybackControls" class="audio-playback-row">
           <audio id="referenceAudio" controls controlslist="nodownload noplaybackrate" preload="metadata" aria-label="教材示范录音"></audio>
           <label class="speed-control" title="播放倍速"><span class="sr-only">播放倍速</span><select id="speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option></select></label>
         </div>
         <p id="audioNotice" class="practice-notice"></p>
+        </section>
+        <section id="alignedReader" class="aligned-reader" hidden aria-label="逐句听读">
+          <h3>逐句听读</h3><p id="alignedNotice" class="muted"></p><a id="referencePageLink" hidden target="_blank" rel="noopener">查看课本页面</a> <a id="subtitleLink" hidden download="听读字幕.vtt">下载字幕</a><div id="alignedSentences"></div>
         </section>
         <section id="textbookReader" class="textbook-reader" hidden aria-label="课文与对话教材原图">
           <h3>看图，点一句，跟着说</h3>
@@ -65,7 +68,7 @@
           <div id="textbookPages" class="textbook-pages"></div>
         </section>
       </div>
-      <section id="listeningTask" hidden><h3>先听，再表达</h3><p>听录音后，用自己的话记录人物、地点或主要内容，再对照课本核对。</p><label>我听到的内容<textarea id="listeningNotes" rows="3" placeholder="可以用中文或英文记录。"></textarea></label><p class="muted">本页不提供未经核对的教材答案。笔记仅留在当前页面。</p></section>
+      <section id="listeningTask" hidden><h3>先听，再表达</h3><p>听录音后，用自己的话记录人物、地点或主要内容，再对照课本核对。</p><label>我听到的内容<textarea id="listeningNotes" rows="3" placeholder="可以用中文或英文记录。"></textarea></label><p class="muted">笔记只留在当前页面，切换练习或离开前请先复制。</p></section>
       <section id="speakingTask" hidden><h3>本章主题口语</h3><p id="speakingQuestion" lang="en"></p><ul id="speakingTasks"></ul><details><summary>看看示范表达</summary><p id="speakingExample" lang="en"></p><p class="muted">原创主题补充，不是教材原文或录音转写。</p></details></section>
       <section id="writingTask" hidden><iframe id="writingFrame" title="本单元作文：写作、点评与范文" loading="lazy" style="width:100%;height:1350px;border:0;border-radius:18px"></iframe><p><a id="writingFullLink" href="/writing.html" target="_blank" rel="noopener">在完整写作页面打开 →</a></p></section>
       <details id="wordSupplement"><summary>本章单词</summary><p id="wordSourceNotice" class="muted">原创主题词补充，不是教材完整词表或逐词点读。</p><div id="words" class="word-grid"></div></details>

@@ -1,0 +1,655 @@
+[
+  {
+    "id": "q35-01",
+    "split": "heldout",
+    "grade": 4,
+    "category": "reason",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why do turtles have shells?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "protect|safe|protection"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明壳保护身体，不编造脱壳习性。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-02",
+    "split": "heldout",
+    "grade": 6,
+    "category": "compare",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is a duck different from a cat? Tell me one thing about each animal."
+      }
+    ],
+    "checks": {
+      "required": [
+        "duck",
+        "cat",
+        "swim|feather|quack|fly|webbed|wing|beak",
+        "fur|meow|paw|claw|climb|cannot|can.t"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "同时回答鸭与猫各一特点。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-03",
+    "split": "heldout",
+    "grade": 8,
+    "category": "invitation",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me one short English sentence inviting a friend to draw with me."
+      }
+    ],
+    "checks": {
+      "required": [
+        "draw",
+        "let.s|would you|do you|can you|come|want"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    },
+    "rubric": "提供可直接使用的完整邀请句。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-04",
+    "split": "heldout",
+    "grade": 4,
+    "category": "sequence",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to make a cheese sandwich. What should I do first?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "bread|wash|hand"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "给一个合理且简单的起始步骤。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-05",
+    "split": "heldout",
+    "grade": 6,
+    "category": "advice",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "It is raining and I need to walk home. What can I use to stay dry?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "umbrella|raincoat"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "建议雨伞或雨衣。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-06",
+    "split": "heldout",
+    "grade": 8,
+    "category": "passage",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nora has three green pencils. She gives one pencil to Leo. How many pencils does Nora have now?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "\\btwo\\b|\\b2\\b"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Nora 剩两支，不错误归给 Leo。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-07",
+    "split": "heldout",
+    "grade": 4,
+    "category": "missing_fact",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ben has a red kite. What colour are his shoes?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "don.t know|do not know|not know|doesn.t say|not (?:given|mentioned)|no information|not (?:told|said)"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "明确鞋子颜色未知，不拿风筝颜色代替。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-08",
+    "split": "heldout",
+    "grade": 6,
+    "category": "recall",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I used to ride a bike to school."
+      },
+      {
+        "role": "assistant",
+        "content": "I see."
+      },
+      {
+        "role": "user",
+        "content": "Now I take the bus every school day."
+      },
+      {
+        "role": "assistant",
+        "content": "You take the bus now."
+      },
+      {
+        "role": "user",
+        "content": "What do I use to go to school?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "bus"
+      ],
+      "forbidden": [
+        "\\bbike\\b"
+      ],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "按更新的交通方式回答 bus。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-09",
+    "split": "heldout",
+    "grade": 8,
+    "category": "followup",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to visit the zoo."
+      },
+      {
+        "role": "assistant",
+        "content": "When will you go?"
+      },
+      {
+        "role": "user",
+        "content": "On Sunday."
+      }
+    ],
+    "checks": {
+      "required": [
+        "sunday"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "承接去动物园的时间，不误解为问题。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-10",
+    "split": "heldout",
+    "grade": 4,
+    "category": "topic_switch",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me about turtles."
+      },
+      {
+        "role": "assistant",
+        "content": "Turtles have shells."
+      },
+      {
+        "role": "user",
+        "content": "Stop talking about animals. Tell me one thing a piano can do."
+      }
+    ],
+    "checks": {
+      "required": [
+        "music|sound|note|play|song|tune"
+      ],
+      "forbidden": [
+        "\\bturtle\\b|\\bcat\\b|\\bdog\\b"
+      ],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "切换到钢琴，不继续讲动物。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-11",
+    "split": "heldout",
+    "grade": 6,
+    "category": "compound_meaning",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does cherry mean in Chinese? Give one English sentence using cherry."
+      }
+    ],
+    "checks": {
+      "required": [
+        "樱桃",
+        "\\bcherr(?:y|ies)\\b"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "樱桃加完整英文例句；只有释义不够。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-12",
+    "split": "heldout",
+    "grade": 8,
+    "category": "pronunciation_boundary",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Was my pronunciation of rabbit correct?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "can.t|cannot|can not|only.*(?:text|transcript)|don.t.*hear|do not.*hear"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明收到的是转写，不能评价发音，不假装听出音准。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-13",
+    "split": "heldout",
+    "grade": 4,
+    "category": "chinese_context",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用中文解释：The box is light. 这里的 light 是什么意思？"
+      }
+    ],
+    "checks": {
+      "required": [
+        "轻"
+      ],
+      "forbidden": [
+        "光线|灯光"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "这里 light 是轻，不是光。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-14",
+    "split": "heldout",
+    "grade": 6,
+    "category": "chinese_context",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用中文解释：Turn right at the bank. 这里的 right 是什么意思？"
+      }
+    ],
+    "checks": {
+      "required": [
+        "右"
+      ],
+      "forbidden": [
+        "正确的方向是对"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "right 是右边／向右。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-15",
+    "split": "heldout",
+    "grade": 8,
+    "category": "translate",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把问题 \"Where is your school?\" 翻译成中文，不要回答这个问题。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "学校",
+        "哪|哪里|哪儿"
+      ],
+      "forbidden": [
+        "我是.*AI|我没有学校"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "翻译问句，不回答 AI 无学校。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-16",
+    "split": "heldout",
+    "grade": 4,
+    "category": "translation_identity",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把 \"How old is your brother?\" 翻译成中文，不要回答。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "哥哥|弟弟|兄弟",
+        "几岁|多大"
+      ],
+      "forbidden": [
+        "没有兄弟|我是.*AI"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "翻译人物年龄问句，不做身份回答。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-17",
+    "split": "heldout",
+    "grade": 6,
+    "category": "identity",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用中文回答：你今年几岁？不要编造年龄。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "AI|人工智能",
+        "没有|不.*年龄"
+      ],
+      "forbidden": [
+        "我今年.*岁|我.*[一二三四五六七八九十0-9]+岁"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "AI 没有人类年龄。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-18",
+    "split": "heldout",
+    "grade": 8,
+    "category": "preference",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "我喜欢草莓。"
+      },
+      {
+        "role": "assistant",
+        "content": "你喜欢草莓。"
+      },
+      {
+        "role": "user",
+        "content": "请用中文回答：我最喜欢哪种水果？"
+      }
+    ],
+    "checks": {
+      "required": [
+        "不知道|不清楚|没.*(?:说|告诉)|还没|不能确定"
+      ],
+      "forbidden": [
+        "最喜欢.*草莓|草莓.*最喜欢"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "喜欢草莓不能推出最喜欢草莓。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-19",
+    "split": "heldout",
+    "grade": 4,
+    "category": "chinese_passage",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Olive 的杯子是黄色的，Felix 的杯子是白色的。请用中文回答 Olive 的杯子是什么颜色，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Olive",
+        "黄"
+      ],
+      "forbidden": [
+        "Olive.*白色"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Olive 黄色，保留名字。",
+    "audioTest": true
+  },
+  {
+    "id": "q35-20",
+    "split": "heldout",
+    "grade": 6,
+    "category": "negation",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Ruby 没有狗，她有一只猫。请用中文回答 Ruby 有什么宠物，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Ruby",
+        "猫"
+      ],
+      "forbidden": [
+        "Ruby有.*狗|宠物是狗"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Ruby 有猫，否定信息不能丢。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-21",
+    "split": "heldout",
+    "grade": 8,
+    "category": "compound_request",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用中文说出苹果和香蕉的英文，并各给一个简单英文例句。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "\\bapple\\b",
+        "\\bbanana\\b"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "两个单词及各自完整例句，不能只列单词。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-22",
+    "split": "heldout",
+    "grade": 4,
+    "category": "fiction",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "故事里的 AI 机器人叫 Toby，今年七岁。请只用中文回答：故事里的 Toby 几岁？"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Toby",
+        "七|7"
+      ],
+      "forbidden": [
+        "没有年龄"
+      ],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Toby 是有设定的故事人物，不能套用 Kitty 的身份规则。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-23",
+    "split": "heldout",
+    "grade": 6,
+    "category": "missing_fact",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Iris 周六去了公园。请用中文回答 Iris 是和谁一起去的？保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "没.*(?:说|提|告诉)|不知道|不清楚|未.*(?:说明|提及)|无法确定"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "同行者未给出，不能编造朋友家人。",
+    "audioTest": false
+  },
+  {
+    "id": "q35-24",
+    "split": "heldout",
+    "grade": 8,
+    "category": "comparison",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用中文简单说明 big 和 small 的区别，并各给一个英语短句。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "大",
+        "小",
+        "\\bbig\\b",
+        "\\bsmall\\b"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "释义及两个完整英文例句。",
+    "audioTest": false
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "id": "c01",
+    "language": "mixed",
+    "text": "英语里面cat这个词的中文含义是什么？",
+    "target": "cat",
+    "rubric": "猫，正确中文播报。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c01.wav",
+    "sha256": "a1c17fc7688f580b56ea2a283b9210a40e935cdbb6cc88c99660a93ede30aad8",
+    "seconds": 3.559125,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c02",
+    "language": "mixed",
+    "text": "请告诉我cup的中文意思。",
+    "target": "cup",
+    "rubric": "杯子，不混淆 cap。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c02.wav",
+    "sha256": "ff11e452b8113e505c51d2ee6ed3e0090181e53c6642a64be561da7948a35159",
+    "seconds": 2.4130625,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c03",
+    "language": "mixed",
+    "text": "用中文解释red，再给一个英语例句。",
+    "target": "red",
+    "rubric": "红色及包含 red 的完整英语例句。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c03.wav",
+    "sha256": "3c209881ada3210169433657440b7e0192efdce7fbfe77b7f6a52fa446f47a57",
+    "seconds": 3.2038125,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c04",
+    "language": "mixed",
+    "text": "wet中文是什么意思？请回答中文。",
+    "target": "wet",
+    "rubric": "湿的，不混淆 white 等词。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c04.wav",
+    "sha256": "fb507b33dccaf771f76e07e810b8758b2670bf8ae0fc2925cea4d49a64995a81",
+    "seconds": 3.462875,
+    "voices": [
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c05",
+    "language": "mixed",
+    "text": "请用中文解释sad，并给两个英语例句。",
+    "target": "sad",
+    "rubric": "悲伤或难过，两个包含 sad 的完整英语例句。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c05.wav",
+    "sha256": "b7da608c751bcd0d9509911e68954a804a5fee21c70141c3e79466295ed00cd0",
+    "seconds": 3.6786875,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c06",
+    "language": "mixed",
+    "text": "英语单词map中文怎么说？",
+    "target": "map",
+    "rubric": "地图，正确中文播报。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c06.wav",
+    "sha256": "63d36b7e22e25b009d89fc1bffcd968615d02ec878c4f86425a0ea8db1a42e41",
+    "seconds": 2.5525625,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c07",
+    "language": "mixed",
+    "text": "computer这个词用中文怎么说？",
+    "target": "computer",
+    "rubric": "电脑或计算机。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c07.wav",
+    "sha256": "8817a0db7363277ba7138a4a84ce0a7b9cebede05b9adc84d4fa8f3a9d24a303",
+    "seconds": 2.55525,
+    "voices": [
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c08",
+    "language": "mixed",
+    "text": "butterfly是什么意思？请用中文解释。",
+    "target": "butterfly",
+    "rubric": "蝴蝶，不能只翻译 fly。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c08.wav",
+    "sha256": "42f1b7c54d50c3e5cdf87192a7059cd1eb4d8f89149f48a9a372b009c8cdf5aa",
+    "seconds": 3.6054375,
+    "voices": [
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c09",
+    "language": "mixed",
+    "text": "请解释breakfast的中文意思，然后给一个英语例句。",
+    "target": "breakfast",
+    "rubric": "早餐及包含 breakfast 的完整英语例句。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c09.wav",
+    "sha256": "d792228c618d1b9eb645c6faa4857f66bc58bbb336b6af87c88e7fb37f79f95b",
+    "seconds": 4.7021875,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c10",
+    "language": "mixed",
+    "text": "英语vegetable的中文意思是什么？",
+    "target": "vegetable",
+    "rubric": "蔬菜。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c10.wav",
+    "sha256": "4a9d9f8fa0dc8a313030023106944d28b814169a55cc5b0879c6ecfbc4649099",
+    "seconds": 2.818125,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c11",
+    "language": "mixed",
+    "text": "请用中文解释different并给一个英语例句。",
+    "target": "different",
+    "rubric": "不同的及包含 different 的完整英语例句。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c11.wav",
+    "sha256": "e2e6a281b0ebc710ab21eed3507708199356c267f23bcd77e6032e1850adcaba",
+    "seconds": 3.6146875,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c12",
+    "language": "mixed",
+    "text": "请用中文解释comfortable，再用英语写两个例句。",
+    "target": "comfortable",
+    "rubric": "舒服或舒适，两个包含 comfortable 的完整英语例句。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c12.wav",
+    "sha256": "96beb1b0514adfcbeaa7713ecdeca4f40ed6ffd122a60197f52a0c4990fb3e76",
+    "seconds": 4.308125,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c13",
+    "language": "zh",
+    "text": "请用中文回答，你的真实生日是什么时候？",
+    "target": "",
+    "rubric": "AI 身份，没有人类生日，不编造日期。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c13.wav",
+    "sha256": "c213c5a99ffaa05edd9b50dbcfe0050af240be790da1c9e32bf411b5d6d25c11",
+    "seconds": 4.024875,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c14",
+    "language": "zh",
+    "text": "我最喜欢的水果是哪一个？请用中文回答。",
+    "target": "",
+    "rubric": "只喜欢葡萄，没有明确最喜欢的水果。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我喜欢葡萄。"
+      }
+    ],
+    "audio": ".local/code-switch-eval/inputs/c14.wav",
+    "sha256": "886e192cb66ccc5144ee1b9e73da54a1066341b761f6ba11ebe58e75be3f46b1",
+    "seconds": 4.0119375,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c15",
+    "language": "zh",
+    "text": "故事里的小雨是十四岁。请用中文说她现在几岁。",
+    "target": "",
+    "rubric": "小雨十四岁，不添加另一个年龄。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c15.wav",
+    "sha256": "3e8ed41f40a32382f2f51c9c46a5c2988f5d3acfb82d31618cf630ae7c52c347",
+    "seconds": 4.7965,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "c16",
+    "language": "en",
+    "text": "What does river mean in Chinese? Give an English example.",
+    "target": "river",
+    "rubric": "河流及包含 river 的完整英语例句。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c16.wav",
+    "sha256": "54b5b137abdc500db630146e53de122202c6ff77a545610c41b0f795a9ee0041",
+    "seconds": 3.6504375,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "c17",
+    "language": "en",
+    "text": "Invite me to play tennis in one short English sentence.",
+    "target": "",
+    "rubric": "完整可用的邀请打网球的英语句子。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/c17.wav",
+    "sha256": "c93b8385e14c8fa97fb6b80b79be5ade2bfdb705fbb561d506055f21fbf7ce1e",
+    "seconds": 3.2620625,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "c18",
+    "language": "en",
+    "text": "Have I said what my favourite animal is?",
+    "target": "",
+    "rubric": "只说 enjoy dolphins，没有明确 favourite。",
+    "history": [
+      {
+        "role": "user",
+        "content": "I enjoy dolphins."
+      }
+    ],
+    "audio": ".local/code-switch-eval/inputs/c18.wav",
+    "sha256": "a416c3c6b7dc634081393070cdb31841a187f1a4a7ff1c3ac58028af03023b9b",
+    "seconds": 2.448625,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "text": "",
+    "target": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "voices": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "text": "",
+    "target": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/quiet-noise.wav",
+    "sha256": "a4aba9fa498db648ac0e2de9384deec789b3499886093623f6f5b370393132b9",
+    "seconds": 3,
+    "voices": []
+  },
+  {
+    "id": "loud-noise",
+    "language": "control",
+    "text": "",
+    "target": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/code-switch-eval/inputs/loud-noise.wav",
+    "sha256": "7a3db290fe59ceda3e17133f5e9b62a966c34ed06114c0da36fd614c50c72b1f",
+    "seconds": 3,
+    "voices": []
+  }
+]

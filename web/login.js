@@ -1,3 +1,13 @@
+function loginDestination() {
+  const next = new URLSearchParams(location.search).get('next');
+  if (!next || !next.startsWith('/') || next.startsWith('//') || /[\\\x00-\x1f]/.test(next)) return '/';
+  try {
+    const target = new URL(next, location.origin);
+    const pages = ['/', '/index.html', '/home.html', '/practice.html', '/writing.html', '/text.html', '/voice.html'];
+    return target.origin === location.origin && pages.includes(target.pathname)
+      ? target.pathname + target.search + target.hash : '/';
+  } catch { return '/'; }
+}
 let register = false;
 const form = document.getElementById('loginForm');
 const error = document.getElementById('error');
@@ -23,7 +33,7 @@ form.onsubmit = async event => {
     if (!response.ok) { error.textContent = data.message || '请求失败，请稍后重试'; return; }
     form.reset();
     try { localStorage.setItem('kitty-account-change', String(Date.now())); } catch {}
-    location.replace('/');
+    location.replace(loginDestination());
   } catch { error.textContent = '暂时无法连接，请检查网络后重试'; }
   finally { submit.disabled = false; toggle.disabled = false; }
 };

@@ -1,0 +1,1219 @@
+{
+  "version": 2,
+  "purpose": "acceptance_independent",
+  "date": "2026-11-03",
+  "cases": [
+    {
+      "id": "accept-passage-0-4",
+      "group": "passage-0",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The red pencil is beside the book.\" Where is the pencil? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "书.*旁|书.*边"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-0-8",
+      "group": "passage-0",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The red pencil is beside the book.\" Where is the pencil? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "书.*旁|书.*边"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-1-4",
+      "group": "passage-1",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"Anna has twelve ducks.\" How many ducks does Anna have? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "十二|12"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-1-8",
+      "group": "passage-1",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"Anna has twelve ducks.\" How many ducks does Anna have? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "十二|12"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-2-4",
+      "group": "passage-2",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"Our English lesson begins at nine.\" Which school subject is the lesson about? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "英语|英文"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-2-8",
+      "group": "passage-2",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"Our English lesson begins at nine.\" Which school subject is the lesson about? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "英语|英文"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-3-4",
+      "group": "passage-3",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The small box is heavy.\" What does heavy say about the box? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "重"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-3-8",
+      "group": "passage-3",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The small box is heavy.\" What does heavy say about the box? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "重"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-4-4",
+      "group": "passage-4",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The birds are in the tall tree.\" Where are the birds? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "树"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-4-8",
+      "group": "passage-4",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The birds are in the tall tree.\" Where are the birds? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "树"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-5-4",
+      "group": "passage-5",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"Tom carries a green ruler.\" What colour is the ruler? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "绿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-5-8",
+      "group": "passage-5",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"Tom carries a green ruler.\" What colour is the ruler? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "绿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-6-4",
+      "group": "passage-6",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The children eat oranges after school.\" Which fruit do the children eat? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "橙|橘"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-6-8",
+      "group": "passage-6",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The children eat oranges after school.\" Which fruit do the children eat? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "橙|橘"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-7-4",
+      "group": "passage-7",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The dog sleeps under the sofa.\" Where does the dog sleep? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "沙发.*下|下.*沙发"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-passage-7-8",
+      "group": "passage-7",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read this passage: \"The dog sleeps under the sofa.\" Where does the dog sleep? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "沙发.*下|下.*沙发"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-0-4",
+      "group": "preference-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like gardening."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-0-8",
+      "group": "preference-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like gardening."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-1-4",
+      "group": "preference-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite bird is a robin."
+        },
+        {
+          "role": "user",
+          "content": "Did I say a robin is my favourite bird?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "robin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-1-8",
+      "group": "preference-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite bird is a robin."
+        },
+        {
+          "role": "user",
+          "content": "Did I say a robin is my favourite bird?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "robin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-2-4",
+      "group": "preference-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is noodles."
+        },
+        {
+          "role": "user",
+          "content": "My favourite colour is cyan."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite colour now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "noodles"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-2-8",
+      "group": "preference-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is noodles."
+        },
+        {
+          "role": "user",
+          "content": "My favourite colour is cyan."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite colour now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "noodles"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-3-4",
+      "group": "preference-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My friend says her favourite hobby is cycling."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-preference-3-8",
+      "group": "preference-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My friend says her favourite hobby is cycling."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-0-4",
+      "group": "identity-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really a ten-year-old Kitty cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-0-8",
+      "group": "identity-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really a ten-year-old Kitty cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-1-4",
+      "group": "identity-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you at this moment?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-1-8",
+      "group": "identity-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you at this moment?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-2-4",
+      "group": "identity-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你现在多少岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-2-8",
+      "group": "identity-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你现在多少岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-3-4",
+      "group": "identity-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me your real age, not a made-up number."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-identity-3-8",
+      "group": "identity-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me your real age, not a made-up number."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-eraser-4",
+      "group": "word-eraser",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does eraser mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "橡皮"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-eraser-8",
+      "group": "word-eraser",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does eraser mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "橡皮"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-pencil-4",
+      "group": "word-pencil",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does pencil mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "铅笔"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-pencil-8",
+      "group": "word-pencil",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does pencil mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "铅笔"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-tiger-4",
+      "group": "word-tiger",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does tiger mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "虎"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-tiger-8",
+      "group": "word-tiger",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does tiger mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "虎"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-sheep-4",
+      "group": "word-sheep",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does sheep mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "羊"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-word-sheep-8",
+      "group": "word-sheep",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does sheep mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "羊"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-human-4",
+      "group": "control-human",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The grandfather in our story is seventy-five. How old is he?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "seventy.five|75"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-human-8",
+      "group": "control-human",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The grandfather in our story is seventy-five. How old is he?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "seventy.five|75"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-fiction-4",
+      "group": "control-fiction",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In a book the robot Kitty was made forty years ago. How long ago was that fictional robot made?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "forty|40"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-fiction-8",
+      "group": "control-fiction",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In a book the robot Kitty was made forty years ago. How long ago was that fictional robot made?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "forty|40"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-translation-4",
+      "group": "control-translation",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old is the girl?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "女孩.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-translation-8",
+      "group": "control-translation",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old is the girl?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "女孩.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-unknown-4",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 4,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"mivrelota\"? Please do not invent an answer."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    },
+    {
+      "id": "accept-control-unknown-8",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"mivrelota\"? Please do not invent an answer."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check meaning, requested language and unsupported facts, including the full answer after any matching word."
+    }
+  ],
+  "scope": "48 new cases after bounded language repair; text Bot, not ASR/TTS/audio.",
+  "independence": "No history overlaps with any earlier set, even excluding grade. No post-run product or rule changes."
+}

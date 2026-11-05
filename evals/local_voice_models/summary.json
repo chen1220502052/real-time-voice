@@ -1,0 +1,298 @@
+{
+  "scope": "Synthetic local comparison. Audio starts at complete input availability with known end boundary; excludes live VAD, browser, network, playback buffer. Text uses actual voice Bots with retrieval disabled and shared grounding retained. No prompt tuning.",
+  "models": {
+    "qwen2.5:3b": {
+      "variant": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 32768,
+        "embedding_length": 2048
+      },
+      "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "englishAudio": {
+        "requests": 24,
+        "completed": 24,
+        "latencyMs": {
+          "firstAudioMs": {
+            "p50": 405.77,
+            "p95": 937.51
+          },
+          "asrMs": {
+            "p50": 62.11,
+            "p95": 83.36
+          },
+          "firstAudioAfterAsrMs": {
+            "p50": 361.75,
+            "p95": 873.38
+          },
+          "totalMs": {
+            "p50": 538.74,
+            "p95": 1028.01
+          }
+        },
+        "review": {
+          "pass": 21,
+          "needs_review": 2,
+          "fail": 1
+        }
+      },
+      "modelGeneratedText": {
+        "count": 64,
+        "rulePassed": 47,
+        "errors": 2,
+        "failureCounts": {
+          "missing": 6,
+          "unrequested_question": 6,
+          "filler_start": 2,
+          "forbidden": 2,
+          "runtime_error": 2
+        },
+        "latency": {
+          "firstTextDeltaMs": {
+            "p50": 271.92,
+            "p95": 937.86
+          },
+          "totalMs": {
+            "p50": 356.91,
+            "p95": 1353.31
+          },
+          "firstAudioMs": {
+            "p50": null,
+            "p95": null
+          },
+          "asrMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstAudioAfterAsrMs": {
+            "p50": null,
+            "p95": null
+          }
+        }
+      },
+      "taskSpecificTextReview": {
+        "pass": 39,
+        "fail": 7,
+        "needs_review": 2
+      },
+      "regressionRules": {
+        "total": 80,
+        "passed": 78
+      },
+      "allTextDeliveryErrors": 2,
+      "mandarinAsrRejected": 6
+    },
+    "qwen3.5:2b": {
+      "variant": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "1.9B",
+        "quantization_level": "Q8_0",
+        "context_length": 262144,
+        "embedding_length": 2048
+      },
+      "modelDigest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+      "englishAudio": {
+        "requests": 24,
+        "completed": 24,
+        "latencyMs": {
+          "firstAudioMs": {
+            "p50": 608.79,
+            "p95": 767.67
+          },
+          "asrMs": {
+            "p50": 61.15,
+            "p95": 83.93
+          },
+          "firstAudioAfterAsrMs": {
+            "p50": 546.18,
+            "p95": 697.4
+          },
+          "totalMs": {
+            "p50": 870.96,
+            "p95": 1519.82
+          }
+        },
+        "review": {
+          "fail": 9,
+          "pass": 10,
+          "needs_review": 5
+        }
+      },
+      "modelGeneratedText": {
+        "count": 64,
+        "rulePassed": 46,
+        "errors": 4,
+        "failureCounts": {
+          "missing": 11,
+          "runtime_error": 4,
+          "unrequested_question": 5,
+          "forbidden": 1,
+          "requested_chinese_missing": 1
+        },
+        "latency": {
+          "firstTextDeltaMs": {
+            "p50": 379.85,
+            "p95": 715.59
+          },
+          "totalMs": {
+            "p50": 495.75,
+            "p95": 1194.43
+          },
+          "firstAudioMs": {
+            "p50": null,
+            "p95": null
+          },
+          "asrMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstAudioAfterAsrMs": {
+            "p50": null,
+            "p95": null
+          }
+        }
+      },
+      "taskSpecificTextReview": {
+        "pass": 30,
+        "fail": 16,
+        "needs_review": 2
+      },
+      "regressionRules": {
+        "total": 80,
+        "passed": 75
+      },
+      "allTextDeliveryErrors": 4,
+      "mandarinAsrRejected": 6
+    },
+    "qwen3.5:4b": {
+      "variant": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2560
+      },
+      "modelDigest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "englishAudio": {
+        "requests": 24,
+        "completed": 24,
+        "latencyMs": {
+          "firstAudioMs": {
+            "p50": 1078.27,
+            "p95": 1359.15
+          },
+          "asrMs": {
+            "p50": 65.39,
+            "p95": 87.54
+          },
+          "firstAudioAfterAsrMs": {
+            "p50": 998.97,
+            "p95": 1289.99
+          },
+          "totalMs": {
+            "p50": 1405.01,
+            "p95": 1925.95
+          }
+        },
+        "review": {
+          "pass": 23,
+          "fail": 1
+        }
+      },
+      "modelGeneratedText": {
+        "count": 64,
+        "rulePassed": 53,
+        "errors": 3,
+        "failureCounts": {
+          "unrequested_question": 5,
+          "missing": 2,
+          "forbidden": 2,
+          "runtime_error": 3
+        },
+        "latency": {
+          "firstTextDeltaMs": {
+            "p50": 863.07,
+            "p95": 1195.33
+          },
+          "totalMs": {
+            "p50": 964.65,
+            "p95": 1684.53
+          },
+          "firstAudioMs": {
+            "p50": null,
+            "p95": null
+          },
+          "asrMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstAudioAfterAsrMs": {
+            "p50": null,
+            "p95": null
+          }
+        }
+      },
+      "taskSpecificTextReview": {
+        "pass": 44,
+        "needs_review": 2,
+        "fail": 2
+      },
+      "regressionRules": {
+        "total": 80,
+        "passed": 79
+      },
+      "allTextDeliveryErrors": 3,
+      "mandarinAsrRejected": 6
+    }
+  },
+  "validation": {
+    "requests": 474,
+    "pairsUnique": true,
+    "modelDigestsMatchDownloadedTags": true,
+    "snapshotIntegrity": {
+      "verifiedFiles": 408,
+      "allMatched": true
+    },
+    "originalDefaultsUnchanged": true,
+    "wavFilesVerified": 72,
+    "textReviewed": 144,
+    "audioReviewed": 72,
+    "localService": {
+      "ok": true,
+      "pid": 55678,
+      "startedAt": "2026-11-03T10:47:11.396924+00:00",
+      "resources": {
+        "capacity": 1,
+        "inUse": 0
+      },
+      "capabilities": {
+        "asr": "parakeet",
+        "agent": "english_chat",
+        "tts": "kokoro",
+        "avatar": "rms-images"
+      }
+    },
+    "residentModelsAfter": [
+      {
+        "name": "qwen2.5:3b",
+        "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b"
+      }
+    ]
+  }
+}

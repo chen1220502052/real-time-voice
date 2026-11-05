@@ -1,0 +1,122 @@
+{
+  "offline": {
+    "baseline": {
+      "mainTrials": 32,
+      "taskPass": 14,
+      "mixedTrials": 24,
+      "targetsRetained": 6,
+      "wrongTargetTrials": 6,
+      "allResponsesLatency": {
+        "n": 32,
+        "p50Ms": 821.55,
+        "p95Ms": 2326.03
+      },
+      "successfulOnlyLatency": {
+        "n": 14,
+        "p50Ms": 688.63,
+        "p95Ms": 1457.57
+      },
+      "withoutModelColdLoadLatency": {
+        "n": 31,
+        "p50Ms": 757.37,
+        "p95Ms": 1853.4
+      },
+      "coldLoads": [
+        {
+          "id": "n02",
+          "repeat": 0,
+          "modelLoadMs": 10784.655,
+          "firstAudioMs": 12820.66245796159
+        }
+      ],
+      "repairs": 1,
+      "errors": 0,
+      "noiseClean": 0,
+      "windowCorrect": 0
+    },
+    "candidate": {
+      "mainTrials": 32,
+      "taskPass": 14,
+      "mixedTrials": 24,
+      "targetsRetained": 6,
+      "wrongTargetTrials": 6,
+      "allResponsesLatency": {
+        "n": 32,
+        "p50Ms": 883.06,
+        "p95Ms": 1168.54
+      },
+      "successfulOnlyLatency": {
+        "n": 14,
+        "p50Ms": 686.92,
+        "p95Ms": 944.73
+      },
+      "withoutModelColdLoadLatency": {
+        "n": 32,
+        "p50Ms": 883.06,
+        "p95Ms": 1168.54
+      },
+      "coldLoads": [],
+      "repairs": 0,
+      "errors": 0,
+      "noiseClean": 0,
+      "windowCorrect": 0
+    }
+  },
+  "live": {
+    "baseline": {
+      "mainTrials": 20,
+      "taskPass": 8,
+      "mixedTrials": 16,
+      "targetsRetained": 4,
+      "wrongTargetTrials": 2,
+      "allResponsesLatency": {
+        "n": 20,
+        "p50Ms": 1053.92,
+        "p95Ms": 1640.91
+      },
+      "successfulOnlyLatency": {
+        "n": 8,
+        "p50Ms": 914.66,
+        "p95Ms": 1096.89
+      },
+      "withoutModelColdLoadLatency": {
+        "n": 20,
+        "p50Ms": 1053.92,
+        "p95Ms": 1640.91
+      },
+      "coldLoads": [],
+      "repairs": 0,
+      "errors": 0,
+      "noiseClean": 6,
+      "windowCorrect": 0
+    },
+    "candidate": {
+      "mainTrials": 20,
+      "taskPass": 10,
+      "mixedTrials": 16,
+      "targetsRetained": 6,
+      "wrongTargetTrials": 2,
+      "allResponsesLatency": {
+        "n": 20,
+        "p50Ms": 1093.06,
+        "p95Ms": 1791.83
+      },
+      "successfulOnlyLatency": {
+        "n": 10,
+        "p50Ms": 1032.49,
+        "p95Ms": 1798.24
+      },
+      "withoutModelColdLoadLatency": {
+        "n": 20,
+        "p50Ms": 1093.06,
+        "p95Ms": 1791.83
+      },
+      "coldLoads": [],
+      "repairs": 0,
+      "errors": 0,
+      "noiseClean": 6,
+      "windowCorrect": 2
+    }
+  },
+  "decision": "Rejected as default: no offline retention gain, false insertion dance from Mandarin 单词, and unstable window recovery. Dialogue weights remain qwen2.5:3b."
+}

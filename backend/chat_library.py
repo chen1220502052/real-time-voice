@@ -143,7 +143,11 @@ class ChatLibrary:
                 if sentences_path:
                     for row in json.loads(Path(sentences_path).read_text())['sentences']:
                         chapter = library.chapters.get(row['chapterId'])
-                        if not chapter or not any(page['sha256']==row['evidenceSha256'] and row['text'] in page.get('sentences',[])
+                        # Partial resource installs may omit whole books. Do not
+                        # import their sentences into the selected curriculum.
+                        if chapter is None:
+                            continue
+                        if not any(page['sha256']==row['evidenceSha256'] and row['text'] in page.get('sentences',[])
                             for page in chapter.get('curriculum',{}).get('lessonEvidence',[])):
                             raise ValueError('Unverified textbook sentence')
                         identifier = hashlib.sha256(json.dumps(row,sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:24]
@@ -290,7 +294,7 @@ def _cached_scope(generation, chapter_id):
 
 
 def _source_revision(root, verified_path):
-    sources = [Path(root)/p for p in ['人教版/新版单元听说训练.json','科普版/单元原创补充训练.json','科普版/结构化教材词表.json','人教版/三年级单元训练.json','科普版/三年级单元训练.json']]
+    sources = [Path(root)/p for p in ['人教版/新版单元听说训练.json','科普版/单元原创补充训练.json','科普版/结构化教材词表.json','人教版/三年级单元训练.json','科普版/三年级单元训练.json','本地语音处理/lesson-audio.json']]
     sources += [DATA/'bulk-replies.json',DATA/'textbook-sentences.json',DATA/'prepared-replies.json',DATA/'textbook-replies.json',DATA/'curriculum-vocabulary.json',Path(__file__).parent/'data/writing/foundation.json']
     if verified_path:
         sources.append(Path(verified_path))

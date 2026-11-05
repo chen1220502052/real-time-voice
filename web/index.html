@@ -3,13 +3,14 @@
   <head>
   <meta name="theme-color" content="#fffef9">
   <script src="/account-context.js"></script>
-  <script src="/account.js"></script>
+  <script src="/account.js?v=20261105-ui-review"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>猫猫英语 · 口语聊天</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/style.css?v=20261021-1">
-    <link rel="stylesheet" href="/theme.css?v=20261023-course-context">
+    <link rel="stylesheet" href="/theme.css?v=20261105-ui-review">
+    <link rel="stylesheet" href="/recording-review.css?v=20261103-1">
 </head>
   <body class="voice-page">
     <header class="topbar">
@@ -19,10 +20,10 @@
       </div>
       <nav class="page-navigation" aria-label="页面导航"><a class="return-home" href="/">← 返回学习首页</a></nav>
       <div class="top-status">
-        <span id="serviceBadge" class="badge pending"><i></i>服务检查中</span>
-        <span id="connectionBadge" class="badge neutral"><i></i>未连接</span>
-        <span class="timer" id="sessionTimer">00:00</span>
-        <details class="settings"><summary>设置</summary><div><b>协议</b><span>PCM 16kHz · 100ms</span><b>播放预缓冲</b><span>3 包 / 300ms</span><b>模型配置</b><span>由启动环境变量控制</span></div></details>
+        <span id="serviceBadge" class="badge pending" data-developer-only hidden><i></i>服务检查中</span>
+        <span id="connectionBadge" class="badge neutral" data-developer-only hidden><i></i>未连接</span>
+        <span class="timer" id="sessionTimer" hidden>00:00</span>
+        <details class="settings" data-developer-only hidden><summary>调试设置</summary><div><b>协议</b><span>PCM 16kHz · 100ms</span><b>播放预缓冲</b><span>3 包 / 300ms</span><b>模型配置</b><span>由启动环境变量控制</span></div></details>
       </div>
     </header>
 
@@ -35,7 +36,7 @@
       <section class="voice-stage" aria-labelledby="avatarTitle">
         <div class="panel-heading">
           <div><p class="section-kicker">VOICE SESSION</p><h2 id="avatarTitle">和猫猫聊聊天</h2></div>
-          <span id="sessionState" class="state-pill idle">Idle</span>
+          <span id="sessionState" class="state-pill idle" data-developer-only hidden>待开始</span>
         </div>
         <div class="cat-stage">
           <div class="aurora aurora-one" aria-hidden="true"></div>
@@ -104,15 +105,16 @@
           <a class="chat-mode-link" href="/text.html">先用文字聊聊</a>
         </div>
         <p id="status" class="status">准备英语聊天</p>
-        <p id="statusHint" class="status-hint">点击开始，随时说话即可打断</p>
+        <p id="statusHint" class="status-hint">点击开始，和猫猫练习英语</p>
         <div class="primary-controls">
-          <button id="callButton" class="call-button" type="button" aria-label="开始语音通话">拨通</button>
+          <button id="callButton" class="call-button" type="button" aria-label="开始语音通话">开始对话</button>
         </div>
-        <div class="recorder-panel" id="recorderPanel">
+        <div class="recorder-panel" id="recorderPanel" data-developer-only hidden>
           <div class="recorder-head">
             <p class="section-kicker">RECORDING &amp; TAGS</p>
-            <span id="tagFeedback" class="subtle">接通后自动录音，可边聊边打点</span>
+            <span id="recordingState" role="status">尚未录音</span>
           </div>
+          <div class="recording-options"><label><input id="recordConversation" type="checkbox">录制本次对话</label><span class="recording-help">仅保存在当前页面，最长 10 分钟</span></div>
           <div class="tag-buttons">
             <button type="button" class="tag-button" data-tag="reply_delay">回复延迟大</button>
             <button type="button" class="tag-button" data-tag="false_interrupt">误打断</button>
@@ -121,14 +123,16 @@
           </div>
           <div class="recorder-export">
             <input id="tagNote" type="text" placeholder="备注（可选，随打点存入日志）" aria-label="打标备注">
-            <button id="exportRecording" type="button" class="text-button">导出录音</button>
+            <button id="exportRecording" type="button" class="text-button" disabled>下载录音包 ZIP</button>
           </div>
+          <div class="recording-actions"><button id="stopRecording" type="button" class="text-button" disabled>停止录音</button><button id="reviewRecording" type="button" class="text-button">回放与测延迟</button></div>
+          <p id="tagFeedback" class="recording-help" role="status">接通后自动录音，可边聊边打点；离开前请下载。</p>
         </div>
       </section>
 
       <section class="panel conversation-panel" aria-labelledby="conversationTitle">
         <div class="panel-heading">
-          <div><p class="section-kicker">LIVE TRANSCRIPT</p><h2 id="conversationTitle">实时字幕</h2></div><span id="messageCount" class="subtle">0 条</span>
+          <div><p class="section-kicker">LIVE TRANSCRIPT</p><h2 id="conversationTitle">实时字幕</h2></div><span id="messageCount" class="subtle" data-developer-only hidden>0 条</span>
         </div>
         <div id="conversation" class="conversation" aria-live="polite">
           <div id="emptyConversation" class="empty-state"><span class="empty-orb" aria-hidden="true"></span><b>对话会出现在这里</b><span>接通后直接开口，猫猫会实时回应你</span></div>
@@ -136,7 +140,33 @@
         <div id="partialTranscript" class="partial-transcript" hidden><span>识别中</span><p></p></div>
       </section>
 
-      <details class="panel drawer diagnostics-panel">
+      <details id="recordingReview" class="panel drawer recording-review" data-developer-only hidden>
+        <summary class="drawer-summary"><div><p class="section-kicker">RECORD &amp; REVIEW</p><h2>录音回放与延迟测量</h2></div><span class="subtle">逐轮定位 · 同场录音标注</span></summary>
+        <div class="drawer-body">
+          <p class="review-help">通话双声道可核对说完到 AI 音频渲染的间隔。要测实听延迟，请用手机录下你和电脑扬声器的声音，导入后标记两个时间点。所有音频均在本机处理。</p>
+          <div class="review-source-tools"><button id="refreshRecording" class="text-button" type="button">刷新本次录音</button><label>导入同场录音 <input id="importRoomAudio" type="file" accept="audio/*"></label></div>
+          <div class="review-toolbar"><label>回放来源 <select id="reviewSource"><option value="session">本次通话双声道</option><option value="external">导入的同场录音</option></select></label><label>波形范围 <select id="reviewZoom"><option value="0">全程</option><option value="10">10 秒</option><option value="2">2 秒</option></select></label></div>
+          <p id="reviewSourceLabel" class="review-help">左：我的声音 · 右：AI 渲染音频（不含设备出声延迟）</p>
+          <audio id="reviewAudio" controls preload="metadata"></audio>
+          <canvas id="reviewWave" role="img" aria-label="录音波形，可用下方游标定位"></canvas>
+          <div class="review-seek"><label for="reviewCursor">播放游标</label><input id="reviewCursor" type="range" min="0" max="1" step="0.001" value="0"><label><input id="reviewCursorNumber" aria-label="播放游标秒数" type="number" min="0" step="0.001" value="0"> 秒</label></div>
+          <div class="review-markers">
+            <div class="review-mark-field"><button id="mark-sourceEnd" class="text-button" type="button">标记：我说完</button><input id="sourceEnd" type="number" min="0" step="0.001" aria-label="我说完的时间"> 秒</div>
+            <div class="review-mark-field"><button id="mark-responseStart" class="text-button" type="button">标记：AI 出声</button><input id="responseStart" type="number" min="0" step="0.001" aria-label="AI 出声的时间"> 秒</div>
+            <label id="acousticOption" hidden><input id="acousticDeclaration" type="checkbox">此录音同时收到了我的声音和扬声器实际出声</label>
+            <output id="measurementResult" aria-live="polite">标记两个时间点来测量</output>
+            <label>关联轮次 <select id="measurementReply"><option value="">不关联轮次</option></select></label>
+            <button id="saveMeasurement" class="text-button" type="button" disabled>保存此条标注</button><button id="downloadMeasurements" class="text-button" type="button">下载标注 JSON</button>
+          </div>
+          <ul id="measurementList"></ul>
+          <p id="reviewRoundCount" class="review-help">录音完成后，可在下表定位每轮回复</p>
+          <div class="review-table-wrap"><table class="review-table"><thead><tr><th>轮次</th><th>停声→AI 渲染</th><th>输入尾帧→定稿</th><th>模型首文本</th><th>TTS 首包</th><th>状态</th><th>回放</th></tr></thead><tbody id="reviewRows"></tbody></table></div>
+          <p class="review-help">各列可能重叠，请勿直接相加。程序停声点使用音量阈值，和人工听到的说完位置可能不同。负间隔表示声音重叠。</p>
+          <p id="reviewFeedback" class="review-help" role="status"></p>
+        </div>
+      </details>
+
+      <details class="panel drawer diagnostics-panel" data-developer-only hidden>
         <summary class="drawer-summary">
           <div><p class="section-kicker">SYSTEM DETAILS</p><h2>通话质量与模型状态</h2></div>
           <span id="lastMessage" class="subtle">展开查看</span>
@@ -159,6 +189,9 @@
           </div>
           <div class="metric-grid">
             <div class="metric"><span>输入尾帧→定稿</span><strong id="metricAsr">—</strong></div>
+            <div class="metric"><span>ASR 请求总耗时</span><strong id="metricAsrTotal">—</strong></div>
+            <div class="metric"><span>其中与断句重叠</span><strong id="metricAsrOverlap">—</strong></div>
+            <div class="metric"><span>断句后额外等待</span><strong id="metricAsrTail">—</strong></div>
             <div class="metric"><span>Bot 首文本</span><strong id="metricLlm">—</strong></div>
             <div class="metric"><span>TTS 首包</span><strong id="metricTts">—</strong></div>
             <div class="metric"><span>停声→音频图输出（非实听）</span><strong id="metricAudio">—</strong></div>
@@ -175,7 +208,7 @@
         </div>
       </details>
 
-      <details class="panel drawer timeline-panel">
+      <details class="panel drawer timeline-panel" data-developer-only hidden>
         <summary class="drawer-summary">
           <div><p class="section-kicker">SESSION TIMELINE</p><h2>统一事件时间线</h2></div>
           <span class="subtle">点击展开</span>
@@ -192,10 +225,11 @@
         </div>
       </details>
     </main>
-    <script src="/latency.js?v=20261022-timing1"></script>
-    <script src="/recorder.js?v=20261022-timing1"></script>
+    <script src="/latency.js?v=20261103-spike-fix1"></script>
+    <script src="/recorder.js?v=20261103-record-review"></script>
+    <script src="/recording-review.js?v=20261103-1"></script>
     <script src="/connection.js?v=20261023-connect1"></script>
-    <script src="/course-selection.js"></script>
-    <script type="module" src="/app.js?v=20261023-course-context"></script>
+    <script src="/course-selection.js?v=20261105-ui-review"></script>
+<script type="module" src="/app.js?v=20261105-ui-review"></script>
   </body>
 </html>

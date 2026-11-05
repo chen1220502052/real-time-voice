@@ -387,8 +387,23 @@ audio { color-scheme: light; }
 .chat-course-context strong { color: var(--ui-ink); font-size: 15px; font-weight: 600; overflow-wrap: anywhere; }
 .chat-course-context a { color: var(--ui-primary); font-size: 12px; justify-self: start; }
 .chat-course-context a:hover { text-decoration: underline; }
-.voice-page .chat-options > [hidden] { display: none; }
+[hidden] { display: none !important; }
 @media(max-width:600px) {
   .text-page .chat-options.inherited-course { gap: 16px; }
   .text-page .inherited-course .chat-course-context { flex-basis: 100%; }
+}
+
+/* A clear empty chat and short, readable status messages. */
+.text-empty{display:flex;flex:1;min-height:180px;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:24px 12px;text-align:center;color:var(--ui-muted)}
+.text-empty img{width:80px;height:80px}
+.text-empty h2{font-size:20px;color:var(--ui-ink)}
+.text-empty p{font-size:14px;line-height:1.8}
+.text-chat-panel .text-messages:empty{display:none}
+#textStatus:empty{display:none}
+#practiceStatus:empty{display:none}
+#textScope{margin:16px 0 0}
+@media(max-width:700px){
+  .app-header .breadcrumb{white-space:nowrap}
+  .text-empty{min-height:170px;padding:20px 8px}
+  .text-form textarea{font-size:16px}
 }

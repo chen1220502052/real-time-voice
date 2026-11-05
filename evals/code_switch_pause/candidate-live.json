@@ -1,0 +1,816 @@
+{
+  "variant": "candidate",
+  "mode": "live",
+  "startedUtc": "2026-11-04T10:06:31Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T10:05:42Z",
+    "casesSha256": "c34977cd13bdb7e7a2fdaba322e66139a5f859116f3f5348a86774b6b9faff70",
+    "sources": {
+      "scripts/local_speech_worker.py": "671bf334f3a190f3b9da83b8c65c0964ff8b3f11bef73b6ce12cd1f6cfdc0eab",
+      "backend/providers/speech_local.py": "86fc808f4eac1778ab5d9250e7785bc33d726833cbe6c6627440a78efd2cfb7b",
+      "backend/providers/speech_worker.py": "7be8d3d620f36bc47c4aadbbe4120691208618ea1c8ffe9dfb2d51f61c0c4570",
+      "backend/voice_grounding.py": "e0cdc72b787225c7c7bd6f01e8597978d722ba702a64059fd70474abce36ccae",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/speech_text.py": "5c421b20313f419ef54bf5c45e5cc7163757e3aa00fe47d21c8c24cc638bcdb8",
+      "backend/data/chat/curriculum-vocabulary.json": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8",
+      "backend/data/chat/voice-glossary-supplement.json": "8c21c30e167c2ef2f8cdc10a87c9c8915ba08aef359cf22c1aa4656324d30300"
+    },
+    "baselineSources": {
+      ".local/code-switch-pause/baseline/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      ".local/code-switch-pause/baseline/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      ".local/code-switch-pause/baseline/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      ".local/code-switch-pause/baseline/speech_local.py": "08395a5dd0cf800816379e47461b91b33dbd5a6cb1932e86a7d3e76a73d3102f",
+      ".local/code-switch-pause/baseline/voice_grounding.py": "702af34150a772ecc4df42b2eae0aa927ab2d41eaee813a4ff034898cb218117"
+    },
+    "harnessSha256": {
+      "scripts/evaluate_code_switch_pause.py": "7196dc0a635392e9f8ea9a08606e29d430bc4b8563737f25f3e24d087d4fe3a3",
+      "scripts/evaluate_bilingual_voice.py": "343efb61bb1ebcc4f54df5ffd137eee05dc7b95d14f0c4f8c3da397e1637e834"
+    },
+    "model": {
+      "name": "qwen2.5:3b",
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 32768,
+        "embedding_length": 2048
+      }
+    },
+    "multilingualModel": {
+      "id": "mlx-community/Qwen3-ASR-0.6B-8bit",
+      "revision": "89e96d92ba34aca20b3e29fb10cc284097d1219f",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size": 1519,
+          "lfs": null
+        },
+        {
+          "name": "README.md",
+          "size": 1008,
+          "lfs": null
+        },
+        {
+          "name": "chat_template.json",
+          "size": 1161,
+          "lfs": null
+        },
+        {
+          "name": "config.json",
+          "size": 7187,
+          "lfs": null
+        },
+        {
+          "name": "generation_config.json",
+          "size": 142,
+          "lfs": null
+        },
+        {
+          "name": "merges.txt",
+          "size": 1671853,
+          "lfs": null
+        },
+        {
+          "name": "model.safetensors",
+          "size": 1006229426,
+          "lfs": {
+            "size": 1006229426,
+            "sha256": "b5bfe4abc1b4c6e58b633096682ec2b6297298add1527119936107d211adf0e8",
+            "pointer_size": 135
+          }
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size": 71815,
+          "lfs": null
+        },
+        {
+          "name": "preprocessor_config.json",
+          "size": 330,
+          "lfs": null
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 12487,
+          "lfs": null
+        },
+        {
+          "name": "vocab.json",
+          "size": 2776833,
+          "lfs": null
+        }
+      ]
+    },
+    "versions": {
+      "mlx-audio": "0.6.4",
+      "mlx": "0.32.4",
+      "parakeet-mlx": "0.6.0",
+      "mlx-whisper": "0.4.3",
+      "transformers": "5.22.1",
+      "numpy": "2.4.6"
+    },
+    "machine": "Apple M4 Pro / 24 GB",
+    "measurement": "Four NEW controlled 600ms pause utterances, complete source PCM preserved. Original Parakeet+Whisper in BOTH variants; candidate has longer preroll, pending-target wait and nonblocking finalization. Two repeats per variant; controls separate. This is endpoint/pause stress testing, not a general code-switch ASR accuracy estimate."
+  },
+  "rows": [
+    {
+      "id": "p01",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请告诉我英语单词teacher的中文意思",
+      "asrMs": 654.0320832282305,
+      "asrDetail": {
+        "text": "请告诉我英语单词teacher的中文意思",
+        "requestStartedMs": 3136044980.350041,
+        "responseReadyMs": 3136045507.723875,
+        "workerInferenceMs": 525.26,
+        "snapshotEndMediaMs": 4300,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 526.827,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8121128012337755,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136045580.11725,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 4200,
+        "fedMediaMs": 4900
+      },
+      "text": "teacher 的意思是“教师”。",
+      "firstAudioMs": 863.5087083093822,
+      "totalMs": 863.9840413816273,
+      "audioSeconds": 4.255,
+      "output": ".local/code-switch-pause/candidate/p01-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 31.12
+      },
+      "speech": [
+        {
+          "text": "teacher 的意思是“教师”。",
+          "pcmBytes": 136160,
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 175.909,
+              "postprocess": 1.515
+            },
+            "memory": {
+              "activeBytes": 165255550,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 177.44,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.003,
+            "ipcWallMs": 178.164
+          }
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释的意思,并给一个英语例句。",
+      "asrMs": 623.0334998108447,
+      "asrDetail": {
+        "text": "请用中文解释的意思,并给一个英语例句。",
+        "requestStartedMs": 3136050892.3296657,
+        "responseReadyMs": 3136051474.0881658,
+        "workerInferenceMs": 578.01,
+        "snapshotEndMediaMs": 5200,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 581.037,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9081692053753468,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136051492.782916,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 9
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 5100,
+        "fedMediaMs": 5800
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 790.1290832087398,
+      "totalMs": 951.321457978338,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-pause/candidate/p02-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.31
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 164.135,
+              "postprocess": 1.677
+            },
+            "memory": {
+              "activeBytes": 165222898,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 165.83,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 166.574
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 158.471,
+              "postprocess": 1.273
+            },
+            "memory": {
+              "activeBytes": 165239278,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.76,
+            "queueWaitMs": 166.581,
+            "startupMs": 0.003,
+            "ipcWallMs": 160.466
+          }
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "我想知道英语单词Monkey中文怎么说",
+      "asrMs": 605.9211669489741,
+      "asrDetail": {
+        "text": "我想知道英语单词Monkey中文怎么说",
+        "requestStartedMs": 3136056022.933416,
+        "responseReadyMs": 3136056564.872333,
+        "workerInferenceMs": 539.13,
+        "snapshotEndMediaMs": 4300,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 541.352,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8165091436926409,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136056623.686708,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 4200,
+        "fedMediaMs": 4900
+      },
+      "text": "monkey 的意思是“猴子”。",
+      "firstAudioMs": 788.4350419044495,
+      "totalMs": 789.0362082980573,
+      "audioSeconds": 4.255,
+      "output": ".local/code-switch-pause/candidate/p03-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.74
+      },
+      "speech": [
+        {
+          "text": "monkey 的意思是“猴子”。",
+          "pcmBytes": 136160,
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 179.392,
+              "postprocess": 1.479
+            },
+            "memory": {
+              "activeBytes": 165255534,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 180.89,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 181.632
+          }
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文说music的意思",
+      "asrMs": 569.858499802649,
+      "asrDetail": {
+        "text": "请用中文说music的意思",
+        "requestStartedMs": 3136059910.619083,
+        "responseReadyMs": 3136060450.84525,
+        "workerInferenceMs": 537.87,
+        "snapshotEndMediaMs": 3200,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.015,
+        "workerIpcWallMs": 539.625,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.6481037602613996,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136060507.883333,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 3100,
+        "fedMediaMs": 3800
+      },
+      "text": "music 的意思是“音乐；音乐;音乐创作”。",
+      "firstAudioMs": 747.9317500256002,
+      "totalMs": 858.5636247880757,
+      "audioSeconds": 6.695,
+      "output": ".local/code-switch-pause/candidate/p04-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "music 的意思是“音乐；",
+          "pcmBytes": 128480,
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 175.271,
+              "postprocess": 1.76
+            },
+            "memory": {
+              "activeBytes": 165239146,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 177.05,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 177.788
+          }
+        },
+        {
+          "text": "音乐;音乐创作”。",
+          "pcmBytes": 85760,
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 108.378,
+              "postprocess": 1.234
+            },
+            "memory": {
+              "activeBytes": 165091725,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 109.63,
+            "queueWaitMs": 177.777,
+            "startupMs": 0.002,
+            "ipcWallMs": 110.168
+          }
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.321458235383,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.2502497769892,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.4033750407398,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "silence",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.3396250791848,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "p04",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文说music的意思",
+      "asrMs": 571.4020002633333,
+      "asrDetail": {
+        "text": "请用中文说music的意思",
+        "requestStartedMs": 3136081122.14825,
+        "responseReadyMs": 3136081668.544375,
+        "workerInferenceMs": 543.73,
+        "snapshotEndMediaMs": 3200,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 546.022,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.6481037602613996,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136081721.538416,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 3100,
+        "fedMediaMs": 3800
+      },
+      "text": "music 的意思是“音乐；音乐;音乐创作”。",
+      "firstAudioMs": 744.6690411306918,
+      "totalMs": 857.2341660037637,
+      "audioSeconds": 6.695,
+      "output": ".local/code-switch-pause/candidate/p04-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "music 的意思是“音乐；",
+          "pcmBytes": 128480,
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 170.736,
+              "postprocess": 1.43
+            },
+            "memory": {
+              "activeBytes": 165239146,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 172.18,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 173.018
+          }
+        },
+        {
+          "text": "音乐;音乐创作”。",
+          "pcmBytes": 85760,
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 110.299,
+              "postprocess": 1.346
+            },
+            "memory": {
+              "activeBytes": 165091725,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 111.66,
+            "queueWaitMs": 173.011,
+            "startupMs": 0.003,
+            "ipcWallMs": 112.134
+          }
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "我想知道英语单词Monkey中文怎么说",
+      "asrMs": 605.9640408493578,
+      "asrDetail": {
+        "text": "我想知道英语单词Monkey中文怎么说",
+        "requestStartedMs": 3136086210.916958,
+        "responseReadyMs": 3136086758.330833,
+        "workerInferenceMs": 543.48,
+        "snapshotEndMediaMs": 4300,
+        "workerQueueWaitMs": 0.01,
+        "workerStartupMs": 0.019,
+        "workerIpcWallMs": 546.346,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8165091436926409,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136086810.16,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 4200,
+        "fedMediaMs": 4900
+      },
+      "text": "monkey 的意思是“猴子”。",
+      "firstAudioMs": 789.1579158604145,
+      "totalMs": 789.7357908077538,
+      "audioSeconds": 4.255,
+      "output": ".local/code-switch-pause/candidate/p03-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "monkey 的意思是“猴子”。",
+          "pcmBytes": 136160,
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 180.625,
+              "postprocess": 1.527
+            },
+            "memory": {
+              "activeBytes": 165255534,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 182.17,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 182.978
+          }
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请用中文解释的意思,并给一个英语例句。",
+      "asrMs": 622.5841669365764,
+      "asrDetail": {
+        "text": "请用中文解释的意思,并给一个英语例句。",
+        "requestStartedMs": 3136092096.133208,
+        "responseReadyMs": 3136092688.3765407,
+        "workerInferenceMs": 587.9,
+        "snapshotEndMediaMs": 5200,
+        "workerQueueWaitMs": 0.221,
+        "workerStartupMs": 0.016,
+        "workerIpcWallMs": 591.161,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9081692053753468,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136092696.292083,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 9
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 5100,
+        "fedMediaMs": 5800
+      },
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 781.6707496531308,
+      "totalMs": 941.3468749262393,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-pause/candidate/p02-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 156.557,
+              "postprocess": 1.597
+            },
+            "memory": {
+              "activeBytes": 165222898,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 158.18,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.002,
+            "ipcWallMs": 158.89
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 157.119,
+              "postprocess": 1.261
+            },
+            "memory": {
+              "activeBytes": 165239278,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 158.39,
+            "queueWaitMs": 158.894,
+            "startupMs": 0.003,
+            "ipcWallMs": 159.156
+          }
+        }
+      ]
+    },
+    {
+      "id": "p01",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "请告诉我英语单词teacher的中文意思",
+      "asrMs": 654.0677500888705,
+      "asrDetail": {
+        "text": "请告诉我英语单词teacher的中文意思",
+        "requestStartedMs": 3136097217.99575,
+        "responseReadyMs": 3136097744.088583,
+        "workerInferenceMs": 522.85,
+        "snapshotEndMediaMs": 4300,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.021,
+        "workerIpcWallMs": 525.348,
+        "workerMemory": {
+          "activeBytes": 2480014706,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8121128012337755,
+        "engine": "whisper",
+        "language": "zh",
+        "endpointReachedMs": 3136097817.989375,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "compound_request_window",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 0,
+        "endMediaMs": 4200,
+        "fedMediaMs": 4900
+      },
+      "text": "teacher 的意思是“教师”。",
+      "firstAudioMs": 839.7941663861275,
+      "totalMs": 840.2675832621753,
+      "audioSeconds": 4.255,
+      "output": ".local/code-switch-pause/candidate/p01-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "teacher 的意思是“教师”。",
+          "pcmBytes": 136160,
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 183.236,
+              "postprocess": 1.473
+            },
+            "memory": {
+              "activeBytes": 165255542,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 184.73,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 185.495
+          }
+        }
+      ]
+    }
+  ],
+  "workerWarmupMs": 5896.986917126924,
+  "completedUtc": "2026-11-04T10:07:35Z"
+}

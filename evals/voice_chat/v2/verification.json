@@ -1,0 +1,1067 @@
+{
+  "version": 2,
+  "purpose": "verification_independent",
+  "date": "2026-11-03",
+  "cases": [
+    {
+      "id": "verify-textbook-77-4",
+      "group": "textbook-77",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"We kick a football with our feet. One foot has 26 bones.\" How many bones are in one foot according to this text? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "26|二十六"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg",
+        "pageSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd"
+      }
+    },
+    {
+      "id": "verify-textbook-77-9",
+      "group": "textbook-77",
+      "split": "heldout",
+      "grade": 9,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"We kick a football with our feet. One foot has 26 bones.\" How many bones are in one foot according to this text? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "26|二十六"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg",
+        "pageSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd"
+      }
+    },
+    {
+      "id": "verify-textbook-78-4",
+      "group": "textbook-78",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"We play badminton with our arms. One arm has 3 bones.\" What do we use to play badminton according to this text? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "胳膊|手臂"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg",
+        "pageSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd"
+      }
+    },
+    {
+      "id": "verify-textbook-78-9",
+      "group": "textbook-78",
+      "split": "heldout",
+      "grade": 9,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"We play badminton with our arms. One arm has 3 bones.\" What do we use to play badminton according to this text? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "胳膊|手臂"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg",
+        "pageSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd"
+      }
+    },
+    {
+      "id": "verify-textbook-79-4",
+      "group": "textbook-79",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"We run with our legs. One leg has 3 bones, too.\" What do we use to run according to this text? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "腿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg",
+        "pageSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd"
+      }
+    },
+    {
+      "id": "verify-textbook-79-9",
+      "group": "textbook-79",
+      "split": "heldout",
+      "grade": 9,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"We run with our legs. One leg has 3 bones, too.\" What do we use to run according to this text? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "腿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 11 Sports/课文/02_教材页面_1f79d9bff6.jpg",
+        "pageSha256": "62c3e3488526eaf55d47dc0bd9ffc4351c4d8afac3d4aec5cf4815b9ebc492cd"
+      }
+    },
+    {
+      "id": "verify-textbook-87-4",
+      "group": "textbook-87",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"It's green. We can go now.\" What colour is the light that lets us go? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "绿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg",
+        "pageSha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943"
+      }
+    },
+    {
+      "id": "verify-textbook-87-9",
+      "group": "textbook-87",
+      "split": "heldout",
+      "grade": 9,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"It's green. We can go now.\" What colour is the light that lets us go? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "绿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings.",
+      "source": {
+        "path": "4年级/上册_官方当前目录_版次待与学校核对/Unit 12 Revision/课文/01_教材页面_583665b5e2.jpg",
+        "pageSha256": "a101222083c1715f4b3968e4850ca11ef0162eb61f5696879d45d8eb107c6943"
+      }
+    },
+    {
+      "id": "verify-passage-orange-4",
+      "group": "passage-orange",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"An orange cat sits beside the chair.\" What colour is this cat? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "橙|橘"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-passage-orange-9",
+      "group": "passage-orange",
+      "split": "heldout",
+      "grade": 9,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"An orange cat sits beside the chair.\" What colour is this cat? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "橙|橘"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-passage-pencil-4",
+      "group": "passage-pencil",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"The blue pencil belongs to Lily.\" Who owns the pencil? 请用中文回答，保留英文名字 Lily。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "Lily"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-passage-pencil-9",
+      "group": "passage-pencil",
+      "split": "heldout",
+      "grade": 9,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Text: \"The blue pencil belongs to Lily.\" Who owns the pencil? 请用中文回答，保留英文名字 Lily。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "Lily"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-0-4",
+      "group": "preference-0",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like making paper planes."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-0-9",
+      "group": "preference-0",
+      "split": "heldout",
+      "grade": 9,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like making paper planes."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-1-4",
+      "group": "preference-1",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite drink is tea."
+        },
+        {
+          "role": "user",
+          "content": "Did I say tea is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "tea"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-1-9",
+      "group": "preference-1",
+      "split": "heldout",
+      "grade": 9,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite drink is tea."
+        },
+        {
+          "role": "user",
+          "content": "Did I say tea is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "tea"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-2-4",
+      "group": "preference-2",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is rice."
+        },
+        {
+          "role": "user",
+          "content": "I really like potatoes."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "rice"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-2-9",
+      "group": "preference-2",
+      "split": "heldout",
+      "grade": 9,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is rice."
+        },
+        {
+          "role": "user",
+          "content": "I really like potatoes."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "rice"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-3-4",
+      "group": "preference-3",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite subject is history."
+        },
+        {
+          "role": "user",
+          "content": "My favourite animal is a whale."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite animal now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite subject?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "history"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-preference-3-9",
+      "group": "preference-3",
+      "split": "heldout",
+      "grade": 9,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite subject is history."
+        },
+        {
+          "role": "user",
+          "content": "My favourite animal is a whale."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite animal now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite subject?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "history"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-0-4",
+      "group": "identity-0",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Could you tell me how old you really are, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-0-9",
+      "group": "identity-0",
+      "split": "heldout",
+      "grade": 9,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Could you tell me how old you really are, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-1-4",
+      "group": "identity-1",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really an eleven-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-1-9",
+      "group": "identity-1",
+      "split": "heldout",
+      "grade": 9,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really an eleven-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-2-4",
+      "group": "identity-2",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你今年到底几岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-2-9",
+      "group": "identity-2",
+      "split": "heldout",
+      "grade": 9,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你今年到底几岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-3-4",
+      "group": "identity-3",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你的真实年龄有多少岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-identity-3-9",
+      "group": "identity-3",
+      "split": "heldout",
+      "grade": 9,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你的真实年龄有多少岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-book-4",
+      "group": "word-book",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what book means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "书"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-book-9",
+      "group": "word-book",
+      "split": "heldout",
+      "grade": 9,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what book means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "书"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-desk-4",
+      "group": "word-desk",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what desk means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "书桌|课桌|桌"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-desk-9",
+      "group": "word-desk",
+      "split": "heldout",
+      "grade": 9,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what desk means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "书桌|课桌|桌"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-chair-4",
+      "group": "word-chair",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what chair means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "椅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-chair-9",
+      "group": "word-chair",
+      "split": "heldout",
+      "grade": 9,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what chair means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "椅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-apple-4",
+      "group": "word-apple",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what apple means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "苹果"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-word-apple-9",
+      "group": "word-apple",
+      "split": "heldout",
+      "grade": 9,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please explain what apple means in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "苹果"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-control-human-4",
+      "group": "control-human",
+      "split": "heldout",
+      "grade": 4,
+      "category": "boundary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In the story Olivia is twenty-four years old. What is her age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "twenty.four|24"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-control-human-9",
+      "group": "control-human",
+      "split": "heldout",
+      "grade": 9,
+      "category": "boundary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In the story Olivia is twenty-four years old. What is her age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "twenty.four|24"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-control-translation-4",
+      "group": "control-translation",
+      "split": "heldout",
+      "grade": 4,
+      "category": "boundary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old is Lily?\" into Chinese. Keep Lily in English."
+        }
+      ],
+      "checks": {
+        "required": [
+          "Lily.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    },
+    {
+      "id": "verify-control-translation-9",
+      "group": "control-translation",
+      "split": "heldout",
+      "grade": 9,
+      "category": "boundary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old is Lily?\" into Chinese. Keep Lily in English."
+        }
+      ],
+      "checks": {
+        "required": [
+          "Lily.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Judge the complete factual answer, including contradictions and context-specific meanings."
+    }
+  ],
+  "scope": "40 new verification cases after CJK sentence/tail fixes, including four unused textbook excerpts. Actual text delivery, not audio.",
+  "independence": "No previous complete grade/history signature; no history overlap even without grade. Frozen before first run; no post-run changes."
+}

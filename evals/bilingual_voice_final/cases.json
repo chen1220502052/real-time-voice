@@ -1,0 +1,224 @@
+[
+  {
+    "id": "b01",
+    "language": "zh",
+    "text": "你实际有多少岁？用中文说。",
+    "rubric": "AI 身份，没有人类年龄，不报数字。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b01.wav",
+    "sha256": "554e2d96ff6091a9c6ad16e3906aca406cc742e47bc77900aca8ffa75b9b08ca",
+    "seconds": 2.980625,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b02",
+    "language": "zh",
+    "text": "用中文告诉我，我最喜欢哪一种动物。",
+    "rubric": "只喜欢猫，没有明确最喜欢的动物。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我喜欢猫。"
+      }
+    ],
+    "audio": ".local/bilingual-voice-final/inputs/b02.wav",
+    "sha256": "28ccce2909b08b1870923a68b62f36ece90c4971bdebb4049efa3edf619fe338",
+    "seconds": 3.698,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b03",
+    "language": "zh",
+    "text": "我最喜欢的颜色是什么？请用中文说。",
+    "rubric": "最新明确偏好蓝色。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我最喜欢的颜色是橙色。"
+      },
+      {
+        "role": "assistant",
+        "content": "我记住了。"
+      },
+      {
+        "role": "user",
+        "content": "我最喜欢的颜色是蓝色。"
+      }
+    ],
+    "audio": ".local/bilingual-voice-final/inputs/b03.wav",
+    "sha256": "617994475a069fba504bf894f6e6899c33d0e4a3938854055a8f88a5d1382e9d",
+    "seconds": 3.710125,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b04",
+    "language": "zh",
+    "text": "课文里的阿文十五岁，他几岁？请用中文回答。",
+    "rubric": "课文人物阿文十五岁，不增加年龄。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b04.wav",
+    "sha256": "482713f0e2e9b452a41392802805409bc3f642cd4dc75c04e11118b667c898b2",
+    "seconds": 4.615,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b05",
+    "language": "zh",
+    "text": "英语单词的中文意思是什么？",
+    "rubric": "缺少目标词，请用户补充，不自行编造单词。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b05.wav",
+    "sha256": "cbd88934f096d56ce7b6931be7d3c794efbac6db99d2a07822990eab3b0d62f5",
+    "seconds": 2.536875,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b06",
+    "language": "mixed",
+    "text": "告诉我英语单词milk的中文意思。",
+    "rubric": "牛奶，正常中文播报；漏词澄清不算任务完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b06.wav",
+    "sha256": "190479a7544dcb3586506a4ee943de24834eafc38567ad9e9d890e13197211f8",
+    "seconds": 3.322625,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b07",
+    "language": "mixed",
+    "text": "请用中文告诉我giraffe是什么意思。",
+    "rubric": "长颈鹿，正常中文播报；漏词澄清不算任务完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b07.wav",
+    "sha256": "2af9edc71b4c7941da53c1f84589d909e3c0a73c06da006e875a2961740da7b0",
+    "seconds": 3.29875,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b08",
+    "language": "mixed",
+    "text": "请解释kind的中文意思，再给一个英语例句。",
+    "rubric": "善良或种类等适当释义，有一个含 kind 的完整正确英语例句；澄清不算完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b08.wav",
+    "sha256": "58992780825c8331610b96acc54435b4ff83c2e03d9be8faa46f44992c20b377",
+    "seconds": 4.3336875,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b09",
+    "language": "mixed",
+    "text": "请用中文解释careful的意思，并给两个英语例句。",
+    "rubric": "仔细或小心等适当释义，有两个含 careful 的完整正确英语例句；澄清不算完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b09.wav",
+    "sha256": "e622dca5f8b1211f44215719acb74868b94bd02245c904ed97a31c026385b33a",
+    "seconds": 4.66075,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b10",
+    "language": "en",
+    "text": "What does doctor mean in Chinese? Please give one English example.",
+    "rubric": "医生，有一个包含 doctor 的完整正确英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b10.wav",
+    "sha256": "88b553e05ea2368e95b4c63b63e61f82f3e11838b91b8bcbd57f6c04ed65c445",
+    "seconds": 4.2193125,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b11",
+    "language": "en",
+    "text": "Please translate the word nurse into Chinese.",
+    "rubric": "护士，正常中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b11.wav",
+    "sha256": "6eba9bad76c4af089d5a94d647c300e1185680f9b19349a3724fd8851c0ce235",
+    "seconds": 2.671,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b12",
+    "language": "en",
+    "text": "Do you remember my favourite colour?",
+    "rubric": "只喜欢 orange，最喜欢的颜色未知。",
+    "history": [
+      {
+        "role": "user",
+        "content": "I like orange."
+      }
+    ],
+    "audio": ".local/bilingual-voice-final/inputs/b12.wav",
+    "sha256": "1e8df375df1380d5ff0e60cddfa9de2bc0099eae42ad6341801bfa8bfefbea81",
+    "seconds": 2.1065,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b13",
+    "language": "en",
+    "text": "Give me one English sentence to invite a friend to dance.",
+    "rubric": "完整可用的邀请朋友跳舞的英语句子。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/b13.wav",
+    "sha256": "19b986cf92ea5b94cf24a2c33b8c211ff8e647ae75ad77775bbb09e7177bc6bd",
+    "seconds": 3.175875,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "voices": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-final/inputs/quiet-noise.wav",
+    "sha256": "3e957ca0c5f4eabf899088dda56bace18ed4445f15719292848a83810a248bcb",
+    "seconds": 3,
+    "voices": []
+  }
+]

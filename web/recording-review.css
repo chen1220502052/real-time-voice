@@ -1,0 +1,29 @@
+.recording-review { grid-column:1/-1; }
+.recording-review .drawer-body { display:grid; gap:18px; }
+.recording-options,.recording-actions,.review-toolbar,.review-markers,.review-source-tools,.review-seek { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.recording-options { margin:8px 0 12px; font-size:13px; }
+.recording-options label { display:flex; gap:7px; align-items:center; }
+#recordingState { color:var(--muted); font-variant-numeric:tabular-nums; }
+#recordingState[data-recording="true"] { color:#b3433a; }
+.recording-help,.review-help { font-size:13px; color:var(--muted); line-height:1.7; }
+.recording-actions { margin-top:10px; }
+.recording-review label { font-size:13px; }
+.recording-review select,.recording-review input[type="number"] { padding:7px 9px; color:var(--text); background:var(--surface); border:1px solid var(--line-strong); border-radius:8px; font:inherit; }
+.recording-review input[type="file"] { max-width:100%; font-size:12px; }
+.recording-review input[type="number"] { width:110px; }
+.recording-review button:disabled { opacity:.45; cursor:default; }
+.recording-review audio { width:100%; }
+.recording-review canvas { width:100%; height:200px; border:1px solid var(--line-strong); border-radius:12px; cursor:crosshair; }
+.review-seek input[type="range"] { flex:1; min-width:150px; accent-color:#258878; }
+.review-markers { padding:14px; border:1px solid var(--line-strong); border-radius:12px; }
+.review-markers label { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+.review-mark-field { display:flex; align-items:center; gap:8px; }
+#acousticOption { flex-basis:100%; }
+#acousticOption[hidden] { display:none; }
+#measurementResult { font-variant-numeric:tabular-nums; color:#246d5e; }
+.review-table-wrap { max-width:100%; overflow-x:auto; }
+.review-table { width:100%; border-collapse:collapse; text-align:left; font-size:13px; white-space:nowrap; }
+.review-table th,.review-table td { padding:10px 12px; border-bottom:1px solid var(--line); }
+.review-table th { color:var(--muted); font-weight:500; }
+#measurementList { margin:0; padding-left:22px; font-size:13px; line-height:1.8; }
+@media(max-width:650px){.recording-review .drawer-body{padding:16px 12px}.review-markers{gap:10px}.review-markers label{width:100%}.review-table th,.review-table td{padding:9px 7px}.review-source-tools{align-items:flex-start;flex-direction:column}}

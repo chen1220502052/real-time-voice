@@ -6,6 +6,8 @@ class CaptureProcessor extends AudioWorkletProcessor {
     this.frameStart = null;
     this.expectedFrame = null;
     this.captureSequence = 0;
+    this.activityEnergy = 0;
+    this.activitySamples = 0;
   }
 
   process(inputs) {
@@ -14,8 +16,18 @@ class CaptureProcessor extends AudioWorkletProcessor {
     if (this.expectedFrame !== null && this.expectedFrame !== currentFrame) {
       this.samples = []; // Never concatenate across a missing input interval.
       this.frameStart = null;
+      this.activityEnergy = 0;
+      this.activitySamples = 0;
     }
     for (let index = 0; index < input.length; index += 1) {
+      this.activityEnergy += input[index]*input[index];
+      this.activitySamples++;
+      if (this.activitySamples >= Math.round(sampleRate*.02)) {
+        this.port.postMessage({type:'voice_activity',
+          rms:Math.sqrt(this.activityEnergy/this.activitySamples),
+          atCtx:(currentFrame+index+1)/sampleRate});
+        this.activityEnergy=0;this.activitySamples=0;
+      }
       if (this.frameStart === null) this.frameStart = currentFrame + index;
       this.samples.push(input[index]);
       if (this.samples.length === this.frameSize) {

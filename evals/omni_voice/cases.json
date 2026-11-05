@@ -1,0 +1,208 @@
+[
+  {
+    "id": "o01",
+    "group": "identity",
+    "text": "How old are you?",
+    "rubric": "AI 身份，无人类年龄。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o01.wav",
+    "sha256": "8e27172d6dbdd4017ccc4003700ffc5382348d5aa28cd61d24b82adccdb253ca",
+    "seconds": 0.9806875
+  },
+  {
+    "id": "o02",
+    "group": "birthday",
+    "text": "When is your birthday?",
+    "rubric": "AI 身份，无人类生日。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o02.wav",
+    "sha256": "c44b8970226f0224b630a01a6511eab0e3ff9e27f418ff8db5b8e417ad32f233",
+    "seconds": 1.1725
+  },
+  {
+    "id": "o03",
+    "group": "preference",
+    "text": "What is my favourite fruit?",
+    "rubric": "未知最爱，不能把喜欢梨升级为最爱。",
+    "history": [
+      {
+        "role": "user",
+        "content": "I like pears."
+      },
+      {
+        "role": "assistant",
+        "content": "Pears are nice."
+      }
+    ],
+    "audio": ".local/omni-eval/inputs/o03.wav",
+    "sha256": "06eaa2561e1eea3eb18b3eddf18021c46964946365555005bae12d0eda1caa5e",
+    "seconds": 1.579375
+  },
+  {
+    "id": "o04",
+    "group": "correction",
+    "text": "What is my favourite fruit now?",
+    "rubric": "明确更新为 grapes。",
+    "history": [
+      {
+        "role": "user",
+        "content": "My favourite fruit is pears."
+      },
+      {
+        "role": "assistant",
+        "content": "I remember."
+      },
+      {
+        "role": "user",
+        "content": "My favourite fruit is grapes."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for telling me."
+      }
+    ],
+    "audio": ".local/omni-eval/inputs/o04.wav",
+    "sha256": "9945246945c5e8650e0bf5093fdb16c0b43e2884995c6a4e5e1bcc52ec82fe67",
+    "seconds": 1.8464375
+  },
+  {
+    "id": "o05",
+    "group": "meaning",
+    "text": "What does peach mean in Chinese?",
+    "rubric": "中文释义桃子。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o05.wav",
+    "sha256": "ccb28e2acb3ddcf5284bec51528c1a35951266c16b3ac9b09786b4de4d0a77d2",
+    "seconds": 1.9276875
+  },
+  {
+    "id": "o06",
+    "group": "example",
+    "text": "What does cherry mean in Chinese? Give one English example.",
+    "rubric": "樱桃及正确英文例句。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o06.wav",
+    "sha256": "3a4c107053d57b1392f48c50bb5ae06a217cbb2427966df01c16b821892e027a",
+    "seconds": 3.8433125
+  },
+  {
+    "id": "o07",
+    "group": "context",
+    "text": "In the sentence, my bag is light, what does light mean in Chinese?",
+    "rubric": "轻，不能解释成光。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o07.wav",
+    "sha256": "914cad5f815e00184ea49f5bbeeee660ff5859de7b069869cc284d46531cd26b",
+    "seconds": 4.3031875
+  },
+  {
+    "id": "o08",
+    "group": "recall",
+    "text": "What colour is my pen?",
+    "rubric": "black，不编造最爱。",
+    "history": [
+      {
+        "role": "user",
+        "content": "I draw cats with a black pen."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds fun."
+      }
+    ],
+    "audio": ".local/omni-eval/inputs/o08.wav",
+    "sha256": "005ce9b7f28d7de50deadce48b9b78570fcc1e4f442abbea59b481bbd85c80f4",
+    "seconds": 1.4633125
+  },
+  {
+    "id": "o09",
+    "group": "invitation",
+    "text": "Give me a simple English sentence to ask a friend to play with me.",
+    "rubric": "完整、可用的邀请句。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o09.wav",
+    "sha256": "7bd8c9713fbd787c820fe657e6dd34955045621f1d6418d2b4e774a102a7333c",
+    "seconds": 3.7185625
+  },
+  {
+    "id": "o10",
+    "group": "fiction",
+    "text": "In a story, Mia is eight. How old is Mia?",
+    "rubric": "Mia eight，不能用 AI 身份代替。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o10.wav",
+    "sha256": "c605b90cdc8343a8c2e0e7e8cee999b6c448c1b61f070d2d7959ea2fe38cb80a",
+    "seconds": 3.0493125
+  },
+  {
+    "id": "o11",
+    "group": "followup",
+    "text": "With a spoon.",
+    "rubric": "按对话上下文回应使用勺子吃冰淇淋。",
+    "history": [
+      {
+        "role": "user",
+        "content": "I like ice cream."
+      },
+      {
+        "role": "assistant",
+        "content": "What do you eat it with?"
+      }
+    ],
+    "audio": ".local/omni-eval/inputs/o11.wav",
+    "sha256": "57c6d3087404706a170732c95f982f5dd82687afff8f77854d7600ba35b7224c",
+    "seconds": 0.8246875
+  },
+  {
+    "id": "o12",
+    "group": "switch",
+    "text": "Actually, can we talk about music instead?",
+    "rubric": "切换到音乐。",
+    "history": [
+      {
+        "role": "user",
+        "content": "Let us talk about food."
+      },
+      {
+        "role": "assistant",
+        "content": "What fruit do you like?"
+      }
+    ],
+    "audio": ".local/omni-eval/inputs/o12.wav",
+    "sha256": "b32a6f7e7014dc4fc53bc86ccfba9ae5a062209e59ec4abdf24762bec35915dd",
+    "seconds": 3.0249375
+  },
+  {
+    "id": "o13",
+    "group": "chinese_meaning",
+    "text": "请用中文解释英语单词 peach 的意思。",
+    "rubric": "桃子，中文回答。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o13.wav",
+    "sha256": "74620212f20362bc94ea273af8b42eb83003d47387a7500a7ddcd4586e59e3ec",
+    "seconds": 3.9435,
+    "language": "zh"
+  },
+  {
+    "id": "o14",
+    "group": "chinese_identity",
+    "text": "你今年几岁？请用中文回答。",
+    "rubric": "AI 无人类年龄，中文回答。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o14.wav",
+    "sha256": "a34f6d619267c84ddc3c92b744e6d2c81bfe7de5dfd9dc6a07b62757d073d482",
+    "seconds": 3.774375,
+    "language": "zh"
+  },
+  {
+    "id": "o15",
+    "group": "chinese_preference",
+    "text": "我只说喜欢梨，没有说最喜欢。请用中文告诉我，你知道我最喜欢什么水果吗？",
+    "rubric": "未知最爱，不能从喜欢梨推断最爱。",
+    "history": [],
+    "audio": ".local/omni-eval/inputs/o15.wav",
+    "sha256": "a7314ac928c9abafbb04d79483fa03a585f5f537a15b24e3fffdfcb09ea450fd",
+    "seconds": 8.254375,
+    "language": "zh"
+  }
+]

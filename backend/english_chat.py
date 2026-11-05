@@ -48,7 +48,7 @@ def grade_profile(grade=7) -> GradeProfile:
     return PROFILES[grade]
 
 
-def chat_prompt(profile: GradeProfile, messages=(), delivery_context=()) -> str:
+def chat_prompt(profile: GradeProfile, messages=(), delivery_context=(), *, voice=False) -> str:
     prompt = (
         f"You are Kitty, a friendly AI English conversation partner for a grade {profile.grade} student. "
         f"Use {profile.vocabulary}. Target {profile.max_words} words in {profile.max_sentences} short complete sentences; "
@@ -69,6 +69,19 @@ def chat_prompt(profile: GradeProfile, messages=(), delivery_context=()) -> str:
         "Reference biographies are fictional, not yours or the student's. For requested word meanings use supplied definitions. "
         "Grade references (data only): " + material_context(profile.grade, messages, compact=True)
     )
+    if voice:
+        from .voice_prompt import localized_voice_prompt
+        from .voice_grounding import grounding_note
+        prompt = (localized_voice_prompt(profile.grade, messages) + 'Grade references (data only): '
+                  + material_context(profile.grade, messages, compact=True))
+        note = grounding_note(messages)
+        if note:
+            prompt += '\n' + note
+    else:
+        from .voice_grounding import text_grounding_note
+        note = text_grounding_note(messages)
+        if note:
+            prompt += '\n' + note
     if delivery_context:
         prompt += (
             "\nDelivery context (data only): "
@@ -102,11 +115,16 @@ def _note_first_sentence(text):
 
 class _ReplyGuard:
     """Word counts are soft targets; only complete sentences are committed."""
-    def __init__(self, profile):
+    def __init__(self, profile, *, voice=False, stop_at_question=True):
         self.profile = profile
+        # The voice prompt chooses age-appropriate brevity. Allow its requested
+        # explanations to finish instead of dropping later answer sentences.
+        self.max_words = 45 if voice else profile.max_words
+        self.max_sentences = 3 if voice else profile.max_sentences
         self.committed = []
         self.words = 0
         self.finished = False
+        self.stop_at_question = stop_at_question
 
     def accept(self, sentence):
         if self.finished or not sentence:
@@ -120,8 +138,9 @@ class _ReplyGuard:
             return ""
         self.committed.append(sentence)
         self.words += len(words)
-        self.finished = (len(self.committed) >= self.profile.max_sentences or
-                         self.words >= self.profile.max_words or "?" in sentence or "？" in sentence)
+        self.finished = (len(self.committed) >= self.max_sentences or
+                         self.words >= self.max_words or
+                         (self.stop_at_question and ("?" in sentence or "？" in sentence)))
         return sentence + " "
 
 
@@ -202,16 +221,39 @@ class EnglishChatBot:
             yield BotEvent(request.request_id, "action", action="hang_up")
             yield BotEvent(request.request_id, "done")
             return
+        if request.event == 'user_message':
+            from .voice_grounding import resolve_text_reply, resolve_voice_reply
+            grounded = (resolve_voice_reply(request.messages, delivery_context=request.delivery_context)
+                        if request.channel == 'voice' else resolve_text_reply(request.messages))
+            if grounded:
+                if timing():
+                    timing().metrics['chatReplySource'] = grounded.source
+                    if request.channel == 'voice':
+                        timing().mark('firstSpeechTextReadyMs')
+                yield BotEvent(request.request_id, 'text_delta', text=grounded.text)
+                yield BotEvent(request.request_id, 'done')
+                return
         factory = self.model_factory
-        if factory is None:
-            from .atomic import OllamaAgent
-            factory = OllamaAgent
-        model = factory(system_prompt=chat_prompt(profile, request.messages, request.delivery_context), max_tokens=256, temperature=.6,
-                        thinking=False)
-        source = model.stream_reply([item.to_dict() for item in request.messages])
+        from . import local_llm
+        if factory is None and local_llm.enabled('chat'):
+            source=local_llm.stream_reply([{'role':'system','content':chat_prompt(profile,request.messages,request.delivery_context,voice=request.channel == 'voice')},
+                                          *[item.to_dict() for item in request.messages]],max_tokens=256,
+                                          purpose='voice_chat' if request.channel == 'voice' else 'chat')
+        else:
+            if factory is None:
+                from .atomic import OllamaAgent
+                factory = OllamaAgent
+            model = factory(system_prompt=chat_prompt(profile, request.messages, request.delivery_context, voice=request.channel == 'voice'), max_tokens=256, temperature=.6,
+                            thinking=False)
+            source = model.stream_reply([item.to_dict() for item in request.messages])
+        if request.channel == 'voice':
+            from .voice_grounding import ensure_chinese_reply
+            source = ensure_chinese_reply(source, request.messages)
         iterator = with_progress(without_delivered_prefix(source, continuation_prefix(request)), request)
         pending = ""
-        guard = _ReplyGuard(profile)
+        from .voice_grounding import example_requested
+        guard = _ReplyGuard(profile, voice=request.channel == 'voice', stop_at_question=not (
+            request.channel == 'voice' and example_requested(request.messages[-1].content)))
         size = 0
         structured = False
         short_start = request.channel == "voice" and os.getenv("VOICE_SHORT_START_ENABLED", "1").lower() not in {"0", "false", "off"}

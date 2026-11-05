@@ -24,6 +24,7 @@ def main():
     content = subprocess.check_output(['node', '-e', """
 const u=require('./web/learning-data.js');
 const clips=Object.fromEntries(u.words.map(w=>[w.audio,w.word+'. '+w.example]));
+for(const w of u.words)clips[w.audio+'-word']=w.word;
 for(const s of u.sentences)clips[s.audio]=s.text;
 clips.dialogue=u.listening.transcript;
 clips.story=u.reading.paragraphs.join(' ');

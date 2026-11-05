@@ -1,0 +1,454 @@
+[
+  {
+    "model": "qwen2.5:3b",
+    "id": "t08",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t07",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t24",
+    "route": "model",
+    "semantic": true,
+    "format": false,
+    "passed": false,
+    "notes": [
+      "输出引号未闭合，核心表达仍可辨认。"
+    ]
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t17",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t11",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t16",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t22",
+    "route": "model",
+    "semantic": true,
+    "format": false,
+    "passed": false,
+    "notes": [
+      "输出引号未闭合，核心表达仍可辨认。"
+    ]
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t18",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t19",
+    "route": "model",
+    "semantic": false,
+    "format": true,
+    "passed": false,
+    "notes": [
+      "只建议等下一班，没有回答下次怎样避免错过。"
+    ]
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t02",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t01",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t13",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t08",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t07",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t24",
+    "route": "model",
+    "semantic": true,
+    "format": false,
+    "passed": false,
+    "notes": [
+      "输出引号未闭合，核心表达仍可辨认。"
+    ]
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t17",
+    "route": "model",
+    "semantic": false,
+    "format": true,
+    "passed": false,
+    "notes": [
+      "没有给出题目要求的中文释义。"
+    ]
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t11",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t16",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t22",
+    "route": "model",
+    "semantic": false,
+    "format": true,
+    "passed": false,
+    "notes": [
+      "混入 You are welcome 与 my treat，作为道谢范例会误导。"
+    ]
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t18",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t19",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t02",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t01",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t13",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t10",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t15",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t09",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t04",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t06",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t05",
+    "route": "model",
+    "semantic": false,
+    "format": true,
+    "passed": false,
+    "notes": [
+      "擅自把喜欢蓝色升级成最喜欢蓝色。"
+    ]
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t20",
+    "route": "model",
+    "semantic": false,
+    "format": true,
+    "passed": false,
+    "notes": [
+      "把自己当成能在雨里玩水的角色，未保持 AI 身份边界。"
+    ]
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t23",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t21",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t14",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t03",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "t12",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t10",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t15",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t09",
+    "route": "model",
+    "semantic": true,
+    "format": false,
+    "passed": false,
+    "notes": [
+      "输出引号未闭合，核心表达仍可辨认。"
+    ]
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t04",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t06",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t05",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t20",
+    "route": "model",
+    "semantic": false,
+    "format": true,
+    "passed": false,
+    "notes": [
+      "把对 Kitty 的问题反问给了学生。"
+    ]
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t23",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t21",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t14",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t03",
+    "route": "grounded",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "t12",
+    "route": "model",
+    "semantic": true,
+    "format": true,
+    "passed": true,
+    "notes": []
+  }
+]

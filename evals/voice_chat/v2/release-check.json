@@ -1,0 +1,2229 @@
+{
+  "version": 2,
+  "purpose": "release_independent",
+  "date": "2026-11-03",
+  "cases": [
+    {
+      "id": "release-passage-0-3",
+      "group": "passage-0",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The rabbit is under the chair.\" Where is the rabbit? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "椅.*下|下.*椅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-0-8",
+      "group": "passage-0",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The rabbit is under the chair.\" Where is the rabbit? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "椅.*下|下.*椅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-1-3",
+      "group": "passage-1",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"A green cucumber is on the plate.\" Which vegetable is on the plate? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "黄瓜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-1-8",
+      "group": "passage-1",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"A green cucumber is on the plate.\" Which vegetable is on the plate? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "黄瓜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-2-3",
+      "group": "passage-2",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The girl drinks milk in the kitchen.\" Where is the girl? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "厨房"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-2-8",
+      "group": "passage-2",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The girl drinks milk in the kitchen.\" Where is the girl? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "厨房"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-3-3",
+      "group": "passage-3",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"There are three umbrellas by the door.\" How many umbrellas are there? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "三|3"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-3-8",
+      "group": "passage-3",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"There are three umbrellas by the door.\" How many umbrellas are there? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "三|3"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-4-3",
+      "group": "passage-4",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"We have art on Monday.\" Which subject do we have on Monday? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "美术|艺术"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-4-8",
+      "group": "passage-4",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"We have art on Monday.\" Which subject do we have on Monday? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "美术|艺术"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-5-3",
+      "group": "passage-5",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The boy buys a purple sweater.\" What colour is the sweater? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-5-8",
+      "group": "passage-5",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The boy buys a purple sweater.\" What colour is the sweater? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-6-3",
+      "group": "passage-6",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The doctor works in a hospital.\" Where does the doctor work? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "医院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-6-8",
+      "group": "passage-6",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The doctor works in a hospital.\" Where does the doctor work? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "医院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-7-3",
+      "group": "passage-7",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"A giraffe stands by the bridge.\" Which animal is near the bridge? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "长颈鹿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-7-8",
+      "group": "passage-7",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"A giraffe stands by the bridge.\" Which animal is near the bridge? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "长颈鹿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-8-3",
+      "group": "passage-8",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The empty bag is light.\" What does light describe about the bag? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "轻"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-8-8",
+      "group": "passage-8",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The empty bag is light.\" What does light describe about the bag? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "轻"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-9-3",
+      "group": "passage-9",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The dog looks hungry.\" How does the dog feel? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-9-8",
+      "group": "passage-9",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The dog looks hungry.\" How does the dog feel? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-10-3",
+      "group": "passage-10",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The science lesson starts tomorrow.\" When does the lesson start? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "明天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-10-8",
+      "group": "passage-10",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The science lesson starts tomorrow.\" When does the lesson start? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "明天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-11-3",
+      "group": "passage-11",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The daughter finds her notebook.\" What does she find? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "笔记本"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-passage-11-8",
+      "group": "passage-11",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Read \"The daughter finds her notebook.\" What does she find? 请用中文回答。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "笔记本"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-0-3",
+      "group": "preference-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I enjoy origami."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-0-8",
+      "group": "preference-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I enjoy origami."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-1-3",
+      "group": "preference-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite snack is chestnuts."
+        },
+        {
+          "role": "user",
+          "content": "Did I say chestnuts are my favourite snack?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "chestnuts"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-1-8",
+      "group": "preference-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite snack is chestnuts."
+        },
+        {
+          "role": "user",
+          "content": "Did I say chestnuts are my favourite snack?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "chestnuts"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-2-3",
+      "group": "preference-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like owls."
+        },
+        {
+          "role": "user",
+          "content": "Have I said owls are my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-2-8",
+      "group": "preference-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like owls."
+        },
+        {
+          "role": "user",
+          "content": "Have I said owls are my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-3-3",
+      "group": "preference-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite sport is wrestling."
+        },
+        {
+          "role": "user",
+          "content": "My favourite fruit is cherries."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite sport now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "cherries"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-3-8",
+      "group": "preference-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite sport is wrestling."
+        },
+        {
+          "role": "user",
+          "content": "My favourite fruit is cherries."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite sport now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "cherries"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-4-3",
+      "group": "preference-4",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is brown."
+        },
+        {
+          "role": "user",
+          "content": "Now my favourite colour is white."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "white"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-4-8",
+      "group": "preference-4",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is brown."
+        },
+        {
+          "role": "user",
+          "content": "Now my favourite colour is white."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "white"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-5-3",
+      "group": "preference-5",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My aunt said \"My favourite food is bread.\""
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-5-8",
+      "group": "preference-5",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My aunt said \"My favourite food is bread.\""
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-6-3",
+      "group": "preference-6",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢吃面包。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的食物是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-6-8",
+      "group": "preference-6",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢吃面包。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的食物是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-7-3",
+      "group": "preference-7",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的运动是游泳。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的运动是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "游泳"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-preference-7-8",
+      "group": "preference-7",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的运动是游泳。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的运动是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "游泳"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-0-3",
+      "group": "identity-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me your age, Kitty, please."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-0-8",
+      "group": "identity-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me your age, Kitty, please."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-1-3",
+      "group": "identity-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really a nine-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-1-8",
+      "group": "identity-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really a nine-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-2-3",
+      "group": "identity-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you right now, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-2-8",
+      "group": "identity-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you right now, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-3-3",
+      "group": "identity-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is your real birthday?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-3-8",
+      "group": "identity-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is your real birthday?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-4-3",
+      "group": "identity-4",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned twelve yet?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-4-8",
+      "group": "identity-4",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned twelve yet?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-5-3",
+      "group": "identity-5",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "When were you born, Kitty the AI cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-5-8",
+      "group": "identity-5",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "When were you born, Kitty the AI cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-6-3",
+      "group": "identity-6",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你到底几岁了？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-6-8",
+      "group": "identity-6",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你到底几岁了？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-7-3",
+      "group": "identity-7",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你的真正生日是哪天？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-identity-7-8",
+      "group": "identity-7",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你的真正生日是哪天？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-carrot-3",
+      "group": "glossary-carrot",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"carrot\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "胡萝卜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-carrot-8",
+      "group": "glossary-carrot",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"carrot\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "胡萝卜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-potato-3",
+      "group": "glossary-potato",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"potato\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "土豆|马铃薯"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-potato-8",
+      "group": "glossary-potato",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"potato\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "土豆|马铃薯"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-grape-3",
+      "group": "glossary-grape",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"grape\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "葡萄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-grape-8",
+      "group": "glossary-grape",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"grape\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "葡萄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-onion-3",
+      "group": "glossary-onion",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"onion\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "洋葱"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-onion-8",
+      "group": "glossary-onion",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"onion\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "洋葱"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-peach-3",
+      "group": "glossary-peach",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"peach\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "桃"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-peach-8",
+      "group": "glossary-peach",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"peach\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "桃"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-pear-3",
+      "group": "glossary-pear",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"pear\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "梨"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-pear-8",
+      "group": "glossary-pear",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"pear\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "梨"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-lemon-3",
+      "group": "glossary-lemon",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"lemon\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "柠檬"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-lemon-8",
+      "group": "glossary-lemon",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"lemon\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "柠檬"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-bean-3",
+      "group": "glossary-bean",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"bean\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "豆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-glossary-bean-8",
+      "group": "glossary-bean",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me the Chinese meaning of \"bean\"."
+        }
+      ],
+      "checks": {
+        "required": [
+          "豆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-human-3",
+      "group": "control-human",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The woman Iris is twenty-nine. How old is Iris?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "twenty.nine|29"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-human-8",
+      "group": "control-human",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The woman Iris is twenty-nine. How old is Iris?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "twenty.nine|29"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-self-3",
+      "group": "control-self",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am ten years old now. What is my age now?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "ten|10"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-self-8",
+      "group": "control-self",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am ten years old now. What is my age now?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "ten|10"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-story-3",
+      "group": "control-story",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In a story a robot called Kitty was built five years ago. How long ago was the story robot built?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "five|5"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-story-8",
+      "group": "control-story",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In a story a robot called Kitty was built five years ago. How long ago was the story robot built?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "five|5"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-translate-age-3",
+      "group": "control-translate-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old were you last year?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*去年.*(?:几岁|多大)|去年.*你.*(?:几岁|多大)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-translate-age-8",
+      "group": "control-translate-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old were you last year?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*去年.*(?:几岁|多大)|去年.*你.*(?:几岁|多大)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-translate-name-3",
+      "group": "control-translate-name",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please translate \"Is your name Kitty?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:叫|名字).*Kitty"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-translate-name-8",
+      "group": "control-translate-name",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please translate \"Is your name Kitty?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:叫|名字).*Kitty"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-example-3",
+      "group": "control-example",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does rainy mean in Chinese and give one simple English statement using rainy?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雨",
+          "\\b(?:it|today|the|I|we)\\b.*rainy"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-example-8",
+      "group": "control-example",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does rainy mean in Chinese and give one simple English statement using rainy?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "雨",
+          "\\b(?:it|today|the|I|we)\\b.*rainy"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-unknown-3",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"drelvona\"? Please avoid guessing."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|无法确认|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-unknown-8",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese translation of \"drelvona\"? Please avoid guessing."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|无法确认|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-right-3",
+      "group": "control-right",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 3,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The passage says \"That spelling is right.\" Explain right in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "正确|对"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    },
+    {
+      "id": "release-control-right-8",
+      "group": "control-right",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 8,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The passage says \"That spelling is right.\" Explain right in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "正确|对"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check requested facts and word senses in context; require Chinese when requested. A translated question is allowed to remain a question."
+    }
+  ],
+  "scope": "88 new short passages, word queries and dialogue scenarios; actual Bot text delivery, not audio.",
+  "independence": "No exact grade/history signature in v1, exploratory v2 or confirmation. All previous exposed cases are development/regression only. No changes after execution."
+}

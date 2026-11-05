@@ -1,0 +1,568 @@
+{
+  "variant": "baseline",
+  "mode": "live",
+  "startedUtc": "2026-11-04T05:48:56Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:47:01Z",
+    "casesSha256": "95c30cad7f0991840652689004b7794943f5273ffe850239029023ba7b457ed5",
+    "sources": {
+      "backend/voice_grounding.py": "184a77037787896ca03c485e83cc26f70d92e3f1e813bdff8e0436dfdfb11007",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice-acceptance/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      ".local/bilingual-voice-acceptance/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice-acceptance/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice-acceptance/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice-acceptance/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "harnessSha256": "be6682fb687fb37c2a595976f1ffe632e7e0d208fc62397abfe89dd955ea186b",
+    "model": "qwen2.5:3b Q4_K_M",
+    "measurement": "Final 16 new questions + 2 controls, frozen before inference; two repeats. Earlier 24 and 20 questions promoted to diagnostics. Missing-word clarification counts as failure to complete the intended task, except the deliberately incomplete-word control question. Offline known boundary and paced WebRTC VAD probes reported separately."
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 408.0179580487311,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120586853.242041,
+        "responseReadyMs": 3120586930.4437914,
+        "workerInferenceMs": 74.8,
+        "snapshotEndMediaMs": 2900,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.015,
+        "workerIpcWallMs": 76.745,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 132399674,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8163614006703608,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120587252.7279577,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2800,
+        "fedMediaMs": 3300
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 378.82237462326884,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120590957.533125,
+        "responseReadyMs": 3120591050.650458,
+        "workerInferenceMs": 90.81,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 92.721,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8141091444744012,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120591356.611875,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 382.57620902732015,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120594661.893166,
+        "responseReadyMs": 3120594743.4820833,
+        "workerInferenceMs": 78.74,
+        "snapshotEndMediaMs": 3400,
+        "workerQueueWaitMs": 0.009,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 80.928,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 133101004,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8444560525501438,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120595060.1384997,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3300,
+        "fedMediaMs": 3800
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 395.757291931659,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120598965.231791,
+        "responseReadyMs": 3120599054.633,
+        "workerInferenceMs": 87.0,
+        "snapshotEndMediaMs": 3900,
+        "workerQueueWaitMs": 0.004,
+        "workerStartupMs": 0.006,
+        "workerIpcWallMs": 89.021,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 133581128,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7938455184637464,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120599265.254375,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3800,
+        "fedMediaMs": 4300
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b15",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What is my favorite drink?",
+      "asrMs": 160.48349998891354,
+      "asrDetail": {
+        "text": "What is my favorite drink?",
+        "requestStartedMs": 3120600871.001041,
+        "responseReadyMs": 3120600910.7468753,
+        "workerInferenceMs": 37.83,
+        "snapshotEndMediaMs": 1700,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.014,
+        "workerIpcWallMs": 39.362,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 133969788,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9913240935292241,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120601070.224916,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 3
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 1600,
+        "fedMediaMs": 1900
+      },
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 261.6866659373045,
+      "totalMs": 364.52404083684087,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-acceptance/baseline/b15-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 5.51
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 94.064,
+              "postprocess": 0.674
+            },
+            "memory": {
+              "activeBytes": 164452726,
+              "cacheBytes": 128031508
+            },
+            "inferenceMs": 94.78,
+            "queueWaitMs": 0.017,
+            "startupMs": 0.006,
+            "ipcWallMs": 95.283
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 101.286,
+              "postprocess": 0.664
+            },
+            "memory": {
+              "activeBytes": 164518338,
+              "cacheBytes": 127577328
+            },
+            "inferenceMs": 101.97,
+            "queueWaitMs": 95.229,
+            "startupMs": 0.002,
+            "ipcWallMs": 102.388
+          }
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.0583330653608,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.314542233944,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1300.7315411232412,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "silence",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.548374980688,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b15",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What is my favorite drink?",
+      "asrMs": 160.40408378466964,
+      "asrDetail": {
+        "text": "What is my favorite drink?",
+        "requestStartedMs": 3120620097.3164997,
+        "responseReadyMs": 3120620139.364833,
+        "workerInferenceMs": 40.18,
+        "snapshotEndMediaMs": 1700,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 41.646,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 127023538,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9913240935292241,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120620296.578833,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 3
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 1600,
+        "fedMediaMs": 1900
+      },
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 256.37366715818644,
+      "totalMs": 358.8828342035413,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-acceptance/baseline/b15-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.34
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 93.844,
+              "postprocess": 0.655
+            },
+            "memory": {
+              "activeBytes": 164452734,
+              "cacheBytes": 129784128
+            },
+            "inferenceMs": 94.54,
+            "queueWaitMs": 0.011,
+            "startupMs": 0.01,
+            "ipcWallMs": 95.082
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 100.246,
+              "postprocess": 0.665
+            },
+            "memory": {
+              "activeBytes": 164534806,
+              "cacheBytes": 131544770
+            },
+            "inferenceMs": 100.93,
+            "queueWaitMs": 94.98,
+            "startupMs": 0.002,
+            "ipcWallMs": 101.355
+          }
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 395.7569170743227,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120624398.091125,
+        "responseReadyMs": 3120624489.3130407,
+        "workerInferenceMs": 87.94,
+        "snapshotEndMediaMs": 3900,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.01,
+        "workerIpcWallMs": 90.505,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 133369670,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7938455184637464,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120624697.959166,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3800,
+        "fedMediaMs": 4300
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 383.4462910890579,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120628004.2740407,
+        "responseReadyMs": 3120628085.34525,
+        "workerInferenceMs": 77.06,
+        "snapshotEndMediaMs": 3400,
+        "workerQueueWaitMs": 0.008,
+        "workerStartupMs": 0.014,
+        "workerIpcWallMs": 80.409,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 134210934,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8444560525501438,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120628403.411916,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3300,
+        "fedMediaMs": 3800
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 378.82466707378626,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120632107.443791,
+        "responseReadyMs": 3120632207.746291,
+        "workerInferenceMs": 97.6,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.012,
+        "workerStartupMs": 0.016,
+        "workerIpcWallMs": 99.564,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 134123308,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8141091444744012,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120632505.9542913,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 407.39354211837053,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120635312.4823327,
+        "responseReadyMs": 3120635385.521208,
+        "workerInferenceMs": 71.3,
+        "snapshotEndMediaMs": 2900,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 72.695,
+        "workerMemory": {
+          "activeBytes": 785640460,
+          "cacheBytes": 133390202,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8163614006703608,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120635710.90425,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2800,
+        "fedMediaMs": 3300
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 4356.103791855276,
+  "completedUtc": "2026-11-04T05:49:52Z"
+}

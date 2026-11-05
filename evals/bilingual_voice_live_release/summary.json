@@ -1,0 +1,233 @@
+{
+  "offline": {
+    "baseline": {
+      "uniqueTasks": 12,
+      "trials": 24,
+      "completed": 4,
+      "completionPercent": 16.67,
+      "allRepliesLatency": {
+        "n": 8,
+        "p50Ms": 291.17,
+        "p95Ms": 599.44
+      },
+      "completedOnlyLatency": {
+        "n": 4,
+        "p50Ms": 175.4,
+        "p95Ms": 563.01
+      },
+      "prematureEndpointTrials": 0,
+      "repairTrials": 0,
+      "inputTaskPreservationTrials": 8,
+      "asrActiveBytesMax": 785656844
+    },
+    "candidate": {
+      "uniqueTasks": 12,
+      "trials": 24,
+      "completed": 18,
+      "completionPercent": 75.0,
+      "allRepliesLatency": {
+        "n": 24,
+        "p50Ms": 662.24,
+        "p95Ms": 819.56
+      },
+      "completedOnlyLatency": {
+        "n": 18,
+        "p50Ms": 646.12,
+        "p95Ms": 844.19
+      },
+      "prematureEndpointTrials": 0,
+      "repairTrials": 0,
+      "inputTaskPreservationTrials": 18,
+      "asrActiveBytesMax": 2479981938
+    }
+  },
+  "live": {
+    "baseline": {
+      "uniqueTasks": 6,
+      "trials": 12,
+      "completed": 0,
+      "completionPercent": 0.0,
+      "allRepliesLatency": {
+        "n": 4,
+        "p50Ms": 472.9,
+        "p95Ms": 496.75
+      },
+      "completedOnlyLatency": {
+        "n": 0,
+        "p50Ms": null,
+        "p95Ms": null
+      },
+      "prematureEndpointTrials": 0,
+      "repairTrials": 0,
+      "inputTaskPreservationTrials": 4,
+      "asrActiveBytesMax": 0
+    },
+    "candidate": {
+      "uniqueTasks": 6,
+      "trials": 12,
+      "completed": 8,
+      "completionPercent": 66.67,
+      "allRepliesLatency": {
+        "n": 12,
+        "p50Ms": 991.53,
+        "p95Ms": 1711.66
+      },
+      "completedOnlyLatency": {
+        "n": 8,
+        "p50Ms": 913.71,
+        "p95Ms": 1758.22
+      },
+      "prematureEndpointTrials": 0,
+      "repairTrials": 2,
+      "inputTaskPreservationTrials": 8,
+      "asrActiveBytesMax": 0
+    }
+  },
+  "sourceAudit": {
+    "backend/voice_grounding.py": true,
+    "backend/voice_prompt.py": true,
+    "backend/providers/speech_local.py": true,
+    "scripts/local_speech_worker.py": true,
+    "backend/english_chat.py": true,
+    "backend/reply_sentences.py": true,
+    "backend/curriculum_chat.py": true
+  },
+  "offlineStageSourceAudit": {
+    "backend/voice_grounding.py": true,
+    "backend/voice_prompt.py": true,
+    "scripts/local_speech_worker.py": true,
+    "backend/english_chat.py": true,
+    "backend/reply_sentences.py": true,
+    "backend/curriculum_chat.py": true
+  },
+  "onlyUnusedOfflineProviderChangeIsEndpoint": true,
+  "localService": {
+    "pid": 7366,
+    "startedAt": "2026-11-04T06:03:58.090617+00:00",
+    "healthy": true,
+    "active": 0,
+    "warmup": {
+      "local_chat": 248.55,
+      "asr": 2386.72,
+      "tts": 5687.95
+    }
+  },
+  "model": {
+    "name": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M"
+    },
+    "context_length": 4096
+  },
+  "endpointRegression": {
+    "id": "b10",
+    "repeat": "endpoint-regression",
+    "mode": "live",
+    "language": "en",
+    "recognized": "What does doctor mean in Chinese? Please give one English example.",
+    "asrMs": 381.62037497386336,
+    "asrDetail": {
+      "text": "What does doctor mean in Chinese? Please give one English example.",
+      "requestStartedMs": 3121662005.747875,
+      "responseReadyMs": 3121662093.978458,
+      "workerInferenceMs": 84.08,
+      "snapshotEndMediaMs": 4300,
+      "workerQueueWaitMs": 0.008,
+      "workerStartupMs": 0.017,
+      "workerIpcWallMs": 87.485,
+      "workerMemory": {
+        "activeBytes": 2479981938,
+        "cacheBytes": 0,
+        "quantizationBits": 8
+      },
+      "confidence": 0.9962930926065228,
+      "engine": "parakeet",
+      "language": "en",
+      "endpointReachedMs": 3121662403.4642906,
+      "speculative": true,
+      "endpointSilenceMs": 500,
+      "endpointReason": "compound_request_window",
+      "snapshotRequests": 8
+    },
+    "endpoint": {
+      "startMediaMs": 100,
+      "endMediaMs": 4200,
+      "fedMediaMs": 4700
+    },
+    "text": "doctor 的意思是“医生”。 例如：The doctor told me to take the medicine three times a day.",
+    "firstAudioMs": 1154.0670418180525,
+    "totalMs": 1380.4606250487268,
+    "audioSeconds": 9.805,
+    "output": ".local/bilingual-voice-final/candidate/b10-live-endpoint-regression.wav",
+    "timing": {
+      "localAdmissionWaitMs": 0,
+      "providerRequestMs": 41.31,
+      "promptChars": 1576,
+      "systemPromptChars": 1510,
+      "historyMessages": 1,
+      "connectionReused": false,
+      "connectionReadyMs": 50.82,
+      "providerHeadersMs": 331.74,
+      "providerFirstTokenMs": 331.76,
+      "modelLoadMs": 17.286,
+      "promptEvalMs": 244.597,
+      "tokenGenerationMs": 241.92,
+      "promptTokens": 650,
+      "generatedTokens": 22,
+      "firstSentenceReadyMs": 578.16,
+      "firstSentenceChars": 17,
+      "firstSpeechTextReadyMs": 578.16
+    },
+    "speech": [
+      {
+        "text": "doctor 的意思是“医生”。",
+        "detail": {
+          "id": 1,
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 191.43,
+            "postprocess": 1.443
+          },
+          "memory": {
+            "activeBytes": 165255534,
+            "cacheBytes": 0
+          },
+          "inferenceMs": 192.91,
+          "queueWaitMs": 0.003,
+          "startupMs": 0.004,
+          "ipcWallMs": 193.702
+        }
+      },
+      {
+        "text": " 例如：The doctor told me to take the medicine three times a day.",
+        "detail": {
+          "id": 2,
+          "sampleRate": 16000,
+          "engine": "mlx-bf16",
+          "stageMs": {
+            "generation": 223.634,
+            "postprocess": 1.146
+          },
+          "memory": {
+            "activeBytes": 165386758,
+            "cacheBytes": 130529992
+          },
+          "inferenceMs": 224.8,
+          "queueWaitMs": 193.31,
+          "startupMs": 0.002,
+          "ipcWallMs": 225.713
+        }
+      }
+    ],
+    "notes": "Previously observed 300ms inter-clause pause; development regression only, excluded from independent quality and latency."
+  }
+}

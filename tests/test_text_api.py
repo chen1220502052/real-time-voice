@@ -117,7 +117,8 @@ def test_text_only_mode_disables_voice_without_warming_models():
     async def run():
         def forbidden():
             raise AssertionError("Audio factory must not be called")
-        app = create_app(asr_factory=forbidden, tts_factory=forbidden, voice_enabled=False)
+        app = create_app(asr_factory=forbidden, tts_factory=forbidden, voice_enabled=False,
+                         bot_state_path=":memory:")
         runner = web.AppRunner(app)
         await runner.setup()
         site = web.TCPSite(runner, "127.0.0.1", 0)

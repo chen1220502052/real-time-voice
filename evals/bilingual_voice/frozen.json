@@ -1,0 +1,26 @@
+{
+  "frozenUtc": "2026-11-04T05:33:29Z",
+  "casesSha256": "aa78e5a6ea77384efaf560ac7062c76006b14f05bbda392064b35a34ba19993b",
+  "sources": {
+    "backend/voice_grounding.py": "8cfd01bb49db7c29936e3c2e4eecb3f77577ba29f79bbf443cea4bf09477b5b5",
+    "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+    "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+    "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+    "backend/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+    "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b"
+  },
+  "baselineSources": {
+    ".local/bilingual-voice/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+    ".local/bilingual-voice/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+    ".local/bilingual-voice/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+    ".local/bilingual-voice/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+  },
+  "machine": "macOS-26.2-arm64-arm-64bit",
+  "model": "qwen2.5:3b",
+  "quantization": "Q4_K_M",
+  "asr": "parakeet 0.6b v3 int8; pinned tiny language ID; Whisper large-v3-turbo fallback",
+  "tts": "same Kokoro82M BF16 weights, af_heart+zf_xiaobei",
+  "cache": "TTS disabled in evaluation",
+  "notes": "Never change product sources based on this holdout without creating a new independent release set. Source and audio SHA256 verified before inference.",
+  "harnessSha256": "31d32867f2e62f9cdd0b3327cf9c7b967c07c567bdb9a7eeafdf12dfaf44298f"
+}

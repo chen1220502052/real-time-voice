@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "description": "Small source-backed additions missing from bundled curriculum and supplemental packs; not textbook evidence.",
+  "entries": [
+    {
+      "word": "peach",
+      "meaning": "桃子；桃红色",
+      "sources": [
+        "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/technology-edu/resources/technology-and-living/TL%20glossary%202018_update%202022_final.pdf",
+        "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/peach?q=peaches"
+      ],
+      "checkedOn": "2026-11-03",
+      "kind": "external_dictionary_supplement_not_current_textbook"
+    },
+    {
+      "word": "cherry", "meaning": "樱桃", "aliases": ["cherries"],
+      "sources": ["https://www.collinsdictionary.com/dictionary/english-chinese/cherry"],
+      "checkedOn": "2026-11-03", "kind": "external_dictionary_supplement_not_current_textbook"
+    },
+    {
+      "word": "goose", "meaning": "鹅", "aliases": ["geese"],
+      "sources": ["https://dictionary.cambridge.org/te/dictionary/chinese-simplified-english/%E9%B9%85"],
+      "checkedOn": "2026-11-03", "kind": "external_dictionary_supplement_not_current_textbook"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "w01-natural",
+    "chapterId": "3e293e1728a984c53a873707",
+    "wordCount": 30,
+    "instruction": "写教室里三件不同颜色的物品，并说最喜欢哪种颜色。",
+    "rubric": "三件物品颜色清楚；明确最喜欢的颜色。",
+    "mode": "natural"
+  },
+  {
+    "id": "w01-textbook",
+    "chapterId": "3e293e1728a984c53a873707",
+    "wordCount": 30,
+    "instruction": "写教室里三件不同颜色的物品，并说最喜欢哪种颜色。",
+    "rubric": "三件物品颜色清楚；明确最喜欢的颜色。",
+    "mode": "textbook"
+  },
+  {
+    "id": "w01-strict",
+    "chapterId": "3e293e1728a984c53a873707",
+    "wordCount": 30,
+    "instruction": "写教室里三件不同颜色的物品，并说最喜欢哪种颜色。",
+    "rubric": "三件物品颜色清楚；明确最喜欢的颜色。",
+    "mode": "strict"
+  },
+  {
+    "id": "w02-natural",
+    "chapterId": "c514e31d0569aabf56bded13",
+    "wordCount": 35,
+    "instruction": "介绍一个虚构家庭，写两位家人及一件一起做的事。",
+    "rubric": "有两位家人和共同活动，关系清楚。",
+    "mode": "natural"
+  },
+  {
+    "id": "w02-textbook",
+    "chapterId": "c514e31d0569aabf56bded13",
+    "wordCount": 35,
+    "instruction": "介绍一个虚构家庭，写两位家人及一件一起做的事。",
+    "rubric": "有两位家人和共同活动，关系清楚。",
+    "mode": "textbook"
+  },
+  {
+    "id": "w03-natural",
+    "chapterId": "5175e30ef6f5f8a4933bdd06",
+    "wordCount": 40,
+    "instruction": "写去动物园时看见的两种动物，描述其中一种动物的动作。",
+    "rubric": "两种动物，至少一个具体动作，聚焦动物园。",
+    "mode": "natural"
+  },
+  {
+    "id": "w03-textbook",
+    "chapterId": "5175e30ef6f5f8a4933bdd06",
+    "wordCount": 40,
+    "instruction": "写去动物园时看见的两种动物，描述其中一种动物的动作。",
+    "rubric": "两种动物，至少一个具体动作，聚焦动物园。",
+    "mode": "textbook"
+  },
+  {
+    "id": "w03-strict",
+    "chapterId": "5175e30ef6f5f8a4933bdd06",
+    "wordCount": 40,
+    "instruction": "写去动物园时看见的两种动物，描述其中一种动物的动作。",
+    "rubric": "两种动物，至少一个具体动作，聚焦动物园。",
+    "mode": "strict"
+  },
+  {
+    "id": "w04-natural",
+    "chapterId": "2259e1a7a6125c85bf8e552b",
+    "wordCount": 45,
+    "instruction": "介绍学校里喜欢的一个地方，写在哪里、在那里做什么，以及为什么喜欢。",
+    "rubric": "地点、活动、理由都清楚。",
+    "mode": "natural"
+  },
+  {
+    "id": "w04-textbook",
+    "chapterId": "2259e1a7a6125c85bf8e552b",
+    "wordCount": 45,
+    "instruction": "介绍学校里喜欢的一个地方，写在哪里、在那里做什么，以及为什么喜欢。",
+    "rubric": "地点、活动、理由都清楚。",
+    "mode": "textbook"
+  },
+  {
+    "id": "w05-natural",
+    "chapterId": "3557eb704fe75fc9ccab4c4a",
+    "wordCount": 50,
+    "instruction": "介绍一项和朋友一起做的运动，说明什么时候玩、朋友擅长什么。",
+    "rubric": "同一项运动，时间及朋友特长。",
+    "mode": "natural"
+  },
+  {
+    "id": "w05-textbook",
+    "chapterId": "3557eb704fe75fc9ccab4c4a",
+    "wordCount": 50,
+    "instruction": "介绍一项和朋友一起做的运动，说明什么时候玩、朋友擅长什么。",
+    "rubric": "同一项运动，时间及朋友特长。",
+    "mode": "textbook"
+  },
+  {
+    "id": "w05-strict",
+    "chapterId": "3557eb704fe75fc9ccab4c4a",
+    "wordCount": 50,
+    "instruction": "介绍一项和朋友一起做的运动，说明什么时候玩、朋友擅长什么。",
+    "rubric": "同一项运动，时间及朋友特长。",
+    "mode": "strict"
+  },
+  {
+    "id": "w06-natural",
+    "chapterId": "0500d50509c2f1f6668a11d6",
+    "wordCount": 55,
+    "instruction": "写一顿健康早餐：包含一种食物、一种饮料和选择它们的理由。",
+    "rubric": "有食物、饮料及相关的合理理由。",
+    "mode": "natural"
+  },
+  {
+    "id": "w06-textbook",
+    "chapterId": "0500d50509c2f1f6668a11d6",
+    "wordCount": 55,
+    "instruction": "写一顿健康早餐：包含一种食物、一种饮料和选择它们的理由。",
+    "rubric": "有食物、饮料及相关的合理理由。",
+    "mode": "textbook"
+  },
+  {
+    "id": "w07-natural",
+    "chapterId": "cf78e57e1753364f3e6059d0",
+    "wordCount": 60,
+    "instruction": "写周末在家帮忙，按顺序描述两件家务，以及做完后的感受。",
+    "rubric": "两件家务有顺序、结尾有感受。",
+    "mode": "natural"
+  },
+  {
+    "id": "w07-textbook",
+    "chapterId": "cf78e57e1753364f3e6059d0",
+    "wordCount": 60,
+    "instruction": "写周末在家帮忙，按顺序描述两件家务，以及做完后的感受。",
+    "rubric": "两件家务有顺序、结尾有感受。",
+    "mode": "textbook"
+  },
+  {
+    "id": "w07-strict",
+    "chapterId": "cf78e57e1753364f3e6059d0",
+    "wordCount": 60,
+    "instruction": "写周末在家帮忙，按顺序描述两件家务，以及做完后的感受。",
+    "rubric": "两件家务有顺序、结尾有感受。",
+    "mode": "strict"
+  },
+  {
+    "id": "w08-natural",
+    "chapterId": "426d98de059169e88faac504",
+    "wordCount": 65,
+    "instruction": "写一个下雨的周末计划，解释为什么改成室内活动，并写两件打算做的事。",
+    "rubric": "下雨、改计划理由、两项室内活动、将来计划。",
+    "mode": "natural"
+  },
+  {
+    "id": "w08-textbook",
+    "chapterId": "426d98de059169e88faac504",
+    "wordCount": 65,
+    "instruction": "写一个下雨的周末计划，解释为什么改成室内活动，并写两件打算做的事。",
+    "rubric": "下雨、改计划理由、两项室内活动、将来计划。",
+    "mode": "textbook"
+  }
+]

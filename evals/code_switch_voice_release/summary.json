@@ -1,0 +1,182 @@
+{
+  "general-offline": {
+    "baseline": {
+      "tasks": 32,
+      "taskPass": 16,
+      "taskPercent": 50.0,
+      "mixedTrials": 24,
+      "mixedTargetsRetained": 8,
+      "mixedTargetRetentionPercent": 33.33,
+      "allResponsesLatency": {
+        "n": 32,
+        "p50Ms": 704.42,
+        "p95Ms": 1454.24
+      },
+      "completedOnlyLatency": {
+        "n": 16,
+        "p50Ms": 684.89,
+        "p95Ms": 1376.85
+      },
+      "errors": 0,
+      "repairs": 2,
+      "noiseControls": {
+        "n": 0,
+        "clean": 0
+      }
+    },
+    "candidate": {
+      "tasks": 32,
+      "taskPass": 23,
+      "taskPercent": 71.88,
+      "mixedTrials": 24,
+      "mixedTargetsRetained": 14,
+      "mixedTargetRetentionPercent": 58.33,
+      "allResponsesLatency": {
+        "n": 32,
+        "p50Ms": 371.06,
+        "p95Ms": 1135.91
+      },
+      "completedOnlyLatency": {
+        "n": 23,
+        "p50Ms": 550.65,
+        "p95Ms": 1305.49
+      },
+      "errors": 0,
+      "repairs": 2,
+      "noiseControls": {
+        "n": 0,
+        "clean": 0
+      }
+    }
+  },
+  "general-live": {
+    "baseline": {
+      "tasks": 8,
+      "taskPass": 3,
+      "taskPercent": 37.5,
+      "mixedTrials": 6,
+      "mixedTargetsRetained": 1,
+      "mixedTargetRetentionPercent": 16.67,
+      "allResponsesLatency": {
+        "n": 8,
+        "p50Ms": 760.37,
+        "p95Ms": 1404.59
+      },
+      "completedOnlyLatency": {
+        "n": 3,
+        "p50Ms": 755.62,
+        "p95Ms": 1553.27
+      },
+      "errors": 0,
+      "repairs": 1,
+      "noiseControls": {
+        "n": 3,
+        "clean": 3
+      }
+    },
+    "candidate": {
+      "tasks": 8,
+      "taskPass": 5,
+      "taskPercent": 62.5,
+      "mixedTrials": 6,
+      "mixedTargetsRetained": 3,
+      "mixedTargetRetentionPercent": 50.0,
+      "allResponsesLatency": {
+        "n": 8,
+        "p50Ms": 979.42,
+        "p95Ms": 1516.77
+      },
+      "completedOnlyLatency": {
+        "n": 5,
+        "p50Ms": 1015.28,
+        "p95Ms": 1622.59
+      },
+      "errors": 0,
+      "repairs": 1,
+      "noiseControls": {
+        "n": 3,
+        "clean": 3
+      }
+    }
+  },
+  "pause-live": {
+    "baseline": {
+      "tasks": 8,
+      "taskPass": 0,
+      "taskPercent": 0.0,
+      "mixedTrials": 8,
+      "mixedTargetsRetained": 0,
+      "mixedTargetRetentionPercent": 0.0,
+      "allResponsesLatency": {
+        "n": 0,
+        "p50Ms": null,
+        "p95Ms": null
+      },
+      "completedOnlyLatency": {
+        "n": 0,
+        "p50Ms": null,
+        "p95Ms": null
+      },
+      "errors": 0,
+      "repairs": 0,
+      "noiseControls": {
+        "n": 4,
+        "clean": 4
+      },
+      "completeTargetAudioTrials": 0
+    },
+    "candidate": {
+      "tasks": 8,
+      "taskPass": 6,
+      "taskPercent": 75.0,
+      "mixedTrials": 8,
+      "mixedTargetsRetained": 6,
+      "mixedTargetRetentionPercent": 75.0,
+      "allResponsesLatency": {
+        "n": 8,
+        "p50Ms": 788.8,
+        "p95Ms": 855.21
+      },
+      "completedOnlyLatency": {
+        "n": 6,
+        "p50Ms": 788.8,
+        "p95Ms": 857.58
+      },
+      "errors": 0,
+      "repairs": 0,
+      "noiseControls": {
+        "n": 4,
+        "clean": 4
+      },
+      "completeTargetAudioTrials": 8
+    }
+  },
+  "servingSourceAudit": {
+    "scripts/local_speech_worker.py": true,
+    "backend/providers/speech_local.py": true,
+    "backend/providers/speech_worker.py": true,
+    "backend/voice_grounding.py": true,
+    "backend/voice_prompt.py": true,
+    "backend/english_chat.py": true,
+    "backend/curriculum_chat.py": true,
+    "backend/reply_sentences.py": true,
+    "backend/speech_text.py": true,
+    "backend/data/chat/curriculum-vocabulary.json": true,
+    "backend/data/chat/voice-glossary-supplement.json": true
+  },
+  "ordinaryAsrSourceAudit": {
+    "scripts/local_speech_worker.py": true,
+    "backend/providers/speech_worker.py": true,
+    "backend/voice_grounding.py": true,
+    "backend/voice_prompt.py": true,
+    "backend/english_chat.py": true,
+    "backend/curriculum_chat.py": true,
+    "backend/reply_sentences.py": true,
+    "backend/speech_text.py": true,
+    "backend/data/chat/curriculum-vocabulary.json": true,
+    "backend/data/chat/voice-glossary-supplement.json": true
+  },
+  "servingMultilingualEngine": "whisper",
+  "experimentalMultilingualEngine": "qwen3-asr-0.6B, opt-in only; not promoted due substitutions",
+  "dialogue": "qwen2.5:3b, unchanged weights; no fine-tuning"
+}

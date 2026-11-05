@@ -1,0 +1,452 @@
+{
+  "variant": "baseline",
+  "mode": "live",
+  "startedUtc": "2026-11-04T05:52:45Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:51:16Z",
+    "casesSha256": "37d4e58efdc7f37a9b3bc27be1b962378eb51b0cc22223f6a8f4ebc1011ce49c",
+    "sources": {
+      "backend/voice_grounding.py": "702af34150a772ecc4df42b2eae0aa927ab2d41eaee813a4ff034898cb218117",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice-final/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      ".local/bilingual-voice-final/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice-final/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice-final/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice-final/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "harnessSha256": "be6682fb687fb37c2a595976f1ffe632e7e0d208fc62397abfe89dd955ea186b",
+    "model": "qwen2.5:3b Q4_K_M",
+    "measurement": "Final 13 new questions + 2 controls, frozen before inference; two repeats. Earlier 24, 20 and 16 questions promoted to diagnostics. Final product unchanged throughout measurement. Missing-word clarification counts as failure to complete the intended task, except the deliberately incomplete-word control question. Offline known boundary and paced WebRTC VAD probes reported separately."
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 421.33420798927546,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120816563.038708,
+        "responseReadyMs": 3120816656.375833,
+        "workerInferenceMs": 90.42,
+        "snapshotEndMediaMs": 3100,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.015,
+        "workerIpcWallMs": 92.627,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 132513510,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8021362962982015,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120816962.148208,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3000,
+        "fedMediaMs": 3500
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 390.33304154872894,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120820667.129458,
+        "responseReadyMs": 3120820754.192791,
+        "workerInferenceMs": 83.73,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 85.576,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 134211130,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7734685639140455,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120821064.4596252,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 403.6799999885261,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120824369.4395,
+        "responseReadyMs": 3120824458.3554163,
+        "workerInferenceMs": 86.03,
+        "snapshotEndMediaMs": 3400,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 88.312,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7961289297400175,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120824769.096083,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3300,
+        "fedMediaMs": 3800
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does doctor mean in Chinese?",
+      "asrMs": -1918.3777086436749,
+      "asrDetail": {
+        "text": "What does doctor mean in Chinese?",
+        "requestStartedMs": 3120826874.351875,
+        "responseReadyMs": 3120826920.345375,
+        "workerInferenceMs": 43.67,
+        "snapshotEndMediaMs": 2200,
+        "workerQueueWaitMs": 0.005,
+        "workerStartupMs": 0.009,
+        "workerIpcWallMs": 45.368,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9942648160994884,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120827072.231666,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 4
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2100,
+        "fedMediaMs": 2400
+      },
+      "text": "doctor 的意思是“医生”。",
+      "firstAudioMs": -1638.2198752835393,
+      "totalMs": -1637.6619176007807,
+      "audioSeconds": 6.165,
+      "output": ".local/bilingual-voice-final/baseline/b10-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 34.67
+      },
+      "speech": [
+        {
+          "text": "doctor 的意思是“医生”。",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 242.779,
+              "postprocess": 1.296
+            },
+            "memory": {
+              "activeBytes": 164895350,
+              "cacheBytes": 130048142
+            },
+            "inferenceMs": 244.1,
+            "queueWaitMs": 0.01,
+            "startupMs": 0.004,
+            "ipcWallMs": 245.145
+          }
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.288666833192,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1301.2939170002937,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1301.261540967971,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "silence",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.2688329219818,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does doctor mean in Chinese?",
+      "asrMs": -1918.6327909119427,
+      "asrDetail": {
+        "text": "What does doctor mean in Chinese?",
+        "requestStartedMs": 3120846675.1897078,
+        "responseReadyMs": 3120846724.6229577,
+        "workerInferenceMs": 47.87,
+        "snapshotEndMediaMs": 2200,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 49.082,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 130914066,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9942648160994884,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120846872.789541,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 4
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2100,
+        "fedMediaMs": 2400
+      },
+      "text": "doctor 的意思是“医生”。",
+      "firstAudioMs": -1659.4452499412,
+      "totalMs": -1658.8720409199595,
+      "audioSeconds": 6.165,
+      "output": ".local/bilingual-voice-final/baseline/b10-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.26
+      },
+      "speech": [
+        {
+          "text": "doctor 的意思是“医生”。",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 255.644,
+              "postprocess": 1.401
+            },
+            "memory": {
+              "activeBytes": 164895510,
+              "cacheBytes": 130646178
+            },
+            "inferenceMs": 257.1,
+            "queueWaitMs": 0.014,
+            "startupMs": 0.012,
+            "ipcWallMs": 258.441
+          }
+        }
+      ]
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 403.7649999372661,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120850436.069458,
+        "responseReadyMs": 3120850521.885708,
+        "workerInferenceMs": 82.47,
+        "snapshotEndMediaMs": 3400,
+        "workerQueueWaitMs": 0.008,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 85.188,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 132042554,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7961289297400175,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120850835.4890833,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3300,
+        "fedMediaMs": 3800
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 392.11087487637997,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120854541.736916,
+        "responseReadyMs": 3120854635.2191663,
+        "workerInferenceMs": 90.06,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.005,
+        "workerStartupMs": 0.007,
+        "workerIpcWallMs": 92.842,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7734685639140455,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120854941.087041,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4200
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 421.84562515467405,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120857943.9915,
+        "responseReadyMs": 3120858036.592583,
+        "workerInferenceMs": 89.49,
+        "snapshotEndMediaMs": 3100,
+        "workerQueueWaitMs": 0.009,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 91.988,
+        "workerMemory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133912654,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8021362962982015,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120858344.385458,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3000,
+        "fedMediaMs": 3500
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 4485.761875286698,
+  "completedUtc": "2026-11-04T05:53:35Z"
+}

@@ -1,0 +1,2932 @@
+{
+  "kind": "short_essay",
+  "datasetSha256": "a10b9e0c368362b92a326b3e8c023a0bb9e059a76f85f023d7e69398ffb0bd3d",
+  "runs": [
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 79,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 30,
+        "outsideRatio": 0.37037,
+        "outsideWords": [
+          {
+            "word": "bought",
+            "count": 1
+          },
+          {
+            "word": "brought",
+            "count": 1
+          },
+          {
+            "word": "day",
+            "count": 1
+          },
+          {
+            "word": "doctor",
+            "count": 1
+          },
+          {
+            "word": "flew",
+            "count": 1
+          },
+          {
+            "word": "games",
+            "count": 1
+          },
+          {
+            "word": "great",
+            "count": 1
+          },
+          {
+            "word": "had",
+            "count": 2
+          },
+          {
+            "word": "her",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "juice",
+            "count": 1
+          },
+          {
+            "word": "kit",
+            "count": 1
+          },
+          {
+            "word": "kite",
+            "count": 1
+          },
+          {
+            "word": "kites",
+            "count": 1
+          },
+          {
+            "word": "medical",
+            "count": 1
+          },
+          {
+            "word": "nurse",
+            "count": 1
+          },
+          {
+            "word": "park",
+            "count": 1
+          },
+          {
+            "word": "people",
+            "count": 1
+          },
+          {
+            "word": "picnic",
+            "count": 1
+          },
+          {
+            "word": "sandwiches",
+            "count": 1
+          },
+          {
+            "word": "student",
+            "count": 1
+          },
+          {
+            "word": "teacher",
+            "count": 1
+          },
+          {
+            "word": "there",
+            "count": 1
+          },
+          {
+            "word": "time",
+            "count": 1
+          },
+          {
+            "word": "together",
+            "count": 2
+          },
+          {
+            "word": "very",
+            "count": 1
+          },
+          {
+            "word": "went",
+            "count": 1
+          },
+          {
+            "word": "were",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 35,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\": \"My Family\",\n \"essay\": \"This is a family. There are four people in it. My father is a teacher. My mother is a nurse. My brother is a student. My sister is a doctor. One day, we went to the park together. We played games, flew kites, and had a picnic. We were very happy. My father made a kite. My mother bought sandwiches and juice. My sister brought her medical kit. We had a great time together. We are a happy family.\",\n \"glossary\": {\"a: \": \"Some noun or pronoun\" }}",
+        "{\n  \"title\": \"My Family\",\n  \"essay\": \"This is a family. There are four people in it. My father is a teacher. My mother is a nurse. My brother is a student. My sister is a doctor. One day, we went to the park together. We played games, flew kites, and had a picnic. We were very happy. My father made a kite. My mother bought sandwiches and juice. My sister brought her medical kit. We had a great time together. We are a happy family.\",\n  \"glossary\": {\n    \"a: \": \"Some noun or pronoun\",\n    \"bought\": \"buy\",\n    \"brings\": \"bring\",\n    \"day\": \"day\",\n    \"doctor\": \"doctor\",\n    \"flew\": \"fly\",\n    \"games\": \"game\",\n    \"great\": \"great\",\n    \"had\": \"have\",\n    \"her\": \"her\",\n    \"in\": \"in\",\n    \"juice\": \"juice\",\n    \"kit\": \"kit\",\n    \"kite\": \"kite\",\n    \"kites\": \"kite\",\n    \"medical\": \"medical\",\n    \"nurse\": \"nurse\",\n    \"park\": \"park\",\n    \"people\": \"people\",\n    \"picnic\": \"picnic\",\n    \"sandwiches\": \"sandwich\",\n    \"student\": \"student\",\n    \"teacher\": \"teacher\",\n    \"there\": \"there\",\n    \"time\": \"time\",\n    \"together\": \"together\",\n    \"very\": \"very\",\n    \"went\": \"go\",\n    \"were\": \"be\"\n  }\n}",
+        "{\n  \"title\": \"My Family\",\n  \"essay\": \"This is a family. There are four people in it. My father is a teacher. My mother is a nurse. My brother is a student. My sister is a doctor. One day, we went to the park together. We played games, flew kites, and had a picnic. We were very happy. My father made a kite. My mother bought sandwiches and juice. My sister brought her medical kit. We had a great time together. We are a happy family.\",\n  \"glossary\": {\n    \"a: \": \"Some noun or pronoun\",\n    \"bought\": \"buy\",\n    \"brings\": \"bring\",\n    \"day\": \"day\",\n    \"doctor\": \"doctor\",\n    \"flew\": \"fly\",\n    \"games\": \"game\",\n    \"great\": \"great\",\n    \"had\": \"have\",\n    \"her\": \"her\",\n    \"in\": \"in\",\n    \"juice\": \"juice\",\n    \"kit\": \"kit\",\n    \"kites\": \"kite\",\n    \"medical\": \"medical\",\n    \"nurse\": \"nurse\",\n    \"park\": \"park\",\n    \"people\": \"people\",\n    \"picnic\": \"picnic\",\n    \"sandwiches\": \"sandwich\",\n    \"student\": \"student\",\n    \"teacher\": \"teacher\",\n    \"there\": \"there\",\n    \"time\": \"time\",\n    \"together\": \"together\",\n    \"very\": \"very\",\n    \"went\": \"go\",\n    \"were\": \"be\"\n  }\n}"
+      ],
+      "callMs": [
+        2130.47,
+        3942.96,
+        4233.08
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w02-textbook",
+      "totalMs": 10314.39,
+      "timing": {
+        "localAdmissionWaitMs": 0.025,
+        "providerRequestMs": 5.64,
+        "promptChars": 4388,
+        "systemPromptChars": 2506,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 727.18,
+        "providerFirstTokenMs": 727.27,
+        "modelLoadMs": 5.256,
+        "promptEvalMs": 524.972,
+        "tokenGenerationMs": 3697.643,
+        "promptTokens": 1294,
+        "generatedTokens": 339
+      }
+    },
+    {
+      "error": "ValueError",
+      "message": "Local model response was truncated",
+      "model": "qwen2.5:3b",
+      "id": "w03-textbook",
+      "totalMs": 27161.63,
+      "timing": {
+        "localAdmissionWaitMs": 0.027,
+        "providerRequestMs": 2.11,
+        "promptChars": 3003,
+        "systemPromptChars": 2922,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 739.47,
+        "providerFirstTokenMs": 739.49,
+        "modelLoadMs": 4.871,
+        "promptEvalMs": 721.321,
+        "tokenGenerationMs": 26421.268,
+        "promptTokens": 933,
+        "generatedTokens": 2400
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 31,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 7,
+        "outsideRatio": 0.2,
+        "outsideWords": [
+          {
+            "word": "because",
+            "count": 1
+          },
+          {
+            "word": "favorite",
+            "count": 1
+          },
+          {
+            "word": "hang",
+            "count": 1
+          },
+          {
+            "word": "learn",
+            "count": 1
+          },
+          {
+            "word": "out",
+            "count": 1
+          },
+          {
+            "word": "place",
+            "count": 2
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 45,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\": \"My Favorite Place in School\", \"essay\": \"This is a classroom. In the classroom, we are learning. I like this place because it is where I can meet my friends and do my homework. I have fun here and I can also play games with my classmates. The classroom is my favorite place in school.\", \"glossary\": {\"abc\": \"a place where we study and meet friends\", \"apple\": \"a fruit we eat for snacks\", \"arm\": \"a part of our body we use to hold things\", \"art\": \"a subject we learn about colors and shapes\"}}",
+        "{\n  \"title\": \"My Favorite Place in School\",\n  \"essay\": \"This is a classroom. We are learning here. I like this place because it is where I can meet my friends. I have fun here and can play with them. The classroom is my favorite place in school.\",\n  \"glossary\": {\n    \"abc\": \"a place where we study and meet friends\",\n    \"arm\": \"a part of our body we use to hold things\",\n    \"art\": \"a subject we learn about colors and shapes\",\n    \"beautiful\": \"a word to describe something nice and pretty\",\n    \"classroom\": \"a room in school where we learn and meet friends\"\n  }\n}",
+        "{\n  \"title\": \"My Classroom in School\",\n  \"essay\": \"This is a classroom. We study here and meet friends. I like this place because it is where we learn and hang out. The classroom is my favorite place in school.\",\n  \"glossary\": {\n    \"abc\": \"a place where we study and meet friends\",\n    \"arm\": \"a part of our body we use to hold things\",\n    \"art\": \"a subject we learn about colors and shapes\",\n    \"beautiful\": \"a word to describe something nice and pretty\",\n    \"classroom\": \"a room in school where we learn and meet friends\"\n  }\n}"
+      ],
+      "callMs": [
+        2757.19,
+        1762.96,
+        1923.44
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w04-textbook",
+      "totalMs": 6447.84,
+      "timing": {
+        "localAdmissionWaitMs": 0.037,
+        "providerRequestMs": 3.25,
+        "promptChars": 5976,
+        "systemPromptChars": 4764,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "connectionReadyMs": 4.39,
+        "providerHeadersMs": 1384.94,
+        "providerFirstTokenMs": 1384.97,
+        "modelLoadMs": 4.136,
+        "promptEvalMs": 291.909,
+        "tokenGenerationMs": 1621.917,
+        "promptTokens": 1908,
+        "generatedTokens": 137
+      }
+    },
+    {
+      "title": "A Happy Family Day",
+      "essay": "This is a happy family. Mom and Dad are at home. They make a birthday cake for their son. The son is very happy. They have a good time together.",
+      "glossary": {
+        "cake": "蛋糕",
+        "day": "日子",
+        "have": "有",
+        "home": "家",
+        "son": "儿子",
+        "their": "他们的",
+        "they": "他们",
+        "time": "时间",
+        "together": "一起",
+        "very": "非常"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 30,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 12,
+        "outsideRatio": 0.35294,
+        "outsideWords": [
+          {
+            "word": "cake",
+            "count": 1
+          },
+          {
+            "word": "day",
+            "count": 1
+          },
+          {
+            "word": "have",
+            "count": 1
+          },
+          {
+            "word": "home",
+            "count": 1
+          },
+          {
+            "word": "son",
+            "count": 2
+          },
+          {
+            "word": "their",
+            "count": 1
+          },
+          {
+            "word": "they",
+            "count": 2
+          },
+          {
+            "word": "time",
+            "count": 1
+          },
+          {
+            "word": "together",
+            "count": 1
+          },
+          {
+            "word": "very",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 35,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 0,
+      "drafts": [
+        "{\"title\":\"A Happy Family Day\",\"essay\":\"This is a happy family. Mom and Dad are at home. They make a birthday cake for their son. The son is very happy. They have a good time together.\"}"
+      ],
+      "callMs": [
+        1158.14,
+        998.33
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w02-natural",
+      "totalMs": 2161.84,
+      "timing": {
+        "localAdmissionWaitMs": 0.01,
+        "providerRequestMs": 2.8,
+        "promptChars": 411,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 616.9,
+        "providerFirstTokenMs": 616.96,
+        "modelLoadMs": 4.298,
+        "promptEvalMs": 142.916,
+        "tokenGenerationMs": 846.792,
+        "promptTokens": 117,
+        "generatedTokens": 74
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": null,
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"English title\",\"essay\":\"I'm going to the zoo. I see a big tiger. The tiger is walking. It's walking on its legs. It's very cool.\"}",
+        "{\"title\":\"English title\",\"essay\":\"I'm going to the zoo. I see a big tiger. The tiger is walking. It's walking on its legs. It's very cool.\"}",
+        "{\"title\":\"English title\",\"essay\":\"I'm going to the zoo. I see a big lion. The lion is walking. It's walking on its legs. It's very cool.\"}"
+      ],
+      "callMs": [
+        1153.22,
+        553.24,
+        508.87
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w03-natural",
+      "totalMs": 2217.5,
+      "timing": {
+        "localAdmissionWaitMs": 0.038,
+        "providerRequestMs": 1.79,
+        "promptChars": 2512,
+        "systemPromptChars": 2214,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 721.4,
+        "providerFirstTokenMs": 721.48,
+        "modelLoadMs": 4.995,
+        "promptEvalMs": 12.554,
+        "tokenGenerationMs": 486.605,
+        "promptTokens": 842,
+        "generatedTokens": 40
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 27,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 3,
+        "outsideRatio": 0.1,
+        "outsideWords": [
+          {
+            "word": "feels",
+            "count": 1
+          },
+          {
+            "word": "helper",
+            "count": 1
+          },
+          {
+            "word": "role",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 60,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{ \"title\": \"Helping At Home\", \"essay\": \"This is a weekend. Amy is at home. She helps her aunt clean the kitchen. Then she washes the dishes. She feels happy. She likes helping. She is a good helper.\", \"glossary\": {} }",
+        "{\n  \"title\": \"Helping At Home\",\n  \"essay\": \"This is a weekend. Amy helps her aunt clean the kitchen. Then she washes the dishes. She enjoys the tasks. She is proud of her efforts.\",\n  \"glossary\": {\n    \"feels\": \"感觉\",\n    \"helper\": \"帮手\"\n  }\n}",
+        "{\n  \"title\": \"Helping At Home\",\n  \"essay\": \"This is a weekend. Amy helps her aunt clean the kitchen. Then she washes the dishes. Amy feels happy about the chores. Amy likes her helper role.\",\n  \"glossary\": {\n    \"feels\": \"感觉\",\n    \"proud\": \"自豪\",\n    \"tasks\": \"任务\"\n  }\n}"
+      ],
+      "callMs": [
+        3488.92,
+        1025.63,
+        1324.13
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w07-strict",
+      "totalMs": 5842.47,
+      "timing": {
+        "localAdmissionWaitMs": 0.018,
+        "providerRequestMs": 3.04,
+        "promptChars": 8413,
+        "systemPromptChars": 7560,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 2775.27,
+        "providerFirstTokenMs": 2775.38,
+        "modelLoadMs": 4.485,
+        "promptEvalMs": 241.438,
+        "tokenGenerationMs": 1068.57,
+        "promptTokens": 2900,
+        "generatedTokens": 83
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 18,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 6,
+        "outsideRatio": 0.27273,
+        "outsideWords": [
+          {
+            "word": "animals",
+            "count": 1
+          },
+          {
+            "word": "observing",
+            "count": 1
+          },
+          {
+            "word": "pumping",
+            "count": 1
+          },
+          {
+            "word": "standing",
+            "count": 1
+          },
+          {
+            "word": "surroundings",
+            "count": 1
+          },
+          {
+            "word": "turning",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 40,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{ \"title\": \"Animals at the Zoo\", \"essay\": \"This is a zoo. There are many animals. Look at the tiger. The tiger is big. It is walking. It is walking slowly. It is walking with its legs. Its tail is moving. It is looking around. It is looking for food.\", \"glossary\": { \"tiger\": \"老虎\", \"walking\": \"行走\", \"legs\": \"腿\", \"tail\": \"尾巴\", \"looking\": \"看\" } }",
+        "{\n  \"title\": \"Animals at the Zoo\",\n  \"essay\": \"This is a zoo. A big tiger is walking. Its legs are moving. Its head is looking. It is looking around.\",\n  \"glossary\": {\n    \"looking\": \"看\",\n    \"legs\": \"腿\",\n    \"head\": \"头\",\n    \"looking around\": \"四处看\"\n  }\n}",
+        "{\n  \"title\": \"Animals at the Zoo\",\n  \"essay\": \"A big tiger is standing. Its legs are pumping. Its head is turning. It is observing its surroundings.\",\n  \"glossary\": {\n    \"standing\": \"站立\",\n    \"pumping\": \"摆动\",\n    \"turning\": \"转动\"\n  }\n}"
+      ],
+      "callMs": [
+        1993.29,
+        1172.64,
+        1156.67
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w03-strict",
+      "totalMs": 4326.28,
+      "timing": {
+        "localAdmissionWaitMs": 0.03,
+        "providerRequestMs": 2.65,
+        "promptChars": 3570,
+        "systemPromptChars": 2693,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 745.74,
+        "providerFirstTokenMs": 745.79,
+        "modelLoadMs": 3.522,
+        "promptEvalMs": 250.616,
+        "tokenGenerationMs": 898.049,
+        "promptTokens": 1090,
+        "generatedTokens": 74
+      }
+    },
+    {
+      "error": "ValueError",
+      "message": "Local model response was truncated",
+      "model": "qwen2.5:3b",
+      "id": "w08-textbook",
+      "totalMs": 32813.25,
+      "timing": {
+        "localAdmissionWaitMs": 0.032,
+        "providerRequestMs": 3.28,
+        "promptChars": 9210,
+        "systemPromptChars": 9122,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 3255.36,
+        "providerFirstTokenMs": 3255.39,
+        "modelLoadMs": 3.93,
+        "promptEvalMs": 3233.846,
+        "tokenGenerationMs": 29554.609,
+        "promptTokens": 3226,
+        "generatedTokens": 2400
+      }
+    },
+    {
+      "title": "English title",
+      "essay": "In my classroom, I have a blue ruler, a red pencil, and a yellow schoolbag. I like yellow best. It's pretty. My favorite color is yellow.",
+      "glossary": {
+        "classroom": "教室",
+        "english": "英语",
+        "favorite": "最喜欢",
+        "have": "有",
+        "in": "在",
+        "like": "喜欢",
+        "pretty": "漂亮的",
+        "title": "标题"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 26,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 8,
+        "outsideRatio": 0.28571,
+        "outsideWords": [
+          {
+            "word": "classroom",
+            "count": 1
+          },
+          {
+            "word": "english",
+            "count": 1
+          },
+          {
+            "word": "favorite",
+            "count": 1
+          },
+          {
+            "word": "have",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "like",
+            "count": 1
+          },
+          {
+            "word": "pretty",
+            "count": 1
+          },
+          {
+            "word": "title",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 30,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 1,
+      "drafts": [
+        "{\"title\":\"教室里的物品\",\"essay\":\"In my classroom, I have a blue ruler, a red pencil and a yellow schoolbag. I like yellow best.\"}",
+        "{\"title\":\"English title\",\"essay\":\"In my classroom, I have a blue ruler, a red pencil, and a yellow schoolbag. I like yellow best. It's pretty. My favorite color is yellow.\"}"
+      ],
+      "callMs": [
+        2912.23,
+        613.39,
+        747.57
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w01-natural",
+      "totalMs": 4279.73,
+      "timing": {
+        "localAdmissionWaitMs": 0.019,
+        "providerRequestMs": 5.8,
+        "promptChars": 393,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 2499.12,
+        "providerFirstTokenMs": 2499.18,
+        "modelLoadMs": 6.857,
+        "promptEvalMs": 136.853,
+        "tokenGenerationMs": 597.716,
+        "promptTokens": 109,
+        "generatedTokens": 50
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": null,
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"English title\",\"essay\":\"Amy and I play basketball after school. Amy is very good at playing basketball. She is always the best player in our class.\"}",
+        "{\"title\":\"English title\",\"essay\":\"Amy and I play basketball after school. She is very good at it and always scores the most points in our class.\"}",
+        "{\"title\":\"English title\",\"essay\":\"Amy and I play basketball after school. She is very good at it and always scores the most points in our class.\"}"
+      ],
+      "callMs": [
+        2063.03,
+        502.05,
+        496.32
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w05-natural",
+      "totalMs": 3063.5,
+      "timing": {
+        "localAdmissionWaitMs": 0.019,
+        "providerRequestMs": 1.56,
+        "promptChars": 4624,
+        "systemPromptChars": 4317,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1628.98,
+        "providerFirstTokenMs": 1629.04,
+        "modelLoadMs": 4.59,
+        "promptEvalMs": 86.618,
+        "tokenGenerationMs": 400.376,
+        "promptTokens": 1630,
+        "generatedTokens": 34
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 40,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 6,
+        "outsideRatio": 0.13953,
+        "outsideWords": [
+          {
+            "word": "feel",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "room",
+            "count": 1
+          },
+          {
+            "word": "sit",
+            "count": 1
+          },
+          {
+            "word": "us",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 35,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"My Happy Family\",\n  \"essay\": \"This is my family. My dad and I are happy. We play with a red ball. The ball is big and round. Dad smiles at me. I laugh too. We run in the garden. The grass is green. It is a nice afternoon.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"My Happy Family\",\n  \"essay\": \"This is my family. My dad and I are happy. We play with a red toy. The toy is nice. Dad looks at me. I feel good too. We sit in the room. It is a fine afternoon for us.\",\n  \"glossary\": {\n    \"toy\": \"玩具\",\n    \"room\": \"房间\"\n  }\n}",
+        "{\n  \"title\": \"My Happy Family\",\n  \"essay\": \"This is my family. My dad and I are happy. We play with a red box. The box is nice. Dad looks at me. I feel good too. We sit in the room. It is a fine afternoon for us.\",\n  \"glossary\": {\n    \"box\": \"盒子\",\n    \"room\": \"房间\"\n  }\n}"
+      ],
+      "callMs": [
+        4761.33,
+        3552.59,
+        3626.74
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w02-textbook",
+      "totalMs": 11948.44,
+      "timing": {
+        "localAdmissionWaitMs": 0.009,
+        "providerRequestMs": 7.38,
+        "promptChars": 3398,
+        "systemPromptChars": 2506,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 2259.13,
+        "providerFirstTokenMs": 2259.16,
+        "modelLoadMs": 5.135,
+        "promptEvalMs": 762.97,
+        "tokenGenerationMs": 2854.398,
+        "promptTokens": 1000,
+        "generatedTokens": 95,
+        "connectionReadyMs": 4769.48
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 40,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 7,
+        "outsideRatio": 0.15909,
+        "outsideWords": [
+          {
+            "word": "animals",
+            "count": 1
+          },
+          {
+            "word": "ball",
+            "count": 1
+          },
+          {
+            "word": "fast",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "moves",
+            "count": 1
+          },
+          {
+            "word": "them",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 40,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"Animals in the Zoo\",\n  \"essay\": \"We go to the zoo today. This is a big tiger. It runs fast and jumps high. That is a small monkey. It eats bananas now. The tiger has orange and black stripes. The monkey has brown fur. We see many animals here.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Animals in the Zoo\",\n  \"essay\": \"We are at the zoo now. This is a big tiger. It runs and jumps. That is a small monkey. It eats food. The tiger has orange stripes. The monkey has brown fur. We look at them.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Animals in the Zoo\",\n  \"essay\": \"We are at the zoo now. This is a big tiger. It moves fast. That is a small monkey. It plays with a ball. The tiger is orange and black. The monkey is brown and cute. We look at them.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        5756.64,
+        2989.63,
+        3017.41
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w03-textbook",
+      "totalMs": 11765.91,
+      "timing": {
+        "localAdmissionWaitMs": 0.012,
+        "providerRequestMs": 1.76,
+        "promptChars": 3815,
+        "systemPromptChars": 2922,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "connectionReadyMs": 2.5,
+        "providerHeadersMs": 3328.72,
+        "providerFirstTokenMs": 3328.74,
+        "modelLoadMs": 4.886,
+        "promptEvalMs": 702.53,
+        "tokenGenerationMs": 2305.102,
+        "promptTokens": 1142,
+        "generatedTokens": 78
+      }
+    },
+    {
+      "title": "My Classroom",
+      "essay": "This is my classroom. It is big and nice. We have many books on the bookshelf. I like to study here. My desk is at the wall. Art class is fun too. We draw shapes there. This room is great for learning.",
+      "glossary": {
+        "learning": "学习",
+        "there": "那里"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 42,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 2,
+        "outsideRatio": 0.04545,
+        "outsideWords": [
+          {
+            "word": "learning",
+            "count": 1
+          },
+          {
+            "word": "there",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 45,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"My Favorite Place in School\",\n  \"essay\": \"This is my classroom. It is big and bright. We have many books on the bookshelf. I like to read here. My desk is near the window. The light is good for reading. Art class is fun too. We draw pictures there. This place is great.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"My Favorite Place\",\n  \"essay\": \"This is my classroom. It is big and nice. We have many books on the bookshelf. I like to study here. My desk is at the wall. Art class is fun too. We draw shapes there. This room is great for learning.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"My Classroom\",\n  \"essay\": \"This is my classroom. It is big and nice. We have many books on the bookshelf. I like to study here. My desk is at the wall. Art class is fun too. We draw shapes there. This room is great for learning.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        6940.64,
+        3445.72,
+        3021.94,
+        819.5
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w04-textbook",
+      "totalMs": 14234.24,
+      "timing": {
+        "localAdmissionWaitMs": 0.016,
+        "providerRequestMs": 4.95,
+        "promptChars": 400,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 4368.24,
+        "providerFirstTokenMs": 4368.27,
+        "modelLoadMs": 3.979,
+        "promptEvalMs": 426.206,
+        "tokenGenerationMs": 368.128,
+        "promptTokens": 110,
+        "generatedTokens": 13,
+        "connectionReadyMs": 10392.56
+      }
+    },
+    {
+      "title": "My Happy Family",
+      "essay": "My family is very happy today. My dad and I play in the garden. We see a cute cat and a big dog. The sun shines warm on us.",
+      "glossary": {
+        "big": "大的",
+        "garden": "花园",
+        "in": "在……里",
+        "on": "在……上",
+        "see": "看见",
+        "shines": "照耀",
+        "sun": "太阳",
+        "today": "今天",
+        "us": "我们",
+        "very": "非常",
+        "warm": "温暖的"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 29,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 11,
+        "outsideRatio": 0.34375,
+        "outsideWords": [
+          {
+            "word": "big",
+            "count": 1
+          },
+          {
+            "word": "garden",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "on",
+            "count": 1
+          },
+          {
+            "word": "see",
+            "count": 1
+          },
+          {
+            "word": "shines",
+            "count": 1
+          },
+          {
+            "word": "sun",
+            "count": 1
+          },
+          {
+            "word": "today",
+            "count": 1
+          },
+          {
+            "word": "us",
+            "count": 1
+          },
+          {
+            "word": "very",
+            "count": 1
+          },
+          {
+            "word": "warm",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 35,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 1,
+      "drafts": [
+        "{\n\"title\": \"My Family Time\",\n\"essay\": \"My family is very happy. My dad and I play in the garden. We see a cute cat and a big dog. The sun shines warm today.\"\n}",
+        "{\n\"title\": \"My Happy Family\",\n\"essay\": \"My family is very happy today. My dad and I play in the garden. We see a cute cat and a big dog. The sun shines warm on us.\"\n}"
+      ],
+      "callMs": [
+        3395.74,
+        1972.56,
+        3322.3
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w02-natural",
+      "totalMs": 8692.89,
+      "timing": {
+        "localAdmissionWaitMs": 0.021,
+        "providerRequestMs": 1.69,
+        "promptChars": 388,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1701.21,
+        "providerFirstTokenMs": 1701.23,
+        "modelLoadMs": 3.468,
+        "promptEvalMs": 430.758,
+        "tokenGenerationMs": 2860.274,
+        "promptTokens": 122,
+        "generatedTokens": 98,
+        "connectionReadyMs": 3398.74
+      }
+    },
+    {
+      "title": "Zoo Visit",
+      "essay": "We went to the zoo today with our family. The giraffe was very tall and ate green leaves slowly. A monkey climbed up a tree quickly and jumped down. It looked funny with its big eyes and small hands.",
+      "glossary": {
+        "ate": "吃",
+        "climbed": "爬",
+        "down": "向下",
+        "funny": "滑稽的",
+        "hands": "手",
+        "jumped": "跳",
+        "leaves": "叶子",
+        "our": "我们的",
+        "quickly": "快速地",
+        "slowly": "缓慢地",
+        "today": "今天",
+        "tree": "树",
+        "up": "向上",
+        "very": "非常",
+        "visit": "参观",
+        "was": "是",
+        "went": "去",
+        "with": "和"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 39,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 19,
+        "outsideRatio": 0.46341,
+        "outsideWords": [
+          {
+            "word": "ate",
+            "count": 1
+          },
+          {
+            "word": "climbed",
+            "count": 1
+          },
+          {
+            "word": "down",
+            "count": 1
+          },
+          {
+            "word": "funny",
+            "count": 1
+          },
+          {
+            "word": "hands",
+            "count": 1
+          },
+          {
+            "word": "jumped",
+            "count": 1
+          },
+          {
+            "word": "leaves",
+            "count": 1
+          },
+          {
+            "word": "our",
+            "count": 1
+          },
+          {
+            "word": "quickly",
+            "count": 1
+          },
+          {
+            "word": "slowly",
+            "count": 1
+          },
+          {
+            "word": "today",
+            "count": 1
+          },
+          {
+            "word": "tree",
+            "count": 1
+          },
+          {
+            "word": "up",
+            "count": 1
+          },
+          {
+            "word": "very",
+            "count": 1
+          },
+          {
+            "word": "visit",
+            "count": 1
+          },
+          {
+            "word": "was",
+            "count": 1
+          },
+          {
+            "word": "went",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 2
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 40,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"Zoo Visit\",\"essay\":\"We went to the zoo today. The giraffe was very tall and ate leaves. A monkey climbed up a tree quickly. It looked funny with its big eyes.\"}",
+        "{\n\"title\": \"Zoo Visit\",\n\"essay\": \"We went to the zoo today. The giraffe was very tall and ate green leaves. A monkey climbed up a tree quickly. It looked funny with its big eyes.\"\n}",
+        "{\n\"title\": \"Zoo Visit\",\n\"essay\": \"We went to the zoo today with our family. The giraffe was very tall and ate green leaves slowly. A monkey climbed up a tree quickly and jumped down. It looked funny with its big eyes and small hands.\"\n}"
+      ],
+      "callMs": [
+        3878.62,
+        1816.78,
+        1988.62,
+        5156.67
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w03-natural",
+      "totalMs": 12845.12,
+      "timing": {
+        "localAdmissionWaitMs": 0.018,
+        "providerRequestMs": 3.41,
+        "promptChars": 529,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 2121.36,
+        "providerFirstTokenMs": 2121.38,
+        "modelLoadMs": 3.341,
+        "promptEvalMs": 484.025,
+        "tokenGenerationMs": 4651.929,
+        "promptTokens": 159,
+        "generatedTokens": 157
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 38,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 0,
+        "outsideRatio": 0.0,
+        "outsideWords": [],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 60,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"Weekend Chores\",\n  \"essay\": \"I am at home on the weekend. I clean the room first. Then I sweep the floor. It is fun to help my mom. The house looks tidy now. I feel happy and tired. We eat dinner together. It is a good day.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Weekend Chores\",\n  \"essay\": \"I am at home on the weekend. I clean the room first. Then I sweep the floor. It is fun to help my mom. The house looks tidy now. We eat dinner together. It is a good day.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Weekend Chores\",\n  \"essay\": \"I am at home on the weekend. I clean the room first. Then I sweep the floor. It is fun to help my mom. The house looks tidy now. We eat dinner together. It is a good day.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        8976.94,
+        2713.3,
+        3313.43
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w07-strict",
+      "totalMs": 15009.86,
+      "timing": {
+        "localAdmissionWaitMs": 0.008,
+        "providerRequestMs": 4.88,
+        "promptChars": 8385,
+        "systemPromptChars": 7560,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 6796.38,
+        "providerFirstTokenMs": 6796.46,
+        "modelLoadMs": 3.964,
+        "promptEvalMs": 574.721,
+        "tokenGenerationMs": 2725.936,
+        "promptTokens": 2888,
+        "generatedTokens": 74
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 28,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 5,
+        "outsideRatio": 0.16129,
+        "outsideWords": [
+          {
+            "word": "animals",
+            "count": 1
+          },
+          {
+            "word": "high",
+            "count": 1
+          },
+          {
+            "word": "jumps",
+            "count": 1
+          },
+          {
+            "word": "many",
+            "count": 1
+          },
+          {
+            "word": "see",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 40,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n\"title\": \"At the Zoo\",\n\"essay\": \"We are at the zoo. Look at the big tiger. It is eating meat. The small monkey jumps high. A cute bird flies near a tree. We see many animals here.\",\n\"glossary\": {}\n}",
+        "{\n\"title\": \"At the Zoo\",\n\"essay\": \"We are at the zoo. Look at the big tiger. It runs fast. The small monkey plays too. A cute bird flies now. We love this place.\",\n\"glossary\": {}\n}",
+        "{\n\"title\": \"At the Zoo\",\n\"essay\": \"We are at the zoo. Look at the big tiger. It jumps high. The small monkey plays too. A cute bird flies now. We see many animals here.\",\n\"glossary\": {}\n}"
+      ],
+      "callMs": [
+        4016.31,
+        2223.9,
+        2158.42
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w03-strict",
+      "totalMs": 8402.43,
+      "timing": {
+        "localAdmissionWaitMs": 0.008,
+        "providerRequestMs": 3.63,
+        "promptChars": 3486,
+        "systemPromptChars": 2693,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 2305.0,
+        "providerFirstTokenMs": 2305.05,
+        "modelLoadMs": 4.153,
+        "promptEvalMs": 565.151,
+        "tokenGenerationMs": 1585.039,
+        "promptTokens": 1060,
+        "generatedTokens": 57
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 49,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 0,
+        "outsideRatio": 0.0,
+        "outsideWords": [],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 65,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"Rainy Weekend Plan\",\n  \"essay\": \"It is raining today. We are not going outside. Look at the dark clouds. This is a good plan for us. First, we will read books in the living room. Second, we will cook dinner together. Cooking is fun and warm. The rain makes the house quiet. We enjoy our time inside. It is a happy weekend.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Rainy Weekend Plan\",\n  \"essay\": \"It is raining today. We stay home now. The weather is bad. First, we read books in the living room. Second, we cook dinner together. Cooking is fun and warm. The rain makes our house quiet. We enjoy our time here. It is a happy weekend for us all.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Rainy Weekend Plan\",\n  \"essay\": \"It is raining today. We stay home now. The weather is bad. First, we read books in the living room. Second, we cook dinner together. Cooking is fun and warm. The rain makes our house quiet. We enjoy our time here. It is a happy weekend for us all.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        11467.23,
+        3111.48,
+        3233.68
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w08-textbook",
+      "totalMs": 17816.04,
+      "timing": {
+        "localAdmissionWaitMs": 0.042,
+        "providerRequestMs": 2.47,
+        "promptChars": 10035,
+        "systemPromptChars": 9122,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 8722.64,
+        "providerFirstTokenMs": 8722.68,
+        "modelLoadMs": 3.731,
+        "promptEvalMs": 648.827,
+        "tokenGenerationMs": 2570.937,
+        "promptTokens": 3426,
+        "generatedTokens": 89
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": null,
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"My Favorite Colors\",\"essay\":\"The schoolbag is blue. The eraser is yellow. The pen is red. I like red best.\"}",
+        "{\"title\":\"My Favorite Colors\",\"essay\":\"The schoolbag is blue and nice. The eraser is yellow and small. The pen is red and cool. I like red best.\"}",
+        "{\"title\":\"My Favorite Colors\",\"essay\":\"The schoolbag is blue and nice. The eraser is yellow and small. The pen is red and cool. I like red best.\"}"
+      ],
+      "callMs": [
+        2320.03,
+        1494.53,
+        1486.32
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w01-natural",
+      "totalMs": 5301.84,
+      "timing": {
+        "localAdmissionWaitMs": 0.008,
+        "providerRequestMs": 0.66,
+        "promptChars": 1812,
+        "systemPromptChars": 1510,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1359.64,
+        "providerFirstTokenMs": 1359.67,
+        "modelLoadMs": 3.655,
+        "promptEvalMs": 355.0,
+        "tokenGenerationMs": 1124.965,
+        "promptTokens": 578,
+        "generatedTokens": 39
+      }
+    },
+    {
+      "title": "Playing Basketball with Amy",
+      "essay": "My friend Amy loves playing basketball very much. We play together in the schoolyard every afternoon after class. She is amazing at shooting the ball into the hoop quickly, but I am good at running fast too. We always have great fun and laugh a lot while we play.",
+      "glossary": {
+        "after": "在...之后",
+        "always": "总是",
+        "every": "每个",
+        "fast": "快地",
+        "hoop": "篮筐",
+        "into": "进入",
+        "laugh": "笑",
+        "quickly": "快速地",
+        "running": "跑",
+        "schoolyard": "操场",
+        "shooting": "投篮",
+        "while": "当...时",
+        "with": "和"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 49,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 13,
+        "outsideRatio": 0.24528,
+        "outsideWords": [
+          {
+            "word": "after",
+            "count": 1
+          },
+          {
+            "word": "always",
+            "count": 1
+          },
+          {
+            "word": "every",
+            "count": 1
+          },
+          {
+            "word": "fast",
+            "count": 1
+          },
+          {
+            "word": "hoop",
+            "count": 1
+          },
+          {
+            "word": "into",
+            "count": 1
+          },
+          {
+            "word": "laugh",
+            "count": 1
+          },
+          {
+            "word": "quickly",
+            "count": 1
+          },
+          {
+            "word": "running",
+            "count": 1
+          },
+          {
+            "word": "schoolyard",
+            "count": 1
+          },
+          {
+            "word": "shooting",
+            "count": 1
+          },
+          {
+            "word": "while",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 50,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"Playing Basketball with My Friend\",\"essay\":\"My friend Amy loves basketball. We play in the schoolyard after school every afternoon. She is very good at shooting the ball. I like to run fast too. It is fun and healthy for us.\"}",
+        "{\"title\":\"Playing Basketball with My Friend\",\"essay\":\"My friend Amy loves playing basketball very much. We play together in the schoolyard every afternoon after class. She is amazing at shooting the ball into the hoop quickly. I like running fast too, and we have great fun.\"}",
+        "{\n\"title\": \"Playing Basketball with Amy\",\n\"essay\": \"My friend Amy loves playing basketball very much. We play together in the schoolyard every afternoon after class. She is amazing at shooting the ball into the hoop quickly, but I am good at running fast too. We always have great fun and laugh a lot while we play.\"\n}"
+      ],
+      "callMs": [
+        5791.8,
+        2125.78,
+        2578.75,
+        4032.11
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w05-natural",
+      "totalMs": 14531.94,
+      "timing": {
+        "localAdmissionWaitMs": 0.019,
+        "providerRequestMs": 1.91,
+        "promptChars": 582,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 4199.57,
+        "providerFirstTokenMs": 4199.61,
+        "modelLoadMs": 3.791,
+        "promptEvalMs": 513.828,
+        "tokenGenerationMs": 3442.798,
+        "promptTokens": 154,
+        "generatedTokens": 118
+      }
+    },
+    {
+      "title": "My Favorite Place",
+      "essay": "I like the library best. It is quiet and full of books. I read stories there every afternoon. The bookshelf has many nice books about animals and space. I love learning new things here with my friends.",
+      "glossary": {
+        "animals": "动物",
+        "every": "每个",
+        "favorite": "最喜爱的",
+        "full": "充满的",
+        "learning": "学习",
+        "place": "地方",
+        "quiet": "安静的",
+        "read": "阅读",
+        "space": "太空",
+        "stories": "故事",
+        "there": "那里",
+        "things": "事情",
+        "with": "和"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 37,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 13,
+        "outsideRatio": 0.325,
+        "outsideWords": [
+          {
+            "word": "animals",
+            "count": 1
+          },
+          {
+            "word": "every",
+            "count": 1
+          },
+          {
+            "word": "favorite",
+            "count": 1
+          },
+          {
+            "word": "full",
+            "count": 1
+          },
+          {
+            "word": "learning",
+            "count": 1
+          },
+          {
+            "word": "place",
+            "count": 1
+          },
+          {
+            "word": "quiet",
+            "count": 1
+          },
+          {
+            "word": "read",
+            "count": 1
+          },
+          {
+            "word": "space",
+            "count": 1
+          },
+          {
+            "word": "stories",
+            "count": 1
+          },
+          {
+            "word": "there",
+            "count": 1
+          },
+          {
+            "word": "things",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 45,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 0,
+      "drafts": [
+        "{\"title\":\"My Favorite Place\",\"essay\":\"I like the library best. It is quiet and full of books. I read stories there every afternoon. The bookshelf has many nice books about animals and space. I love learning new things here with my friends.\"}"
+      ],
+      "callMs": [
+        5516.01,
+        3769.75
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w04-natural",
+      "totalMs": 9289.34,
+      "timing": {
+        "localAdmissionWaitMs": 0.015,
+        "providerRequestMs": 2.42,
+        "promptChars": 509,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 3951.4,
+        "providerFirstTokenMs": 3951.43,
+        "modelLoadMs": 3.536,
+        "promptEvalMs": 510.876,
+        "tokenGenerationMs": 3214.468,
+        "promptTokens": 136,
+        "generatedTokens": 110
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 28,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 3,
+        "outsideRatio": 0.09677,
+        "outsideWords": [
+          {
+            "word": "favorite",
+            "count": 1
+          },
+          {
+            "word": "like",
+            "count": 1
+          },
+          {
+            "word": "me",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 30,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"My Classroom Colors\",\n  \"essay\": \"This is a red pen. That is a blue box. This is a green schoolbag. I like the red color best. It is nice and bright for my desk.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"My Favorite Colors\",\n  \"essay\": \"This is a red pen. That is a blue box. This is a green schoolbag. I love the red color best. It looks nice and cool for my bag.\",\n  \"glossary\": {\n    \"love\": \"爱\"\n  }\n}",
+        "{\n  \"title\": \"My Favorite Colors\",\n  \"essay\": \"This is a red pen. That is a blue box. This is a green schoolbag. I like the red color best. It looks nice and cool for me.\",\n  \"glossary\": {\n    \"like\": \"喜欢\"\n  }\n}"
+      ],
+      "callMs": [
+        3726.81,
+        2800.54,
+        2806.98
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w01-textbook",
+      "totalMs": 9339.65,
+      "timing": {
+        "localAdmissionWaitMs": 0.025,
+        "providerRequestMs": 3.59,
+        "promptChars": 3040,
+        "systemPromptChars": 2218,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1896.71,
+        "providerFirstTokenMs": 1896.75,
+        "modelLoadMs": 3.353,
+        "promptEvalMs": 678.696,
+        "tokenGenerationMs": 2120.281,
+        "promptTokens": 866,
+        "generatedTokens": 73
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 68,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 12,
+        "outsideRatio": 0.16901,
+        "outsideWords": [
+          {
+            "word": "after",
+            "count": 1
+          },
+          {
+            "word": "drink",
+            "count": 1
+          },
+          {
+            "word": "eat",
+            "count": 1
+          },
+          {
+            "word": "food",
+            "count": 2
+          },
+          {
+            "word": "fresh",
+            "count": 1
+          },
+          {
+            "word": "grow",
+            "count": 1
+          },
+          {
+            "word": "inside",
+            "count": 1
+          },
+          {
+            "word": "says",
+            "count": 1
+          },
+          {
+            "word": "soft",
+            "count": 1
+          },
+          {
+            "word": "tastes",
+            "count": 1
+          },
+          {
+            "word": "yummy",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 55,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"Healthy Breakfast\",\n  \"essay\": \"This is a healthy breakfast. I have an egg and some milk. The egg is good for my body. Milk is cool and white. It has lots of vitamins. We eat bread too. Bread is soft and brown. Juice is orange and sweet. It makes me happy. I love this meal. It gives me energy for school.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Good Morning Food\",\n  \"essay\": \"Look at my bag. I have bread and milk inside. Bread is brown and soft. Milk is white and cool. It helps my body grow big. We drink juice too. Juice is orange and yummy. The food is fresh from the farm. Mom cooks it now. It tastes good for me. I am happy to eat this. My mom says it is fine. We go to school after.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Good Morning Food\",\n  \"essay\": \"Look at my bag. I have bread and milk inside. Bread is brown and soft. Milk is white and cool. It helps my body grow big. We drink juice too. Juice is orange and yummy. The food is fresh from the farm. Mom cooks it now. It tastes good for me. I am happy to eat this. My mom says it is fine. We go to school after.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        6097.55,
+        3961.77,
+        3966.92
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w06-textbook",
+      "totalMs": 14029.57,
+      "timing": {
+        "localAdmissionWaitMs": 0.031,
+        "providerRequestMs": 1.45,
+        "promptChars": 5098,
+        "systemPromptChars": 4054,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 3321.0,
+        "providerFirstTokenMs": 3321.11,
+        "modelLoadMs": 3.385,
+        "promptEvalMs": 764.015,
+        "tokenGenerationMs": 3194.599,
+        "promptTokens": 1608,
+        "generatedTokens": 109
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 26,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 1,
+        "outsideRatio": 0.03226,
+        "outsideWords": [
+          {
+            "word": "with",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 50,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"Playing Sports with My Friend\",\n  \"essay\": \"We play basketball in the afternoon. It is fun. My friend Amy can dribble well. She likes the ball. We jump and run together. The game is great.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Playing Sports with My Friend\",\n  \"essay\": \"We play basketball after school. Amy is good at it. She has a big bag. We are happy now. The ball is blue. We jump high.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Playing Sports with My Friend\",\n  \"essay\": \"We play basketball at school. Amy is good at it. She has a big bag. We are happy now. The ball is blue. We jump up.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        6452.71,
+        2430.5,
+        2422.2
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w05-strict",
+      "totalMs": 11310.53,
+      "timing": {
+        "localAdmissionWaitMs": 0.015,
+        "providerRequestMs": 3.96,
+        "promptChars": 5605,
+        "systemPromptChars": 4796,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 4563.03,
+        "providerFirstTokenMs": 4563.08,
+        "modelLoadMs": 3.61,
+        "promptEvalMs": 610.154,
+        "tokenGenerationMs": 1803.442,
+        "promptTokens": 1857,
+        "generatedTokens": 62
+      }
+    },
+    {
+      "title": "Weekend Chores",
+      "essay": "I help my mom at home on weekends. First, I sweep the floor with a broom. It takes some time but keeps our house clean and tidy. Next, I wash the dishes in the kitchen sink. The water is warm and the soap smells nice. After finishing both chores, I feel very happy and proud of myself.",
+      "glossary": {
+        "both": "两者都",
+        "broom": "扫帚",
+        "feel": "感到",
+        "finishing": "完成",
+        "myself": "我自己",
+        "proud": "自豪",
+        "sink": "水槽",
+        "smells": "闻起来",
+        "soap": "肥皂"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 57,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 9,
+        "outsideRatio": 0.15254,
+        "outsideWords": [
+          {
+            "word": "both",
+            "count": 1
+          },
+          {
+            "word": "broom",
+            "count": 1
+          },
+          {
+            "word": "feel",
+            "count": 1
+          },
+          {
+            "word": "finishing",
+            "count": 1
+          },
+          {
+            "word": "myself",
+            "count": 1
+          },
+          {
+            "word": "proud",
+            "count": 1
+          },
+          {
+            "word": "sink",
+            "count": 1
+          },
+          {
+            "word": "smells",
+            "count": 1
+          },
+          {
+            "word": "soap",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 60,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 0,
+      "drafts": [
+        "{\"title\":\"Weekend Chores\",\"essay\":\"I help my mom at home on weekends. First, I sweep the floor with a broom. It takes some time but keeps our house clean and tidy. Next, I wash the dishes in the kitchen sink. The water is warm and the soap smells nice. After finishing both chores, I feel very happy and proud of myself.\"}"
+      ],
+      "callMs": [
+        9234.78,
+        3014.97
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w07-natural",
+      "totalMs": 12258.13,
+      "timing": {
+        "localAdmissionWaitMs": 0.024,
+        "providerRequestMs": 4.28,
+        "promptChars": 548,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 6916.46,
+        "providerFirstTokenMs": 6916.51,
+        "modelLoadMs": 3.392,
+        "promptEvalMs": 514.992,
+        "tokenGenerationMs": 2438.621,
+        "promptTokens": 154,
+        "generatedTokens": 84
+      }
+    },
+    {
+      "title": "Weekend Chores",
+      "essay": "On Saturday morning, I help my mom. First, I sweep the floor with a brush. Then, I wash the dishes in the kitchen. Now, the house is clean and tidy. My mom looks at me. She says I am good. It is fun to do chores together. We are happy.",
+      "glossary": {},
+      "audit": {
+        "passed": true,
+        "wordCount": 50,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 0,
+        "outsideRatio": 0.0,
+        "outsideWords": [],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 60,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 1,
+      "drafts": [
+        "{\n  \"title\": \"Weekend Chores\",\n  \"essay\": \"On Saturday morning, I help my mom. First, I sweep the floor with a broom. Then, I wash the dishes in the kitchen. Now, the house is clean and tidy. My mom smiles at me. She says I am helpful. I feel happy and proud. It is fun to do chores together.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Weekend Chores\",\n  \"essay\": \"On Saturday morning, I help my mom. First, I sweep the floor with a brush. Then, I wash the dishes in the kitchen. Now, the house is clean and tidy. My mom looks at me. She says I am good. It is fun to do chores together. We are happy.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        10019.54,
+        3524.09
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w07-textbook",
+      "totalMs": 13549.23,
+      "timing": {
+        "localAdmissionWaitMs": 0.014,
+        "providerRequestMs": 4.02,
+        "promptChars": 8729,
+        "systemPromptChars": 7789,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 7240.53,
+        "providerFirstTokenMs": 7240.63,
+        "modelLoadMs": 3.972,
+        "promptEvalMs": 707.969,
+        "tokenGenerationMs": 2798.817,
+        "promptTokens": 2969,
+        "generatedTokens": 91
+      }
+    },
+    {
+      "title": "Rainy Weekend Plans",
+      "essay": "It is raining this weekend. We cannot play outside because the weather is bad. So, we will stay inside our warm home. First, I want to read a good book in my bedroom. Second, my sister and I will watch funny cartoons on TV. It is fun to relax at home with hot chocolate. We hope the rain stops soon so we can go to the park again.",
+      "glossary": {
+        "cannot": "不能",
+        "cartoons": "卡通片",
+        "chocolate": "巧克力",
+        "funny": "有趣的",
+        "inside": "室内",
+        "outside": "室外",
+        "stops": "停止"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 68,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 7,
+        "outsideRatio": 0.09859,
+        "outsideWords": [
+          {
+            "word": "cannot",
+            "count": 1
+          },
+          {
+            "word": "cartoons",
+            "count": 1
+          },
+          {
+            "word": "chocolate",
+            "count": 1
+          },
+          {
+            "word": "funny",
+            "count": 1
+          },
+          {
+            "word": "inside",
+            "count": 1
+          },
+          {
+            "word": "outside",
+            "count": 1
+          },
+          {
+            "word": "stops",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 65,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 0,
+      "drafts": [
+        "{\"title\":\"Rainy Weekend Plans\",\"essay\":\"It is raining this weekend. We cannot play outside because the weather is bad. So, we will stay inside our warm home. First, I want to read a good book in my bedroom. Second, my sister and I will watch funny cartoons on TV. It is fun to relax at home with hot chocolate. We hope the rain stops soon so we can go to the park again.\"}"
+      ],
+      "callMs": [
+        10947.3,
+        2522.67
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w08-natural",
+      "totalMs": 13474.74,
+      "timing": {
+        "localAdmissionWaitMs": 0.071,
+        "providerRequestMs": 1.98,
+        "promptChars": 589,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 3.04,
+        "providerHeadersMs": 8251.95,
+        "providerFirstTokenMs": 8252.35,
+        "modelLoadMs": 10.387,
+        "promptEvalMs": 522.586,
+        "tokenGenerationMs": 1934.569,
+        "promptTokens": 157,
+        "generatedTokens": 64
+      }
+    },
+    {
+      "title": "Healthy Breakfast",
+      "essay": "I eat an orange for breakfast. It is full of vitamins and keeps me strong all day. I drink milk because it helps my bones grow tall and healthy. This simple meal gives me energy to run, play, and learn at school every morning.",
+      "glossary": {
+        "all": "全部",
+        "because": "因为",
+        "breakfast": "早餐",
+        "day": "天",
+        "drink": "喝",
+        "eat": "吃",
+        "energy": "精力",
+        "every": "每个",
+        "full": "充满",
+        "gives": "给予",
+        "grow": "生长",
+        "healthy": "健康",
+        "keeps": "保持",
+        "learn": "学习",
+        "meal": "餐",
+        "run": "跑",
+        "simple": "简单",
+        "strong": "强壮",
+        "vitamins": "维生素"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 44,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 21,
+        "outsideRatio": 0.45652,
+        "outsideWords": [
+          {
+            "word": "all",
+            "count": 1
+          },
+          {
+            "word": "because",
+            "count": 1
+          },
+          {
+            "word": "breakfast",
+            "count": 2
+          },
+          {
+            "word": "day",
+            "count": 1
+          },
+          {
+            "word": "drink",
+            "count": 1
+          },
+          {
+            "word": "eat",
+            "count": 1
+          },
+          {
+            "word": "energy",
+            "count": 1
+          },
+          {
+            "word": "every",
+            "count": 1
+          },
+          {
+            "word": "full",
+            "count": 1
+          },
+          {
+            "word": "gives",
+            "count": 1
+          },
+          {
+            "word": "grow",
+            "count": 1
+          },
+          {
+            "word": "healthy",
+            "count": 2
+          },
+          {
+            "word": "keeps",
+            "count": 1
+          },
+          {
+            "word": "learn",
+            "count": 1
+          },
+          {
+            "word": "meal",
+            "count": 1
+          },
+          {
+            "word": "run",
+            "count": 1
+          },
+          {
+            "word": "simple",
+            "count": 1
+          },
+          {
+            "word": "strong",
+            "count": 1
+          },
+          {
+            "word": "vitamins",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 55,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 0,
+      "drafts": [
+        "{\n\"title\": \"Healthy Breakfast\",\n\"essay\": \"I eat an orange for breakfast. It is full of vitamins and keeps me strong all day. I drink milk because it helps my bones grow tall and healthy. This simple meal gives me energy to run, play, and learn at school every morning.\"\n}"
+      ],
+      "callMs": [
+        5239.48,
+        5356.81
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w06-natural",
+      "totalMs": 10600.04,
+      "timing": {
+        "localAdmissionWaitMs": 0.016,
+        "providerRequestMs": 1.61,
+        "promptChars": 583,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "providerHeadersMs": 3287.48,
+        "providerFirstTokenMs": 3287.52,
+        "modelLoadMs": 5.638,
+        "promptEvalMs": 517.377,
+        "tokenGenerationMs": 4787.156,
+        "promptTokens": 164,
+        "generatedTokens": 160,
+        "connectionReadyMs": 5242.91
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 23,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 2,
+        "outsideRatio": 0.07692,
+        "outsideWords": [
+          {
+            "word": "favorite",
+            "count": 1
+          },
+          {
+            "word": "like",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 30,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"My Favorite Color\",\n  \"essay\": \"This is a red pen. That is a blue box. This is a green schoolbag. I like red too. It is my favorite color.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"My Favorite Color\",\n  \"essay\": \"This is a red pen. That is a blue box. This is a green schoolbag. I love red too. It is my favorite color.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"My Favorite Color\",\n  \"essay\": \"This is a red pen. That is a blue box. This is a green schoolbag. I like red too. It is my color.\",\n  \"glossary\": {}\n}"
+      ],
+      "callMs": [
+        3497.89,
+        2302.28,
+        2258.96
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w01-strict",
+      "totalMs": 8061.95,
+      "timing": {
+        "localAdmissionWaitMs": 0.017,
+        "providerRequestMs": 2.11,
+        "promptChars": 2764,
+        "systemPromptChars": 1989,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "connectionReadyMs": 2.75,
+        "providerHeadersMs": 1802.47,
+        "providerFirstTokenMs": 1802.54,
+        "modelLoadMs": 3.581,
+        "promptEvalMs": 599.483,
+        "tokenGenerationMs": 1652.378,
+        "promptTokens": 797,
+        "generatedTokens": 57
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 41,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 6,
+        "outsideRatio": 0.13953,
+        "outsideWords": [
+          {
+            "word": "catch",
+            "count": 1
+          },
+          {
+            "word": "high",
+            "count": 1
+          },
+          {
+            "word": "laugh",
+            "count": 1
+          },
+          {
+            "word": "run",
+            "count": 1
+          },
+          {
+            "word": "well",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 50,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"Playing Basketball\",\n  \"essay\": \"This is a basketball game. We play it in the afternoon at the school park. My friend Tom is good at shooting. He can make many points. I like to pass the ball to him. We run and jump together. It is fun.\",\n  \"glossary\": {}\n}",
+        "{\n  \"title\": \"Playing Basketball\",\n  \"essay\": \"This is a basketball match. We play it in the afternoon at the school park. My friend Tom likes this sport very much. He can score many points well. I like to throw the ball to him. We jump and move together. It is fun.\",\n  \"glossary\": {\n    \"match\": \"比赛\",\n    \"score\": \"得分\",\n    \"throw\": \"投掷\"\n  }\n}",
+        "{\n  \"title\": \"Playing Basketball\",\n  \"essay\": \"We play basketball in the afternoon at the park. My friend Tom is good at this sport. He can catch the ball well. I like to run with him. We jump high and laugh a lot. It is fun for us.\",\n  \"glossary\": {\n    \"well\": \"好地\"\n  }\n}"
+      ],
+      "callMs": [
+        6838.1,
+        3845.97,
+        3300.08
+      ],
+      "model": "qwen3.5:9b",
+      "id": "w05-textbook",
+      "totalMs": 13988.3,
+      "timing": {
+        "localAdmissionWaitMs": 0.063,
+        "providerRequestMs": 2.55,
+        "promptChars": 5996,
+        "systemPromptChars": 5025,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 4574.27,
+        "providerFirstTokenMs": 4574.31,
+        "modelLoadMs": 4.05,
+        "promptEvalMs": 760.024,
+        "tokenGenerationMs": 2528.392,
+        "promptTokens": 1957,
+        "generatedTokens": 86
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": null,
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"English title\",\"essay\":\"I like my classroom. In my classroom, I play with my friends. I like it because it's a fun place to learn and have fun.\"}",
+        "{\"title\":\"English title\",\"essay\":\"I like my classroom. We play games and read books there. It's a fun place to learn and have fun.\"}",
+        "{\"title\":\"English title\",\"essay\":\"I love my classroom. We play games and read books there. It's my favorite place to learn and have fun.\"}"
+      ],
+      "callMs": [
+        2030.84,
+        505.92,
+        529.6
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w04-natural",
+      "totalMs": 3069.04,
+      "timing": {
+        "localAdmissionWaitMs": 0.009,
+        "providerRequestMs": 2.44,
+        "promptChars": 4353,
+        "systemPromptChars": 4056,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1542.03,
+        "providerFirstTokenMs": 1542.08,
+        "modelLoadMs": 5.158,
+        "promptEvalMs": 112.449,
+        "tokenGenerationMs": 407.659,
+        "promptTokens": 1537,
+        "generatedTokens": 34
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 24,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 10,
+        "outsideRatio": 0.35714,
+        "outsideWords": [
+          {
+            "word": "classroom",
+            "count": 1
+          },
+          {
+            "word": "desk",
+            "count": 1
+          },
+          {
+            "word": "has",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "on",
+            "count": 1
+          },
+          {
+            "word": "prefer",
+            "count": 1
+          },
+          {
+            "word": "sits",
+            "count": 1
+          },
+          {
+            "word": "student",
+            "count": 1
+          },
+          {
+            "word": "teacher",
+            "count": 1
+          },
+          {
+            "word": "uses",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 30,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\": \"Colors in the Classroom\", \"essay\": \"This is a classroom. On the teacher's desk, there is a blue pen. On the student's desk, there is a red ruler. In the corner, there is a yellow schoolbag. I like the blue color best. It makes me feel calm and focused.\", \"glossary\": {\"blue:\": \"蓝色\", \"red:\": \"红色\", \"yellow:\": \"黄色\"}}",
+        "{\n  \"title\": \"Colors in the Classroom\",\n  \"essay\": \"This is a classroom. The teacher has a blue pen. The student has a red ruler. There is a yellow schoolbag in the corner. I like the blue color best.\",\n  \"glossary\": {\n    \"blue\": \"蓝色\",\n    \"red\": \"红色\",\n    \"yellow\": \"黄色\"\n  }\n}",
+        "{\n  \"title\": \"Colors in the Classroom\",\n  \"essay\": \"The teacher uses a blue pen. The student has a red ruler. A yellow schoolbag sits on the desk. I prefer the blue color.\",\n  \"glossary\": {\n    \"blue\": \"蓝色\",\n    \"red\": \"红色\",\n    \"yellow\": \"黄色\"\n  }\n}"
+      ],
+      "callMs": [
+        1833.08,
+        1167.84,
+        1167.02
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w01-textbook",
+      "totalMs": 4170.49,
+      "timing": {
+        "localAdmissionWaitMs": 0.035,
+        "providerRequestMs": 1.43,
+        "promptChars": 3142,
+        "systemPromptChars": 2218,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 709.16,
+        "providerFirstTokenMs": 709.21,
+        "modelLoadMs": 4.479,
+        "promptEvalMs": 243.269,
+        "tokenGenerationMs": 914.858,
+        "promptTokens": 885,
+        "generatedTokens": 77
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 66,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 31,
+        "outsideRatio": 0.44928,
+        "outsideWords": [
+          {
+            "word": "all",
+            "count": 1
+          },
+          {
+            "word": "banana",
+            "count": 2
+          },
+          {
+            "word": "blood",
+            "count": 1
+          },
+          {
+            "word": "breakfast",
+            "count": 2
+          },
+          {
+            "word": "calcium",
+            "count": 1
+          },
+          {
+            "word": "delicious",
+            "count": 1
+          },
+          {
+            "word": "egg",
+            "count": 2
+          },
+          {
+            "word": "energized",
+            "count": 1
+          },
+          {
+            "word": "feel",
+            "count": 1
+          },
+          {
+            "word": "full",
+            "count": 1
+          },
+          {
+            "word": "glass",
+            "count": 1
+          },
+          {
+            "word": "healthy",
+            "count": 2
+          },
+          {
+            "word": "important",
+            "count": 1
+          },
+          {
+            "word": "includes",
+            "count": 1
+          },
+          {
+            "word": "meal",
+            "count": 1
+          },
+          {
+            "word": "nutritious",
+            "count": 1
+          },
+          {
+            "word": "potassium",
+            "count": 1
+          },
+          {
+            "word": "pressure",
+            "count": 1
+          },
+          {
+            "word": "protein",
+            "count": 1
+          },
+          {
+            "word": "regulate",
+            "count": 1
+          },
+          {
+            "word": "rich",
+            "count": 1
+          },
+          {
+            "word": "source",
+            "count": 2
+          },
+          {
+            "word": "strong",
+            "count": 1
+          },
+          {
+            "word": "which",
+            "count": 3
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 4,
+          "maxOutsideRatio": 0.05,
+          "targetWords": 55,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\": \"A Healthy Breakfast\", \"essay\": \"This is a healthy breakfast. It includes an egg, a glass of milk, and a banana. The egg is a good source of protein, which helps you feel full and energized. The milk is rich in calcium, which is important for strong bones. The banana is a great source of potassium, which helps regulate your blood pressure. All these together make a delicious and nutritious meal.\", \"glossary\": {\"egg\": \"egg\", \"milk\": \"milk\", \"banana\": \"banana\"}}",
+        "{\n  \"title\": \"A Healthy Breakfast\",\n  \"essay\": \"This is a healthy breakfast. It includes an egg, a glass of milk, and a banana. The egg is a good source of protein, which helps you feel full and energized. The milk is rich in calcium, which is important for strong bones. The banana is a great source of potassium, which helps regulate your blood pressure. All these together make a delicious and nutritious meal.\",\n  \"glossary\": {\n    \"egg\": \"egg\",\n    \"milk\": \"milk\",\n    \"banana\": \"banana\"\n  }\n}",
+        "{\n  \"title\": \"A Healthy Breakfast\",\n  \"essay\": \"This is a healthy breakfast. It includes an egg, a glass of milk, and a banana. The egg is a good source of protein, which helps you feel full and energized. The milk is rich in calcium, which is important for strong bones. The banana is a great source of potassium, which helps regulate your blood pressure. All these together make a delicious and nutritious meal.\",\n  \"glossary\": {\n    \"egg\": \"egg\",\n    \"milk\": \"milk\",\n    \"banana\": \"banana\"\n  }\n}"
+      ],
+      "callMs": [
+        2650.74,
+        1762.76,
+        1892.16
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w06-textbook",
+      "totalMs": 6307.77,
+      "timing": {
+        "localAdmissionWaitMs": 0.019,
+        "providerRequestMs": 1.47,
+        "promptChars": 5346,
+        "systemPromptChars": 4054,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1255.85,
+        "providerFirstTokenMs": 1255.87,
+        "modelLoadMs": 5.135,
+        "promptEvalMs": 345.192,
+        "tokenGenerationMs": 1536.349,
+        "promptTokens": 1655,
+        "generatedTokens": 127
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 23,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 4,
+        "outsideRatio": 0.14286,
+        "outsideWords": [
+          {
+            "word": "after",
+            "count": 1
+          },
+          {
+            "word": "far",
+            "count": 1
+          },
+          {
+            "word": "hit",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 50,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\": \"A Fun Sport with Friends\", \"essay\": \"Amy and Chen are good friends. They like playing volleyball. They play volleyball after school every afternoon. Chen is very good at playing volleyball. He can hit the ball over the net easily. They have a lot of fun playing volleyball together. They love this sport very much.\", \"glossary\": {\"Amy\": \"friend\", \"Chen\": \"friend\", \"afternoon\": \"time\", \"every\": \"time\", \"every\": \"time\", \"play\": \"sport\", \"volleyball\": \"sport\", \"he\": \"friend\", \"easy\": \"do\", \"love\": \"like\"}}",
+        "{\n  \"title\": \"A Fun Sport with Friends\",\n  \"essay\": \"Amy and Chen enjoy playing volleyball. They play it after school every afternoon. Chen is excellent at volleyball. He can easily send the ball over the net. They have lots of fun playing volleyball together. They really like this sport.\",\n  \"glossary\": {\n    \"afternoon\": \"下午\",\n    \"every\": \"每次\",\n    \"play\": \"打\",\n    \"volleyball\": \"排球\"\n  }\n}",
+        "{\n  \"title\": \"A Fun Sport with Friends\",\n  \"essay\": \"Amy and Chen play volleyball after school. Chen is good at it. He can hit the ball far. They have fun playing together.\",\n  \"glossary\": {\n    \"after\": \"之后\",\n    \"good\": \"擅长\",\n    \"hit\": \"击打\"\n  }\n}"
+      ],
+      "callMs": [
+        3446.09,
+        1587.67,
+        1223.74
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w05-strict",
+      "totalMs": 6260.65,
+      "timing": {
+        "localAdmissionWaitMs": 0.033,
+        "providerRequestMs": 1.81,
+        "promptChars": 5853,
+        "systemPromptChars": 4796,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1762.98,
+        "providerFirstTokenMs": 1763.03,
+        "modelLoadMs": 3.928,
+        "promptEvalMs": 287.601,
+        "tokenGenerationMs": 927.13,
+        "promptTokens": 1918,
+        "generatedTokens": 77
+      }
+    },
+    {
+      "title": "English title",
+      "essay": "Amy helped her mom clean the house and make dinner. First, they cleaned the kitchen. Amy wiped the tables and cleaned the dishes. Then, they made dinner. Amy helped her mom make a yummy apple pie. She peeled the apples and mixed the filling. Amy felt happy and proud when they finished their work.",
+      "glossary": {
+        "felt": "感觉",
+        "filling": "馅",
+        "finished": "完成",
+        "mixed": "混合",
+        "peeled": "去皮",
+        "pie": "派",
+        "proud": "自豪",
+        "title": "标题",
+        "when": "当",
+        "wiped": "擦"
+      },
+      "audit": {
+        "passed": true,
+        "wordCount": 54,
+        "lengthOK": true,
+        "englishOnly": true,
+        "outsideCount": 10,
+        "outsideRatio": 0.17857,
+        "outsideWords": [
+          {
+            "word": "felt",
+            "count": 1
+          },
+          {
+            "word": "filling",
+            "count": 1
+          },
+          {
+            "word": "finished",
+            "count": 1
+          },
+          {
+            "word": "mixed",
+            "count": 1
+          },
+          {
+            "word": "peeled",
+            "count": 1
+          },
+          {
+            "word": "pie",
+            "count": 1
+          },
+          {
+            "word": "proud",
+            "count": 1
+          },
+          {
+            "word": "title",
+            "count": 1
+          },
+          {
+            "word": "when",
+            "count": 1
+          },
+          {
+            "word": "wiped",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": null,
+          "maxOutsideRatio": null,
+          "targetWords": 60,
+          "lengthTolerance": 0.2,
+          "includesTitle": true,
+          "vocabularyMode": "natural"
+        },
+        "textbookPolicyPassed": false,
+        "vocabularyMode": "natural"
+      },
+      "rewrites": 0,
+      "drafts": [
+        "{\"title\":\"English title\",\"essay\":\"Amy helped her mom clean the house and make dinner. First, they cleaned the kitchen. Amy wiped the tables and cleaned the dishes. Then, they made dinner. Amy helped her mom make a yummy apple pie. She peeled the apples and mixed the filling. Amy felt happy and proud when they finished their work.\"}"
+      ],
+      "callMs": [
+        3707.72,
+        1126.53
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w07-natural",
+      "totalMs": 4837.77,
+      "timing": {
+        "localAdmissionWaitMs": 0.016,
+        "providerRequestMs": 2.6,
+        "promptChars": 568,
+        "systemPromptChars": 129,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 2793.67,
+        "providerFirstTokenMs": 2794.13,
+        "modelLoadMs": 4.855,
+        "promptEvalMs": 167.895,
+        "tokenGenerationMs": 937.326,
+        "promptTokens": 146,
+        "generatedTokens": 79
+      }
+    },
+    {
+      "error": "ValueError",
+      "message": "Local model response was truncated",
+      "model": "qwen2.5:3b",
+      "id": "w07-textbook",
+      "totalMs": 34041.97,
+      "timing": {
+        "localAdmissionWaitMs": 0.011,
+        "providerRequestMs": 0.95,
+        "promptChars": 7871,
+        "systemPromptChars": 7789,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 2955.81,
+        "providerFirstTokenMs": 2955.86,
+        "modelLoadMs": 4.601,
+        "promptEvalMs": 2943.651,
+        "tokenGenerationMs": 31085.061,
+        "promptTokens": 2754,
+        "generatedTokens": 2400
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": null,
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"English title\",\"essay\":\"English body\"}",
+        "{\"title\":\"English title\",\"essay\":\"English body\"}",
+        "{\"title\":\"English title\",\"essay\":\"Amy decided to stay indoors because it was raining outside. First, she would read a book in the living room. Then, she would draw a picture of her favorite animal. Finally, she would play a board game with her aunt. This way, she could enjoy her weekend without getting wet.\"}"
+      ],
+      "callMs": [
+        3534.25,
+        257.37,
+        898.5
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w08-natural",
+      "totalMs": 4693.54,
+      "timing": {
+        "localAdmissionWaitMs": 0.019,
+        "providerRequestMs": 2.41,
+        "promptChars": 8627,
+        "systemPromptChars": 8414,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "connectionReadyMs": 3.47,
+        "providerHeadersMs": 3389.49,
+        "providerFirstTokenMs": 3389.54,
+        "modelLoadMs": 4.039,
+        "promptEvalMs": 13.048,
+        "tokenGenerationMs": 873.641,
+        "promptTokens": 3107,
+        "generatedTokens": 69
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": null,
+      "rewrites": 2,
+      "drafts": [
+        "{\"title\":\"English title\",\"essay\":\"I have a healthy breakfast every morning. I eat an egg and drink milk. Eggs are good for our bodies and give us energy. Milk helps me grow big and strong. It also keeps my bones strong.\"}",
+        "{\"title\":\"English title\",\"essay\":\"I have a healthy breakfast every morning. I eat an egg and drink milk. Eggs are good for our bodies and give us energy. Milk helps me grow big and strong. It also keeps my bones strong.\"}",
+        "{\"title\":\"English title\",\"essay\":\"I have a healthy breakfast every morning. I eat an egg and drink milk. Eggs are good for our bodies and give us energy. Milk also helps keep my bones strong.\"}"
+      ],
+      "callMs": [
+        1867.23,
+        706.69,
+        546.44
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w06-natural",
+      "totalMs": 3122.28,
+      "timing": {
+        "localAdmissionWaitMs": 0.018,
+        "providerRequestMs": 1.37,
+        "promptChars": 3727,
+        "systemPromptChars": 3346,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1247.6,
+        "providerFirstTokenMs": 1247.62,
+        "modelLoadMs": 6.231,
+        "promptEvalMs": 12.595,
+        "tokenGenerationMs": 522.374,
+        "promptTokens": 1284,
+        "generatedTokens": 45
+      }
+    },
+    {
+      "error": "WRITING_CONSTRAINT_FAILED",
+      "audit": {
+        "passed": false,
+        "wordCount": 19,
+        "lengthOK": false,
+        "englishOnly": true,
+        "outsideCount": 4,
+        "outsideRatio": 0.16667,
+        "outsideWords": [
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "like",
+            "count": 1
+          },
+          {
+            "word": "room",
+            "count": 1
+          },
+          {
+            "word": "three",
+            "count": 1
+          }
+        ],
+        "policy": {
+          "maxUniqueOutside": 0,
+          "maxOutsideRatio": 0,
+          "targetWords": 30,
+          "lengthTolerance": 0.2,
+          "includesTitle": true
+        }
+      },
+      "rewrites": 2,
+      "drafts": [
+        "{\n  \"title\": \"Colors in the Classroom\",\n  \"essay\": \"This is a classroom. This is a blue box. This is a red pen. This is a yellow pencil. I like yellow best.\",\n  \"glossary\": {\n    \"blue\": \"蓝色\",\n    \"box\": \"盒子\",\n    \"red\": \"红色\",\n    \"pen\": \"钢笔\",\n    \"yellow\": \"黄色\",\n    \"pencil\": \"铅笔\"\n  }\n}",
+        "{\n  \"title\": \"Colors in the Classroom\",\n  \"essay\": \"This is a blue box. This is a red pen. This is a yellow pencil. I prefer yellow the most.\",\n  \"glossary\": {\n    \"blue\": \"蓝色\",\n    \"box\": \"盒子\",\n    \"red\": \"红色\",\n    \"pen\": \"钢笔\",\n    \"yellow\": \"黄色\",\n    \"pencil\": \"铅笔\"\n  }\n}",
+        "{\n  \"title\": \"Three Colors in the Room\",\n  \"essay\": \"This is a blue pen. This is a red pencil. This is a yellow eraser. I like yellow best.\",\n  \"glossary\": {\n    \"blue\": \"蓝色\",\n    \"red\": \"红色\",\n    \"yellow\": \"黄色\"\n  }\n}"
+      ],
+      "callMs": [
+        1859.6,
+        1296.3,
+        1119.4
+      ],
+      "model": "qwen2.5:3b",
+      "id": "w01-strict",
+      "totalMs": 4278.56,
+      "timing": {
+        "localAdmissionWaitMs": 0.019,
+        "providerRequestMs": 2.49,
+        "promptChars": 2877,
+        "systemPromptChars": 1989,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 681.1,
+        "providerFirstTokenMs": 681.13,
+        "modelLoadMs": 6.029,
+        "promptEvalMs": 240.773,
+        "tokenGenerationMs": 867.995,
+        "promptTokens": 838,
+        "generatedTokens": 73
+      }
+    },
+    {
+      "error": "ValueError",
+      "message": "Local model response was truncated",
+      "model": "qwen2.5:3b",
+      "id": "w05-textbook",
+      "totalMs": 64799.07,
+      "timing": {
+        "localAdmissionWaitMs": 0.031,
+        "providerRequestMs": 2.34,
+        "promptChars": 10958,
+        "systemPromptChars": 5025,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1822.48,
+        "providerFirstTokenMs": 1822.59,
+        "modelLoadMs": 7.076,
+        "promptEvalMs": 2695.025,
+        "tokenGenerationMs": 31839.57,
+        "promptTokens": 4125,
+        "generatedTokens": 2400
+      }
+    }
+  ],
+  "scopeHashes": {
+    "0500d50509c2f1f6668a11d6": "68928f6491536c464fb028d9410667c6d1a4b4c54dc3f4a66cf46efa54dfb320",
+    "2259e1a7a6125c85bf8e552b": "6061687571e56802241e379b3079053bc8912aafbebdb50d4d2b4f2b37e14423",
+    "3557eb704fe75fc9ccab4c4a": "ee8ef451fbccf91909ce3a659b65638af4b1092bf6cd5c7ceb992a44696ae815",
+    "3e293e1728a984c53a873707": "be72fee30e1bcaa04ea13a25e38a6a58238b1ec8795e86db52db0fae1d09b44a",
+    "426d98de059169e88faac504": "659f3ad548ddbccd4c3ca0b1ed66e7c780a0ca5b526e7fbe398dcb25e7b2a211",
+    "5175e30ef6f5f8a4933bdd06": "e9b19a0811bed0e36a8710ea765094c641b4a587827d41faea8ed3ee49737b90",
+    "c514e31d0569aabf56bded13": "59580b5d236140f98d82996ee89c0c62786b2b96832ecaea2ba95363c2a83733",
+    "cf78e57e1753364f3e6059d0": "313f89374167fbc43d670ad32d2fdccaf00110ffe8c37c6aa9981bdcdd69f1c2"
+  },
+  "models": {
+    "qwen3.5:9b": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "qwen2.5:3b": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b"
+  }
+}

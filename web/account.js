@@ -1,6 +1,15 @@
 /* SQLite is authoritative. Browser storage is a per-account retry journal only. */
 (function () {
   const user = window.KittyAccountUser;
+  // An embedded unit editor shares its host's sync journal and revision.
+  // Two independent writers in one tab otherwise race on every unit switch.
+  try {
+    if (window.parent && window.parent !== window && location.pathname === '/writing.html'
+        && new URLSearchParams(location.search).get('embedded') === '1') {
+      const host = window.parent.KittyAccount;
+      if (host && host.user?.id === user?.id) { window.KittyAccount = host; return; }
+    }
+  } catch { /* Cross-origin frames keep their own authenticated account. */ }
   const prefix = user ? `kitty-user:${user.id}:` : '';
   const keys = {'kitty-learning:weekend-v1':'progress', 'kitty-course-selection:v1':'course'};
   const documents = {}, pending = {};
@@ -14,7 +23,7 @@
   };
   function status(text, action='none') {
     message = text; syncAction = action;
-    if (syncLabel) syncLabel.textContent = text;
+    if (syncLabel) { syncLabel.textContent = text; syncLabel.hidden = !text || text === '学习档案已同步'; }
     if (retryButton) retryButton.hidden = action !== 'retry';
     if (cloudButton) cloudButton.hidden = action !== 'cloud';
   }
@@ -25,10 +34,13 @@
     } catch {}
   }
   function entry(value, revision) { return {value, revision, id:Date.now()+':'+Math.random()}; }
+  function signIn() {
+    location.replace('/login.html?next=' + encodeURIComponent(location.pathname + location.search + location.hash));
+  }
   function authorized(response) {
     if (response.status === 401) {
       status('登录已变化，请重新登录；未同步记录已保留');
-      location.replace('/login.html');
+      signIn();
       throw Error('AUTH_REQUIRED');
     }
   }
@@ -127,7 +139,7 @@
   async function verify() {
     try {
       const response = await fetch('/api/auth/me', {cache:'no-store'});
-      if (response.status === 401) return location.replace('/login.html');
+      if (response.status === 401) return signIn();
       if (!response.ok) return;
       const data = await response.json();
       if (data.enabled && data.user?.id !== user?.id) location.reload();
@@ -147,6 +159,7 @@
     const label = document.createElement('span'); label.textContent = user.username;
     syncLabel = document.createElement('span'); syncLabel.className = 'account-sync';
     syncLabel.setAttribute('role', 'status'); syncLabel.textContent = message;
+    syncLabel.hidden = !message || message === '学习档案已同步';
     const retry = document.createElement('button'); retry.textContent = '重试同步'; retry.type = 'button';
     retry.onclick = () => { if (initialized) flush(); else location.reload(); };
     retryButton = retry; retry.hidden = syncAction !== 'retry';

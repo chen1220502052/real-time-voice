@@ -23,12 +23,18 @@
         const pages = (chapter.textbookPages || []).filter(p => p.recordingId === recording.id);
         const lines = pages.flatMap(page => (page.scenes || []).flatMap(scene => scene.lines.map(line => ({...line, page}))));
         const label = title(recording, index);
+        const aligned = recording.alignedSentences || [];
+        const sourceLabel = recording.sourceLabel || '课本原音';
         const targets = lines.length ? lines.map((line, i) => ({
           key: `line:${recording.id}:${i}`, label: line.text, page: line.page, type: 'sentence',
-          source: {url: recording.url, start: line.start, end: line.end}, sourceLabel: '课本原音', duration: line.end-line.start,
+          source: {url: recording.url, start: line.start, end: line.end}, sourceLabel, duration: line.end-line.start,
+        })) : aligned.length ? aligned.map((line, i) => ({
+          key: `aligned:${recording.id}:${i}`, label: line.text, meaning: line.chinese || '', type: 'sentence',
+          page:recording.referencePage || pages[0],
+          source: {url: recording.url, start: line.start, end: line.end}, sourceLabel, duration: line.end-line.start,
         })) : (recording.practiceClips || []).map((clip, i) => ({
           key: `clip:${recording.id}:${i}`, label: `第 ${i+1} 小段`, page: pages[0], type: 'excerpt',
-          source: {url: recording.url, start: clip.start, end: clip.end}, sourceLabel: '课本原音', duration: clip.end-clip.start,
+          source: {url: recording.url, start: clip.start, end: clip.end}, sourceLabel, duration: clip.end-clip.start,
         }));
         return {id: recording.id, label, targets: targets.filter(t => t.duration > 0 && t.duration <= 18.05)};
       }).filter(group => group.targets.length && !/^听力|^歌曲|唱一唱/.test(group.label))

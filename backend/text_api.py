@@ -30,8 +30,10 @@ async def chat_scope_handler(request):
 
 def validate_options(request, options):
     scope = validate_chat_options(options)
-    if scope is None and getattr(request.app["text_bot_factory"], "requires_chapter", False):
-        raise ValueError("请选择教材单元")
+    factory = request.app["text_bot_factory"]
+    if scope is None and (getattr(factory, "requires_chapter", False)
+                          or getattr(factory, "requires_grade", False) and "grade" not in options):
+        raise ValueError("请选择聊天年级或教材单元")
 
 
 async def interactions_handler(request):

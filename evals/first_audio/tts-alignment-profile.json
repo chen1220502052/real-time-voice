@@ -1,0 +1,1096 @@
+{
+  "metadata": {
+    "originalCallSha256": "0914302ad692613d6a4d1bcff18bd17d87f53ee6f49cc164ff9ab470b2e999e9",
+    "replacementSha256": "14885f62f6380939f791c0c062f5e579a79a78315bb3a9709ae9856ea225015e"
+  },
+  "rows": [
+    {
+      "repeat": 0,
+      "text": "Would you like to draw with me?",
+      "mode": "baseline",
+      "wallMs": 87.07320783287287,
+      "pcmSha256": "6437367643a0fb23af16bf58a269e9f453e58bc3e944ddd709026a9a9fc30e3e",
+      "stages": {
+        "generation": 86.491,
+        "postprocess": 0.571
+      },
+      "memory": {
+        "activeBytes": 165009825,
+        "cacheBytes": 134118423
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "Would you like to draw with me?",
+      "mode": "vectorized",
+      "wallMs": 86.97099983692169,
+      "pcmSha256": "7b0d4efeda71d9d51c09df777cefbb90c777a6246b700da02fd034deb3c0bee3",
+      "stages": {
+        "generation": 86.276,
+        "postprocess": 0.684
+      },
+      "memory": {
+        "activeBytes": 165009810,
+        "cacheBytes": 129822552
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "You can take a train to the library now.",
+      "mode": "baseline",
+      "wallMs": 162.84700017422438,
+      "pcmSha256": "2f7b4331d172eb26adaab9d36031d54dd24688d2749e33497713069d4ecb4ae5",
+      "stages": {
+        "generation": 162.139,
+        "postprocess": 0.698
+      },
+      "memory": {
+        "activeBytes": 165075478,
+        "cacheBytes": 131833862
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "You can take a train to the library now.",
+      "mode": "vectorized",
+      "wallMs": 110.38399999961257,
+      "pcmSha256": "451f4ff0f9de818580813d792f3508bff985727c5c5274f88f609d1df7a05b8e",
+      "stages": {
+        "generation": 109.682,
+        "postprocess": 0.69
+      },
+      "memory": {
+        "activeBytes": 165075478,
+        "cacheBytes": 130497062
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "I do not know the colour of Ben's shoes.",
+      "mode": "baseline",
+      "wallMs": 110.94079213216901,
+      "pcmSha256": "5410f05cabd50bae2c6dd4d8e69cbbab70154ce3e3663cf75d495d94dde995dc",
+      "stages": {
+        "generation": 110.26,
+        "postprocess": 0.668
+      },
+      "memory": {
+        "activeBytes": 165059006,
+        "cacheBytes": 132411234
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "I do not know the colour of Ben's shoes.",
+      "mode": "vectorized",
+      "wallMs": 105.2081249654293,
+      "pcmSha256": "e1e4da43879524252642a48f56640121382ee699fe87754738d90882e6eecb61",
+      "stages": {
+        "generation": 104.53,
+        "postprocess": 0.665
+      },
+      "memory": {
+        "activeBytes": 165059006,
+        "cacheBytes": 134097772
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "Nora starts with three pencils.",
+      "mode": "baseline",
+      "wallMs": 94.8324166238308,
+      "pcmSha256": "0f8e108324c82da3172d6ade9c9e86e00fee0786a629948941d14aa831c9c5ad",
+      "stages": {
+        "generation": 94.193,
+        "postprocess": 0.629
+      },
+      "memory": {
+        "activeBytes": 165042590,
+        "cacheBytes": 134151682
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "Nora starts with three pencils.",
+      "mode": "vectorized",
+      "wallMs": 96.36958269402385,
+      "pcmSha256": "b3318a892b942836a2b451dd2894ab3663cd46ead4a878f9e6bbd5c4a72dd49c",
+      "stages": {
+        "generation": 95.743,
+        "postprocess": 0.619
+      },
+      "memory": {
+        "activeBytes": 165042590,
+        "cacheBytes": 130700176
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "mode": "baseline",
+      "wallMs": 125.70470804348588,
+      "pcmSha256": "fc177665ece3134e60d9f0345f60664bc811db57bdc882e1ce0c25fc731fe489",
+      "stages": {
+        "generation": 124.964,
+        "postprocess": 0.727
+      },
+      "memory": {
+        "activeBytes": 165108178,
+        "cacheBytes": 131833128
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "mode": "vectorized",
+      "wallMs": 121.23591732233763,
+      "pcmSha256": "74d8c4dcf8a1cebbc66fa03d4da6e16f0730b97c7da42fd08f62701208c9a362",
+      "stages": {
+        "generation": 120.409,
+        "postprocess": 0.817
+      },
+      "memory": {
+        "activeBytes": 165108178,
+        "cacheBytes": 132866770
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "mode": "baseline",
+      "wallMs": 168.73820824548602,
+      "pcmSha256": "0caf1fd5de95f9fad94b0b67772312c94aeb8fafb1a0121d2573de0de1db4969",
+      "stages": {
+        "generation": 167.813,
+        "postprocess": 0.914
+      },
+      "memory": {
+        "activeBytes": 165222930,
+        "cacheBytes": 130752114
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "mode": "vectorized",
+      "wallMs": 161.21137514710426,
+      "pcmSha256": "5034ce325cadccd0ba72c2f9ad16f382a473dd619608f1d543942f5a9d58786f",
+      "stages": {
+        "generation": 160.251,
+        "postprocess": 0.946
+      },
+      "memory": {
+        "activeBytes": 165222930,
+        "cacheBytes": 133078700
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "Dr. Green has twenty five books.",
+      "mode": "baseline",
+      "wallMs": 109.13170874118805,
+      "pcmSha256": "4901e33966a18a709f7456b61bae66beeb2e93021462cac53d8e7fbc971b387d",
+      "stages": {
+        "generation": 108.461,
+        "postprocess": 0.66
+      },
+      "memory": {
+        "activeBytes": 165058994,
+        "cacheBytes": 125898598
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "Dr. Green has twenty five books.",
+      "mode": "vectorized",
+      "wallMs": 103.32154203206301,
+      "pcmSha256": "11d2592805bb550fecd67f9a07f65d17ab138a166b268b08c0f9093a0682d3df",
+      "stages": {
+        "generation": 102.598,
+        "postprocess": 0.713
+      },
+      "memory": {
+        "activeBytes": 165058994,
+        "cacheBytes": 133533160
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "I cannot assess your pronunciation.",
+      "mode": "baseline",
+      "wallMs": 101.15262493491173,
+      "pcmSha256": "2ff56db9a16e422463392989228d6ae9cfaf7f49960473055a2a6f3c4d3357fe",
+      "stages": {
+        "generation": 100.422,
+        "postprocess": 0.719
+      },
+      "memory": {
+        "activeBytes": 165075370,
+        "cacheBytes": 124835480
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "I cannot assess your pronunciation.",
+      "mode": "vectorized",
+      "wallMs": 101.78895806893706,
+      "pcmSha256": "c11364e855d88e0400ee866e079687898506d0caa9cd580e95485ca35462a173",
+      "stages": {
+        "generation": 101.101,
+        "postprocess": 0.679
+      },
+      "memory": {
+        "activeBytes": 165075370,
+        "cacheBytes": 131639966
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "Cherry 在中文里是樱桃。",
+      "mode": "baseline",
+      "wallMs": 173.77887526527047,
+      "pcmSha256": "db2bd2cefae86a8c2f98281fcdd2602623f50d90308a3348474eb90fedb23657",
+      "stages": {
+        "generation": 172.362,
+        "postprocess": 1.408
+      },
+      "memory": {
+        "activeBytes": 165255578,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "Cherry 在中文里是樱桃。",
+      "mode": "vectorized",
+      "wallMs": 175.7970000617206,
+      "pcmSha256": "53ceb6ff436599d6130b60b98d1e15ec7f76b5ef981a773becabe58395d419bf",
+      "stages": {
+        "generation": 174.281,
+        "postprocess": 1.508
+      },
+      "memory": {
+        "activeBytes": 165255702,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "这里的 light 意思是重量轻。",
+      "mode": "baseline",
+      "wallMs": 258.7421662174165,
+      "pcmSha256": "d360ca17c526016275f8669295c01067febff61726f21db46bcc00d69b13f1f2",
+      "stages": {
+        "generation": 257.041,
+        "postprocess": 1.685
+      },
+      "memory": {
+        "activeBytes": 165353864,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 0,
+      "text": "这里的 light 意思是重量轻。",
+      "mode": "vectorized",
+      "wallMs": 219.02300044894218,
+      "pcmSha256": "81d9d00c48e9bb35e259d55e4e75f51680a46743d5a976a1c1a508eca156d0c1",
+      "stages": {
+        "generation": 217.252,
+        "postprocess": 1.755
+      },
+      "memory": {
+        "activeBytes": 165353864,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Would you like to draw with me?",
+      "mode": "vectorized",
+      "wallMs": 87.55862526595592,
+      "pcmSha256": "7b0d4efeda71d9d51c09df777cefbb90c777a6246b700da02fd034deb3c0bee3",
+      "stages": {
+        "generation": 86.955,
+        "postprocess": 0.592
+      },
+      "memory": {
+        "activeBytes": 165009825,
+        "cacheBytes": 132995058
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Would you like to draw with me?",
+      "mode": "baseline",
+      "wallMs": 87.44716737419367,
+      "pcmSha256": "797a80307cfcde6fa1263bb2a9a020c0667806a952e605a4114513d62da2fc38",
+      "stages": {
+        "generation": 86.753,
+        "postprocess": 0.679
+      },
+      "memory": {
+        "activeBytes": 165009810,
+        "cacheBytes": 132766236
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "You can take a train to the library now.",
+      "mode": "vectorized",
+      "wallMs": 109.59695791825652,
+      "pcmSha256": "236c1b68f8e62744aaa002e7fb0ca8c2a070c95162e4ecab9acaca607b81981c",
+      "stages": {
+        "generation": 108.882,
+        "postprocess": 0.703
+      },
+      "memory": {
+        "activeBytes": 165075478,
+        "cacheBytes": 132187912
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "You can take a train to the library now.",
+      "mode": "baseline",
+      "wallMs": 113.3521250449121,
+      "pcmSha256": "451f4ff0f9de818580813d792f3508bff985727c5c5274f88f609d1df7a05b8e",
+      "stages": {
+        "generation": 112.609,
+        "postprocess": 0.733
+      },
+      "memory": {
+        "activeBytes": 165075394,
+        "cacheBytes": 132387524
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "I do not know the colour of Ben's shoes.",
+      "mode": "vectorized",
+      "wallMs": 107.12291719391942,
+      "pcmSha256": "5410f05cabd50bae2c6dd4d8e69cbbab70154ce3e3663cf75d495d94dde995dc",
+      "stages": {
+        "generation": 106.439,
+        "postprocess": 0.673
+      },
+      "memory": {
+        "activeBytes": 165059006,
+        "cacheBytes": 129119840
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "I do not know the colour of Ben's shoes.",
+      "mode": "baseline",
+      "wallMs": 109.00216735899448,
+      "pcmSha256": "48630b77e5ba53495cb6bb44dbf4aa68b7d4a21bb1e17491228a308478818a68",
+      "stages": {
+        "generation": 108.305,
+        "postprocess": 0.682
+      },
+      "memory": {
+        "activeBytes": 165059006,
+        "cacheBytes": 128166848
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Nora starts with three pencils.",
+      "mode": "vectorized",
+      "wallMs": 95.91216593980789,
+      "pcmSha256": "1bd72cc53b16093375b0b4a151bd490bfc0ff23cf895de39f96c648e0cdfe305",
+      "stages": {
+        "generation": 95.283,
+        "postprocess": 0.621
+      },
+      "memory": {
+        "activeBytes": 165058974,
+        "cacheBytes": 132039478
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Nora starts with three pencils.",
+      "mode": "baseline",
+      "wallMs": 99.76058267056942,
+      "pcmSha256": "b3318a892b942836a2b451dd2894ab3663cd46ead4a878f9e6bbd5c4a72dd49c",
+      "stages": {
+        "generation": 99.15,
+        "postprocess": 0.601
+      },
+      "memory": {
+        "activeBytes": 165042710,
+        "cacheBytes": 130261660
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "mode": "vectorized",
+      "wallMs": 119.96141634881496,
+      "pcmSha256": "74d8c4dcf8a1cebbc66fa03d4da6e16f0730b97c7da42fd08f62701208c9a362",
+      "stages": {
+        "generation": 119.231,
+        "postprocess": 0.719
+      },
+      "memory": {
+        "activeBytes": 165108178,
+        "cacheBytes": 129368662
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "mode": "baseline",
+      "wallMs": 121.89108319580555,
+      "pcmSha256": "ef6d53e32584ec2a5112eebd4698bbd629558d297ad0b788369c19c154fc2c78",
+      "stages": {
+        "generation": 121.141,
+        "postprocess": 0.739
+      },
+      "memory": {
+        "activeBytes": 165108178,
+        "cacheBytes": 129963058
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "mode": "vectorized",
+      "wallMs": 165.50508281216025,
+      "pcmSha256": "ce8e3b738638439ec3f0358a1c84e69ebea4d82aca25925196db2f1ed9804760",
+      "stages": {
+        "generation": 164.618,
+        "postprocess": 0.877
+      },
+      "memory": {
+        "activeBytes": 165222930,
+        "cacheBytes": 131427954
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "mode": "baseline",
+      "wallMs": 163.26879197731614,
+      "pcmSha256": "6a073ac0622df86136df4336e6febd3074c89a1a4dc1d7dc6ca2e2fa4a06f227",
+      "stages": {
+        "generation": 162.376,
+        "postprocess": 0.882
+      },
+      "memory": {
+        "activeBytes": 165222930,
+        "cacheBytes": 132193096
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Dr. Green has twenty five books.",
+      "mode": "vectorized",
+      "wallMs": 105.77633325010538,
+      "pcmSha256": "0fef4bc070f31f153e655f2f3be8a085085ec560228e9024e55622408ecb52a4",
+      "stages": {
+        "generation": 105.029,
+        "postprocess": 0.738
+      },
+      "memory": {
+        "activeBytes": 165058994,
+        "cacheBytes": 130225926
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Dr. Green has twenty five books.",
+      "mode": "baseline",
+      "wallMs": 106.9114999845624,
+      "pcmSha256": "179bab055467d7ee20083882bd6da217d909577aca29cba4de6509b3a8c3fc8c",
+      "stages": {
+        "generation": 106.224,
+        "postprocess": 0.676
+      },
+      "memory": {
+        "activeBytes": 165058994,
+        "cacheBytes": 134097316
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "I cannot assess your pronunciation.",
+      "mode": "vectorized",
+      "wallMs": 100.37683416157961,
+      "pcmSha256": "c11364e855d88e0400ee866e079687898506d0caa9cd580e95485ca35462a173",
+      "stages": {
+        "generation": 99.673,
+        "postprocess": 0.693
+      },
+      "memory": {
+        "activeBytes": 165075370,
+        "cacheBytes": 130963480
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "I cannot assess your pronunciation.",
+      "mode": "baseline",
+      "wallMs": 105.56829208508134,
+      "pcmSha256": "c11364e855d88e0400ee866e079687898506d0caa9cd580e95485ca35462a173",
+      "stages": {
+        "generation": 104.936,
+        "postprocess": 0.622
+      },
+      "memory": {
+        "activeBytes": 165075370,
+        "cacheBytes": 134012814
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Cherry 在中文里是樱桃。",
+      "mode": "vectorized",
+      "wallMs": 181.3175417482853,
+      "pcmSha256": "2d91d4a00202c7febba5f6b895bffcde7a12ef7493553c6f3d9ec0b80a5d982b",
+      "stages": {
+        "generation": 179.811,
+        "postprocess": 1.497
+      },
+      "memory": {
+        "activeBytes": 165255702,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "Cherry 在中文里是樱桃。",
+      "mode": "baseline",
+      "wallMs": 176.44787533208728,
+      "pcmSha256": "d4e614f015817713dbd8a5110f4cb4433e5d26b18110c375ba45fdd676eb1688",
+      "stages": {
+        "generation": 174.823,
+        "postprocess": 1.615
+      },
+      "memory": {
+        "activeBytes": 165255578,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "这里的 light 意思是重量轻。",
+      "mode": "vectorized",
+      "wallMs": 226.34924994781613,
+      "pcmSha256": "c4466de2541c15c5a589c47a22726cec6679085a5144b5086c7364b6f4521d0e",
+      "stages": {
+        "generation": 224.785,
+        "postprocess": 1.553
+      },
+      "memory": {
+        "activeBytes": 165353864,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 1,
+      "text": "这里的 light 意思是重量轻。",
+      "mode": "baseline",
+      "wallMs": 219.26987497135997,
+      "pcmSha256": "e7668f07dbe4fbf8f059cd7797341b0d34affe8242a6b3ef329e044950c5dc77",
+      "stages": {
+        "generation": 217.63,
+        "postprocess": 1.63
+      },
+      "memory": {
+        "activeBytes": 165353864,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Would you like to draw with me?",
+      "mode": "baseline",
+      "wallMs": 90.33983293920755,
+      "pcmSha256": "7b0d4efeda71d9d51c09df777cefbb90c777a6246b700da02fd034deb3c0bee3",
+      "stages": {
+        "generation": 89.74,
+        "postprocess": 0.589
+      },
+      "memory": {
+        "activeBytes": 165009810,
+        "cacheBytes": 133141734
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Would you like to draw with me?",
+      "mode": "vectorized",
+      "wallMs": 90.8274999819696,
+      "pcmSha256": "7b0d4efeda71d9d51c09df777cefbb90c777a6246b700da02fd034deb3c0bee3",
+      "stages": {
+        "generation": 90.192,
+        "postprocess": 0.625
+      },
+      "memory": {
+        "activeBytes": 165009825,
+        "cacheBytes": 130877420
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "You can take a train to the library now.",
+      "mode": "baseline",
+      "wallMs": 115.58258440345526,
+      "pcmSha256": "c3300cc5dc26da0bb10a79ae9cd5b2c605184e0a20973ee13af129d873654a2c",
+      "stages": {
+        "generation": 114.893,
+        "postprocess": 0.68
+      },
+      "memory": {
+        "activeBytes": 165075478,
+        "cacheBytes": 128005792
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "You can take a train to the library now.",
+      "mode": "vectorized",
+      "wallMs": 113.75304078683257,
+      "pcmSha256": "236c1b68f8e62744aaa002e7fb0ca8c2a070c95162e4ecab9acaca607b81981c",
+      "stages": {
+        "generation": 113.074,
+        "postprocess": 0.67
+      },
+      "memory": {
+        "activeBytes": 165075394,
+        "cacheBytes": 128325164
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "I do not know the colour of Ben's shoes.",
+      "mode": "baseline",
+      "wallMs": 108.04725019261241,
+      "pcmSha256": "28ebfee059bce822e6b7d3d0edf77c637485fe2988d1381f9ec3112856ef1e24",
+      "stages": {
+        "generation": 107.364,
+        "postprocess": 0.671
+      },
+      "memory": {
+        "activeBytes": 165059006,
+        "cacheBytes": 132127064
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "I do not know the colour of Ben's shoes.",
+      "mode": "vectorized",
+      "wallMs": 108.13562478870153,
+      "pcmSha256": "58543edf5eee12891ec688c366f7b293c986fd09f0b05a1748a667d0953f299e",
+      "stages": {
+        "generation": 107.459,
+        "postprocess": 0.666
+      },
+      "memory": {
+        "activeBytes": 165059006,
+        "cacheBytes": 133901110
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Nora starts with three pencils.",
+      "mode": "baseline",
+      "wallMs": 101.13762505352497,
+      "pcmSha256": "06b1ef823ad8016bdf0cc55db818a9b3b44bca6a55c83f840ad4ee294d8abe6c",
+      "stages": {
+        "generation": 100.471,
+        "postprocess": 0.656
+      },
+      "memory": {
+        "activeBytes": 165042590,
+        "cacheBytes": 133389780
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Nora starts with three pencils.",
+      "mode": "vectorized",
+      "wallMs": 97.51658281311393,
+      "pcmSha256": "25be21e7c51660fec827856ee770ff38dbb29bc7cc9d44d0f03c70daac94f6a1",
+      "stages": {
+        "generation": 96.862,
+        "postprocess": 0.646
+      },
+      "memory": {
+        "activeBytes": 165042590,
+        "cacheBytes": 131255888
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "mode": "baseline",
+      "wallMs": 125.9887502528727,
+      "pcmSha256": "2d79b76c71879d915161339267c8587dae51737ea8abaff9918ee1ac396f19fc",
+      "stages": {
+        "generation": 125.146,
+        "postprocess": 0.828
+      },
+      "memory": {
+        "activeBytes": 165108178,
+        "cacheBytes": 133544752
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "mode": "vectorized",
+      "wallMs": 126.54775008559227,
+      "pcmSha256": "74d8c4dcf8a1cebbc66fa03d4da6e16f0730b97c7da42fd08f62701208c9a362",
+      "stages": {
+        "generation": 125.732,
+        "postprocess": 0.805
+      },
+      "memory": {
+        "activeBytes": 165108178,
+        "cacheBytes": 132448016
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "mode": "baseline",
+      "wallMs": 169.18395832180977,
+      "pcmSha256": "5034ce325cadccd0ba72c2f9ad16f382a473dd619608f1d543942f5a9d58786f",
+      "stages": {
+        "generation": 168.265,
+        "postprocess": 0.907
+      },
+      "memory": {
+        "activeBytes": 165222930,
+        "cacheBytes": 130851152
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "mode": "vectorized",
+      "wallMs": 159.7447502426803,
+      "pcmSha256": "b418843a7330b28626d07f4b308e48d326cb3356c25e1e3f0b14dc2231eaded0",
+      "stages": {
+        "generation": 158.876,
+        "postprocess": 0.856
+      },
+      "memory": {
+        "activeBytes": 165222930,
+        "cacheBytes": 132990052
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Dr. Green has twenty five books.",
+      "mode": "baseline",
+      "wallMs": 104.3468751013279,
+      "pcmSha256": "fb7cd58910828efa4b377237ed7e15d5b8d9811d6e2527c2f564842556b2ac97",
+      "stages": {
+        "generation": 103.663,
+        "postprocess": 0.674
+      },
+      "memory": {
+        "activeBytes": 165058994,
+        "cacheBytes": 124326004
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Dr. Green has twenty five books.",
+      "mode": "vectorized",
+      "wallMs": 104.89745903760195,
+      "pcmSha256": "778b36a7e41f3d5f741fe8bf04739af8ebf739683ee79ce17a80ebec0c2613be",
+      "stages": {
+        "generation": 104.248,
+        "postprocess": 0.64
+      },
+      "memory": {
+        "activeBytes": 165058994,
+        "cacheBytes": 129188780
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "I cannot assess your pronunciation.",
+      "mode": "baseline",
+      "wallMs": 101.1820831336081,
+      "pcmSha256": "c11364e855d88e0400ee866e079687898506d0caa9cd580e95485ca35462a173",
+      "stages": {
+        "generation": 100.543,
+        "postprocess": 0.631
+      },
+      "memory": {
+        "activeBytes": 165058986,
+        "cacheBytes": 133720406
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "I cannot assess your pronunciation.",
+      "mode": "vectorized",
+      "wallMs": 102.75445831939578,
+      "pcmSha256": "c11364e855d88e0400ee866e079687898506d0caa9cd580e95485ca35462a173",
+      "stages": {
+        "generation": 102.04,
+        "postprocess": 0.706
+      },
+      "memory": {
+        "activeBytes": 165075370,
+        "cacheBytes": 131055048
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Cherry 在中文里是樱桃。",
+      "mode": "baseline",
+      "wallMs": 177.9964999295771,
+      "pcmSha256": "a5ccbd2548caf49eb339b79e7ac1b693b5cbc9b4326e6c860bc001d881110f00",
+      "stages": {
+        "generation": 176.487,
+        "postprocess": 1.502
+      },
+      "memory": {
+        "activeBytes": 165255578,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "Cherry 在中文里是樱桃。",
+      "mode": "vectorized",
+      "wallMs": 178.21954237297177,
+      "pcmSha256": "065438530d3ce25d63319622efdc9b4a5ebf6d251a3dd5ce9da9e0a6472f4734",
+      "stages": {
+        "generation": 176.705,
+        "postprocess": 1.505
+      },
+      "memory": {
+        "activeBytes": 165255578,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "这里的 light 意思是重量轻。",
+      "mode": "baseline",
+      "wallMs": 217.22837490960956,
+      "pcmSha256": "13295f59f2fe68e04c51a204793183609d08ab5a7bfbbada972d1304f138eb37",
+      "stages": {
+        "generation": 215.657,
+        "postprocess": 1.562
+      },
+      "memory": {
+        "activeBytes": 165353864,
+        "cacheBytes": 0
+      }
+    },
+    {
+      "repeat": 2,
+      "text": "这里的 light 意思是重量轻。",
+      "mode": "vectorized",
+      "wallMs": 215.0882501155138,
+      "pcmSha256": "fc36011eb8e4b9cc79fae0439c48d5b2d5b304520e46bf1630af4b2978dbf79d",
+      "stages": {
+        "generation": 213.446,
+        "postprocess": 1.625
+      },
+      "memory": {
+        "activeBytes": 165353854,
+        "cacheBytes": 0
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "repeat": 0,
+      "text": "Would you like to draw with me?",
+      "samePcm": false,
+      "savedMs": 0.10220799595117569
+    },
+    {
+      "repeat": 0,
+      "text": "You can take a train to the library now.",
+      "samePcm": false,
+      "savedMs": 52.46300017461181
+    },
+    {
+      "repeat": 0,
+      "text": "I do not know the colour of Ben's shoes.",
+      "samePcm": false,
+      "savedMs": 5.732667166739702
+    },
+    {
+      "repeat": 0,
+      "text": "Nora starts with three pencils.",
+      "samePcm": false,
+      "savedMs": -1.5371660701930523
+    },
+    {
+      "repeat": 0,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "samePcm": false,
+      "savedMs": 4.4687907211482525
+    },
+    {
+      "repeat": 0,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "samePcm": false,
+      "savedMs": 7.526833098381758
+    },
+    {
+      "repeat": 0,
+      "text": "Dr. Green has twenty five books.",
+      "samePcm": false,
+      "savedMs": 5.810166709125042
+    },
+    {
+      "repeat": 0,
+      "text": "I cannot assess your pronunciation.",
+      "samePcm": false,
+      "savedMs": -0.6363331340253353
+    },
+    {
+      "repeat": 0,
+      "text": "Cherry 在中文里是樱桃。",
+      "samePcm": false,
+      "savedMs": -2.018124796450138
+    },
+    {
+      "repeat": 0,
+      "text": "这里的 light 意思是重量轻。",
+      "samePcm": false,
+      "savedMs": 39.71916576847434
+    },
+    {
+      "repeat": 1,
+      "text": "Would you like to draw with me?",
+      "samePcm": false,
+      "savedMs": -0.11145789176225662
+    },
+    {
+      "repeat": 1,
+      "text": "You can take a train to the library now.",
+      "samePcm": false,
+      "savedMs": 3.7551671266555786
+    },
+    {
+      "repeat": 1,
+      "text": "I do not know the colour of Ben's shoes.",
+      "samePcm": false,
+      "savedMs": 1.8792501650750637
+    },
+    {
+      "repeat": 1,
+      "text": "Nora starts with three pencils.",
+      "samePcm": false,
+      "savedMs": 3.848416730761528
+    },
+    {
+      "repeat": 1,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "samePcm": false,
+      "savedMs": 1.9296668469905853
+    },
+    {
+      "repeat": 1,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "samePcm": false,
+      "savedMs": -2.2362908348441124
+    },
+    {
+      "repeat": 1,
+      "text": "Dr. Green has twenty five books.",
+      "samePcm": false,
+      "savedMs": 1.135166734457016
+    },
+    {
+      "repeat": 1,
+      "text": "I cannot assess your pronunciation.",
+      "samePcm": true,
+      "savedMs": 5.19145792350173
+    },
+    {
+      "repeat": 1,
+      "text": "Cherry 在中文里是樱桃。",
+      "samePcm": false,
+      "savedMs": -4.869666416198015
+    },
+    {
+      "repeat": 1,
+      "text": "这里的 light 意思是重量轻。",
+      "samePcm": false,
+      "savedMs": -7.079374976456165
+    },
+    {
+      "repeat": 2,
+      "text": "Would you like to draw with me?",
+      "samePcm": true,
+      "savedMs": -0.4876670427620411
+    },
+    {
+      "repeat": 2,
+      "text": "You can take a train to the library now.",
+      "samePcm": false,
+      "savedMs": 1.8295436166226864
+    },
+    {
+      "repeat": 2,
+      "text": "I do not know the colour of Ben's shoes.",
+      "samePcm": false,
+      "savedMs": -0.08837459608912468
+    },
+    {
+      "repeat": 2,
+      "text": "Nora starts with three pencils.",
+      "samePcm": false,
+      "savedMs": 3.621042240411043
+    },
+    {
+      "repeat": 2,
+      "text": "A raincoat keeps your clothes dry from water.",
+      "samePcm": false,
+      "savedMs": -0.5589998327195644
+    },
+    {
+      "repeat": 2,
+      "text": "The price is 3.50 dollars, not 35 dollars.",
+      "samePcm": false,
+      "savedMs": 9.439208079129457
+    },
+    {
+      "repeat": 2,
+      "text": "Dr. Green has twenty five books.",
+      "samePcm": false,
+      "savedMs": -0.5505839362740517
+    },
+    {
+      "repeat": 2,
+      "text": "I cannot assess your pronunciation.",
+      "samePcm": true,
+      "savedMs": -1.5723751857876778
+    },
+    {
+      "repeat": 2,
+      "text": "Cherry 在中文里是樱桃。",
+      "samePcm": false,
+      "savedMs": -0.22304244339466095
+    },
+    {
+      "repeat": 2,
+      "text": "这里的 light 意思是重量轻。",
+      "samePcm": false,
+      "savedMs": 2.1401247940957546
+    }
+  ],
+  "allPcmIdentical": false,
+  "medianSavedMs": 1.4823551755398512,
+  "medianMs": {
+    "baseline": 112.14645858854055,
+    "vectorized": 108.86629135347903
+  }
+}

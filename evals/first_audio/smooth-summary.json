@@ -1,0 +1,1198 @@
+{
+  "date": "2026-11-05",
+  "sourceSha256": "120f94363d7b00c39628e859c8a2c880fed545ba71777376501ffa3b91bc07a9",
+  "sourceFilesVerified": 422,
+  "profiles": {
+    "native_actual": {
+      "firstAudio": {
+        "n": 54,
+        "p50Ms": 521.96,
+        "p95Ms": 688.66
+      },
+      "firstExposure": {
+        "n": 27,
+        "p50Ms": 519.42,
+        "p95Ms": 722.61
+      },
+      "repeat": {
+        "n": 27,
+        "p50Ms": 524.05,
+        "p95Ms": 644.57
+      },
+      "firstTts": {
+        "n": 54,
+        "p50Ms": 141.72,
+        "p95Ms": 169.0
+      },
+      "fullSynthesis": {
+        "n": 54,
+        "p50Ms": 892.17,
+        "p95Ms": 1429.66
+      },
+      "audioSecondsMedian": 8.135,
+      "chunksMedian": 4.0,
+      "textPreserved": true,
+      "playbackUnderruns": 0,
+      "maxPlaybackUnderrunMs": 0
+    },
+    "native_priority_smooth": {
+      "firstAudio": {
+        "n": 54,
+        "p50Ms": 463.72,
+        "p95Ms": 676.06
+      },
+      "firstExposure": {
+        "n": 27,
+        "p50Ms": 459.0,
+        "p95Ms": 695.84
+      },
+      "repeat": {
+        "n": 27,
+        "p50Ms": 468.25,
+        "p95Ms": 644.07
+      },
+      "firstTts": {
+        "n": 54,
+        "p50Ms": 86.02,
+        "p95Ms": 141.98
+      },
+      "fullSynthesis": {
+        "n": 54,
+        "p50Ms": 888.79,
+        "p95Ms": 1427.33
+      },
+      "audioSecondsMedian": 8.3625,
+      "chunksMedian": 4.0,
+      "textPreserved": true,
+      "playbackUnderruns": 0,
+      "maxPlaybackUnderrunMs": 0
+    }
+  },
+  "order": "Smooth repeat 0, baseline repeat 0, baseline repeat 1, smooth repeat 1. First smooth block retained unchanged from its preceding pass; source, cases and RNG seeds unchanged.",
+  "scope": "PCM-ready latency, same known input boundary and frozen Bots; later phrase-tail repair plus first-TTS priority. Not a microphone/browser playback benchmark.",
+  "paired": {
+    "n": 56,
+    "sameText": 56,
+    "sameInput": 56,
+    "sameFirstChunkText": 56,
+    "nExcludingWarmFixture": 54,
+    "medianSavedMs": 54.42072870209813,
+    "meanSavedMs": 49.50867508779521,
+    "fasterCount": 49,
+    "rows": [
+      {
+        "id": "onset-01",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 81.5392923541367,
+        "baselineChunks": [
+          "Mia starts with 25 ",
+          "beads and gives away 3, ",
+          "so she has 22 beads left."
+        ],
+        "candidateChunks": [
+          "Mia starts with 25 ",
+          "beads and gives away 3, ",
+          "so she has 22 beads left."
+        ]
+      },
+      {
+        "id": "onset-01",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 64.40845876932144,
+        "baselineChunks": [
+          "Mia started with 25 ",
+          "beads and gave away 3, ",
+          "so she has 22 left.",
+          " This means we subtract 3 from the original amount ",
+          "of 25.",
+          " The final count is 22 blue beads remaining."
+        ],
+        "candidateChunks": [
+          "Mia started with 25 ",
+          "beads and gave away 3, ",
+          "so she has 22 left.",
+          " This means we subtract 3 from the original amount ",
+          "of 25.",
+          " The final count is 22 blue beads remaining."
+        ]
+      },
+      {
+        "id": "onset-02",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 39.05983315780759,
+        "baselineChunks": [
+          "It costs three dollars ",
+          "and fifty cents."
+        ],
+        "candidateChunks": [
+          "It costs three dollars ",
+          "and fifty cents."
+        ]
+      },
+      {
+        "id": "onset-02",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 58.77312505617738,
+        "baselineChunks": [
+          "It costs three dollars ",
+          "and fifty cents.",
+          " That is the same ",
+          "as 3.50."
+        ],
+        "candidateChunks": [
+          "It costs three dollars ",
+          "and fifty cents.",
+          " That is the same ",
+          "as 3.50."
+        ]
+      },
+      {
+        "id": "onset-03",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 60.41900021955371,
+        "baselineChunks": [
+          "You drink water now.",
+          " Do you like drinking water?"
+        ],
+        "candidateChunks": [
+          "You drink water now.",
+          " Do you like drinking water?"
+        ]
+      },
+      {
+        "id": "onset-03",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 49.53295877203345,
+        "baselineChunks": [
+          "You drink water now.",
+          " You stopped drinking tea and started ",
+          "drinking water instead.",
+          " Water is good for your body."
+        ],
+        "candidateChunks": [
+          "You drink water now.",
+          " You stopped drinking tea and started drinking water ",
+          "instead.",
+          " Water is good for your body."
+        ]
+      },
+      {
+        "id": "onset-04",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": -1.6299588605761528,
+        "baselineChunks": [
+          "Let's play chess together, ",
+          "Sam!"
+        ],
+        "candidateChunks": [
+          "Let's play chess together, ",
+          "Sam!"
+        ]
+      },
+      {
+        "id": "onset-04",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": -22.55529211834073,
+        "baselineChunks": [
+          "Sam, let's play chess ",
+          "together!"
+        ],
+        "candidateChunks": [
+          "Sam, let's play chess ",
+          "together!"
+        ]
+      },
+      {
+        "id": "onset-05",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 76.7003339715302,
+        "baselineChunks": [
+          "In this sentence, \"light\" ",
+          "means having little weight or being easy ",
+          "to carry.",
+          " It does not refer to visible rays from the sun here.",
+          " The suitcase feels very small and simple to lift."
+        ],
+        "candidateChunks": [
+          "In this sentence, \"light\" ",
+          "means having little weight or being easy to carry.",
+          " It does not refer to visible rays from the sun ",
+          "here.",
+          " The suitcase feels very small and simple to lift."
+        ]
+      },
+      {
+        "id": "onset-05",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 51.614667288959026,
+        "baselineChunks": [
+          "In the sentence \"This ",
+          "suitcase is light,\" light means ",
+          "the suitcase has little weight and is easy ",
+          "to carry.",
+          " It does not mean there is no darkness around it.",
+          " The word describes how heavy or heavy the object feels ",
+          "when you hold it."
+        ],
+        "candidateChunks": [
+          "In the sentence \"This ",
+          "suitcase is light,\" light means the suitcase has little weight and is easy ",
+          "to carry.",
+          " It does not mean there is no darkness around it.",
+          " The word describes how heavy or heavy the object feels when you hold it."
+        ]
+      },
+      {
+        "id": "onset-06",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 66.0610836930573,
+        "baselineChunks": [
+          "We do not know ",
+          "the color of Luca's ",
+          "helmet because it is not mentioned in ",
+          "the story.",
+          " The text only says he has a green bicycle.",
+          " Therefore, we cannot tell what color his helmet ",
+          "is."
+        ],
+        "candidateChunks": [
+          "We do not know ",
+          "the color of Luca's helmet because it is not mentioned ",
+          "in the story.",
+          " The text only says he has a green bicycle.",
+          " Therefore, we cannot tell what color his helmet is. "
+        ]
+      },
+      {
+        "id": "onset-06",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 62.97799991443753,
+        "baselineChunks": [
+          "We do not know ",
+          "the color of Luca's helmet ",
+          "because the text only mentions his green bicycle.",
+          " The information about the helmet is missing from the story.",
+          " I cannot answer this question with certainty."
+        ],
+        "candidateChunks": [
+          "We do not know ",
+          "the color of Luca's helmet because the text only mentions ",
+          "his green bicycle.",
+          " The information about the helmet is missing from the story.",
+          " I cannot answer this question with certainty."
+        ]
+      },
+      {
+        "id": "onset-07",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 67.36987549811602,
+        "baselineChunks": [
+          "You should not touch ",
+          "a hot pan because it ",
+          "will burn your hand."
+        ],
+        "candidateChunks": [
+          "You should not touch ",
+          "a hot pan because it will burn your hand."
+        ]
+      },
+      {
+        "id": "onset-07",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 53.23258275166154,
+        "baselineChunks": [
+          "You should not touch ",
+          "a hot pan because it ",
+          "will burn your hand."
+        ],
+        "candidateChunks": [
+          "You should not touch ",
+          "a hot pan because it will burn your hand."
+        ]
+      },
+      {
+        "id": "onset-08",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 18.01037508994341,
+        "baselineChunks": [
+          "Apple 在中文",
+          "里是“苹果”。",
+          " 例如：I eat an apple every day."
+        ],
+        "candidateChunks": [
+          "Apple 在中文",
+          "里是“苹果”。",
+          " 例如：I eat an apple every day."
+        ]
+      },
+      {
+        "id": "onset-08",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": -10.872042272239923,
+        "baselineChunks": [
+          "Apple 在中文",
+          "里是“苹果”。",
+          " Example: I eat an apple every day."
+        ],
+        "candidateChunks": [
+          "Apple 在中文",
+          "里是“苹果”。",
+          " Example: I eat an apple every day."
+        ]
+      },
+      {
+        "id": "opt-hold-01",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 78.2574568875134,
+        "baselineChunks": [
+          "A raincoat keeps ",
+          "your clothes dry from water.",
+          " It has a hood to stop rain on your head.",
+          " You can wear it while playing outside."
+        ],
+        "candidateChunks": [
+          "A raincoat keeps ",
+          "your clothes dry from water.",
+          " It has a hood to stop rain on ",
+          "your head.",
+          " You can wear it while playing outside."
+        ]
+      },
+      {
+        "id": "opt-hold-01",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 45.362166594713926,
+        "baselineChunks": [
+          "A raincoat keeps ",
+          "you dry by stopping water from getting on ",
+          "your clothes.",
+          " It has a waterproof layer that lets rain drop fall away instead of soaking through.",
+          " This helps you stay warm and comfortable while playing outside in the rain."
+        ],
+        "candidateChunks": [
+          "A raincoat keeps ",
+          "you dry by stopping water from getting on your clothes.",
+          " It has a waterproof layer that lets rain drop fall away instead ",
+          "of soaking through.",
+          " This helps you stay warm and comfortable while playing outside in the rain."
+        ]
+      },
+      {
+        "id": "opt-hold-02",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 80.15050133690238,
+        "baselineChunks": [
+          "Lana started with five ",
+          "stickers and gave away two.",
+          " After giving them to Omar, she has ",
+          "three stickers left."
+        ],
+        "candidateChunks": [
+          "Lana started with five ",
+          "stickers and gave away two.",
+          " After giving them to Omar, she has three stickers left."
+        ]
+      },
+      {
+        "id": "opt-hold-02",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 52.43933293968439,
+        "baselineChunks": [
+          "Lana starts with five ",
+          "stickers and gives away two.",
+          " She then has three stickers remaining.",
+          " This is the correct answer for her count."
+        ],
+        "candidateChunks": [
+          "Lana starts with five ",
+          "stickers and gives away two.",
+          " She then has three stickers remaining.",
+          " This is the correct answer for her count."
+        ]
+      },
+      {
+        "id": "opt-hold-03",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 63.78991575911641,
+        "baselineChunks": [
+          "I do not know ",
+          "what the rabbit eats ",
+          "because the passage you mentioned is not provided.",
+          " Without that text, I cannot find the answer about its ",
+          "food.",
+          " Please share the story or the relevant part so I can help."
+        ],
+        "candidateChunks": [
+          "I do not know ",
+          "what the rabbit eats because the passage you mentioned ",
+          "is not provided.",
+          " Without that text, I cannot find the answer about its food.",
+          " Please share the story or the relevant part so I can help."
+        ]
+      },
+      {
+        "id": "opt-hold-03",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 47.15562518686056,
+        "baselineChunks": [
+          "The text you provided ",
+          "doesn't mention what ",
+          "the rabbit eats.",
+          " I don't know this detail from the given information."
+        ],
+        "candidateChunks": [
+          "The text you provided ",
+          "doesn't mention what the rabbit eats.",
+          " I don't know this detail from the given ",
+          "information."
+        ]
+      },
+      {
+        "id": "opt-hold-04",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 45.50041677430272,
+        "baselineChunks": [
+          "You take a train ",
+          "to the library now."
+        ],
+        "candidateChunks": [
+          "You take a train ",
+          "to the library now."
+        ]
+      },
+      {
+        "id": "opt-hold-04",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 25.626790709793568,
+        "baselineChunks": [
+          "You can take ",
+          "a train to the library now."
+        ],
+        "candidateChunks": [
+          "You can take ",
+          "a train to the library now."
+        ]
+      },
+      {
+        "id": "opt-hold-05",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 75.61629079282284,
+        "baselineChunks": [
+          "Please ask your cousin ",
+          "to read a book ",
+          "with you."
+        ],
+        "candidateChunks": [
+          "Please ask your cousin ",
+          "to read a book with you. "
+        ]
+      },
+      {
+        "id": "opt-hold-05",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": -1.3029580004513264,
+        "baselineChunks": [
+          "My cousin reads ",
+          "a book with me."
+        ],
+        "candidateChunks": [
+          "My cousin reads ",
+          "a book with me."
+        ]
+      },
+      {
+        "id": "opt-hold-06",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 64.5548333413899,
+        "baselineChunks": [
+          "A spoon has ",
+          "a bowl for soup, but a fork ",
+          "has tines for vegetables.",
+          " They are both used to eat food."
+        ],
+        "candidateChunks": [
+          "A spoon has ",
+          "a bowl for soup, but a fork has tines ",
+          "for vegetables.",
+          " They are both used to eat food."
+        ]
+      },
+      {
+        "id": "opt-hold-06",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 52.509999834001064,
+        "baselineChunks": [
+          "A spoon has ",
+          "a small bowl to hold food, ",
+          "while a fork has thin tines for piercing things ",
+          "like fruit or vegetables.",
+          " Both are used for eating but work differently because of their shapes."
+        ],
+        "candidateChunks": [
+          "A spoon has ",
+          "a small bowl to hold food, while a fork ",
+          "has thin tines for piercing things like fruit or vegetables.",
+          " Both are used for eating but work differently ",
+          "because of their shapes."
+        ]
+      },
+      {
+        "id": "opt-hold-07",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 34.51370820403099,
+        "baselineChunks": [
+          "In this sentence, \"light\" ",
+          "means having little weight or not heavy.",
+          " For example: The feather is very light to hold."
+        ],
+        "candidateChunks": [
+          "In this sentence, \"light\" ",
+          "means having little weight or not heavy.",
+          " For example: The feather is very light to hold."
+        ]
+      },
+      {
+        "id": "opt-hold-07",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": -12.73512514308095,
+        "baselineChunks": [
+          "In this sentence, \"light\" ",
+          "means having little weight or not heavy.",
+          " For example: The new backpack is very light,",
+          " so I can carry it easily."
+        ],
+        "candidateChunks": [
+          "In this sentence, \"light\" ",
+          "means having little weight or not heavy.",
+          " For example: The new backpack is very light,",
+          " so I can carry it easily."
+        ]
+      },
+      {
+        "id": "opt-hold-08",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 72.22579093649983,
+        "baselineChunks": [
+          "I cannot hear ",
+          "your voice or know what you said.",
+          " Since I only receive text transcripts,",
+          " I do not know if you pronounced \"yellow\" correctly.",
+          " Please tell me how you spelled it in writing so I can ",
+          "check."
+        ],
+        "candidateChunks": [
+          "I cannot hear ",
+          "your voice or know what you said.",
+          " Since I only receive text transcripts,",
+          " I do not know if you pronounced \"yellow\" correctly.",
+          " Please tell me how you spelled it in writing ",
+          "so I can check."
+        ]
+      },
+      {
+        "id": "opt-hold-08",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 58.08141594752669,
+        "baselineChunks": [
+          "I cannot hear ",
+          "your voice or see how you spoke, ",
+          "so I do not know if you said ",
+          "\"yellow\" correctly.",
+          " Please type the word here for me to check its spelling ",
+          "and meaning.",
+          " If you want an example sentence with it,",
+          " I can provide one now."
+        ],
+        "candidateChunks": [
+          "I cannot hear ",
+          "your voice or see how you spoke, so I do not know ",
+          "if you said \"yellow\" correctly.",
+          " Please type the word here for me to check its spelling ",
+          "and meaning.",
+          " If you want an example sentence with it,",
+          " I can provide one now."
+        ]
+      },
+      {
+        "id": "q35-01",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 68.10745783150196,
+        "baselineChunks": [
+          "Turtles have shells ",
+          "to protect their soft bodies from danger.",
+          " The shell acts like a hard armor that stops predators from hurting ",
+          "them.",
+          " It also helps keep the turtle safe while it sleeps or swims."
+        ],
+        "candidateChunks": [
+          "Turtles have shells ",
+          "to protect their soft bodies from danger.",
+          " The shell acts like a hard armor ",
+          "that stops predators from hurting them.",
+          " It also helps keep the turtle safe while it sleeps or swims."
+        ]
+      },
+      {
+        "id": "q35-01",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 61.07629090547562,
+        "baselineChunks": [
+          "Turtles have shells ",
+          "to protect their soft bodies from predators ",
+          "and the environment.",
+          " The shell acts like a hard armor that they cannot easily take off.",
+          " It also helps them stay warm and safe while they sleep or rest."
+        ],
+        "candidateChunks": [
+          "Turtles have shells ",
+          "to protect their soft bodies from predators and the environment.",
+          " The shell acts like a hard armor that they cannot easily take off.",
+          " It also helps them stay warm and safe while they sleep ",
+          "or rest."
+        ]
+      },
+      {
+        "id": "q35-02",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 69.15066624060273,
+        "baselineChunks": [
+          "A duck swims well ",
+          "in water, while a cat runs ",
+          "on land.",
+          " A duck lays eggs, but a cat gives birth ",
+          "to babies.",
+          " Both are animals, yet they live in very different ways."
+        ],
+        "candidateChunks": [
+          "A duck swims well ",
+          "in water, while a cat runs on land.",
+          " A duck lays eggs, but a cat gives ",
+          "birth to babies.",
+          " Both are animals, yet they live in very different ways."
+        ]
+      },
+      {
+        "id": "q35-02",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 50.57462537661195,
+        "baselineChunks": [
+          "A duck swims well ",
+          "in water, while a cat walks ",
+          "on land.",
+          " A duck lays eggs, but a cat gives birth ",
+          "to babies.",
+          " They live in very different places and eat different foods."
+        ],
+        "candidateChunks": [
+          "A duck swims well ",
+          "in water, while a cat walks on land.",
+          " A duck lays eggs, but a cat gives ",
+          "birth to babies.",
+          " They live in very different places and eat different foods."
+        ]
+      },
+      {
+        "id": "q35-03",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 14.563291799277067,
+        "baselineChunks": [
+          "Would you like ",
+          "to draw with me?"
+        ],
+        "candidateChunks": [
+          "Would you like ",
+          "to draw with me?"
+        ]
+      },
+      {
+        "id": "q35-03",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 6.1747487634420395,
+        "baselineChunks": [
+          "Would you like ",
+          "to draw with me?"
+        ],
+        "candidateChunks": [
+          "Would you like ",
+          "to draw with me?"
+        ]
+      },
+      {
+        "id": "q35-04",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 88.35762366652489,
+        "baselineChunks": [
+          "First, get two slices ",
+          "of bread and some cheese.",
+          " Then put the cheese on one slice.",
+          " Finally, stack the other slice on top."
+        ],
+        "candidateChunks": [
+          "First, get two slices ",
+          "of bread and some cheese.",
+          " Then put the cheese on one slice.",
+          " Finally, stack the other slice on ",
+          "top."
+        ]
+      },
+      {
+        "id": "q35-04",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 69.41337510943413,
+        "baselineChunks": [
+          "First, get two slices ",
+          "of bread and some cheese.",
+          " Then put the cheese on one slice.",
+          " Finally, close the sandwich with the other slice."
+        ],
+        "candidateChunks": [
+          "First, get two slices ",
+          "of bread and some cheese.",
+          " Then put the cheese on one slice.",
+          " Finally, close the sandwich ",
+          "with the other slice."
+        ]
+      },
+      {
+        "id": "q35-05",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 81.06641843914986,
+        "baselineChunks": [
+          "You can use ",
+          "an umbrella or a raincoat to stay ",
+          "dry.",
+          " A hat might also help if the rain isn't too heavy.",
+          " You should choose what feels most comfortable ",
+          "for you."
+        ],
+        "candidateChunks": [
+          "You can use ",
+          "an umbrella or a raincoat to stay dry.",
+          " A hat might also help if the rain ",
+          "isn't too heavy.",
+          " You should choose what feels most comfortable for you. "
+        ]
+      },
+      {
+        "id": "q35-05",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 52.84387478604913,
+        "baselineChunks": [
+          "You can use ",
+          "an umbrella or a raincoat to stay ",
+          "dry.",
+          " A hat with a brim might also help if the rain isn't ",
+          "heavy.",
+          " You could also ask a friend to carry you in their bag."
+        ],
+        "candidateChunks": [
+          "You can use ",
+          "an umbrella or a raincoat to stay dry.",
+          " A hat with a brim might also help ",
+          "if the rain isn't heavy.",
+          " You could also ask a friend to carry you in ",
+          "their bag."
+        ]
+      },
+      {
+        "id": "q35-06",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 63.973207492381334,
+        "baselineChunks": [
+          "Nora starts with three ",
+          "pencils and gives away one, so she has ",
+          "two left."
+        ],
+        "candidateChunks": [
+          "Nora starts with three ",
+          "pencils and gives away one, so she has two left."
+        ]
+      },
+      {
+        "id": "q35-06",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 45.7608331926167,
+        "baselineChunks": [
+          "Nora started with three ",
+          "pencils and gave away one, so she has ",
+          "two left."
+        ],
+        "candidateChunks": [
+          "Nora started with three ",
+          "pencils and gave away one, so she has two left."
+        ]
+      },
+      {
+        "id": "q35-07",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 65.03150006756186,
+        "baselineChunks": [
+          "I do not know ",
+          "the color of Ben's shoes.",
+          " The text only says he has ",
+          "a red kite.",
+          " I cannot find information about his shoes."
+        ],
+        "candidateChunks": [
+          "I do not know ",
+          "the color of Ben's shoes.",
+          " The text only says he has a red kite.",
+          " I cannot find information about his shoes."
+        ]
+      },
+      {
+        "id": "q35-07",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 37.37408388406038,
+        "baselineChunks": [
+          "I do not know ",
+          "the colour of Ben's shoes.",
+          " Only the passage says he has ",
+          "a red kite.",
+          " I cannot see any other information about his shoes."
+        ],
+        "candidateChunks": [
+          "I do not know ",
+          "the colour of Ben's shoes.",
+          " Only the passage says he has a red kite.",
+          " I cannot see any other information about ",
+          "his shoes."
+        ]
+      },
+      {
+        "id": "q35-08",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 69.32620890438557,
+        "baselineChunks": [
+          "You used to ride ",
+          "a bike, but now you take ",
+          "the bus every school day."
+        ],
+        "candidateChunks": [
+          "You used to ride ",
+          "a bike, but now you take the bus every school ",
+          "day."
+        ]
+      },
+      {
+        "id": "q35-08",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 55.60887465253472,
+        "baselineChunks": [
+          "You used to ride ",
+          "a bike, but now you take ",
+          "the bus every school day."
+        ],
+        "candidateChunks": [
+          "You used to ride ",
+          "a bike, but now you take the bus every school ",
+          "day."
+        ]
+      },
+      {
+        "id": "q35-09",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 70.20016619935632,
+        "baselineChunks": [
+          "That sounds like ",
+          "a great plan for a relaxing day.",
+          " You can see many animals and enjoy their stories.",
+          " Do you have a favorite animal to see there?"
+        ],
+        "candidateChunks": [
+          "That sounds like ",
+          "a great plan for a relaxing day.",
+          " You can see many animals and enjoy their stories.",
+          " Do you have a favorite animal to see there?"
+        ]
+      },
+      {
+        "id": "q35-09",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 64.05816692858934,
+        "baselineChunks": [
+          "That sounds like ",
+          "a fun plan!",
+          " You might see many different animals there.",
+          " Do you have a favorite animal to see?"
+        ],
+        "candidateChunks": [
+          "That sounds like ",
+          "a fun plan!",
+          " You might see many different animals there.",
+          " Do you have a favorite animal to see?"
+        ]
+      },
+      {
+        "id": "q35-10",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 78.68991699069738,
+        "baselineChunks": [
+          "A piano can make ",
+          "music.",
+          " It has many keys.",
+          " People play it with their hands."
+        ],
+        "candidateChunks": [
+          "A piano can make ",
+          "music.",
+          " It has many keys.",
+          " People play it with their hands."
+        ]
+      },
+      {
+        "id": "q35-10",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 49.623583909124136,
+        "baselineChunks": [
+          "A piano makes music.",
+          " It has many keys.",
+          " You can play songs on it."
+        ],
+        "candidateChunks": [
+          "A piano makes music.",
+          " It has many keys.",
+          " You can play songs on it."
+        ]
+      },
+      {
+        "id": "q35-11",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 20.864916034042835,
+        "baselineChunks": [
+          "Cherry\"在中文",
+          "里是“樱桃”的意思。",
+          " 例如：She ate a sweet red cherry from the tree."
+        ],
+        "candidateChunks": [
+          "Cherry\"在中文",
+          "里是“樱桃”的意思。",
+          " 例如：She ate a sweet red cherry from the tree."
+        ]
+      },
+      {
+        "id": "q35-11",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 10.11000107973814,
+        "baselineChunks": [
+          "Cherry 在中文",
+          "里意思是“樱桃”。",
+          " She ate a sweet red cherry after lunch."
+        ],
+        "candidateChunks": [
+          "Cherry 在中文",
+          "里意思是“樱桃”。",
+          " She ate a sweet red cherry after lunch."
+        ]
+      },
+      {
+        "id": "q35-12",
+        "repeat": 0,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 62.79899878427386,
+        "baselineChunks": [
+          "I cannot hear ",
+          "your voice or see how you say words.",
+          " I can only read the text you type here.",
+          " Please write the word \"rabbit\" again ",
+          "if you want me to check its spelling."
+        ],
+        "candidateChunks": [
+          "I cannot hear ",
+          "your voice or see how you say words.",
+          " I can only read the text you type ",
+          "here.",
+          " Please write the word \"rabbit\" again if you want me to check its spelling."
+        ]
+      },
+      {
+        "id": "q35-12",
+        "repeat": 1,
+        "sameText": true,
+        "sameInput": true,
+        "sameFirstChunkText": true,
+        "savedMs": 51.51491705328226,
+        "baselineChunks": [
+          "I cannot hear ",
+          "your voice or see how you spoke.",
+          " I can only read the words you type here.",
+          " Please tell me what sound you made,",
+          " and I will help you check it."
+        ],
+        "candidateChunks": [
+          "I cannot hear ",
+          "your voice or see how you spoke.",
+          " I can only read the words you type ",
+          "here.",
+          " Please tell me what sound you made,",
+          " and I will help you check it."
+        ]
+      }
+    ]
+  },
+  "waveformsVerified": 112
+}

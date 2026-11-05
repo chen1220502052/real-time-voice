@@ -3,30 +3,31 @@
 <head>
   <meta name="theme-color" content="#fffef9">
   <script src="/account-context.js"></script>
-  <script src="/account.js"></script>
+  <script src="/account.js?v=20261105-ui-review"></script>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>猫猫英语 · 文字聊天</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css">
-  <script src="/course-selection.js" defer></script>
-  <script src="/text.js?v=20261023-course-context" defer></script>
-  <link rel="stylesheet" href="/theme.css?v=20261023-course-context">
+  <script src="/course-selection.js?v=20261105-ui-review" defer></script>
+  <script src="/text.js?v=20261105-ui-review" defer></script>
+  <link rel="stylesheet" href="/theme.css?v=20261105-ui-review">
 </head>
 <body class="text-page">
-  <header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true"><img class="brand-mascot" src="/kitty.svg" alt=""></span><div><p class="eyebrow">KITTY ENGLISH · SPEAKING</p><h1>先用文字，轻松聊聊</h1></div></div><nav class="page-navigation" aria-label="页面导航"><a class="return-home" href="/">← 返回学习首页</a></nav></header>
+  <header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true"><img class="brand-mascot" src="/kitty.svg" alt=""></span><div><p class="eyebrow">KITTY ENGLISH · CHAT</p><h1>和猫猫文字聊天</h1></div></div><nav class="page-navigation" aria-label="页面导航"><a class="return-home" href="/">← 返回学习首页</a></nav></header>
   <main class="text-chat">
-    <nav class="chat-mode-nav" aria-label="其他练习"><a class="text-link" href="/voice.html">切换语音聊天 →</a></nav>
+    <nav class="chat-mode-nav" aria-label="其他练习"><a id="voiceModeLink" class="text-link" href="/voice.html" hidden>切换语音聊天 →</a></nav>
     <section class="panel text-chat-panel">
       <div class="chat-options inherited-course">
         <input id="textGrade" type="hidden"><input id="textChapter" type="hidden">
         <div class="chat-course-context"><span class="chat-course-label">当前课程</span><strong id="textCourse">正在读取首页课程…</strong><a href="/#course">返回首页切换课程 →</a></div>
         <button id="newChat" type="button">开始新聊天</button>
       </div>
-      <p id="textScope" role="status">正在加载教材单元与累计词汇…</p>
+      <p id="textScope" role="status">正在读取课程…</p>
+      <div id="textEmpty" class="text-empty"><img src="/kitty.svg" alt="" aria-hidden="true"><h2>想聊点什么？</h2><p>介绍自己、聊聊爱好，或用英语打个招呼。</p></div>
       <div id="textMessages" class="text-messages" aria-live="polite"></div>
-      <p id="textStatus" role="status">输入一句话，或点击“开始新聊天”。不需要麦克风。</p>
+      <p id="textStatus" role="status"></p>
       <form id="textForm" class="text-form">
         <label class="sr-only" for="textInput">你的消息</label>
-        <textarea id="textInput" rows="2" maxlength="2000" placeholder="Hi Kitty! I like playing basketball." required></textarea>
+        <textarea id="textInput" rows="2" maxlength="2000" placeholder="Hi Kitty! I like cats." required></textarea>
         <div class="text-actions"><button id="stopText" type="button" hidden>停止回复</button><button id="sendText" type="submit">发送</button></div>
       </form>
     </section>

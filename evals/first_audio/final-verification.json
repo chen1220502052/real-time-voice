@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-11-05T02:29:29.237591+00:00",
+  "service": {
+    "ok": true,
+    "pid": 55133,
+    "resources": {
+      "capacity": 1,
+      "inUse": 0
+    }
+  },
+  "residentModels": [
+    "qwen2.5:3b"
+  ],
+  "currentPublicConfiguration": {
+    "OLLAMA_MODEL": "qwen3.5:9b",
+    "ASR_BACKEND": "parakeet",
+    "VOICE_CHAT_MODEL": "qwen2.5:3b",
+    "LOCAL_TTS_ENGINE": "mlx"
+  },
+  "ownConfigWrites": false,
+  "configurationNote": "Outer .env.local changed during unrelated parallel work. Both frozen experiments were checked independently; no external configuration changes were reverted.",
+  "tests": "14 passed",
+  "verifiedWaveforms": 392,
+  "finalCandidateTextPairsIdentical": 56,
+  "finalCandidateFirstChunkPairsIdentical": 56
+}

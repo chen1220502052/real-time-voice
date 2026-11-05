@@ -4,8 +4,16 @@ class OutputObserver extends AudioWorkletProcessor {
     super();
     this.intervals = [];
     this.seen = new Set();
+    this.recordingId = null;
+    this.recordBuffer = new Float32Array(Math.round(sampleRate / 10));
+    this.recordLength = 0;
     this.port.onmessage = ({data}) => {
-      if (data.type === "schedule") {
+      if (data.type === "record_start") {
+        this.recordingId=data.recordingId;this.recordLength=0;
+      } else if (data.type === "record_stop") {
+        if(data.recordingId===this.recordingId){this.flushRecording();this.recordingId=null;}
+        this.port.postMessage({type:"recording_stopped",recordingId:data.recordingId});
+      } else if (data.type === "schedule") {
         this.intervals.push(data);
         if (this.intervals.length > 200) this.intervals.shift();
       } else if (data.type === "stop") {
@@ -17,9 +25,24 @@ class OutputObserver extends AudioWorkletProcessor {
       }
     };
   }
+  flushRecording() {
+    if(!this.recordLength)return;
+    const pcm=this.recordBuffer.slice(0,this.recordLength);
+    this.port.postMessage({type:"rendered_pcm",recordingId:this.recordingId,
+      captureStartCtx:this.recordStartFrame/sampleRate,sampleRate,pcm},[pcm.buffer]);
+    this.recordLength=0;
+  }
   process(inputs, outputs) {
     const input = inputs[0]?.[0], output = outputs[0]?.[0];
     if (output && input) output.set(input);
+    if(this.recordingId){
+      const count=output?.length||input?.length||128;
+      for(let i=0;i<count;i++){
+        if(!this.recordLength)this.recordStartFrame=currentFrame+i;
+        this.recordBuffer[this.recordLength++]=input?.[i]||0;
+        if(this.recordLength===this.recordBuffer.length)this.flushRecording();
+      }
+    }
     if (!input) return true;
     this.intervals = this.intervals.filter(frame => frame.endFrame > currentFrame);
     for (let i = 0; i < input.length; i += 1) {

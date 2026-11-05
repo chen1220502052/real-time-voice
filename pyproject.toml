@@ -7,6 +7,7 @@ dependencies = ["aiohttp>=3.10,<4"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<9"]
+local-voice = ["webrtcvad-wheels>=2.0.14,<3"]
 writing = ["deepagents>=0.5.9,<0.6", "langchain-deepseek>=1.1,<2"]
 chat = ["deepagents>=0.5.9,<0.6", "langchain-deepseek>=1.1,<2"]
 observability = [

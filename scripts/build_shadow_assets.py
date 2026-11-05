@@ -1,7 +1,8 @@
 """Package existing pronunciation assets and reviewed textbook excerpts, without model calls.
 
-Local ASR and TTS are prohibited. Missing samples must be generated through GPT
-cloud speech and imported with provider/model provenance before packaging.
+Missing samples must be imported with provider/model provenance before packaging.
+Local Kokoro samples can be generated explicitly with build_grade3_word_audio;
+this packaging command never invokes ASR or TTS or substitutes synthetic samples for textbook recordings.
 Published metadata is source-SHA bound; runtime never synthesizes audio.
 """
 import hashlib
@@ -84,7 +85,8 @@ def build():
     import soundfile as sf
     lib = ChapterLibrary(RESOURCES)
     dictionary = {}
-    source = json.loads((RESOURCES/'科普版/初中本地课文词表索引.json').read_text())
+    dictionary_path = RESOURCES/'科普版/初中本地课文词表索引.json'
+    source = json.loads(dictionary_path.read_text()) if dictionary_path.exists() else []
     for book in source:
         for group in book['word_groups']:
             for word in group['words']:
@@ -99,18 +101,21 @@ def build():
         if path is None:
             kind = 'synthetic'
             imported = previous.get(word, {})
-            if (imported.get('provider') != 'openai' or not imported.get('model')
+            if (imported.get('provider') not in {'openai', 'kokoro-local'} or not imported.get('model')
                     or imported.get('kind') != 'synthetic'):
-                raise RuntimeError('GPT cloud pronunciation required for '+word+'; local TTS is disabled')
+                raise RuntimeError('Verified pronunciation provenance required for '+word+'; automatic TTS is disabled')
+            if imported['provider'] == 'kokoro-local' and (not imported.get('modelSha256')
+                    or imported.get('generationMethod') != 'local-offline'):
+                raise RuntimeError('Local pronunciation model provenance required for '+word)
             path = (RESOURCES/imported['path']).resolve()
             if (not path.is_relative_to(RESOURCES.resolve()) or not path.is_file()
                     or digest(path) != imported.get('sha256')):
-                raise ValueError('Imported GPT pronunciation is missing or changed: '+word)
+                raise ValueError('Imported pronunciation is missing or changed: '+word)
         info = sf.info(path)
         entries[word] = {'path':str(path.relative_to(RESOURCES)), 'sha256':digest(path), 'kind':kind,
                          'duration':round(info.duration,2)}
         if kind == 'synthetic':
-            for name in ('provider','model','voice','generationMethod','generatedAt'):
+            for name in ('provider','model','modelSha256','voice','speed','generationMethod','generatedAt','sampleRate','text','phonemes'):
                 if name in imported: entries[word][name] = imported[name]
         if i % 250 == 0: print('words',i,'/',len(words),flush=True)
     (DATA/'word-audio.json').write_text(json.dumps({'version':1,'words':entries},ensure_ascii=False,indent=2))

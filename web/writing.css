@@ -12,15 +12,39 @@
 #studentFields button { margin-top: 12px; }
 #reviewResult { padding:18px; border-radius:14px; background:var(--ui-input); margin-top:20px; }
 #reviewDetails li { margin:10px 0; }
+html.writing-embedded { min-width:0; }
+body.writing-embedded { min-height:0; }
 body.writing-embedded .topbar { display:none; }
 body.writing-embedded .practice-layout { display:block; margin:0; padding:0; }
 body.writing-embedded .chapter-picker { padding:18px; }
 body.writing-embedded .chapter-picker h2, body.writing-embedded .chapter-picker > p,
-body.writing-embedded #writingFields label:nth-child(-n+4) { display:none; }
+body.writing-embedded .writing-course-picker { display:none; }
 body.writing-embedded .writing-output { margin-top:16px; padding:18px; }
 #writingStatus { margin-top: 20px; }
+#writingStatus:empty { display:none; }
+#glossaryWords { display:grid; grid-template-columns:max-content minmax(0,1fr); gap:8px 18px; }
+#glossaryWords dt { font-weight:600; }
+#glossaryWords dd { margin:0; }
+#essayBody mark { background:#fff0bc; color:inherit; border-radius:3px; padding:0 2px; }
 /* Match the common course form and make the primary writing action clear. */
 .writing-page #writingFields label { display:grid; gap:8px; margin:20px 0; }
 .writing-page #writingFields textarea, .writing-page #writingFields input[type=number] { border-color:var(--ui-border); border-radius:14px; padding:13px 14px; background:var(--ui-input); color:var(--ui-body); }
 .writing-page #generate { width:100%; min-height:48px; border-color:var(--ui-primary); background:var(--ui-primary); color:white; font-weight:600; }
 .writing-page #generate:hover { background:var(--ui-primary-hover); }
+.writing-course-picker { margin-top:16px; border-bottom:1px solid var(--ui-border); padding-bottom:16px; }
+.writing-course-picker summary { cursor:pointer; color:var(--ui-primary); font-weight:600; line-height:1.7; }
+@media(max-width:960px) {
+  .writing-page .practice-layout { grid-template-columns:minmax(0,1fr); }
+  .writing-page .chapter-picker { position:static; }
+  .writing-page #writingFields > label { margin:14px 0; }
+  .writing-page #writingFields textarea { min-height:90px; }
+}
+
+.writing-page #reviewEssay{min-height:48px;padding:12px 20px;border-color:var(--ui-primary);background:var(--ui-primary);color:white;font-weight:600}
+@media(max-width:960px){
+  .writing-page .writing-output{grid-row:1}
+  .writing-page .chapter-picker{grid-row:2}
+  body.writing-embedded .practice-layout{display:flex;flex-direction:column}
+  body.writing-embedded .writing-output{order:0;width:100%;margin-top:0}
+  body.writing-embedded .chapter-picker{order:1;width:100%;margin-top:16px}
+}

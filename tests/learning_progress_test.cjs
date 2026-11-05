@@ -40,6 +40,11 @@ test('sample questions and bundled recordings are consistent',()=>{
   U.wordQuestions.forEach((question,i)=>assert.equal(question.options[question.answer],U.words[i].meaning));
   const files=[...U.words,...U.sentences,U.listening,U.reading,{audio:'speaking'}];
   for(const item of files)assert.ok(fs.statSync(path.join(__dirname,'../web/audio/weekend',item.audio+'.m4a')).size>1000);
+  const manifest=require('../web/audio/weekend/manifest.json');
+  for(const word of U.words){
+    assert.equal(manifest.clips[word.audio+'-word'],word.word);
+    assert.ok(fs.statSync(path.join(__dirname,'../web/audio/weekend',word.audio+'-word.m4a')).size>1000);
+  }
   assert.ok(U.sentenceQuestions[2].accepted.test('I usually read a book on Sundays.'));
   assert.ok(!U.sentenceQuestions[2].accepted.test('I usually.'));
 });

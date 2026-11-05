@@ -35,6 +35,8 @@ class ReplyTiming:
             "finalInputReceivedMs": self.inputs.get(frame.sequence),
             "speechEndInputReceivedMs": self.inputs.get(end_sequence),
         }
+        if getattr(result,'timing',None) is not None:
+            values['localAsr']=dict(result.timing)
         self._put(self.turns, turn_id, values, 64)
 
     def begin(self, reply_id, turn_id):

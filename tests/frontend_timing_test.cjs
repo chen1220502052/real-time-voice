@@ -34,6 +34,20 @@ let row=t.report().replies[0];assert.equal(row.serverParts.botToFirstTextMs,90);
 assert.equal(row.clientParts.plannedToGraphSignalMs,null);
 assert.equal(row.clientParts.captureSignalToGraphMs,null);
 assert.equal(row.physicalOutput,null);
+// Native inference overlaps the endpoint timer. Its full duration is never
+// confused with the residual time that delays the final transcript.
+t.receive({replyId:'asr-overlap',timing:{localAsr:{requestStartedMs:200,responseReadyMs:675,
+  endpointReachedMs:500,workerInferenceMs:470}}},700,1);
+let overlap=t.report().replies.find(r=>r.replyId==='asr-overlap').serverParts;
+assert.equal(overlap.asrRequestWallMs,475);
+assert.equal(overlap.asrOverlappedEndpointMs,300);
+assert.equal(overlap.asrWaitAfterEndpointMs,175);
+assert.equal(overlap.asrWorkerInferenceMs,470);
+t.receive({replyId:'asr-ready',timing:{localAsr:{requestStartedMs:200,responseReadyMs:450,
+  endpointReachedMs:500,workerInferenceMs:245}}},700,1);
+overlap=t.report().replies.find(r=>r.replyId==='asr-ready').serverParts;
+assert.equal(overlap.asrOverlappedEndpointMs,250);
+assert.equal(overlap.asrWaitAfterEndpointMs,0);
 t.schedule({replyId:'r',pcm},1.06,501);
 t.graph({replyId:'r',onsetCtx:1.06},{baseLatency:.01,outputLatency:.02,
   getOutputTimestamp:()=>({contextTime:1,performanceTime:600})},700);
@@ -50,9 +64,13 @@ const captureContext=vm.createContext({sampleRate:48000,currentFrame:0,Float32Ar
 vm.runInContext(fs.readFileSync('web/audio-worklet.js','utf8'),captureContext);
 const capture=new Capture();capture.process([[new Float32Array(4800)]]);
 captureContext.currentFrame=9600;capture.process([[new Float32Array(4800)]]);
-assert.equal(posted.length,2);assert.equal(posted[0].captureStartCtx,0);
-assert.equal(posted[1].captureStartCtx,.2);assert.equal(posted[1].captureEndCtx,.3);
-assert.equal(posted[1].captureSequence,1);
+const pcmPackets=posted.filter(message=>message.pcm);
+assert.equal(pcmPackets.length,2);assert.equal(pcmPackets[0].captureStartCtx,0);
+assert.equal(pcmPackets[1].captureStartCtx,.2);assert.equal(pcmPackets[1].captureEndCtx,.3);
+assert.equal(pcmPackets[1].captureSequence,1);
+const activities=posted.filter(message=>message.type==='voice_activity');
+assert.equal(activities.length,10);assert.equal(activities[0].atCtx,.02);
+assert.equal(activities[5].atCtx,.22);assert.equal(activities[0].rms,0);
 
 let Observer;const observed=[];
 const outputContext=vm.createContext({sampleRate:16000,currentFrame:0,

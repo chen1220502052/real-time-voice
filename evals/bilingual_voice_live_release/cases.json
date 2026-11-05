@@ -1,0 +1,111 @@
+[
+  {
+    "id": "b01",
+    "language": "en",
+    "text": "What does farmer mean in Chinese? Give one English example.",
+    "rubric": "农民及包含 farmer 的完整英语例句，收音必须包含后半请求。",
+    "history": [],
+    "audio": ".local/bilingual-voice-live-release/inputs/b01.wav",
+    "sha256": "7e6249bbc64bcc7c3acf48fa88649734ff14312cd5ed6afcc67de5ddfdf801bb",
+    "seconds": 3.72025,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b02",
+    "language": "en",
+    "text": "What is the Chinese meaning of clever? Please give two English examples.",
+    "rubric": "聪明的及两个包含 clever 的完整英语例句，收音不提前结束。",
+    "history": [],
+    "audio": ".local/bilingual-voice-live-release/inputs/b02.wav",
+    "sha256": "20d88e643ebb4e08baf908ad2b99e178c816eedc9c543756cbb777a92573bdeb",
+    "seconds": 4.3935,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b03",
+    "language": "zh",
+    "text": "能用中文告诉我你的生日吗？",
+    "rubric": "AI 身份，无人类生日或日期。",
+    "history": [],
+    "audio": ".local/bilingual-voice-live-release/inputs/b03.wav",
+    "sha256": "8c2b8e4a240e2f24cb334f99a2225da47aba4abbe2f3af3c5aacbb32cb2cb286",
+    "seconds": 2.5624375,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b04",
+    "language": "zh",
+    "text": "我最喜欢什么动物？请用中文回答。",
+    "rubric": "只喜欢小狗，没有明确最喜欢。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我喜欢小狗。"
+      }
+    ],
+    "audio": ".local/bilingual-voice-live-release/inputs/b04.wav",
+    "sha256": "2f6078aa9e949ec88b4fb1d69cbf8c9dbd274e04f2009bdca561c60a2b80a799",
+    "seconds": 3.4430625,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b05",
+    "language": "mixed",
+    "text": "英语单词raincoat是什么意思？请用中文回答。",
+    "rubric": "雨衣，中文播报；缺词澄清不算完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-live-release/inputs/b05.wav",
+    "sha256": "a667d14ed52b8c33753e7ff4b6331b7d658d2f84cc1d5dee6f2830f6d0e62894",
+    "seconds": 4.379625,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b06",
+    "language": "mixed",
+    "text": "请用中文解释elephant的意思，再给一个英语例句。",
+    "rubric": "大象及包含 elephant 的完整英语例句；缺词澄清不算完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-live-release/inputs/b06.wav",
+    "sha256": "725076151a93786dee4f57e2bddb396a299fe4e17f7a368357ae30ef085ac143",
+    "seconds": 4.64275,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-live-release/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "voices": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-live-release/inputs/quiet-noise.wav",
+    "sha256": "3e957ca0c5f4eabf899088dda56bace18ed4445f15719292848a83810a248bcb",
+    "seconds": 3,
+    "voices": []
+  }
+]

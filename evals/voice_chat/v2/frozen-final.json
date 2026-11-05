@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03",
+  "stage": "Frozen before final 96-case validation; prior exposed sets are regressions",
+  "files": {
+    "backend/voice_grounding.py": "93eb52e22ff6040e07519487806a3eb06bf8cebee83757707622a377550bef0a",
+    "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+    "backend/english_chat.py": "e4bb366bf95e8c309702882760a800af50ea655c05cb7af309728e8ea768eeb8",
+    "backend/curriculum_chat.py": "a2c8b76e8d0829b1813952c7eaba5328cd0bfc27823e66f810d1d57aeb3c29e3",
+    "backend/data/chat/voice-glossary-supplement.json": "0e49040d34f9486847c654d1c4727fcd6284c00c7f86c1e80b3b5711d991591a",
+    "scripts/evaluate_voice_chat.py": "844ce0811888a1afa7738aec982e6b1e082419b10e09857105ab96fd57c52b50",
+    "scripts/build_voice_eval_v2.py": "3ab9093b4c99c967ac78914f497019d613a513affac4aab9c8247c592a1a3d0a",
+    "scripts/build_voice_final_eval.py": "5ebfc83f6a413752ecf2ff0b52df628235a9b8d6300e4935fb9102f6c3777532",
+    "evals/voice_chat/v2/final.json": "3e5b405db676fda6bbbdc9abb5636b36d77ffa2b7b34632065a42e21f10d71db"
+  }
+}

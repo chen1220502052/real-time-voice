@@ -1,10 +1,206 @@
 # Real-time Voice Avatar
 
+## 本地英语学习站（当前配置）
+
+当前本机使用 Ollama `qwen3.5:9b` 处理开放式文字聊天、范文生成和作文批改，不需要云端 API Key。
+三年级的 287 条词汇及短语已用 [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M)
+生成独立示范音：美式女声 `af_heart`、速度 0.9、24 kHz WAV。播放直接读取音频文件，不实时加载 TTS。
+
+```bash
+# 首次安装后端依赖并启动 Ollama；语音环境先按下节准备。
+python3.11 -m venv .venv
+.venv/bin/python -m pip install -e '.[dev,local-voice]'
+ollama pull qwen3.5:9b
+bash scripts/run_learning_local.sh
+```
+
+打开 `http://127.0.0.1:8765/`。启动脚本读取被 Git 忽略的 `.env.local`，默认只监听本机；
+`LLM_PROVIDER=ollama`、`OLLAMA_NATIVE_BASE_URL=http://127.0.0.1:11434` 和
+`OLLAMA_MODEL=qwen3.5:9b` 选择原生 Ollama 接口。也可单独设置 `CHAT_PROVIDER` / `WRITING_PROVIDER`
+及对应的 `CHAT_MODEL` / `WRITING_MODEL`。本地模型接口仅接受回环地址，且不发送云端密钥。
+首次加载模型会比热请求慢；当前机器为 M4 Pro、24 GB 内存。
+
+写作默认“自然表达 · 标注新词”，优先简单、连贯的英语，并列出表外词及中文释义。
+仍可选择“教材词汇 · 限制新词”和“严格模式 · 只用已学词”。后两者保留独立词汇校验；
+三年级早期词表较小时可能无法生成合格范文，会明确提示重试，不把超纲内容标为合格。
+本地模式不调用联网范文搜索。实时英语语音对话已接入本地 Parakeet、Ollama 与 Kokoro，首页“语音对话”可进入。
+
+复现单词示范音（先完成下方教材资料导入）：
+
+```bash
+python3.11 -m venv .local/tts-venv
+.local/tts-venv/bin/pip install 'kokoro==0.9.4' 'misaki[en]==0.9.4' 'spacy>=3.8,<3.9' 'transformers>=4.48,<4.52' 'huggingface-hub<1' soundfile scipy
+.local/tts-venv/bin/python -m scripts.build_grade3_word_audio
+```
+
+首次从官方仓库下载模型、音色及英文分词模型，之后在本机合成。支持断点续跑；
+全部完成后才更新 `backend/data/practice/word-audio.json`。音频与生成清单存于
+`英语/本地示范音/kokoro-af-heart/`，清单记录模型指纹、音色、速度和音频指纹。
+`英语/` 不提交 Git，新机器需导入教材并运行生成脚本。课文原音仍使用出版社录音。
+
+## 本地实时英语语音对话
+
+`bash scripts/run_learning_local.sh` 默认启用本地语音：WebRTC VAD 判断说话起止，Parakeet TDT v3（MLX/Metal）
+在说话过程中每 600 ms 尝试更新完整上下文快照，静音 100 ms 时重新识别当前完整话语。
+已有教材聊天或本机 Ollama 生成回复，Kokoro `af_heart` 合成语音。
+浏览器仍使用现有 WebSocket、16 kHz PCM16、100 ms 包和打断围栏；麦克风在点击“拨通”后才申请权限。
+打开 `/voice.html` 或从首页的“语音对话”进入，保留当前教材单元及年级。
+
+主环境安装 `.[local-voice]`，语音模型准备在 `.local/asr-venv` 和 `.local/tts-venv`。
+实时 ASR 在已有 ASR 环境安装并下载固定版本权重（约 2.5 GB，运行时转为 bfloat16）：
+
+```bash
+.local/asr-venv/bin/python -m pip install 'parakeet-mlx==0.6.0'
+.local/asr-venv/bin/hf download mlx-community/parakeet-tdt-0.6b-v3 --revision ed2b7e8c15f9aaa0b5772e2efb986255eaef7e15 --include config.json model.safetensors
+```
+
+教材批量对齐仍使用下节的 Whisper，不受实时模型切换影响。
+它们通过持久化子进程运行，主服务不导入 MLX/PyTorch；模型启动后预热，后续通话复用。
+模型推理不联网、不使用 API Key。Ollama 需先在本机运行，语音启动时同时预热聊天模型，默认保温 30 分钟。
+语音默认使用已下载的 `qwen2.5:3b`（新机器先运行 `ollama pull qwen2.5:3b`）；
+`VOICE_CHAT_MODEL` 单独控制语音模型，文字聊天和写作继续使用各自的模型配置。
+
+本机 `.env.local` 配置：
+
+```dotenv
+VOICE_ENABLED=1
+ASR_BACKEND=parakeet
+TTS_BACKEND=kokoro
+AGENT_BACKEND=english_chat
+LLM_PROVIDER=ollama
+OLLAMA_MODEL=qwen3.5:9b
+VOICE_CHAT_MODEL=qwen2.5:3b
+LOCAL_ASR_LANGUAGE=en
+LOCAL_VAD_END_MS=500
+TTS_CPU_THREADS=4
+```
+
+识别最长 30 秒；提前快照每次最多一个在途任务，推理繁忙时跳过新快照，不积累识别队列。
+这是完整上下文的增量重识别，不是缓存编码器的原生流式推理；持续说话会使旧快照失效，
+最终文字必须来自覆盖全部最新语音、含至少 100 ms 尾静音的快照。中间文字用于字幕、可选预准备及打断确认，
+正式回复仍等待有效定稿。模型 token 置信度的几何平均默认须达到 `LOCAL_PARAKEET_MIN_CONFIDENCE=.9`，
+没有有效文字时不编造回复；它是模型内置信度，不代表校准后的正确率。
+
+正常断句静音门槛为 `LOCAL_VAD_END_MS=500`；当前快照已完成、文字至少稳定 180 ms、置信度足够时，
+可在至少 300 ms 静音后定稿。若英语短语以冠词、介词、连词或助动词等明显未完形式结尾，
+或停在 “I would like…”、“I think…”、“My favorite…” 等未完成短语，
+则等待至少 900 ms 给学习者续说。这是有限的断句启发式，不是语义完成检测；
+继续说话会归零静音计数并使旧快照作废。
+
+Parakeet 在机器人有活动回复时每 300 ms 尝试更新完整上下文快照；其他时间仍是 600 ms。
+至少 300 ms 有声语音、置信度 ≥ `.94`、至少两个词（`stop/wait/enough` 可单词），
+且文字来自近期音频时，即可撤销旧回复播放权，继续听用户说完。纯犹豫声和无有效文字的噪声不触发打断。
+文字与机器人相同的片段只暂缓 partial 确认；只有同时存在很强的音频相关性才作为疑似回声忽略，
+避免直接屏蔽学生跟读。这是泄漏回声的保守兜底，浏览器仍启用声学回声消除。
+如果用户在机器人首包发出前续说，只挂起首包，不阻塞 ASR；确认插话后丢弃旧包，噪声结束则恢复。
+浏览器还用 20 ms 能量窗口保护尚未开始的播放：连续两个窗口有声时暂缓首音，
+安静 200 ms 后自然放行，连续背景能量最多挂起 900 ms。它不会直接截断正在播放的回复；
+普通回复到达时该窗口已经过期，不增加固定播放等待。
+`barge_in_confirmed`、`reply_audio_held`、`overlap_ignored` 会记录决策证据及原因。
+
+`ASR_BACKEND=mlx` 可恢复 Whisper `large-v3-turbo`：静音 200 ms 启动完整识别，等待配置的断句门槛。
+
+Apple Silicon 可通过 `LOCAL_PARAKEET_QUANT_BITS=8` 将 Parakeet 的可量化全连接／嵌入层改为 8-bit，卷积保持 BF16；`16` 使用原始精度。4-bit 在本地单词测试中出现退步，服务端不接受该模式。当前短前瞻增量转写实验也存在明显识别退步，在线仍使用完整上下文快照。
+
+Kokoro 可选 MLX BF16 后端，沿用已有 `hexgrad/Kokoro-82M` 权重及 `af_heart` 音色，不重新下载或替换音色。建议使用独立环境：
+
+```bash
+python3.11 -m venv .local/tts-mlx-venv
+.local/tts-mlx-venv/bin/pip install 'mlx-audio==0.6.4' 'misaki[en]==0.9.4' torch scipy
+.local/tts-mlx-venv/bin/pip install 'en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl'
+```
+
+在 `.env.local` 设置 `LOCAL_TTS_ENGINE=mlx`、`LOCAL_TTS_PYTHON=.local/tts-mlx-venv/bin/python`，重启本地服务后生效。`LOCAL_TTS_MLX_CACHE_MB` 默认 128。回退时将引擎设为 `torch`，解释器恢复为 `.local/tts-venv/bin/python`。实时语音文本模型仍使用原来的 3B 配置。语音后端在启动时加载并预热，通话中不会临时下载安装依赖。
+`LOCAL_ASR_SPECULATIVE=0` 可关闭快照提前计算以作对比；它不发布中间文字，也不使用快速断句。
+Kokoro 从更低幅度的起音开始保留语音，并留 30 ms 余量，避免把弱辅音当作静音剪掉。
+浏览器仍保留三包抖动预缓冲，首包排程余量从 60 ms 降为至少 25 ms；
+若设备的 `AudioContext.baseLatency` 更大，则保留该值加 12 ms 的渲染余量。
+带教材单元的语音聊天也按稳定的完整单词逐步交给 TTS，无须等待整个句子生成；句尾仍须通过完整性校验。
+本地语音使用较短的独立提示词；新问题只携带已播出的历史，不重复注入无关的未播草稿。
+追问、继续和重复仍保留需要的草稿与实际播放信息；文字聊天和写作的提示词不受影响。
+Kokoro 在同一模型和音色下复用 G2P/音色对象，直接合成音素，省去未使用的词时间戳处理。
+`LOCAL_TTS_CACHE=1` 默认仅在 worker 内存中缓存完全相同的文字、语速、音量，最多 64 条、8 MiB（按编码音频计）；
+长度超过 160 字符的片段不缓存，不写磁盘，进程退出即清空；设为 `0` 可测首次合成。
+首包计时中的 `localTts` 区分请求总耗时、worker 推理、音素转换、神经网络合成、后处理及缓存命中。
+Ollama 的内部计时记录在 `bot.latency` 日志中，仅保存耗时与计数，不记录提示词、音频或密钥。
+挂断释放通话名额，模型继续保温；停止主服务时退出语音子进程。设置 `VOICE_ENABLED=0` 可运行文字与教材页面。
+
+浏览器重复验收：仅在本机地址给语音页加 `&diagnostics=1`（无其他参数时用 `?diagnostics=1`）。
+在诊断面板选择本地 WAV，再拨通；“播放”把样本送入正常 MediaStream / AudioWorklet / WebSocket 链路，
+“插话”会在下一次回复的音频图开始输出 0.8 秒后送入指定样本。诊断模式不会申请物理麦克风。
+加载四个样本后可运行“完整验收”：依次测试首轮回复、第二个问题、第三个样本插话和第四个问题。
+下载诊断报告可查看各阶段耗时、实际采集与调度时间、打断及播放完成事件；音频图时间不等同于扬声器实听时间。
+报告额外记录 `localAsr` 的请求开始、结果就绪、断句确认时间和 worker 实际推理耗时；
+`asrRequestWallMs` 是被采用的最终快照的单次 ASR 请求时间，不是所有提前快照的累计计算时间；
+`asrOverlappedEndpointMs` 是该请求与断句重叠的部分，
+`asrWaitAfterEndpointMs` 是确认停顿后仍要等的部分，不能把三项再次相加。
+
+真实音频链路验收脚本为 `scripts/check_local_voice.py`：使用本机测试账号环境变量
+`LOCAL_TEST_USERNAME` / `LOCAL_TEST_PASSWORD`，运行 `.venv/bin/python -m scripts.check_local_voice`；
+加 `--interrupt` 验证在机器人说话时插话。脚本只接受回环服务地址，使用生成的语音样本，不录制麦克风，
+将识别文本、回复 WAV、协议错误与资源释放结果保存在 `.local/live-voice-e2e/`。
+
+## 本地语音补齐与文本对齐
+
+Apple Silicon 本机批处理使用 `mlx-community/whisper-large-v3-turbo`（MLX/Metal）识别英语并提取词级时间戳，
+Kokoro `af_heart`（CPU 4 线程）生成缺音示范句。它们分别安装在 `.local/asr-venv` 与 `.local/tts-venv`，
+不增加网站运行环境的模型依赖。M4 Pro、24 GB 已进行真实推理验证。
+
+```bash
+python3.11 -m venv .local/asr-venv
+.local/asr-venv/bin/pip install 'mlx-whisper==0.4.3' soundfile scipy
+.local/asr-venv/bin/hf download mlx-community/whisper-large-v3-turbo --include config.json '*.safetensors' '*.npz'
+# TTS 环境和 Kokoro 权重按上节安装；处理阶段只读取本机缓存。
+.venv/bin/python -m scripts.prepare_local_lessons prepare
+.local/asr-venv/bin/python -m scripts.prepare_local_lessons transcribe
+.venv/bin/python -m scripts.prepare_local_lessons align
+.local/tts-venv/bin/python -m scripts.prepare_local_lessons synthesize
+.venv/bin/python -m scripts.prepare_local_lessons publish
+```
+
+首批范围为已保存参考文本的 70 段初中同步录音，以及 90 条有教材原图依据的四上示范句所对应的原音。
+另从 12 个缺录音单元的教材原图中逐句核对了 62 句对话节选，包含八上新版全部六个单元；
+来源和原图指纹保存在 `backend/data/practice/supplemental-sentences.json`。
+第三方时间轴存在混入整章文字的情况，因此不直接采用下载时间点：只发布与独立 ASR 逐词匹配的参考句，
+保留原文和音频指纹，不把识别稿变成教材原文。已核验的示范句若未匹配到原音，则生成明确标识的合成示范音；
+没有可靠文字依据的缺口仍保留待补。八上旧版录音单列版次，不附到新版 *My Dream Job*。
+
+产物位于被 Git 忽略的 `英语/本地语音处理/`：`inventory.json` 为来源清单，`asr/` 为可断点复用的识别结果，
+`lesson-audio.json` 为页面资源包，`字幕/` 保存 SRT/VTT，`report.json` 保存处理统计。
+字幕覆盖可确认的练习片段，原始识别稿另存于 `asr/`，不将未经核对的识别文字显示成教材原文。
+合成句按单元及原图拼接为连贯节选，按实际采样帧数生成单句时间点；它们补充的是节选示范，不代表整册原配录音已收齐。
+章节页新增“逐句听读”、单句播放/跟读和字幕下载，显示真实录音来源与本地合成标识。
+资源包或主索引更新后，目录在下一次请求自动刷新；首次升级代码仍需重启后端。
+误存为 MP3 的 JPEG 不再进入音频列表，其原文件保留，另恢复为可读图片。
+
+## 本地三年级资料恢复
+
+代码仓库包含已核对的词汇快照，教材原图与原音需单独取回。当前可恢复科普版三年级
+上下册，共 24 个单元、287 条词汇和短语、207 条教材录音、202 张课本图片（含 15 张词表原图）：
+
+```bash
+.venv/bin/python -m scripts.import_grade3_resources
+```
+
+脚本只读取出版社公开页面及其中链接的图片、录音，过滤播放器占位图，按原网页配对图片与录音。
+15 张词表原图必须与仓库已核对的 SHA-256 一致才会启用词表；单元、词汇、原创口语任务及学校版次待核对状态沿用原有记录。
+资源保存到被 Git 忽略的 `英语/`，来源和文件指纹见 `英语/三年级资料清单.json`；再次运行使用本机缓存，并保留其他年级已有索引。
+公开来源目前通过 HTTP 提供资源，脚本不关闭 TLS 校验。更换或补齐资源后须重启服务以清除目录缓存。
+
+重启后在首页选择“三年级 → 教材同步 → 科普版 → 上册/下册 → 单元”。
+课文原音、原图、词表和原创主题口语可用；单词独立示范音按上节用本地 Kokoro 生成。
+预置文字问答可离线使用，开放式对话与 AI 写作可选择上节的本地模型或原有 DeepSeek 配置。
+本次未恢复人教版，也不代表其他年级的原始资源已安装。
+
+```bash
+.venv/bin/python -m pytest -q tests/test_grade3_resource_import.py tests/test_grade3_resources.py tests/test_chat_library.py
+```
+
 ## 按单元检索的分层对话
 
 `/text.html` 支持 3–9 年级教材选择。SQLite 保存单元词汇、累计词汇快照和已审核问答，
 依次使用有原文依据的教材回复、提前编写的常见问答；两层回复均按当前累计词汇范围过滤。
-只有找不到可靠匹配时才调用 Deep Agents + 现有 DeepSeek，一次生成常见、简短、适龄的回复，
+只有找不到可靠匹配时才调用配置的本地 Ollama 或 Deep Agents + DeepSeek，一次生成常见、简短、适龄的回复，
 按完整句子交付。**模型兜底取消词汇白名单和超纲重写**，因此兜底回答可能包含新词。
 对话策略会根据重复输入、多轮追问、换话题和练习状态选择回复。完整生成回答自动入库；明确通用的回答可共享复用，个人信息和不能确定的内容仅保留在原会话。详见 [对话状态与生成库](docs/23-dialogue-state-and-generated-library.md)。
 
@@ -25,7 +221,7 @@
 ## 单元写作助理
 
 章节页“跟读、听力、口语”旁新增“作文”，也可访问 `/writing.html`。支持学生自己写作与 AI 点评；
-范文先检索网上原文，取得主题、长度和已学词汇检查均通过的短文时提供原文链接和节选，否则用 DeepAgents + DeepSeek 生成原创范文。
+云端模式的范文先检索网上原文，取得主题、长度和已学词汇检查均通过的短文时提供原文链接和节选，否则用 DeepAgents + DeepSeek 生成原创范文；本地模式直接生成原创范文。
 科普版 3–9 年级现有 14 册、118 个单元的 127 张词表原图已整理为 3,844 条单元词汇和短语，并补充有前序课文原图依据的基础词。
 按实际教材系列累计到当前单元，优先使用已学词汇并保证表达自然、内容连贯；默认允许最多 4 个不同表外词、出现次数占比不超过 5%。每篇初稿都会再做一轮全文润色，服务端仍独立检查词汇与长度；API 保留零表外词模式。
 聊天与写作共用 SQLite 单元词库和累计快照，词表更新后在下一次请求自动刷新；热请求使用缓存集合检查常见词形，无须重启。
@@ -77,6 +273,16 @@
 本地实时语音虚拟人 MVP。浏览器与 Python 后端通过 WebSocket 建立全双工通道：上行发送 16 kHz 单声道 PCM（100 ms/包），后端执行 VAD/ASR → 对话 Agent → 流式 TTS → RMS 猫嘴动画，下行音频与动画由同一 `sequence/replyId/generationEpoch` 对齐。
 
 页面不只是猫咪通话页，也是一套实时诊断控制台：可查看会话、用户与机器人状态，ASR partial/final、LLM 流式文本、分 Turn 延迟、播放缓冲、队列深度、错误，以及可按组件/级别/Turn 筛选的统一时间线。
+
+语音页默认勾选“录制本次对话”，可在拨通前取消。录音仅保存在当前页面内存，最长 10 分钟；“停止录音”不挂断通话。挂断后点击“回放与测延迟”，可查看同步双声道波形（左为麦克风，右为 AI 实际音频渲染）、逐轮定位回放，以及输入尾帧到定稿、模型首文本、TTS 首包等耗时。被打断后尚未渲染的音频不会进入渲染音轨。
+
+“下载录音包 ZIP”一次下载麦克风、计划播放、实际渲染、同步双声道四个 WAV，以及事件／耗时日志和人工标注。通话中的下载是当时的快照，完整留档请在挂断后下载；刷新或离开页面会清除内存录音。计划播放音轨仅供排查调度，实听对照优先用同步双声道或实际渲染音轨。
+
+程序的“停声→AI 渲染”不包含扬声器、声卡或蓝牙的实际出声延迟。测量真实实听间隔时，用手机在同一录音里录下自己和电脑扬声器的声音，导入“录音回放与延迟测量”（限 80 MB、10 分钟），勾选同场录音声明，再通过波形、游标和回放标记“我说完”与“AI 出声”。两点间隔使用同一文件时钟计算，负值表示重叠；支持关联轮次和导出 JSON。导入与回放都在本机完成，人工实听标注与程序音频图测量分别保存，不自动伪装成硬件回环测量。
+
+本地 Parakeet 模式在拨通准备阶段先预热语音模型，再实际执行一段静音 ASR，准备完成后才开始采集。语音模型默认使用 4096 token 上下文（`VOICE_CHAT_NUM_CTX`）；文字聊天和写作保留原来的 8192。Parakeet 的 MLX 空闲缓存默认限制为 128 MB（`LOCAL_ASR_MLX_CACHE_MB`），避免中间张量长期占用统一内存。尚未执行的已取消语音快照会退出队列；已提交的原生推理仍正常收完并丢弃结果，以保持响应顺序。录音日志额外保存 ASR worker 排队、启动、通信耗时及内存快照。
+
+同一后端进程会在通话期间保留本地推理使用权；其他本地文字／写作推理需等待通话释放，超过等待时限会提示繁忙。拨通失败、准备超时和断开都会释放使用权。该约束不控制其他程序直接访问 Ollama；多个独立进程同时加载大模型时，仍可能因系统内存不足发生换出和重新加载。
 
 ## 最快启动（稳定 Stub）
 
@@ -159,8 +365,9 @@ Paraformer 门禁要求它产生完整 VAD 生命周期和非空 final。云端 
 
 ## 打断门控（防误打断）
 
-VAD 检出"开始说话"不会立即打断机器人，而是通过四层门控降低误打断率
-（咳嗽、敲键盘、环境噪声、机器人回声都会被过滤）：
+本地 Parakeet 使用上述实时文本门控，可通过 `LOCAL_BARGE_IN_MIN_CONFIDENCE=.94`、
+`LOCAL_BARGE_IN_MIN_VOICED_MS=300` 调整。Whisper 批量识别仍等待有效定稿。
+以下持续语音门控用于其他 ASR 后端，降低咳嗽、键盘、环境噪声和回声造成的误打断率：
 
 | 环境变量 | 默认 | 含义 |
 |---|---|---|

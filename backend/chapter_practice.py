@@ -13,6 +13,14 @@ def _id(*parts):
     return hashlib.sha256(json.dumps(parts, ensure_ascii=False).encode()).hexdigest()[:24]
 
 
+def _audio_file(path):
+    if not path or not path.is_file():return False
+    with path.open('rb') as stream:
+        header=stream.read(32)
+    return not (header.startswith((b'\xff\xd8\xff',b'\x89PNG',b'GIF8',b'%PDF'))
+                or header.lstrip().lower().startswith((b'<html',b'<!doctype')))
+
+
 def _official_url(value):
     parsed = urlsplit(value or "")
     return value if parsed.scheme == "https" and parsed.hostname in {
@@ -25,6 +33,7 @@ class ChapterLibrary:
         self.root = Path(root).resolve()
         self.chapters = {}
         self.audio = {}
+        self.subtitles = {}
         self.textbook_pages = {}
         self.vocabulary_pages = {}
         self.curriculum_books = []
@@ -56,7 +65,7 @@ class ChapterLibrary:
                         path = (self.root / publisher / item["local_audio"]).resolve() if item.get("local_audio") else None
                         # Never expose arbitrary files, symlinks outside the library, or source paths.
                         local = bool(path and path.is_relative_to(self.root / publisher)
-                                     and path.suffix.lower() == ".mp3" and path.is_file())
+                                     and path.suffix.lower() == ".mp3" and _audio_file(path))
                         if local:
                             self.audio[audio_id] = path
                         url = _official_url(item.get("audio_url"))
@@ -83,6 +92,8 @@ class ChapterLibrary:
         # The collected textbook media index is separate from original topic exercises.
         for publisher in ("人教版", "科普版"):
             self._add_local_recordings(publisher)
+        from .lesson_audio import add_local_lessons
+        add_local_lessons(self)
         self._add_sentence_scenes(Path(scene_source) if scene_source is not None else
                                  Path(__file__).parent / 'data/practice/dialogue-scenes.json')
         self._add_shadow_assets()
@@ -97,7 +108,7 @@ class ChapterLibrary:
         for text, entry in words.items():
             path = (self.root / entry['path']).resolve()
             if (not path.is_relative_to(self.root) or path.suffix.lower() not in {'.mp3', '.wav'}
-                    or not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']):
+                    or not _audio_file(path) or hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']):
                 continue
             audio_id = _id('word-pronunciation', text, entry['sha256'])
             self.audio[audio_id] = path
@@ -221,7 +232,7 @@ class ChapterLibrary:
                     continue
                 path = (self.root / publisher / asset["path"]).resolve()
                 if (not path.is_relative_to(self.root / publisher) or path.suffix.lower() != ".mp3"
-                        or not path.is_file() or path in existing):
+                        or not _audio_file(path) or path in existing):
                     continue
                 audio_id = _id(chapter["id"], "passage", "local-index", asset["path"])
                 self.audio[audio_id] = path
@@ -255,17 +266,26 @@ class ChapterLibrary:
     def catalog(self):
         return {"version": 1, "missingPublishers": self.missing, "chapters": [
             {**{key: chapter[key] for key in ("id", "publisher", "grade", "edition", "unit")},
-             "recordingCount": len(chapter["recordings"])} for chapter in self.chapters.values()]}
+             "recordingCount": len(chapter["recordings"]),
+             "playableRecordingCount": sum(bool(r.get('url')) for r in chapter['recordings']),
+             "vocabularyCount": len(chapter['vocabulary'])} for chapter in self.chapters.values()]}
 
 
 def register_practice(app):
     library = None
+    revision = None
 
     def get_library():
-        nonlocal library
-        if library is None:
-            root = os.getenv("ENGLISH_RESOURCE_ROOT") or str(Path(__file__).resolve().parents[1] / "英语")
+        nonlocal library, revision
+        root = Path(os.getenv("ENGLISH_RESOURCE_ROOT") or str(Path(__file__).resolve().parents[1] / "英语"))
+        paths=[root/p for p in ['科普版/结构化教材词表.json','科普版/本地课文音频总索引.json',
+            '科普版/单元原创补充训练.json','科普版/三年级单元训练.json',
+            '人教版/新版单元听说训练.json','人教版/三年级单元训练.json','本地语音处理/lesson-audio.json']]
+        paths += list((Path(__file__).parent/'data/practice').glob('*.json'))
+        current=tuple((str(p),p.stat().st_mtime_ns,p.stat().st_ctime_ns,p.stat().st_size) for p in paths if p.exists())
+        if library is None or current!=revision:
             library = ChapterLibrary(root)
+            revision = current
         return library
 
     async def catalog(request):
@@ -292,6 +312,12 @@ def register_practice(app):
             raise web.HTTPNotFound()
         return web.FileResponse(path)
 
+    async def subtitles(request):
+        lib=get_library();path=lib.subtitles.get(request.match_info['audio_id'])
+        if path is None or not path.is_file() or not path.resolve().is_relative_to(lib.root):
+            raise web.HTTPNotFound()
+        return web.FileResponse(path,headers={'Content-Type':'text/vtt; charset=utf-8','X-Content-Type-Options':'nosniff'})
+
     async def textbook_page(request):
         lib = get_library()
         path = lib.textbook_pages.get(request.match_info['page_id'])
@@ -302,5 +328,6 @@ def register_practice(app):
     app.router.add_get("/api/practice/catalog", catalog)
     app.router.add_get("/api/practice/chapters/{chapter_id}", chapter)
     app.router.add_get("/api/practice/audio/{audio_id}", audio)
+    app.router.add_get('/api/practice/subtitles/{audio_id}', subtitles)
     app.router.add_get('/api/practice/vocabulary-pages/{page_id}', vocabulary_page)
     app.router.add_get('/api/practice/textbook-pages/{page_id}', textbook_page)

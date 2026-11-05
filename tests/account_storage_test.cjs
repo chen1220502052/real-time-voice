@@ -107,3 +107,18 @@ test('storage restrictions do not prevent database saves; initial read failure b
   assert.equal(courses.save(b.account.storage,{grade:7}),false);
   assert.equal(broken.rows.size,0);
 });
+
+test('embedded writing reuses only the same authenticated parent sync journal',async()=>{
+  const host={user:{id:'alice'},storage:{},ready:Promise.resolve()};
+  const child={KittyAccountUser:{id:'alice'},parent:{KittyAccount:host}};
+  vm.runInNewContext(source,{window:child,location:{pathname:'/writing.html',search:'?embedded=1'},
+    URLSearchParams,fetch(){throw Error('embedded editor must not open a second sync writer');}});
+  assert.equal(child.KittyAccount,host);
+  const db=database(),events={};
+  const other={KittyAccountUser:{id:'bob'},parent:{KittyAccount:host},addEventListener:(name,fn)=>{events[name]=fn;}};
+  vm.runInNewContext(source,{window:other,location:{pathname:'/writing.html',search:'?embedded=1',replace(){}},
+    URLSearchParams,document:{addEventListener(){}},localStorage:{getItem:()=>null,setItem(){},removeItem(){}},
+    fetch:db.fetch.bind(db),setTimeout,clearTimeout});
+  await other.KittyAccount.ready;
+  assert.notEqual(other.KittyAccount,host);assert.equal(other.KittyAccount.user.id,'bob');
+});

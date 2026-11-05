@@ -1,0 +1,4067 @@
+{
+  "variant": "candidate",
+  "mode": "offline",
+  "startedUtc": "2026-11-04T05:34:02Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:33:29Z",
+    "casesSha256": "aa78e5a6ea77384efaf560ac7062c76006b14f05bbda392064b35a34ba19993b",
+    "sources": {
+      "backend/voice_grounding.py": "8cfd01bb49db7c29936e3c2e4eecb3f77577ba29f79bbf443cea4bf09477b5b5",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "machine": "macOS-26.2-arm64-arm-64bit",
+    "model": "qwen2.5:3b",
+    "quantization": "Q4_K_M",
+    "asr": "parakeet 0.6b v3 int8; pinned tiny language ID; Whisper large-v3-turbo fallback",
+    "tts": "same Kokoro82M BF16 weights, af_heart+zf_xiaobei",
+    "cache": "TTS disabled in evaluation",
+    "notes": "Never change product sources based on this holdout without creating a new independent release set. Source and audio SHA256 verified before inference.",
+    "harnessSha256": "31d32867f2e62f9cdd0b3327cf9c7b967c07c567bdb9a7eeafdf12dfaf44298f"
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "请用中文课索,你的年龄是多少?",
+      "asrMs": 957.4565412476659,
+      "asrDetail": {
+        "id": 2,
+        "text": "请用中文课索,你的年龄是多少?",
+        "confidence": 0.7156175641285303,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 955.63,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 957.167
+      },
+      "endpoint": null,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 1536.0160833224654,
+      "totalMs": 2732.831333298236,
+      "audioSeconds": 11.28,
+      "output": ".local/bilingual-voice/candidate/b01-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 5.85
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 569.278,
+              "postprocess": 1.732
+            },
+            "memory": {
+              "activeBytes": 165124410,
+              "cacheBytes": 130279220
+            },
+            "inferenceMs": 571.04,
+            "queueWaitMs": 0.018,
+            "startupMs": 0.005,
+            "ipcWallMs": 572.288
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 767.355,
+              "postprocess": 2.613
+            },
+            "memory": {
+              "activeBytes": 165353778,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 770.0,
+            "queueWaitMs": 572.266,
+            "startupMs": 0.005,
+            "ipcWallMs": 771.306
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 422.351,
+              "postprocess": 1.716
+            },
+            "memory": {
+              "activeBytes": 165173710,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 424.08,
+            "queueWaitMs": 1343.603,
+            "startupMs": 0.004,
+            "ipcWallMs": 424.835
+          }
+        }
+      ],
+      "audioTranscript": "我是 Kitty你这是猫没有人类的年龄或生日",
+      "audioLanguage": "zh",
+      "waveformSha256": "0cda45ed93d3b94bd83e6fbfbe39a45a5b5c7f870712c7e3ba444423d8c807ef"
+    },
+    {
+      "id": "b02",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "你的生日是哪一天?用中文回答",
+      "asrMs": 1224.5180406607687,
+      "asrDetail": {
+        "id": 3,
+        "text": "你的生日是哪一天?用中文回答",
+        "confidence": 0.73597041048864,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 1223.64,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.004,
+        "ipcWallMs": 1224.342
+      },
+      "endpoint": null,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 1547.8141657076776,
+      "totalMs": 2821.716332808137,
+      "audioSeconds": 11.28,
+      "output": ".local/bilingual-voice/candidate/b02-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 320.95,
+              "postprocess": 1.194
+            },
+            "memory": {
+              "activeBytes": 165124414,
+              "cacheBytes": 132369774
+            },
+            "inferenceMs": 322.17,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 323.028
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 832.589,
+              "postprocess": 2.34
+            },
+            "memory": {
+              "activeBytes": 165353786,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 834.95,
+            "queueWaitMs": 323.027,
+            "startupMs": 0.003,
+            "ipcWallMs": 836.039
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 432.525,
+              "postprocess": 2.472
+            },
+            "memory": {
+              "activeBytes": 165173710,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 435.02,
+            "queueWaitMs": 1159.094,
+            "startupMs": 0.003,
+            "ipcWallMs": 436.061
+          }
+        }
+      ],
+      "audioTranscript": "我是 Kitty你这是猫没有人类的年龄或生日",
+      "audioLanguage": "zh",
+      "waveformSha256": "94986c147e2557699bb17f32cdd278c30f6b4e9f6d6e0cdb12fc0e7d94977a4b"
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "用中文回答我最喜欢的动物是什么",
+      "asrMs": 1069.7250412777066,
+      "asrDetail": {
+        "id": 4,
+        "text": "用中文回答我最喜欢的动物是什么",
+        "confidence": 0.8647205911094288,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 1068.68,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 1069.515
+      },
+      "endpoint": null,
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "firstAudioMs": 1476.313583087176,
+      "totalMs": 1977.5822083465755,
+      "audioSeconds": 6.365,
+      "output": ".local/bilingual-voice/candidate/b03-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 1.94
+      },
+      "speech": [
+        {
+          "text": "你只说过喜欢，",
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 401.916,
+              "postprocess": 1.778
+            },
+            "memory": {
+              "activeBytes": 165091735,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 403.72,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 404.441
+          }
+        },
+        {
+          "text": "还没有明确说最喜欢什么。",
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 497.912,
+              "postprocess": 1.825
+            },
+            "memory": {
+              "activeBytes": 165190122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 499.76,
+            "queueWaitMs": 404.438,
+            "startupMs": 0.003,
+            "ipcWallMs": 500.639
+          }
+        }
+      ],
+      "audioTranscript": "你只说过喜欢还没有明确说最喜欢什么",
+      "audioLanguage": "zh",
+      "waveformSha256": "0f8940384346046d7625dea68d17210ceb7fa35ce136f53a0788eebde72899ef"
+    },
+    {
+      "id": "b04",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "请用中文说我现在最喜欢什么颜色",
+      "asrMs": 929.795749951154,
+      "asrDetail": {
+        "id": 5,
+        "text": "请用中文说我现在最喜欢什么颜色",
+        "confidence": 0.8953301004749239,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 928.7,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.005,
+        "ipcWallMs": 929.579
+      },
+      "endpoint": null,
+      "text": "你明确说过最喜欢 紫色。",
+      "firstAudioMs": 1492.1477092429996,
+      "totalMs": 1492.9717499762774,
+      "audioSeconds": 3.58,
+      "output": ".local/bilingual-voice/candidate/b04-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "你明确说过最喜欢 紫色。",
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 559.38,
+              "postprocess": 1.828
+            },
+            "memory": {
+              "activeBytes": 165190102,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 561.22,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 562.142
+          }
+        }
+      ],
+      "audioTranscript": "你明确说过最喜欢紫色",
+      "audioLanguage": "zh",
+      "waveformSha256": "8dec3b1a4095443e76430cff892a6a96cf84a41be35b2ae5bd788cdb14534538"
+    },
+    {
+      "id": "b05",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "故事里,小熊今年七岁,小熊几岁,请用中文回答。",
+      "asrMs": 1324.1373747587204,
+      "asrDetail": {
+        "id": 6,
+        "text": "故事里,小熊今年七岁,小熊几岁,请用中文回答。",
+        "confidence": 0.8506621307792511,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 1322.44,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 1323.85
+      },
+      "endpoint": null,
+      "text": "小熊今年七岁，所以小熊是七岁。",
+      "firstAudioMs": 3685.649207793176,
+      "totalMs": 3934.209750033915,
+      "audioSeconds": 5.83,
+      "output": ".local/bilingual-voice/candidate/b05-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 3.68,
+        "promptChars": 1594,
+        "systemPromptChars": 1571,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 11.48,
+        "providerHeadersMs": 1103.45,
+        "providerFirstTokenMs": 1103.49,
+        "modelLoadMs": 18.672,
+        "promptEvalMs": 1063.14,
+        "tokenGenerationMs": 624.563,
+        "promptTokens": 672,
+        "generatedTokens": 14,
+        "firstSentenceReadyMs": 1729.45,
+        "firstSentenceChars": 16,
+        "firstSpeechTextReadyMs": 1729.45
+      },
+      "speech": [
+        {
+          "text": "小熊今年七岁，",
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 628.298,
+              "postprocess": 2.56
+            },
+            "memory": {
+              "activeBytes": 165108122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 630.88,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 631.868
+          }
+        },
+        {
+          "text": "所以小熊是七岁。",
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 245.637,
+              "postprocess": 1.722
+            },
+            "memory": {
+              "activeBytes": 165140894,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 247.38,
+            "queueWaitMs": 631.879,
+            "startupMs": 0.004,
+            "ipcWallMs": 248.028
+          }
+        }
+      ],
+      "audioTranscript": "肖熊今年七岁所以肖熊是七岁",
+      "audioLanguage": "zh",
+      "waveformSha256": "ba937c5a9758fa6e865cc824abf1886471257eadf534a587f78546976ab8fe9a"
+    },
+    {
+      "id": "b06",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "小若有五本书,又卖了两本。现在有几本?请用中文回答。",
+      "asrMs": 1485.8450409956276,
+      "asrDetail": {
+        "id": 7,
+        "text": "小若有五本书,又卖了两本。现在有几本?请用中文回答。",
+        "confidence": 0.8709973238720973,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 1484.41,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 1485.605
+      },
+      "endpoint": null,
+      "text": "小有5 - 2 = 3本书。",
+      "firstAudioMs": 2693.5658333823085,
+      "totalMs": 2694.1806660033762,
+      "audioSeconds": 2.85,
+      "output": ".local/bilingual-voice/candidate/b06-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.81,
+        "promptChars": 1626,
+        "systemPromptChars": 1600,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 282.98,
+        "providerFirstTokenMs": 283.02,
+        "modelLoadMs": 15.862,
+        "promptEvalMs": 258.813,
+        "tokenGenerationMs": 519.526,
+        "promptTokens": 681,
+        "generatedTokens": 12,
+        "firstSpeechTextReadyMs": 802.8,
+        "firstSentenceReadyMs": 802.94,
+        "firstSentenceChars": 15
+      },
+      "speech": [
+        {
+          "text": "小有5 - 2 = 3本书。",
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 401.375,
+              "postprocess": 2.369
+            },
+            "memory": {
+              "activeBytes": 165108122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 403.77,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.003,
+            "ipcWallMs": 404.648
+          }
+        }
+      ],
+      "audioTranscript": "小友523本书",
+      "audioLanguage": "zh",
+      "waveformSha256": "0037a4eb3e54654260d283b7c628159fb67406712503f7f3dfab81769f967446"
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请个索Umbrella的中文意思是什么",
+      "asrMs": 1141.8543751351535,
+      "asrDetail": {
+        "id": 8,
+        "text": "请个索Umbrella的中文意思是什么",
+        "confidence": 0.653201174036912,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 1140.66,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 1141.616
+      },
+      "endpoint": null,
+      "text": "umbrella 的意思是“雨伞”。",
+      "firstAudioMs": 1874.0390418097377,
+      "totalMs": 1874.931000173092,
+      "audioSeconds": 4.23,
+      "output": ".local/bilingual-voice/candidate/b07-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 30.6
+      },
+      "speech": [
+        {
+          "text": "umbrella 的意思是“雨伞”。",
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 697.074,
+              "postprocess": 2.887
+            },
+            "memory": {
+              "activeBytes": 165255534,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 699.99,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 701.36
+          }
+        }
+      ],
+      "audioTranscript": "Umbrella的意思是雨伞",
+      "audioLanguage": "zh",
+      "waveformSha256": "0e5a3c8c1fe6639132a6f23dce04f210a13c851ca9e593ff6fb768b5c5c905a7"
+    },
+    {
+      "id": "b08",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释单词Strawberry 的意思",
+      "asrMs": 1245.19795877859,
+      "asrDetail": {
+        "id": 9,
+        "text": "请用中文解释单词Strawberry 的意思",
+        "confidence": 0.7181975133477155,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 1243.98,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.005,
+        "ipcWallMs": 1244.957
+      },
+      "endpoint": null,
+      "text": "Strawberry 是一种水果，看起来像草莓，但实际上是一种浆果。",
+      "firstAudioMs": 3012.0237916707993,
+      "totalMs": 3659.288958646357,
+      "audioSeconds": 10.05,
+      "output": ".local/bilingual-voice/candidate/b08-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.83,
+        "promptChars": 1612,
+        "systemPromptChars": 1590,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 252.07,
+        "providerFirstTokenMs": 252.12,
+        "modelLoadMs": 13.04,
+        "promptEvalMs": 230.73,
+        "tokenGenerationMs": 810.929,
+        "promptTokens": 669,
+        "generatedTokens": 17,
+        "firstSentenceReadyMs": 1063.32,
+        "firstSentenceChars": 35,
+        "firstSpeechTextReadyMs": 1063.32
+      },
+      "speech": [
+        {
+          "text": "Strawberry 是一种水果，",
+          "detail": {
+            "id": 16,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 698.517,
+              "postprocess": 3.27
+            },
+            "memory": {
+              "activeBytes": 165239154,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 701.82,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 703.311
+          }
+        },
+        {
+          "text": "看起来像草莓，",
+          "detail": {
+            "id": 17,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 355.72,
+              "postprocess": 1.796
+            },
+            "memory": {
+              "activeBytes": 165091734,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 357.54,
+            "queueWaitMs": 703.316,
+            "startupMs": 0.003,
+            "ipcWallMs": 358.157
+          }
+        },
+        {
+          "text": "但实际上是一种浆果。",
+          "detail": {
+            "id": 18,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 284.343,
+              "postprocess": 2.361
+            },
+            "memory": {
+              "activeBytes": 165173682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 286.73,
+            "queueWaitMs": 1061.502,
+            "startupMs": 0.004,
+            "ipcWallMs": 287.642
+          }
+        }
+      ],
+      "audioTranscript": "是一种水果,看起来像草莓,但实际上是一种浆果。",
+      "audioLanguage": "zh",
+      "waveformSha256": "7ca3529d478925c4d7aa0276b3a146d01d1eb8efb6915a02e70fd6fa5c230948"
+    },
+    {
+      "id": "b09",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释再给一个英语一句",
+      "asrMs": 1160.942791029811,
+      "asrDetail": {
+        "id": 10,
+        "text": "请用中文解释再给一个英语一句",
+        "confidence": 0.8372014124090084,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 1159.98,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 1160.747
+      },
+      "endpoint": null,
+      "text": "好的，我来解释一下。 你想要我用中文解释一个英语句子吗？",
+      "firstAudioMs": 3333.2847082056105,
+      "totalMs": 4345.191166270524,
+      "audioSeconds": 8.4,
+      "output": ".local/bilingual-voice/candidate/b09-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.86,
+        "promptChars": 1635,
+        "systemPromptChars": 1621,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 361.39,
+        "providerFirstTokenMs": 361.42,
+        "modelLoadMs": 12.498,
+        "promptEvalMs": 339.836,
+        "tokenGenerationMs": 1684.008,
+        "promptTokens": 665,
+        "generatedTokens": 34,
+        "firstSentenceReadyMs": 2045.85,
+        "firstSentenceChars": 11,
+        "firstSpeechTextReadyMs": 2045.86
+      },
+      "speech": [
+        {
+          "text": "好的，",
+          "detail": {
+            "id": 19,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 124.189,
+              "postprocess": 1.62
+            },
+            "memory": {
+              "activeBytes": 164944190,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 125.83,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 126.25
+          }
+        },
+        {
+          "text": "我来解释一下。",
+          "detail": {
+            "id": 20,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 409.759,
+              "postprocess": 1.28
+            },
+            "memory": {
+              "activeBytes": 165108094,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 411.05,
+            "queueWaitMs": 126.233,
+            "startupMs": 0.004,
+            "ipcWallMs": 411.532
+          }
+        },
+        {
+          "text": " 你想要我用中文解释一个英语句子吗？",
+          "detail": {
+            "id": 21,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 597.252,
+              "postprocess": 1.664
+            },
+            "memory": {
+              "activeBytes": 165288462,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 598.94,
+            "queueWaitMs": 537.787,
+            "startupMs": 0.002,
+            "ipcWallMs": 599.77
+          }
+        }
+      ],
+      "audioTranscript": "好的,我来解释一下。你想要我用中文解释一个英语句子吗?",
+      "audioLanguage": "zh",
+      "waveformSha256": "a217f0e88d34f01c0b9401f6fc98f7605bb85ca58c86bd97c5c5d1da2c9018a5"
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "error": "TextBotError",
+      "detail": "本轮未能可靠生成中文，请换一个更短的问题"
+    },
+    {
+      "id": "b11",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "情节是Rainey的中文意思再用它造一个英语句子",
+      "asrMs": 582.8589582815766,
+      "asrDetail": {
+        "id": 12,
+        "text": "情节是Rainey的中文意思再用它造一个英语句子",
+        "confidence": 0.7819768836001999,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 580.73,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 582.33
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 753.7619578652084,
+      "totalMs": 905.0995409488678,
+      "audioSeconds": 8.045,
+      "output": ".local/bilingual-voice/candidate/b11-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.1
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 22,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 168.234,
+              "postprocess": 1.551
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 169.81,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 170.644
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 23,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 148.525,
+              "postprocess": 1.666
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 150.21,
+            "queueWaitMs": 170.645,
+            "startupMs": 0.003,
+            "ipcWallMs": 150.843
+          }
+        }
+      ],
+      "audioTranscript": "这个词暂时没有可靠的词表示意请提供完整句子以便确认",
+      "audioLanguage": "zh",
+      "waveformSha256": "e6b32443cd52147d62d3ec993cad6f9f72d1924a07239258260db1b1c30cd6f0"
+    },
+    {
+      "id": "b12",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "我想追到Scarp這個堅持的中文意思",
+      "asrMs": 530.2543751895428,
+      "asrDetail": {
+        "id": 13,
+        "text": "我想追到Scarp這個堅持的中文意思",
+        "confidence": 0.6650515007012867,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 529.44,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 530.085
+      },
+      "endpoint": null,
+      "text": "Scarp 这个词在中文里没有直接对应的词汇，它可能是某个特定的名称或者专有名词。 如果你是在学习英语单词，Scarp 可以理解为“岩石平台”或“岩石峭壁”的意思。",
+      "firstAudioMs": 1564.782792236656,
+      "totalMs": 2225.286167114973,
+      "audioSeconds": 21.71,
+      "output": ".local/bilingual-voice/candidate/b12-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.37,
+        "promptChars": 1026,
+        "systemPromptChars": 1008,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 138.89,
+        "providerFirstTokenMs": 138.96,
+        "modelLoadMs": 16.67,
+        "promptEvalMs": 105.489,
+        "tokenGenerationMs": 605.381,
+        "promptTokens": 507,
+        "generatedTokens": 51,
+        "firstSentenceReadyMs": 744.76,
+        "firstSentenceChars": 42,
+        "firstSpeechTextReadyMs": 744.77
+      },
+      "speech": [
+        {
+          "text": "Scarp 这个词在中文里没有直接对应的词汇，",
+          "detail": {
+            "id": 24,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 286.401,
+              "postprocess": 1.646
+            },
+            "memory": {
+              "activeBytes": 165452566,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 288.08,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.006,
+            "ipcWallMs": 289.46
+          }
+        },
+        {
+          "text": "它可能是某个特定的名称或者专有名词。",
+          "detail": {
+            "id": 25,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 218.064,
+              "postprocess": 1.449
+            },
+            "memory": {
+              "activeBytes": 165337670,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 219.53,
+            "queueWaitMs": 289.411,
+            "startupMs": 0.004,
+            "ipcWallMs": 220.402
+          }
+        },
+        {
+          "text": " 如果你是在学习英语单词，",
+          "detail": {
+            "id": 26,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 161.827,
+              "postprocess": 1.475
+            },
+            "memory": {
+              "activeBytes": 165206474,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 163.31,
+            "queueWaitMs": 509.398,
+            "startupMs": 0.002,
+            "ipcWallMs": 163.953
+          }
+        },
+        {
+          "text": "Scarp 可以理解为“岩石平台”或“岩石峭壁”的意思。",
+          "detail": {
+            "id": 27,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 271.448,
+              "postprocess": 1.857
+            },
+            "memory": {
+              "activeBytes": 165468950,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 273.33,
+            "queueWaitMs": 673.37,
+            "startupMs": 0.003,
+            "ipcWallMs": 274.298
+          }
+        }
+      ],
+      "audioTranscript": "这个词在中文里没有直接对应的词汇。它可能是某个特定的名称或者专有名词。如果你是在学习英语单词,可以理解为岩石平台或岩石峭壁的意思。",
+      "audioLanguage": "zh",
+      "waveformSha256": "dcbe44ae13ca5dd9a6489aeb41d7579c358dcc2304397647a4d66ce93beb9378"
+    },
+    {
+      "id": "b13",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word sweater into Chinese.",
+      "asrMs": 67.82241584733129,
+      "asrDetail": {
+        "id": 14,
+        "text": "Please translate the word sweater into Chinese.",
+        "confidence": 0.9979026680200203,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 67.11,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 67.677
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 240.86649995297194,
+      "totalMs": 391.51904080063105,
+      "audioSeconds": 8.045,
+      "output": ".local/bilingual-voice/candidate/b13-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 28,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 170.733,
+              "postprocess": 1.362
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 172.11,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 172.84
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 29,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 148.03,
+              "postprocess": 1.471
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 149.51,
+            "queueWaitMs": 172.839,
+            "startupMs": 0.003,
+            "ipcWallMs": 150.169
+          }
+        }
+      ],
+      "audioTranscript": "这个词暂时没有可靠的词表示意请提供完整句子以便确认",
+      "audioLanguage": "zh",
+      "waveformSha256": "34e297365ca1f2a404694d77d5fe8213bca03f0de13ea8f30942438a55ba37e0"
+    },
+    {
+      "id": "b14",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does noisy mean in Chinese? Please give an example in English.",
+      "asrMs": 77.7419158257544,
+      "asrDetail": {
+        "id": 15,
+        "text": "What does noisy mean in Chinese? Please give an example in English.",
+        "confidence": 0.9994418280107767,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 76.74,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 77.504
+      },
+      "endpoint": null,
+      "text": "noisy 的意思是“吵闹的;充满噪声的”。 例如：The noisy party kept me awake all night.",
+      "firstAudioMs": 844.1254580393434,
+      "totalMs": 1043.6863326467574,
+      "audioSeconds": 10.385,
+      "output": ".local/bilingual-voice/candidate/b14-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.76,
+        "promptChars": 1551,
+        "systemPromptChars": 1484,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 259.33,
+        "providerFirstTokenMs": 259.4,
+        "modelLoadMs": 15.314,
+        "promptEvalMs": 234.159,
+        "tokenGenerationMs": 270.681,
+        "promptTokens": 651,
+        "generatedTokens": 25,
+        "firstSentenceReadyMs": 532.05,
+        "firstSentenceChars": 23,
+        "firstSpeechTextReadyMs": 532.06
+      },
+      "speech": [
+        {
+          "text": "noisy 的意思是“吵闹的;充满噪声的”。",
+          "detail": {
+            "id": 30,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 231.576,
+              "postprocess": 1.427
+            },
+            "memory": {
+              "activeBytes": 165386718,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 233.03,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.004,
+            "ipcWallMs": 234.072
+          }
+        },
+        {
+          "text": " 例如：The noisy party kept me awake all night.",
+          "detail": {
+            "id": 31,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 197.104,
+              "postprocess": 1.029
+            },
+            "memory": {
+              "activeBytes": 165321154,
+              "cacheBytes": 133858458
+            },
+            "inferenceMs": 198.15,
+            "queueWaitMs": 233.797,
+            "startupMs": 0.003,
+            "ipcWallMs": 198.949
+          }
+        }
+      ],
+      "audioTranscript": "noisy the ishish chow nao de chong man zau sheng de lee ru the noisy party kept me awake all night",
+      "audioLanguage": "en",
+      "waveformSha256": "ddcba9713e924cd00bca8e09cfb46cf992503b63f0a137db67d8d73915cd6cc1"
+    },
+    {
+      "id": "b15",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does empty mean in Chinese? Then write one English sentence.",
+      "asrMs": 65.05416706204414,
+      "asrDetail": {
+        "id": 16,
+        "text": "What does empty mean in Chinese? Then write one English sentence.",
+        "confidence": 0.9961538847637624,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 127956112,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 64.11,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 64.879
+      },
+      "endpoint": null,
+      "text": "empty 的意思是“空的;无意义的;空的;倒空; 流入,注入”。 例如：The box is empty.",
+      "firstAudioMs": 991.8956668116152,
+      "totalMs": 1252.9397089965641,
+      "audioSeconds": 11.98,
+      "output": ".local/bilingual-voice/candidate/b15-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.71,
+        "promptChars": 1531,
+        "systemPromptChars": 1466,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 255.31,
+        "providerFirstTokenMs": 255.38,
+        "modelLoadMs": 12.921,
+        "promptEvalMs": 233.156,
+        "tokenGenerationMs": 429.907,
+        "promptTokens": 653,
+        "generatedTokens": 38,
+        "firstSentenceReadyMs": 686.09,
+        "firstSentenceChars": 34,
+        "firstSpeechTextReadyMs": 686.1
+      },
+      "speech": [
+        {
+          "text": "empty 的意思是“空的;无意义的;空的;倒空;",
+          "detail": {
+            "id": 32,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 237.318,
+              "postprocess": 1.769
+            },
+            "memory": {
+              "activeBytes": 165403114,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 239.13,
+            "queueWaitMs": 0.011,
+            "startupMs": 0.01,
+            "ipcWallMs": 240.271
+          }
+        },
+        {
+          "text": " 流入,注入”。",
+          "detail": {
+            "id": 33,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 99.675,
+              "postprocess": 1.245
+            },
+            "memory": {
+              "activeBytes": 165075298,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 100.93,
+            "queueWaitMs": 240.187,
+            "startupMs": 0.002,
+            "ipcWallMs": 101.47
+          }
+        },
+        {
+          "text": " 例如：The box is empty.",
+          "detail": {
+            "id": 34,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 157.58,
+              "postprocess": 0.896
+            },
+            "memory": {
+              "activeBytes": 165222762,
+              "cacheBytes": 134120600
+            },
+            "inferenceMs": 158.5,
+            "queueWaitMs": 341.677,
+            "startupMs": 0.002,
+            "ipcWallMs": 159.111
+          }
+        }
+      ],
+      "audioTranscript": "Empty. The意思是空的,无意义的空的道空.流入注入.例如. The box is empty.",
+      "audioLanguage": "en",
+      "waveformSha256": "8b9136202824f2a0eb059fa1b3ac5aad53d2c6c7c073996020dbab8d54927e7c"
+    },
+    {
+      "id": "b16",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Tell me what sweep means in Chinese and give two English examples.",
+      "asrMs": 71.30499975755811,
+      "asrDetail": {
+        "id": 17,
+        "text": "Tell me what sweep means in Chinese and give two English examples.",
+        "confidence": 0.9928805208424921,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 70.34,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 71.125
+      },
+      "endpoint": null,
+      "text": "清扫，清除。 tell me what sweep means in Chinese and give two English examples. tell me how to sweep the floor and give two English examples.",
+      "firstAudioMs": 1812.7325000241399,
+      "totalMs": 2255.1226657815278,
+      "audioSeconds": 11.84,
+      "output": ".local/bilingual-voice/candidate/b16-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.85,
+        "promptChars": 988,
+        "systemPromptChars": 398,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 287.53,
+        "providerFirstTokenMs": 287.58,
+        "modelLoadMs": 6.089,
+        "promptEvalMs": 301.571,
+        "tokenGenerationMs": 566.5,
+        "promptTokens": 270,
+        "generatedTokens": 49,
+        "exampleRepairRequests": 1,
+        "languageRepairMs": 883.36,
+        "firstSentenceReadyMs": 1640.27,
+        "firstSentenceChars": 7,
+        "firstSpeechTextReadyMs": 1640.27
+      },
+      "speech": [
+        {
+          "text": "清扫，",
+          "detail": {
+            "id": 35,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 98.688,
+              "postprocess": 1.628
+            },
+            "memory": {
+              "activeBytes": 165026118,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 100.34,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 100.864
+          }
+        },
+        {
+          "text": "清除。",
+          "detail": {
+            "id": 36,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 86.25,
+              "postprocess": 1.224
+            },
+            "memory": {
+              "activeBytes": 165026118,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 87.49,
+            "queueWaitMs": 100.855,
+            "startupMs": 0.003,
+            "ipcWallMs": 87.934
+          }
+        },
+        {
+          "text": " tell me what sweep means in Chinese and give two English examples.",
+          "detail": {
+            "id": 37,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 185.292,
+              "postprocess": 0.948
+            },
+            "memory": {
+              "activeBytes": 165239346,
+              "cacheBytes": 133819300
+            },
+            "inferenceMs": 186.26,
+            "queueWaitMs": 188.812,
+            "startupMs": 0.002,
+            "ipcWallMs": 186.942
+          }
+        },
+        {
+          "text": " tell me how to sweep the floor and give two English examples.",
+          "detail": {
+            "id": 38,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 164.118,
+              "postprocess": 0.86
+            },
+            "memory": {
+              "activeBytes": 165190170,
+              "cacheBytes": 134045194
+            },
+            "inferenceMs": 165.0,
+            "queueWaitMs": 375.594,
+            "startupMs": 0.003,
+            "ipcWallMs": 165.654
+          }
+        }
+      ],
+      "audioTranscript": "清早,清楚. Tell me what sweep means in Chinese and give two English examples. Tell me how to sweep the floor and give two English examples.",
+      "audioLanguage": "en",
+      "waveformSha256": "64399f0431414952cb9e1167c474ca2ccd593fc836240e4eaec95a8d7860a14a"
+    },
+    {
+      "id": "b17",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is the Chinese meaning of lemon?",
+      "asrMs": 53.408208303153515,
+      "asrDetail": {
+        "id": 18,
+        "text": "What is the Chinese meaning of lemon?",
+        "confidence": 0.9979601785306668,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 52.85,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 53.286
+      },
+      "endpoint": null,
+      "text": "lemon 的意思是“柠檬”。",
+      "firstAudioMs": 224.85370794311166,
+      "totalMs": 225.27087526395917,
+      "audioSeconds": 4.155,
+      "output": ".local/bilingual-voice/candidate/b17-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "lemon 的意思是“柠檬”。",
+          "detail": {
+            "id": 39,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 168.97,
+              "postprocess": 1.597
+            },
+            "memory": {
+              "activeBytes": 165239166,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 170.58,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 171.283
+          }
+        }
+      ],
+      "audioTranscript": "Lemon第意思是柠檬",
+      "audioLanguage": "zh",
+      "waveformSha256": "10a85f809c9f1c740ec9c05975b2033a35182b1275d7db83acb8a880af988188"
+    },
+    {
+      "id": "b18",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does Zorbuff mean in Chinese?",
+      "asrMs": 53.37279196828604,
+      "asrDetail": {
+        "id": 19,
+        "text": "What does Zorbuff mean in Chinese?",
+        "confidence": 0.9726484734395555,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 52.81,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 53.248
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 221.9110419973731,
+      "totalMs": 372.52266705036163,
+      "audioSeconds": 8.035,
+      "output": ".local/bilingual-voice/candidate/b18-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 40,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 166.368,
+              "postprocess": 1.255
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 167.64,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 168.35
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 41,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 148.117,
+              "postprocess": 1.374
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 149.5,
+            "queueWaitMs": 168.349,
+            "startupMs": 0.002,
+            "ipcWallMs": 150.149
+          }
+        }
+      ],
+      "audioTranscript": "这个词暂时没有可靠的词表示意请提供完整句子以便确认",
+      "audioLanguage": "zh",
+      "waveformSha256": "c7cf7beec640d347a68cea252594a21c8d30a53bd054327de1d4e322261ee8f3"
+    },
+    {
+      "id": "b19",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Do you know my favourite school subject?",
+      "asrMs": 47.80041705816984,
+      "asrDetail": {
+        "id": 20,
+        "text": "Do you know my favourite school subject?",
+        "confidence": 0.9931240568758163,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 47.2,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 47.664
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 124.12654189392924,
+      "totalMs": 227.27179201319814,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice/candidate/b19-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 42,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 75.083,
+              "postprocess": 0.621
+            },
+            "memory": {
+              "activeBytes": 164977022,
+              "cacheBytes": 133591804
+            },
+            "inferenceMs": 75.72,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 76.098
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 43,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 101.63,
+              "postprocess": 0.675
+            },
+            "memory": {
+              "activeBytes": 165042626,
+              "cacheBytes": 132587586
+            },
+            "inferenceMs": 102.32,
+            "queueWaitMs": 76.102,
+            "startupMs": 0.003,
+            "ipcWallMs": 102.75
+          }
+        }
+      ],
+      "audioTranscript": "You said what you like, but you have not said what you like best.",
+      "audioLanguage": "en",
+      "waveformSha256": "895c939b7e55b745c6ae26c9e02cc77e6ca6fb54b0fb2b4ead7ea73827a5c8d0"
+    },
+    {
+      "id": "b20",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Could you tell me your actual birthday?",
+      "asrMs": 55.879832711070776,
+      "asrDetail": {
+        "id": 21,
+        "text": "Could you tell me your actual birthday?",
+        "confidence": 0.9906902964530897,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2480393842,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 55.3,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 55.747
+      },
+      "endpoint": null,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "firstAudioMs": 147.29045797139406,
+      "totalMs": 264.4292078912258,
+      "audioSeconds": 4.7,
+      "output": ".local/bilingual-voice/candidate/b20-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "I'm Kitty, an AI cat,",
+          "detail": {
+            "id": 44,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 90.159,
+              "postprocess": 0.611
+            },
+            "memory": {
+              "activeBytes": 165026184,
+              "cacheBytes": 121961056
+            },
+            "inferenceMs": 90.79,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 91.218
+          }
+        },
+        {
+          "text": " so I don't have a human age or birthday.",
+          "detail": {
+            "id": 45,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 115.419,
+              "postprocess": 0.713
+            },
+            "memory": {
+              "activeBytes": 165075478,
+              "cacheBytes": 133795360
+            },
+            "inferenceMs": 116.15,
+            "queueWaitMs": 91.22,
+            "startupMs": 0.002,
+            "ipcWallMs": 116.711
+          }
+        }
+      ],
+      "audioTranscript": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "audioLanguage": "en",
+      "waveformSha256": "1488fd2aa1a293037852af2c417513eabe8585fa35658c6042ecbf6fa3167196"
+    },
+    {
+      "id": "b21",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "A story says Ben is 11. How old is Ben?",
+      "asrMs": 57.56320804357529,
+      "asrDetail": {
+        "id": 22,
+        "text": "A story says Ben is 11. How old is Ben?",
+        "confidence": 0.9927736040180665,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 56.82,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 57.387
+      },
+      "endpoint": null,
+      "text": "Ben is 11 years old.",
+      "firstAudioMs": 534.6805420704186,
+      "totalMs": 535.0835830904543,
+      "audioSeconds": 2.145,
+      "output": ".local/bilingual-voice/candidate/b21-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.17,
+        "promptChars": 2225,
+        "systemPromptChars": 2186,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 260.42,
+        "providerFirstTokenMs": 260.45,
+        "firstSpeechTextReadyMs": 298.27,
+        "modelLoadMs": 9.857,
+        "promptEvalMs": 238.195,
+        "tokenGenerationMs": 104.774,
+        "promptTokens": 482,
+        "generatedTokens": 9,
+        "firstSentenceReadyMs": 365.54,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Ben is 11 years old.",
+          "detail": {
+            "id": 46,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 109.717,
+              "postprocess": 0.696
+            },
+            "memory": {
+              "activeBytes": 165042583,
+              "cacheBytes": 132919370
+            },
+            "inferenceMs": 110.44,
+            "queueWaitMs": 0.009,
+            "startupMs": 0.007,
+            "ipcWallMs": 111.264
+          }
+        }
+      ],
+      "audioTranscript": "Ben is 11 years old.",
+      "audioLanguage": "en",
+      "waveformSha256": "5fd72af9abf99032e7c22ca840b2bf20a5900b1b956ea2a125483e6ef3a517e8"
+    },
+    {
+      "id": "b22",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "I have a red kite. What color is my kite?",
+      "asrMs": 60.17733411863446,
+      "asrDetail": {
+        "id": 23,
+        "text": "I have a red kite. What color is my kite?",
+        "confidence": 0.9924928863902774,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 59.38,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.004,
+        "ipcWallMs": 60.01
+      },
+      "endpoint": null,
+      "text": "Your kite is red.",
+      "firstAudioMs": 299.86570915207267,
+      "totalMs": 300.2577503211796,
+      "audioSeconds": 1.515,
+      "output": ".local/bilingual-voice/candidate/b22-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.92,
+        "promptChars": 2227,
+        "systemPromptChars": 2186,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 75.88,
+        "providerFirstTokenMs": 75.9,
+        "firstSpeechTextReadyMs": 116.85,
+        "modelLoadMs": 16.399,
+        "promptEvalMs": 52.329,
+        "tokenGenerationMs": 74.306,
+        "promptTokens": 480,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 150.57,
+        "firstSentenceChars": 18
+      },
+      "speech": [
+        {
+          "text": "Your kite is red.",
+          "detail": {
+            "id": 47,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 87.859,
+              "postprocess": 0.659
+            },
+            "memory": {
+              "activeBytes": 164976998,
+              "cacheBytes": 120934672
+            },
+            "inferenceMs": 88.54,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 88.938
+          }
+        }
+      ],
+      "audioTranscript": "Your kite is red.",
+      "audioLanguage": "en",
+      "waveformSha256": "fb7099f0850597950bf48d54a2095d0236f469007d84387a165c8bb07ded3717"
+    },
+    {
+      "id": "b23",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me a short English sentence to invite a classmate to draw.",
+      "asrMs": 69.6241669356823,
+      "asrDetail": {
+        "id": 24,
+        "text": "Give me a short English sentence to invite a classmate to draw.",
+        "confidence": 0.9990817736325588,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 68.85,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 69.466
+      },
+      "endpoint": null,
+      "text": "Let's draw together!",
+      "firstAudioMs": 468.59420789405704,
+      "totalMs": 468.94737472757697,
+      "audioSeconds": 1.6,
+      "output": ".local/bilingual-voice/candidate/b23-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.85,
+        "promptChars": 2851,
+        "systemPromptChars": 2788,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 238.03,
+        "providerFirstTokenMs": 238.07,
+        "modelLoadMs": 10.542,
+        "promptEvalMs": 219.835,
+        "tokenGenerationMs": 79.486,
+        "promptTokens": 637,
+        "generatedTokens": 6,
+        "firstSpeechTextReadyMs": 317.49,
+        "firstSentenceReadyMs": 317.6,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Let's draw together!",
+          "detail": {
+            "id": 48,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 80.224,
+              "postprocess": 0.596
+            },
+            "memory": {
+              "activeBytes": 164993390,
+              "cacheBytes": 133852346
+            },
+            "inferenceMs": 80.84,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 81.246
+          }
+        }
+      ],
+      "audioTranscript": "Let's draw together.",
+      "audioLanguage": "en",
+      "waveformSha256": "ddb2d9f83c976210a81fbc2a7830522deba30e59bca2b5971a9a698343423e57"
+    },
+    {
+      "id": "b24",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Let us change the topic to football.",
+      "asrMs": 59.68887498602271,
+      "asrDetail": {
+        "id": 25,
+        "text": "Let us change the topic to football.",
+        "confidence": 0.9990313221483657,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 59.01,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 59.526
+      },
+      "endpoint": null,
+      "text": "Okay, let's talk about football. It's a game people play with a ball and two teams.",
+      "firstAudioMs": 616.4219998754561,
+      "totalMs": 793.2245000265539,
+      "audioSeconds": 5.285,
+      "output": ".local/bilingual-voice/candidate/b24-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.59,
+        "promptChars": 2864,
+        "systemPromptChars": 2788,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 270.89,
+        "providerFirstTokenMs": 270.95,
+        "firstSpeechTextReadyMs": 336.39,
+        "firstSentenceReadyMs": 382.89,
+        "firstSentenceChars": 33,
+        "modelLoadMs": 10.967,
+        "promptEvalMs": 251.072,
+        "tokenGenerationMs": 327.296,
+        "promptTokens": 659,
+        "generatedTokens": 22
+      },
+      "speech": [
+        {
+          "text": "Okay, let's talk about football.",
+          "detail": {
+            "id": 49,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 172.111,
+              "postprocess": 0.886
+            },
+            "memory": {
+              "activeBytes": 165059094,
+              "cacheBytes": 132281450
+            },
+            "inferenceMs": 173.03,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.004,
+            "ipcWallMs": 173.622
+          }
+        },
+        {
+          "text": " It's a game people play with a ball and two teams.",
+          "detail": {
+            "id": 50,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 133.698,
+              "postprocess": 0.784
+            },
+            "memory": {
+              "activeBytes": 165124578,
+              "cacheBytes": 131085526
+            },
+            "inferenceMs": 134.5,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.002,
+            "ipcWallMs": 135.027
+          }
+        }
+      ],
+      "audioTranscript": "Okay, let's talk about football. It's a game people play with a ball and two teams.",
+      "audioLanguage": "en",
+      "waveformSha256": "f57b254f69fd76666bae1cfa7cccb65cdb4de449800e74caa17b96a7e090f3d1"
+    },
+    {
+      "id": "b24",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Let us change the topic to football.",
+      "asrMs": 55.96079211682081,
+      "asrDetail": {
+        "id": 26,
+        "text": "Let us change the topic to football.",
+        "confidence": 0.9990313221483657,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 55.2,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.004,
+        "ipcWallMs": 55.783
+      },
+      "endpoint": null,
+      "text": "Sure, football sounds fun. What do you like about it?",
+      "firstAudioMs": 304.3176671490073,
+      "totalMs": 380.92412520200014,
+      "audioSeconds": 3.53,
+      "output": ".local/bilingual-voice/candidate/b24-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.61,
+        "promptChars": 2864,
+        "systemPromptChars": 2788,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 40.1,
+        "providerFirstTokenMs": 40.16,
+        "firstSpeechTextReadyMs": 73.1,
+        "firstSentenceReadyMs": 106.74,
+        "firstSentenceChars": 27,
+        "modelLoadMs": 15.77,
+        "promptEvalMs": 16.16,
+        "tokenGenerationMs": 186.287,
+        "promptTokens": 659,
+        "generatedTokens": 14
+      },
+      "speech": [
+        {
+          "text": "Sure, football sounds fun.",
+          "detail": {
+            "id": 51,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 140.146,
+              "postprocess": 0.697
+            },
+            "memory": {
+              "activeBytes": 165026199,
+              "cacheBytes": 129459339
+            },
+            "inferenceMs": 140.87,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 141.339
+          }
+        },
+        {
+          "text": " What do you like about it?",
+          "detail": {
+            "id": 52,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 75.251,
+              "postprocess": 0.589
+            },
+            "memory": {
+              "activeBytes": 164977042,
+              "cacheBytes": 127972760
+            },
+            "inferenceMs": 75.85,
+            "queueWaitMs": 21.354,
+            "startupMs": 0.002,
+            "ipcWallMs": 76.231
+          }
+        }
+      ],
+      "audioTranscript": "Sure, football sounds fun. What do you like about it?",
+      "audioLanguage": "en",
+      "waveformSha256": "5d30c0b015850aafa885ce079ffa09e0791f9df946812077eb523be2e210a2d0"
+    },
+    {
+      "id": "b23",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me a short English sentence to invite a classmate to draw.",
+      "asrMs": 63.33812465891242,
+      "asrDetail": {
+        "id": 27,
+        "text": "Give me a short English sentence to invite a classmate to draw.",
+        "confidence": 0.9990817736325588,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 62.54,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 63.183
+      },
+      "endpoint": null,
+      "text": "Let's draw together!",
+      "firstAudioMs": 453.6539167165756,
+      "totalMs": 453.9722497574985,
+      "audioSeconds": 1.6,
+      "output": ".local/bilingual-voice/candidate/b23-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.6,
+        "promptChars": 2851,
+        "systemPromptChars": 2788,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 222.49,
+        "providerFirstTokenMs": 222.53,
+        "modelLoadMs": 14.687,
+        "promptEvalMs": 201.023,
+        "tokenGenerationMs": 74.079,
+        "promptTokens": 637,
+        "generatedTokens": 6,
+        "firstSpeechTextReadyMs": 296.76,
+        "firstSentenceReadyMs": 296.99,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Let's draw together!",
+          "detail": {
+            "id": 53,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 91.987,
+              "postprocess": 0.684
+            },
+            "memory": {
+              "activeBytes": 164993390,
+              "cacheBytes": 134028006
+            },
+            "inferenceMs": 92.69,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.005,
+            "ipcWallMs": 93.161
+          }
+        }
+      ],
+      "audioTranscript": "Let's draw together.",
+      "audioLanguage": "en",
+      "waveformSha256": "b9a75b4e53d5b76da058b24fa5bda6037dabae7fb709624eac6cb3f2561d3a15"
+    },
+    {
+      "id": "b22",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "I have a red kite. What color is my kite?",
+      "asrMs": 61.79320905357599,
+      "asrDetail": {
+        "id": 28,
+        "text": "I have a red kite. What color is my kite?",
+        "confidence": 0.9924928863902774,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 61.01,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 61.625
+      },
+      "endpoint": null,
+      "text": "Your kite is red.",
+      "firstAudioMs": 290.331959258765,
+      "totalMs": 290.74212489649653,
+      "audioSeconds": 1.515,
+      "output": ".local/bilingual-voice/candidate/b22-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.98,
+        "promptChars": 2227,
+        "systemPromptChars": 2186,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 73.95,
+        "providerFirstTokenMs": 73.98,
+        "firstSpeechTextReadyMs": 110.0,
+        "modelLoadMs": 15.267,
+        "promptEvalMs": 52.293,
+        "tokenGenerationMs": 69.207,
+        "promptTokens": 480,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 143.43,
+        "firstSentenceChars": 18
+      },
+      "speech": [
+        {
+          "text": "Your kite is red.",
+          "detail": {
+            "id": 54,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 83.891,
+              "postprocess": 0.659
+            },
+            "memory": {
+              "activeBytes": 164976998,
+              "cacheBytes": 133929820
+            },
+            "inferenceMs": 84.57,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.003,
+            "ipcWallMs": 84.957
+          }
+        }
+      ],
+      "audioTranscript": "Your kite is red.",
+      "audioLanguage": "en",
+      "waveformSha256": "53250af9597012099064e48faa26a075e5cbb20d2f6ad7fa00fb08fee1a02a6a"
+    },
+    {
+      "id": "b21",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "A story says Ben is 11. How old is Ben?",
+      "asrMs": 61.019042041152716,
+      "asrDetail": {
+        "id": 29,
+        "text": "A story says Ben is 11. How old is Ben?",
+        "confidence": 0.9927736040180665,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 60.08,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 60.83
+      },
+      "endpoint": null,
+      "text": "Ben is 11 years old.",
+      "firstAudioMs": 355.99008295685053,
+      "totalMs": 356.40295781195164,
+      "audioSeconds": 2.145,
+      "output": ".local/bilingual-voice/candidate/b21-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.11,
+        "promptChars": 2225,
+        "systemPromptChars": 2186,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 76.93,
+        "providerFirstTokenMs": 76.96,
+        "firstSpeechTextReadyMs": 115.61,
+        "modelLoadMs": 15.043,
+        "promptEvalMs": 54.298,
+        "tokenGenerationMs": 105.951,
+        "promptTokens": 482,
+        "generatedTokens": 9,
+        "firstSentenceReadyMs": 183.3,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Ben is 11 years old.",
+          "detail": {
+            "id": 55,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 110.107,
+              "postprocess": 0.732
+            },
+            "memory": {
+              "activeBytes": 165042570,
+              "cacheBytes": 132168328
+            },
+            "inferenceMs": 110.86,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.006,
+            "ipcWallMs": 111.457
+          }
+        }
+      ],
+      "audioTranscript": "Ben is 11 years old.",
+      "audioLanguage": "en",
+      "waveformSha256": "38f849de674ae76c75cac83db6c2927b2c951dd133dfefae8ae238dc1c167fdb"
+    },
+    {
+      "id": "b20",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Could you tell me your actual birthday?",
+      "asrMs": 57.2804999537766,
+      "asrDetail": {
+        "id": 30,
+        "text": "Could you tell me your actual birthday?",
+        "confidence": 0.9906902964530897,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 56.58,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 57.129
+      },
+      "endpoint": null,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "firstAudioMs": 149.70237482339144,
+      "totalMs": 267.1722499653697,
+      "audioSeconds": 4.7,
+      "output": ".local/bilingual-voice/candidate/b20-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "I'm Kitty, an AI cat,",
+          "detail": {
+            "id": 56,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 90.911,
+              "postprocess": 0.701
+            },
+            "memory": {
+              "activeBytes": 165026184,
+              "cacheBytes": 130070258
+            },
+            "inferenceMs": 91.63,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.002,
+            "ipcWallMs": 92.21
+          }
+        },
+        {
+          "text": " so I don't have a human age or birthday.",
+          "detail": {
+            "id": 57,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 115.628,
+              "postprocess": 0.755
+            },
+            "memory": {
+              "activeBytes": 165075402,
+              "cacheBytes": 133983586
+            },
+            "inferenceMs": 116.4,
+            "queueWaitMs": 92.207,
+            "startupMs": 0.002,
+            "ipcWallMs": 116.9
+          }
+        }
+      ],
+      "audioTranscript": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "audioLanguage": "en",
+      "waveformSha256": "944edf855f8edb553bd821facd057628d06422fe7d62e524fa5e3b4a8bde2134"
+    },
+    {
+      "id": "b19",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Do you know my favourite school subject?",
+      "asrMs": 46.8474579975009,
+      "asrDetail": {
+        "id": 31,
+        "text": "Do you know my favourite school subject?",
+        "confidence": 0.9931240568758163,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 46.27,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 46.717
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 121.64962477982044,
+      "totalMs": 227.43458300828934,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice/candidate/b19-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.06
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 58,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 73.608,
+              "postprocess": 0.581
+            },
+            "memory": {
+              "activeBytes": 164977022,
+              "cacheBytes": 130900268
+            },
+            "inferenceMs": 74.2,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 74.586
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 59,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 104.151,
+              "postprocess": 0.763
+            },
+            "memory": {
+              "activeBytes": 165059094,
+              "cacheBytes": 133618356
+            },
+            "inferenceMs": 104.93,
+            "queueWaitMs": 74.583,
+            "startupMs": 0.002,
+            "ipcWallMs": 105.398
+          }
+        }
+      ],
+      "audioTranscript": "You said what you like, but you have not said what you like best.",
+      "audioLanguage": "en",
+      "waveformSha256": "19e3f1103657e2565a3c5b5d012f462382b4821309a6baa6f533c26b5373a6ff"
+    },
+    {
+      "id": "b18",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does Zorbuff mean in Chinese?",
+      "asrMs": 52.80325002968311,
+      "asrDetail": {
+        "id": 32,
+        "text": "What does Zorbuff mean in Chinese?",
+        "confidence": 0.9726484734395555,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 52.19,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 52.676
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 223.79487473517656,
+      "totalMs": 376.0540001094341,
+      "audioSeconds": 8.045,
+      "output": ".local/bilingual-voice/candidate/b18-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 60,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 168.714,
+              "postprocess": 1.323
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 170.05,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 170.802
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 61,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 149.476,
+              "postprocess": 1.615
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 151.1,
+            "queueWaitMs": 170.803,
+            "startupMs": 0.003,
+            "ipcWallMs": 151.815
+          }
+        }
+      ],
+      "audioTranscript": "这个词暂时没有可靠的词表示意请提供完整句子以便确认",
+      "audioLanguage": "zh",
+      "waveformSha256": "a654309cb63c5fb235401851b8a052463e3ca8e5b249fdb8599a53aa2443517d"
+    },
+    {
+      "id": "b17",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is the Chinese meaning of lemon?",
+      "asrMs": 49.81774976477027,
+      "asrDetail": {
+        "id": 33,
+        "text": "What is the Chinese meaning of lemon?",
+        "confidence": 0.9979601785306668,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 133878888,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 49.26,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 49.682
+      },
+      "endpoint": null,
+      "text": "lemon 的意思是“柠檬”。",
+      "firstAudioMs": 219.45358300581574,
+      "totalMs": 219.94495764374733,
+      "audioSeconds": 4.155,
+      "output": ".local/bilingual-voice/candidate/b17-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "lemon 的意思是“柠檬”。",
+          "detail": {
+            "id": 62,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 167.401,
+              "postprocess": 1.378
+            },
+            "memory": {
+              "activeBytes": 165239166,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 168.79,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 169.467
+          }
+        }
+      ],
+      "audioTranscript": "Lemon第意思是柠檬",
+      "audioLanguage": "zh",
+      "waveformSha256": "251a8af7b7235b99cd63b17d923139b42670239a53457ced196cbf86a6d06702"
+    },
+    {
+      "id": "b16",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Tell me what sweep means in Chinese and give two English examples.",
+      "asrMs": 72.15845910832286,
+      "asrDetail": {
+        "id": 34,
+        "text": "Tell me what sweep means in Chinese and give two English examples.",
+        "confidence": 0.9928805208424921,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 71.28,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 71.99
+      },
+      "endpoint": null,
+      "text": "扫除。 tell me what sweep means in chinese and give two english examples. tell me how to sweep the floor.",
+      "firstAudioMs": 1186.2021670676768,
+      "totalMs": 1448.6184590496123,
+      "audioSeconds": 7.96,
+      "output": ".local/bilingual-voice/candidate/b16-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.75,
+        "promptChars": 988,
+        "systemPromptChars": 398,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 41.49,
+        "providerFirstTokenMs": 41.55,
+        "modelLoadMs": 5.215,
+        "promptEvalMs": 20.142,
+        "tokenGenerationMs": 511.885,
+        "promptTokens": 270,
+        "generatedTokens": 43,
+        "exampleRepairRequests": 1,
+        "languageRepairMs": 543.9,
+        "firstSentenceReadyMs": 1026.84,
+        "firstSentenceChars": 4,
+        "firstSpeechTextReadyMs": 1026.85
+      },
+      "speech": [
+        {
+          "text": "扫除。",
+          "detail": {
+            "id": 63,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 85.158,
+              "postprocess": 1.316
+            },
+            "memory": {
+              "activeBytes": 165026114,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 86.49,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 86.944
+          }
+        },
+        {
+          "text": " tell me what sweep means in chinese and give two english examples.",
+          "detail": {
+            "id": 64,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 175.283,
+              "postprocess": 0.905
+            },
+            "memory": {
+              "activeBytes": 165239346,
+              "cacheBytes": 133485536
+            },
+            "inferenceMs": 176.2,
+            "queueWaitMs": 86.934,
+            "startupMs": 0.003,
+            "ipcWallMs": 176.841
+          }
+        },
+        {
+          "text": " tell me how to sweep the floor.",
+          "detail": {
+            "id": 65,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 84.121,
+              "postprocess": 0.599
+            },
+            "memory": {
+              "activeBytes": 165009942,
+              "cacheBytes": 127772438
+            },
+            "inferenceMs": 84.74,
+            "queueWaitMs": 263.627,
+            "startupMs": 0.002,
+            "ipcWallMs": 85.14
+          }
+        }
+      ],
+      "audioTranscript": "Tell me what sweep means in Chinese and give two English examples. Tell me how to sweep the floor.",
+      "audioLanguage": "en",
+      "waveformSha256": "c5728f6fcaac936e620288c5afd34ec38f3f2228e54ba99aa1792cea505093b7"
+    },
+    {
+      "id": "b15",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does empty mean in Chinese? Then write one English sentence.",
+      "asrMs": 70.67604176700115,
+      "asrDetail": {
+        "id": 35,
+        "text": "What does empty mean in Chinese? Then write one English sentence.",
+        "confidence": 0.9961538847637624,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 69.87,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 70.502
+      },
+      "endpoint": null,
+      "text": "empty 的意思是“空的;无意义的;空的;倒空;河流流入,注入”。 Here's an example sentence: The box was empty, so I could put more books inside.",
+      "firstAudioMs": 1036.497791763395,
+      "totalMs": 1270.6487919203937,
+      "audioSeconds": 12.4,
+      "output": ".local/bilingual-voice/candidate/b15-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.69,
+        "promptChars": 1531,
+        "systemPromptChars": 1466,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 193.67,
+        "providerFirstTokenMs": 193.72,
+        "modelLoadMs": 14.565,
+        "promptEvalMs": 166.272,
+        "tokenGenerationMs": 478.683,
+        "promptTokens": 653,
+        "generatedTokens": 42,
+        "firstSentenceReadyMs": 673.15,
+        "firstSentenceChars": 35,
+        "firstSpeechTextReadyMs": 673.16
+      },
+      "speech": [
+        {
+          "text": "empty 的意思是“空的;无意义的;空的;倒空;河流流入,注入”。",
+          "detail": {
+            "id": 66,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 289.397,
+              "postprocess": 1.564
+            },
+            "memory": {
+              "activeBytes": 165518102,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 290.99,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.006,
+            "ipcWallMs": 292.207
+          }
+        },
+        {
+          "text": " Here's an example sentence: The box was empty,",
+          "detail": {
+            "id": 67,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 135.868,
+              "postprocess": 0.788
+            },
+            "memory": {
+              "activeBytes": 165140962,
+              "cacheBytes": 133910584
+            },
+            "inferenceMs": 136.67,
+            "queueWaitMs": 292.149,
+            "startupMs": 0.002,
+            "ipcWallMs": 137.255
+          }
+        },
+        {
+          "text": " so I could put more books inside.",
+          "detail": {
+            "id": 68,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 94.213,
+              "postprocess": 0.727
+            },
+            "memory": {
+              "activeBytes": 165026214,
+              "cacheBytes": 131556256
+            },
+            "inferenceMs": 94.96,
+            "queueWaitMs": 428.985,
+            "startupMs": 0.002,
+            "ipcWallMs": 95.417
+          }
+        }
+      ],
+      "audioTranscript": "Empty. Here's an example sentence. The box was empty, so I could put more books inside.",
+      "audioLanguage": "en",
+      "waveformSha256": "4b0c8153cd538b09212cd9824853a8da2964279f570daf5fd63add6e7ba11b1f"
+    },
+    {
+      "id": "b14",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does noisy mean in Chinese? Please give an example in English.",
+      "asrMs": 78.4936249256134,
+      "asrDetail": {
+        "id": 36,
+        "text": "What does noisy mean in Chinese? Please give an example in English.",
+        "confidence": 0.9994418280107767,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 77.51,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 78.306
+      },
+      "endpoint": null,
+      "text": "noisy 的意思是“吵闹的;充满噪声的”。 例如：The party was noisy because there were many people dancing and music playing.",
+      "firstAudioMs": 907.6439160853624,
+      "totalMs": 1184.7536251880229,
+      "audioSeconds": 12.66,
+      "output": ".local/bilingual-voice/candidate/b14-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.6,
+        "promptChars": 1551,
+        "systemPromptChars": 1484,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 259.89,
+        "providerFirstTokenMs": 259.96,
+        "modelLoadMs": 10.545,
+        "promptEvalMs": 239.568,
+        "tokenGenerationMs": 328.03,
+        "promptTokens": 651,
+        "generatedTokens": 30,
+        "firstSentenceReadyMs": 588.58,
+        "firstSentenceChars": 23,
+        "firstSpeechTextReadyMs": 588.58
+      },
+      "speech": [
+        {
+          "text": "noisy 的意思是“吵闹的;充满噪声的”。",
+          "detail": {
+            "id": 69,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 237.428,
+              "postprocess": 1.687
+            },
+            "memory": {
+              "activeBytes": 165386718,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 239.15,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.007,
+            "ipcWallMs": 240.18
+          }
+        },
+        {
+          "text": " 例如：The party was noisy because there were many people dancing and music playing.",
+          "detail": {
+            "id": 70,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 274.032,
+              "postprocess": 1.384
+            },
+            "memory": {
+              "activeBytes": 165534486,
+              "cacheBytes": 133621722
+            },
+            "inferenceMs": 275.45,
+            "queueWaitMs": 239.362,
+            "startupMs": 0.002,
+            "ipcWallMs": 276.519
+          }
+        }
+      ],
+      "audioTranscript": "noisy the is the party was noisy because there were many people dancing and music playing",
+      "audioLanguage": "en",
+      "waveformSha256": "0f9c040e344fe2db3c2d020714dac4f45662d9e24b6a643a537eb3fb27f82251"
+    },
+    {
+      "id": "b13",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word sweater into Chinese.",
+      "asrMs": 55.51362503319979,
+      "asrDetail": {
+        "id": 37,
+        "text": "Please translate the word sweater into Chinese.",
+        "confidence": 0.9979026680200203,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 54.85,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 55.379
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 235.89674988761544,
+      "totalMs": 394.62120784446597,
+      "audioSeconds": 8.045,
+      "output": ".local/bilingual-voice/candidate/b13-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 71,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 177.958,
+              "postprocess": 1.395
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 179.37,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 180.119
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 72,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 156.039,
+              "postprocess": 1.399
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 157.46,
+            "queueWaitMs": 180.12,
+            "startupMs": 0.002,
+            "ipcWallMs": 158.133
+          }
+        }
+      ],
+      "audioTranscript": "这个词暂时没有可靠的词表示意请提供完整句子以便确认",
+      "audioLanguage": "zh",
+      "waveformSha256": "1fcd9ad03623e065bce697df806256ad8ee7225700e3602e67e5e3b9a24ef792"
+    },
+    {
+      "id": "b12",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "我想追到Scarp這個堅持的中文意思",
+      "asrMs": 558.7353748269379,
+      "asrDetail": {
+        "id": 38,
+        "text": "我想追到Scarp這個堅持的中文意思",
+        "confidence": 0.6650515007012867,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 557.96,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 558.549
+      },
+      "endpoint": null,
+      "text": "Scarp 这个词在中文里没有特定的含义，可能是某个专有名词或者外来词。 如果你能提供更多的上下文，我可能会给出更准确的答案。",
+      "firstAudioMs": 1370.0260422192514,
+      "totalMs": 1857.067917007953,
+      "audioSeconds": 18.0,
+      "output": ".local/bilingual-voice/candidate/b12-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.99,
+        "promptChars": 1026,
+        "systemPromptChars": 1008,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 134.83,
+        "providerFirstTokenMs": 134.87,
+        "modelLoadMs": 11.624,
+        "promptEvalMs": 113.785,
+        "tokenGenerationMs": 430.169,
+        "promptTokens": 507,
+        "generatedTokens": 38,
+        "firstSentenceReadyMs": 565.36,
+        "firstSentenceChars": 37,
+        "firstSpeechTextReadyMs": 565.37
+      },
+      "speech": [
+        {
+          "text": "Scarp 这个词在中文里没有特定的含义，",
+          "detail": {
+            "id": 73,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 243.033,
+              "postprocess": 1.504
+            },
+            "memory": {
+              "activeBytes": 165403138,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 244.56,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.006,
+            "ipcWallMs": 245.498
+          }
+        },
+        {
+          "text": "可能是某个专有名词或者外来词。",
+          "detail": {
+            "id": 74,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 175.809,
+              "postprocess": 1.528
+            },
+            "memory": {
+              "activeBytes": 165288462,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 177.35,
+            "queueWaitMs": 245.455,
+            "startupMs": 0.002,
+            "ipcWallMs": 178.12
+          }
+        },
+        {
+          "text": " 如果你能提供更多的上下文，",
+          "detail": {
+            "id": 75,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 153.204,
+              "postprocess": 1.44
+            },
+            "memory": {
+              "activeBytes": 165206510,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 154.66,
+            "queueWaitMs": 423.113,
+            "startupMs": 0.002,
+            "ipcWallMs": 155.292
+          }
+        },
+        {
+          "text": "我可能会给出更准确的答案。",
+          "detail": {
+            "id": 76,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 151.128,
+              "postprocess": 1.478
+            },
+            "memory": {
+              "activeBytes": 165206518,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 152.62,
+            "queueWaitMs": 578.425,
+            "startupMs": 0.002,
+            "ipcWallMs": 153.213
+          }
+        }
+      ],
+      "audioTranscript": "这个词在中文里没有特定的含义,可能是某个专有名词或者外来词。如果你能提供更多的上下文,我可能会给出更准确的答案。",
+      "audioLanguage": "zh",
+      "waveformSha256": "eb3f8f64b3009ea6701e6a1bd9631c49a0169f89c973a49b8bef838ac9aded9e"
+    },
+    {
+      "id": "b11",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "情节是Rainey的中文意思再用它造一个英语句子",
+      "asrMs": 561.9512908160686,
+      "asrDetail": {
+        "id": 39,
+        "text": "情节是Rainey的中文意思再用它造一个英语句子",
+        "confidence": 0.7819768836001999,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 561.09,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 561.778
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 730.3291661664844,
+      "totalMs": 892.77304103598,
+      "audioSeconds": 8.045,
+      "output": ".local/bilingual-voice/candidate/b11-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 77,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 165.938,
+              "postprocess": 1.445
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 167.4,
+            "queueWaitMs": 0.001,
+            "startupMs": 0.002,
+            "ipcWallMs": 168.18
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 78,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 159.022,
+              "postprocess": 1.558
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 160.6,
+            "queueWaitMs": 168.183,
+            "startupMs": 0.003,
+            "ipcWallMs": 161.312
+          }
+        }
+      ],
+      "audioTranscript": "这个词暂时没有可靠的词表示意请提供完整句子以便确认",
+      "audioLanguage": "zh",
+      "waveformSha256": "107b94a1016b69073f30da2ffd0791ceb715cef657722e0e7022e2ac74b8e3f7"
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "error": "TextBotError",
+      "detail": "本轮未能可靠生成中文，请换一个更短的问题"
+    },
+    {
+      "id": "b09",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释再给一个英语一句",
+      "asrMs": 614.7179580293596,
+      "asrDetail": {
+        "id": 41,
+        "text": "请用中文解释再给一个英语一句",
+        "confidence": 0.8372014124090084,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 613.49,
+        "queueWaitMs": 0.004,
+        "startupMs": 0.007,
+        "ipcWallMs": 614.492
+      },
+      "endpoint": null,
+      "text": "好的，我来解释一下。 请提供你需要的英语句子，我会用中文解释。",
+      "firstAudioMs": 1011.1839999444783,
+      "totalMs": 1401.6945408657193,
+      "audioSeconds": 10.065,
+      "output": ".local/bilingual-voice/candidate/b09-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.97,
+        "promptChars": 1635,
+        "systemPromptChars": 1621,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 1.53,
+        "providerHeadersMs": 76.97,
+        "providerFirstTokenMs": 77.01,
+        "modelLoadMs": 14.699,
+        "promptEvalMs": 49.058,
+        "tokenGenerationMs": 234.581,
+        "promptTokens": 665,
+        "generatedTokens": 20,
+        "firstSentenceReadyMs": 311.9,
+        "firstSentenceChars": 11,
+        "firstSpeechTextReadyMs": 311.91
+      },
+      "speech": [
+        {
+          "text": "好的，",
+          "detail": {
+            "id": 79,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 82.565,
+              "postprocess": 1.311
+            },
+            "memory": {
+              "activeBytes": 164944190,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 83.9,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 84.287
+          }
+        },
+        {
+          "text": "我来解释一下。",
+          "detail": {
+            "id": 80,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 111.021,
+              "postprocess": 1.301
+            },
+            "memory": {
+              "activeBytes": 165091710,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 112.34,
+            "queueWaitMs": 84.276,
+            "startupMs": 0.004,
+            "ipcWallMs": 112.828
+          }
+        },
+        {
+          "text": " 请提供你需要的英语句子，",
+          "detail": {
+            "id": 81,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 139.34,
+              "postprocess": 1.511
+            },
+            "memory": {
+              "activeBytes": 165173702,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 140.87,
+            "queueWaitMs": 196.75,
+            "startupMs": 0.003,
+            "ipcWallMs": 141.604
+          }
+        },
+        {
+          "text": "我会用中文解释。",
+          "detail": {
+            "id": 82,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 133.168,
+              "postprocess": 1.242
+            },
+            "memory": {
+              "activeBytes": 165108122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 134.42,
+            "queueWaitMs": 338.394,
+            "startupMs": 0.005,
+            "ipcWallMs": 134.965
+          }
+        }
+      ],
+      "audioTranscript": "好的,我来解释一下。请提供你需要的英语句子。我会用中文解释。",
+      "audioLanguage": "zh",
+      "waveformSha256": "14eb5223c8c0e69d0b596d2a541e6f741038bb203817d076019d9f94f55e522c"
+    },
+    {
+      "id": "b08",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释单词Strawberry 的意思",
+      "asrMs": 531.7207910120487,
+      "asrDetail": {
+        "id": 42,
+        "text": "请用中文解释单词Strawberry 的意思",
+        "confidence": 0.7181975133477155,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 530.85,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 531.546
+      },
+      "endpoint": null,
+      "text": "草莓的意思是 strawberry。",
+      "firstAudioMs": 988.6029581539333,
+      "totalMs": 989.0307914465666,
+      "audioSeconds": 4.055,
+      "output": ".local/bilingual-voice/candidate/b08-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.31,
+        "promptChars": 1612,
+        "systemPromptChars": 1590,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 194.69,
+        "providerFirstTokenMs": 194.76,
+        "modelLoadMs": 15.614,
+        "promptEvalMs": 169.321,
+        "tokenGenerationMs": 75.968,
+        "promptTokens": 669,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 271.32,
+        "firstSentenceChars": 19,
+        "firstSpeechTextReadyMs": 271.33
+      },
+      "speech": [
+        {
+          "text": "草莓的意思是 strawberry。",
+          "detail": {
+            "id": 83,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 183.473,
+              "postprocess": 0.907
+            },
+            "memory": {
+              "activeBytes": 165239106,
+              "cacheBytes": 124661746
+            },
+            "inferenceMs": 184.41,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.006,
+            "ipcWallMs": 185.338
+          }
+        }
+      ],
+      "audioTranscript": "糙梅的意思是Strawberry",
+      "audioLanguage": "zh",
+      "waveformSha256": "b523fbf7a7b42b8e14d711de18d77b1a7a50ce39d41f0c364d42c09655ffc59b"
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请个索Umbrella的中文意思是什么",
+      "asrMs": 507.49049987643957,
+      "asrDetail": {
+        "id": 43,
+        "text": "请个索Umbrella的中文意思是什么",
+        "confidence": 0.653201174036912,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 506.77,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 507.349
+      },
+      "endpoint": null,
+      "text": "umbrella 的意思是“雨伞”。",
+      "firstAudioMs": 683.9596247300506,
+      "totalMs": 685.9871246851981,
+      "audioSeconds": 4.23,
+      "output": ".local/bilingual-voice/candidate/b07-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "umbrella 的意思是“雨伞”。",
+          "detail": {
+            "id": 84,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 173.733,
+              "postprocess": 1.743
+            },
+            "memory": {
+              "activeBytes": 165255534,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 175.49,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 176.295
+          }
+        }
+      ],
+      "audioTranscript": "Umbrella的意思是雨伞",
+      "audioLanguage": "zh",
+      "waveformSha256": "a8f3ed84de6409a70ebf8db57a6f42a5fb3b31c7ab28383acfe5ad7de093afbe"
+    },
+    {
+      "id": "b06",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "小若有五本书,又卖了两本。现在有几本?请用中文回答。",
+      "asrMs": 641.11995883286,
+      "asrDetail": {
+        "id": 44,
+        "text": "小若有五本书,又卖了两本。现在有几本?请用中文回答。",
+        "confidence": 0.8709973238720973,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 639.88,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 640.848
+      },
+      "endpoint": null,
+      "text": "小有5 - 2 = 3本书。",
+      "firstAudioMs": 1059.1831668280065,
+      "totalMs": 1059.5807088539004,
+      "audioSeconds": 2.85,
+      "output": ".local/bilingual-voice/candidate/b06-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.6,
+        "promptChars": 1626,
+        "systemPromptChars": 1600,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 139.85,
+        "providerFirstTokenMs": 139.89,
+        "modelLoadMs": 14.907,
+        "promptEvalMs": 114.826,
+        "tokenGenerationMs": 140.542,
+        "promptTokens": 681,
+        "generatedTokens": 12,
+        "firstSpeechTextReadyMs": 280.63,
+        "firstSentenceReadyMs": 280.88,
+        "firstSentenceChars": 15
+      },
+      "speech": [
+        {
+          "text": "小有5 - 2 = 3本书。",
+          "detail": {
+            "id": 85,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 135.174,
+              "postprocess": 1.254
+            },
+            "memory": {
+              "activeBytes": 165108122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 136.45,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.004,
+            "ipcWallMs": 137.044
+          }
+        }
+      ],
+      "audioTranscript": "小友523本书",
+      "audioLanguage": "zh",
+      "waveformSha256": "723c6b21f474ddc897ced750162f3362c31d26d53a9ceb5990c36fd15116a143"
+    },
+    {
+      "id": "b05",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "故事里,小熊今年七岁,小熊几岁,请用中文回答。",
+      "asrMs": 587.7124592661858,
+      "asrDetail": {
+        "id": 45,
+        "text": "故事里,小熊今年七岁,小熊几岁,请用中文回答。",
+        "confidence": 0.8506621307792511,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 586.64,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 587.501
+      },
+      "endpoint": null,
+      "text": "小熊今年七岁，所以小熊一岁。",
+      "firstAudioMs": 1013.901584316045,
+      "totalMs": 1127.478125039488,
+      "audioSeconds": 5.48,
+      "output": ".local/bilingual-voice/candidate/b05-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.59,
+        "promptChars": 1594,
+        "systemPromptChars": 1571,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 134.65,
+        "providerFirstTokenMs": 134.7,
+        "modelLoadMs": 12.738,
+        "promptEvalMs": 111.945,
+        "tokenGenerationMs": 153.642,
+        "promptTokens": 672,
+        "generatedTokens": 13,
+        "firstSentenceReadyMs": 288.95,
+        "firstSentenceChars": 15,
+        "firstSpeechTextReadyMs": 288.95
+      },
+      "speech": [
+        {
+          "text": "小熊今年七岁，",
+          "detail": {
+            "id": 86,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 134.586,
+              "postprocess": 1.582
+            },
+            "memory": {
+              "activeBytes": 165108122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 136.2,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.006,
+            "ipcWallMs": 136.961
+          }
+        },
+        {
+          "text": "所以小熊一岁。",
+          "detail": {
+            "id": 87,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 111.36,
+              "postprocess": 1.264
+            },
+            "memory": {
+              "activeBytes": 165091730,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 112.64,
+            "queueWaitMs": 136.903,
+            "startupMs": 0.003,
+            "ipcWallMs": 113.159
+          }
+        }
+      ],
+      "audioTranscript": "小熊今年七岁所以小熊已岁",
+      "audioLanguage": "zh",
+      "waveformSha256": "26cf6b22cc86817aa7e7fdf2ef790c786b9d2129f20ded7c52271cc4cacbd90f"
+    },
+    {
+      "id": "b04",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "请用中文说我现在最喜欢什么颜色",
+      "asrMs": 511.03399973362684,
+      "asrDetail": {
+        "id": 46,
+        "text": "请用中文说我现在最喜欢什么颜色",
+        "confidence": 0.8953301004749239,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 510.27,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 510.88
+      },
+      "endpoint": null,
+      "text": "你明确说过最喜欢 紫色。",
+      "firstAudioMs": 657.2976247407496,
+      "totalMs": 657.753249630332,
+      "audioSeconds": 3.58,
+      "output": ".local/bilingual-voice/candidate/b04-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "你明确说过最喜欢 紫色。",
+          "detail": {
+            "id": 88,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 143.693,
+              "postprocess": 1.695
+            },
+            "memory": {
+              "activeBytes": 165190102,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 145.4,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 146.07
+          }
+        }
+      ],
+      "audioTranscript": "你明确说过最喜欢紫色",
+      "audioLanguage": "zh",
+      "waveformSha256": "e9a1173e732e4da351add40fcc19962f523ca7e579d88c917432a30f012d105f"
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "用中文回答我最喜欢的动物是什么",
+      "asrMs": 531.8795419298112,
+      "asrDetail": {
+        "id": 47,
+        "text": "用中文回答我最喜欢的动物是什么",
+        "confidence": 0.8647205911094288,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 530.97,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 531.622
+      },
+      "endpoint": null,
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "firstAudioMs": 646.6352916322649,
+      "totalMs": 801.4213750138879,
+      "audioSeconds": 6.365,
+      "output": ".local/bilingual-voice/candidate/b03-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "你只说过喜欢，",
+          "detail": {
+            "id": 89,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 112.521,
+              "postprocess": 1.366
+            },
+            "memory": {
+              "activeBytes": 165091735,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 113.91,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 114.52
+          }
+        },
+        {
+          "text": "还没有明确说最喜欢什么。",
+          "detail": {
+            "id": 90,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 152.217,
+              "postprocess": 1.465
+            },
+            "memory": {
+              "activeBytes": 165190122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 153.7,
+            "queueWaitMs": 114.516,
+            "startupMs": 0.003,
+            "ipcWallMs": 154.327
+          }
+        }
+      ],
+      "audioTranscript": "你只说过喜欢还没有明确说最喜欢什么",
+      "audioLanguage": "zh",
+      "waveformSha256": "8e1159ab7c66ae69dd558db0a6c1a1474d1335d6b7cff7a24d3f70aaa9c6246b"
+    },
+    {
+      "id": "b02",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "你的生日是哪一天?用中文回答",
+      "asrMs": 536.4407077431679,
+      "asrDetail": {
+        "id": 48,
+        "text": "你的生日是哪一天?用中文回答",
+        "confidence": 0.73597041048864,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 535.72,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 536.29
+      },
+      "endpoint": null,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 678.0697498470545,
+      "totalMs": 1047.6392079144716,
+      "audioSeconds": 11.28,
+      "output": ".local/bilingual-voice/candidate/b02-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "detail": {
+            "id": 91,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 139.848,
+              "postprocess": 0.982
+            },
+            "memory": {
+              "activeBytes": 165124414,
+              "cacheBytes": 131678942
+            },
+            "inferenceMs": 140.85,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 141.403
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "detail": {
+            "id": 92,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 212.743,
+              "postprocess": 1.913
+            },
+            "memory": {
+              "activeBytes": 165337406,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 214.67,
+            "queueWaitMs": 141.4,
+            "startupMs": 0.003,
+            "ipcWallMs": 215.474
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "detail": {
+            "id": 93,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 151.146,
+              "postprocess": 1.509
+            },
+            "memory": {
+              "activeBytes": 165173710,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 152.68,
+            "queueWaitMs": 356.898,
+            "startupMs": 0.002,
+            "ipcWallMs": 153.539
+          }
+        }
+      ],
+      "audioTranscript": "我是 Kitty你这是猫没有人类的年龄或生日",
+      "audioLanguage": "zh",
+      "waveformSha256": "2749133c7bcefb684fb7377619ff5e3142b36db9a171b8ac45939899cedca9d1"
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "请用中文课索,你的年龄是多少?",
+      "asrMs": 518.157625105232,
+      "asrDetail": {
+        "id": 49,
+        "text": "请用中文课索,你的年龄是多少?",
+        "confidence": 0.7156175641285303,
+        "language": "zh",
+        "engine": "whisper",
+        "memory": {
+          "activeBytes": 2479965554,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 517.35,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 518.001
+      },
+      "endpoint": null,
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstAudioMs": 651.0180002078414,
+      "totalMs": 991.7532089166343,
+      "audioSeconds": 11.28,
+      "output": ".local/bilingual-voice/candidate/b01-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "我是 Kitty，",
+          "detail": {
+            "id": 94,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 131.234,
+              "postprocess": 0.815
+            },
+            "memory": {
+              "activeBytes": 165124414,
+              "cacheBytes": 131714606
+            },
+            "inferenceMs": 132.06,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 132.651
+          }
+        },
+        {
+          "text": "一只 AI 猫，",
+          "detail": {
+            "id": 95,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 195.941,
+              "postprocess": 1.635
+            },
+            "memory": {
+              "activeBytes": 165337406,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 197.59,
+            "queueWaitMs": 132.652,
+            "startupMs": 0.003,
+            "ipcWallMs": 198.351
+          }
+        },
+        {
+          "text": "没有人类的年龄或生日。",
+          "detail": {
+            "id": 96,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 139.678,
+              "postprocess": 1.582
+            },
+            "memory": {
+              "activeBytes": 165173710,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 141.28,
+            "queueWaitMs": 331.026,
+            "startupMs": 0.002,
+            "ipcWallMs": 141.907
+          }
+        }
+      ],
+      "audioTranscript": "我是 Kitty你这是猫没有人类的年龄或生日",
+      "audioLanguage": "zh",
+      "waveformSha256": "9743c39d0bfd6ca81e028561454e103fef52caa0770f54cd564370e216aca183"
+    }
+  ],
+  "workerWarmupMs": 8311.747333034873,
+  "completedUtc": "2026-11-04T05:35:11Z"
+}

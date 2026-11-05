@@ -1,0 +1,1425 @@
+{
+  "exploratory192": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "1f546faee37965e2df2cbcaa365015df9a78b1961f14707b997d3fffd68a581d",
+    "promptSetSha256": "9dfd81bf33c425c982c3582ab3b0d674b12e224bdd96e1264574e78232e13a53",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "effb2bc163a6ae8238caf2b4b7c70e5de0c207cef101d72867f07fe0c1830143",
+      "backend/curriculum_chat.py": "f77a24767c9b72146db48c201419f9a1bcf1de5c5613108436d4df99410d4054",
+      "backend/english_chat.py": "cd45b6ce9823e2326c3f13a8810088ea490f6754f22f4630908dd776cf18c31b",
+      "backend/voice_grounding.py": "aeb47d131dacfc28cb05dab46de76d2a3831a8cc149d677ead321e64c6bc252e",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "bc2b45b8a415bbeb1c5491798879fee3e5d3a50c0513aee178436b23a7169ffb"
+    },
+    "scope": "New fictional dialogue scripts and word queries; model text and bot delivery only, not audio.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 384,
+        "passed": 221,
+        "rulePassRate": 0.5755,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 183,
+          "requested_chinese_missing": 27,
+          "forbidden": 6,
+          "unrequested_question": 14
+        },
+        "categories": {
+          "boundary": {
+            "count": 72,
+            "passed": 43
+          },
+          "glossary": {
+            "count": 120,
+            "passed": 107
+          },
+          "identity": {
+            "count": 96,
+            "passed": 27
+          },
+          "preference": {
+            "count": 96,
+            "passed": 44
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 192,
+            "passed": 110
+          },
+          "extension": {
+            "count": 192,
+            "passed": 111
+          }
+        },
+        "replySources": {
+          "generated": 384
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 83.05,
+            "p95": 145.16
+          },
+          "firstSentenceMs": {
+            "p50": 229.02,
+            "p95": 373.85
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 119.56,
+            "p95": 267.36
+          },
+          "totalMs": {
+            "p50": 217.58,
+            "p95": 354.8
+          }
+        },
+        "meanPromptTokens": 358.6
+      },
+      "candidate": {
+        "count": 384,
+        "passed": 374,
+        "rulePassRate": 0.974,
+        "errors": 0,
+        "failureCounts": {
+          "unrequested_question": 7,
+          "requested_chinese_missing": 2,
+          "missing": 5
+        },
+        "categories": {
+          "boundary": {
+            "count": 72,
+            "passed": 63
+          },
+          "glossary": {
+            "count": 120,
+            "passed": 119
+          },
+          "identity": {
+            "count": 96,
+            "passed": 96
+          },
+          "preference": {
+            "count": 96,
+            "passed": 96
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 192,
+            "passed": 189
+          },
+          "extension": {
+            "count": 192,
+            "passed": 185
+          }
+        },
+        "replySources": {
+          "grounded_glossary": 102,
+          "grounded_preference": 96,
+          "grounded_identity": 96,
+          "generated": 84,
+          "grounded_glossary_unknown": 6
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 61.49,
+            "p95": 142.8
+          },
+          "firstSentenceMs": {
+            "p50": 191.58,
+            "p95": 299.93
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 0.18,
+            "p95": 162.0
+          },
+          "totalMs": {
+            "p50": 0.19,
+            "p95": 253.69
+          }
+        },
+        "meanPromptTokens": 94.4
+      }
+    }
+  },
+  "confirmation144": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "cbf09e9e4b37b18d5e21e7f6e4c03ab9d11e1671788c3605ad07dd3a9fa414b7",
+    "promptSetSha256": "c3b923f0b22dcb9139e63efedc2f3eb667349a58f7068e3fb1d5bc8982b0c8ee",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "2e928f7dd42b2100f456d259d1a45b849696783433a68e3181671dcc6925dfa0",
+      "backend/curriculum_chat.py": "4f8d4af8863d9914a0e89d8053ca6750bdc3852bb2cad306706b724db08bccd9",
+      "backend/english_chat.py": "0c8199ed24167ae143640ce2c34efbd0f7eef4d9ee1c0e747ff54f60d09d8e5e",
+      "backend/voice_grounding.py": "171320880486cab5cd765052c86e4bd09dcc1434deb499d3231bcf674f823866",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "6c5980c19af0b6e91d85cf912b8ae9b7752786eb164fd5939c23a0353d91ac9d"
+    },
+    "scope": "144 fresh scenarios after exploratory 192-case results were inspected; text and Bot delivery, not audio.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 288,
+        "passed": 188,
+        "rulePassRate": 0.6528,
+        "errors": 2,
+        "failureCounts": {
+          "missing": 124,
+          "requested_chinese_missing": 15,
+          "bot_error": 2,
+          "unrequested_question": 4
+        },
+        "categories": {
+          "boundary": {
+            "count": 48,
+            "passed": 33
+          },
+          "glossary": {
+            "count": 96,
+            "passed": 94
+          },
+          "identity": {
+            "count": 72,
+            "passed": 18
+          },
+          "preference": {
+            "count": 72,
+            "passed": 43
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 144,
+            "passed": 93
+          },
+          "extension": {
+            "count": 144,
+            "passed": 95
+          }
+        },
+        "replySources": {
+          "generated": 288
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 83.73,
+            "p95": 244.02
+          },
+          "firstSentenceMs": {
+            "p50": 243.09,
+            "p95": 423.37
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 125.57,
+            "p95": 314.15
+          },
+          "totalMs": {
+            "p50": 211.69,
+            "p95": 421.61
+          }
+        },
+        "meanPromptTokens": 382.5
+      },
+      "candidate": {
+        "count": 288,
+        "passed": 288,
+        "rulePassRate": 1.0,
+        "errors": 0,
+        "failureCounts": {},
+        "categories": {
+          "boundary": {
+            "count": 48,
+            "passed": 48
+          },
+          "glossary": {
+            "count": 96,
+            "passed": 96
+          },
+          "identity": {
+            "count": 72,
+            "passed": 72
+          },
+          "preference": {
+            "count": 72,
+            "passed": 72
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 144,
+            "passed": 144
+          },
+          "extension": {
+            "count": 144,
+            "passed": 144
+          }
+        },
+        "replySources": {
+          "grounded_glossary": 102,
+          "grounded_identity": 72,
+          "generated": 36,
+          "grounded_preference": 72,
+          "grounded_glossary_unknown": 6
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 90.13,
+            "p95": 326.27
+          },
+          "firstSentenceMs": {
+            "p50": 307.77,
+            "p95": 715.44
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 0.15,
+            "p95": 190.77
+          },
+          "totalMs": {
+            "p50": 0.15,
+            "p95": 222.87
+          }
+        },
+        "meanPromptTokens": 65.5
+      }
+    }
+  },
+  "passage88": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "b95e725dd60064cfcdfc780463ae27be7c5eb491cdf50811df934f71252527d3",
+    "promptSetSha256": "8e84935f9d50cd427bb928279bf30aca485387dc28a6ca86cd5e8315c0a4e57c",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "2e928f7dd42b2100f456d259d1a45b849696783433a68e3181671dcc6925dfa0",
+      "backend/curriculum_chat.py": "4f8d4af8863d9914a0e89d8053ca6750bdc3852bb2cad306706b724db08bccd9",
+      "backend/english_chat.py": "0c8199ed24167ae143640ce2c34efbd0f7eef4d9ee1c0e747ff54f60d09d8e5e",
+      "backend/voice_grounding.py": "421f5f735bee6607f145ee603753c84a03370175ddce65e4b0140c64069b349f",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "6c5980c19af0b6e91d85cf912b8ae9b7752786eb164fd5939c23a0353d91ac9d"
+    },
+    "scope": "88 new short passages, word queries and dialogue scenarios; actual Bot text delivery, not audio.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 176,
+        "passed": 126,
+        "rulePassRate": 0.7159,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 61,
+          "requested_chinese_missing": 9
+        },
+        "categories": {
+          "boundary": {
+            "count": 32,
+            "passed": 26
+          },
+          "chinese_passage": {
+            "count": 48,
+            "passed": 46
+          },
+          "glossary": {
+            "count": 32,
+            "passed": 30
+          },
+          "identity": {
+            "count": 32,
+            "passed": 8
+          },
+          "preference": {
+            "count": 32,
+            "passed": 16
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 88,
+            "passed": 64
+          },
+          "extension": {
+            "count": 88,
+            "passed": 62
+          }
+        },
+        "replySources": {
+          "generated": 176
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 60.5,
+            "p95": 113.68
+          },
+          "firstSentenceMs": {
+            "p50": 180.53,
+            "p95": 248.1
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 121.98,
+            "p95": 208.79
+          },
+          "totalMs": {
+            "p50": 184.35,
+            "p95": 370.61
+          }
+        },
+        "meanPromptTokens": 363.0
+      },
+      "candidate": {
+        "count": 176,
+        "passed": 163,
+        "rulePassRate": 0.9261,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 13,
+          "requested_chinese_missing": 2
+        },
+        "categories": {
+          "boundary": {
+            "count": 32,
+            "passed": 29
+          },
+          "chinese_passage": {
+            "count": 48,
+            "passed": 46
+          },
+          "glossary": {
+            "count": 32,
+            "passed": 28
+          },
+          "identity": {
+            "count": 32,
+            "passed": 28
+          },
+          "preference": {
+            "count": 32,
+            "passed": 32
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 88,
+            "passed": 81
+          },
+          "extension": {
+            "count": 88,
+            "passed": 82
+          }
+        },
+        "replySources": {
+          "grounded_preference": 32,
+          "grounded_identity": 28,
+          "generated": 80,
+          "grounded_glossary": 28,
+          "grounded_glossary_unknown": 8
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 112.83,
+            "p95": 202.07
+          },
+          "firstSentenceMs": {
+            "p50": 246.72,
+            "p95": 340.74
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 0.41,
+            "p95": 288.39
+          },
+          "totalMs": {
+            "p50": 0.43,
+            "p95": 367.75
+          }
+        },
+        "meanPromptTokens": 242.7
+      }
+    }
+  },
+  "language96": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "3e5b405db676fda6bbbdc9abb5636b36d77ffa2b7b34632065a42e21f10d71db",
+    "promptSetSha256": "6d0b48652589ac66312155d9793819bb320116c554b7b67489b0fa8a29b5621e",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      "backend/curriculum_chat.py": "a2c8b76e8d0829b1813952c7eaba5328cd0bfc27823e66f810d1d57aeb3c29e3",
+      "backend/english_chat.py": "e4bb366bf95e8c309702882760a800af50ea655c05cb7af309728e8ea768eeb8",
+      "backend/voice_grounding.py": "93eb52e22ff6040e07519487806a3eb06bf8cebee83757707622a377550bef0a",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "844ce0811888a1afa7738aec982e6b1e082419b10e09857105ab96fd57c52b50"
+    },
+    "scope": "96 fresh fictional cases after all previous sets became development/regression; text Bot only.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 192,
+        "passed": 89,
+        "rulePassRate": 0.4635,
+        "errors": 0,
+        "failureCounts": {
+          "requested_chinese_missing": 58,
+          "missing": 104,
+          "unrequested_question": 4
+        },
+        "categories": {
+          "boundary": {
+            "count": 48,
+            "passed": 35
+          },
+          "chinese_passage": {
+            "count": 48,
+            "passed": 0
+          },
+          "glossary": {
+            "count": 32,
+            "passed": 28
+          },
+          "identity": {
+            "count": 32,
+            "passed": 11
+          },
+          "preference": {
+            "count": 32,
+            "passed": 15
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 96,
+            "passed": 43
+          },
+          "extension": {
+            "count": 96,
+            "passed": 46
+          }
+        },
+        "replySources": {
+          "generated": 192
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 67.36,
+            "p95": 234.88
+          },
+          "firstSentenceMs": {
+            "p50": 242.35,
+            "p95": 373.8
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 108.84,
+            "p95": 262.47
+          },
+          "totalMs": {
+            "p50": 221.93,
+            "p95": 385.68
+          }
+        },
+        "meanPromptTokens": 389.8
+      },
+      "candidate": {
+        "count": 192,
+        "passed": 154,
+        "rulePassRate": 0.8021,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 34,
+          "requested_chinese_missing": 23,
+          "unrequested_question": 1
+        },
+        "categories": {
+          "boundary": {
+            "count": 48,
+            "passed": 47
+          },
+          "chinese_passage": {
+            "count": 48,
+            "passed": 23
+          },
+          "glossary": {
+            "count": 32,
+            "passed": 20
+          },
+          "identity": {
+            "count": 32,
+            "passed": 32
+          },
+          "preference": {
+            "count": 32,
+            "passed": 32
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 96,
+            "passed": 76
+          },
+          "extension": {
+            "count": 96,
+            "passed": 78
+          }
+        },
+        "replySources": {
+          "grounded_preference": 32,
+          "generated": 80,
+          "grounded_glossary": 32,
+          "grounded_identity": 32,
+          "grounded_glossary_unknown": 16
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 112.39,
+            "p95": 302.47
+          },
+          "firstSentenceMs": {
+            "p50": 312.61,
+            "p95": 688.74
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 0.3,
+            "p95": 409.39
+          },
+          "totalMs": {
+            "p50": 0.31,
+            "p95": 568.83
+          }
+        },
+        "meanPromptTokens": 215.1
+      }
+    }
+  },
+  "repair48": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "a6d38693ff7ed1609d2dccbd199be199cfc18ef44efb1316f88de4621012cd3e",
+    "promptSetSha256": "acb6816ffc4b2e6bb123a324a813c5f938780f3a5cb16178ff944c1bb8e2309e",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      "backend/curriculum_chat.py": "ea1b494330aa47d6299989090cd11283b8539c596310f2c64b244be4a28e4444",
+      "backend/english_chat.py": "4b39d14308a84c99d6b92c974d9f63d5aedef92c4d28e2cb3e28f0ffb768bfa1",
+      "backend/voice_grounding.py": "768d7a2834a33bc18ec3a49809ee68d5f938d12031518cac8e291c539af4b414",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "417e7fc88f9d06ed68d57e61578e91077b15d424aab42f1d8fd195db6d861142"
+    },
+    "scope": "48 new cases after bounded language repair; text Bot, not ASR/TTS/audio.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 96,
+        "passed": 46,
+        "rulePassRate": 0.4792,
+        "errors": 0,
+        "failureCounts": {
+          "requested_chinese_missing": 35,
+          "missing": 48
+        },
+        "categories": {
+          "boundary": {
+            "count": 16,
+            "passed": 12
+          },
+          "chinese_passage": {
+            "count": 32,
+            "passed": 1
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 16
+          },
+          "identity": {
+            "count": 16,
+            "passed": 7
+          },
+          "preference": {
+            "count": 16,
+            "passed": 10
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 48,
+            "passed": 24
+          },
+          "extension": {
+            "count": 48,
+            "passed": 22
+          }
+        },
+        "replySources": {
+          "generated": 96
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 91.17,
+            "p95": 255.24
+          },
+          "firstSentenceMs": {
+            "p50": 336.43,
+            "p95": 484.89
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 132.87,
+            "p95": 302.68
+          },
+          "totalMs": {
+            "p50": 317.24,
+            "p95": 499.86
+          }
+        },
+        "meanPromptTokens": 404.3
+      },
+      "candidate": {
+        "count": 96,
+        "passed": 91,
+        "rulePassRate": 0.9479,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 5
+        },
+        "categories": {
+          "boundary": {
+            "count": 16,
+            "passed": 16
+          },
+          "chinese_passage": {
+            "count": 32,
+            "passed": 27
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 16
+          },
+          "identity": {
+            "count": 16,
+            "passed": 16
+          },
+          "preference": {
+            "count": 16,
+            "passed": 16
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 48,
+            "passed": 44
+          },
+          "extension": {
+            "count": 48,
+            "passed": 47
+          }
+        },
+        "replySources": {
+          "generated": 44,
+          "grounded_preference": 16,
+          "grounded_glossary": 16,
+          "grounded_glossary_unknown": 4,
+          "grounded_identity": 16
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 125.12,
+            "p95": 343.09
+          },
+          "firstSentenceMs": {
+            "p50": 448.84,
+            "p95": 728.1
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 0.2,
+            "p95": 624.36
+          },
+          "totalMs": {
+            "p50": 0.21,
+            "p95": 624.37
+          }
+        },
+        "meanPromptTokens": 219.9
+      }
+    }
+  },
+  "checkpoint40": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "8a67a13938777d2c64e40def985e85ec56050b950945c4d0a58ff7ba2abe3b6e",
+    "promptSetSha256": "51292760274f6b5e9cd8880fb503351f52f5a8e3a5d60a20892645de7fd76d3a",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      "backend/curriculum_chat.py": "ea1b494330aa47d6299989090cd11283b8539c596310f2c64b244be4a28e4444",
+      "backend/english_chat.py": "4b39d14308a84c99d6b92c974d9f63d5aedef92c4d28e2cb3e28f0ffb768bfa1",
+      "backend/voice_grounding.py": "9b9f2a007e92207d17c80b429692756cc4bdb97439f6d40f02c3c87f70c6c27a",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "417e7fc88f9d06ed68d57e61578e91077b15d424aab42f1d8fd195db6d861142"
+    },
+    "scope": "40 new independent cases after all previous exposed sets; actual text delivery, not audio.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 80,
+        "passed": 48,
+        "rulePassRate": 0.6,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 33,
+          "requested_chinese_missing": 20,
+          "filler_start": 4
+        },
+        "categories": {
+          "boundary": {
+            "count": 8,
+            "passed": 8
+          },
+          "chinese_passage": {
+            "count": 24,
+            "passed": 4
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 13
+          },
+          "identity": {
+            "count": 16,
+            "passed": 11
+          },
+          "preference": {
+            "count": 16,
+            "passed": 12
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 40,
+            "passed": 22
+          },
+          "extension": {
+            "count": 40,
+            "passed": 26
+          }
+        },
+        "replySources": {
+          "generated": 80
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 60.83,
+            "p95": 111.84
+          },
+          "firstSentenceMs": {
+            "p50": 163.36,
+            "p95": 254.99
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 108.23,
+            "p95": 172.11
+          },
+          "totalMs": {
+            "p50": 173.77,
+            "p95": 280.46
+          }
+        },
+        "meanPromptTokens": 366.0
+      },
+      "candidate": {
+        "count": 80,
+        "passed": 78,
+        "rulePassRate": 0.975,
+        "errors": 2,
+        "failureCounts": {
+          "bot_error": 2
+        },
+        "categories": {
+          "boundary": {
+            "count": 8,
+            "passed": 8
+          },
+          "chinese_passage": {
+            "count": 24,
+            "passed": 22
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 16
+          },
+          "identity": {
+            "count": 16,
+            "passed": 16
+          },
+          "preference": {
+            "count": 16,
+            "passed": 16
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 40,
+            "passed": 38
+          },
+          "extension": {
+            "count": 40,
+            "passed": 40
+          }
+        },
+        "replySources": {
+          "grounded_identity": 16,
+          "grounded_preference": 16,
+          "generated": 24,
+          "grounded_glossary": 24
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 113.92,
+            "p95": 234.89
+          },
+          "firstSentenceMs": {
+            "p50": 234.19,
+            "p95": 724.14
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 0.3,
+            "p95": 580.78
+          },
+          "totalMs": {
+            "p50": 0.34,
+            "p95": 580.81
+          }
+        },
+        "meanPromptTokens": 102.0
+      }
+    }
+  },
+  "verification40": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "2cc44a9dcb1b38ceeb69c44c2c6daec8f91eddda4c451e81f83fd19c0c2ce0b9",
+    "promptSetSha256": "8180317d03f76e6906f3c056bc6828a978732c942407a24160ead2cd498d08bd",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      "backend/curriculum_chat.py": "ea1b494330aa47d6299989090cd11283b8539c596310f2c64b244be4a28e4444",
+      "backend/english_chat.py": "4b39d14308a84c99d6b92c974d9f63d5aedef92c4d28e2cb3e28f0ffb768bfa1",
+      "backend/voice_grounding.py": "efcd071796fde2e97a308dca77834503f5c0961ec9b38db525c88bd17ebf5d56",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "417e7fc88f9d06ed68d57e61578e91077b15d424aab42f1d8fd195db6d861142"
+    },
+    "scope": "40 new verification cases after CJK sentence/tail fixes, including four unused textbook excerpts. Actual text delivery, not audio.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 80,
+        "passed": 61,
+        "rulePassRate": 0.7625,
+        "errors": 0,
+        "failureCounts": {
+          "requested_chinese_missing": 10,
+          "missing": 17
+        },
+        "categories": {
+          "boundary": {
+            "count": 8,
+            "passed": 4
+          },
+          "chinese_passage": {
+            "count": 24,
+            "passed": 18
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 16
+          },
+          "identity": {
+            "count": 16,
+            "passed": 11
+          },
+          "preference": {
+            "count": 16,
+            "passed": 12
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 40,
+            "passed": 30
+          },
+          "extension": {
+            "count": 40,
+            "passed": 31
+          }
+        },
+        "replySources": {
+          "generated": 80
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 80.64,
+            "p95": 234.37
+          },
+          "firstSentenceMs": {
+            "p50": 233.31,
+            "p95": 328.42
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 136.72,
+            "p95": 307.5
+          },
+          "totalMs": {
+            "p50": 211.35,
+            "p95": 328.5
+          }
+        },
+        "meanPromptTokens": 394.5
+      },
+      "candidate": {
+        "count": 80,
+        "passed": 72,
+        "rulePassRate": 0.9,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 8
+        },
+        "categories": {
+          "boundary": {
+            "count": 8,
+            "passed": 4
+          },
+          "chinese_passage": {
+            "count": 24,
+            "passed": 20
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 16
+          },
+          "identity": {
+            "count": 16,
+            "passed": 16
+          },
+          "preference": {
+            "count": 16,
+            "passed": 16
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 40,
+            "passed": 36
+          },
+          "extension": {
+            "count": 40,
+            "passed": 36
+          }
+        },
+        "replySources": {
+          "grounded_identity": 12,
+          "grounded_preference": 16,
+          "generated": 52
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 97.68,
+            "p95": 300.38
+          },
+          "firstSentenceMs": {
+            "p50": 278.87,
+            "p95": 690.13
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 194.7,
+            "p95": 500.55
+          },
+          "totalMs": {
+            "p50": 194.73,
+            "p95": 500.59
+          }
+        },
+        "meanPromptTokens": 326.4
+      }
+    }
+  },
+  "shipping40": {
+    "version": 1,
+    "model": "qwen2.5:3b",
+    "split": "heldout",
+    "repeat": 2,
+    "pipeline": true,
+    "datasetSha256": "1661b2098335aa5b13809e5d0f27875df5bf42b07cbb7f43688912ff1788f169",
+    "promptSetSha256": "8eb70436972d67357672299162028fb0dff98f145df73040be19f46ebdf808ce",
+    "settings": {
+      "temperature": 0.3,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "codeSha256": {
+      "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      "backend/curriculum_chat.py": "ea1b494330aa47d6299989090cd11283b8539c596310f2c64b244be4a28e4444",
+      "backend/english_chat.py": "4b39d14308a84c99d6b92c974d9f63d5aedef92c4d28e2cb3e28f0ffb768bfa1",
+      "backend/voice_grounding.py": "99987f07859394b6e4bfe02f5a719291db74a7a2322c64722cd5b80a6ac81c29",
+      "backend/local_llm.py": "c51f754965ae5a87e773cf05e3eb1759575b6fd4da3d313875da8960457aa9ea",
+      "scripts/evaluate_voice_chat.py": "417e7fc88f9d06ed68d57e61578e91077b15d424aab42f1d8fd195db6d861142"
+    },
+    "scope": "40 fresh cases after strict source-fact handling. Actual text Bot, not audio.",
+    "scoring": "Deterministic rule checks; semantic/naturalness review required.",
+    "ordering": "Seeded case order; paired variants alternate AB/BA each case and repeat. Warmup excluded.",
+    "modelDigest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "modelDetails": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    },
+    "summary": {
+      "baseline": {
+        "count": 80,
+        "passed": 37,
+        "rulePassRate": 0.4625,
+        "errors": 0,
+        "failureCounts": {
+          "requested_chinese_missing": 25,
+          "missing": 42
+        },
+        "categories": {
+          "boundary": {
+            "count": 8,
+            "passed": 6
+          },
+          "chinese_passage": {
+            "count": 24,
+            "passed": 4
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 10
+          },
+          "identity": {
+            "count": 16,
+            "passed": 5
+          },
+          "preference": {
+            "count": 16,
+            "passed": 12
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 40,
+            "passed": 18
+          },
+          "extension": {
+            "count": 40,
+            "passed": 19
+          }
+        },
+        "replySources": {
+          "generated": 80
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 88.9,
+            "p95": 255.71
+          },
+          "firstSentenceMs": {
+            "p50": 267.97,
+            "p95": 376.42
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 123.47,
+            "p95": 312.44
+          },
+          "totalMs": {
+            "p50": 227.98,
+            "p95": 376.47
+          }
+        },
+        "meanPromptTokens": 398.1
+      },
+      "candidate": {
+        "count": 80,
+        "passed": 75,
+        "rulePassRate": 0.9375,
+        "errors": 0,
+        "failureCounts": {
+          "missing": 5,
+          "unrequested_question": 1
+        },
+        "categories": {
+          "boundary": {
+            "count": 8,
+            "passed": 5
+          },
+          "chinese_passage": {
+            "count": 24,
+            "passed": 24
+          },
+          "glossary": {
+            "count": 16,
+            "passed": 16
+          },
+          "identity": {
+            "count": 16,
+            "passed": 14
+          },
+          "preference": {
+            "count": 16,
+            "passed": 16
+          }
+        },
+        "routes": {
+          "curriculum": {
+            "count": 40,
+            "passed": 39
+          },
+          "extension": {
+            "count": 40,
+            "passed": 36
+          }
+        },
+        "replySources": {
+          "grounded_identity": 12,
+          "grounded_preference": 16,
+          "generated": 24,
+          "grounded_glossary": 16,
+          "grounded_passage": 12
+        },
+        "latency": {
+          "firstTokenMs": {
+            "p50": 106.77,
+            "p95": 318.79
+          },
+          "firstSentenceMs": {
+            "p50": 356.18,
+            "p95": 770.34
+          },
+          "firstSpeechChunkMs": {
+            "p50": null,
+            "p95": null
+          },
+          "firstTextDeltaMs": {
+            "p50": 0.39,
+            "p95": 578.3
+          },
+          "totalMs": {
+            "p50": 0.41,
+            "p95": 578.33
+          }
+        },
+        "meanPromptTokens": 121.6
+      }
+    }
+  }
+}

@@ -1,0 +1,370 @@
+[
+  {
+    "id": "t01",
+    "group": "preference",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I like plums."
+      },
+      {
+        "role": "assistant",
+        "content": "Plums are nice."
+      },
+      {
+        "role": "user",
+        "content": "What is my favourite fruit?"
+      }
+    ],
+    "rubric": "Do not infer plums are favourite."
+  },
+  {
+    "id": "t02",
+    "group": "preference",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My favorite sport is tennis."
+      },
+      {
+        "role": "assistant",
+        "content": "I remember."
+      },
+      {
+        "role": "user",
+        "content": "What is my favorite sport?"
+      }
+    ],
+    "rubric": "Tennis."
+  },
+  {
+    "id": "t03",
+    "group": "preference",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My favourite fruit is grapes."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it."
+      },
+      {
+        "role": "user",
+        "content": "My favourite fruit is now pears."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for telling me."
+      },
+      {
+        "role": "user",
+        "content": "What is my favourite fruit?"
+      }
+    ],
+    "rubric": "Pears, not grapes."
+  },
+  {
+    "id": "t04",
+    "group": "preference",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I like rabbits."
+      },
+      {
+        "role": "assistant",
+        "content": "Rabbits are your favourite."
+      },
+      {
+        "role": "user",
+        "content": "Did I say rabbits are my favourite animal?"
+      }
+    ],
+    "rubric": "No; ignore assistant guess."
+  },
+  {
+    "id": "t05",
+    "group": "preference",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I like blue."
+      },
+      {
+        "role": "assistant",
+        "content": "Blue is nice."
+      },
+      {
+        "role": "user",
+        "content": "What colour do I like?"
+      }
+    ],
+    "rubric": "Blue; no favourite upgrade."
+  },
+  {
+    "id": "t06",
+    "group": "preference",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My favourite animal is a horse."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it."
+      },
+      {
+        "role": "user",
+        "content": "What is my favourite colour?"
+      }
+    ],
+    "rubric": "Unknown; horse is a different category."
+  },
+  {
+    "id": "t07",
+    "group": "identity",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are you really nine years old?"
+      }
+    ],
+    "rubric": "AI; no human age."
+  },
+  {
+    "id": "t08",
+    "group": "identity",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "When were you born? Answer in Chinese."
+      }
+    ],
+    "rubric": "Chinese; AI has no human birthday."
+  },
+  {
+    "id": "t09",
+    "group": "identity",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do you say “How old are you?” in Chinese?"
+      }
+    ],
+    "rubric": "Translate quoted sentence, no AI identity answer."
+  },
+  {
+    "id": "t10",
+    "group": "identity",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am eleven years old."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for telling me."
+      },
+      {
+        "role": "user",
+        "content": "How old am I?"
+      }
+    ],
+    "rubric": "Eleven, not AI identity."
+  },
+  {
+    "id": "t11",
+    "group": "identity",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In a story, Mia is eight. How old is Mia?"
+      }
+    ],
+    "rubric": "Eight; no AI identity."
+  },
+  {
+    "id": "t12",
+    "group": "identity",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is your name and can you help me practise English?"
+      }
+    ],
+    "rubric": "Kitty and can help; both parts."
+  },
+  {
+    "id": "t13",
+    "group": "glossary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does “cherry” mean in Chinese?"
+      }
+    ],
+    "rubric": "樱桃。"
+  },
+  {
+    "id": "t14",
+    "group": "glossary",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "“goose”是什么意思？"
+      }
+    ],
+    "rubric": "鹅。"
+  },
+  {
+    "id": "t15",
+    "group": "glossary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does “bank” mean in Chinese in “We sit by the river bank”?"
+      }
+    ],
+    "rubric": "河岸。"
+  },
+  {
+    "id": "t16",
+    "group": "glossary",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does “light” mean in Chinese in “My bag is light”?"
+      }
+    ],
+    "rubric": "轻。"
+  },
+  {
+    "id": "t17",
+    "group": "glossary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does “peach” mean in Chinese? Give one English example too."
+      }
+    ],
+    "rubric": "桃子和含 peach 的正确英文例句。"
+  },
+  {
+    "id": "t18",
+    "group": "glossary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does “florbing” mean in Chinese?"
+      }
+    ],
+    "rubric": "Do not invent a definition; ask for context or say uncertain."
+  },
+  {
+    "id": "t19",
+    "group": "ordinary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I missed the bus this morning. What can I do next time?"
+      }
+    ],
+    "rubric": "Simple, practical suggestion."
+  },
+  {
+    "id": "t20",
+    "group": "ordinary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do you like rain? Please answer in Chinese."
+      }
+    ],
+    "rubric": "Direct and Chinese; no invented real-world personal experience."
+  },
+  {
+    "id": "t21",
+    "group": "ordinary",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I enjoy drawing cats."
+      },
+      {
+        "role": "assistant",
+        "content": "What do you draw with?"
+      },
+      {
+        "role": "user",
+        "content": "With a black pen. What colour is my pen?"
+      }
+    ],
+    "rubric": "Black, correct contextual recall."
+  },
+  {
+    "id": "t22",
+    "group": "ordinary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me two different ways to say thank you in English?"
+      }
+    ],
+    "rubric": "Two distinct appropriate expressions."
+  },
+  {
+    "id": "t23",
+    "group": "ordinary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Let’s talk about food."
+      },
+      {
+        "role": "assistant",
+        "content": "What fruit do you like?"
+      },
+      {
+        "role": "user",
+        "content": "Actually, can we talk about music instead?"
+      }
+    ],
+    "rubric": "Follows topic switch to music."
+  },
+  {
+    "id": "t24",
+    "group": "ordinary",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to ask my friend to play with me. Give me a simple English sentence."
+      }
+    ],
+    "rubric": "A usable simple invitation."
+  }
+]

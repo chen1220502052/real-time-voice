@@ -1,0 +1,693 @@
+{
+  "variant": "baseline",
+  "mode": "live",
+  "startedUtc": "2026-11-04T05:36:32Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:33:29Z",
+    "casesSha256": "aa78e5a6ea77384efaf560ac7062c76006b14f05bbda392064b35a34ba19993b",
+    "sources": {
+      "backend/voice_grounding.py": "8cfd01bb49db7c29936e3c2e4eecb3f77577ba29f79bbf443cea4bf09477b5b5",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "machine": "macOS-26.2-arm64-arm-64bit",
+    "model": "qwen2.5:3b",
+    "quantization": "Q4_K_M",
+    "asr": "parakeet 0.6b v3 int8; pinned tiny language ID; Whisper large-v3-turbo fallback",
+    "tts": "same Kokoro82M BF16 weights, af_heart+zf_xiaobei",
+    "cache": "TTS disabled in evaluation",
+    "notes": "Never change product sources based on this holdout without creating a new independent release set. Source and audio SHA256 verified before inference.",
+    "harnessSha256": "31d32867f2e62f9cdd0b3327cf9c7b967c07c567bdb9a7eeafdf12dfaf44298f"
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 325.0637501478195,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3119844643.389083,
+        "responseReadyMs": 3119844697.319375,
+        "workerInferenceMs": 52.27,
+        "snapshotEndMediaMs": 3600,
+        "workerQueueWaitMs": 0.005,
+        "workerStartupMs": 0.008,
+        "workerIpcWallMs": 53.596,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 133660022,
+          "quantizationBits": 8
+        },
+        "confidence": 0,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119845043.4450407,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3500,
+        "fedMediaMs": 4000
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 375.40137488394976,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3119848649.290958,
+        "responseReadyMs": 3119848742.862916,
+        "workerInferenceMs": 91.17,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 93.158,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7268093311679295,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119849048.3526664,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "Umbrella.",
+      "asrMs": 327.70704198628664,
+      "asrDetail": {
+        "text": "Umbrella.",
+        "requestStartedMs": 3119852152.372208,
+        "responseReadyMs": 3119852224.183625,
+        "workerInferenceMs": 69.76,
+        "snapshotEndMediaMs": 3200,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.014,
+        "workerIpcWallMs": 71.401,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 133363516,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9302704740478341,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119852552.72675,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3100,
+        "fedMediaMs": 3600
+      },
+      "text": "伞是遮挡雨的工具。",
+      "firstAudioMs": 995.659583248198,
+      "totalMs": 996.326208114624,
+      "audioSeconds": 7.275,
+      "output": ".local/bilingual-voice/baseline/b07-live-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 5.29,
+        "promptChars": 2131,
+        "systemPromptChars": 2122,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 15.77,
+        "providerHeadersMs": 282.18,
+        "providerFirstTokenMs": 282.3,
+        "modelLoadMs": 15.359,
+        "promptEvalMs": 239.007,
+        "tokenGenerationMs": 89.594,
+        "promptTokens": 463,
+        "generatedTokens": 9,
+        "firstSentenceReadyMs": 372.36,
+        "firstSentenceChars": 10,
+        "firstSpeechTextReadyMs": 372.37
+      },
+      "speech": [
+        {
+          "text": "伞是遮挡雨的工具。",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 291.96,
+              "postprocess": 1.48
+            },
+            "memory": {
+              "activeBytes": 165010198,
+              "cacheBytes": 133639250
+            },
+            "inferenceMs": 293.47,
+            "queueWaitMs": 0.037,
+            "startupMs": 0.005,
+            "ipcWallMs": 294.89
+          }
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 407.2622084058821,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3119857424.2798333,
+        "responseReadyMs": 3119857518.431625,
+        "workerInferenceMs": 92.09,
+        "snapshotEndMediaMs": 4200,
+        "workerQueueWaitMs": 0.004,
+        "workerStartupMs": 0.007,
+        "workerIpcWallMs": 93.815,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 133105514,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8288469108580081,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119857723.327541,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4100,
+        "fedMediaMs": 4600
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b15",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b19",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "Do you know my favourite school subject?",
+      "asrMs": 311.618666164577,
+      "asrDetail": {
+        "text": "Do you know my favourite school subject?",
+        "requestStartedMs": 3119864537.3175,
+        "responseReadyMs": 3119864598.584,
+        "workerInferenceMs": 58.67,
+        "snapshotEndMediaMs": 2600,
+        "workerQueueWaitMs": 0.009,
+        "workerStartupMs": 0.016,
+        "workerIpcWallMs": 60.683,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 133201692,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9920823138386842,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119864835.358541,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 4
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2500,
+        "fedMediaMs": 2900
+      },
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 414.15912518277764,
+      "totalMs": 521.1010831408203,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice/baseline/b19-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 6.01
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 94.849,
+              "postprocess": 0.644
+            },
+            "memory": {
+              "activeBytes": 164452734,
+              "cacheBytes": 132919224
+            },
+            "inferenceMs": 95.54,
+            "queueWaitMs": 0.008,
+            "startupMs": 0.009,
+            "ipcWallMs": 96.054
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 105.313,
+              "postprocess": 0.729
+            },
+            "memory": {
+              "activeBytes": 164518338,
+              "cacheBytes": 133233770
+            },
+            "inferenceMs": 106.06,
+            "queueWaitMs": 95.977,
+            "startupMs": 0.002,
+            "ipcWallMs": 106.521
+          }
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1300.4914592020214,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1300.966499838978,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.1634579636157,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "silence",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.2836251184344,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b19",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "Do you know my favourite school subject?",
+      "asrMs": 312.67075007781386,
+      "asrDetail": {
+        "text": "Do you know my favourite school subject?",
+        "requestStartedMs": 3119884761.862625,
+        "responseReadyMs": 3119884821.5831656,
+        "workerInferenceMs": 56.97,
+        "snapshotEndMediaMs": 2600,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 59.197,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 134211918,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9920823138386842,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119885062.020083,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 4
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2500,
+        "fedMediaMs": 2900
+      },
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 413.2777079939842,
+      "totalMs": 517.065791413188,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice/baseline/b19-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.41
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 98.392,
+              "postprocess": 0.676
+            },
+            "memory": {
+              "activeBytes": 164452734,
+              "cacheBytes": 131812500
+            },
+            "inferenceMs": 99.12,
+            "queueWaitMs": 0.012,
+            "startupMs": 0.011,
+            "ipcWallMs": 99.691
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 102.191,
+              "postprocess": 0.709
+            },
+            "memory": {
+              "activeBytes": 164518338,
+              "cacheBytes": 133107524
+            },
+            "inferenceMs": 102.92,
+            "queueWaitMs": 99.58,
+            "startupMs": 0.003,
+            "ipcWallMs": 103.38
+          }
+        }
+      ]
+    },
+    {
+      "id": "b15",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 407.9165831208229,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3119893774.028625,
+        "responseReadyMs": 3119893875.671458,
+        "workerInferenceMs": 97.78,
+        "snapshotEndMediaMs": 4200,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.014,
+        "workerIpcWallMs": 100.89,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8288469108580081,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119894073.642291,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4100,
+        "fedMediaMs": 4600
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "Umbrella.",
+      "asrMs": 325.8142923004925,
+      "asrDetail": {
+        "text": "Umbrella.",
+        "requestStartedMs": 3119897179.696375,
+        "responseReadyMs": 3119897257.654583,
+        "workerInferenceMs": 75.77,
+        "snapshotEndMediaMs": 3200,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.013,
+        "workerIpcWallMs": 77.408,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 134172468,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9302704740478341,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119897577.087875,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 5
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3100,
+        "fedMediaMs": 3600
+      },
+      "text": "An umbrella is used to protect you from rain.",
+      "firstAudioMs": 569.439709186554,
+      "totalMs": 645.7314169965684,
+      "audioSeconds": 3.625,
+      "output": ".local/bilingual-voice/baseline/b07-live-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 3.56,
+        "promptChars": 2131,
+        "systemPromptChars": 2122,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 4.4,
+        "providerHeadersMs": 47.84,
+        "providerFirstTokenMs": 47.92,
+        "firstSpeechTextReadyMs": 69.18,
+        "modelLoadMs": 14.058,
+        "promptEvalMs": 21.448,
+        "tokenGenerationMs": 117.01,
+        "promptTokens": 463,
+        "generatedTokens": 11,
+        "firstSentenceReadyMs": 164.86,
+        "firstSentenceChars": 46
+      },
+      "speech": [
+        {
+          "text": "An umbrella is used to protect ",
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 127.143,
+              "postprocess": 0.678
+            },
+            "memory": {
+              "activeBytes": 164518306,
+              "cacheBytes": 133955526
+            },
+            "inferenceMs": 127.84,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.004,
+            "ipcWallMs": 128.361
+          }
+        },
+        {
+          "text": "you from rain.",
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 74.958,
+              "postprocess": 0.641
+            },
+            "memory": {
+              "activeBytes": 164436306,
+              "cacheBytes": 133194701
+            },
+            "inferenceMs": 75.62,
+            "queueWaitMs": 78.521,
+            "startupMs": 0.002,
+            "ipcWallMs": 75.905
+          }
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 376.0646660812199,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3119901499.2277503,
+        "responseReadyMs": 3119901573.1045,
+        "workerInferenceMs": 72.55,
+        "snapshotEndMediaMs": 3700,
+        "workerQueueWaitMs": 0.003,
+        "workerStartupMs": 0.008,
+        "workerIpcWallMs": 73.665,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7268093311679295,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119901900.1025,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3600,
+        "fedMediaMs": 4100
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 324.9597498215735,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3119905405.788416,
+        "responseReadyMs": 3119905477.4272914,
+        "workerInferenceMs": 69.72,
+        "snapshotEndMediaMs": 3600,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.011,
+        "workerIpcWallMs": 71.291,
+        "workerMemory": {
+          "activeBytes": 785624076,
+          "cacheBytes": 133411740,
+          "quantizationBits": 8
+        },
+        "confidence": 0,
+        "engine": "parakeet",
+        "endpointReachedMs": 3119905805.429041,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3500,
+        "fedMediaMs": 4000
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 5783.440500032157,
+  "completedUtc": "2026-11-04T05:37:43Z"
+}

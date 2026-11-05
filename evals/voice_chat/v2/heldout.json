@@ -1,0 +1,5062 @@
+{
+  "version": 2,
+  "purpose": "independent",
+  "date": "2026-11-03",
+  "cases": [
+    {
+      "id": "v2-pref-like-only-3",
+      "group": "pref-like-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like peaches."
+        },
+        {
+          "role": "user",
+          "content": "Did I say peaches are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-like-only-6",
+      "group": "pref-like-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like peaches."
+        },
+        {
+          "role": "user",
+          "content": "Did I say peaches are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-like-only-9",
+      "group": "pref-like-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like peaches."
+        },
+        {
+          "role": "user",
+          "content": "Did I say peaches are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-love-only-3",
+      "group": "pref-love-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love badminton."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-love-only-6",
+      "group": "pref-love-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love badminton."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-love-only-9",
+      "group": "pref-love-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love badminton."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-explicit-other-3",
+      "group": "pref-explicit-other",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like turtles."
+        },
+        {
+          "role": "user",
+          "content": "My favourite animal is a dolphin."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dolphin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-explicit-other-6",
+      "group": "pref-explicit-other",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like turtles."
+        },
+        {
+          "role": "user",
+          "content": "My favourite animal is a dolphin."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dolphin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-explicit-other-9",
+      "group": "pref-explicit-other",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like turtles."
+        },
+        {
+          "role": "user",
+          "content": "My favourite animal is a dolphin."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dolphin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-explicit-confirm-3",
+      "group": "pref-explicit-confirm",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite drink is lemonade."
+        },
+        {
+          "role": "user",
+          "content": "Did I say lemonade is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "lemonade"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-explicit-confirm-6",
+      "group": "pref-explicit-confirm",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite drink is lemonade."
+        },
+        {
+          "role": "user",
+          "content": "Did I say lemonade is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "lemonade"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-explicit-confirm-9",
+      "group": "pref-explicit-confirm",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite drink is lemonade."
+        },
+        {
+          "role": "user",
+          "content": "Did I say lemonade is my favourite drink?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "yes|是的",
+          "lemonade"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-changed-3",
+      "group": "pref-changed",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is orange."
+        },
+        {
+          "role": "user",
+          "content": "Now my favourite colour is purple."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "purple"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-changed-6",
+      "group": "pref-changed",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is orange."
+        },
+        {
+          "role": "user",
+          "content": "Now my favourite colour is purple."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "purple"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-changed-9",
+      "group": "pref-changed",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite colour is orange."
+        },
+        {
+          "role": "user",
+          "content": "Now my favourite colour is purple."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "purple"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-retracted-3",
+      "group": "pref-retracted",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite game is chess."
+        },
+        {
+          "role": "user",
+          "content": "Chess is no longer my favourite game."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite game?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-retracted-6",
+      "group": "pref-retracted",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite game is chess."
+        },
+        {
+          "role": "user",
+          "content": "Chess is no longer my favourite game."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite game?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-retracted-9",
+      "group": "pref-retracted",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite game is chess."
+        },
+        {
+          "role": "user",
+          "content": "Chess is no longer my favourite game."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite game?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-dislike-3",
+      "group": "pref-dislike",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I don't like broccoli."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite vegetable?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-dislike-6",
+      "group": "pref-dislike",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I don't like broccoli."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite vegetable?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-dislike-9",
+      "group": "pref-dislike",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I don't like broccoli."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite vegetable?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-cn-like-3",
+      "group": "pref-cn-like",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢草莓。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的水果是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|没.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-cn-like-6",
+      "group": "pref-cn-like",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢草莓。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的水果是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|没.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-cn-like-9",
+      "group": "pref-cn-like",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "我喜欢草莓。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文回答，我最喜欢的水果是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "还没有|没有明确|没.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-cn-explicit-3",
+      "group": "pref-cn-explicit",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的颜色是紫色。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文说，我最喜欢的颜色是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫色"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-cn-explicit-6",
+      "group": "pref-cn-explicit",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的颜色是紫色。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文说，我最喜欢的颜色是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫色"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-cn-explicit-9",
+      "group": "pref-cn-explicit",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的颜色是紫色。"
+        },
+        {
+          "role": "user",
+          "content": "请用中文说，我最喜欢的颜色是什么？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫色"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-several-likes-3",
+      "group": "pref-several-likes",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like skating and running."
+        },
+        {
+          "role": "user",
+          "content": "Which is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-several-likes-6",
+      "group": "pref-several-likes",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like skating and running."
+        },
+        {
+          "role": "user",
+          "content": "Which is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-several-likes-9",
+      "group": "pref-several-likes",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like skating and running."
+        },
+        {
+          "role": "user",
+          "content": "Which is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-other-person-3",
+      "group": "pref-other-person",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My cousin said her favourite animal is a zebra."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-other-person-6",
+      "group": "pref-other-person",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My cousin said her favourite animal is a zebra."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-other-person-9",
+      "group": "pref-other-person",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My cousin said her favourite animal is a zebra."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-quotation-3",
+      "group": "pref-quotation",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "A poem says \"My favourite colour is silver.\""
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-quotation-6",
+      "group": "pref-quotation",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "A poem says \"My favourite colour is silver.\""
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-quotation-9",
+      "group": "pref-quotation",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "A poem says \"My favourite colour is silver.\""
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite colour?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-compare-only-3",
+      "group": "pref-compare-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like peaches more than plums."
+        },
+        {
+          "role": "user",
+          "content": "Did I say peaches are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-compare-only-6",
+      "group": "pref-compare-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like peaches more than plums."
+        },
+        {
+          "role": "user",
+          "content": "Did I say peaches are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-compare-only-9",
+      "group": "pref-compare-only",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like peaches more than plums."
+        },
+        {
+          "role": "user",
+          "content": "Did I say peaches are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*favou?rite|don.t know|not know|unknown|only.*like|not.*like best|没有|没说|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-reverse-favourite-3",
+      "group": "pref-reverse-favourite",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Dolphins are my favourite animal."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dolphin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-reverse-favourite-6",
+      "group": "pref-reverse-favourite",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Dolphins are my favourite animal."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dolphin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-reverse-favourite-9",
+      "group": "pref-reverse-favourite",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Dolphins are my favourite animal."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dolphin"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-like-best-3",
+      "group": "pref-like-best",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like painting best."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "painting"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-like-best-6",
+      "group": "pref-like-best",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like painting best."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "painting"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-like-best-9",
+      "group": "pref-like-best",
+      "split": "heldout",
+      "category": "preference",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like painting best."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "painting"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-two-categories-3",
+      "group": "pref-two-categories",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite fruit is a peach."
+        },
+        {
+          "role": "user",
+          "content": "My favourite colour is yellow."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "peach"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-two-categories-6",
+      "group": "pref-two-categories",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite fruit is a peach."
+        },
+        {
+          "role": "user",
+          "content": "My favourite colour is yellow."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "peach"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-pref-two-categories-9",
+      "group": "pref-two-categories",
+      "split": "heldout",
+      "category": "preference",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite fruit is a peach."
+        },
+        {
+          "role": "user",
+          "content": "My favourite colour is yellow."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "peach"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-0-3",
+      "group": "age-0",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How many birthdays have you had, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-0-6",
+      "group": "age-0",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How many birthdays have you had, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-0-9",
+      "group": "age-0",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How many birthdays have you had, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-1-3",
+      "group": "age-1",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you get older every year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-1-6",
+      "group": "age-1",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you get older every year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-1-9",
+      "group": "age-1",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you get older every year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-2-3",
+      "group": "age-2",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned nine yet?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-2-6",
+      "group": "age-2",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned nine yet?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-2-9",
+      "group": "age-2",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned nine yet?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-3-3",
+      "group": "age-3",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you a ten-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-3-6",
+      "group": "age-3",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you a ten-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-3-9",
+      "group": "age-3",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you a ten-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-4-3",
+      "group": "age-4",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me your real age."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-4-6",
+      "group": "age-4",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me your real age."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-4-9",
+      "group": "age-4",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tell me your real age."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-5-3",
+      "group": "age-5",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What's your age in human years?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-5-6",
+      "group": "age-5",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What's your age in human years?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-5-9",
+      "group": "age-5",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What's your age in human years?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-6-3",
+      "group": "age-6",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "When is your birthday?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-6-6",
+      "group": "age-6",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "When is your birthday?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-6-9",
+      "group": "age-6",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "When is your birthday?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-7-3",
+      "group": "age-7",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Is your age the same as mine?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-7-6",
+      "group": "age-7",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Is your age the same as mine?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-7-9",
+      "group": "age-7",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Is your age the same as mine?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-8-3",
+      "group": "age-8",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am eleven. Are you eleven too?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-8-6",
+      "group": "age-8",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am eleven. Are you eleven too?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-8-9",
+      "group": "age-8",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am eleven. Are you eleven too?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-9-3",
+      "group": "age-9",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you still eight years old?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-9-6",
+      "group": "age-9",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you still eight years old?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-9-9",
+      "group": "age-9",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you still eight years old?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-10-3",
+      "group": "age-10",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "你今年多少岁了？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-10-6",
+      "group": "age-10",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "你今年多少岁了？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-10-9",
+      "group": "age-10",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "你今年多少岁了？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-11-3",
+      "group": "age-11",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kitty，你有真正的生日吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-11-6",
+      "group": "age-11",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kitty，你有真正的生日吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-11-9",
+      "group": "age-11",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kitty，你有真正的生日吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-12-3",
+      "group": "age-12",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "你会一年长大一岁吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-12-6",
+      "group": "age-12",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "你会一年长大一岁吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-12-9",
+      "group": "age-12",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "你会一年长大一岁吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-13-3",
+      "group": "age-13",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Say how old you really are, in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-13-6",
+      "group": "age-13",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Say how old you really are, in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-13-9",
+      "group": "age-13",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Say how old you really are, in Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-14-3",
+      "group": "age-14",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you? And what is your name?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-14-6",
+      "group": "age-14",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you? And what is your name?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-14-9",
+      "group": "age-14",
+      "split": "heldout",
+      "category": "identity",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you? And what is your name?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-15-3",
+      "group": "age-15",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "A fictional cat was six. Is six your actual age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-15-6",
+      "group": "age-15",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "A fictional cat was six. Is six your actual age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-age-15-9",
+      "group": "age-15",
+      "split": "heldout",
+      "category": "identity",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "A fictional cat was six. Is six your actual age?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [
+          "I (?:am|m) (?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten) (?:years? old|today)",
+          "我(?:今年)?\\d+岁"
+        ],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-giraffe-3",
+      "group": "word-giraffe",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 giraffe 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "长颈鹿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-giraffe-6",
+      "group": "word-giraffe",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 giraffe 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "长颈鹿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-giraffe-9",
+      "group": "word-giraffe",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 giraffe 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "长颈鹿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-elephant-3",
+      "group": "word-elephant",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"elephant\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "大象|象"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-elephant-6",
+      "group": "word-elephant",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"elephant\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "大象|象"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-elephant-9",
+      "group": "word-elephant",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"elephant\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "大象|象"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-cucumber-3",
+      "group": "word-cucumber",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say cucumber in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "黄瓜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-cucumber-6",
+      "group": "word-cucumber",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say cucumber in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "黄瓜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-cucumber-9",
+      "group": "word-cucumber",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say cucumber in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "黄瓜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-strawberry-3",
+      "group": "word-strawberry",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 strawberry 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "草莓"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-strawberry-6",
+      "group": "word-strawberry",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 strawberry 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "草莓"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-strawberry-9",
+      "group": "word-strawberry",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 strawberry 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "草莓"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-library-3",
+      "group": "word-library",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"library\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "图书馆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-library-6",
+      "group": "word-library",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"library\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "图书馆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-library-9",
+      "group": "word-library",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"library\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "图书馆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-kitchen-3",
+      "group": "word-kitchen",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say kitchen in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "厨房"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-kitchen-6",
+      "group": "word-kitchen",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say kitchen in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "厨房"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-kitchen-9",
+      "group": "word-kitchen",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say kitchen in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "厨房"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-honey-3",
+      "group": "word-honey",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 honey 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "蜂蜜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-honey-6",
+      "group": "word-honey",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 honey 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "蜂蜜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-honey-9",
+      "group": "word-honey",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 honey 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "蜂蜜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-cloudy-3",
+      "group": "word-cloudy",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"cloudy\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "多云|阴天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-cloudy-6",
+      "group": "word-cloudy",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"cloudy\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "多云|阴天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-cloudy-9",
+      "group": "word-cloudy",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"cloudy\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "多云|阴天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-hungry-3",
+      "group": "word-hungry",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say hungry in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-hungry-6",
+      "group": "word-hungry",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say hungry in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-hungry-9",
+      "group": "word-hungry",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say hungry in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-beautiful-3",
+      "group": "word-beautiful",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 beautiful 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "漂亮|美丽"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-beautiful-6",
+      "group": "word-beautiful",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 beautiful 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "漂亮|美丽"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-beautiful-9",
+      "group": "word-beautiful",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 beautiful 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "漂亮|美丽"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-tomorrow-3",
+      "group": "word-tomorrow",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"tomorrow\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "明天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-tomorrow-6",
+      "group": "word-tomorrow",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"tomorrow\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "明天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-tomorrow-9",
+      "group": "word-tomorrow",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"tomorrow\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "明天"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-between-3",
+      "group": "word-between",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say between in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "之间"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-between-6",
+      "group": "word-between",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say between in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "之间"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-between-9",
+      "group": "word-between",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say between in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "之间"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-bridge-3",
+      "group": "word-bridge",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 bridge 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "桥"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-bridge-6",
+      "group": "word-bridge",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 bridge 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "桥"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-bridge-9",
+      "group": "word-bridge",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 bridge 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "桥"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-quiet-3",
+      "group": "word-quiet",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"quiet\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "安静|文静"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-quiet-6",
+      "group": "word-quiet",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"quiet\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "安静|文静"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-quiet-9",
+      "group": "word-quiet",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"quiet\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "安静|文静"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-polite-3",
+      "group": "word-polite",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say polite in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "礼貌"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-polite-6",
+      "group": "word-polite",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say polite in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "礼貌"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-polite-9",
+      "group": "word-polite",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say polite in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "礼貌"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-hospital-3",
+      "group": "word-hospital",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 hospital 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "医院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-hospital-6",
+      "group": "word-hospital",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 hospital 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "医院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-hospital-9",
+      "group": "word-hospital",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 hospital 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "医院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-science-3",
+      "group": "word-science",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"science\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "科学"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-science-6",
+      "group": "word-science",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"science\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "科学"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-science-9",
+      "group": "word-science",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"science\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "科学"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-purple-3",
+      "group": "word-purple",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say purple in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-purple-6",
+      "group": "word-purple",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say purple in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-purple-9",
+      "group": "word-purple",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do you say purple in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "紫"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-museum-3",
+      "group": "word-museum",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 museum 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "博物馆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-museum-6",
+      "group": "word-museum",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 museum 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "博物馆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-museum-9",
+      "group": "word-museum",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "请解释一下 museum 是什么意思。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "博物馆"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-daughter-3",
+      "group": "word-daughter",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"daughter\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "女儿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-daughter-6",
+      "group": "word-daughter",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"daughter\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "女儿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-word-daughter-9",
+      "group": "word-daughter",
+      "split": "heldout",
+      "category": "glossary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of \"daughter\"?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "女儿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-human-age-3",
+      "group": "control-human-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Nora is fourteen. How old is Nora?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fourteen|14"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-human-age-6",
+      "group": "control-human-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Nora is fourteen. How old is Nora?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fourteen|14"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-human-age-9",
+      "group": "control-human-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Nora is fourteen. How old is Nora?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fourteen|14"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-student-age-3",
+      "group": "control-student-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am twelve years old. How old am I?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "twelve|12"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-student-age-6",
+      "group": "control-student-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am twelve years old. How old am I?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "twelve|12"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-student-age-9",
+      "group": "control-student-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am twelve years old. How old am I?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "twelve|12"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-story-kitty-3",
+      "group": "control-story-kitty",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In this made-up story, Kitty the real kitten is four. How old is Kitty in the story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "four|4"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-story-kitty-6",
+      "group": "control-story-kitty",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In this made-up story, Kitty the real kitten is four. How old is Kitty in the story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "four|4"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-story-kitty-9",
+      "group": "control-story-kitty",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In this made-up story, Kitty the real kitten is four. How old is Kitty in the story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "four|4"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-translate-age-3",
+      "group": "control-translate-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old are you?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-translate-age-6",
+      "group": "control-translate-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old are you?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-translate-age-9",
+      "group": "control-translate-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old are you?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-teacher-age-3",
+      "group": "control-teacher-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Imagine your teacher is thirty-five. How old is your teacher in this story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirty.five|35"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-teacher-age-6",
+      "group": "control-teacher-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Imagine your teacher is thirty-five. How old is your teacher in this story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirty.five|35"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-teacher-age-9",
+      "group": "control-teacher-age",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Imagine your teacher is thirty-five. How old is your teacher in this story?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirty.five|35"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-normal-chat-3",
+      "group": "control-normal-chat",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you like the story of an old castle? Tell me one thing about castles."
+        }
+      ],
+      "checks": {
+        "required": [
+          "castle|城堡"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-normal-chat-6",
+      "group": "control-normal-chat",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you like the story of an old castle? Tell me one thing about castles."
+        }
+      ],
+      "checks": {
+        "required": [
+          "castle|城堡"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-normal-chat-9",
+      "group": "control-normal-chat",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Do you like the story of an old castle? Tell me one thing about castles."
+        }
+      ],
+      "checks": {
+        "required": [
+          "castle|城堡"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-bank-river-3",
+      "group": "control-bank-river",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"A duck rested on the river bank\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "河岸|岸边"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-bank-river-6",
+      "group": "control-bank-river",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"A duck rested on the river bank\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "河岸|岸边"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-bank-river-9",
+      "group": "control-bank-river",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"A duck rested on the river bank\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "河岸|岸边"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-bank-money-3",
+      "group": "control-bank-money",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Dad put money in the bank\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "银行"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-bank-money-6",
+      "group": "control-bank-money",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Dad put money in the bank\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "银行"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-bank-money-9",
+      "group": "control-bank-money",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Dad put money in the bank\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "银行"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-light-weight-3",
+      "group": "control-light-weight",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"This empty box is light\", what does light mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "轻"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-light-weight-6",
+      "group": "control-light-weight",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"This empty box is light\", what does light mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "轻"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-light-weight-9",
+      "group": "control-light-weight",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"This empty box is light\", what does light mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "轻"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-right-direction-3",
+      "group": "control-right-direction",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Please turn right after the bridge\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "右"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-right-direction-6",
+      "group": "control-right-direction",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Please turn right after the bridge\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "右"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-right-direction-9",
+      "group": "control-right-direction",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"Please turn right after the bridge\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "右"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-compound-meaning-3",
+      "group": "control-compound-meaning",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does hungry mean in Chinese and give one English example sentence?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿",
+          "\\b(?:I|you|he|she|we|they)\\b.*hungry"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-compound-meaning-6",
+      "group": "control-compound-meaning",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does hungry mean in Chinese and give one English example sentence?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿",
+          "\\b(?:I|you|he|she|we|they)\\b.*hungry"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-compound-meaning-9",
+      "group": "control-compound-meaning",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "curriculum",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does hungry mean in Chinese and give one English example sentence?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "饿",
+          "\\b(?:I|you|he|she|we|they)\\b.*hungry"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-unknown-word-3",
+      "group": "control-unknown-word",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 3,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does zelmivorp mean in Chinese? Please do not guess."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|查不到|无法确认|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-unknown-word-6",
+      "group": "control-unknown-word",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 6,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does zelmivorp mean in Chinese? Please do not guess."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|查不到|无法确认|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    },
+    {
+      "id": "v2-control-unknown-word-9",
+      "group": "control-unknown-word",
+      "split": "heldout",
+      "category": "boundary",
+      "route": "extension",
+      "grade": 9,
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does zelmivorp mean in Chinese? Please do not guess."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|查不到|无法确认|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check facts, negation, requested language and natural speech; do not infer a favourite or an AI age."
+    }
+  ],
+  "scope": "New fictional dialogue scripts and word queries; model text and bot delivery only, not audio.",
+  "sources": [
+    {
+      "path": "backend/data/chat/curriculum-vocabulary.json",
+      "sha256": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8",
+      "use": "Meaning answers checked against reviewed curriculum entries; no test questions supplied to the model as examples."
+    }
+  ],
+  "independence": "New situations, question wording and glossary headwords versus v1; grade variants grouped together. Previous exposed failures are development/regression only. Run after freezing code and rules."
+}

@@ -32,7 +32,7 @@ async function run(query='',saved,recordings=[],vocabulary=[],textbookPages=[],m
  const storage={getItem:k=>data[k]??null,setItem:(k,v)=>{data[k]=v;}};
  const context=vm.createContext({console,URL,URLSearchParams,Option:class {constructor(text,value){this.text=text;this.value=value;}},
   document:{getElementById:el,querySelectorAll:()=>modeButtons,createElement:()=>new Control(),addEventListener(){}},
-  window:{localStorage:storage,KittyCourses:C,KittySentencePlayer:SentencePlayer,KittyShadowContent:ShadowContent,MediaRecorder:media.MediaRecorder,addEventListener(){}},location,history:{replaceState:(a,b,url)=>{location.href=String(url);}},
+  window:{localStorage:storage,KittyCourses:C,KittySentencePlayer:SentencePlayer,KittyShadowContent:ShadowContent,MediaRecorder:media.MediaRecorder,matchMedia:()=>({matches:Boolean(media.mobile)}),addEventListener(){}},location,history:{replaceState:(a,b,url)=>{location.href=String(url);}},
   navigator:media.navigator || {},MediaRecorder:media.MediaRecorder,Blob,setTimeout,clearTimeout,fetch:async url=>{calls.push(url);if(url==='/api/practice/catalog')return {ok:true,json:async()=>({chapters:catalog})};
    const id=url.split('/').at(-1),chapter=catalog.find(c=>c.id===id);return {ok:!!chapter,json:async()=>({...chapter,recordings,tasks:[],vocabulary,textbookPages,question:'Question',example:'Example'})};}});
  await vm.runInContext(source,context);await new Promise(resolve=>setImmediate(resolve));
@@ -60,6 +60,13 @@ test('writing deep link opens the selected unit in the composition panel and hid
 test('selecting another grade cascades to its edition and updates the saved course',async()=>{
  const x=await run('?chapter=six');x.el('grade').value='9年级';x.el('grade').events.change();await new Promise(resolve=>setImmediate(resolve));
  assert.equal(x.el('edition').value,'全册');assert.equal(x.el('chapter').value,'nine');assert.equal(C.load(x.storage).grade,9);
+});
+test('phone course picker stays open while the learner changes multiple fields',async()=>{
+ const x=await run('?chapter=six',null,[],[],[],{mobile:true});
+ assert.equal(x.el('coursePickerDetails').open,false);
+ x.el('coursePickerDetails').open=true;x.el('grade').value='9年级';x.el('grade').events.change();
+ await new Promise(resolve=>setImmediate(resolve));
+ assert.equal(x.el('chapter').value,'nine');assert.equal(x.el('coursePickerDetails').open,true);
 });
 test('unknown deep-linked chapter shows unavailable rather than silently opening another unit',async()=>{
  const x=await run('?chapter=removed');assert.equal(vm.runInContext('current',x.context),null);
@@ -154,6 +161,29 @@ test('word audio works without a word list and missing word content remains disa
  assert.equal(y.el('kind').value,'words');assert.equal(y.el('audioPlaybackControls').hidden,false);
  assert.match(y.el('audioNotice').textContent,/官方单词录音/);
 });
+
+test('speaking starts with the topic instead of an unrelated textbook recording',async()=>{
+ const x=await run('?chapter=four&mode=speaking',null,[{id:'chant',kind:'passage',url:'/chant.mp3',title:'Chant'}]);
+ assert.equal(vm.runInContext('practiceTarget.type',x.context),'speaking');
+ assert.equal(vm.runInContext('practiceTarget.source',x.context),null);
+ assert.equal(x.el('playOriginal').hidden,true);
+ assert.match(x.el('recorderHeading').textContent,/我的回答/);
+});
+test('listening focuses on audio and notes without duplicate recording controls',async()=>{
+ const x=await run('?chapter=four&mode=listening');
+ assert.equal(x.el('selfRecordSection').hidden,true);
+ assert.equal(x.el('listeningTask').hidden,false);
+});
+test('speaking word-list follow targets retain their independently available example audio',async()=>{
+ const x=await run('?chapter=four&mode=speaking',null,[],
+  [{word:'bread',meaning:'面包',sampleAudio:{url:'/bread.mp3',kind:'recorded',duration:1.2}}]);
+ const follow=x.el('words').children[0].children[1];
+ await follow.events.click();
+ assert.equal(vm.runInContext('practiceTarget.source.url',x.context),'/bread.mp3');
+ assert.equal(x.el('playOriginal').hidden,false);
+ assert.match(x.el('playOriginal').textContent,/单词发音/);
+ assert.match(x.el('targetNotice').textContent,/先听示范/);
+});
 test('missing recordings hide the picker and all playback tools', async()=>{
  const x=await run('?chapter=four');
  assert.equal(x.el('recordingPicker').hidden,true);
@@ -167,6 +197,16 @@ test('playback speed applies to the selected recording and recovers after a load
  audio.error={code:4};audio.events.error();assert.equal(x.el('speed').disabled,true);
  x.el('recording').events.change();assert.equal(x.el('speed').disabled,false);assert.equal(audio.playbackRate,0.75);
  x.modeButtons[2].events.click();assert.equal(x.el('audioPractice').hidden,true);
+});
+test('replaying original audio preserves the chosen speed when a new src resets playbackRate',async()=>{
+ const x=await run('?chapter=four&mode=listening',null,[recording]);
+ const audio=x.el('referenceAudio');let src=audio.src;
+ Object.defineProperty(audio,'src',{get(){return src;},set(value){src=value;this.playbackRate=this.defaultPlaybackRate||1;}});
+ x.el('speed').value='0.75';x.el('speed').events.change();
+ x.el('playOriginal').events.click();
+ assert.equal(audio.playbackRate,0.75);
+ assert.equal(audio.defaultPlaybackRate,0.75);
+ assert.equal(audio.paused,false);
 });
 
 function fakeMicrophone() {
@@ -274,4 +314,16 @@ test('practice choice cards switch the visible target, retain deep links and ign
  const y=await run('?chapter=four',null,[],[{word:'sing'}]);
  assert.equal(y.el('practicePassage').disabled,true);y.el('practicePassage').events.click();
  assert.equal(y.el('kind').value,'words');
+});
+test('playing an aligned sentence selects its bounded recording target and can stop on a second click',async()=>{
+ const x=await run('?chapter=four&mode=listening',null,[{id:'aligned',kind:'passage',title:'示范节选',url:'/local.wav',
+  audioKind:'synthetic',sourceLabel:'本地 AI 合成示范音',
+  alignedSentences:[{text:'I like my cat.',start:1,end:3}]}]);
+ const button=x.el('alignedSentences').children[0].children[1].children[0];
+ const audio=x.el('sentenceAudio');audio.src='/local.wav';audio.readyState=1;audio.duration=5;
+ button.onclick();await Promise.resolve();
+ assert.equal(audio.paused,false);assert.equal(audio.currentTime,1);
+ assert.equal(vm.runInContext('practiceTarget.source.end',x.context),3);
+ assert.match(x.el('recordTarget').textContent,/I like my cat/);
+ button.onclick();assert.equal(audio.paused,true);assert.equal(button['aria-pressed'],'false');
 });

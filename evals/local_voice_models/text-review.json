@@ -1,0 +1,1688 @@
+{
+  "method": "Assistant review, not blinded, not an independent teacher panel. Read all 144 task-specific delivered text responses. Explicit factual/instruction/coverage errors fail. Uncertain science elaboration, ambiguous pronoun or unclear word-meaning correspondence are separated for teacher review. Stylistic filler and unnecessary follow-up are retained in rule checks, not equated with factual failure. Regression corpus uses rules only.",
+  "summary": {
+    "qwen2.5:3b": {
+      "pass": 39,
+      "fail": 7,
+      "needs_review": 2
+    },
+    "qwen3.5:2b": {
+      "pass": 30,
+      "fail": 16,
+      "needs_review": 2
+    },
+    "qwen3.5:4b": {
+      "pass": 44,
+      "needs_review": 2,
+      "fail": 2
+    }
+  },
+  "rows": [
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-17",
+      "status": "pass",
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-03",
+      "status": "pass",
+      "text": "Why not draw together and share your creativity?",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:let.s|would you|do you|can you|come|want"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-22",
+      "status": "pass",
+      "text": "故事里的 Toby 今年七岁。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-12",
+      "status": "pass",
+      "text": "I'm sorry, but I can't hear your pronunciation. Please restate what you said.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-04",
+      "status": "pass",
+      "text": "First, you need to get some cheese and bread. Then, spread the cheese on one slice of bread. Finally, put the other slice on top to make the sandwich.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-10",
+      "status": "pass",
+      "text": "A piano can play music.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-23",
+      "status": "fail",
+      "text": "Iris 是和谁一起去的？",
+      "reason": "复述问题，没有说明原文缺少同行者信息。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question",
+        "missing:没.*(?:说|提|告诉)|不知道|不清楚|未.*(?:说明|提及)|无法确定"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-09",
+      "status": "pass",
+      "text": "Great choice! Sunday is a nice day for a fun trip to the zoo.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "filler_start"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-20",
+      "status": "fail",
+      "text": "Ruby 有一只猫，名字叫 Ruby。",
+      "reason": "把 Ruby 的名字附加给宠物，原文没有宠物名字。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-07",
+      "status": "pass",
+      "text": "His shoes are not mentioned, so I don't know the color.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-06",
+      "status": "pass",
+      "text": "Nora now has 2 green pencils.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-18",
+      "status": "pass",
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-13",
+      "status": "pass",
+      "text": "light 在这里的意思是“重量轻”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-14",
+      "status": "pass",
+      "text": "right 在这里的意思是“右边，向右”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-19",
+      "status": "pass",
+      "text": "Olive 的杯子是黄色的，Felix 的杯子是白色的，Felix 是英文名字。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "forbidden:Olive.*白色"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-08",
+      "status": "pass",
+      "text": "You use the bus to go to school now.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-16",
+      "status": "pass",
+      "text": "你哥哥多大了？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-11",
+      "status": "needs_review",
+      "text": "cherry 的意思是“樱桃”。 这里有一个用 cherry 构成的句子：The cherry on top of the cake is the whipped cream.",
+      "reason": "释义正确，例句转成 cherry on top 比喻并说成 whipped cream，不能确认是在示范所要求的水果义。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-05",
+      "status": "pass",
+      "text": "You can use an umbrella or a raincoat to stay dry.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-01",
+      "status": "pass",
+      "text": "Turtles have shells to protect their bodies from predators.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-15",
+      "status": "pass",
+      "text": "你的学校在哪里？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-02",
+      "status": "pass",
+      "text": "A duck can swim and has webbed feet, while a cat can climb and has sharp claws.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-24",
+      "status": "fail",
+      "text": "",
+      "reason": "回复被中文校验拒绝，未交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "runtime_error"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 0,
+      "id": "q35-21",
+      "status": "fail",
+      "text": "apple 和 banana 的英文分别是 apple 和 banana。 苹果：I like to eat an apple a day.",
+      "reason": "只给苹果例句，漏掉香蕉例句。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-17",
+      "status": "pass",
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-03",
+      "status": "pass",
+      "text": "Let's go draw together in the park today!",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-22",
+      "status": "pass",
+      "text": "故事里的 Toby 是七岁。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-12",
+      "status": "pass",
+      "text": "I cannot hear your voice directly. I only receive the transcript you sent me. Please send the text again so I can check it for you.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-04",
+      "status": "pass",
+      "text": "You should cut the bread first. Then you can put cheese on it. Next you add meat or vegetables.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-10",
+      "status": "pass",
+      "text": "Pianos make music when you press the keys.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-23",
+      "status": "fail",
+      "text": "Iris 和没有名字的人一起去了公园。",
+      "reason": "编造 Iris 与一个没有名字的人同行。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:没.*(?:说|提|告诉)|不知道|不清楚|未.*(?:说明|提及)|无法确定"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-09",
+      "status": "pass",
+      "text": "That sounds great! You can plan your trip for Sunday. Do you like animals or prefer quiet places?",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-20",
+      "status": "pass",
+      "text": "Ruby 有只猫作为她的宠物。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-07",
+      "status": "fail",
+      "text": "Ben 有红色的风筝。 我不知道他鞋子的颜色。",
+      "reason": "本轮没有中文请求，却输出中文，违反默认英文要求。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:don.t know|do not know|not know|doesn.t say|not (?:given|mentioned)|no information|not (?:told|said)"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-06",
+      "status": "pass",
+      "text": "Nora has two green pencils left after giving one to Leo. The total number of pencils is now two. This answer follows the story facts provided.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-18",
+      "status": "pass",
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-13",
+      "status": "pass",
+      "text": "light 在这里的意思是“重量轻”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-14",
+      "status": "pass",
+      "text": "right 在这里的意思是“右边，向右”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-19",
+      "status": "pass",
+      "text": "Olive 的杯子是黄色的。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-08",
+      "status": "fail",
+      "text": "You use your feet and hands to walk or ride a bike.",
+      "reason": "忽略已更新的 bus，编造步行或骑车。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:bus",
+        "forbidden:\\bbike\\b"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-16",
+      "status": "fail",
+      "text": "这句话是问哥哥多大年纪吗？",
+      "reason": "改成询问句子含义的元问题，没有直接翻译原问句。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-11",
+      "status": "needs_review",
+      "text": "樱桃的意思是“樱桃”。 One English sentence is: I like to eat cherries every day.",
+      "reason": "樱桃的意思是樱桃为同义反复；英文例句能提供线索，但缺少清楚的英文词到中文释义对应。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-05",
+      "status": "fail",
+      "text": "You can wear a raincoat or an umbrella to stay dry while walking home.",
+      "reason": "wear an umbrella 搭配错误。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-01",
+      "status": "fail",
+      "text": "Turtles have hard shells to protect their soft bodies from danger and help them swim underwater. This shell also helps them stay warm in cold weather while they sleep. They use it as a home for their eggs and babies too.",
+      "reason": "编造龟壳是蛋和幼龟的家。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-15",
+      "status": "fail",
+      "text": "Where is your school?",
+      "reason": "没有把问句翻译成中文。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question",
+        "requested_chinese_missing",
+        "missing:学校",
+        "missing:哪|哪里|哪儿"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-02",
+      "status": "pass",
+      "text": "Ducks have feathers and swim in water, while cats have fur and hunt on land. A duck can fly low, but a cat cannot fly at all.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-24",
+      "status": "fail",
+      "text": "big 指“大的”，比如一只大猫；small 指“小的”，比如一只小猫。 它们只是大小不同的意思，没有好坏之分。",
+      "reason": "没有给出要求的两个英语短句。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 0,
+      "id": "q35-21",
+      "status": "pass",
+      "text": "苹果是 apple，香蕉是 banana。 例句：I eat an apple every day. 例句：She likes bananas very much.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-17",
+      "status": "pass",
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-03",
+      "status": "pass",
+      "text": "Would you like to draw with me?",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-22",
+      "status": "pass",
+      "text": "故事里的 Toby 今年七岁。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-12",
+      "status": "pass",
+      "text": "I cannot check your pronunciation because I only receive written text. Please write the word \"rabbit\" again if you want me to see it.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-04",
+      "status": "pass",
+      "text": "First, cut the bread into two pieces. Then put the cheese on one slice. Finally, close the sandwich.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-10",
+      "status": "pass",
+      "text": "A piano makes music. It has many keys. A pianist plays it.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-23",
+      "status": "pass",
+      "text": "文中没有提到 Iris 是和谁一起去的，所以不知道。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-09",
+      "status": "pass",
+      "text": "That sounds great! What animals do you hope to see there?",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question",
+        "missing:sunday"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-20",
+      "status": "pass",
+      "text": "Ruby 的宠物是一只猫。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-07",
+      "status": "pass",
+      "text": "I do not know the colour of his shoes. The passage only says he has a red kite. I cannot answer this question.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-06",
+      "status": "pass",
+      "text": "Nora started with three pencils and gave away one, so she has two left. This simple subtraction shows how sharing changes the total count. Math problems like this help us track items in everyday situations.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-18",
+      "status": "pass",
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-13",
+      "status": "pass",
+      "text": "light 在这里的意思是“重量轻”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-14",
+      "status": "pass",
+      "text": "right 在这里的意思是“右边，向右”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-19",
+      "status": "pass",
+      "text": "Olive 的杯子是黄色的。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-08",
+      "status": "pass",
+      "text": "You use the bus to go to school now. Before, you used your bike.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "forbidden:\\bbike\\b"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-16",
+      "status": "pass",
+      "text": "你的哥哥多大了？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-11",
+      "status": "pass",
+      "text": "Cherry\" means 樱桃。 Here is an example sentence: The girl ate a sweet red cherry after school.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-05",
+      "status": "pass",
+      "text": "You can use an umbrella or a raincoat to stay dry when it is raining. Both items help keep you from getting wet while walking home.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-01",
+      "status": "needs_review",
+      "text": "Turtles use shells for protection from predators. They also keep their bodies warm and dry. The shell is a hard part of their skin.",
+      "reason": "保护作用回答正确，但额外的保暖/保持干燥说法需要独立事实核对。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-15",
+      "status": "pass",
+      "text": "你的学校在哪里？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-02",
+      "status": "pass",
+      "text": "A duck swims in water while a cat runs on land. A duck lays eggs but a cat gives birth to live kittens. One duck has webbed feet and one cat has sharp claws.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-24",
+      "status": "fail",
+      "text": "",
+      "reason": "回复被中文校验拒绝，未交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "runtime_error"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 0,
+      "id": "q35-21",
+      "status": "pass",
+      "text": "苹果的英文是 apple，例句：I eat an apple every day. 香蕉的英文是 banana，例句：She likes bananas for breakfast.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-08",
+      "status": "pass",
+      "text": "You use the bus to go to school now. You used to ride a bike before.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "forbidden:\\bbike\\b"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-01",
+      "status": "needs_review",
+      "text": "Turtles use shells for protection from predators. The hard shell acts like a shield to keep them safe. It also helps them stay warm and hold water inside.",
+      "reason": "保护作用回答正确，额外保暖/保存水分解释需要独立核对。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-03",
+      "status": "pass",
+      "text": "Would you like to draw with me?",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-06",
+      "status": "pass",
+      "text": "Nora started with three pencils and gave away one, so she has two left. This is simple subtraction: three minus one equals two.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-24",
+      "status": "fail",
+      "text": "",
+      "reason": "回复被中文校验拒绝，未交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "runtime_error"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-15",
+      "status": "pass",
+      "text": "你的学校在哪里？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-23",
+      "status": "pass",
+      "text": "文中没有提到 Iris 是和谁一起去的，所以不知道。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-19",
+      "status": "pass",
+      "text": "Olive 的杯子是黄色的。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-14",
+      "status": "pass",
+      "text": "right 在这里的意思是“右边，向右”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-09",
+      "status": "pass",
+      "text": "That sounds like a great plan. You can relax and see many animals there. Have fun on your trip!",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:sunday"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-16",
+      "status": "pass",
+      "text": "你的弟弟多大了？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-13",
+      "status": "pass",
+      "text": "light 在这里的意思是“重量轻”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-05",
+      "status": "pass",
+      "text": "You can use an umbrella or a raincoat to stay dry while walking home in the rain. These items help you keep your clothes and body from getting wet. You might also carry a small bag with a plastic liner inside.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-04",
+      "status": "pass",
+      "text": "First, cut the bread into two pieces. Then put the cheese on one side. Finally, close the sandwich and eat it.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-22",
+      "status": "pass",
+      "text": "故事里的 Toby 今年七岁。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-18",
+      "status": "pass",
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-02",
+      "status": "pass",
+      "text": "A duck swims well in water but cannot climb trees like a cat. A cat can jump high and land safely, while a duck stays close to the ground. Ducks eat plants and insects, whereas cats mostly hunt small animals for food.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-12",
+      "status": "pass",
+      "text": "I cannot check your pronunciation because I only receive written text. Please type the word again if you want me to help with spelling or meaning.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-21",
+      "status": "pass",
+      "text": "苹果的英文是 apple，例句：I eat an apple every day. 香蕉的英文是 banana，例句：She likes bananas for breakfast.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-20",
+      "status": "pass",
+      "text": "Ruby 的宠物是一只猫。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-11",
+      "status": "pass",
+      "text": "Cherry 的意思是“樱桃”。 The cherry tree is blooming with pink flowers.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-07",
+      "status": "pass",
+      "text": "I do not know the colour of his shoes. The text only says he has a red kite. I cannot answer this question from the given facts.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-10",
+      "status": "pass",
+      "text": "Pianos make music. They play songs. People listen to them.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:4b",
+      "repeat": 1,
+      "id": "q35-17",
+      "status": "pass",
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-08",
+      "status": "fail",
+      "text": "You use your feet and legs to walk to school today.",
+      "reason": "把明确更新的乘公交改成步行。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:bus"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-01",
+      "status": "fail",
+      "text": "Turtles have hard shells to protect their soft bodies from danger and help them swim underwater. They also use the shell as a home for eggs when they lay them in water.",
+      "reason": "编造把蛋放在壳里，并称在水中下蛋。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-03",
+      "status": "pass",
+      "text": "Let's go draw together in the park today!",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-06",
+      "status": "pass",
+      "text": "Nora has two green pencils left after giving one to Leo.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-24",
+      "status": "fail",
+      "text": "",
+      "reason": "回复被中文校验拒绝，未交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "runtime_error"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-15",
+      "status": "pass",
+      "text": "你的学校在哪里？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-23",
+      "status": "fail",
+      "text": "Iris 和朋友们一起去公园了。",
+      "reason": "编造与朋友们同行。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:没.*(?:说|提|告诉)|不知道|不清楚|未.*(?:说明|提及)|无法确定"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-19",
+      "status": "pass",
+      "text": "Olive 的杯子是黄色的。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-14",
+      "status": "pass",
+      "text": "right 在这里的意思是“右边，向右”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-09",
+      "status": "fail",
+      "text": "You are right, but I do not know your exact birth date. Please tell me when you plan to arrive.",
+      "reason": "把动物园日期回答误解成生日，丢失上下文。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:sunday"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-16",
+      "status": "fail",
+      "text": "这句话是问你的哥哥多大年纪吗？",
+      "reason": "改成询问句子含义的元问题，没有直接翻译。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-13",
+      "status": "pass",
+      "text": "light 在这里的意思是“重量轻”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-05",
+      "status": "fail",
+      "text": "You can wear a raincoat or an umbrella to stay dry while walking home.",
+      "reason": "wear an umbrella 搭配错误。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-04",
+      "status": "pass",
+      "text": "You need to get bread first. Then you put cheese on it. Finally, you add meat or vegetables.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-22",
+      "status": "pass",
+      "text": "故事里的 Toby 是七岁的。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-18",
+      "status": "pass",
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-02",
+      "status": "pass",
+      "text": "Ducks have feathers and swim in water, while cats have fur and hunt on land. Ducks are birds, but cats are mammals that need warm homes.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-12",
+      "status": "pass",
+      "text": "I am an AI without a voice or ears to hear your speech. I cannot judge how you sound because I do not have human hearing. Please try saying the word again so I can see it better.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-21",
+      "status": "pass",
+      "text": "苹果是 apple，香蕉是 banana。 例句：I eat an apple every day. 例句：She likes bananas very much.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-20",
+      "status": "pass",
+      "text": "Ruby 有只猫。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-11",
+      "status": "needs_review",
+      "text": "樱桃的意思是“樱桃”。 Here is an English sentence: I like eating cherries very much.",
+      "reason": "同上，定义同义反复；需教学复核。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-07",
+      "status": "fail",
+      "text": "Ben 有只红风筝。 我不知道他鞋子的颜色。",
+      "reason": "本轮没有中文请求，却输出中文。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:don.t know|do not know|not know|doesn.t say|not (?:given|mentioned)|no information|not (?:told|said)"
+      ]
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-10",
+      "status": "pass",
+      "text": "A piano plays music for people to listen to.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen3.5:2b",
+      "repeat": 1,
+      "id": "q35-17",
+      "status": "pass",
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-08",
+      "status": "pass",
+      "text": "You use the bus to go to school now.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-01",
+      "status": "pass",
+      "text": "Turtles have shells to protect their bodies from predators.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-03",
+      "status": "pass",
+      "text": "Why not draw some pictures together?",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:let.s|would you|do you|can you|come|want"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-06",
+      "status": "pass",
+      "text": "Nora now has 2 green pencils.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-24",
+      "status": "fail",
+      "text": "",
+      "reason": "回复被中文校验拒绝，未交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "runtime_error"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-15",
+      "status": "pass",
+      "text": "你的学校在哪里？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-23",
+      "status": "fail",
+      "text": "Iris 是和她的家人一起去的公园。",
+      "reason": "编造 Iris 和家人一起去公园，原文没有同行者。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "missing:没.*(?:说|提|告诉)|不知道|不清楚|未.*(?:说明|提及)|无法确定"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-19",
+      "status": "pass",
+      "text": "Olive 的杯子是黄色的，Felix 的杯子是白色的，Felix 是英文名字。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "forbidden:Olive.*白色"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-14",
+      "status": "pass",
+      "text": "right 在这里的意思是“右边，向右”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-09",
+      "status": "pass",
+      "text": "Great! Sunday is a good day for a fun visit to the zoo.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "filler_start"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-16",
+      "status": "pass",
+      "text": "你哥哥多大了？",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-13",
+      "status": "pass",
+      "text": "light 在这里的意思是“重量轻”。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-05",
+      "status": "pass",
+      "text": "You can use an umbrella or a raincoat to stay dry.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-04",
+      "status": "pass",
+      "text": "First, you need to get some cheese and bread. Then, spread the cheese on the bread. Finally, put the bread together to make the sandwich.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-22",
+      "status": "pass",
+      "text": "故事里的 Toby 今年七岁。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-18",
+      "status": "pass",
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-02",
+      "status": "pass",
+      "text": "A duck can swim and has webbed feet, while a cat can climb and is good at catching mice.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-12",
+      "status": "pass",
+      "text": "I'm sorry, but I can't hear your pronunciation. Please restate what you said.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-21",
+      "status": "fail",
+      "text": "苹果的英文是 \"apple\"，香蕉的英文是 \"banana\"。 简单英文例句如下： 苹果：I like eating apple. 香蕉：Do you like eating banana?",
+      "reason": "I like eating apple / Do you like eating banana 缺少合适的冠词或复数，不适合作为本题英语示范。",
+      "generated": true,
+      "originalRulePassed": false,
+      "ruleFailures": [
+        "unrequested_question"
+      ]
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-20",
+      "status": "needs_review",
+      "text": "Ruby 有一只猫，她的名字叫 Ruby。",
+      "reason": "她的名字叫 Ruby 的指代不清，可能重复人物名，也可能错误命名宠物。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-11",
+      "status": "pass",
+      "text": "cherry 的意思是“樱桃”。 这里有一个用 cherry 构成的句子：I picked a cherry from the tree.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-07",
+      "status": "pass",
+      "text": "His shoes are not mentioned, so I don't know the color.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-10",
+      "status": "pass",
+      "text": "A piano can play music.",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": true,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    },
+    {
+      "model": "qwen2.5:3b",
+      "repeat": 1,
+      "id": "q35-17",
+      "status": "pass",
+      "text": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "reason": "逐条检查：主要事实、要求的内容和指定语言可交付。",
+      "generated": false,
+      "originalRulePassed": true,
+      "ruleFailures": []
+    }
+  ]
+}

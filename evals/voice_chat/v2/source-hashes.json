@@ -1,0 +1,11 @@
+{
+  "backend/data/chat/curriculum-vocabulary.json": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8",
+  "backend/data/chat/voice-glossary-supplement.json": "0e49040d34f9486847c654d1c4727fcd6284c00c7f86c1e80b3b5711d991591a",
+  "backend/data/english/grade_3.json": "006de4845e0acc35e0c75c32afe5efbf4ed828caa3022517a8f821f37a40442d",
+  "backend/data/english/grade_4.json": "a316ec1d06d5769097878e9027703c0888157eac543e065aee4e1b3c15a6e065",
+  "backend/data/english/grade_8.json": "9473b1372c42f891f88069859bcca4bc31640cd33cf69a809015f2ca180576d6",
+  "backend/data/english/grade_9.json": "0d7f1590f91fcad9b178f118ab4d6b196d8586abe54b78294a8829d9a086b62f",
+  "backend/data/english/grade_5.json": "607a07011c8a671be287859cc9fee170540ef8cb36cca4a0d12b97ba7f195dec",
+  "backend/data/english/grade_6.json": "41369a3caf56ee0659cc368bef61ed6bd216ff2b6b3ec168e276808d156e8dc3",
+  "backend/data/english/grade_7.json": "b247cf12edb27efd2d9fde4c9f02346409d04383a865c4694771a6b604e1550b"
+}

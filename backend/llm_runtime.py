@@ -87,6 +87,8 @@ class LLMHttpPool:
     """
     def __init__(self):
         self.client = None
+        from .local_inference import LocalInferenceGate
+        self.local_inference = LocalInferenceGate()
 
     def get(self):
         if self.client is None or self.client.closed:
@@ -108,3 +110,8 @@ async def llm_client():
         # asyncio.run() loops. App and CLI requests use the managed pool.
         async with _client() as client:
             yield client
+
+
+def local_inference_gate():
+    owner = _pool.get()
+    return owner.local_inference if owner is not None else None

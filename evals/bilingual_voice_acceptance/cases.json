@@ -1,0 +1,267 @@
+[
+  {
+    "id": "b01",
+    "language": "zh",
+    "text": "请用中文说明你的真实年龄。",
+    "rubric": "AI 身份，无人类年龄。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b01.wav",
+    "sha256": "1ce254d495b9c40911308d05795bd39914286542387699a4b16e98e98217c689",
+    "seconds": 2.79425,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b02",
+    "language": "zh",
+    "text": "我最喜欢哪种动物？请用中文告诉我。",
+    "rubric": "只喜欢企鹅，不知道最喜欢哪种动物。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我喜欢企鹅。"
+      }
+    ],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b02.wav",
+    "sha256": "997548f760236b544b34062c3ca7500886ff8a479e5106eecf80946ebbee8f9b",
+    "seconds": 3.7565625,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b03",
+    "language": "zh",
+    "text": "请用中文说，我最喜欢的运动是什么？",
+    "rubric": "最新明确偏好为跳绳。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我最喜欢的运动是跑步。"
+      },
+      {
+        "role": "assistant",
+        "content": "我记住了。"
+      },
+      {
+        "role": "user",
+        "content": "我最喜欢的运动是跳绳。"
+      }
+    ],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b03.wav",
+    "sha256": "cb03ccc25173e4fe8f3968a969ffc230d5c55831d1e70e4201295298393cfe48",
+    "seconds": 3.723,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b04",
+    "language": "zh",
+    "text": "故事里的汤姆十二岁，他多大？请用中文回答。",
+    "rubric": "故事人物十二岁。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b04.wav",
+    "sha256": "df70db5191916aef4efb5ec763deb154efa258307dd15ef338d552792b30597e",
+    "seconds": 4.517875,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b05",
+    "language": "zh",
+    "text": "请用中文解释，并给两个英语例句。",
+    "rubric": "缺少目标词，要求补充词，不自行选择单词。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b05.wav",
+    "sha256": "f5db4a1744d37f5058a2e4a1c3c77b4afce258f9b13602d606e08dd3d175a30b",
+    "seconds": 3.525625,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b06",
+    "language": "mixed",
+    "text": "请告诉我watermelon用中文怎么说。",
+    "rubric": "西瓜，正确中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b06.wav",
+    "sha256": "05d3263276d49fdd2fc5805873e97e9248b57294e9697703956c88d7bf987fe7",
+    "seconds": 3.26425,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b07",
+    "language": "mixed",
+    "text": "我想知道dinosaur的中文意思是什么。",
+    "rubric": "恐龙，正确中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b07.wav",
+    "sha256": "8316523423d52344201c8f7215075eed82a955db9a309c368abbf6c46124830d",
+    "seconds": 3.31875,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b08",
+    "language": "mixed",
+    "text": "英语单词schoolbag的中文意思是什么？",
+    "rubric": "书包，正确中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b08.wav",
+    "sha256": "44dc22be704aa65702460611b2862cb199dfc605ee57644ae194f64c35361901",
+    "seconds": 3.361125,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b09",
+    "language": "mixed",
+    "text": "请用中文解释hot，再给一个英语例句。",
+    "rubric": "热的及包含 hot 的完整英语例句；若漏词则澄清，澄清不算任务完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b09.wav",
+    "sha256": "e93dfa8b862af39b48773c7e9e02078eb327318daec5f6722fffca54de32ceb9",
+    "seconds": 3.5525625,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b10",
+    "language": "mixed",
+    "text": "请用中文解释busy，并写两个英语例句。",
+    "rubric": "忙碌及包含 busy 的两个完整英语例句；漏词澄清不算任务完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b10.wav",
+    "sha256": "688bb68d401cf692fe50d435f187c9c2f8304bf7d1ba7aef7616c4f838601e62",
+    "seconds": 3.8066875,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b11",
+    "language": "mixed",
+    "text": "请用中文解释green的意思，并给一个英语例句。",
+    "rubric": "绿色及包含 green 的完整英语例句；漏词澄清不算任务完成。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b11.wav",
+    "sha256": "1ccafe1df778b857de16f48fa6463f2bb8f249ea599e490b3fab1d9f22a30158",
+    "seconds": 4.417875,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b12",
+    "language": "en",
+    "text": "What does rabbit mean in Chinese? Give me one English example.",
+    "rubric": "兔子及包含 rabbit 的完整英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b12.wav",
+    "sha256": "bf20419e293efba0012cac19b1ce3929d45ed2f88995582fbfaa64555a9b62ad",
+    "seconds": 4.08,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b13",
+    "language": "en",
+    "text": "What is the Chinese meaning of beautiful? Give two English example sentences.",
+    "rubric": "美丽的及包含 beautiful 的两个完整英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b13.wav",
+    "sha256": "551be451dfb80203c1640edddb3344470ce81737e45594d0cd6094d2079b0d5b",
+    "seconds": 4.602625,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b14",
+    "language": "en",
+    "text": "Please translate the word carrot into Chinese.",
+    "rubric": "胡萝卜，正确中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b14.wav",
+    "sha256": "0cd4ed69953017e5db1d52eb1ddec9973c2e268edda6510b23e97db5b86a8956",
+    "seconds": 2.8355,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b15",
+    "language": "en",
+    "text": "What is my favourite drink?",
+    "rubric": "只喜欢 tea，不知道最喜欢的饮料。",
+    "history": [
+      {
+        "role": "user",
+        "content": "I like tea."
+      }
+    ],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b15.wav",
+    "sha256": "5ed7d7fa4180476a0fb4463666b3c3f9611ccb7f669750538ddd78409f000657",
+    "seconds": 1.6420625,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b16",
+    "language": "en",
+    "text": "Please invite a friend to read with me in one English sentence.",
+    "rubric": "完整、可用的邀请朋友读书的英语句子。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/b16.wav",
+    "sha256": "e8adf8f456d7e30e417a6639d3d03871e3fdde6e259b7377445ffb008e5d2461",
+    "seconds": 3.485625,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "voices": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-acceptance/inputs/quiet-noise.wav",
+    "sha256": "3e957ca0c5f4eabf899088dda56bace18ed4445f15719292848a83810a248bcb",
+    "seconds": 3,
+    "voices": []
+  }
+]

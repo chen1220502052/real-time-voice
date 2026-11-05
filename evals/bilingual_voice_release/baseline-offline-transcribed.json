@@ -1,0 +1,1894 @@
+{
+  "variant": "baseline",
+  "mode": "offline",
+  "startedUtc": "2026-11-04T05:41:44Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:41:44Z",
+    "casesSha256": "e9461b5f5ca84d2534ff4beaee7747c042e235c9e4ff9d4847f3a464b711d1ba",
+    "sources": {
+      "backend/voice_grounding.py": "22e673ab6a6f90d8cfe7ebcf508b9e6990812b82c0bf8b449b4340e917414995",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice-release/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      ".local/bilingual-voice-release/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice-release/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice-release/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice-release/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "harnessSha256": "be6682fb687fb37c2a595976f1ffe632e7e0d208fc62397abfe89dd955ea186b",
+    "model": "qwen2.5:3b Q4_K_M",
+    "measurement": "24-case first round promoted to development; this 20-case release set is fresh and frozen before inference. Both variants use identical new inputs. TTS cache disabled. Local speech synthesis, not microphone-to-speaker. Live probes include paced delivery and actual WebRTC VAD."
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 65.44041680172086,
+      "asrDetail": {
+        "id": 2,
+        "text": "",
+        "confidence": 0.8461704434023857,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133723506,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 64.7,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 65.291
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 63.56799975037575,
+      "asrDetail": {
+        "id": 3,
+        "text": "",
+        "confidence": 0.8358336817060887,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 62.85,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.002,
+        "ipcWallMs": 63.417
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 72.44020886719227,
+      "asrDetail": {
+        "id": 4,
+        "text": "",
+        "confidence": 0.8100707753977594,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 131452746,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 71.58,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 72.278
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 64.83070785179734,
+      "asrDetail": {
+        "id": 5,
+        "text": "",
+        "confidence": 0.7755706394153862,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133961788,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 64.14,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 64.688
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 86.02066710591316,
+      "asrDetail": {
+        "id": 6,
+        "text": "",
+        "confidence": 0.8628957829947723,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 85.07,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 85.857
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 75.97383297979832,
+      "asrDetail": {
+        "id": 7,
+        "text": "",
+        "confidence": 0.7987108331003882,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 75.13,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 75.791
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 44.89995772019029,
+      "asrDetail": {
+        "id": 8,
+        "text": "",
+        "confidence": 0.8560695814432012,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 132824878,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 44.38,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 44.786
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b08",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 69.15520830079913,
+      "asrDetail": {
+        "id": 9,
+        "text": "",
+        "confidence": 0.7999514347347964,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133368892,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 68.49,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 69.019
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b09",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 70.19325019791722,
+      "asrDetail": {
+        "id": 10,
+        "text": "",
+        "confidence": 0.7595690663951301,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 132973382,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 69.38,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 70.048
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 48.50674979388714,
+      "asrDetail": {
+        "id": 11,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133107020,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 47.61,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 48.299
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b11",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 49.8755001462996,
+      "asrDetail": {
+        "id": 12,
+        "text": "",
+        "confidence": 0.7738876466862736,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133027142,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 49.28,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 49.755
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b12",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 83.34412518888712,
+      "asrDetail": {
+        "id": 13,
+        "text": "",
+        "confidence": 0.7904730819154094,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133158202,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 82.54,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 83.163
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b13",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word potato into Chinese.",
+      "asrMs": 41.25641658902168,
+      "asrDetail": {
+        "id": 14,
+        "text": "Please translate the word potato into Chinese.",
+        "confidence": 0.9977889366897124,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 40.63,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 41.123
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 579.51599964872,
+      "totalMs": 952.3838749155402,
+      "audioSeconds": 23.45,
+      "output": ".local/bilingual-voice-release/baseline/b13-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 16.56
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 517.119,
+              "postprocess": 2.454
+            },
+            "memory": {
+              "activeBytes": 165584150,
+              "cacheBytes": 100803618
+            },
+            "inferenceMs": 519.61,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.002,
+            "ipcWallMs": 521.501
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 368.196,
+              "postprocess": 2.002
+            },
+            "memory": {
+              "activeBytes": 165289238,
+              "cacheBytes": 128960136
+            },
+            "inferenceMs": 370.22,
+            "queueWaitMs": 521.5,
+            "startupMs": 0.003,
+            "ipcWallMs": 371.985
+          }
+        }
+      ],
+      "audioTranscript": "Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "a606fb19279dc859009585ac420a1e88d41916075221582d907b2899203df63a"
+    },
+    {
+      "id": "b14",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "How do you say banana in Chinese?",
+      "asrMs": 37.57862513884902,
+      "asrDetail": {
+        "id": 15,
+        "text": "How do you say banana in Chinese?",
+        "confidence": 0.9986158938047349,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 132525864,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 36.82,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 37.399
+      },
+      "endpoint": null,
+      "text": "banana 的意思是“香蕉”。",
+      "firstAudioMs": 274.7144172899425,
+      "totalMs": 275.2362503670156,
+      "audioSeconds": 6.11,
+      "output": ".local/bilingual-voice-release/baseline/b14-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "banana 的意思是“香蕉”。",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 234.868,
+              "postprocess": 1.205
+            },
+            "memory": {
+              "activeBytes": 164895350,
+              "cacheBytes": 129964214
+            },
+            "inferenceMs": 236.09,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 236.927
+          }
+        }
+      ],
+      "audioTranscript": "Banana Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter.",
+      "audioLanguage": "en",
+      "waveformSha256": "c6a7174c8ff94186951f4d460e816ffa00a79ae24e52b75d8f29b5b7d1458b7c"
+    },
+    {
+      "id": "b15",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does brave mean in Chinese? Give me an example in English.",
+      "asrMs": 52.45637474581599,
+      "asrDetail": {
+        "id": 16,
+        "text": "What does brave mean in Chinese? Give me an example in English.",
+        "confidence": 0.9968784191281506,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133003836,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 51.56,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 52.291
+      },
+      "endpoint": null,
+      "text": "brave 的意思是“勇敢的”。",
+      "firstAudioMs": 312.7402919344604,
+      "totalMs": 313.3046249859035,
+      "audioSeconds": 6.805,
+      "output": ".local/bilingual-voice-release/baseline/b15-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "brave 的意思是“勇敢的”。",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 257.602,
+              "postprocess": 1.388
+            },
+            "memory": {
+              "activeBytes": 164961046,
+              "cacheBytes": 133828270
+            },
+            "inferenceMs": 259.01,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 260.105
+          }
+        }
+      ],
+      "audioTranscript": "Brave Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "049c2f9508c1484dc67dc5d2c60c5abb9cc1ba6985633b76b7409576df695a99"
+    },
+    {
+      "id": "b16",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Tell me the Chinese meaning of friendly, then make one English sentence.",
+      "asrMs": 54.32787491008639,
+      "asrDetail": {
+        "id": 17,
+        "text": "Tell me the Chinese meaning of friendly, then make one English sentence.",
+        "confidence": 0.9982843274877911,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 132857640,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 53.44,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 54.148
+      },
+      "endpoint": null,
+      "text": "friendly 的意思是“友好的;亲切的”。",
+      "firstAudioMs": 409.12470826879144,
+      "totalMs": 409.8269999958575,
+      "audioSeconds": 9.73,
+      "output": ".local/bilingual-voice-release/baseline/b16-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "friendly 的意思是“友好的;亲切的”。",
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 350.847,
+              "postprocess": 1.995
+            },
+            "memory": {
+              "activeBytes": 165240086,
+              "cacheBytes": 133827310
+            },
+            "inferenceMs": 353.07,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 354.619
+          }
+        }
+      ],
+      "audioTranscript": "Friendly Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "10bc52e0090f5bb04160b5a97eda78ba6fbc71980a0a292401ff0a4e4c2b3a02"
+    },
+    {
+      "id": "b17",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does slow mean in Chinese? Write two short English example sentences.",
+      "asrMs": 58.493541087955236,
+      "asrDetail": {
+        "id": 18,
+        "text": "What does slow mean in Chinese? Write two short English example sentences.",
+        "confidence": 0.9948652095285131,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 121390404,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 57.43,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 58.29
+      },
+      "endpoint": null,
+      "text": "slow in Chinese means \"缓慢的；慢的\"。 这里有两个简短的英文例句： The slow train arrived at the station after a long journey. She walked slowly to avoid bumping into people.",
+      "firstAudioMs": 1450.312833301723,
+      "totalMs": 2219.326625112444,
+      "audioSeconds": 25.115,
+      "output": ".local/bilingual-voice-release/baseline/b17-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 2.14,
+        "promptChars": 1491,
+        "systemPromptChars": 1417,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 8.79,
+        "providerHeadersMs": 659.83,
+        "providerFirstTokenMs": 659.93,
+        "modelLoadMs": 14.814,
+        "promptEvalMs": 625.767,
+        "tokenGenerationMs": 535.633,
+        "promptTokens": 588,
+        "generatedTokens": 48,
+        "firstSentenceReadyMs": 1198.64,
+        "firstSentenceChars": 32,
+        "firstSpeechTextReadyMs": 1198.65
+      },
+      "speech": [
+        {
+          "text": "slow in Chinese means \"缓慢的；",
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 190.929,
+              "postprocess": 0.945
+            },
+            "memory": {
+              "activeBytes": 164731410,
+              "cacheBytes": 130231388
+            },
+            "inferenceMs": 191.9,
+            "queueWaitMs": 0.01,
+            "startupMs": 0.007,
+            "ipcWallMs": 192.74
+          }
+        },
+        {
+          "text": "慢的\"。",
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 87.872,
+              "postprocess": 0.64
+            },
+            "memory": {
+              "activeBytes": 164501906,
+              "cacheBytes": 134183130
+            },
+            "inferenceMs": 88.53,
+            "queueWaitMs": 192.681,
+            "startupMs": 0.003,
+            "ipcWallMs": 88.942
+          }
+        },
+        {
+          "text": " 这里有两个简短的英文例句： The slow train arrived at the station after a long journey.",
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 542.687,
+              "postprocess": 2.145
+            },
+            "memory": {
+              "activeBytes": 165813526,
+              "cacheBytes": 95405440
+            },
+            "inferenceMs": 544.85,
+            "queueWaitMs": 281.646,
+            "startupMs": 0.003,
+            "ipcWallMs": 546.883
+          }
+        },
+        {
+          "text": " She walked slowly to avoid bumping into people.",
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 131.294,
+              "postprocess": 0.758
+            },
+            "memory": {
+              "activeBytes": 164600282,
+              "cacheBytes": 134048538
+            },
+            "inferenceMs": 132.07,
+            "queueWaitMs": 828.34,
+            "startupMs": 0.002,
+            "ipcWallMs": 132.623
+          }
+        }
+      ],
+      "audioTranscript": "Slow in Chinese means Chinese letter, Chinese letter, Chinese letter. Chinese letter, Chinese letter. Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter. The slow train arrived at the station after a long journey. She walked slowly to avoid bumping into people.",
+      "audioLanguage": "en",
+      "waveformSha256": "aa5f3f4cc4d17c89d9b7e6d0d3eb6325b0bb737c861a263546da1a6d9b3d0355"
+    },
+    {
+      "id": "b18",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is my favourite sport?",
+      "asrMs": 33.88904081657529,
+      "asrDetail": {
+        "id": 19,
+        "text": "What is my favourite sport?",
+        "confidence": 0.9904026462086291,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133714238,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 33.2,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 33.732
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 110.85495771840215,
+      "totalMs": 215.61470767483115,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-release/baseline/b18-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 1.32
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 74.482,
+              "postprocess": 0.572
+            },
+            "memory": {
+              "activeBytes": 164452734,
+              "cacheBytes": 127618658
+            },
+            "inferenceMs": 75.07,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.002,
+            "ipcWallMs": 75.486
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 103.033,
+              "postprocess": 0.696
+            },
+            "memory": {
+              "activeBytes": 164518338,
+              "cacheBytes": 128975266
+            },
+            "inferenceMs": 103.75,
+            "queueWaitMs": 75.489,
+            "startupMs": 0.002,
+            "ipcWallMs": 104.296
+          }
+        }
+      ],
+      "audioTranscript": "You said what you like, but you have not said what you like best.",
+      "audioLanguage": "en",
+      "waveformSha256": "c757116251cd924f805d12d99b858758969d311deb4e0c5ab20efdc0f6ae60ab"
+    },
+    {
+      "id": "b19",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "In a story, Joe is ten years old. How old is Joe?",
+      "asrMs": 49.242416862398386,
+      "asrDetail": {
+        "id": 20,
+        "text": "In a story, Joe is ten years old. How old is Joe?",
+        "confidence": 0.9893836694933108,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 131007808,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 48.4,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.005,
+        "ipcWallMs": 49.092
+      },
+      "endpoint": null,
+      "text": "Joe is ten years old.",
+      "firstAudioMs": 300.6004998460412,
+      "totalMs": 300.9912087582052,
+      "audioSeconds": 1.72,
+      "output": ".local/bilingual-voice-release/baseline/b19-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.88,
+        "promptChars": 2138,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 75.83,
+        "providerFirstTokenMs": 75.85,
+        "firstSpeechTextReadyMs": 113.34,
+        "modelLoadMs": 10.032,
+        "promptEvalMs": 52.039,
+        "tokenGenerationMs": 83.065,
+        "promptTokens": 465,
+        "generatedTokens": 7,
+        "firstSentenceReadyMs": 159.16,
+        "firstSentenceChars": 22
+      },
+      "speech": [
+        {
+          "text": "Joe is ten years old.",
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 90.922,
+              "postprocess": 0.677
+            },
+            "memory": {
+              "activeBytes": 164469123,
+              "cacheBytes": 127545936
+            },
+            "inferenceMs": 91.62,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 92.052
+          }
+        }
+      ],
+      "audioTranscript": "Joe is 10 years old.",
+      "audioLanguage": "en",
+      "waveformSha256": "95da260c4c07b11eac5e05be47115d62f747f4fcea6811eaf88ebc8c9c74abef"
+    },
+    {
+      "id": "b20",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me a short English question inviting a friend to sing.",
+      "asrMs": 50.36641703918576,
+      "asrDetail": {
+        "id": 21,
+        "text": "Give me a short English question inviting a friend to sing.",
+        "confidence": 0.9980230479912371,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 49.54,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 50.201
+      },
+      "endpoint": null,
+      "text": "Who would you like to sing a song with?",
+      "firstAudioMs": 464.0800831839442,
+      "totalMs": 530.556125100702,
+      "audioSeconds": 2.955,
+      "output": ".local/bilingual-voice-release/baseline/b20-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.67,
+        "promptChars": 2750,
+        "systemPromptChars": 2691,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 223.3,
+        "providerFirstTokenMs": 223.39,
+        "firstSpeechTextReadyMs": 261.58,
+        "modelLoadMs": 14.981,
+        "promptEvalMs": 199.777,
+        "tokenGenerationMs": 134.71,
+        "promptTokens": 617,
+        "generatedTokens": 11,
+        "firstSentenceReadyMs": 358.1,
+        "firstSentenceChars": 40
+      },
+      "speech": [
+        {
+          "text": "Who would you like to sing ",
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 105.255,
+              "postprocess": 0.733
+            },
+            "memory": {
+              "activeBytes": 164469123,
+              "cacheBytes": 129777378
+            },
+            "inferenceMs": 106.02,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 106.684
+          }
+        },
+        {
+          "text": "a song with?",
+          "detail": {
+            "id": 16,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 64.881,
+              "postprocess": 0.554
+            },
+            "memory": {
+              "activeBytes": 164436298,
+              "cacheBytes": 123978112
+            },
+            "inferenceMs": 65.45,
+            "queueWaitMs": 55.474,
+            "startupMs": 0.003,
+            "ipcWallMs": 65.811
+          }
+        }
+      ],
+      "audioTranscript": "Who would you like to sing a song with?",
+      "audioLanguage": "en",
+      "waveformSha256": "ce197cda5c6f7d6307bdcd35475fce050dc7e02d912c10d72a6c7f6a077dd341"
+    },
+    {
+      "id": "b20",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me a short English question inviting a friend to sing.",
+      "asrMs": 47.446874901652336,
+      "asrDetail": {
+        "id": 22,
+        "text": "Give me a short English question inviting a friend to sing.",
+        "confidence": 0.9980230479912371,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 126898386,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 46.78,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 47.307
+      },
+      "endpoint": null,
+      "text": "Would you like to sing a song with me?",
+      "firstAudioMs": 262.32154201716185,
+      "totalMs": 328.5565418191254,
+      "audioSeconds": 3.055,
+      "output": ".local/bilingual-voice-release/baseline/b20-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.61,
+        "promptChars": 2750,
+        "systemPromptChars": 2691,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 39.08,
+        "providerFirstTokenMs": 39.12,
+        "firstSpeechTextReadyMs": 59.37,
+        "modelLoadMs": 8.96,
+        "promptEvalMs": 23.066,
+        "tokenGenerationMs": 117.905,
+        "promptTokens": 617,
+        "generatedTokens": 11,
+        "firstSentenceReadyMs": 157.37,
+        "firstSentenceChars": 39
+      },
+      "speech": [
+        {
+          "text": "Would you like to sing a ",
+          "detail": {
+            "id": 17,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 108.378,
+              "postprocess": 0.684
+            },
+            "memory": {
+              "activeBytes": 164501886,
+              "cacheBytes": 128774946
+            },
+            "inferenceMs": 109.08,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.004,
+            "ipcWallMs": 109.541
+          }
+        },
+        {
+          "text": "song with me?",
+          "detail": {
+            "id": 18,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 64.976,
+              "postprocess": 0.623
+            },
+            "memory": {
+              "activeBytes": 164436306,
+              "cacheBytes": 130604080
+            },
+            "inferenceMs": 65.61,
+            "queueWaitMs": 57.37,
+            "startupMs": 0.002,
+            "ipcWallMs": 65.883
+          }
+        }
+      ],
+      "audioTranscript": "Would you like to sing a song with me?",
+      "audioLanguage": "en",
+      "waveformSha256": "3726220405e96424bf2f2539bc3cd7def03d47eeaf26e2ce4cda411b31ae4523"
+    },
+    {
+      "id": "b19",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "In a story, Joe is ten years old. How old is Joe?",
+      "asrMs": 51.06558324769139,
+      "asrDetail": {
+        "id": 23,
+        "text": "In a story, Joe is ten years old. How old is Joe?",
+        "confidence": 0.9893836694933108,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 50.29,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 50.913
+      },
+      "endpoint": null,
+      "text": "Joe is ten years old.",
+      "firstAudioMs": 329.70162527635694,
+      "totalMs": 330.8582501485944,
+      "audioSeconds": 1.72,
+      "output": ".local/bilingual-voice-release/baseline/b19-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.86,
+        "promptChars": 2138,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 100.68,
+        "providerFirstTokenMs": 100.71,
+        "firstSpeechTextReadyMs": 141.67,
+        "modelLoadMs": 11.027,
+        "promptEvalMs": 82.56,
+        "tokenGenerationMs": 84.312,
+        "promptTokens": 465,
+        "generatedTokens": 7,
+        "firstSentenceReadyMs": 185.24,
+        "firstSentenceChars": 22
+      },
+      "speech": [
+        {
+          "text": "Joe is ten years old.",
+          "detail": {
+            "id": 19,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 92.134,
+              "postprocess": 0.648
+            },
+            "memory": {
+              "activeBytes": 164469114,
+              "cacheBytes": 132391584
+            },
+            "inferenceMs": 92.8,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.003,
+            "ipcWallMs": 93.245
+          }
+        }
+      ],
+      "audioTranscript": "Joe is 10 years old.",
+      "audioLanguage": "en",
+      "waveformSha256": "2c9f926afc49f6a87d5219b648966ad0e060c9c7cef9a1912d9b4ee7be0c7812"
+    },
+    {
+      "id": "b18",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is my favourite sport?",
+      "asrMs": 33.42533344402909,
+      "asrDetail": {
+        "id": 24,
+        "text": "What is my favourite sport?",
+        "confidence": 0.9904026462086291,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 32.83,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 33.289
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 110.22279132157564,
+      "totalMs": 213.62812537699938,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-release/baseline/b18-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.09
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 20,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 75.611,
+              "postprocess": 0.554
+            },
+            "memory": {
+              "activeBytes": 164452734,
+              "cacheBytes": 131647610
+            },
+            "inferenceMs": 76.18,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 76.541
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 21,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 101.931,
+              "postprocess": 0.646
+            },
+            "memory": {
+              "activeBytes": 164534806,
+              "cacheBytes": 130230604
+            },
+            "inferenceMs": 102.59,
+            "queueWaitMs": 76.541,
+            "startupMs": 0.002,
+            "ipcWallMs": 103.021
+          }
+        }
+      ],
+      "audioTranscript": "You said what you like, but you have not said what you like best.",
+      "audioLanguage": "en",
+      "waveformSha256": "ff0c822d676287958516af64f652b03fd3652a4dc60dcb955aa503dd8b5ca0dd"
+    },
+    {
+      "id": "b17",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does slow mean in Chinese? Write two short English example sentences.",
+      "asrMs": 60.84516691043973,
+      "asrDetail": {
+        "id": 25,
+        "text": "What does slow mean in Chinese? Write two short English example sentences.",
+        "confidence": 0.9948652095285131,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133024220,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 59.92,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 60.651
+      },
+      "endpoint": null,
+      "text": "slow in Chinese means \"缓慢的；慢的\"。 这里有两个短语英语例句： The clock is moving slowly. We walked slowly to enjoy the scenery.",
+      "firstAudioMs": 703.2615840435028,
+      "totalMs": 1354.2725001461804,
+      "audioSeconds": 21.525,
+      "output": ".local/bilingual-voice-release/baseline/b17-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.6,
+        "promptChars": 1491,
+        "systemPromptChars": 1417,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 1.01,
+        "providerHeadersMs": 40.97,
+        "providerFirstTokenMs": 41.0,
+        "modelLoadMs": 11.588,
+        "promptEvalMs": 15.937,
+        "tokenGenerationMs": 421.875,
+        "promptTokens": 588,
+        "generatedTokens": 39,
+        "firstSentenceReadyMs": 463.18,
+        "firstSentenceChars": 32,
+        "firstSpeechTextReadyMs": 463.19
+      },
+      "speech": [
+        {
+          "text": "slow in Chinese means \"缓慢的；",
+          "detail": {
+            "id": 22,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 177.126,
+              "postprocess": 0.976
+            },
+            "memory": {
+              "activeBytes": 164731410,
+              "cacheBytes": 134211994
+            },
+            "inferenceMs": 178.12,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.004,
+            "ipcWallMs": 178.952
+          }
+        },
+        {
+          "text": "慢的\"。",
+          "detail": {
+            "id": 23,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 87.849,
+              "postprocess": 0.616
+            },
+            "memory": {
+              "activeBytes": 164501906,
+              "cacheBytes": 122453432
+            },
+            "inferenceMs": 88.48,
+            "queueWaitMs": 178.927,
+            "startupMs": 0.002,
+            "ipcWallMs": 88.858
+          }
+        },
+        {
+          "text": " 这里有两个短语英语例句： The clock is moving slowly.",
+          "detail": {
+            "id": 24,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 443.38,
+              "postprocess": 2.334
+            },
+            "memory": {
+              "activeBytes": 165518614,
+              "cacheBytes": 127578148
+            },
+            "inferenceMs": 445.73,
+            "queueWaitMs": 267.808,
+            "startupMs": 0.002,
+            "ipcWallMs": 448.004
+          }
+        },
+        {
+          "text": " We walked slowly to enjoy the scenery.",
+          "detail": {
+            "id": 25,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 112.395,
+              "postprocess": 0.719
+            },
+            "memory": {
+              "activeBytes": 164551090,
+              "cacheBytes": 130610206
+            },
+            "inferenceMs": 113.13,
+            "queueWaitMs": 715.685,
+            "startupMs": 0.003,
+            "ipcWallMs": 113.591
+          }
+        }
+      ],
+      "audioTranscript": "Slow in Chinese means Chinese letter, Chinese letter, Chinese letter. Chinese letter, Chinese letter. Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter. The clock is moving slowly. We walked slowly to enjoy the scenery.",
+      "audioLanguage": "en",
+      "waveformSha256": "d4a93e540bf6b802f5a5db126cae5fb091f325dcbcec374514325afaff3ab419"
+    },
+    {
+      "id": "b16",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Tell me the Chinese meaning of friendly, then make one English sentence.",
+      "asrMs": 53.72970784083009,
+      "asrDetail": {
+        "id": 26,
+        "text": "Tell me the Chinese meaning of friendly, then make one English sentence.",
+        "confidence": 0.9982843274877911,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133167062,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 52.64,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 53.556
+      },
+      "endpoint": null,
+      "text": "friendly 的意思是“友好的;亲切的”。",
+      "firstAudioMs": 406.2204579822719,
+      "totalMs": 406.9062499329448,
+      "audioSeconds": 9.73,
+      "output": ".local/bilingual-voice-release/baseline/b16-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "friendly 的意思是“友好的;亲切的”。",
+          "detail": {
+            "id": 26,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 348.663,
+              "postprocess": 1.754
+            },
+            "memory": {
+              "activeBytes": 165240086,
+              "cacheBytes": 124570824
+            },
+            "inferenceMs": 350.43,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 352.32
+          }
+        }
+      ],
+      "audioTranscript": "Friendly Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "3ef642a82c8b477274bf21759b5b182dcf597a38c7c4ccc5961288faf01b535b"
+    },
+    {
+      "id": "b15",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does brave mean in Chinese? Give me an example in English.",
+      "asrMs": 54.25704084336758,
+      "asrDetail": {
+        "id": 27,
+        "text": "What does brave mean in Chinese? Give me an example in English.",
+        "confidence": 0.9968784191281506,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 125742774,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 53.4,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 54.09
+      },
+      "endpoint": null,
+      "text": "brave 的意思是“勇敢的”。",
+      "firstAudioMs": 315.8847908489406,
+      "totalMs": 316.52024993672967,
+      "audioSeconds": 6.805,
+      "output": ".local/bilingual-voice-release/baseline/b15-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "brave 的意思是“勇敢的”。",
+          "detail": {
+            "id": 27,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 258.959,
+              "postprocess": 1.363
+            },
+            "memory": {
+              "activeBytes": 164960930,
+              "cacheBytes": 133840558
+            },
+            "inferenceMs": 260.34,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 261.458
+          }
+        }
+      ],
+      "audioTranscript": "Brave Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "3421a9ed2429715f779c4914ecb8fc9d333e50d39922f412f2cb11af330dfe28"
+    },
+    {
+      "id": "b14",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "How do you say banana in Chinese?",
+      "asrMs": 34.909707959741354,
+      "asrDetail": {
+        "id": 28,
+        "text": "How do you say banana in Chinese?",
+        "confidence": 0.9986158938047349,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133280962,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 34.25,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 34.745
+      },
+      "endpoint": null,
+      "text": "banana 的意思是“香蕉”。",
+      "firstAudioMs": 269.2394577898085,
+      "totalMs": 269.84391594305634,
+      "audioSeconds": 6.11,
+      "output": ".local/bilingual-voice-release/baseline/b14-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "banana 的意思是“香蕉”。",
+          "detail": {
+            "id": 28,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 231.956,
+              "postprocess": 1.188
+            },
+            "memory": {
+              "activeBytes": 164895350,
+              "cacheBytes": 133372066
+            },
+            "inferenceMs": 233.16,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 234.15
+          }
+        }
+      ],
+      "audioTranscript": "Banana Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter.",
+      "audioLanguage": "en",
+      "waveformSha256": "fd96cd581724f5842f022302cf31fa3d07342ecf9181c20c1800a9564d2b422a"
+    },
+    {
+      "id": "b13",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word potato into Chinese.",
+      "asrMs": 42.616665828973055,
+      "asrDetail": {
+        "id": 29,
+        "text": "Please translate the word potato into Chinese.",
+        "confidence": 0.9977889366897124,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 41.92,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 42.474
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 526.0161249898374,
+      "totalMs": 898.1539160013199,
+      "audioSeconds": 23.45,
+      "output": ".local/bilingual-voice-release/baseline/b13-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 29,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 478.11,
+              "postprocess": 2.708
+            },
+            "memory": {
+              "activeBytes": 165584150,
+              "cacheBytes": 100803618
+            },
+            "inferenceMs": 480.85,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 483.181
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 30,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 367.812,
+              "postprocess": 1.865
+            },
+            "memory": {
+              "activeBytes": 165289238,
+              "cacheBytes": 128960136
+            },
+            "inferenceMs": 369.69,
+            "queueWaitMs": 483.18,
+            "startupMs": 0.003,
+            "ipcWallMs": 371.333
+          }
+        }
+      ],
+      "audioTranscript": "Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "00361b8ba8e7d4c5d11a157729328ebdb0f27d162f788dfa5327c84eac0435de"
+    },
+    {
+      "id": "b12",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 88.11766700819135,
+      "asrDetail": {
+        "id": 30,
+        "text": "",
+        "confidence": 0.7904730819154094,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 131906012,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 87.07,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 87.929
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b11",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 55.211749859154224,
+      "asrDetail": {
+        "id": 31,
+        "text": "",
+        "confidence": 0.7738876466862736,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 54.47,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 55.049
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 47.656666953116655,
+      "asrDetail": {
+        "id": 32,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 131557816,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 46.63,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 47.471
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b09",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 70.83200011402369,
+      "asrDetail": {
+        "id": 33,
+        "text": "",
+        "confidence": 0.7595690663951301,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133274548,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 69.97,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 70.693
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b08",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 68.60291585326195,
+      "asrDetail": {
+        "id": 34,
+        "text": "",
+        "confidence": 0.7999514347347964,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 132834486,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 67.96,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 68.462
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 46.70154210180044,
+      "asrDetail": {
+        "id": 35,
+        "text": "",
+        "confidence": 0.8560695814432012,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133257396,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 46.12,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 46.59
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 75.12616692110896,
+      "asrDetail": {
+        "id": 36,
+        "text": "",
+        "confidence": 0.7987108331003882,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 74.3,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 74.936
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 87.9729581065476,
+      "asrDetail": {
+        "id": 37,
+        "text": "",
+        "confidence": 0.8628957829947723,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 134199792,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 87.08,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 87.807
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 67.08758370950818,
+      "asrDetail": {
+        "id": 38,
+        "text": "",
+        "confidence": 0.7755706394153862,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 66.38,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 66.953
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 70.30849996954203,
+      "asrDetail": {
+        "id": 39,
+        "text": "",
+        "confidence": 0.8100707753977594,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 69.6,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 70.169
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 62.09974968805909,
+      "asrDetail": {
+        "id": 40,
+        "text": "",
+        "confidence": 0.8358336817060887,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 129513268,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 61.45,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 61.958
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 63.08583403006196,
+      "asrDetail": {
+        "id": 41,
+        "text": "",
+        "confidence": 0.8461704434023857,
+        "memory": {
+          "activeBytes": 785705996,
+          "cacheBytes": 133362246,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 62.39,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 62.946
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 5811.777959112078,
+  "completedUtc": "2026-11-04T05:42:01Z"
+}

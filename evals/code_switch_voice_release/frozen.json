@@ -1,0 +1,119 @@
+{
+  "frozenUtc": "2026-11-04T09:36:36Z",
+  "casesSha256": "b1572c0a946f57ef6c07ad7857eb2a161d33d584945f4470798e71e2f6ae6c44",
+  "sources": {
+    "scripts/local_speech_worker.py": "671bf334f3a190f3b9da83b8c65c0964ff8b3f11bef73b6ce12cd1f6cfdc0eab",
+    "backend/providers/speech_local.py": "1353c13ccbfc971bd8baa0b7fad8a9d4e2f38d1cc8ede38d3c668d78ece6fdfd",
+    "backend/providers/speech_worker.py": "7be8d3d620f36bc47c4aadbbe4120691208618ea1c8ffe9dfb2d51f61c0c4570",
+    "backend/voice_grounding.py": "e0cdc72b787225c7c7bd6f01e8597978d722ba702a64059fd70474abce36ccae",
+    "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+    "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+    "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9",
+    "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+    "backend/speech_text.py": "5c421b20313f419ef54bf5c45e5cc7163757e3aa00fe47d21c8c24cc638bcdb8",
+    "backend/data/chat/curriculum-vocabulary.json": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8",
+    "backend/data/chat/voice-glossary-supplement.json": "8c21c30e167c2ef2f8cdc10a87c9c8915ba08aef359cf22c1aa4656324d30300"
+  },
+  "baselineSources": {
+    ".local/code-switch-release/baseline/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+    ".local/code-switch-release/baseline/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+    ".local/code-switch-release/baseline/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+    ".local/code-switch-release/baseline/speech_local.py": "08395a5dd0cf800816379e47461b91b33dbd5a6cb1932e86a7d3e76a73d3102f",
+    ".local/code-switch-release/baseline/voice_grounding.py": "702af34150a772ecc4df42b2eae0aa927ab2d41eaee813a4ff034898cb218117"
+  },
+  "harnessSha256": {
+    "scripts/evaluate_code_switch_voice_release.py": "40bec8530915517c6bcc595fa411962948f8b31ba4cfbac34a81cb8921e3cf13",
+    "scripts/evaluate_bilingual_voice.py": "343efb61bb1ebcc4f54df5ffd137eee05dc7b95d14f0c4f8c3da397e1637e834"
+  },
+  "model": {
+    "name": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    }
+  },
+  "multilingualModel": {
+    "id": "mlx-community/Qwen3-ASR-0.6B-8bit",
+    "revision": "89e96d92ba34aca20b3e29fb10cc284097d1219f",
+    "files": [
+      {
+        "name": ".gitattributes",
+        "size": 1519,
+        "lfs": null
+      },
+      {
+        "name": "README.md",
+        "size": 1008,
+        "lfs": null
+      },
+      {
+        "name": "chat_template.json",
+        "size": 1161,
+        "lfs": null
+      },
+      {
+        "name": "config.json",
+        "size": 7187,
+        "lfs": null
+      },
+      {
+        "name": "generation_config.json",
+        "size": 142,
+        "lfs": null
+      },
+      {
+        "name": "merges.txt",
+        "size": 1671853,
+        "lfs": null
+      },
+      {
+        "name": "model.safetensors",
+        "size": 1006229426,
+        "lfs": {
+          "size": 1006229426,
+          "sha256": "b5bfe4abc1b4c6e58b633096682ec2b6297298add1527119936107d211adf0e8",
+          "pointer_size": 135
+        }
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "size": 71815,
+        "lfs": null
+      },
+      {
+        "name": "preprocessor_config.json",
+        "size": 330,
+        "lfs": null
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 12487,
+        "lfs": null
+      },
+      {
+        "name": "vocab.json",
+        "size": 2776833,
+        "lfs": null
+      }
+    ]
+  },
+  "versions": {
+    "mlx-audio": "0.6.4",
+    "mlx": "0.32.4",
+    "parakeet-mlx": "0.6.0",
+    "mlx-whisper": "0.4.3",
+    "transformers": "5.22.1",
+    "numpy": "2.4.6"
+  },
+  "machine": "Apple M4 Pro / 24 GB",
+  "measurement": "16 fresh tasks (12 mixed), 2 Mandarin-word safety probes, 1 missing-word probe, 3 noise controls. Preserve EVERY rendered source sample and verify segment PCM SHA256 after concatenation. No amplitude trimming. Offline two repeats; eight paced live tasks plus controls one pass per variant. Earlier amplitude-trimmed corpus is diagnostic only. No dataset selection using ASR outputs; references never sent to recognizers. All product code frozen before inference."
+}

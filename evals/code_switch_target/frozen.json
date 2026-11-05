@@ -1,0 +1,55 @@
+{
+  "frozenUtc": "2026-11-05T01:47:41Z",
+  "casesSha256": "24e6ebce2d1c436f45d54fde7bfdd960dba43de768f17d37fa65d4d2f66d1be3",
+  "sources": {
+    "backend/asr_target.py": "e1e401582da0263ff21c82d099400346015daaf6161fa95a90cfa6314c4ec7d6",
+    "scripts/local_speech_worker.py": "5a235ba87aa3ad8402c09eb3b864e4b3969ba92198c02f5d61bbb8a3c695ac08",
+    "backend/providers/speech_local.py": "043fa8cefbe934d3c04768a34c0b33a94d1d29befb4982488ed44a31df370b05",
+    "backend/providers/speech_worker.py": "7be8d3d620f36bc47c4aadbbe4120691208618ea1c8ffe9dfb2d51f61c0c4570",
+    "backend/voice_grounding.py": "3b1d6d8d71451f8805831479f75490d6b3e25536aaa46e7a47d3b0bd9ea3719d",
+    "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+    "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+    "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9",
+    "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+    "backend/speech_text.py": "5c421b20313f419ef54bf5c45e5cc7163757e3aa00fe47d21c8c24cc638bcdb8",
+    "backend/data/chat/curriculum-vocabulary.json": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8",
+    "backend/data/chat/voice-glossary-supplement.json": "8c21c30e167c2ef2f8cdc10a87c9c8915ba08aef359cf22c1aa4656324d30300"
+  },
+  "baselineSources": {
+    ".local/code-switch-v2/baseline/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+    ".local/code-switch-v2/baseline/local_speech_worker.py": "671bf334f3a190f3b9da83b8c65c0964ff8b3f11bef73b6ce12cd1f6cfdc0eab",
+    ".local/code-switch-v2/baseline/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+    ".local/code-switch-v2/baseline/speech_local.py": "86fc808f4eac1778ab5d9250e7785bc33d726833cbe6c6627440a78efd2cfb7b",
+    ".local/code-switch-v2/baseline/voice_grounding.py": "e0cdc72b787225c7c7bd6f01e8597978d722ba702a64059fd70474abce36ccae"
+  },
+  "harnessSha256": {
+    "scripts/evaluate_code_switch_target.py": "e9506302b3f6246e742d0e3b98810fbd6e9bcc4383c07ea68921f63ad3b31646",
+    "scripts/evaluate_bilingual_voice.py": "343efb61bb1ebcc4f54df5ffd137eee05dc7b95d14f0c4f8c3da397e1637e834"
+  },
+  "model": {
+    "name": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    }
+  },
+  "versions": {
+    "mlx": "0.32.4",
+    "parakeet-mlx": "0.6.0",
+    "mlx-whisper": "0.4.3",
+    "numpy": "2.4.6"
+  },
+  "machine": "Apple M4 Pro / 24 GB",
+  "multilingualEngine": "whisper, both variants",
+  "baseline": "2026-11-04 final serving source, before target verification",
+  "measurement": "18 new tasks (14 mixed: 12 fresh target words + 2 new window utterances), 2 Mandarin-target, 2 genuinely missing-target, 3 noise controls; all source PCM preserved and hashed. Offline 2 repeats; paced live 12 tasks + 7 controls, 2 repeats. Reference target/text/segment metadata only for scoring; not passed to recognizers. Product frozen before first inference. This is synthetic audio, not real child speech."
+}

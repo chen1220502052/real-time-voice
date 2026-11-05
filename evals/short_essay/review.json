@@ -1,0 +1,346 @@
+[
+  {
+    "model": "qwen2.5:3b",
+    "id": "w02-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w03-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "ValueError",
+    "detail": "Local model response was truncated"
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w04-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w02-natural",
+    "delivered": true,
+    "ready": false,
+    "content": true,
+    "prose": true,
+    "glossary": false,
+    "note": "have a good time 中 have 不宜释作“有”。"
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w03-natural",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w07-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w03-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w08-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "ValueError",
+    "detail": "Local model response was truncated"
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w01-natural",
+    "delivered": true,
+    "ready": false,
+    "content": true,
+    "prose": false,
+    "glossary": true,
+    "note": "正文完成要求，标题照抄了占位符 English title；末两处重复最爱黄色。"
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w05-natural",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w02-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w03-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w04-textbook",
+    "delivered": true,
+    "ready": false,
+    "content": false,
+    "prose": false,
+    "glossary": true,
+    "note": "写了教室和活动，但未交代教室在学校哪里；at the wall 描述课桌位置不自然。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w02-natural",
+    "delivered": true,
+    "ready": false,
+    "content": false,
+    "prose": false,
+    "glossary": true,
+    "note": "只介绍 Dad 一位亲属；The sun shines warm on us 搭配别扭。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w03-natural",
+    "delivered": true,
+    "ready": true,
+    "content": true,
+    "prose": true,
+    "glossary": true,
+    "note": "两种动物都有具体动作，行文集中，释义基本符合语境。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w07-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w03-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w08-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w01-natural",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w05-natural",
+    "delivered": true,
+    "ready": true,
+    "content": true,
+    "prose": true,
+    "glossary": true,
+    "note": "地点、时间、运动和朋友擅长投篮齐全；shooting ... quickly 稍生硬但意思清楚。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w04-natural",
+    "delivered": true,
+    "ready": false,
+    "content": false,
+    "prose": true,
+    "glossary": true,
+    "note": "图书馆、活动及喜欢的原因清楚，但没有写图书馆在学校哪里。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w01-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w06-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w05-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w07-natural",
+    "delivered": true,
+    "ready": true,
+    "content": true,
+    "prose": true,
+    "glossary": true,
+    "note": "家务顺序明确且有具体细节；自豪的结尾符合要求，释义符合语境。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w07-textbook",
+    "delivered": true,
+    "ready": true,
+    "content": true,
+    "prose": true,
+    "glossary": true,
+    "note": "用词简单，两件家务和感受齐全；She says I am good 稍生硬，无需附词义。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w08-natural",
+    "delivered": true,
+    "ready": true,
+    "content": true,
+    "prose": true,
+    "glossary": true,
+    "note": "下雨导致改计划，两项室内活动清楚，结尾与主题衔接。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w06-natural",
+    "delivered": true,
+    "ready": false,
+    "content": true,
+    "prose": false,
+    "glossary": true,
+    "note": "食物、饮料和理由齐全，但 helps my bones grow tall 搭配不宜作为教学范句。"
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w01-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen3.5:9b",
+    "id": "w05-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w04-natural",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w01-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w06-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w05-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w07-natural",
+    "delivered": true,
+    "ready": false,
+    "content": true,
+    "prose": false,
+    "glossary": true,
+    "note": "家务顺序和感受齐全，标题为占位符 English title。"
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w07-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "ValueError",
+    "detail": "Local model response was truncated"
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w08-natural",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w06-natural",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w01-strict",
+    "delivered": false,
+    "ready": false,
+    "error": "WRITING_CONSTRAINT_FAILED",
+    "detail": null
+  },
+  {
+    "model": "qwen2.5:3b",
+    "id": "w05-textbook",
+    "delivered": false,
+    "ready": false,
+    "error": "ValueError",
+    "detail": "Local model response was truncated"
+  }
+]

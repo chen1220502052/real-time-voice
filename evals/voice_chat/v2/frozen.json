@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-03",
+  "stage": "Frozen before first independent model run",
+  "files": {
+    "backend/voice_grounding.py": "aeb47d131dacfc28cb05dab46de76d2a3831a8cc149d677ead321e64c6bc252e",
+    "backend/voice_prompt.py": "effb2bc163a6ae8238caf2b4b7c70e5de0c207cef101d72867f07fe0c1830143",
+    "backend/english_chat.py": "cd45b6ce9823e2326c3f13a8810088ea490f6754f22f4630908dd776cf18c31b",
+    "backend/curriculum_chat.py": "f77a24767c9b72146db48c201419f9a1bcf1de5c5613108436d4df99410d4054",
+    "scripts/evaluate_voice_chat.py": "bc2b45b8a415bbeb1c5491798879fee3e5d3a50c0513aee178436b23a7169ffb",
+    "scripts/build_voice_eval_v2.py": "c2422d1ac4db5d94dd7c607d65fa0608bce3d892c02c7a7473d41da7d430a95a",
+    "evals/voice_chat/v2/heldout.json": "1f546faee37965e2df2cbcaa365015df9a78b1961f14707b997d3fffd68a581d"
+  }
+}

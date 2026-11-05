@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-03",
+  "stage": "Final release frozen before first release-check execution; all older sets now regressions",
+  "files": {
+    "backend/voice_grounding.py": "421f5f735bee6607f145ee603753c84a03370175ddce65e4b0140c64069b349f",
+    "backend/voice_prompt.py": "2e928f7dd42b2100f456d259d1a45b849696783433a68e3181671dcc6925dfa0",
+    "backend/english_chat.py": "0c8199ed24167ae143640ce2c34efbd0f7eef4d9ee1c0e747ff54f60d09d8e5e",
+    "backend/curriculum_chat.py": "4f8d4af8863d9914a0e89d8053ca6750bdc3852bb2cad306706b724db08bccd9",
+    "scripts/evaluate_voice_chat.py": "6c5980c19af0b6e91d85cf912b8ae9b7752786eb164fd5939c23a0353d91ac9d",
+    "scripts/build_voice_eval_v2.py": "98bb1c75c7e4733e45c0e605a0ab4cf7319a9a354e41a1d498b6245ff9b677d6",
+    "scripts/build_voice_release_eval.py": "c2cfb5b8c1acd9d00e6c1b92e507af854cf28461cd054b306a1e29f1ba4970f5",
+    "evals/voice_chat/v2/release-check.json": "b95e725dd60064cfcdfc780463ae27be7c5eb491cdf50811df934f71252527d3"
+  }
+}

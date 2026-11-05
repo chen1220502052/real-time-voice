@@ -1,0 +1,769 @@
+[
+  {
+    "id": "q35-01",
+    "split": "heldout",
+    "grade": 4,
+    "category": "reason",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why do turtles have shells?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "protect|safe|protection"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明壳保护身体，不编造脱壳习性。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-01.wav",
+    "audioSha256": "167da1a6143134f6d8b42ec356c815eb049943896f041489bf15817b16685382"
+  },
+  {
+    "id": "q35-02",
+    "split": "heldout",
+    "grade": 6,
+    "category": "compare",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is a duck different from a cat? Tell me one thing about each animal."
+      }
+    ],
+    "checks": {
+      "required": [
+        "duck",
+        "cat",
+        "swim|feather|quack|fly|webbed|wing|beak",
+        "fur|meow|paw|claw|climb|cannot|can.t"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "同时回答鸭与猫各一特点。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-02.wav",
+    "audioSha256": "a730540609529adad36434dd492798ebe67a6161735a279c1827251197053499"
+  },
+  {
+    "id": "q35-03",
+    "split": "heldout",
+    "grade": 8,
+    "category": "invitation",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me one short English sentence inviting a friend to draw with me."
+      }
+    ],
+    "checks": {
+      "required": [
+        "draw",
+        "let.s|would you|do you|can you|come|want"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    },
+    "rubric": "提供可直接使用的完整邀请句。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-03.wav",
+    "audioSha256": "a4ee089f45c970443334640193662d521975c755410764ff9fe7e0cfe10a381c"
+  },
+  {
+    "id": "q35-04",
+    "split": "heldout",
+    "grade": 4,
+    "category": "sequence",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to make a cheese sandwich. What should I do first?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "bread|wash|hand"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "给一个合理且简单的起始步骤。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-04.wav",
+    "audioSha256": "ca9ca1aeba9ef89c76af941cfcd78403fe3842a79ea8728fef182332118c8e19"
+  },
+  {
+    "id": "q35-05",
+    "split": "heldout",
+    "grade": 6,
+    "category": "advice",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "It is raining and I need to walk home. What can I use to stay dry?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "umbrella|raincoat"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "建议雨伞或雨衣。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-05.wav",
+    "audioSha256": "068f8b24343f60d85fea3545b08c83f561ae6359e4260941089465aa8904cbf4"
+  },
+  {
+    "id": "q35-06",
+    "split": "heldout",
+    "grade": 8,
+    "category": "passage",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nora has three green pencils. She gives one pencil to Leo. How many pencils does Nora have now?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "\\btwo\\b|\\b2\\b"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Nora 剩两支，不错误归给 Leo。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-06.wav",
+    "audioSha256": "6e0f743b389351d0f3532f9364c301b5ffba2bf7bf1f0c9df0f5f4dc0a9525b4"
+  },
+  {
+    "id": "q35-07",
+    "split": "heldout",
+    "grade": 4,
+    "category": "missing_fact",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ben has a red kite. What colour are his shoes?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "don.t know|do not know|not know|doesn.t say|not (?:given|mentioned)|no information|not (?:told|said)"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "明确鞋子颜色未知，不拿风筝颜色代替。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-07.wav",
+    "audioSha256": "89197eb7bcc689460478621d943953d0cde37ad25043eac3f923ff7662e22813"
+  },
+  {
+    "id": "q35-08",
+    "split": "heldout",
+    "grade": 6,
+    "category": "recall",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I used to ride a bike to school."
+      },
+      {
+        "role": "assistant",
+        "content": "I see."
+      },
+      {
+        "role": "user",
+        "content": "Now I take the bus every school day."
+      },
+      {
+        "role": "assistant",
+        "content": "You take the bus now."
+      },
+      {
+        "role": "user",
+        "content": "What do I use to go to school?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "bus"
+      ],
+      "forbidden": [
+        "\\bbike\\b"
+      ],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "按更新的交通方式回答 bus。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-08.wav",
+    "audioSha256": "4b0d1e8de4664bb53481dc68816d057d9cd2dd31fdc97779f4d5775c68ac3903"
+  },
+  {
+    "id": "q35-09",
+    "split": "heldout",
+    "grade": 8,
+    "category": "followup",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to visit the zoo."
+      },
+      {
+        "role": "assistant",
+        "content": "When will you go?"
+      },
+      {
+        "role": "user",
+        "content": "On Sunday."
+      }
+    ],
+    "checks": {
+      "required": [
+        "sunday"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "承接去动物园的时间，不误解为问题。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-09.wav",
+    "audioSha256": "1c1646ef64255425aca1e26b57710bed67280e1770fc7985c713c8c14c75e7ae"
+  },
+  {
+    "id": "q35-10",
+    "split": "heldout",
+    "grade": 4,
+    "category": "topic_switch",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me about turtles."
+      },
+      {
+        "role": "assistant",
+        "content": "Turtles have shells."
+      },
+      {
+        "role": "user",
+        "content": "Stop talking about animals. Tell me one thing a piano can do."
+      }
+    ],
+    "checks": {
+      "required": [
+        "music|sound|note|play|song|tune"
+      ],
+      "forbidden": [
+        "\\bturtle\\b|\\bcat\\b|\\bdog\\b"
+      ],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "切换到钢琴，不继续讲动物。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-10.wav",
+    "audioSha256": "72809f8e9caca045b55cb081c8e2d8ef07a13965c0111de6f728a57cef51ee81"
+  },
+  {
+    "id": "q35-11",
+    "split": "heldout",
+    "grade": 6,
+    "category": "compound_meaning",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does cherry mean in Chinese? Give one English sentence using cherry."
+      }
+    ],
+    "checks": {
+      "required": [
+        "樱桃",
+        "\\bcherr(?:y|ies)\\b"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "樱桃加完整英文例句；只有释义不够。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-11.wav",
+    "audioSha256": "3984d7699a3c94ecb0f42f5b9bdb5abf7ae87256df99ad3ffa3563534a3faffa"
+  },
+  {
+    "id": "q35-12",
+    "split": "heldout",
+    "grade": 8,
+    "category": "pronunciation_boundary",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Was my pronunciation of rabbit correct?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "can.t|cannot|can not|only.*(?:text|transcript)|don.t.*hear|do not.*hear"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明收到的是转写，不能评价发音，不假装听出音准。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/q35-12.wav",
+    "audioSha256": "ee296b1b6a8561f2d13d426bcb5d435da62f0646ced6b01a1f027784cab2ae2f"
+  },
+  {
+    "id": "opt-hold-01",
+    "split": "heldout",
+    "grade": 4,
+    "category": "rain",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does a raincoat help when it rains?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "dry|rain|wet"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明挡雨或保持干燥，不编造功能。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-01.wav",
+    "audioSha256": "e46381cf2677051720c040ceedd62ea87ecf39bd13ff94ea24ab146b961fb4d4"
+  },
+  {
+    "id": "opt-hold-02",
+    "split": "heldout",
+    "grade": 6,
+    "category": "arithmetic",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In this story, Lena has five stickers and gives two to Omar. How many does Lena have left?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "\\bthree\\b|\\b3\\b"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Lena 剩三张，不把 Omar 的数量当答案。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-02.wav",
+    "audioSha256": "bc757711126054ab6e5b6a35e3e0764551e4674a4b7eaddb1742cbfab1a66f6e"
+  },
+  {
+    "id": "opt-hold-03",
+    "split": "heldout",
+    "grade": 8,
+    "category": "unknown",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The story says a rabbit sleeps in a blue box. What does it eat?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "don.t know|do not know|not (?:say|know|given|mentioned)|doesn.t say|no information"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "食物未给出，不能猜胡萝卜。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-03.wav",
+    "audioSha256": "462be736233e9f8e4c68111f343343aa7e33dd2703c5450ed3af23ec3c691594"
+  },
+  {
+    "id": "opt-hold-04",
+    "split": "heldout",
+    "grade": 9,
+    "category": "update",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I used to walk to the library."
+      },
+      {
+        "role": "assistant",
+        "content": "You used to walk."
+      },
+      {
+        "role": "user",
+        "content": "Now I take a train to the library."
+      },
+      {
+        "role": "assistant",
+        "content": "You take a train now."
+      },
+      {
+        "role": "user",
+        "content": "How do I get to the library now?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "train"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "明确现在乘火车，可回顾旧事实但不能混成现在可选项。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-04.wav",
+    "audioSha256": "8a0b734b2fbe555f0066ad16106873881a0bb5fc7d2228e2b0b31992b48e66ea"
+  },
+  {
+    "id": "opt-hold-05",
+    "split": "heldout",
+    "grade": 4,
+    "category": "invitation",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask my cousin to read a book with me in one short English sentence."
+      }
+    ],
+    "checks": {
+      "required": [
+        "read",
+        "book"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    },
+    "rubric": "给可直接使用的邀请问句或祈使句。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-05.wav",
+    "audioSha256": "8412a3b4d885e3d668d0154edc91ddd4bde6191958bd386e1c9dbd304dc329d0"
+  },
+  {
+    "id": "opt-hold-06",
+    "split": "heldout",
+    "grade": 6,
+    "category": "compare",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me one difference between a spoon and a fork."
+      }
+    ],
+    "checks": {
+      "required": [
+        "spoon",
+        "fork"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明勺子与叉子的一个真实区别，不只复述名称。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-06.wav",
+    "audioSha256": "f111066adaca1eaa39a468bc0ff733c105976477c8e16e016c043ec6b7933e05"
+  },
+  {
+    "id": "opt-hold-07",
+    "split": "heldout",
+    "grade": 8,
+    "category": "meaning_example",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In the sentence, the bag is light, what does light mean? Give one short English example using light."
+      }
+    ],
+    "checks": {
+      "required": [
+        "light"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "轻、不重，并给用 light 的完整英文例句；不能说发光。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-07.wav",
+    "audioSha256": "ca584353388508a0cd1a1e5532e0c0f9de695146a7eb9d795cc5c4cdc8bca68b"
+  },
+  {
+    "id": "opt-hold-08",
+    "split": "heldout",
+    "grade": 9,
+    "category": "pronunciation",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Did I say the word yellow correctly?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "can.t|cannot|can not|only.*(?:text|transcript)|don.t.*hear|do not.*hear"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "收到的只是转写，不能评价发音；不暗示重录后自己可听。",
+    "audioTest": true,
+    "set": "prior_regression",
+    "audio": ".local/qwen35-comparison/inputs/opt-hold-08.wav",
+    "audioSha256": "81b7fcd64f82de5705c4fcbd0a2dae880d6aff9d577cc3f376478342e9ab3e2d"
+  },
+  {
+    "id": "onset-01",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mia has twenty five blue beads and gives three to Leo. How many beads are left?"
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  },
+  {
+    "id": "onset-02",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The ticket costs three dollars and fifty cents. How much does it cost?"
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  },
+  {
+    "id": "onset-03",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I used to drink tea, but now I drink water. What do I drink now?"
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  },
+  {
+    "id": "onset-04",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me one short sentence inviting Sam to play chess with me."
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  },
+  {
+    "id": "onset-05",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain what light means in this sentence: This suitcase is light."
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  },
+  {
+    "id": "onset-06",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Luca has a green bicycle. What colour is his helmet?"
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  },
+  {
+    "id": "onset-07",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Say that I should not touch a hot pan, in one short English sentence."
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  },
+  {
+    "id": "onset-08",
+    "set": "new_cases",
+    "category": "first_audio",
+    "grade": 6,
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does apple mean in Chinese? Give one short English example."
+      }
+    ],
+    "audioTest": true,
+    "checks": {
+      "required": [],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    }
+  }
+]

@@ -178,6 +178,29 @@ def test_prepare_rejects_when_single_local_resource_is_reserved():
     asyncio.run(run())
 
 
+def test_local_voice_preparation_and_shutdown_share_one_resource_lifetime():
+    async def run():
+        class Runtime:
+            def __init__(self):self.owners=set();self.preparations=0;self.fail=False
+            async def prepare(self,owner):
+                if self.fail:raise RuntimeError('warmup failed')
+                self.owners.add(owner);self.preparations+=1;return {}
+            async def release(self,owner):self.owners.discard(owner)
+        manager=ResourceManager(capacity=1);runtime=Runtime()
+        connection=WebSocketConnection(MemoryWebSocket(),resource_manager=manager,local_voice_runtime=runtime)
+        await connection.handle_control({'type':'prepare','version':1})
+        await connection.handle_control({'type':'prepare','version':1})
+        assert runtime.preparations==1 and runtime.owners and manager.in_use==1
+        await connection.shutdown();assert not runtime.owners and manager.in_use==0
+        runtime.fail=True
+        failed=WebSocketConnection(MemoryWebSocket(),resource_manager=manager,local_voice_runtime=runtime)
+        await failed.handle_control({'type':'prepare','version':1})
+        assert not failed.prepared and manager.in_use==0
+        assert failed.ws.text[-1]['code']=='LOCAL_VOICE_NOT_READY'
+        await failed.shutdown()
+    asyncio.run(run())
+
+
 def test_downlink_transport_sequence_stays_contiguous_after_internal_drops():
     class PlaybackAck:
         async def mark_packet_sent(self, reply_id, sequence):

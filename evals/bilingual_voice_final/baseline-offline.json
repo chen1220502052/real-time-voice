@@ -1,0 +1,1061 @@
+{
+  "variant": "baseline",
+  "mode": "offline",
+  "startedUtc": "2026-11-04T05:51:17Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:51:16Z",
+    "casesSha256": "37d4e58efdc7f37a9b3bc27be1b962378eb51b0cc22223f6a8f4ebc1011ce49c",
+    "sources": {
+      "backend/voice_grounding.py": "702af34150a772ecc4df42b2eae0aa927ab2d41eaee813a4ff034898cb218117",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice-final/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      ".local/bilingual-voice-final/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice-final/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice-final/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice-final/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "harnessSha256": "be6682fb687fb37c2a595976f1ffe632e7e0d208fc62397abfe89dd955ea186b",
+    "model": "qwen2.5:3b Q4_K_M",
+    "measurement": "Final 13 new questions + 2 controls, frozen before inference; two repeats. Earlier 24, 20 and 16 questions promoted to diagnostics. Final product unchanged throughout measurement. Missing-word clarification counts as failure to complete the intended task, except the deliberately incomplete-word control question. Offline known boundary and paced WebRTC VAD probes reported separately."
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 61.64520885795355,
+      "asrDetail": {
+        "id": 2,
+        "text": "",
+        "confidence": 0.821727562566331,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133966786,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 60.93,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 61.502
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 69.94554214179516,
+      "asrDetail": {
+        "id": 3,
+        "text": "",
+        "confidence": 0.830719402615566,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 126239128,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 69.04,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.002,
+        "ipcWallMs": 69.77
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 71.00195810198784,
+      "asrDetail": {
+        "id": 4,
+        "text": "",
+        "confidence": 0.7839523584902772,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 132292998,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 70.07,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 70.828
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 78.73162487521768,
+      "asrDetail": {
+        "id": 5,
+        "text": "",
+        "confidence": 0.7997652104198189,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 77.76,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 78.554
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 49.40549982711673,
+      "asrDetail": {
+        "id": 6,
+        "text": "",
+        "confidence": 0.8000036986808177,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 132837134,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 48.71,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.005,
+        "ipcWallMs": 49.241
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 63.19224974140525,
+      "asrDetail": {
+        "id": 7,
+        "text": "",
+        "confidence": 0.7565427325129686,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 134106174,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 62.48,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 63.042
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 62.51800013706088,
+      "asrDetail": {
+        "id": 8,
+        "text": "",
+        "confidence": 0.8161813192817664,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 132712762,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 61.83,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 62.355
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b08",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 44.89608434960246,
+      "asrDetail": {
+        "id": 9,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 123935028,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 44.08,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 44.738
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b09",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 45.72370881214738,
+      "asrDetail": {
+        "id": 10,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 129197666,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 44.91,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.003,
+        "ipcWallMs": 45.558
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does doctor mean in Chinese? Please give one English example.",
+      "asrMs": 52.02483292669058,
+      "asrDetail": {
+        "id": 11,
+        "text": "What does doctor mean in Chinese? Please give one English example.",
+        "confidence": 0.996989753361223,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 121832266,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 51.22,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 51.867
+      },
+      "endpoint": null,
+      "text": "doctor 的意思是“医生”。",
+      "firstAudioMs": 294.40200002864003,
+      "totalMs": 295.09779205545783,
+      "audioSeconds": 6.165,
+      "output": ".local/bilingual-voice-final/baseline/b10-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 15.88
+      },
+      "speech": [
+        {
+          "text": "doctor 的意思是“医生”。",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 224.042,
+              "postprocess": 1.213
+            },
+            "memory": {
+              "activeBytes": 164895350,
+              "cacheBytes": 133309592
+            },
+            "inferenceMs": 225.27,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.002,
+            "ipcWallMs": 226.281
+          }
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word nurse into Chinese.",
+      "asrMs": 42.24087530747056,
+      "asrDetail": {
+        "id": 12,
+        "text": "Please translate the word nurse into Chinese.",
+        "confidence": 0.9992295654575555,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133338434,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 41.62,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 42.099
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 560.2872502058744,
+      "totalMs": 922.0615411177278,
+      "audioSeconds": 23.45,
+      "output": ".local/bilingual-voice-final/baseline/b11-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.9
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 512.488,
+              "postprocess": 2.33
+            },
+            "memory": {
+              "activeBytes": 165584150,
+              "cacheBytes": 100803618
+            },
+            "inferenceMs": 514.84,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 516.966
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 356.172,
+              "postprocess": 2.263
+            },
+            "memory": {
+              "activeBytes": 165289238,
+              "cacheBytes": 129838812
+            },
+            "inferenceMs": 358.45,
+            "queueWaitMs": 516.972,
+            "startupMs": 0.002,
+            "ipcWallMs": 360.332
+          }
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Do you remember my favourite colour?",
+      "asrMs": 33.76829205080867,
+      "asrDetail": {
+        "id": 13,
+        "text": "Do you remember my favourite colour?",
+        "confidence": 0.9871089921429774,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 134108492,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 33.14,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 33.629
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 113.68070915341377,
+      "totalMs": 215.22987494245172,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-final/baseline/b12-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 1.58
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 77.194,
+              "postprocess": 0.573
+            },
+            "memory": {
+              "activeBytes": 164452726,
+              "cacheBytes": 133827376
+            },
+            "inferenceMs": 77.79,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 78.162
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 100.026,
+              "postprocess": 0.68
+            },
+            "memory": {
+              "activeBytes": 164518422,
+              "cacheBytes": 133920468
+            },
+            "inferenceMs": 100.72,
+            "queueWaitMs": 78.162,
+            "startupMs": 0.002,
+            "ipcWallMs": 101.137
+          }
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me one English sentence to invite a friend to dance.",
+      "asrMs": 44.83054205775261,
+      "asrDetail": {
+        "id": 14,
+        "text": "Give me one English sentence to invite a friend to dance.",
+        "confidence": 0.994925235170605,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 128618304,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 44.07,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 44.68
+      },
+      "endpoint": null,
+      "text": "Let's dance together!",
+      "firstAudioMs": 620.5173330381513,
+      "totalMs": 621.0557078011334,
+      "audioSeconds": 1.645,
+      "output": ".local/bilingual-voice-final/baseline/b13-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.39,
+        "promptChars": 2727,
+        "systemPromptChars": 2670,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 8.16,
+        "providerHeadersMs": 410.04,
+        "providerFirstTokenMs": 410.14,
+        "firstSpeechTextReadyMs": 459.21,
+        "modelLoadMs": 16.211,
+        "promptEvalMs": 374.252,
+        "tokenGenerationMs": 70.971,
+        "promptTokens": 621,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 482.13,
+        "firstSentenceChars": 22
+      },
+      "speech": [
+        {
+          "text": "Let's dance together!",
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 92.085,
+              "postprocess": 0.655
+            },
+            "memory": {
+              "activeBytes": 164469106,
+              "cacheBytes": 127617876
+            },
+            "inferenceMs": 92.78,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.006,
+            "ipcWallMs": 93.298
+          }
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me one English sentence to invite a friend to dance.",
+      "asrMs": 45.48379220068455,
+      "asrDetail": {
+        "id": 15,
+        "text": "Give me one English sentence to invite a friend to dance.",
+        "confidence": 0.994925235170605,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133588826,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 44.76,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 45.329
+      },
+      "endpoint": null,
+      "text": "Let's dance together and have fun!",
+      "firstAudioMs": 237.12420836091042,
+      "totalMs": 299.7094173915684,
+      "audioSeconds": 2.975,
+      "output": ".local/bilingual-voice-final/baseline/b13-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.72,
+        "promptChars": 2727,
+        "systemPromptChars": 2670,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 37.42,
+        "providerFirstTokenMs": 37.48,
+        "firstSpeechTextReadyMs": 70.34,
+        "modelLoadMs": 15.283,
+        "promptEvalMs": 14.548,
+        "tokenGenerationMs": 93.428,
+        "promptTokens": 621,
+        "generatedTokens": 9,
+        "firstSentenceReadyMs": 131.01,
+        "firstSentenceChars": 35
+      },
+      "speech": [
+        {
+          "text": "Let's dance together and ",
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 96.912,
+              "postprocess": 0.637
+            },
+            "memory": {
+              "activeBytes": 164485512,
+              "cacheBytes": 129873936
+            },
+            "inferenceMs": 97.58,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 98.054
+          }
+        },
+        {
+          "text": "have fun!",
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 61.455,
+              "postprocess": 0.519
+            },
+            "memory": {
+              "activeBytes": 164436290,
+              "cacheBytes": 125556097
+            },
+            "inferenceMs": 61.99,
+            "queueWaitMs": 60.499,
+            "startupMs": 0.002,
+            "ipcWallMs": 62.243
+          }
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Do you remember my favourite colour?",
+      "asrMs": 33.31483295187354,
+      "asrDetail": {
+        "id": 16,
+        "text": "Do you remember my favourite colour?",
+        "confidence": 0.9871089921429774,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 32.79,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 33.197
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 107.61295817792416,
+      "totalMs": 213.1673749536276,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-final/baseline/b12-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.06
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 73.088,
+              "postprocess": 0.575
+            },
+            "memory": {
+              "activeBytes": 164452734,
+              "cacheBytes": 133832014
+            },
+            "inferenceMs": 73.68,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 74.089
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 103.139,
+              "postprocess": 0.696
+            },
+            "memory": {
+              "activeBytes": 164518338,
+              "cacheBytes": 130268596
+            },
+            "inferenceMs": 103.85,
+            "queueWaitMs": 74.092,
+            "startupMs": 0.002,
+            "ipcWallMs": 104.259
+          }
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word nurse into Chinese.",
+      "asrMs": 41.58854158595204,
+      "asrDetail": {
+        "id": 17,
+        "text": "Please translate the word nurse into Chinese.",
+        "confidence": 0.9992295654575555,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133830438,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 41.0,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 41.456
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 507.22266687080264,
+      "totalMs": 878.9055836386979,
+      "audioSeconds": 23.45,
+      "output": ".local/bilingual-voice-final/baseline/b11-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 460.758,
+              "postprocess": 2.463
+            },
+            "memory": {
+              "activeBytes": 165584150,
+              "cacheBytes": 100803618
+            },
+            "inferenceMs": 463.24,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 465.426
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 366.293,
+              "postprocess": 1.708
+            },
+            "memory": {
+              "activeBytes": 165289238,
+              "cacheBytes": 129837788
+            },
+            "inferenceMs": 368.02,
+            "queueWaitMs": 465.429,
+            "startupMs": 0.004,
+            "ipcWallMs": 369.656
+          }
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does doctor mean in Chinese? Please give one English example.",
+      "asrMs": 54.89720776677132,
+      "asrDetail": {
+        "id": 18,
+        "text": "What does doctor mean in Chinese? Please give one English example.",
+        "confidence": 0.996989753361223,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 53.83,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 54.714
+      },
+      "endpoint": null,
+      "text": "doctor 的意思是“医生”。",
+      "firstAudioMs": 287.94266702607274,
+      "totalMs": 288.42945769429207,
+      "audioSeconds": 6.165,
+      "output": ".local/bilingual-voice-final/baseline/b10-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "doctor 的意思是“医生”。",
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 230.616,
+              "postprocess": 1.203
+            },
+            "memory": {
+              "activeBytes": 164895350,
+              "cacheBytes": 132397218
+            },
+            "inferenceMs": 231.84,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 232.872
+          }
+        }
+      ]
+    },
+    {
+      "id": "b09",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 48.02624974399805,
+      "asrDetail": {
+        "id": 19,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 131688888,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 47.06,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 47.844
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b08",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 46.35050008073449,
+      "asrDetail": {
+        "id": 20,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 132843448,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 45.39,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 46.175
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 65.7364591024816,
+      "asrDetail": {
+        "id": 21,
+        "text": "",
+        "confidence": 0.8161813192817664,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 64.99,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 65.586
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 66.94124964997172,
+      "asrDetail": {
+        "id": 22,
+        "text": "",
+        "confidence": 0.7565427325129686,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 132421416,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 66.04,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 66.782
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 49.42133417353034,
+      "asrDetail": {
+        "id": 23,
+        "text": "",
+        "confidence": 0.8000036986808177,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133916230,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 48.64,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 49.276
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 75.72962483391166,
+      "asrDetail": {
+        "id": 24,
+        "text": "",
+        "confidence": 0.7997652104198189,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 134133574,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 74.89,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 75.562
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 69.57366690039635,
+      "asrDetail": {
+        "id": 25,
+        "text": "",
+        "confidence": 0.7839523584902772,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 68.86,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 69.416
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 67.75216618552804,
+      "asrDetail": {
+        "id": 26,
+        "text": "",
+        "confidence": 0.830719402615566,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 131825442,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 67.05,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 67.613
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 58.8578344322741,
+      "asrDetail": {
+        "id": 27,
+        "text": "",
+        "confidence": 0.821727562566331,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133827648,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 58.22,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 58.733
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 6101.306166965514,
+  "completedUtc": "2026-11-04T05:51:28Z"
+}

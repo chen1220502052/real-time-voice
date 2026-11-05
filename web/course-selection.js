@@ -3,7 +3,7 @@
   const KEY = 'kitty-course-selection:v1';
   const grades = [3, 4, 5, 6, 7, 8, 9];
   const gradeNames = {3:'三年级',4:'四年级',5:'五年级',6:'六年级',7:'七年级',8:'八年级',9:'九年级'};
-  const editionLabel = value => String(value).replace(/^(上册|下册)_官方当前目录_版次待与学校核对$/, '$1');
+  const editionLabel = value => String(value).replace(/^(上册|下册)_官方当前目录_版次待与学校核对$/, '$1').replaceAll('_', ' · ');
   function normalize(value = {}) {
     const grade = grades.includes(Number(value.grade)) ? Number(value.grade) : 6;
     const track = value.track === 'textbook' ? 'textbook' : 'extension';

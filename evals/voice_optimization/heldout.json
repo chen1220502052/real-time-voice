@@ -1,0 +1,437 @@
+[
+  {
+    "id": "opt-hold-01",
+    "split": "heldout",
+    "grade": 4,
+    "category": "rain",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does a raincoat help when it rains?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "dry|rain|wet"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明挡雨或保持干燥，不编造功能。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-02",
+    "split": "heldout",
+    "grade": 6,
+    "category": "arithmetic",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In this story, Lena has five stickers and gives two to Omar. How many does Lena have left?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "\\bthree\\b|\\b3\\b"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Lena 剩三张，不把 Omar 的数量当答案。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-03",
+    "split": "heldout",
+    "grade": 8,
+    "category": "unknown",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The story says a rabbit sleeps in a blue box. What does it eat?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "don.t know|do not know|not (?:say|know|given|mentioned)|doesn.t say|no information"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "食物未给出，不能猜胡萝卜。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-04",
+    "split": "heldout",
+    "grade": 9,
+    "category": "update",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I used to walk to the library."
+      },
+      {
+        "role": "assistant",
+        "content": "You used to walk."
+      },
+      {
+        "role": "user",
+        "content": "Now I take a train to the library."
+      },
+      {
+        "role": "assistant",
+        "content": "You take a train now."
+      },
+      {
+        "role": "user",
+        "content": "How do I get to the library now?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "train"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "明确现在乘火车，可回顾旧事实但不能混成现在可选项。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-05",
+    "split": "heldout",
+    "grade": 4,
+    "category": "invitation",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ask my cousin to read a book with me in one short English sentence."
+      }
+    ],
+    "checks": {
+      "required": [
+        "read",
+        "book"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    },
+    "rubric": "给可直接使用的邀请问句或祈使句。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-06",
+    "split": "heldout",
+    "grade": 6,
+    "category": "compare",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me one difference between a spoon and a fork."
+      }
+    ],
+    "checks": {
+      "required": [
+        "spoon",
+        "fork"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "说明勺子与叉子的一个真实区别，不只复述名称。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-07",
+    "split": "heldout",
+    "grade": 8,
+    "category": "meaning_example",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In the sentence, the bag is light, what does light mean? Give one short English example using light."
+      }
+    ],
+    "checks": {
+      "required": [
+        "light"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "轻、不重，并给用 light 的完整英文例句；不能说发光。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-08",
+    "split": "heldout",
+    "grade": 9,
+    "category": "pronunciation",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Did I say the word yellow correctly?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "can.t|cannot|can not|only.*(?:text|transcript)|don.t.*hear|do not.*hear"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "收到的只是转写，不能评价发音；不暗示重录后自己可听。",
+    "audioTest": true,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-09",
+    "split": "heldout",
+    "grade": 4,
+    "category": "translation",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "把问题 \"Do you have a ruler?\" 翻译成中文，不要回答问题。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "尺",
+        "你",
+        "有"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 1,
+      "max_words": 65
+    },
+    "rubric": "翻译问句，不能回答 AI 没尺子。",
+    "audioTest": false,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-10",
+    "split": "heldout",
+    "grade": 6,
+    "category": "fiction_age",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "故事里的 Aiden 今年十二岁。请用中文回答 Aiden 几岁，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Aiden",
+        "十二|12"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "人物十二岁，不套用 Kitty 身份。",
+    "audioTest": false,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-11",
+    "split": "heldout",
+    "grade": 8,
+    "category": "passage",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Noah 的帽子是白色的，Zara 的帽子是红色的。请用中文回答 Zara 的帽子是什么颜色，保留名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Zara",
+        "红"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Zara 红色，保留名字，不颠倒帽子归属。",
+    "audioTest": false,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-12",
+    "split": "heldout",
+    "grade": 9,
+    "category": "two_examples",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请用中文解释 slow 和 fast 的区别，并各给一个简单的英语短句。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "慢",
+        "快",
+        "\\bslow\\b",
+        "\\bfast\\b"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "两种释义及两个完整英语短句。",
+    "audioTest": false,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-13",
+    "split": "heldout",
+    "grade": 4,
+    "category": "preference",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "我喜欢滑冰。"
+      },
+      {
+        "role": "assistant",
+        "content": "你喜欢滑冰。"
+      },
+      {
+        "role": "user",
+        "content": "请用中文回答：我最喜欢什么运动？"
+      }
+    ],
+    "checks": {
+      "required": [
+        "不知道|没.*(?:说|告诉)|不清楚|还没|不能确定"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "喜欢滑冰不等于最喜欢。",
+    "audioTest": false,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-14",
+    "split": "heldout",
+    "grade": 6,
+    "category": "missing_fact",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Tom 在周五去了商店。请用中文回答 Tom 买了什么，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "没.*(?:说|提|告诉)|不知道|不清楚|未.*(?:说明|提及)|无法确定"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "购买物品未给出，不能编造面包牛奶等。",
+    "audioTest": false,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-15",
+    "split": "heldout",
+    "grade": 8,
+    "category": "negation",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Mila 没有铅笔，她有两支钢笔。请用中文回答 Mila 有几支钢笔，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Mila",
+        "两|二|2"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "两支钢笔，不能答没有。",
+    "audioTest": false,
+    "set": "holdout"
+  },
+  {
+    "id": "opt-hold-16",
+    "split": "heldout",
+    "grade": 9,
+    "category": "subject",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My favourite subject is music. 请用中文解释这里的 subject，并给一个英文例句。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "学科|科目|课程",
+        "\\bsubject\\b"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "学校科目，不是语法主语；保留完整英文例句。",
+    "audioTest": false,
+    "set": "holdout"
+  }
+]

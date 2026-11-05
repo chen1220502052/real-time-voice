@@ -1,0 +1,23 @@
+{
+  "frozenUtc": "2026-11-04T05:41:44Z",
+  "casesSha256": "e9461b5f5ca84d2534ff4beaee7747c042e235c9e4ff9d4847f3a464b711d1ba",
+  "sources": {
+    "backend/voice_grounding.py": "22e673ab6a6f90d8cfe7ebcf508b9e6990812b82c0bf8b449b4340e917414995",
+    "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+    "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+    "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+    "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+    "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+    "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+  },
+  "baselineSources": {
+    ".local/bilingual-voice-release/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+    ".local/bilingual-voice-release/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+    ".local/bilingual-voice-release/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+    ".local/bilingual-voice-release/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+    ".local/bilingual-voice-release/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+  },
+  "harnessSha256": "be6682fb687fb37c2a595976f1ffe632e7e0d208fc62397abfe89dd955ea186b",
+  "model": "qwen2.5:3b Q4_K_M",
+  "measurement": "24-case first round promoted to development; this 20-case release set is fresh and frozen before inference. Both variants use identical new inputs. TTS cache disabled. Local speech synthesis, not microphone-to-speaker. Live probes include paced delivery and actual WebRTC VAD."
+}

@@ -1,0 +1,1033 @@
+{
+  "version": 2,
+  "purpose": "shipping_independent",
+  "date": "2026-11-03",
+  "cases": [
+    {
+      "id": "ship-passage-0-4",
+      "group": "passage-0",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The number seven is red.\" What colour is the number seven? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "红"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-0-8",
+      "group": "passage-0",
+      "split": "heldout",
+      "grade": 8,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The number seven is red.\" What colour is the number seven? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "红"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-1-4",
+      "group": "passage-1",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The number five is green.\" What colour is the number five? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "绿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-1-8",
+      "group": "passage-1",
+      "split": "heldout",
+      "grade": 8,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The number five is green.\" What colour is the number five? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "绿"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-2-4",
+      "group": "passage-2",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The red notebook belongs to Mia.\" Who owns the notebook? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "Mia"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-2-8",
+      "group": "passage-2",
+      "split": "heldout",
+      "grade": 8,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The red notebook belongs to Mia.\" Who owns the notebook? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "Mia"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-3-4",
+      "group": "passage-3",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The boy has sixteen apples.\" How many apples does the boy have? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "十六|16"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-3-8",
+      "group": "passage-3",
+      "split": "heldout",
+      "grade": 8,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The boy has sixteen apples.\" How many apples does the boy have? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "十六|16"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-4-4",
+      "group": "passage-4",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The ball is under the bed.\" Where is the ball? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "床.*下|下.*床"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-4-8",
+      "group": "passage-4",
+      "split": "heldout",
+      "grade": 8,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The ball is under the bed.\" Where is the ball? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "床.*下|下.*床"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-5-4",
+      "group": "passage-5",
+      "split": "heldout",
+      "grade": 4,
+      "category": "chinese_passage",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"We have history on Monday.\" Which school subject do we have on Monday? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "历史"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-passage-5-8",
+      "group": "passage-5",
+      "split": "heldout",
+      "grade": 8,
+      "category": "chinese_passage",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"We have history on Monday.\" Which school subject do we have on Monday? 请用中文回答，保留人物英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "历史"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-0-4",
+      "group": "preference-0",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like making cakes."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-0-8",
+      "group": "preference-0",
+      "split": "heldout",
+      "grade": 8,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like making cakes."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite hobby?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-1-4",
+      "group": "preference-1",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite meal is dinner."
+        },
+        {
+          "role": "user",
+          "content": "Which meal is my favourite?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dinner"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-1-8",
+      "group": "preference-1",
+      "split": "heldout",
+      "grade": 8,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite meal is dinner."
+        },
+        {
+          "role": "user",
+          "content": "Which meal is my favourite?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "dinner"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-2-4",
+      "group": "preference-2",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite subject is English."
+        },
+        {
+          "role": "user",
+          "content": "I like maths."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite subject?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "English"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-2-8",
+      "group": "preference-2",
+      "split": "heldout",
+      "grade": 8,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite subject is English."
+        },
+        {
+          "role": "user",
+          "content": "I like maths."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite subject?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "English"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-3-4",
+      "group": "preference-3",
+      "split": "heldout",
+      "grade": 4,
+      "category": "preference",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite sport is boxing."
+        },
+        {
+          "role": "user",
+          "content": "My favourite fruit is dates."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite fruit now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "boxing"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-preference-3-8",
+      "group": "preference-3",
+      "split": "heldout",
+      "grade": 8,
+      "category": "preference",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite sport is boxing."
+        },
+        {
+          "role": "user",
+          "content": "My favourite fruit is dates."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite fruit now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "boxing"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-0-4",
+      "group": "identity-0",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Can I know your real age, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-0-8",
+      "group": "identity-0",
+      "split": "heldout",
+      "grade": 8,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Can I know your real age, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-1-4",
+      "group": "identity-1",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really a two-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-1-8",
+      "group": "identity-1",
+      "split": "heldout",
+      "grade": 8,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really a two-year-old cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-2-4",
+      "group": "identity-2",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kitty，请用中文说，你现在到底多大？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-2-8",
+      "group": "identity-2",
+      "split": "heldout",
+      "grade": 8,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kitty，请用中文说，你现在到底多大？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-3-4",
+      "group": "identity-3",
+      "split": "heldout",
+      "grade": 4,
+      "category": "identity",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文说，你有真正的生日吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-identity-3-8",
+      "group": "identity-3",
+      "split": "heldout",
+      "grade": 8,
+      "category": "identity",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文说，你有真正的生日吗？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-bag-4",
+      "group": "word-bag",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of bag?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "包"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-bag-8",
+      "group": "word-bag",
+      "split": "heldout",
+      "grade": 8,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of bag?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "包"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-window-4",
+      "group": "word-window",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of window?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "窗"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-window-8",
+      "group": "word-window",
+      "split": "heldout",
+      "grade": 8,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of window?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "窗"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-teacher-4",
+      "group": "word-teacher",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of teacher?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "老师|教师"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-teacher-8",
+      "group": "word-teacher",
+      "split": "heldout",
+      "grade": 8,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of teacher?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "老师|教师"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-family-4",
+      "group": "word-family",
+      "split": "heldout",
+      "grade": 4,
+      "category": "glossary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of family?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "家"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-word-family-8",
+      "group": "word-family",
+      "split": "heldout",
+      "grade": 8,
+      "category": "glossary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of family?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "家"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-control-human-4",
+      "group": "control-human",
+      "split": "heldout",
+      "grade": 4,
+      "category": "boundary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In a story Aiden is thirty-five years old. How old is Aiden?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirty.five|35"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-control-human-8",
+      "group": "control-human",
+      "split": "heldout",
+      "grade": 8,
+      "category": "boundary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In a story Aiden is thirty-five years old. How old is Aiden?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "thirty.five|35"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-control-translation-4",
+      "group": "control-translation",
+      "split": "heldout",
+      "grade": 4,
+      "category": "boundary",
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old is Evie?\" into Chinese. Keep Evie in English."
+        }
+      ],
+      "checks": {
+        "required": [
+          "Evie.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    },
+    {
+      "id": "ship-control-translation-8",
+      "group": "control-translation",
+      "split": "heldout",
+      "grade": 8,
+      "category": "boundary",
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"How old is Evie?\" into Chinese. Keep Evie in English."
+        }
+      ],
+      "checks": {
+        "required": [
+          "Evie.*(?:几岁|多大|多少岁)"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Read the entire reply for accuracy, unsupported inference, negation and preservation of requested names."
+    }
+  ],
+  "scope": "40 fresh cases after strict source-fact handling. Actual text Bot, not audio.",
+  "independence": "No prior dialogue-history overlap, even ignoring grade. Frozen before the first run; no post-run product/rule changes."
+}

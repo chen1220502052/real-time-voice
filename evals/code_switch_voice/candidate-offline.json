@@ -1,0 +1,3193 @@
+{
+  "variant": "candidate",
+  "mode": "offline",
+  "startedUtc": "2026-11-04T08:28:50Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T08:28:09Z",
+    "casesSha256": "a5858a460c7945a8fc59e6dedf1aa756f86d2ebc571394c4bbf5c3fbc0dd433f",
+    "sources": {
+      "scripts/local_speech_worker.py": "4c95daa3b4ecdf0cfec63b5759ef7ce91f49c54d40a0ecff5abe91d9b5a5a4f8",
+      "backend/providers/speech_local.py": "08395a5dd0cf800816379e47461b91b33dbd5a6cb1932e86a7d3e76a73d3102f",
+      "backend/providers/speech_worker.py": "7be8d3d620f36bc47c4aadbbe4120691208618ea1c8ffe9dfb2d51f61c0c4570",
+      "backend/voice_grounding.py": "13f9ec3e11766baca3d2670a182bd5c76e126e01f7ae4aae9700a1859a3c4702",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/speech_text.py": "5c421b20313f419ef54bf5c45e5cc7163757e3aa00fe47d21c8c24cc638bcdb8",
+      "backend/data/chat/curriculum-vocabulary.json": "f613a4be71dcff47f82e27a981de15baa66e8e1eea0c058402ed7174092027f8",
+      "backend/data/chat/voice-glossary-supplement.json": "8c21c30e167c2ef2f8cdc10a87c9c8915ba08aef359cf22c1aa4656324d30300"
+    },
+    "baselineSources": {
+      ".local/code-switch-eval/baseline/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      ".local/code-switch-eval/baseline/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      ".local/code-switch-eval/baseline/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      ".local/code-switch-eval/baseline/speech_local.py": "08395a5dd0cf800816379e47461b91b33dbd5a6cb1932e86a7d3e76a73d3102f",
+      ".local/code-switch-eval/baseline/voice_grounding.py": "702af34150a772ecc4df42b2eae0aa927ab2d41eaee813a4ff034898cb218117"
+    },
+    "harnessSha256": {
+      "scripts/evaluate_code_switch_voice.py": "d1536aa2d15cd217abf931cc2c0053bd9c7393f4cd68b51b69d4ca8a1d77bb21",
+      "scripts/evaluate_bilingual_voice.py": "523871f9c07854befbd28584e82d32d52f5798ae1784bdcf7adaf2b773e63d76"
+    },
+    "model": {
+      "name": "qwen2.5:3b",
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 32768,
+        "embedding_length": 2048
+      }
+    },
+    "multilingualModel": {
+      "id": "mlx-community/Qwen3-ASR-0.6B-8bit",
+      "revision": "89e96d92ba34aca20b3e29fb10cc284097d1219f",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size": 1519,
+          "lfs": null
+        },
+        {
+          "name": "README.md",
+          "size": 1008,
+          "lfs": null
+        },
+        {
+          "name": "chat_template.json",
+          "size": 1161,
+          "lfs": null
+        },
+        {
+          "name": "config.json",
+          "size": 7187,
+          "lfs": null
+        },
+        {
+          "name": "generation_config.json",
+          "size": 142,
+          "lfs": null
+        },
+        {
+          "name": "merges.txt",
+          "size": 1671853,
+          "lfs": null
+        },
+        {
+          "name": "model.safetensors",
+          "size": 1006229426,
+          "lfs": {
+            "size": 1006229426,
+            "sha256": "b5bfe4abc1b4c6e58b633096682ec2b6297298add1527119936107d211adf0e8",
+            "pointer_size": 135
+          }
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size": 71815,
+          "lfs": null
+        },
+        {
+          "name": "preprocessor_config.json",
+          "size": 330,
+          "lfs": null
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 12487,
+          "lfs": null
+        },
+        {
+          "name": "vocab.json",
+          "size": 2776833,
+          "lfs": null
+        }
+      ]
+    },
+    "versions": {
+      "mlx-audio": "0.6.4",
+      "mlx": "0.32.4",
+      "parakeet-mlx": "0.6.0",
+      "mlx-whisper": "0.4.3",
+      "transformers": "5.22.1",
+      "numpy": "2.4.6"
+    },
+    "machine": "Apple M4 Pro / 24 GB",
+    "measurement": "18 fresh utterances, 12 target-word code-switch tasks; three noise/silence controls. Two repeats per variant. Offline full PCM/known end and eight paced live tasks reported separately; repeats/modes are not additional independent questions. Do not alter product sources after freeze. No dataset filtering using ASR. Clarification on a fully specified request counts as failure."
+  },
+  "rows": [
+    {
+      "id": "c01",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "英语里面“cat”这个词的中文含义是什么？",
+      "asrMs": 283.52499986067414,
+      "asrDetail": {
+        "id": 2,
+        "text": "英语里面“cat”这个词的中文含义是什么？",
+        "confidence": 0.9131007162822623,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 14,
+        "memory": {
+          "activeBytes": 1898442244,
+          "cacheBytes": 4304928,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 282.65,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.002,
+        "ipcWallMs": 283.331
+      },
+      "endpoint": null,
+      "text": "英语里的\"cat\"是猫的意思。",
+      "firstAudioMs": 734.8970831371844,
+      "totalMs": 735.420708078891,
+      "audioSeconds": 6.245,
+      "output": ".local/code-switch-eval/candidate/c01-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 2.69,
+        "promptChars": 2509,
+        "systemPromptChars": 2488,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 12.5,
+        "providerHeadersMs": 88.89,
+        "providerFirstTokenMs": 88.93,
+        "modelLoadMs": 16.746,
+        "promptEvalMs": 50.465,
+        "tokenGenerationMs": 111.611,
+        "promptTokens": 553,
+        "generatedTokens": 10,
+        "firstSentenceReadyMs": 201.07,
+        "firstSentenceChars": 16,
+        "firstSpeechTextReadyMs": 201.07
+      },
+      "speech": [
+        {
+          "text": "英语里的\"cat\"是猫的意思。",
+          "pcmBytes": 199840,
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 247.212,
+              "postprocess": 1.78
+            },
+            "memory": {
+              "activeBytes": 165468518,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 249.04,
+            "queueWaitMs": 0.012,
+            "startupMs": 0.005,
+            "ipcWallMs": 250.129
+          }
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请告诉我的中文意思。",
+      "asrMs": 193.35416704416275,
+      "asrDetail": {
+        "id": 3,
+        "text": "请告诉我的中文意思。",
+        "confidence": 0.9200444146293233,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 9,
+        "memory": {
+          "activeBytes": 1900568076,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 192.71,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 193.214
+      },
+      "endpoint": null,
+      "text": "mine\" 的意思是 \"我的\"。",
+      "firstAudioMs": 559.5656670629978,
+      "totalMs": 559.9883333779871,
+      "audioSeconds": 4.115,
+      "output": ".local/code-switch-eval/candidate/c02-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 3.35,
+        "promptChars": 1611,
+        "systemPromptChars": 1601,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 79.69,
+        "providerFirstTokenMs": 79.72,
+        "modelLoadMs": 9.373,
+        "promptEvalMs": 49.718,
+        "tokenGenerationMs": 110.811,
+        "promptTokens": 666,
+        "generatedTokens": 10,
+        "firstSpeechTextReadyMs": 192.02,
+        "firstSentenceReadyMs": 192.19,
+        "firstSentenceChars": 17
+      },
+      "speech": [
+        {
+          "text": "mine\" 的意思是 \"我的\"。",
+          "pcmBytes": 131680,
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 171.517,
+              "postprocess": 1.577
+            },
+            "memory": {
+              "activeBytes": 165255546,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 173.12,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.004,
+            "ipcWallMs": 173.873
+          }
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "用中文解释red。再给一个英语例句。",
+      "asrMs": 186.4081658422947,
+      "asrDetail": {
+        "id": 4,
+        "text": "用中文解释red。再给一个英语例句。",
+        "confidence": 0.8824969025845955,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 15,
+        "memory": {
+          "activeBytes": 1900576268,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 185.68,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.003,
+        "ipcWallMs": 186.265
+      },
+      "endpoint": null,
+      "text": "red 是一种颜色，用来描述像太阳、火焰或者玫瑰这样的东西。 英语例句：The sky was red at sunrise.",
+      "firstAudioMs": 869.2020829766989,
+      "totalMs": 1261.7739997804165,
+      "audioSeconds": 13.7,
+      "output": ".local/code-switch-eval/candidate/c03-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 19.23,
+        "promptChars": 1252,
+        "systemPromptChars": 1234,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 210.31,
+        "providerFirstTokenMs": 210.35,
+        "modelLoadMs": 17.04,
+        "promptEvalMs": 166.123,
+        "tokenGenerationMs": 320.158,
+        "promptTokens": 582,
+        "generatedTokens": 28,
+        "firstSentenceReadyMs": 531.18,
+        "firstSentenceChars": 31,
+        "firstSpeechTextReadyMs": 531.18
+      },
+      "speech": [
+        {
+          "text": "red 是一种颜色，",
+          "pcmBytes": 117280,
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 149.282,
+              "postprocess": 1.455
+            },
+            "memory": {
+              "activeBytes": 165206378,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 150.75,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 151.422
+          }
+        },
+        {
+          "text": "用来描述像太阳、火焰或者玫瑰这样的东西。",
+          "pcmBytes": 177760,
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 210.423,
+              "postprocess": 1.583
+            },
+            "memory": {
+              "activeBytes": 165370466,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 212.02,
+            "queueWaitMs": 151.425,
+            "startupMs": 0.002,
+            "ipcWallMs": 212.976
+          }
+        },
+        {
+          "text": " 英语例句：The sky was red at sunrise.",
+          "pcmBytes": 143360,
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 177.052,
+              "postprocess": 1.162
+            },
+            "memory": {
+              "activeBytes": 165271969,
+              "cacheBytes": 133758086
+            },
+            "inferenceMs": 178.24,
+            "queueWaitMs": 364.269,
+            "startupMs": 0.002,
+            "ipcWallMs": 179.041
+          }
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "中文是什么意思？请回答中文。",
+      "asrMs": 192.75154219940305,
+      "asrDetail": {
+        "id": 5,
+        "text": "中文是什么意思？请回答中文。",
+        "confidence": 1.0,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 11,
+        "memory": {
+          "activeBytes": 1900570128,
+          "cacheBytes": 3219476,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 191.98,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 192.594
+      },
+      "endpoint": null,
+      "text": "中文的意思是用汉字书写的语言，是很多国家和地区的官方语言，比如中国、日本、韩国等。",
+      "firstAudioMs": 974.735083989799,
+      "totalMs": 1275.1196674071252,
+      "audioSeconds": 11.88,
+      "output": ".local/code-switch-eval/candidate/c04-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.64,
+        "promptChars": 1585,
+        "systemPromptChars": 1571,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 291.92,
+        "providerFirstTokenMs": 292.01,
+        "modelLoadMs": 9.872,
+        "promptEvalMs": 274.616,
+        "tokenGenerationMs": 299.962,
+        "promptTokens": 661,
+        "generatedTokens": 26,
+        "firstSentenceReadyMs": 592.36,
+        "firstSentenceChars": 42,
+        "firstSpeechTextReadyMs": 592.36
+      },
+      "speech": [
+        {
+          "text": "中文的意思是用汉字书写的语言，",
+          "pcmBytes": 139040,
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 187.239,
+              "postprocess": 1.332
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 188.59,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.004,
+            "ipcWallMs": 189.417
+          }
+        },
+        {
+          "text": "是很多国家和地区的官方语言，",
+          "pcmBytes": 137280,
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 164.421,
+              "postprocess": 1.284
+            },
+            "memory": {
+              "activeBytes": 165255666,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 165.72,
+            "queueWaitMs": 189.391,
+            "startupMs": 0.002,
+            "ipcWallMs": 166.424
+          }
+        },
+        {
+          "text": "比如中国、日本、韩国等。",
+          "pcmBytes": 103840,
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 131.324,
+              "postprocess": 1.509
+            },
+            "memory": {
+              "activeBytes": 165157310,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 132.85,
+            "queueWaitMs": 355.836,
+            "startupMs": 0.002,
+            "ipcWallMs": 133.467
+          }
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释“sad”，并给两个英语例句。",
+      "asrMs": 219.16424995288253,
+      "asrDetail": {
+        "id": 6,
+        "text": "请用中文解释“sad”，并给两个英语例句。",
+        "confidence": 0.9823013510997377,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 17,
+        "memory": {
+          "activeBytes": 1900572172,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 218.4,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 219.004
+      },
+      "endpoint": null,
+      "text": "sad\"的意思是“悲伤的；悲哀的；令人悲哀的；让人难过的”。 例如：I was sad to hear the news. 和She felt sad because she lost her favorite toy.",
+      "firstAudioMs": 1303.054790943861,
+      "totalMs": 1992.8395408205688,
+      "audioSeconds": 19.39,
+      "output": ".local/code-switch-eval/candidate/c05-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.73,
+        "promptChars": 1546,
+        "systemPromptChars": 1525,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 191.7,
+        "providerFirstTokenMs": 191.73,
+        "modelLoadMs": 14.42,
+        "promptEvalMs": 169.358,
+        "tokenGenerationMs": 702.31,
+        "promptTokens": 666,
+        "generatedTokens": 63,
+        "firstSentenceReadyMs": 894.29,
+        "firstSentenceChars": 31,
+        "firstSpeechTextReadyMs": 894.29
+      },
+      "speech": [
+        {
+          "text": "sad\"的意思是“悲伤的；",
+          "pcmBytes": 135680,
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 187.221,
+              "postprocess": 1.44
+            },
+            "memory": {
+              "activeBytes": 165255565,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 188.68,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 189.381
+          }
+        },
+        {
+          "text": "悲哀的；",
+          "pcmBytes": 59040,
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 79.323,
+              "postprocess": 1.343
+            },
+            "memory": {
+              "activeBytes": 165026122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 80.68,
+            "queueWaitMs": 189.377,
+            "startupMs": 0.003,
+            "ipcWallMs": 81.118
+          }
+        },
+        {
+          "text": "令人悲哀的；",
+          "pcmBytes": 76960,
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 98.043,
+              "postprocess": 1.219
+            },
+            "memory": {
+              "activeBytes": 165075310,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 99.27,
+            "queueWaitMs": 270.517,
+            "startupMs": 0.002,
+            "ipcWallMs": 99.813
+          }
+        },
+        {
+          "text": "让人难过的”。",
+          "pcmBytes": 78080,
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 99.872,
+              "postprocess": 1.269
+            },
+            "memory": {
+              "activeBytes": 165075322,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 101.16,
+            "queueWaitMs": 370.358,
+            "startupMs": 0.002,
+            "ipcWallMs": 101.674
+          }
+        },
+        {
+          "text": " 例如：I was sad to hear the news.",
+          "pcmBytes": 131360,
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 166.185,
+              "postprocess": 0.934
+            },
+            "memory": {
+              "activeBytes": 165239196,
+              "cacheBytes": 133140850
+            },
+            "inferenceMs": 167.14,
+            "queueWaitMs": 472.055,
+            "startupMs": 0.003,
+            "ipcWallMs": 167.891
+          }
+        },
+        {
+          "text": " 和She felt sad because she lost her favorite toy.",
+          "pcmBytes": 139360,
+          "detail": {
+            "id": 16,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 236.786,
+              "postprocess": 1.038
+            },
+            "memory": {
+              "activeBytes": 165272086,
+              "cacheBytes": 131285498
+            },
+            "inferenceMs": 237.85,
+            "queueWaitMs": 639.973,
+            "startupMs": 0.003,
+            "ipcWallMs": 238.657
+          }
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "英语单词“mat”，中文怎么说？",
+      "asrMs": 169.8457500897348,
+      "asrDetail": {
+        "id": 7,
+        "text": "英语单词“mat”，中文怎么说？",
+        "confidence": 0.8553453273074225,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 11,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 169.15,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 169.71
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 340.64491698518395,
+      "totalMs": 490.3607498854399,
+      "audioSeconds": 8.035,
+      "output": ".local/code-switch-eval/candidate/c06-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.18
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "pcmBytes": 137440,
+          "detail": {
+            "id": 17,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 168.106,
+              "postprocess": 1.49
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 169.62,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 170.455
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "pcmBytes": 119680,
+          "detail": {
+            "id": 18,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 146.866,
+              "postprocess": 1.701
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 148.59,
+            "queueWaitMs": 170.456,
+            "startupMs": 0.003,
+            "ipcWallMs": 149.287
+          }
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "computer这个词用中文怎么说？",
+      "asrMs": 155.27566568925977,
+      "asrDetail": {
+        "id": 8,
+        "text": "computer这个词用中文怎么说？",
+        "confidence": 0.8824969025845955,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 9,
+        "memory": {
+          "activeBytes": 1900572172,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 154.58,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 155.14
+      },
+      "endpoint": null,
+      "text": "computer 的意思是“电脑”。",
+      "firstAudioMs": 324.4562498293817,
+      "totalMs": 324.93670796975493,
+      "audioSeconds": 4.215,
+      "output": ".local/code-switch-eval/candidate/c07-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.08
+      },
+      "speech": [
+        {
+          "text": "computer 的意思是“电脑”。",
+          "pcmBytes": 134880,
+          "detail": {
+            "id": 19,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 166.712,
+              "postprocess": 1.529
+            },
+            "memory": {
+              "activeBytes": 165255555,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 168.26,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 168.969
+          }
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "蝴蝶是什么意思？请用中文解释。",
+      "asrMs": 184.61658293381333,
+      "asrDetail": {
+        "id": 9,
+        "text": "蝴蝶是什么意思？请用中文解释。",
+        "confidence": 0.907354349427929,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 12,
+        "memory": {
+          "activeBytes": 1900572172,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 183.86,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 184.466
+      },
+      "endpoint": null,
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 356.7516668699682,
+      "totalMs": 530.9160416945815,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/candidate/c08-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 20,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 169.57,
+              "postprocess": 1.676
+            },
+            "memory": {
+              "activeBytes": 165222898,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 171.27,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 171.938
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 21,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 170.626,
+              "postprocess": 1.535
+            },
+            "memory": {
+              "activeBytes": 165239278,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 172.17,
+            "queueWaitMs": 171.937,
+            "startupMs": 0.002,
+            "ipcWallMs": 172.835
+          }
+        }
+      ]
+    },
+    {
+      "id": "c09",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请解释breakfast的中文意思，然后给一个英语例句。",
+      "asrMs": 257.8283753246069,
+      "asrDetail": {
+        "id": 10,
+        "text": "请解释breakfast的中文意思，然后给一个英语例句。",
+        "confidence": 0.9355069850316178,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 18,
+        "memory": {
+          "activeBytes": 1900572172,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 256.91,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 257.653
+      },
+      "endpoint": null,
+      "text": "breakfast 的意思是“早餐；早餐;早饭”。 例如：I had breakfast at 7:00 in the morning.",
+      "firstAudioMs": 909.800167195499,
+      "totalMs": 1320.4060844145715,
+      "audioSeconds": 14.095,
+      "output": ".local/code-switch-eval/candidate/c09-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.74,
+        "promptChars": 1580,
+        "systemPromptChars": 1552,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 138.33,
+        "providerFirstTokenMs": 138.37,
+        "modelLoadMs": 13.889,
+        "promptEvalMs": 115.522,
+        "tokenGenerationMs": 326.071,
+        "promptTokens": 667,
+        "generatedTokens": 28,
+        "firstSentenceReadyMs": 464.96,
+        "firstSentenceChars": 26,
+        "firstSpeechTextReadyMs": 464.96
+      },
+      "speech": [
+        {
+          "text": "breakfast 的意思是“早餐；",
+          "pcmBytes": 132000,
+          "detail": {
+            "id": 22,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 184.16,
+              "postprocess": 1.488
+            },
+            "memory": {
+              "activeBytes": 165239166,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 185.68,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.006,
+            "ipcWallMs": 186.608
+          }
+        },
+        {
+          "text": "早餐;早饭”。",
+          "pcmBytes": 73280,
+          "detail": {
+            "id": 23,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 94.262,
+              "postprocess": 1.226
+            },
+            "memory": {
+              "activeBytes": 165058926,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 95.5,
+            "queueWaitMs": 186.379,
+            "startupMs": 0.002,
+            "ipcWallMs": 95.982
+          }
+        },
+        {
+          "text": " 例如：I had breakfast at 7:00 in the morning.",
+          "pcmBytes": 245760,
+          "detail": {
+            "id": 24,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 311.461,
+              "postprocess": 1.319
+            },
+            "memory": {
+              "activeBytes": 165599574,
+              "cacheBytes": 132826204
+            },
+            "inferenceMs": 312.8,
+            "queueWaitMs": 281.978,
+            "startupMs": 0.002,
+            "ipcWallMs": 313.966
+          }
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "英语vegetable的中文意思是什么？",
+      "asrMs": 175.51858397200704,
+      "asrDetail": {
+        "id": 11,
+        "text": "英语vegetable的中文意思是什么？",
+        "confidence": 0.9394130628134758,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 11,
+        "memory": {
+          "activeBytes": 1900568076,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 174.79,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 175.364
+      },
+      "endpoint": null,
+      "text": "vegetable 的意思是“蔬菜”。",
+      "firstAudioMs": 346.8097918666899,
+      "totalMs": 347.252500243485,
+      "audioSeconds": 4.24,
+      "output": ".local/code-switch-eval/candidate/c10-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.06
+      },
+      "speech": [
+        {
+          "text": "vegetable 的意思是“蔬菜”。",
+          "pcmBytes": 135680,
+          "detail": {
+            "id": 25,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 168.901,
+              "postprocess": 1.504
+            },
+            "memory": {
+              "activeBytes": 165255550,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 170.42,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 171.08
+          }
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释“different”，并给一个英语例句。",
+      "asrMs": 193.7554171308875,
+      "asrDetail": {
+        "id": 12,
+        "text": "请用中文解释“different”，并给一个英语例句。",
+        "confidence": 0.9563389704816692,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 17,
+        "memory": {
+          "activeBytes": 1900568076,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 192.97,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 193.606
+      },
+      "endpoint": null,
+      "text": "不同的。 Different fruits have different flavors.",
+      "firstAudioMs": 1248.367958702147,
+      "totalMs": 1356.110209133476,
+      "audioSeconds": 4.31,
+      "output": ".local/code-switch-eval/candidate/c11-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.83,
+        "promptChars": 617,
+        "systemPromptChars": 398,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 109.93,
+        "providerFirstTokenMs": 109.96,
+        "modelLoadMs": 6.795,
+        "promptEvalMs": 158.498,
+        "tokenGenerationMs": 291.037,
+        "promptTokens": 145,
+        "generatedTokens": 26,
+        "exampleRepairRequests": 1,
+        "languageRepairMs": 463.37,
+        "firstSentenceReadyMs": 951.27,
+        "firstSentenceChars": 5,
+        "firstSpeechTextReadyMs": 951.27
+      },
+      "speech": [
+        {
+          "text": "不同的。",
+          "pcmBytes": 59840,
+          "detail": {
+            "id": 26,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 101.223,
+              "postprocess": 1.378
+            },
+            "memory": {
+              "activeBytes": 165026126,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 102.62,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.004,
+            "ipcWallMs": 103.121
+          }
+        },
+        {
+          "text": " Different fruits have different flavors.",
+          "pcmBytes": 78080,
+          "detail": {
+            "id": 27,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 106.282,
+              "postprocess": 0.656
+            },
+            "memory": {
+              "activeBytes": 165059006,
+              "cacheBytes": 131750342
+            },
+            "inferenceMs": 106.95,
+            "queueWaitMs": 102.892,
+            "startupMs": 0.002,
+            "ipcWallMs": 107.4
+          }
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "error": "TextBotError",
+      "detail": "本轮未能完整生成英语例句，请重试"
+    },
+    {
+      "id": "c13",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "请用中文回答：“你的真实生日是什么时候？”",
+      "asrMs": 232.76162520051003,
+      "asrDetail": {
+        "id": 14,
+        "text": "请用中文回答：“你的真实生日是什么时候？”",
+        "confidence": 1.0,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 14,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 230.86,
+        "queueWaitMs": 0.004,
+        "startupMs": 0.005,
+        "ipcWallMs": 232.354
+      },
+      "endpoint": null,
+      "text": "我是一只AI猫咪，没有真实生日。",
+      "firstAudioMs": 816.5882499888539,
+      "totalMs": 927.2940829396248,
+      "audioSeconds": 7.91,
+      "output": ".local/code-switch-eval/candidate/c13-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.88,
+        "promptChars": 1623,
+        "systemPromptChars": 1602,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 227.05,
+        "providerFirstTokenMs": 227.14,
+        "modelLoadMs": 11.589,
+        "promptEvalMs": 198.278,
+        "tokenGenerationMs": 118.282,
+        "promptTokens": 672,
+        "generatedTokens": 11,
+        "firstSentenceReadyMs": 346.27,
+        "firstSentenceChars": 17,
+        "firstSpeechTextReadyMs": 346.28
+      },
+      "speech": [
+        {
+          "text": "我是一只AI猫咪，",
+          "pcmBytes": 167360,
+          "detail": {
+            "id": 28,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 234.69,
+              "postprocess": 1.57
+            },
+            "memory": {
+              "activeBytes": 165370174,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 236.29,
+            "queueWaitMs": 0.008,
+            "startupMs": 0.007,
+            "ipcWallMs": 237.265
+          }
+        },
+        {
+          "text": "没有真实生日。",
+          "pcmBytes": 85760,
+          "detail": {
+            "id": 29,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 108.507,
+              "postprocess": 1.277
+            },
+            "memory": {
+              "activeBytes": 165091725,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 109.8,
+            "queueWaitMs": 237.204,
+            "startupMs": 0.002,
+            "ipcWallMs": 110.288
+          }
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "我最喜欢的水果是哪一个？请用中文回答。",
+      "asrMs": 203.41508276760578,
+      "asrDetail": {
+        "id": 15,
+        "text": "我最喜欢的水果是哪一个？请用中文回答。",
+        "confidence": 1.0,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 14,
+        "memory": {
+          "activeBytes": 1900576268,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 202.54,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 203.251
+      },
+      "endpoint": null,
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "firstAudioMs": 317.8311660885811,
+      "totalMs": 467.8409160114825,
+      "audioSeconds": 6.365,
+      "output": ".local/code-switch-eval/candidate/c14-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 1.6
+      },
+      "speech": [
+        {
+          "text": "你只说过喜欢，",
+          "pcmBytes": 86080,
+          "detail": {
+            "id": 30,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 110.656,
+              "postprocess": 1.368
+            },
+            "memory": {
+              "activeBytes": 165091735,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 112.05,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.002,
+            "ipcWallMs": 112.605
+          }
+        },
+        {
+          "text": "还没有明确说最喜欢什么。",
+          "pcmBytes": 117600,
+          "detail": {
+            "id": 31,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 147.069,
+              "postprocess": 1.756
+            },
+            "memory": {
+              "activeBytes": 165190122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 148.84,
+            "queueWaitMs": 112.596,
+            "startupMs": 0.002,
+            "ipcWallMs": 149.552
+          }
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "故事里的小雨是十四岁，请用中文说他现在几岁。",
+      "asrMs": 229.19329209253192,
+      "asrDetail": {
+        "id": 16,
+        "text": "故事里的小雨是十四岁，请用中文说他现在几岁。",
+        "confidence": 0.9467809707821289,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 19,
+        "memory": {
+          "activeBytes": 1900574220,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 228.22,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 229.008
+      },
+      "endpoint": null,
+      "text": "小雨是十四岁。",
+      "firstAudioMs": 339.7862920537591,
+      "totalMs": 340.1949591934681,
+      "audioSeconds": 2.655,
+      "output": ".local/code-switch-eval/candidate/c15-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_story_age",
+        "firstSpeechTextReadyMs": 0.74
+      },
+      "speech": [
+        {
+          "text": "小雨是十四岁。",
+          "pcmBytes": 84960,
+          "detail": {
+            "id": 32,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 107.735,
+              "postprocess": 1.454
+            },
+            "memory": {
+              "activeBytes": 165091720,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 109.2,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 109.711
+          }
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does river mean in Chinese? Give an English example.",
+      "asrMs": 66.16604188457131,
+      "asrDetail": {
+        "id": 17,
+        "text": "What does river mean in Chinese? Give an English example.",
+        "confidence": 0.9937847845446127,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 1873472846,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 65.43,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 66.013
+      },
+      "endpoint": null,
+      "text": "river in Chinese means \"河流；河;江\"。 例如：I like to go for a walk along the river on weekends.",
+      "firstAudioMs": 842.6179587841034,
+      "totalMs": 1173.4881247393787,
+      "audioSeconds": 11.74,
+      "output": ".local/code-switch-eval/candidate/c16-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.62,
+        "promptChars": 1539,
+        "systemPromptChars": 1482,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 259.65,
+        "providerFirstTokenMs": 259.71,
+        "modelLoadMs": 19.115,
+        "promptEvalMs": 232.168,
+        "tokenGenerationMs": 317.236,
+        "promptTokens": 643,
+        "generatedTokens": 28,
+        "firstSentenceReadyMs": 577.78,
+        "firstSentenceChars": 33,
+        "firstSpeechTextReadyMs": 577.78
+      },
+      "speech": [
+        {
+          "text": "river in Chinese means \"河流；",
+          "pcmBytes": 133920,
+          "detail": {
+            "id": 33,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 195.7,
+              "postprocess": 1.546
+            },
+            "memory": {
+              "activeBytes": 165239110,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 197.29,
+            "queueWaitMs": 0.009,
+            "startupMs": 0.007,
+            "ipcWallMs": 198.227
+          }
+        },
+        {
+          "text": "河;江\"。",
+          "pcmBytes": 66400,
+          "detail": {
+            "id": 34,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 90.475,
+              "postprocess": 1.201
+            },
+            "memory": {
+              "activeBytes": 165042506,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 91.69,
+            "queueWaitMs": 198.149,
+            "startupMs": 0.003,
+            "ipcWallMs": 92.153
+          }
+        },
+        {
+          "text": " 例如：I like to go for a walk along the river on weekends.",
+          "pcmBytes": 175360,
+          "detail": {
+            "id": 35,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 236.108,
+              "postprocess": 1.12
+            },
+            "memory": {
+              "activeBytes": 165370366,
+              "cacheBytes": 128879624
+            },
+            "inferenceMs": 237.25,
+            "queueWaitMs": 289.921,
+            "startupMs": 0.023,
+            "ipcWallMs": 238.16
+          }
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Invite me to play tennis in one short English sentence.",
+      "asrMs": 64.08320786431432,
+      "asrDetail": {
+        "id": 18,
+        "text": "Invite me to play tennis in one short English sentence.",
+        "confidence": 0.9982287264674696,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 1873472846,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 63.27,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 63.927
+      },
+      "endpoint": null,
+      "text": "Let's play tennis together and have fun!",
+      "firstAudioMs": 420.90300004929304,
+      "totalMs": 492.14725010097027,
+      "audioSeconds": 3.18,
+      "output": ".local/code-switch-eval/candidate/c17-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.66,
+        "promptChars": 2840,
+        "systemPromptChars": 2785,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 173.42,
+        "providerFirstTokenMs": 173.45,
+        "firstSpeechTextReadyMs": 212.59,
+        "modelLoadMs": 12.764,
+        "promptEvalMs": 148.128,
+        "tokenGenerationMs": 140.249,
+        "promptTokens": 631,
+        "generatedTokens": 10,
+        "firstSentenceReadyMs": 313.96,
+        "firstSentenceChars": 41
+      },
+      "speech": [
+        {
+          "text": "Let's play tennis together ",
+          "pcmBytes": 58560,
+          "detail": {
+            "id": 36,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 118.732,
+              "postprocess": 0.659
+            },
+            "memory": {
+              "activeBytes": 165009810,
+              "cacheBytes": 129495086
+            },
+            "inferenceMs": 119.41,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 119.891
+          }
+        },
+        {
+          "text": "and have fun!",
+          "pcmBytes": 43200,
+          "detail": {
+            "id": 37,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 69.983,
+              "postprocess": 0.581
+            },
+            "memory": {
+              "activeBytes": 164960594,
+              "cacheBytes": 131571444
+            },
+            "inferenceMs": 70.58,
+            "queueWaitMs": 42.73,
+            "startupMs": 0.003,
+            "ipcWallMs": 70.867
+          }
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Have I said what my favourite animal is?",
+      "asrMs": 50.95862504094839,
+      "asrDetail": {
+        "id": 19,
+        "text": "Have I said what my favourite animal is?",
+        "confidence": 0.9924905041562821,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 1873472846,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 50.23,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 50.802
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 127.32945894822478,
+      "totalMs": 233.32216730341315,
+      "audioSeconds": 3.795,
+      "output": ".local/code-switch-eval/candidate/c18-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "pcmBytes": 49440,
+          "detail": {
+            "id": 38,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 75.023,
+              "postprocess": 0.723
+            },
+            "memory": {
+              "activeBytes": 164977014,
+              "cacheBytes": 133975406
+            },
+            "inferenceMs": 75.77,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 76.142
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "pcmBytes": 72000,
+          "detail": {
+            "id": 39,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 104.488,
+              "postprocess": 0.674
+            },
+            "memory": {
+              "activeBytes": 165059094,
+              "cacheBytes": 131357682
+            },
+            "inferenceMs": 105.18,
+            "queueWaitMs": 76.14,
+            "startupMs": 0.002,
+            "ipcWallMs": 105.615
+          }
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Have I said what my favourite animal is?",
+      "asrMs": 48.26716706156731,
+      "asrDetail": {
+        "id": 20,
+        "text": "Have I said what my favourite animal is?",
+        "confidence": 0.9924905041562821,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 1873472846,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 47.7,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 48.141
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 125.15908293426037,
+      "totalMs": 228.34762511774898,
+      "audioSeconds": 3.795,
+      "output": ".local/code-switch-eval/candidate/c18-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "pcmBytes": 49440,
+          "detail": {
+            "id": 40,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 75.535,
+              "postprocess": 0.674
+            },
+            "memory": {
+              "activeBytes": 164977022,
+              "cacheBytes": 133890016
+            },
+            "inferenceMs": 76.23,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 76.652
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "pcmBytes": 72000,
+          "detail": {
+            "id": 41,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 101.629,
+              "postprocess": 0.677
+            },
+            "memory": {
+              "activeBytes": 165042710,
+              "cacheBytes": 129937398
+            },
+            "inferenceMs": 102.32,
+            "queueWaitMs": 76.657,
+            "startupMs": 0.004,
+            "ipcWallMs": 102.779
+          }
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Invite me to play tennis in one short English sentence.",
+      "asrMs": 62.406959012150764,
+      "asrDetail": {
+        "id": 21,
+        "text": "Invite me to play tennis in one short English sentence.",
+        "confidence": 0.9982287264674696,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 1873472846,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 61.65,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 62.262
+      },
+      "endpoint": null,
+      "text": "Let's play tennis together!",
+      "firstAudioMs": 259.9640842527151,
+      "totalMs": 260.93295915052295,
+      "audioSeconds": 1.925,
+      "output": ".local/code-switch-eval/candidate/c17-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.67,
+        "promptChars": 2840,
+        "systemPromptChars": 2785,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 36.5,
+        "providerFirstTokenMs": 36.55,
+        "firstSpeechTextReadyMs": 69.45,
+        "modelLoadMs": 9.853,
+        "promptEvalMs": 19.619,
+        "tokenGenerationMs": 66.303,
+        "promptTokens": 631,
+        "generatedTokens": 7,
+        "firstSentenceReadyMs": 102.95,
+        "firstSentenceChars": 28
+      },
+      "speech": [
+        {
+          "text": "Let's play tennis together!",
+          "pcmBytes": 61600,
+          "detail": {
+            "id": 42,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 93.434,
+              "postprocess": 0.611
+            },
+            "memory": {
+              "activeBytes": 165009815,
+              "cacheBytes": 133220156
+            },
+            "inferenceMs": 94.06,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 94.472
+          }
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does river mean in Chinese? Give an English example.",
+      "asrMs": 63.05970810353756,
+      "asrDetail": {
+        "id": 22,
+        "text": "What does river mean in Chinese? Give an English example.",
+        "confidence": 0.9937847845446127,
+        "engine": "parakeet",
+        "language": "en",
+        "memory": {
+          "activeBytes": 1873472846,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 62.27,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 62.888
+      },
+      "endpoint": null,
+      "text": "river in Chinese means \"河流；河;江\"。 例如：I went for a walk along the river.",
+      "firstAudioMs": 543.554125353694,
+      "totalMs": 809.8989170975983,
+      "audioSeconds": 10.565,
+      "output": ".local/code-switch-eval/candidate/c16-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.62,
+        "promptChars": 1539,
+        "systemPromptChars": 1482,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 41.27,
+        "providerFirstTokenMs": 41.31,
+        "modelLoadMs": 10.074,
+        "promptEvalMs": 16.914,
+        "tokenGenerationMs": 253.448,
+        "promptTokens": 643,
+        "generatedTokens": 24,
+        "firstSentenceReadyMs": 295.55,
+        "firstSentenceChars": 33,
+        "firstSpeechTextReadyMs": 295.56
+      },
+      "speech": [
+        {
+          "text": "river in Chinese means \"河流；",
+          "pcmBytes": 133920,
+          "detail": {
+            "id": 43,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 182.089,
+              "postprocess": 1.568
+            },
+            "memory": {
+              "activeBytes": 165239110,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 183.69,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.007,
+            "ipcWallMs": 184.544
+          }
+        },
+        {
+          "text": "河;江\"。",
+          "pcmBytes": 66400,
+          "detail": {
+            "id": 44,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 83.528,
+              "postprocess": 1.3
+            },
+            "memory": {
+              "activeBytes": 165058890,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 84.84,
+            "queueWaitMs": 184.472,
+            "startupMs": 0.003,
+            "ipcWallMs": 85.345
+          }
+        },
+        {
+          "text": " 例如：I went for a walk along the river.",
+          "pcmBytes": 137760,
+          "detail": {
+            "id": 45,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 178.762,
+              "postprocess": 0.923
+            },
+            "memory": {
+              "activeBytes": 165288366,
+              "cacheBytes": 127875590
+            },
+            "inferenceMs": 179.7,
+            "queueWaitMs": 269.389,
+            "startupMs": 0.002,
+            "ipcWallMs": 180.486
+          }
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "故事里的小雨是十四岁，请用中文说他现在几岁。",
+      "asrMs": 242.59087489917874,
+      "asrDetail": {
+        "id": 23,
+        "text": "故事里的小雨是十四岁，请用中文说他现在几岁。",
+        "confidence": 0.9467809707821289,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 19,
+        "memory": {
+          "activeBytes": 1900572172,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 241.65,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 242.404
+      },
+      "endpoint": null,
+      "text": "小雨是十四岁。",
+      "firstAudioMs": 352.04083286225796,
+      "totalMs": 353.12887467443943,
+      "audioSeconds": 2.655,
+      "output": ".local/code-switch-eval/candidate/c15-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_story_age",
+        "firstSpeechTextReadyMs": 0.06
+      },
+      "speech": [
+        {
+          "text": "小雨是十四岁。",
+          "pcmBytes": 84960,
+          "detail": {
+            "id": 46,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 107.481,
+              "postprocess": 1.222
+            },
+            "memory": {
+              "activeBytes": 165091710,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 108.72,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.002,
+            "ipcWallMs": 109.263
+          }
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "我最喜欢的水果是哪一个？请用中文回答。",
+      "asrMs": 201.1150000616908,
+      "asrDetail": {
+        "id": 24,
+        "text": "我最喜欢的水果是哪一个？请用中文回答。",
+        "confidence": 1.0,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 14,
+        "memory": {
+          "activeBytes": 1900574220,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 200.28,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 200.939
+      },
+      "endpoint": null,
+      "text": "你只说过喜欢，还没有明确说最喜欢什么。",
+      "firstAudioMs": 311.8349998258054,
+      "totalMs": 461.22516691684723,
+      "audioSeconds": 6.365,
+      "output": ".local/code-switch-eval/candidate/c14-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.09
+      },
+      "speech": [
+        {
+          "text": "你只说过喜欢，",
+          "pcmBytes": 86080,
+          "detail": {
+            "id": 47,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 108.42,
+              "postprocess": 1.426
+            },
+            "memory": {
+              "activeBytes": 165091735,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 109.87,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 110.461
+          }
+        },
+        {
+          "text": "还没有明确说最喜欢什么。",
+          "pcmBytes": 117600,
+          "detail": {
+            "id": 48,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 146.771,
+              "postprocess": 1.515
+            },
+            "memory": {
+              "activeBytes": 165190122,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 148.3,
+            "queueWaitMs": 110.459,
+            "startupMs": 0.002,
+            "ipcWallMs": 148.959
+          }
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "请用中文回答：“你的真实生日是什么时候？”",
+      "asrMs": 202.97124981880188,
+      "asrDetail": {
+        "id": 25,
+        "text": "请用中文回答：“你的真实生日是什么时候？”",
+        "confidence": 1.0,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 14,
+        "memory": {
+          "activeBytes": 1900574220,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 202.08,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 202.809
+      },
+      "endpoint": null,
+      "text": "我是一只AI猫咪，没有真实生日。",
+      "firstAudioMs": 835.2399999275804,
+      "totalMs": 951.2063339352608,
+      "audioSeconds": 7.91,
+      "output": ".local/code-switch-eval/candidate/c13-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.93,
+        "promptChars": 1623,
+        "systemPromptChars": 1602,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 287.07,
+        "providerFirstTokenMs": 287.22,
+        "modelLoadMs": 15.3,
+        "promptEvalMs": 262.505,
+        "tokenGenerationMs": 111.398,
+        "promptTokens": 672,
+        "generatedTokens": 11,
+        "firstSentenceReadyMs": 398.49,
+        "firstSentenceChars": 17,
+        "firstSpeechTextReadyMs": 398.49
+      },
+      "speech": [
+        {
+          "text": "我是一只AI猫咪，",
+          "pcmBytes": 167360,
+          "detail": {
+            "id": 49,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 231.012,
+              "postprocess": 1.779
+            },
+            "memory": {
+              "activeBytes": 165370174,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 232.81,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 233.632
+          }
+        },
+        {
+          "text": "没有真实生日。",
+          "pcmBytes": 85760,
+          "detail": {
+            "id": 50,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 113.771,
+              "postprocess": 1.291
+            },
+            "memory": {
+              "activeBytes": 165091714,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 115.08,
+            "queueWaitMs": 233.628,
+            "startupMs": 0.002,
+            "ipcWallMs": 115.565
+          }
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "error": "TextBotError",
+      "detail": "本轮未能完整生成英语例句，请重试"
+    },
+    {
+      "id": "c11",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释“different”，并给一个英语例句。",
+      "asrMs": 224.48616661131382,
+      "asrDetail": {
+        "id": 27,
+        "text": "请用中文解释“different”，并给一个英语例句。",
+        "confidence": 0.9563389704816692,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 17,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 222.65,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.006,
+        "ipcWallMs": 224.11
+      },
+      "endpoint": null,
+      "text": "不同\"的意思是“不同的；不同的；各种的”。 例如：This shirt is different from that one. 这件衬衫和那件不同。",
+      "firstAudioMs": 888.4252919815481,
+      "totalMs": 1389.8531249724329,
+      "audioSeconds": 15.105,
+      "output": ".local/code-switch-eval/candidate/c11-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.72,
+        "promptChars": 1546,
+        "systemPromptChars": 1519,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 131.95,
+        "providerFirstTokenMs": 132.06,
+        "modelLoadMs": 10.989,
+        "promptEvalMs": 107.474,
+        "tokenGenerationMs": 379.121,
+        "promptTokens": 656,
+        "generatedTokens": 33,
+        "firstSentenceReadyMs": 511.64,
+        "firstSentenceChars": 22,
+        "firstSpeechTextReadyMs": 511.64
+      },
+      "speech": [
+        {
+          "text": "不同\"的意思是“不同的；",
+          "pcmBytes": 100320,
+          "detail": {
+            "id": 51,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 149.865,
+              "postprocess": 1.44
+            },
+            "memory": {
+              "activeBytes": 165140898,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 151.32,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.004,
+            "ipcWallMs": 151.997
+          }
+        },
+        {
+          "text": "不同的；",
+          "pcmBytes": 63040,
+          "detail": {
+            "id": 52,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 84.929,
+              "postprocess": 1.203
+            },
+            "memory": {
+              "activeBytes": 165026126,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 86.15,
+            "queueWaitMs": 151.969,
+            "startupMs": 0.003,
+            "ipcWallMs": 86.564
+          }
+        },
+        {
+          "text": "各种的”。",
+          "pcmBytes": 65760,
+          "detail": {
+            "id": 53,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 85.204,
+              "postprocess": 1.334
+            },
+            "memory": {
+              "activeBytes": 165042510,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 86.55,
+            "queueWaitMs": 238.555,
+            "startupMs": 0.002,
+            "ipcWallMs": 87.076
+          }
+        },
+        {
+          "text": " 例如：This shirt is different from that one.",
+          "pcmBytes": 143360,
+          "detail": {
+            "id": 54,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 184.378,
+              "postprocess": 1.065
+            },
+            "memory": {
+              "activeBytes": 165304762,
+              "cacheBytes": 127950122
+            },
+            "inferenceMs": 185.46,
+            "queueWaitMs": 325.655,
+            "startupMs": 0.002,
+            "ipcWallMs": 186.239
+          }
+        },
+        {
+          "text": " 这件衬衫和那件不同。",
+          "pcmBytes": 110880,
+          "detail": {
+            "id": 55,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 137.17,
+              "postprocess": 1.595
+            },
+            "memory": {
+              "activeBytes": 165173698,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 138.78,
+            "queueWaitMs": 511.728,
+            "startupMs": 0.002,
+            "ipcWallMs": 139.402
+          }
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "英语vegetable的中文意思是什么？",
+      "asrMs": 175.9949577972293,
+      "asrDetail": {
+        "id": 28,
+        "text": "英语vegetable的中文意思是什么？",
+        "confidence": 0.9394130628134758,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 11,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 175.26,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 175.83
+      },
+      "endpoint": null,
+      "text": "vegetable 的意思是“蔬菜”。",
+      "firstAudioMs": 346.9509999267757,
+      "totalMs": 347.46658289805055,
+      "audioSeconds": 4.24,
+      "output": ".local/code-switch-eval/candidate/c10-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "vegetable 的意思是“蔬菜”。",
+          "pcmBytes": 135680,
+          "detail": {
+            "id": 56,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 168.25,
+              "postprocess": 1.526
+            },
+            "memory": {
+              "activeBytes": 165255550,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 169.79,
+            "queueWaitMs": 0.014,
+            "startupMs": 0.002,
+            "ipcWallMs": 170.747
+          }
+        }
+      ]
+    },
+    {
+      "id": "c09",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请解释breakfast的中文意思，然后给一个英语例句。",
+      "asrMs": 230.9357919730246,
+      "asrDetail": {
+        "id": 29,
+        "text": "请解释breakfast的中文意思，然后给一个英语例句。",
+        "confidence": 0.9355069850316178,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 18,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 229.93,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.002,
+        "ipcWallMs": 230.754
+      },
+      "endpoint": null,
+      "text": "早餐。 I usually have breakfast at 7 AM.",
+      "firstAudioMs": 1209.662958048284,
+      "totalMs": 1332.1397500112653,
+      "audioSeconds": 4.49,
+      "output": ".local/code-switch-eval/candidate/c09-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.7,
+        "promptChars": 615,
+        "systemPromptChars": 398,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 142.91,
+        "providerFirstTokenMs": 142.94,
+        "modelLoadMs": 6.484,
+        "promptEvalMs": 80.729,
+        "tokenGenerationMs": 338.307,
+        "promptTokens": 147,
+        "generatedTokens": 28,
+        "exampleRepairRequests": 1,
+        "languageRepairMs": 429.85,
+        "firstSentenceReadyMs": 882.34,
+        "firstSentenceChars": 4,
+        "firstSpeechTextReadyMs": 882.34
+      },
+      "speech": [
+        {
+          "text": "早餐。",
+          "pcmBytes": 58880,
+          "detail": {
+            "id": 57,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 94.086,
+              "postprocess": 1.589
+            },
+            "memory": {
+              "activeBytes": 165009734,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 95.69,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 96.192
+          }
+        },
+        {
+          "text": " I usually have breakfast at 7 AM.",
+          "pcmBytes": 84800,
+          "detail": {
+            "id": 58,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 117.313,
+              "postprocess": 0.708
+            },
+            "memory": {
+              "activeBytes": 165091786,
+              "cacheBytes": 133666364
+            },
+            "inferenceMs": 118.04,
+            "queueWaitMs": 96.065,
+            "startupMs": 0.003,
+            "ipcWallMs": 121.172
+          }
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "蝴蝶是什么意思？请用中文解释。",
+      "asrMs": 187.50741705298424,
+      "asrDetail": {
+        "id": 30,
+        "text": "蝴蝶是什么意思？请用中文解释。",
+        "confidence": 0.907354349427929,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 12,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 186.63,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 187.339
+      },
+      "endpoint": null,
+      "text": "我没有听清要解释的英语单词，请把单词再说一遍或发文字。",
+      "firstAudioMs": 344.7430422529578,
+      "totalMs": 505.68708404898643,
+      "audioSeconds": 7.985,
+      "output": ".local/code-switch-eval/candidate/c08-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_missing_word",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "我没有听清要解释的英语单词，",
+          "pcmBytes": 124640,
+          "detail": {
+            "id": 59,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 154.727,
+              "postprocess": 1.57
+            },
+            "memory": {
+              "activeBytes": 165222898,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 156.31,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 157.013
+          }
+        },
+        {
+          "text": "请把单词再说一遍或发文字。",
+          "pcmBytes": 130880,
+          "detail": {
+            "id": 60,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 158.28,
+              "postprocess": 1.423
+            },
+            "memory": {
+              "activeBytes": 165239278,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.72,
+            "queueWaitMs": 157.01,
+            "startupMs": 0.002,
+            "ipcWallMs": 160.474
+          }
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "computer这个词用中文怎么说？",
+      "asrMs": 153.6348327063024,
+      "asrDetail": {
+        "id": 31,
+        "text": "computer这个词用中文怎么说？",
+        "confidence": 0.8824969025845955,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 9,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 152.93,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.002,
+        "ipcWallMs": 153.496
+      },
+      "endpoint": null,
+      "text": "computer 的意思是“电脑”。",
+      "firstAudioMs": 327.04216660931706,
+      "totalMs": 327.5367496535182,
+      "audioSeconds": 4.215,
+      "output": ".local/code-switch-eval/candidate/c07-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "computer 的意思是“电脑”。",
+          "pcmBytes": 134880,
+          "detail": {
+            "id": 61,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 171.021,
+              "postprocess": 1.47
+            },
+            "memory": {
+              "activeBytes": 165255555,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 172.51,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 173.194
+          }
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "英语单词“mat”，中文怎么说？",
+      "asrMs": 158.24287524446845,
+      "asrDetail": {
+        "id": 32,
+        "text": "英语单词“mat”，中文怎么说？",
+        "confidence": 0.8553453273074225,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 11,
+        "memory": {
+          "activeBytes": 1900578316,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 157.6,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 158.105
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 326.8135003745556,
+      "totalMs": 482.44116734713316,
+      "audioSeconds": 8.045,
+      "output": ".local/code-switch-eval/candidate/c06-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.11
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "pcmBytes": 137760,
+          "detail": {
+            "id": 62,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 166.326,
+              "postprocess": 1.223
+            },
+            "memory": {
+              "activeBytes": 165255682,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 167.57,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 168.294
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "pcmBytes": 119680,
+          "detail": {
+            "id": 63,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 153.074,
+              "postprocess": 1.466
+            },
+            "memory": {
+              "activeBytes": 165206494,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 154.55,
+            "queueWaitMs": 168.288,
+            "startupMs": 0.003,
+            "ipcWallMs": 155.191
+          }
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请用中文解释“sad”，并给两个英语例句。",
+      "asrMs": 205.87395783513784,
+      "asrDetail": {
+        "id": 33,
+        "text": "请用中文解释“sad”，并给两个英语例句。",
+        "confidence": 0.9823013510997377,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 17,
+        "memory": {
+          "activeBytes": 1900572172,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 205.08,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.002,
+        "ipcWallMs": 205.72
+      },
+      "endpoint": null,
+      "text": "sad 的意思是“悲伤的；悲哀的;令人悲哀的,让人难过的”。 例如：I was sad to hear the news. 和 She felt sad because she lost her favorite toy.",
+      "firstAudioMs": 1206.9802917540073,
+      "totalMs": 1747.1733749844134,
+      "audioSeconds": 16.51,
+      "output": ".local/code-switch-eval/candidate/c05-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.7,
+        "promptChars": 1546,
+        "systemPromptChars": 1525,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 135.39,
+        "providerFirstTokenMs": 135.42,
+        "modelLoadMs": 10.759,
+        "promptEvalMs": 112.237,
+        "tokenGenerationMs": 675.412,
+        "promptTokens": 666,
+        "generatedTokens": 60,
+        "firstSentenceReadyMs": 811.12,
+        "firstSentenceChars": 31,
+        "firstSpeechTextReadyMs": 811.13
+      },
+      "speech": [
+        {
+          "text": "sad 的意思是“悲伤的；",
+          "pcmBytes": 134080,
+          "detail": {
+            "id": 64,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 187.214,
+              "postprocess": 1.598
+            },
+            "memory": {
+              "activeBytes": 165255560,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 188.84,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 189.664
+          }
+        },
+        {
+          "text": "悲哀的;令人悲哀的,让人难过的”。",
+          "pcmBytes": 123520,
+          "detail": {
+            "id": 65,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 158.793,
+              "postprocess": 1.161
+            },
+            "memory": {
+              "activeBytes": 165206518,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 159.97,
+            "queueWaitMs": 189.621,
+            "startupMs": 0.002,
+            "ipcWallMs": 160.61
+          }
+        },
+        {
+          "text": " 例如：I was sad to hear the news.",
+          "pcmBytes": 131360,
+          "detail": {
+            "id": 66,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 178.455,
+              "postprocess": 0.999
+            },
+            "memory": {
+              "activeBytes": 165239196,
+              "cacheBytes": 125819476
+            },
+            "inferenceMs": 179.47,
+            "queueWaitMs": 350.253,
+            "startupMs": 0.003,
+            "ipcWallMs": 180.162
+          }
+        },
+        {
+          "text": " 和 She felt sad because she lost her favorite toy.",
+          "pcmBytes": 139360,
+          "detail": {
+            "id": 67,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 196.564,
+              "postprocess": 0.937
+            },
+            "memory": {
+              "activeBytes": 165272086,
+              "cacheBytes": 134038680
+            },
+            "inferenceMs": 197.52,
+            "queueWaitMs": 530.439,
+            "startupMs": 0.002,
+            "ipcWallMs": 198.204
+          }
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "中文是什么意思？请回答中文。",
+      "asrMs": 200.08166693150997,
+      "asrDetail": {
+        "id": 34,
+        "text": "中文是什么意思？请回答中文。",
+        "confidence": 1.0,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 11,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 199.23,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.002,
+        "ipcWallMs": 199.876
+      },
+      "endpoint": null,
+      "text": "中文的意思是用汉字书写的语言，是中国以及一些其他国家和地区的官方语言。",
+      "firstAudioMs": 814.8309169337153,
+      "totalMs": 1035.024041775614,
+      "audioSeconds": 10.035,
+      "output": ".local/code-switch-eval/candidate/c04-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.59,
+        "promptChars": 1585,
+        "systemPromptChars": 1571,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 202.14,
+        "providerFirstTokenMs": 202.18,
+        "modelLoadMs": 16.405,
+        "promptEvalMs": 176.284,
+        "tokenGenerationMs": 225.081,
+        "promptTokens": 661,
+        "generatedTokens": 19,
+        "firstSentenceReadyMs": 427.71,
+        "firstSentenceChars": 36,
+        "firstSpeechTextReadyMs": 427.71
+      },
+      "speech": [
+        {
+          "text": "中文的意思是用汉字书写的语言，",
+          "pcmBytes": 139040,
+          "detail": {
+            "id": 68,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 184.686,
+              "postprocess": 1.331
+            },
+            "memory": {
+              "activeBytes": 165255662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 186.04,
+            "queueWaitMs": 0.008,
+            "startupMs": 0.005,
+            "ipcWallMs": 186.821
+          }
+        },
+        {
+          "text": "是中国以及一些其他国家和地区的官方语言。",
+          "pcmBytes": 182080,
+          "detail": {
+            "id": 69,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 217.149,
+              "postprocess": 1.598
+            },
+            "memory": {
+              "activeBytes": 165386826,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 218.76,
+            "queueWaitMs": 186.789,
+            "startupMs": 0.002,
+            "ipcWallMs": 219.684
+          }
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "用中文解释red。再给一个英语例句。",
+      "asrMs": 190.76437503099442,
+      "asrDetail": {
+        "id": 35,
+        "text": "用中文解释red。再给一个英语例句。",
+        "confidence": 0.8824969025845955,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 15,
+        "memory": {
+          "activeBytes": 1900576268,
+          "cacheBytes": 1103888,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 189.97,
+        "queueWaitMs": 0.009,
+        "startupMs": 0.003,
+        "ipcWallMs": 190.6
+      },
+      "endpoint": null,
+      "text": "red 是一种颜色，用来描述像国旗、花朵那样的鲜艳颜色。 英语例句：The sun sets in red in the west.",
+      "firstAudioMs": 884.7599169239402,
+      "totalMs": 1276.101041585207,
+      "audioSeconds": 13.475,
+      "output": ".local/code-switch-eval/candidate/c03-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.63,
+        "promptChars": 1252,
+        "systemPromptChars": 1234,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 194.35,
+        "providerFirstTokenMs": 194.39,
+        "modelLoadMs": 9.18,
+        "promptEvalMs": 179.125,
+        "tokenGenerationMs": 331.141,
+        "promptTokens": 582,
+        "generatedTokens": 29,
+        "firstSentenceReadyMs": 526.02,
+        "firstSentenceChars": 29,
+        "firstSpeechTextReadyMs": 526.03
+      },
+      "speech": [
+        {
+          "text": "red 是一种颜色，",
+          "pcmBytes": 117280,
+          "detail": {
+            "id": 70,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 165.125,
+              "postprocess": 1.587
+            },
+            "memory": {
+              "activeBytes": 165206378,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 166.74,
+            "queueWaitMs": 0.008,
+            "startupMs": 0.007,
+            "ipcWallMs": 167.547
+          }
+        },
+        {
+          "text": "用来描述像国旗、花朵那样的鲜艳颜色。",
+          "pcmBytes": 164160,
+          "detail": {
+            "id": 71,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 198.805,
+              "postprocess": 1.35
+            },
+            "memory": {
+              "activeBytes": 165337662,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 200.17,
+            "queueWaitMs": 167.491,
+            "startupMs": 0.002,
+            "ipcWallMs": 200.99
+          }
+        },
+        {
+          "text": " 英语例句：The sun sets in red in the west.",
+          "pcmBytes": 149760,
+          "detail": {
+            "id": 72,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 187.826,
+              "postprocess": 1.079
+            },
+            "memory": {
+              "activeBytes": 165321238,
+              "cacheBytes": 130125952
+            },
+            "inferenceMs": 188.93,
+            "queueWaitMs": 368.131,
+            "startupMs": 0.002,
+            "ipcWallMs": 189.843
+          }
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "请告诉我的中文意思。",
+      "asrMs": 160.09454196318984,
+      "asrDetail": {
+        "id": 36,
+        "text": "请告诉我的中文意思。",
+        "confidence": 0.9200444146293233,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 9,
+        "memory": {
+          "activeBytes": 1900570124,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 159.42,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 159.959
+      },
+      "endpoint": null,
+      "text": "mine\" 的意思是 \"我的\"。",
+      "firstAudioMs": 732.4381251819432,
+      "totalMs": 732.8760419040918,
+      "audioSeconds": 4.115,
+      "output": ".local/code-switch-eval/candidate/c02-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.69,
+        "promptChars": 1611,
+        "systemPromptChars": 1601,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 283.71,
+        "providerFirstTokenMs": 283.76,
+        "modelLoadMs": 14.796,
+        "promptEvalMs": 259.606,
+        "tokenGenerationMs": 101.651,
+        "promptTokens": 666,
+        "generatedTokens": 10,
+        "firstSpeechTextReadyMs": 385.79,
+        "firstSentenceReadyMs": 386.17,
+        "firstSentenceChars": 17
+      },
+      "speech": [
+        {
+          "text": "mine\" 的意思是 \"我的\"。",
+          "pcmBytes": 131680,
+          "detail": {
+            "id": 73,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 183.332,
+              "postprocess": 1.688
+            },
+            "memory": {
+              "activeBytes": 165255555,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 185.05,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.006,
+            "ipcWallMs": 185.937
+          }
+        }
+      ]
+    },
+    {
+      "id": "c01",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "英语里面“cat”这个词的中文含义是什么？",
+      "asrMs": 188.87345911934972,
+      "asrDetail": {
+        "id": 37,
+        "text": "英语里面“cat”这个词的中文含义是什么？",
+        "confidence": 0.9131007162822623,
+        "language": "zh",
+        "engine": "qwen3-asr",
+        "generationTokens": 14,
+        "memory": {
+          "activeBytes": 1900568076,
+          "cacheBytes": 2170904,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 188.13,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 188.723
+      },
+      "endpoint": null,
+      "text": "英语里的“cat”翻译成中文是“猫”。",
+      "firstAudioMs": 703.3620001748204,
+      "totalMs": 703.8887091912329,
+      "audioSeconds": 6.77,
+      "output": ".local/code-switch-eval/candidate/c01-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.73,
+        "promptChars": 2509,
+        "systemPromptChars": 2488,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 78.89,
+        "providerFirstTokenMs": 78.92,
+        "modelLoadMs": 12.253,
+        "promptEvalMs": 49.805,
+        "tokenGenerationMs": 146.709,
+        "promptTokens": 553,
+        "generatedTokens": 13,
+        "firstSentenceReadyMs": 225.88,
+        "firstSentenceChars": 20,
+        "firstSpeechTextReadyMs": 225.88
+      },
+      "speech": [
+        {
+          "text": "英语里的“cat”翻译成中文是“猫”。",
+          "pcmBytes": 216640,
+          "detail": {
+            "id": 74,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 285.708,
+              "postprocess": 1.72
+            },
+            "memory": {
+              "activeBytes": 165517726,
+              "cacheBytes": 0
+            },
+            "inferenceMs": 287.45,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 288.474
+          }
+        }
+      ]
+    }
+  ],
+  "workerWarmupMs": 8634.523749817163,
+  "completedUtc": "2026-11-04T08:29:30Z"
+}

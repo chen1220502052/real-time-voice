@@ -8,6 +8,7 @@ import re
 import secrets
 import sqlite3
 import time
+from urllib.parse import urlencode
 
 from aiohttp import web
 
@@ -103,7 +104,7 @@ async def account_access(request, handler):
     if request.path not in PUBLIC and not request['user']:
         if request.path.startswith('/api/') or request.path == '/ws':
             return web.json_response({'code': 'AUTH_REQUIRED', 'message': '请先登录'}, status=401)
-        raise web.HTTPFound('/login.html')
+        raise web.HTTPFound('/login.html?' + urlencode({'next': str(request.rel_url)}))
     response = await handler(request)
     if not response.prepared:
         response.headers['Cache-Control'] = 'no-store'

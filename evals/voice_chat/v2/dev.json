@@ -1,0 +1,550 @@
+{
+  "version": 2,
+  "description": "Previous-release exposed errors; development/regression only, never independent validation.",
+  "cases": [
+    {
+      "id": "behavior-identity-age-3",
+      "group": "behavior-identity-age",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 3,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|artificial|computer|virtual",
+          "no.*age|don.t.*age|not.*age|ageless"
+        ],
+        "forbidden": [
+          "I am (?:eight|nine|ten|\\d+) years old"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-identity-age-5",
+      "group": "behavior-identity-age",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|artificial|computer|virtual",
+          "no.*age|don.t.*age|not.*age|ageless"
+        ],
+        "forbidden": [
+          "I am (?:eight|nine|ten|\\d+) years old"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-identity-age-7",
+      "group": "behavior-identity-age",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|artificial|computer|virtual",
+          "no.*age|don.t.*age|not.*age|ageless"
+        ],
+        "forbidden": [
+          "I am (?:eight|nine|ten|\\d+) years old"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-identity-age-9",
+      "group": "behavior-identity-age",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 9,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old are you, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|artificial|computer|virtual",
+          "no.*age|don.t.*age|not.*age|ageless"
+        ],
+        "forbidden": [
+          "I am (?:eight|nine|ten|\\d+) years old"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-identity-food-3",
+      "group": "behavior-identity-food",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 3,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What did you eat for breakfast today?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "don.t eat|do not eat|no.*breakfast|AI|virtual"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-identity-food-5",
+      "group": "behavior-identity-food",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What did you eat for breakfast today?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "don.t eat|do not eat|no.*breakfast|AI|virtual"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-identity-food-7",
+      "group": "behavior-identity-food",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What did you eat for breakfast today?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "don.t eat|do not eat|no.*breakfast|AI|virtual"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-identity-food-9",
+      "group": "behavior-identity-food",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 9,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What did you eat for breakfast today?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "don.t eat|do not eat|no.*breakfast|AI|virtual"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-chinese-help-3",
+      "group": "behavior-chinese-help",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 3,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我不懂 thirsty 是什么意思，请用中文解释。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "渴"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45,
+        "chinese": true
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-chinese-help-5",
+      "group": "behavior-chinese-help",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我不懂 thirsty 是什么意思，请用中文解释。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "渴"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45,
+        "chinese": true
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-chinese-help-7",
+      "group": "behavior-chinese-help",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我不懂 thirsty 是什么意思，请用中文解释。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "渴"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45,
+        "chinese": true
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-chinese-help-9",
+      "group": "behavior-chinese-help",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 9,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我不懂 thirsty 是什么意思，请用中文解释。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "渴"
+        ],
+        "forbidden": [],
+        "max_questions": 0,
+        "max_words": 45,
+        "chinese": true
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-like-not-favourite-3",
+      "group": "behavior-like-not-favourite",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 3,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like pears."
+        },
+        {
+          "role": "assistant",
+          "content": "Pears can be sweet."
+        },
+        {
+          "role": "user",
+          "content": "Did I say pears are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|not|only|didn.t"
+        ],
+        "forbidden": [
+          "yes,.*favourite"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-like-not-favourite-5",
+      "group": "behavior-like-not-favourite",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like pears."
+        },
+        {
+          "role": "assistant",
+          "content": "Pears can be sweet."
+        },
+        {
+          "role": "user",
+          "content": "Did I say pears are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|not|only|didn.t"
+        ],
+        "forbidden": [
+          "yes,.*favourite"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-like-not-favourite-7",
+      "group": "behavior-like-not-favourite",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like pears."
+        },
+        {
+          "role": "assistant",
+          "content": "Pears can be sweet."
+        },
+        {
+          "role": "user",
+          "content": "Did I say pears are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|not|only|didn.t"
+        ],
+        "forbidden": [
+          "yes,.*favourite"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-like-not-favourite-9",
+      "group": "behavior-like-not-favourite",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 9,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like pears."
+        },
+        {
+          "role": "assistant",
+          "content": "Pears can be sweet."
+        },
+        {
+          "role": "user",
+          "content": "Did I say pears are my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|not|only|didn.t"
+        ],
+        "forbidden": [
+          "yes,.*favourite"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-fiction-boundary-3",
+      "group": "behavior-fiction-boundary",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 3,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "A story says: \"I am Leo. I am seven.\" Is seven your real age, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|AI|not.*age|don.t.*age"
+        ],
+        "forbidden": [
+          "I am seven"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-fiction-boundary-5",
+      "group": "behavior-fiction-boundary",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "A story says: \"I am Leo. I am seven.\" Is seven your real age, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|AI|not.*age|don.t.*age"
+        ],
+        "forbidden": [
+          "I am seven"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-fiction-boundary-7",
+      "group": "behavior-fiction-boundary",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 7,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "A story says: \"I am Leo. I am seven.\" Is seven your real age, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|AI|not.*age|don.t.*age"
+        ],
+        "forbidden": [
+          "I am seven"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    },
+    {
+      "id": "behavior-fiction-boundary-9",
+      "group": "behavior-fiction-boundary",
+      "split": "heldout",
+      "category": "conversation",
+      "grade": 9,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "A story says: \"I am Leo. I am seven.\" Is seven your real age, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "no|AI|not.*age|don.t.*age"
+        ],
+        "forbidden": [
+          "I am seven"
+        ],
+        "max_questions": 0,
+        "max_words": 45
+      },
+      "rubric": "Answer the actual question accurately in natural, simple, complete spoken sentences. Respect supplied facts, requested language and context; avoid unnecessary questions.",
+      "sourceId": "product-behavior"
+    }
+  ]
+}

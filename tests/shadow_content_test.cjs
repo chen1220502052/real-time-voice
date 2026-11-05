@@ -26,3 +26,12 @@ test('verified sentence text takes priority over generic audio chunks',()=>{
 test('missing short excerpts produce an honest empty state, not a whole-audio fallback',()=>{
  assert.deepEqual(S.groups({recordings:[{kind:'passage',title:'教材分段 1',url:'/long.mp3'}]},'passage'),[]);
 });
+test('aligned sentences preserve exact source ranges and disclose local synthesis',()=>{
+ const c={recordings:[{id:'tts',kind:'passage',title:'教材示范句 · 本地合成',url:'/sample.wav',
+  audioKind:'synthetic',sourceLabel:'本地 AI 合成示范音',
+  alignedSentences:[{text:'I like my cat.',start:0,end:2.8,chinese:'我喜欢我的猫。'}]}]};
+ const t=S.groups(c,'passage')[0].targets[0];
+ assert.equal(t.label,'I like my cat.');assert.equal(t.type,'sentence');
+ assert.equal(t.sourceLabel,'本地 AI 合成示范音');
+ assert.deepEqual(t.source,{url:'/sample.wav',start:0,end:2.8});
+});

@@ -1,0 +1,19 @@
+{
+  "inputFiles": 23,
+  "sourceSegments": 43,
+  "allInputHashesMatch": true,
+  "sourceChecks": {
+    "backend/asr_target.py": true,
+    "scripts/local_speech_worker.py": true,
+    "backend/providers/speech_local.py": true,
+    "backend/providers/speech_worker.py": true,
+    "backend/voice_grounding.py": true,
+    "backend/voice_prompt.py": true,
+    "backend/english_chat.py": true,
+    "backend/curriculum_chat.py": true,
+    "backend/reply_sentences.py": true,
+    "backend/speech_text.py": true,
+    "backend/data/chat/curriculum-vocabulary.json": true,
+    "backend/data/chat/voice-glossary-supplement.json": true
+  }
+}

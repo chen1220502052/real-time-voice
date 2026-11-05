@@ -1,0 +1,929 @@
+{
+  "kind": "text_chat",
+  "datasetSha256": "efeeb856154a2c4129919e12f814e184dbd4bf751496bd1538a062c212c5e16b",
+  "runs": [
+    {
+      "reply": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstMs": 8.016957901418209,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t08",
+      "totalMs": 22.61,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_identity",
+        "chatLookupMs": 6.326
+      }
+    },
+    {
+      "reply": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "firstMs": 0.10258425027132034,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t07",
+      "totalMs": 0.14,
+      "timing": {
+        "chatReplySource": "grounded_identity"
+      }
+    },
+    {
+      "reply": "Sure, you can say, \"Can you play with me?",
+      "firstMs": 716.318542137742,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t24",
+      "totalMs": 716.51,
+      "timing": {
+        "localAdmissionWaitMs": 0.029,
+        "providerRequestMs": 1.2,
+        "promptChars": 2444,
+        "systemPromptChars": 2369,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 574.72,
+        "providerFirstTokenMs": 574.82,
+        "firstSentenceReadyMs": 716.32,
+        "firstSentenceChars": 42,
+        "firstSpeechTextReadyMs": 716.32
+      }
+    },
+    {
+      "reply": "Peach 的意思是“桃子”。 English example: I like to eat peach ice cream.",
+      "firstMs": 299.41037483513355,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t17",
+      "totalMs": 441.7,
+      "timing": {
+        "localAdmissionWaitMs": 0.017,
+        "providerRequestMs": 27.07,
+        "promptChars": 2354,
+        "systemPromptChars": 2290,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 27.64,
+        "providerHeadersMs": 205.25,
+        "providerFirstTokenMs": 205.27,
+        "firstSentenceReadyMs": 299.42,
+        "firstSentenceChars": 16,
+        "firstSpeechTextReadyMs": 299.43,
+        "modelLoadMs": 4.61,
+        "promptEvalMs": 169.316,
+        "tokenGenerationMs": 235.865,
+        "promptTokens": 492,
+        "generatedTokens": 20
+      }
+    },
+    {
+      "reply": "Mia is eight.",
+      "firstMs": 126.29570811986923,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t11",
+      "totalMs": 126.35,
+      "timing": {
+        "localAdmissionWaitMs": 0.018,
+        "providerRequestMs": 0.97,
+        "promptChars": 2180,
+        "systemPromptChars": 2139,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 64.58,
+        "providerFirstTokenMs": 64.63,
+        "modelLoadMs": 7.614,
+        "promptEvalMs": 51.008,
+        "tokenGenerationMs": 61.127,
+        "promptTokens": 454,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 126.31,
+        "firstSentenceChars": 14,
+        "firstSpeechTextReadyMs": 126.32
+      }
+    },
+    {
+      "reply": "light 在这里的意思是“重量轻”。",
+      "firstMs": 0.45058270916342735,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t16",
+      "totalMs": 1.96,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_glossary",
+        "chatLookupMs": 0.21
+      }
+    },
+    {
+      "reply": "Sure! You can say \"Thank you\" or \"Thanks.",
+      "firstMs": 115.68595888093114,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t22",
+      "totalMs": 234.31,
+      "timing": {
+        "localAdmissionWaitMs": 0.05,
+        "providerRequestMs": 1.91,
+        "promptChars": 1850,
+        "systemPromptChars": 1787,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 90.54,
+        "providerFirstTokenMs": 90.68,
+        "firstSentenceReadyMs": 115.72,
+        "firstSentenceChars": 6,
+        "firstSpeechTextReadyMs": 115.72
+      }
+    },
+    {
+      "reply": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstMs": 0.24037528783082962,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t18",
+      "totalMs": 0.32,
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown"
+      }
+    },
+    {
+      "reply": "Catch the next one.",
+      "firstMs": 122.01616680249572,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t19",
+      "totalMs": 122.12,
+      "timing": {
+        "localAdmissionWaitMs": 0.031,
+        "providerRequestMs": 2.59,
+        "promptChars": 1837,
+        "systemPromptChars": 1782,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 3.43,
+        "providerHeadersMs": 61.27,
+        "providerFirstTokenMs": 61.32,
+        "modelLoadMs": 5.492,
+        "promptEvalMs": 49.172,
+        "tokenGenerationMs": 60.436,
+        "promptTokens": 393,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 122.09,
+        "firstSentenceChars": 20,
+        "firstSpeechTextReadyMs": 122.1
+      }
+    },
+    {
+      "reply": "You said your favourite is tennis.",
+      "firstMs": 5.152832716703415,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t02",
+      "totalMs": 6.66,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "games",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_preference",
+        "chatLookupMs": 4.923
+      }
+    },
+    {
+      "reply": "You said what you like, but you have not said what you like best.",
+      "firstMs": 0.14016591012477875,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t01",
+      "totalMs": 0.21,
+      "timing": {
+        "chatReplySource": "grounded_preference"
+      }
+    },
+    {
+      "reply": "cherry 的意思是“樱桃”。",
+      "firstMs": 0.07095886394381523,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t13",
+      "totalMs": 0.11,
+      "timing": {
+        "chatReplySource": "grounded_glossary"
+      }
+    },
+    {
+      "reply": "我是 Kitty，一只 AI 猫，没有人类的年龄或生日。",
+      "firstMs": 0.29504066333174706,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t08",
+      "totalMs": 0.88,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_identity",
+        "chatLookupMs": 0.136
+      }
+    },
+    {
+      "reply": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "firstMs": 0.04341732710599899,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t07",
+      "totalMs": 0.07,
+      "timing": {
+        "chatReplySource": "grounded_identity"
+      }
+    },
+    {
+      "reply": "You can say, \"Do you want to play together?",
+      "firstMs": 1986.6567091085017,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t24",
+      "totalMs": 1986.83,
+      "timing": {
+        "localAdmissionWaitMs": 0.025,
+        "providerRequestMs": 0.7,
+        "promptChars": 2444,
+        "systemPromptChars": 2369,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1663.42,
+        "providerFirstTokenMs": 1663.48,
+        "firstSentenceReadyMs": 1986.65,
+        "firstSentenceChars": 44,
+        "firstSpeechTextReadyMs": 1986.66
+      }
+    },
+    {
+      "reply": "Peach means peach or pinkish color in Chinese. For example, I like to eat a sweet peach.",
+      "firstMs": 1723.3288753777742,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t17",
+      "totalMs": 2048.17,
+      "timing": {
+        "localAdmissionWaitMs": 0.025,
+        "providerRequestMs": 1.64,
+        "promptChars": 2354,
+        "systemPromptChars": 2290,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 2.28,
+        "providerHeadersMs": 1394.8,
+        "providerFirstTokenMs": 1394.83,
+        "firstSentenceReadyMs": 1723.36,
+        "firstSentenceChars": 47,
+        "firstSpeechTextReadyMs": 1723.36,
+        "modelLoadMs": 4.168,
+        "promptEvalMs": 1336.483,
+        "tokenGenerationMs": 650.557,
+        "promptTokens": 496,
+        "generatedTokens": 23
+      }
+    },
+    {
+      "reply": "Mia is eight years old. That is what the story says.",
+      "firstMs": 1470.114499796182,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t11",
+      "totalMs": 1677.13,
+      "timing": {
+        "localAdmissionWaitMs": 0.022,
+        "providerRequestMs": 1.43,
+        "promptChars": 2180,
+        "systemPromptChars": 2139,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1258.0,
+        "providerFirstTokenMs": 1258.02,
+        "firstSentenceReadyMs": 1470.18,
+        "firstSentenceChars": 24,
+        "firstSpeechTextReadyMs": 1470.18,
+        "modelLoadMs": 3.687,
+        "promptEvalMs": 1249.75,
+        "tokenGenerationMs": 418.016,
+        "promptTokens": 458,
+        "generatedTokens": 15
+      }
+    },
+    {
+      "reply": "light 在这里的意思是“重量轻”。",
+      "firstMs": 0.5122092552483082,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t16",
+      "totalMs": 1.52,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_glossary",
+        "chatLookupMs": 0.112
+      }
+    },
+    {
+      "reply": "You are welcome and thanks a lot. You can also say cheers or my treat.",
+      "firstMs": 1324.7262090444565,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t22",
+      "totalMs": 1590.34,
+      "timing": {
+        "localAdmissionWaitMs": 0.011,
+        "providerRequestMs": 0.46,
+        "promptChars": 1850,
+        "systemPromptChars": 1787,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1084.34,
+        "providerFirstTokenMs": 1084.36,
+        "firstSentenceReadyMs": 1324.74,
+        "firstSentenceChars": 34,
+        "firstSpeechTextReadyMs": 1324.75,
+        "modelLoadMs": 4.076,
+        "promptEvalMs": 1076.824,
+        "tokenGenerationMs": 505.572,
+        "promptTokens": 396,
+        "generatedTokens": 18
+      }
+    },
+    {
+      "reply": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstMs": 0.08812500163912773,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t18",
+      "totalMs": 0.14,
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown"
+      }
+    },
+    {
+      "reply": "Take a taxi or walk to school. You can also leave home earlier tomorrow.",
+      "firstMs": 1333.47574993968,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t19",
+      "totalMs": 1572.85,
+      "timing": {
+        "localAdmissionWaitMs": 0.026,
+        "providerRequestMs": 1.09,
+        "promptChars": 1837,
+        "systemPromptChars": 1782,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1088.84,
+        "providerFirstTokenMs": 1088.87,
+        "firstSentenceReadyMs": 1333.51,
+        "firstSentenceChars": 31,
+        "firstSpeechTextReadyMs": 1333.51,
+        "modelLoadMs": 3.575,
+        "promptEvalMs": 1080.704,
+        "tokenGenerationMs": 483.33,
+        "promptTokens": 397,
+        "generatedTokens": 17
+      }
+    },
+    {
+      "reply": "You said your favourite is tennis.",
+      "firstMs": 0.33166632056236267,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t02",
+      "totalMs": 1.49,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "games",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_preference",
+        "chatLookupMs": 0.11
+      }
+    },
+    {
+      "reply": "You said what you like, but you have not said what you like best.",
+      "firstMs": 0.17358316108584404,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t01",
+      "totalMs": 0.22,
+      "timing": {
+        "chatReplySource": "grounded_preference"
+      }
+    },
+    {
+      "reply": "cherry 的意思是“樱桃”。",
+      "firstMs": 0.07408391684293747,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t13",
+      "totalMs": 0.12,
+      "timing": {
+        "chatReplySource": "grounded_glossary"
+      }
+    },
+    {
+      "reply": "You are eleven years old.",
+      "firstMs": 1446.7664170078933,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t10",
+      "totalMs": 1446.82,
+      "timing": {
+        "localAdmissionWaitMs": 0.042,
+        "providerRequestMs": 1.41,
+        "promptChars": 2196,
+        "systemPromptChars": 2139,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1266.49,
+        "providerFirstTokenMs": 1266.53,
+        "modelLoadMs": 3.373,
+        "promptEvalMs": 1252.638,
+        "tokenGenerationMs": 179.814,
+        "promptTokens": 471,
+        "generatedTokens": 7,
+        "firstSentenceReadyMs": 1446.8,
+        "firstSentenceChars": 26,
+        "firstSpeechTextReadyMs": 1446.8
+      }
+    },
+    {
+      "reply": "bank 在这里的意思是“河岸”。",
+      "firstMs": 0.21491572260856628,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t15",
+      "totalMs": 0.26,
+      "timing": {
+        "chatReplySource": "grounded_glossary"
+      }
+    },
+    {
+      "reply": "You ask: 你今年多大了？",
+      "firstMs": 1704.7986253164709,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t09",
+      "totalMs": 1704.85,
+      "timing": {
+        "localAdmissionWaitMs": 0.03,
+        "providerRequestMs": 2.4,
+        "promptChars": 2502,
+        "systemPromptChars": 2457,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1433.77,
+        "providerFirstTokenMs": 1433.79,
+        "modelLoadMs": 4.025,
+        "promptEvalMs": 1422.978,
+        "tokenGenerationMs": 269.941,
+        "promptTokens": 539,
+        "generatedTokens": 10,
+        "firstSentenceReadyMs": 1704.82,
+        "firstSentenceChars": 17,
+        "firstSpeechTextReadyMs": 1704.82
+      }
+    },
+    {
+      "reply": "You have not said that here. Liking something does not mean it is your favourite.",
+      "firstMs": 0.3298749215900898,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t04",
+      "totalMs": 1.46,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "animals",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_preference",
+        "chatLookupMs": 0.119
+      }
+    },
+    {
+      "reply": "You have not told me your favourite here.",
+      "firstMs": 0.31020818278193474,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t06",
+      "totalMs": 1.63,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "animals",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_preference",
+        "chatLookupMs": 0.099
+      }
+    },
+    {
+      "reply": "You like blue. It is your favorite color.",
+      "firstMs": 1211.159999947995,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t05",
+      "totalMs": 1389.74,
+      "timing": {
+        "localAdmissionWaitMs": 0.059,
+        "providerRequestMs": 1.13,
+        "promptChars": 1798,
+        "systemPromptChars": 1751,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1090.8,
+        "providerFirstTokenMs": 1090.83,
+        "firstSentenceReadyMs": 1211.17,
+        "firstSentenceChars": 15,
+        "firstSpeechTextReadyMs": 1211.17,
+        "modelLoadMs": 3.649,
+        "promptEvalMs": 1082.813,
+        "tokenGenerationMs": 298.827,
+        "promptTokens": 398,
+        "generatedTokens": 11
+      }
+    },
+    {
+      "reply": "我喜欢下雨，因为可以玩水。",
+      "firstMs": 1826.4685827307403,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t20",
+      "totalMs": 1826.52,
+      "timing": {
+        "localAdmissionWaitMs": 0.011,
+        "providerRequestMs": 0.88,
+        "promptChars": 2605,
+        "systemPromptChars": 2562,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1616.29,
+        "providerFirstTokenMs": 1616.37,
+        "modelLoadMs": 4.21,
+        "promptEvalMs": 1607.685,
+        "tokenGenerationMs": 208.605,
+        "promptTokens": 590,
+        "generatedTokens": 8,
+        "firstSentenceReadyMs": 1826.48,
+        "firstSentenceChars": 14,
+        "firstSpeechTextReadyMs": 1826.49
+      }
+    },
+    {
+      "reply": "Sure! What kind of music do you like?",
+      "firstMs": 1233.0342498607934,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t23",
+      "totalMs": 1469.97,
+      "timing": {
+        "localAdmissionWaitMs": 0.025,
+        "providerRequestMs": 1.07,
+        "promptChars": 2138,
+        "systemPromptChars": 2051,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1172.48,
+        "providerFirstTokenMs": 1172.58,
+        "firstSentenceReadyMs": 1233.19,
+        "firstSentenceChars": 6,
+        "firstSpeechTextReadyMs": 1233.2,
+        "modelLoadMs": 3.52,
+        "promptEvalMs": 1164.181,
+        "tokenGenerationMs": 296.645,
+        "promptTokens": 478,
+        "generatedTokens": 11
+      }
+    },
+    {
+      "reply": "It is black. That matches your cat drawings perfectly!",
+      "firstMs": 1344.5212501101196,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t21",
+      "totalMs": 1555.99,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "animals",
+        "chatRepeatCount": 1,
+        "chatReplySource": "generated",
+        "chatLookupMs": 0.097,
+        "localAdmissionWaitMs": 0.066,
+        "providerRequestMs": 1.46,
+        "promptChars": 1764,
+        "systemPromptChars": 1681,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 1223.91,
+        "providerFirstTokenMs": 1223.93,
+        "modelLoadMs": 3.939,
+        "promptEvalMs": 1176.261,
+        "tokenGenerationMs": 331.705,
+        "promptTokens": 398,
+        "generatedTokens": 12
+      }
+    },
+    {
+      "reply": "goose 的意思是“鹅”。",
+      "firstMs": 0.16962504014372826,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t14",
+      "totalMs": 1.32,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_glossary",
+        "chatLookupMs": 0.038
+      }
+    },
+    {
+      "reply": "You said your favourite is pears.",
+      "firstMs": 0.14025019481778145,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t03",
+      "totalMs": 0.21,
+      "timing": {
+        "chatReplySource": "grounded_preference"
+      }
+    },
+    {
+      "reply": "My name is Kitty and yes I can help you practice.",
+      "firstMs": 1488.106541801244,
+      "done": true,
+      "model": "qwen3.5:9b",
+      "id": "t12",
+      "totalMs": 1488.15,
+      "timing": {
+        "localAdmissionWaitMs": 0.024,
+        "providerRequestMs": 0.5,
+        "promptChars": 2114,
+        "systemPromptChars": 2059,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 1114.12,
+        "providerFirstTokenMs": 1114.16,
+        "modelLoadMs": 4.025,
+        "promptEvalMs": 1093.15,
+        "tokenGenerationMs": 373.707,
+        "promptTokens": 465,
+        "generatedTokens": 13,
+        "firstSentenceReadyMs": 1488.14,
+        "firstSentenceChars": 50,
+        "firstSpeechTextReadyMs": 1488.14
+      }
+    },
+    {
+      "reply": "You are eleven years old.",
+      "firstMs": 229.6571251936257,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t10",
+      "totalMs": 229.71,
+      "timing": {
+        "localAdmissionWaitMs": 0.021,
+        "providerRequestMs": 0.91,
+        "promptChars": 2196,
+        "systemPromptChars": 2139,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 157.33,
+        "providerFirstTokenMs": 157.37,
+        "modelLoadMs": 5.06,
+        "promptEvalMs": 142.973,
+        "tokenGenerationMs": 71.659,
+        "promptTokens": 467,
+        "generatedTokens": 7,
+        "firstSentenceReadyMs": 229.69,
+        "firstSentenceChars": 26,
+        "firstSpeechTextReadyMs": 229.69
+      }
+    },
+    {
+      "reply": "bank 在这里的意思是“河岸”。",
+      "firstMs": 0.097665935754776,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t15",
+      "totalMs": 0.15,
+      "timing": {
+        "chatReplySource": "grounded_glossary"
+      }
+    },
+    {
+      "reply": "你说“你多大了？",
+      "firstMs": 221.34841699153185,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t09",
+      "totalMs": 221.64,
+      "timing": {
+        "localAdmissionWaitMs": 0.024,
+        "providerRequestMs": 1.27,
+        "promptChars": 2502,
+        "systemPromptChars": 2457,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 149.12,
+        "providerFirstTokenMs": 149.17,
+        "firstSentenceReadyMs": 221.39,
+        "firstSentenceChars": 9,
+        "firstSpeechTextReadyMs": 221.39
+      }
+    },
+    {
+      "reply": "You have not said that here. Liking something does not mean it is your favourite.",
+      "firstMs": 0.3427090123295784,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t04",
+      "totalMs": 1.78,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "animals",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_preference",
+        "chatLookupMs": 0.116
+      }
+    },
+    {
+      "reply": "You have not told me your favourite here.",
+      "firstMs": 0.33412501215934753,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t06",
+      "totalMs": 1.32,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "animals",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_preference",
+        "chatLookupMs": 0.114
+      }
+    },
+    {
+      "reply": "You like blue.",
+      "firstMs": 131.0501671396196,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t05",
+      "totalMs": 131.1,
+      "timing": {
+        "localAdmissionWaitMs": 0.032,
+        "providerRequestMs": 1.16,
+        "promptChars": 1798,
+        "systemPromptChars": 1751,
+        "historyMessages": 3,
+        "connectionReused": false,
+        "connectionReadyMs": 1.77,
+        "providerHeadersMs": 85.1,
+        "providerFirstTokenMs": 85.15,
+        "modelLoadMs": 3.582,
+        "promptEvalMs": 76.642,
+        "tokenGenerationMs": 45.87,
+        "promptTokens": 394,
+        "generatedTokens": 5,
+        "firstSentenceReadyMs": 131.07,
+        "firstSentenceChars": 15,
+        "firstSpeechTextReadyMs": 131.08
+      }
+    },
+    {
+      "reply": "你喜欢雨吗？",
+      "firstMs": 327.0872081629932,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t20",
+      "totalMs": 327.15,
+      "timing": {
+        "localAdmissionWaitMs": 0.023,
+        "providerRequestMs": 1.73,
+        "promptChars": 2605,
+        "systemPromptChars": 2562,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 277.85,
+        "providerFirstTokenMs": 277.9,
+        "modelLoadMs": 4.181,
+        "promptEvalMs": 268.55,
+        "tokenGenerationMs": 49.158,
+        "promptTokens": 588,
+        "generatedTokens": 5,
+        "firstSentenceReadyMs": 327.13,
+        "firstSentenceChars": 7,
+        "firstSpeechTextReadyMs": 327.14
+      }
+    },
+    {
+      "reply": "Sure thing! What kind of music do you like?",
+      "firstMs": 188.3129170164466,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t23",
+      "totalMs": 283.65,
+      "timing": {
+        "localAdmissionWaitMs": 0.017,
+        "providerRequestMs": 0.49,
+        "promptChars": 2138,
+        "systemPromptChars": 2051,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 151.19,
+        "providerFirstTokenMs": 151.21,
+        "firstSentenceReadyMs": 188.32,
+        "firstSentenceChars": 12,
+        "firstSpeechTextReadyMs": 188.33,
+        "modelLoadMs": 4.025,
+        "promptEvalMs": 143.118,
+        "tokenGenerationMs": 132.252,
+        "promptTokens": 474,
+        "generatedTokens": 12
+      }
+    },
+    {
+      "reply": "Your pen is black.",
+      "firstMs": 465.253499802202,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t21",
+      "totalMs": 465.89,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "animals",
+        "chatRepeatCount": 1,
+        "chatReplySource": "generated",
+        "chatLookupMs": 0.046,
+        "localAdmissionWaitMs": 0.033,
+        "providerRequestMs": 0.89,
+        "promptChars": 1764,
+        "systemPromptChars": 1681,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 406.72,
+        "providerFirstTokenMs": 406.77,
+        "modelLoadMs": 4.782,
+        "promptEvalMs": 395.16,
+        "tokenGenerationMs": 58.873,
+        "promptTokens": 394,
+        "generatedTokens": 6
+      }
+    },
+    {
+      "reply": "goose 的意思是“鹅”。",
+      "firstMs": 0.5034171044826508,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t14",
+      "totalMs": 3.38,
+      "timing": {
+        "chatAction": "answer",
+        "chatTopic": "",
+        "chatRepeatCount": 1,
+        "chatReplySource": "grounded_glossary",
+        "chatLookupMs": 0.057
+      }
+    },
+    {
+      "reply": "You said your favourite is pears.",
+      "firstMs": 0.06491690874099731,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t03",
+      "totalMs": 0.09,
+      "timing": {
+        "chatReplySource": "grounded_preference"
+      }
+    },
+    {
+      "reply": "My name is Kitty. Sure, let's practice.",
+      "firstMs": 211.7654997855425,
+      "done": true,
+      "model": "qwen2.5:3b",
+      "id": "t12",
+      "totalMs": 280.74,
+      "timing": {
+        "localAdmissionWaitMs": 0.018,
+        "providerRequestMs": 0.71,
+        "promptChars": 2114,
+        "systemPromptChars": 2059,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 151.09,
+        "providerFirstTokenMs": 151.11,
+        "firstSentenceReadyMs": 211.42,
+        "firstSentenceChars": 18,
+        "firstSpeechTextReadyMs": 211.43
+      }
+    }
+  ],
+  "models": {
+    "qwen3.5:9b": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "qwen2.5:3b": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b"
+  }
+}

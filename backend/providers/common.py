@@ -51,6 +51,8 @@ class AsrVadResult:
     start_time: Optional[int] = None
     end_time: Optional[int] = None
     text: str = ""
+    timing: Optional[dict] = None
+    activity: Optional[dict] = None
 
 
 class AsrUnavailable(RuntimeError):

@@ -22,7 +22,7 @@ def fixture_library(tmp_path, monkeypatch, *, cloud=False):
 def test_existing_local_synthetic_file_does_not_authorize_local_tts_rebuild(tmp_path,monkeypatch):
     metadata,sample=fixture_library(tmp_path,monkeypatch)
     previous_metadata=metadata.read_bytes();previous_audio=sample.read_bytes()
-    with pytest.raises(RuntimeError,match='local TTS is disabled'):
+    with pytest.raises(RuntimeError,match='automatic TTS is disabled'):
         builder.build()
     assert metadata.read_bytes()==previous_metadata
     assert sample.read_bytes()==previous_audio
@@ -36,3 +36,18 @@ def test_packaging_cloud_asset_preserves_provenance_for_next_rebuild(tmp_path,mo
     item=json.loads(metadata.read_text())['words']['actor']
     assert (item['provider'],item['model'],item['generationMethod'])==('openai','cloud-speech-test','desktop-export')
     assert item['sha256']==hashlib.sha256(sample.read_bytes()).hexdigest()
+
+
+def test_packaging_local_asset_requires_and_retains_model_provenance(tmp_path,monkeypatch):
+    import soundfile
+    metadata,sample=fixture_library(tmp_path,monkeypatch)
+    pack=json.loads(metadata.read_text())
+    entry=pack['words']['actor']
+    entry.update(provider='kokoro-local',model='hexgrad/Kokoro-82M',modelSha256='abc123',
+                 generationMethod='local-offline',voice='af_heart',speed=.9)
+    metadata.write_text(json.dumps(pack))
+    monkeypatch.setattr(soundfile,'info',lambda path:SimpleNamespace(duration=1.25))
+    builder.build()
+    result=json.loads(metadata.read_text())['words']['actor']
+    assert result['provider']=='kokoro-local' and result['modelSha256']=='abc123'
+    assert result['voice']=='af_heart' and result['speed']==.9

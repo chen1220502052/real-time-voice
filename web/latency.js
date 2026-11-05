@@ -23,7 +23,7 @@
         uncertaintyWidthMs:high-low, roundTripMs:now-sent, sampledClientMs:now});
       if(this.calibrations.length>32)this.calibrations.shift();
     }
-    capture(frame) { this.captures.push(frame); if(this.captures.length>12000)this.captures.shift(); }
+    capture(frame) { const {pcm,...metadata}=frame;this.captures.push(metadata); if(this.captures.length>12000)this.captures.shift(); }
     receive(frame, now, ctx) {
       if (!frame.replyId) { this.orphanFrames++; return; }
       const r=this.reply(frame.replyId); r.turnId=frame.turnId; r.generationEpoch=frame.generationEpoch;
@@ -77,7 +77,7 @@
       const secondsDifference=(a,b)=>{const value=difference(a,b);return value===null?null:value*1000;};
       const rows=[];
       for(const r of this.replies.values()) {
-        const s=r.server;
+        const s=r.server, local=s.localAsr||{};
         const candidates=this.captures.filter(frame=>Number.isInteger(frame.sequence)&&
           frame.sequence>=Math.floor((s.speechStartMediaMs??0)/100)&&frame.sequence<=s.processedSequence);
         const end=candidates.filter(frame=>Number.isFinite(frame.lastSignalCtx)).at(-1);
@@ -87,6 +87,15 @@
           sourceEndFrameToFinalMs:difference(s.asrFinalMs,received),
           finalFrameQueueMs:difference(s.finalProcessingStartedMs,s.finalInputReceivedMs),
           finalFrameAsrProcessingMs:difference(s.asrFinalMs,s.finalProcessingStartedMs),
+          asrRequestWallMs:difference(local.responseReadyMs,local.requestStartedMs),
+          asrWorkerInferenceMs:local.workerInferenceMs??null,
+          asrWorkerQueueWaitMs:local.workerQueueWaitMs??null,
+          asrWorkerStartupMs:local.workerStartupMs??null,
+          asrWorkerIpcWallMs:local.workerIpcWallMs??null,
+          asrOverlappedEndpointMs:Number.isFinite(local.responseReadyMs)&&Number.isFinite(local.endpointReachedMs)&&Number.isFinite(local.requestStartedMs)?
+            Math.max(0,Math.min(local.responseReadyMs,local.endpointReachedMs)-local.requestStartedMs):null,
+          asrWaitAfterEndpointMs:Number.isFinite(local.responseReadyMs)&&Number.isFinite(local.endpointReachedMs)?
+            Math.max(0,local.responseReadyMs-local.endpointReachedMs):null,
           finalToBotRequestMs:difference(s.botRequestStartedMs,s.asrFinalMs),
           botToFirstTextMs:difference(s.botFirstTextMs,s.botRequestStartedMs),
           firstTextToTtsMs:difference(s.ttsStartedMs,s.botFirstTextMs),

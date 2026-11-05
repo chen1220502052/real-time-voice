@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03",
+  "stage": "Shipping code and rules frozen before final independent suite",
+  "files": {
+    "backend/voice_grounding.py": "99987f07859394b6e4bfe02f5a719291db74a7a2322c64722cd5b80a6ac81c29",
+    "backend/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+    "backend/english_chat.py": "4b39d14308a84c99d6b92c974d9f63d5aedef92c4d28e2cb3e28f0ffb768bfa1",
+    "backend/curriculum_chat.py": "ea1b494330aa47d6299989090cd11283b8539c596310f2c64b244be4a28e4444",
+    "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+    "backend/data/chat/voice-glossary-supplement.json": "8c21c30e167c2ef2f8cdc10a87c9c8915ba08aef359cf22c1aa4656324d30300",
+    "scripts/evaluate_voice_chat.py": "417e7fc88f9d06ed68d57e61578e91077b15d424aab42f1d8fd195db6d861142",
+    "scripts/build_voice_eval_v2.py": "f956e77fb8d11495eedc4112677d667f574931591e44a407ebb6a91c05e0c49e",
+    "evals/voice_chat/v2/shipping.json": "1661b2098335aa5b13809e5d0f27875df5bf42b07cbb7f43688912ff1788f169"
+  }
+}

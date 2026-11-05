@@ -1,0 +1,1780 @@
+{
+  "variant": "baseline",
+  "mode": "offline",
+  "startedUtc": "2026-11-04T05:33:29Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:33:29Z",
+    "casesSha256": "aa78e5a6ea77384efaf560ac7062c76006b14f05bbda392064b35a34ba19993b",
+    "sources": {
+      "backend/voice_grounding.py": "8cfd01bb49db7c29936e3c2e4eecb3f77577ba29f79bbf443cea4bf09477b5b5",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "machine": "macOS-26.2-arm64-arm-64bit",
+    "model": "qwen2.5:3b",
+    "quantization": "Q4_K_M",
+    "asr": "parakeet 0.6b v3 int8; pinned tiny language ID; Whisper large-v3-turbo fallback",
+    "tts": "same Kokoro82M BF16 weights, af_heart+zf_xiaobei",
+    "cache": "TTS disabled in evaluation",
+    "notes": "Never change product sources based on this holdout without creating a new independent release set. Source and audio SHA256 verified before inference.",
+    "harnessSha256": "31d32867f2e62f9cdd0b3327cf9c7b967c07c567bdb9a7eeafdf12dfaf44298f"
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 266.43612468615174,
+      "asrDetail": {
+        "id": 2,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133941470,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 265.29,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.004,
+        "ipcWallMs": 266.246
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 254.50649997219443,
+      "asrDetail": {
+        "id": 3,
+        "text": "",
+        "confidence": 0.7513751567621593,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 134089342,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 253.24,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.003,
+        "ipcWallMs": 254.288
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 312.96679098159075,
+      "asrDetail": {
+        "id": 4,
+        "text": "",
+        "confidence": 0.729685139310584,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133694528,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 312.09,
+        "queueWaitMs": 0.004,
+        "startupMs": 0.005,
+        "ipcWallMs": 312.777
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 99.98562512919307,
+      "asrDetail": {
+        "id": 5,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 98.93,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 99.816
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 397.26537512615323,
+      "asrDetail": {
+        "id": 6,
+        "text": "",
+        "confidence": 0.7459124850371502,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 130121196,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 395.89,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 396.956
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 444.1955001093447,
+      "asrDetail": {
+        "id": 7,
+        "text": "",
+        "confidence": 0.7639759268429093,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 442.71,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 443.902
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "Umbrella.",
+      "asrMs": 148.75004207715392,
+      "asrDetail": {
+        "id": 8,
+        "text": "Umbrella.",
+        "confidence": 0.9471417073148862,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 132204324,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 147.77,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.003,
+        "ipcWallMs": 148.569
+      },
+      "endpoint": null,
+      "text": "An umbrella is used to keep you dry when it rains.",
+      "firstAudioMs": 1364.4147082231939,
+      "totalMs": 1491.2118329666555,
+      "audioSeconds": 3.7,
+      "output": ".local/bilingual-voice/baseline/b07-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.87,
+        "promptChars": 2131,
+        "systemPromptChars": 2122,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 8.54,
+        "providerHeadersMs": 465.14,
+        "providerFirstTokenMs": 465.18,
+        "firstSpeechTextReadyMs": 585.86,
+        "modelLoadMs": 14.822,
+        "promptEvalMs": 431.217,
+        "tokenGenerationMs": 668.855,
+        "promptTokens": 463,
+        "generatedTokens": 13,
+        "firstSentenceReadyMs": 1134.72,
+        "firstSentenceChars": 51
+      },
+      "speech": [
+        {
+          "text": "An umbrella is used to keep ",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 402.54,
+              "postprocess": 0.874
+            },
+            "memory": {
+              "activeBytes": 164501921,
+              "cacheBytes": 134022538
+            },
+            "inferenceMs": 403.44,
+            "queueWaitMs": 0.009,
+            "startupMs": 0.003,
+            "ipcWallMs": 404.171
+          }
+        },
+        {
+          "text": "you dry when it rains.",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 125.124,
+              "postprocess": 0.673
+            },
+            "memory": {
+              "activeBytes": 164469125,
+              "cacheBytes": 133913877
+            },
+            "inferenceMs": 125.82,
+            "queueWaitMs": 80.714,
+            "startupMs": 0.004,
+            "ipcWallMs": 126.308
+          }
+        }
+      ]
+    },
+    {
+      "id": "b08",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 226.33808432146907,
+      "asrDetail": {
+        "id": 9,
+        "text": "",
+        "confidence": 0.8985481931170822,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133503038,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 225.48,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 226.112
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b09",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 281.18933411315084,
+      "asrDetail": {
+        "id": 10,
+        "text": "",
+        "confidence": 0.8237030994320529,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 280.29,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 281.023
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 331.40637492761016,
+      "asrDetail": {
+        "id": 11,
+        "text": "",
+        "confidence": 0.8136998642745674,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 330.55,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 331.247
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b11",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 152.15383283793926,
+      "asrDetail": {
+        "id": 12,
+        "text": "",
+        "confidence": 0.8036771653325965,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 151.07,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 151.964
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b12",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 313.319250009954,
+      "asrDetail": {
+        "id": 13,
+        "text": "",
+        "confidence": 0.8378776050614134,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 127275270,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 312.53,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 313.165
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b13",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b14",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b15",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b16",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b17",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b18",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b19",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Do you know my favourite school subject?",
+      "asrMs": 182.40441707894206,
+      "asrDetail": {
+        "id": 20,
+        "text": "Do you know my favourite school subject?",
+        "confidence": 0.9931240568758163,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133623280,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 181.6,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 182.245
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 313.02162492647767,
+      "totalMs": 748.1325422413647,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice/baseline/b19-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 1.33
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 128.02,
+              "postprocess": 0.661
+            },
+            "memory": {
+              "activeBytes": 164452726,
+              "cacheBytes": 129535641
+            },
+            "inferenceMs": 128.7,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 129.14
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 433.284,
+              "postprocess": 0.795
+            },
+            "memory": {
+              "activeBytes": 164518422,
+              "cacheBytes": 129599070
+            },
+            "inferenceMs": 434.1,
+            "queueWaitMs": 129.138,
+            "startupMs": 0.003,
+            "ipcWallMs": 434.644
+          }
+        }
+      ]
+    },
+    {
+      "id": "b20",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Could you tell me your actual birthday?",
+      "asrMs": 200.38645807653666,
+      "asrDetail": {
+        "id": 21,
+        "text": "Could you tell me your actual birthday?",
+        "confidence": 0.9906902964530897,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 132631488,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 199.62,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 200.234
+      },
+      "endpoint": null,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "firstAudioMs": 511.7359170690179,
+      "totalMs": 807.9861248843372,
+      "audioSeconds": 4.7,
+      "output": ".local/bilingual-voice/baseline/b20-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.06
+      },
+      "speech": [
+        {
+          "text": "I'm Kitty, an AI cat,",
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 309.359,
+              "postprocess": 1.015
+            },
+            "memory": {
+              "activeBytes": 164501896,
+              "cacheBytes": 131293666
+            },
+            "inferenceMs": 310.4,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.003,
+            "ipcWallMs": 311.078
+          }
+        },
+        {
+          "text": " so I don't have a human age or birthday.",
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 293.336,
+              "postprocess": 1.24
+            },
+            "memory": {
+              "activeBytes": 164551190,
+              "cacheBytes": 131402736
+            },
+            "inferenceMs": 294.61,
+            "queueWaitMs": 311.08,
+            "startupMs": 0.004,
+            "ipcWallMs": 295.463
+          }
+        }
+      ]
+    },
+    {
+      "id": "b21",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "A story says Ben is 11. How old is Ben?",
+      "asrMs": 202.6187921874225,
+      "asrDetail": {
+        "id": 22,
+        "text": "A story says Ben is 11. How old is Ben?",
+        "confidence": 0.9927736040180665,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 132743858,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 201.44,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.006,
+        "ipcWallMs": 202.379
+      },
+      "endpoint": null,
+      "text": "Ben is 11 years old.",
+      "firstAudioMs": 930.1070841029286,
+      "totalMs": 930.5297089740634,
+      "audioSeconds": 2.145,
+      "output": ".local/bilingual-voice/baseline/b21-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.87,
+        "promptChars": 2128,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 186.07,
+        "providerFirstTokenMs": 186.1,
+        "firstSpeechTextReadyMs": 321.48,
+        "modelLoadMs": 13.762,
+        "promptEvalMs": 165.291,
+        "tokenGenerationMs": 380.557,
+        "promptTokens": 464,
+        "generatedTokens": 9,
+        "firstSentenceReadyMs": 566.73,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Ben is 11 years old.",
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 159.347,
+              "postprocess": 0.76
+            },
+            "memory": {
+              "activeBytes": 164518282,
+              "cacheBytes": 134029042
+            },
+            "inferenceMs": 160.14,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 160.641
+          }
+        }
+      ]
+    },
+    {
+      "id": "b22",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "I have a red kite. What color is my kite?",
+      "asrMs": 212.6080417074263,
+      "asrDetail": {
+        "id": 23,
+        "text": "I have a red kite. What color is my kite?",
+        "confidence": 0.9924928863902774,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 134172318,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 211.75,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 212.435
+      },
+      "endpoint": null,
+      "text": "Your kite is red.",
+      "firstAudioMs": 926.8733337521553,
+      "totalMs": 927.4930418469012,
+      "audioSeconds": 1.515,
+      "output": ".local/bilingual-voice/baseline/b22-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.12,
+        "promptChars": 2130,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 193.72,
+        "providerFirstTokenMs": 193.74,
+        "firstSpeechTextReadyMs": 299.86,
+        "modelLoadMs": 16.623,
+        "promptEvalMs": 169.782,
+        "tokenGenerationMs": 275.358,
+        "promptTokens": 462,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 469.29,
+        "firstSentenceChars": 18
+      },
+      "speech": [
+        {
+          "text": "Your kite is red.",
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 243.105,
+              "postprocess": 1.137
+            },
+            "memory": {
+              "activeBytes": 164452710,
+              "cacheBytes": 134148856
+            },
+            "inferenceMs": 244.27,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 244.838
+          }
+        }
+      ]
+    },
+    {
+      "id": "b23",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me a short English sentence to invite a classmate to draw.",
+      "asrMs": 108.80725039169192,
+      "asrDetail": {
+        "id": 24,
+        "text": "Give me a short English sentence to invite a classmate to draw.",
+        "confidence": 0.9990817736325588,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 107.4,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 108.526
+      },
+      "endpoint": null,
+      "text": "Let's draw together!",
+      "firstAudioMs": 1164.0757913701236,
+      "totalMs": 1164.7085412405431,
+      "audioSeconds": 1.6,
+      "output": ".local/bilingual-voice/baseline/b23-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.1,
+        "promptChars": 2754,
+        "systemPromptChars": 2691,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 431.52,
+        "providerFirstTokenMs": 431.55,
+        "firstSpeechTextReadyMs": 606.1,
+        "modelLoadMs": 13.353,
+        "promptEvalMs": 408.558,
+        "tokenGenerationMs": 307.453,
+        "promptTokens": 619,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 739.45,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Let's draw together!",
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 313.908,
+              "postprocess": 1.051
+            },
+            "memory": {
+              "activeBytes": 164469102,
+              "cacheBytes": 133124268
+            },
+            "inferenceMs": 314.99,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.003,
+            "ipcWallMs": 315.668
+          }
+        }
+      ]
+    },
+    {
+      "id": "b24",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Let us change the topic to football.",
+      "asrMs": 103.91833260655403,
+      "asrDetail": {
+        "id": 25,
+        "text": "Let us change the topic to football.",
+        "confidence": 0.9990313221483657,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 102.55,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 103.635
+      },
+      "endpoint": null,
+      "text": "Sure, I know some rules about football.",
+      "firstAudioMs": 1222.4252908490598,
+      "totalMs": 1325.6826656870544,
+      "audioSeconds": 3.16,
+      "output": ".local/bilingual-voice/baseline/b24-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.03,
+        "promptChars": 2767,
+        "systemPromptChars": 2691,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 446.95,
+        "providerFirstTokenMs": 446.98,
+        "firstSpeechTextReadyMs": 599.34,
+        "modelLoadMs": 14.583,
+        "promptEvalMs": 424.016,
+        "tokenGenerationMs": 509.459,
+        "promptTokens": 641,
+        "generatedTokens": 10,
+        "firstSentenceReadyMs": 956.6,
+        "firstSentenceChars": 40
+      },
+      "speech": [
+        {
+          "text": "Sure, I know some rules about ",
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 300.098,
+              "postprocess": 0.712
+            },
+            "memory": {
+              "activeBytes": 164501921,
+              "cacheBytes": 131252400
+            },
+            "inferenceMs": 300.83,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 301.464
+          }
+        },
+        {
+          "text": "football.",
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 101.76,
+              "postprocess": 0.64
+            },
+            "memory": {
+              "activeBytes": 164436290,
+              "cacheBytes": 129529576
+            },
+            "inferenceMs": 102.42,
+            "queueWaitMs": 161.759,
+            "startupMs": 0.003,
+            "ipcWallMs": 102.75
+          }
+        }
+      ]
+    },
+    {
+      "id": "b24",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Let us change the topic to football.",
+      "asrMs": 151.25099988654256,
+      "asrDetail": {
+        "id": 26,
+        "text": "Let us change the topic to football.",
+        "confidence": 0.9990313221483657,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 128345952,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 150.45,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 151.103
+      },
+      "endpoint": null,
+      "text": "Sure, I can talk about football. It's a game played with a ball. People often play it in parks or stadiums.",
+      "firstAudioMs": 1110.9254998154938,
+      "totalMs": 2198.3921667560935,
+      "audioSeconds": 6.92,
+      "output": ".local/bilingual-voice/baseline/b24-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.07,
+        "promptChars": 2767,
+        "systemPromptChars": 2691,
+        "historyMessages": 3,
+        "connectionReused": true,
+        "providerHeadersMs": 93.23,
+        "providerFirstTokenMs": 93.25,
+        "firstSpeechTextReadyMs": 275.41,
+        "firstSentenceReadyMs": 554.98,
+        "firstSentenceChars": 33,
+        "modelLoadMs": 14.503,
+        "promptEvalMs": 58.137,
+        "tokenGenerationMs": 1450.691,
+        "promptTokens": 641,
+        "generatedTokens": 27
+      },
+      "speech": [
+        {
+          "text": "Sure, I can talk about football.",
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 402.935,
+              "postprocess": 0.747
+            },
+            "memory": {
+              "activeBytes": 164518306,
+              "cacheBytes": 132055824
+            },
+            "inferenceMs": 403.7,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.005,
+            "ipcWallMs": 404.349
+          }
+        },
+        {
+          "text": " It's a game played with a ball.",
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 583.487,
+              "postprocess": 1.02
+            },
+            "memory": {
+              "activeBytes": 164501921,
+              "cacheBytes": 128976182
+            },
+            "inferenceMs": 584.53,
+            "queueWaitMs": 2.478,
+            "startupMs": 0.003,
+            "ipcWallMs": 585.314
+          }
+        },
+        {
+          "text": " People often play it in parks or stadiums.",
+          "detail": {
+            "id": 16,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 499.379,
+              "postprocess": 1.237
+            },
+            "memory": {
+              "activeBytes": 164567574,
+              "cacheBytes": 131188706
+            },
+            "inferenceMs": 500.65,
+            "queueWaitMs": 13.406,
+            "startupMs": 0.004,
+            "ipcWallMs": 501.44
+          }
+        }
+      ]
+    },
+    {
+      "id": "b23",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Give me a short English sentence to invite a classmate to draw.",
+      "asrMs": 116.04616697877645,
+      "asrDetail": {
+        "id": 27,
+        "text": "Give me a short English sentence to invite a classmate to draw.",
+        "confidence": 0.9990817736325588,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 114.65,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.005,
+        "ipcWallMs": 115.752
+      },
+      "endpoint": null,
+      "text": "Let's draw together!",
+      "firstAudioMs": 1113.5333753190935,
+      "totalMs": 1113.9909168705344,
+      "audioSeconds": 1.6,
+      "output": ".local/bilingual-voice/baseline/b23-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.87,
+        "promptChars": 2754,
+        "systemPromptChars": 2691,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 396.18,
+        "providerFirstTokenMs": 396.21,
+        "firstSpeechTextReadyMs": 562.03,
+        "modelLoadMs": 11.402,
+        "promptEvalMs": 376.812,
+        "tokenGenerationMs": 274.26,
+        "promptTokens": 619,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 670.64,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Let's draw together!",
+          "detail": {
+            "id": 17,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 325.26,
+              "postprocess": 0.88
+            },
+            "memory": {
+              "activeBytes": 164469102,
+              "cacheBytes": 133248446
+            },
+            "inferenceMs": 326.16,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 326.717
+          }
+        }
+      ]
+    },
+    {
+      "id": "b22",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "I have a red kite. What color is my kite?",
+      "asrMs": 88.32283411175013,
+      "asrDetail": {
+        "id": 28,
+        "text": "I have a red kite. What color is my kite?",
+        "confidence": 0.9924928863902774,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 87.32,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 88.117
+      },
+      "endpoint": null,
+      "text": "Your kite is red.",
+      "firstAudioMs": 886.5682920441031,
+      "totalMs": 887.703999876976,
+      "audioSeconds": 1.515,
+      "output": ".local/bilingual-voice/baseline/b22-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.88,
+        "promptChars": 2130,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 184.47,
+        "providerFirstTokenMs": 184.51,
+        "firstSpeechTextReadyMs": 316.07,
+        "modelLoadMs": 13.385,
+        "promptEvalMs": 164.141,
+        "tokenGenerationMs": 290.345,
+        "promptTokens": 462,
+        "generatedTokens": 6,
+        "firstSentenceReadyMs": 474.68,
+        "firstSentenceChars": 18
+      },
+      "speech": [
+        {
+          "text": "Your kite is red.",
+          "detail": {
+            "id": 18,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 320.426,
+              "postprocess": 2.209
+            },
+            "memory": {
+              "activeBytes": 164452710,
+              "cacheBytes": 134215440
+            },
+            "inferenceMs": 322.68,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 323.387
+          }
+        }
+      ]
+    },
+    {
+      "id": "b21",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "A story says Ben is 11. How old is Ben?",
+      "asrMs": 148.53841625154018,
+      "asrDetail": {
+        "id": 29,
+        "text": "A story says Ben is 11. How old is Ben?",
+        "confidence": 0.9927736040180665,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 132585272,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 146.84,
+        "queueWaitMs": 0.004,
+        "startupMs": 0.006,
+        "ipcWallMs": 148.213
+      },
+      "endpoint": null,
+      "text": "Ben is 11 years old.",
+      "firstAudioMs": 1144.864791072905,
+      "totalMs": 1145.5603330396116,
+      "audioSeconds": 2.145,
+      "output": ".local/bilingual-voice/baseline/b21-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.53,
+        "promptChars": 2128,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 161.76,
+        "providerFirstTokenMs": 161.79,
+        "firstSpeechTextReadyMs": 284.21,
+        "modelLoadMs": 13.503,
+        "promptEvalMs": 138.933,
+        "tokenGenerationMs": 459.393,
+        "promptTokens": 464,
+        "generatedTokens": 9,
+        "firstSentenceReadyMs": 621.41,
+        "firstSentenceChars": 21
+      },
+      "speech": [
+        {
+          "text": "Ben is 11 years old.",
+          "detail": {
+            "id": 19,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 372.426,
+              "postprocess": 1.417
+            },
+            "memory": {
+              "activeBytes": 164518295,
+              "cacheBytes": 132634894
+            },
+            "inferenceMs": 373.87,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.003,
+            "ipcWallMs": 374.749
+          }
+        }
+      ]
+    },
+    {
+      "id": "b20",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Could you tell me your actual birthday?",
+      "asrMs": 68.981375079602,
+      "asrDetail": {
+        "id": 30,
+        "text": "Could you tell me your actual birthday?",
+        "confidence": 0.9906902964530897,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133871710,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 67.62,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 68.755
+      },
+      "endpoint": null,
+      "text": "I'm Kitty, an AI cat, so I don't have a human age or birthday.",
+      "firstAudioMs": 434.34587493538857,
+      "totalMs": 929.6760829165578,
+      "audioSeconds": 4.7,
+      "output": ".local/bilingual-voice/baseline/b20-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_identity",
+        "firstSpeechTextReadyMs": 0.12
+      },
+      "speech": [
+        {
+          "text": "I'm Kitty, an AI cat,",
+          "detail": {
+            "id": 20,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 362.72,
+              "postprocess": 1.38
+            },
+            "memory": {
+              "activeBytes": 164501896,
+              "cacheBytes": 131088433
+            },
+            "inferenceMs": 364.15,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 365.009
+          }
+        },
+        {
+          "text": " so I don't have a human age or birthday.",
+          "detail": {
+            "id": 21,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 491.388,
+              "postprocess": 1.723
+            },
+            "memory": {
+              "activeBytes": 164551114,
+              "cacheBytes": 128486370
+            },
+            "inferenceMs": 493.16,
+            "queueWaitMs": 364.985,
+            "startupMs": 0.004,
+            "ipcWallMs": 494.311
+          }
+        }
+      ]
+    },
+    {
+      "id": "b19",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Do you know my favourite school subject?",
+      "asrMs": 131.0651251114905,
+      "asrDetail": {
+        "id": 31,
+        "text": "Do you know my favourite school subject?",
+        "confidence": 0.9931240568758163,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 129.83,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 130.842
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 304.8433749936521,
+      "totalMs": 729.1222088970244,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice/baseline/b19-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.1
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 22,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 172.226,
+              "postprocess": 0.793
+            },
+            "memory": {
+              "activeBytes": 164452734,
+              "cacheBytes": 132220000
+            },
+            "inferenceMs": 173.04,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 173.495
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 23,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 421.798,
+              "postprocess": 1.14
+            },
+            "memory": {
+              "activeBytes": 164518422,
+              "cacheBytes": 133857156
+            },
+            "inferenceMs": 422.96,
+            "queueWaitMs": 173.493,
+            "startupMs": 0.003,
+            "ipcWallMs": 423.732
+          }
+        }
+      ]
+    },
+    {
+      "id": "b18",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b17",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b16",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b15",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b14",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b13",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "error": "FileNotFoundError",
+      "detail": "[Errno 2] No such file or directory: '/Users/chenqiankun/Documents/real-time-voice/.local/bilingual-voice/baseline/data/chat/curriculum-vocabulary.json'"
+    },
+    {
+      "id": "b12",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 222.50158293172717,
+      "asrDetail": {
+        "id": 38,
+        "text": "",
+        "confidence": 0.8378776050614134,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 134028982,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 221.52,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 222.266
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b11",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 242.27091716602445,
+      "asrDetail": {
+        "id": 39,
+        "text": "",
+        "confidence": 0.8036771653325965,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 240.8,
+        "queueWaitMs": 0.003,
+        "startupMs": 0.005,
+        "ipcWallMs": 242.01
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 319.174291100353,
+      "asrDetail": {
+        "id": 40,
+        "text": "",
+        "confidence": 0.8136998642745674,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 318.0,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 318.954
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b09",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 286.10470797866583,
+      "asrDetail": {
+        "id": 41,
+        "text": "",
+        "confidence": 0.8237030994320529,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133939638,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 285.16,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 285.936
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b08",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 132.12470896542072,
+      "asrDetail": {
+        "id": 42,
+        "text": "",
+        "confidence": 0.8985481931170822,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133644742,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 131.09,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 131.939
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "Umbrella.",
+      "asrMs": 76.78616605699062,
+      "asrDetail": {
+        "id": 43,
+        "text": "Umbrella.",
+        "confidence": 0.9471417073148862,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133586624,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 75.99,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 76.627
+      },
+      "endpoint": null,
+      "text": "An umbrella is used to keep you dry when it rains.",
+      "firstAudioMs": 1155.07970796898,
+      "totalMs": 1336.33479103446,
+      "audioSeconds": 3.7,
+      "output": ".local/bilingual-voice/baseline/b07-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.95,
+        "promptChars": 2131,
+        "systemPromptChars": 2122,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 183.96,
+        "providerFirstTokenMs": 183.98,
+        "firstSpeechTextReadyMs": 307.6,
+        "modelLoadMs": 9.852,
+        "promptEvalMs": 166.579,
+        "tokenGenerationMs": 798.635,
+        "promptTokens": 463,
+        "generatedTokens": 13,
+        "firstSentenceReadyMs": 982.78,
+        "firstSentenceChars": 51
+      },
+      "speech": [
+        {
+          "text": "An umbrella is used to keep ",
+          "detail": {
+            "id": 24,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 526.148,
+              "postprocess": 0.822
+            },
+            "memory": {
+              "activeBytes": 164501921,
+              "cacheBytes": 133702121
+            },
+            "inferenceMs": 527.0,
+            "queueWaitMs": 0.02,
+            "startupMs": 0.007,
+            "ipcWallMs": 527.518
+          }
+        },
+        {
+          "text": "you dry when it rains.",
+          "detail": {
+            "id": 25,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 179.446,
+              "postprocess": 0.69
+            },
+            "memory": {
+              "activeBytes": 164469110,
+              "cacheBytes": 129310087
+            },
+            "inferenceMs": 180.15,
+            "queueWaitMs": 95.388,
+            "startupMs": 0.002,
+            "ipcWallMs": 180.738
+          }
+        }
+      ]
+    },
+    {
+      "id": "b06",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 441.15237472578883,
+      "asrDetail": {
+        "id": 44,
+        "text": "",
+        "confidence": 0.7639759268429093,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 439.58,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 440.838
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 360.55250000208616,
+      "asrDetail": {
+        "id": 45,
+        "text": "",
+        "confidence": 0.7459124850371502,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133520864,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 359.3,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 360.329
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 70.48520911484957,
+      "asrDetail": {
+        "id": 46,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 69.57,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 70.299
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 172.4406247958541,
+      "asrDetail": {
+        "id": 47,
+        "text": "",
+        "confidence": 0.729685139310584,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 134151992,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 171.53,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 172.269
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 263.12162494286895,
+      "asrDetail": {
+        "id": 48,
+        "text": "",
+        "confidence": 0.7513751567621593,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133483584,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 262.29,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 262.953
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 199.24379093572497,
+      "asrDetail": {
+        "id": 49,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785607692,
+          "cacheBytes": 133795382,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 198.41,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 199.077
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 7506.483749952167,
+  "completedUtc": "2026-11-04T05:34:02Z"
+}

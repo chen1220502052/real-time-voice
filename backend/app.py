@@ -92,8 +92,10 @@ class WebSocketConnection:
         tts_factory: Callable = create_tts,
         resource_manager: Optional[ResourceManager] = None,
         curriculum_agent_factory: Optional[Callable] = None,
+        local_voice_runtime=None,
     ) -> None:
         self.ws = ws
+        self.local_voice_runtime = local_voice_runtime
         self.prepared = False
         self.session: Optional[Session] = None
         self.duplex: Optional[DuplexDialogue] = None
@@ -221,6 +223,16 @@ class WebSocketConnection:
                     await self.emit_event("session_rejected", "session", level="warning",
                                           attributes={"code": "NO_RESOURCE"})
                     return
+                if self.local_voice_runtime and not self.prepared:
+                    try:
+                        detail=await self.local_voice_runtime.prepare(self.resource_owner)
+                        log_event('local_voice.prepared',**detail)
+                    except Exception:
+                        await self.resource_manager.release(self.resource_owner)
+                        self.resource_reserved=False
+                        await self.send_json({'type':'prepare_result','version':1,'ok':False,
+                            'code':'LOCAL_VOICE_NOT_READY','message':'本地模型仍在忙碌或预热失败，请稍后重新拨通。'})
+                        return
                 self.prepared = True
                 if self.prepare_lease_task is None:
                     self.prepare_lease_task = asyncio.create_task(self.expire_preparation())
@@ -559,6 +571,8 @@ class WebSocketConnection:
         if self.closed:
             return
         self.closed = True
+        if self.local_voice_runtime:
+            await self.local_voice_runtime.release(self.resource_owner)
         if self.session:
             self.resource_manager.connections.pop(self.session.session_id, None)
         if self.resource_reserved:
@@ -603,6 +617,7 @@ async def websocket_handler(request: web.Request) -> web.WebSocketResponse:
         agent_factory=request.app["agent_factory"],
         tts_factory=request.app["tts_factory"],
         resource_manager=request.app["resource_manager"],
+        local_voice_runtime=request.app.get('local_voice_runtime'),
         curriculum_agent_factory=lambda: request.app["bot_service"].session(request.app["text_bot_factory"]()),
     )
     connection.account_token = request.app["accounts"].token(request)
@@ -689,10 +704,20 @@ async def warmup_capabilities(app: web.Application) -> None:
 
         log_event("capability.warmed", capability=name, durationMs=duration_ms)
 
-    await asyncio.gather(
-        warm("asr", app["asr_factory"]),
-        warm("tts", app["tts_factory"]),
-    )
+    tasks=[warm("asr",app["asr_factory"]),warm("tts",app["tts_factory"])]
+    from . import local_llm
+    if (app['asr_factory'] is create_asr_engine and os.getenv('ASR_BACKEND') in {'mlx','parakeet'} and local_llm.enabled('chat')
+            and os.getenv('LOCAL_VOICE_WARMUP_LLM','1')=='1'):
+        async def warm_chat():
+            started=time.perf_counter()
+            from types import SimpleNamespace
+            from .curriculum_chat import voice_chat_prompt
+            prompt=voice_chat_prompt(SimpleNamespace(chapter={'grade':'8年级','unit':'English conversation'}))
+            await local_llm.complete([{'role':'system','content':prompt},
+                                      {'role':'user','content':'Hello'}],purpose='voice_chat',max_tokens=128,timeout=60)
+            app['warmup_metrics']['local_chat']=round((time.perf_counter()-started)*1000,2)
+        tasks.append(warm_chat())
+    await asyncio.gather(*tasks)
 
 
 async def warmup_chat_runtime(app):
@@ -726,6 +751,11 @@ def create_app(
 
     app = web.Application(client_max_size=64 * 1024, middlewares=[account_access, llm_scope])
     app["llm_http_pool"] = LLMHttpPool()
+    from . import local_llm
+    from .local_inference import LocalVoiceRuntime
+    app['local_voice_runtime']=(LocalVoiceRuntime(app['llm_http_pool'].local_inference)
+        if voice_enabled and asr_factory is create_asr_engine and
+        os.getenv('ASR_BACKEND') in {'mlx','parakeet'} and local_llm.enabled('chat') else None)
     app["asr_factory"] = asr_factory
     if bot_state_path is None:
         bot_state_path = os.getenv("BOT_STATE_DB", str(PROJECT_ROOT / ".local" / "bot-state.sqlite3")
@@ -769,6 +799,8 @@ def create_app(
                 await asyncio.gather(*app['disconnect_tasks'], return_exceptions=True)
             await app["bot_service"].close()
         finally:
+            from .providers.speech_worker import close_speech_workers
+            await close_speech_workers()
             await app["llm_http_pool"].close()
             app["accounts"].close()
     app.on_cleanup.append(close_bot_service)

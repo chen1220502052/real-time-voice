@@ -299,8 +299,8 @@ class DuplexDialogue:
         await self._control_outputs.put(DuplexEvent("asr_result", {
             **result.__dict__, "turnId": self._active_user_turn_id,
         }))
-        await self._maybe_barge_in(result)
-        if result.status == 3 and result.text:
+        accept_final = await self._maybe_barge_in(result)
+        if result.status == 3 and result.text and accept_final is not False:
             await self._accept_final_text(result.text, self._active_user_turn_id)
         if result.status == 3:
             self._active_user_turn_id = None
@@ -324,6 +324,11 @@ class DuplexDialogue:
 
     async def _feed_with_partials(self, frame):
         self.prefetch.note_audio(frame.payload)
+        if self.interruption.local is not None:
+            self.interruption.local.echo.input(frame.payload)
+        set_robot_active = getattr(self.asr, 'set_robot_active', None)
+        if set_robot_active:
+            set_robot_active(self._active_reply_id is not None)
         peek = getattr(self.asr, 'peek_partial', None)
         if not peek or not self._active_user_turn_id:
             return await self.asr.feed(frame.payload, frame.speech_time)

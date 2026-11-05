@@ -1,0 +1,1551 @@
+{
+  "variant": "baseline",
+  "mode": "offline",
+  "startedUtc": "2026-11-04T05:47:01Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:47:01Z",
+    "casesSha256": "95c30cad7f0991840652689004b7794943f5273ffe850239029023ba7b457ed5",
+    "sources": {
+      "backend/voice_grounding.py": "184a77037787896ca03c485e83cc26f70d92e3f1e813bdff8e0436dfdfb11007",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice-acceptance/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      ".local/bilingual-voice-acceptance/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice-acceptance/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice-acceptance/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice-acceptance/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "harnessSha256": "be6682fb687fb37c2a595976f1ffe632e7e0d208fc62397abfe89dd955ea186b",
+    "model": "qwen2.5:3b Q4_K_M",
+    "measurement": "Final 16 new questions + 2 controls, frozen before inference; two repeats. Earlier 24 and 20 questions promoted to diagnostics. Missing-word clarification counts as failure to complete the intended task, except the deliberately incomplete-word control question. Offline known boundary and paced WebRTC VAD probes reported separately."
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 61.73474993556738,
+      "asrDetail": {
+        "id": 2,
+        "text": "",
+        "confidence": 0.8090244513254787,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 61.03,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 61.596
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 74.72199993208051,
+      "asrDetail": {
+        "id": 3,
+        "text": "",
+        "confidence": 0.8204512721409899,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 73.9,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 74.551
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 72.61391682550311,
+      "asrDetail": {
+        "id": 4,
+        "text": "",
+        "confidence": 0.8123995306448891,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 134090564,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 71.77,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 72.444
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 76.99145888909698,
+      "asrDetail": {
+        "id": 5,
+        "text": "",
+        "confidence": 0.8198257138012219,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133577270,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 76.15,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 76.82
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 66.78916700184345,
+      "asrDetail": {
+        "id": 6,
+        "text": "",
+        "confidence": 0.792886544558428,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 121017666,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 66.11,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 66.645
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 61.273583211004734,
+      "asrDetail": {
+        "id": 7,
+        "text": "",
+        "confidence": 0.8489107764983231,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 60.49,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 61.116
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 61.324709095060825,
+      "asrDetail": {
+        "id": 8,
+        "text": "",
+        "confidence": 0.7990464487289163,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 131225376,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 60.6,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 61.192
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b08",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 64.06987505033612,
+      "asrDetail": {
+        "id": 9,
+        "text": "",
+        "confidence": 0.8473946424591663,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 134097990,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 63.35,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 63.925
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b09",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 42.81191620975733,
+      "asrDetail": {
+        "id": 10,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133449244,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 42.08,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 42.63
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 71.01966673508286,
+      "asrDetail": {
+        "id": 11,
+        "text": "",
+        "confidence": 0.7835852261878394,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 70.32,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 70.874
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b11",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 58.499792125076056,
+      "asrDetail": {
+        "id": 12,
+        "text": "",
+        "confidence": 0.7862532328962628,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133921228,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 57.76,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 58.345
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b12",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does rabbit mean in Chinese? Give me one English example.",
+      "asrMs": 52.004999946802855,
+      "asrDetail": {
+        "id": 13,
+        "text": "What does rabbit mean in Chinese? Give me one English example.",
+        "confidence": 0.9987881735829817,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133492172,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 51.29,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 51.857
+      },
+      "endpoint": null,
+      "text": "rabbit 的意思是“兔子；兔”。",
+      "firstAudioMs": 293.0048331618309,
+      "totalMs": 361.9657498784363,
+      "audioSeconds": 7.31,
+      "output": ".local/bilingual-voice-acceptance/baseline/b12-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 16.56
+      },
+      "speech": [
+        {
+          "text": "rabbit 的意思是“兔子；",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 222.067,
+              "postprocess": 1.21
+            },
+            "memory": {
+              "activeBytes": 164895342,
+              "cacheBytes": 133996726
+            },
+            "inferenceMs": 223.3,
+            "queueWaitMs": 0.004,
+            "startupMs": 0.003,
+            "ipcWallMs": 224.226
+          }
+        },
+        {
+          "text": "兔”。",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 67.708,
+              "postprocess": 0.561
+            },
+            "memory": {
+              "activeBytes": 164452690,
+              "cacheBytes": 125936540
+            },
+            "inferenceMs": 68.29,
+            "queueWaitMs": 224.226,
+            "startupMs": 0.003,
+            "ipcWallMs": 68.576
+          }
+        }
+      ],
+      "audioTranscript": "rabbit chinese letter chinese letter chinese letter chinese letter chinese letter chinese letter chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "e152b7bf66ebd3ff334fa6e2cfb2a9476f5b9d92d9944dc38ecea07768026eff"
+    },
+    {
+      "id": "b13",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is the Chinese meaning of beautiful? Give two English example sentences.",
+      "asrMs": 55.31249986961484,
+      "asrDetail": {
+        "id": 14,
+        "text": "What is the Chinese meaning of beautiful? Give two English example sentences.",
+        "confidence": 0.9967862227920624,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133440716,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 54.4,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 55.139
+      },
+      "endpoint": null,
+      "text": "beautiful 的意思是“漂亮的；美丽的；美好的”。 这里有两个英文例句： The flowers are beautiful. She looks beautiful in that dress.",
+      "firstAudioMs": 992.588915862143,
+      "totalMs": 1759.715958032757,
+      "audioSeconds": 25.045,
+      "output": ".local/bilingual-voice-acceptance/baseline/b13-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 1.34,
+        "promptChars": 1487,
+        "systemPromptChars": 1410,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 7.45,
+        "providerHeadersMs": 270.11,
+        "providerFirstTokenMs": 270.15,
+        "modelLoadMs": 15.107,
+        "promptEvalMs": 235.04,
+        "tokenGenerationMs": 374.029,
+        "promptTokens": 582,
+        "generatedTokens": 33,
+        "firstSentenceReadyMs": 647.05,
+        "firstSentenceChars": 29,
+        "firstSpeechTextReadyMs": 647.06
+      },
+      "speech": [
+        {
+          "text": "beautiful 的意思是“漂亮的；",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 286.75,
+              "postprocess": 1.452
+            },
+            "memory": {
+              "activeBytes": 165010198,
+              "cacheBytes": 128753542
+            },
+            "inferenceMs": 288.24,
+            "queueWaitMs": 0.009,
+            "startupMs": 0.006,
+            "ipcWallMs": 289.526
+          }
+        },
+        {
+          "text": "美丽的；",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 119.652,
+              "postprocess": 0.739
+            },
+            "memory": {
+              "activeBytes": 164600246,
+              "cacheBytes": 132226580
+            },
+            "inferenceMs": 120.41,
+            "queueWaitMs": 289.473,
+            "startupMs": 0.003,
+            "ipcWallMs": 120.937
+          }
+        },
+        {
+          "text": "美好的”。",
+          "detail": {
+            "id": 7,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 123.566,
+              "postprocess": 0.708
+            },
+            "memory": {
+              "activeBytes": 164600250,
+              "cacheBytes": 131816190
+            },
+            "inferenceMs": 124.29,
+            "queueWaitMs": 410.437,
+            "startupMs": 0.003,
+            "ipcWallMs": 124.754
+          }
+        },
+        {
+          "text": " 这里有两个英文例句： The flowers are beautiful.",
+          "detail": {
+            "id": 8,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 420.103,
+              "postprocess": 2.129
+            },
+            "memory": {
+              "activeBytes": 165305622,
+              "cacheBytes": 130013380
+            },
+            "inferenceMs": 422.25,
+            "queueWaitMs": 535.212,
+            "startupMs": 0.003,
+            "ipcWallMs": 423.778
+          }
+        },
+        {
+          "text": " She looks beautiful in that dress.",
+          "detail": {
+            "id": 9,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 95.769,
+              "postprocess": 0.644
+            },
+            "memory": {
+              "activeBytes": 164518310,
+              "cacheBytes": 132822992
+            },
+            "inferenceMs": 96.43,
+            "queueWaitMs": 958.784,
+            "startupMs": 0.003,
+            "ipcWallMs": 96.855
+          }
+        }
+      ],
+      "audioTranscript": "Beautiful Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter the flowers are beautiful. She looks beautiful in that dress.",
+      "audioLanguage": "en",
+      "waveformSha256": "51f8614ba5bffb973d9d7338919a569a5d965bd7a08e10e9f851042dcf2b2cb8"
+    },
+    {
+      "id": "b14",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word carrot into Chinese.",
+      "asrMs": 45.07520794868469,
+      "asrDetail": {
+        "id": 15,
+        "text": "Please translate the word carrot into Chinese.",
+        "confidence": 0.9967482949786828,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 134027446,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 44.44,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 44.936
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 522.4450421519578,
+      "totalMs": 895.7496252842247,
+      "audioSeconds": 23.45,
+      "output": ".local/bilingual-voice-acceptance/baseline/b14-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.57
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 10,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 471.615,
+              "postprocess": 2.553
+            },
+            "memory": {
+              "activeBytes": 165600534,
+              "cacheBytes": 100803618
+            },
+            "inferenceMs": 474.19,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 476.65
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 11,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 368.681,
+              "postprocess": 2.062
+            },
+            "memory": {
+              "activeBytes": 165305622,
+              "cacheBytes": 129837772
+            },
+            "inferenceMs": 370.76,
+            "queueWaitMs": 476.65,
+            "startupMs": 0.003,
+            "ipcWallMs": 372.478
+          }
+        }
+      ],
+      "audioTranscript": "Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "a4c0d25dfd019d1184689d2e8b868b91fc5d328e45802ecd5cad9f9b89cb3570"
+    },
+    {
+      "id": "b15",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is my favorite drink?",
+      "asrMs": 32.184707932174206,
+      "asrDetail": {
+        "id": 16,
+        "text": "What is my favorite drink?",
+        "confidence": 0.9917944560152,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133992272,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 31.66,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.003,
+        "ipcWallMs": 32.063
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 113.19850012660027,
+      "totalMs": 217.43133291602135,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-acceptance/baseline/b15-offline-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 1.64
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 12,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 78.192,
+              "postprocess": 0.629
+            },
+            "memory": {
+              "activeBytes": 164469118,
+              "cacheBytes": 133226362
+            },
+            "inferenceMs": 78.84,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 79.2
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 13,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 102.728,
+              "postprocess": 0.657
+            },
+            "memory": {
+              "activeBytes": 164534722,
+              "cacheBytes": 133275702
+            },
+            "inferenceMs": 103.4,
+            "queueWaitMs": 79.196,
+            "startupMs": 0.002,
+            "ipcWallMs": 103.814
+          }
+        }
+      ],
+      "audioTranscript": "You said what you like, but you have not said what you like best.",
+      "audioLanguage": "en",
+      "waveformSha256": "a0c627b993bc9cbaf72c7178dca004f93dd897b2f2dd417624a2a7e5b0497a34"
+    },
+    {
+      "id": "b16",
+      "repeat": 0,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please invite a friend to read with me in one English sentence.",
+      "asrMs": 48.824832774698734,
+      "asrDetail": {
+        "id": 17,
+        "text": "Please invite a friend to read with me in one English sentence.",
+        "confidence": 0.9985341475702229,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 48.13,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 48.682
+      },
+      "endpoint": null,
+      "text": "Invite your friend to read books with you after school.",
+      "firstAudioMs": 471.2342908605933,
+      "totalMs": 556.2453330494463,
+      "audioSeconds": 3.635,
+      "output": ".local/bilingual-voice-acceptance/baseline/b16-offline-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.75,
+        "promptChars": 2733,
+        "systemPromptChars": 2670,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 226.64,
+        "providerFirstTokenMs": 226.68,
+        "firstSpeechTextReadyMs": 263.48,
+        "modelLoadMs": 13.246,
+        "promptEvalMs": 201.662,
+        "tokenGenerationMs": 150.497,
+        "promptTokens": 622,
+        "generatedTokens": 12,
+        "firstSentenceReadyMs": 377.2,
+        "firstSentenceChars": 56
+      },
+      "speech": [
+        {
+          "text": "Invite your friend to read ",
+          "detail": {
+            "id": 14,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 114.205,
+              "postprocess": 0.734
+            },
+            "memory": {
+              "activeBytes": 164501901,
+              "cacheBytes": 131537458
+            },
+            "inferenceMs": 114.97,
+            "queueWaitMs": 0.006,
+            "startupMs": 0.005,
+            "ipcWallMs": 115.439
+          }
+        },
+        {
+          "text": "books with you after school.",
+          "detail": {
+            "id": 15,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 83.242,
+              "postprocess": 0.596
+            },
+            "memory": {
+              "activeBytes": 164518290,
+              "cacheBytes": 128532120
+            },
+            "inferenceMs": 83.85,
+            "queueWaitMs": 45.079,
+            "startupMs": 0.003,
+            "ipcWallMs": 84.294
+          }
+        }
+      ],
+      "audioTranscript": "Invite your friend to read. Books with you after school.",
+      "audioLanguage": "en",
+      "waveformSha256": "f2ecd55581b70fe9da689d062b784c83bebc660fdd1328e06dcd669766a05a9a"
+    },
+    {
+      "id": "b16",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please invite a friend to read with me in one English sentence.",
+      "asrMs": 49.96225005015731,
+      "asrDetail": {
+        "id": 18,
+        "text": "Please invite a friend to read with me in one English sentence.",
+        "confidence": 0.9985341475702229,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 130498362,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 49.24,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 49.809
+      },
+      "endpoint": null,
+      "text": "Invite your friend to read books with you after school.",
+      "firstAudioMs": 271.75604086369276,
+      "totalMs": 356.1704158782959,
+      "audioSeconds": 3.635,
+      "output": ".local/bilingual-voice-acceptance/baseline/b16-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.63,
+        "promptChars": 2733,
+        "systemPromptChars": 2670,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 38.82,
+        "providerFirstTokenMs": 38.86,
+        "firstSpeechTextReadyMs": 61.75,
+        "modelLoadMs": 8.704,
+        "promptEvalMs": 21.443,
+        "tokenGenerationMs": 133.33,
+        "promptTokens": 622,
+        "generatedTokens": 12,
+        "firstSentenceReadyMs": 172.49,
+        "firstSentenceChars": 56
+      },
+      "speech": [
+        {
+          "text": "Invite your friend to read ",
+          "detail": {
+            "id": 16,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 115.061,
+              "postprocess": 0.735
+            },
+            "memory": {
+              "activeBytes": 164501901,
+              "cacheBytes": 132844000
+            },
+            "inferenceMs": 115.82,
+            "queueWaitMs": 0.005,
+            "startupMs": 0.005,
+            "ipcWallMs": 116.251
+          }
+        },
+        {
+          "text": "books with you after school.",
+          "detail": {
+            "id": 17,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 83.013,
+              "postprocess": 0.595
+            },
+            "memory": {
+              "activeBytes": 164501906,
+              "cacheBytes": 134157346
+            },
+            "inferenceMs": 83.62,
+            "queueWaitMs": 49.163,
+            "startupMs": 0.003,
+            "ipcWallMs": 84.018
+          }
+        }
+      ],
+      "audioTranscript": "Invite your friend to read. Books with you after school.",
+      "audioLanguage": "en",
+      "waveformSha256": "f6299d1500be59d188fcbfbdbfa5d6b2cdbeb3170cc0a7a7c848caa72e600877"
+    },
+    {
+      "id": "b15",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is my favorite drink?",
+      "asrMs": 31.317667104303837,
+      "asrDetail": {
+        "id": 19,
+        "text": "What is my favorite drink?",
+        "confidence": 0.9917944560152,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133101730,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 30.81,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 31.204
+      },
+      "endpoint": null,
+      "text": "You said what you like, but you have not said what you like best.",
+      "firstAudioMs": 105.77020840719342,
+      "totalMs": 211.12691704183817,
+      "audioSeconds": 3.795,
+      "output": ".local/bilingual-voice-acceptance/baseline/b15-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_preference",
+        "firstSpeechTextReadyMs": 0.07
+      },
+      "speech": [
+        {
+          "text": "You said what you like,",
+          "detail": {
+            "id": 18,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 73.143,
+              "postprocess": 0.615
+            },
+            "memory": {
+              "activeBytes": 164469118,
+              "cacheBytes": 128015034
+            },
+            "inferenceMs": 73.77,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.003,
+            "ipcWallMs": 74.144
+          }
+        },
+        {
+          "text": " but you have not said what you like best.",
+          "detail": {
+            "id": 19,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 103.793,
+              "postprocess": 0.663
+            },
+            "memory": {
+              "activeBytes": 164534806,
+              "cacheBytes": 134008132
+            },
+            "inferenceMs": 104.48,
+            "queueWaitMs": 74.141,
+            "startupMs": 0.002,
+            "ipcWallMs": 104.931
+          }
+        }
+      ],
+      "audioTranscript": "You said what you like, but you have not said what you like best.",
+      "audioLanguage": "en",
+      "waveformSha256": "839223855542aaa85d1adf9baa9a8bfdc340e1e3f0a831ff1d15c50f01891709"
+    },
+    {
+      "id": "b14",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "Please translate the word carrot into Chinese.",
+      "asrMs": 43.41299971565604,
+      "asrDetail": {
+        "id": 20,
+        "text": "Please translate the word carrot into Chinese.",
+        "confidence": 0.9967482949786828,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133447046,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 42.8,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 43.285
+      },
+      "endpoint": null,
+      "text": "这个词暂时没有可靠的词表释义，请提供完整句子以便确认。",
+      "firstAudioMs": 513.2389171048999,
+      "totalMs": 885.5383340269327,
+      "audioSeconds": 23.45,
+      "output": ".local/bilingual-voice-acceptance/baseline/b14-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary_unknown",
+        "firstSpeechTextReadyMs": 0.04
+      },
+      "speech": [
+        {
+          "text": "这个词暂时没有可靠的词表释义，",
+          "detail": {
+            "id": 20,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 464.465,
+              "postprocess": 2.704
+            },
+            "memory": {
+              "activeBytes": 165600534,
+              "cacheBytes": 100803618
+            },
+            "inferenceMs": 467.19,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.002,
+            "ipcWallMs": 469.626
+          }
+        },
+        {
+          "text": "请提供完整句子以便确认。",
+          "detail": {
+            "id": 21,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 367.56,
+              "postprocess": 2.082
+            },
+            "memory": {
+              "activeBytes": 165305622,
+              "cacheBytes": 129837788
+            },
+            "inferenceMs": 369.67,
+            "queueWaitMs": 469.632,
+            "startupMs": 0.003,
+            "ipcWallMs": 371.456
+          }
+        }
+      ],
+      "audioTranscript": "Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "0729108ee988291a3bb8dee9a00d1dce9f8fe4ae75a535527838bfd9ad944d44"
+    },
+    {
+      "id": "b13",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What is the Chinese meaning of beautiful? Give two English example sentences.",
+      "asrMs": 61.99058284983039,
+      "asrDetail": {
+        "id": 21,
+        "text": "What is the Chinese meaning of beautiful? Give two English example sentences.",
+        "confidence": 0.9967862227920624,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 60.9,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.004,
+        "ipcWallMs": 61.766
+      },
+      "endpoint": null,
+      "text": "beautiful 的意思是“漂亮的；美丽的；美好的”。 这里有两个英语例句： The flowers in the garden are beautiful. She wore a beautiful dress to the party.",
+      "firstAudioMs": 788.5917499661446,
+      "totalMs": 1543.9012497663498,
+      "audioSeconds": 26.515,
+      "output": ".local/bilingual-voice-acceptance/baseline/b13-offline-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 0.73,
+        "promptChars": 1487,
+        "systemPromptChars": 1410,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 42.37,
+        "providerFirstTokenMs": 42.42,
+        "modelLoadMs": 15.729,
+        "promptEvalMs": 12.394,
+        "tokenGenerationMs": 411.673,
+        "promptTokens": 582,
+        "generatedTokens": 38,
+        "firstSentenceReadyMs": 454.27,
+        "firstSentenceChars": 29,
+        "firstSpeechTextReadyMs": 454.27
+      },
+      "speech": [
+        {
+          "text": "beautiful 的意思是“漂亮的；",
+          "detail": {
+            "id": 22,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 269.376,
+              "postprocess": 1.461
+            },
+            "memory": {
+              "activeBytes": 165010198,
+              "cacheBytes": 131526286
+            },
+            "inferenceMs": 270.86,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.003,
+            "ipcWallMs": 272.087
+          }
+        },
+        {
+          "text": "美丽的；",
+          "detail": {
+            "id": 23,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 115.508,
+              "postprocess": 0.73
+            },
+            "memory": {
+              "activeBytes": 164600246,
+              "cacheBytes": 128991566
+            },
+            "inferenceMs": 116.25,
+            "queueWaitMs": 272.075,
+            "startupMs": 0.003,
+            "ipcWallMs": 116.784
+          }
+        },
+        {
+          "text": "美好的”。",
+          "detail": {
+            "id": 24,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 121.163,
+              "postprocess": 0.73
+            },
+            "memory": {
+              "activeBytes": 164600250,
+              "cacheBytes": 132239796
+            },
+            "inferenceMs": 121.91,
+            "queueWaitMs": 388.885,
+            "startupMs": 0.002,
+            "ipcWallMs": 122.412
+          }
+        },
+        {
+          "text": " 这里有两个英语例句： The flowers in the garden are beautiful.",
+          "detail": {
+            "id": 25,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 395.461,
+              "postprocess": 2.204
+            },
+            "memory": {
+              "activeBytes": 165403926,
+              "cacheBytes": 113575440
+            },
+            "inferenceMs": 397.68,
+            "queueWaitMs": 511.322,
+            "startupMs": 0.002,
+            "ipcWallMs": 399.542
+          }
+        },
+        {
+          "text": " She wore a beautiful dress to the party.",
+          "detail": {
+            "id": 26,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 114.505,
+              "postprocess": 0.706
+            },
+            "memory": {
+              "activeBytes": 164567486,
+              "cacheBytes": 129551788
+            },
+            "inferenceMs": 115.23,
+            "queueWaitMs": 910.732,
+            "startupMs": 0.003,
+            "ipcWallMs": 115.695
+          }
+        }
+      ],
+      "audioTranscript": "Beautiful Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, Chinese letter, the flowers in the garden are beautiful. She wore a beautiful dress to the party.",
+      "audioLanguage": "en",
+      "waveformSha256": "7853f4b82e6cf00527679e22f27d6108c334160f2b7ac764a20fe22757bd7de1"
+    },
+    {
+      "id": "b12",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "en",
+      "recognized": "What does rabbit mean in Chinese? Give me one English example.",
+      "asrMs": 56.09454168006778,
+      "asrDetail": {
+        "id": 22,
+        "text": "What does rabbit mean in Chinese? Give me one English example.",
+        "confidence": 0.9987881735829817,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 55.27,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 55.93
+      },
+      "endpoint": null,
+      "text": "rabbit 的意思是“兔子；兔”。",
+      "firstAudioMs": 282.0223327726126,
+      "totalMs": 350.6503328680992,
+      "audioSeconds": 7.31,
+      "output": ".local/bilingual-voice-acceptance/baseline/b12-offline-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.05
+      },
+      "speech": [
+        {
+          "text": "rabbit 的意思是“兔子；",
+          "detail": {
+            "id": 27,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 223.601,
+              "postprocess": 1.173
+            },
+            "memory": {
+              "activeBytes": 164895510,
+              "cacheBytes": 129243298
+            },
+            "inferenceMs": 224.79,
+            "queueWaitMs": 0.002,
+            "startupMs": 0.003,
+            "ipcWallMs": 225.727
+          }
+        },
+        {
+          "text": "兔”。",
+          "detail": {
+            "id": 28,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 67.368,
+              "postprocess": 0.579
+            },
+            "memory": {
+              "activeBytes": 164452690,
+              "cacheBytes": 132153768
+            },
+            "inferenceMs": 67.96,
+            "queueWaitMs": 225.73,
+            "startupMs": 0.002,
+            "ipcWallMs": 68.248
+          }
+        }
+      ],
+      "audioTranscript": "rabbit chinese letter chinese letter chinese letter chinese letter chinese letter chinese letter chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "f3c1894d822ed3e3217500ded1b8d5a2816f9ccd0fe1061249f726af4cec8f1e"
+    },
+    {
+      "id": "b11",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 61.82708404958248,
+      "asrDetail": {
+        "id": 23,
+        "text": "",
+        "confidence": 0.7862532328962628,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 60.94,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 61.655
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 73.94712511450052,
+      "asrDetail": {
+        "id": 24,
+        "text": "",
+        "confidence": 0.7835852261878394,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 73.11,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 73.79
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b09",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 46.51537491008639,
+      "asrDetail": {
+        "id": 25,
+        "text": "",
+        "confidence": 0,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 45.74,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 46.353
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b08",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 66.9354172423482,
+      "asrDetail": {
+        "id": 26,
+        "text": "",
+        "confidence": 0.8473946424591663,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 131895114,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 66.2,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 66.789
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 60.1648329757154,
+      "asrDetail": {
+        "id": 27,
+        "text": "",
+        "confidence": 0.7990464487289163,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133198406,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 59.45,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 60.024
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b06",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 60.44541671872139,
+      "asrDetail": {
+        "id": 28,
+        "text": "",
+        "confidence": 0.8489107764983231,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133712188,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 59.76,
+        "queueWaitMs": 0.002,
+        "startupMs": 0.004,
+        "ipcWallMs": 60.275
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b05",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 66.75366684794426,
+      "asrDetail": {
+        "id": 29,
+        "text": "",
+        "confidence": 0.792886544558428,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133876004,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 66.03,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 66.609
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b04",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 76.24650001525879,
+      "asrDetail": {
+        "id": 30,
+        "text": "",
+        "confidence": 0.8198257138012219,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 133460766,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 75.36,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 76.076
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 70.67704200744629,
+      "asrDetail": {
+        "id": 31,
+        "text": "",
+        "confidence": 0.8123995306448891,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 121079104,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 69.94,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.003,
+        "ipcWallMs": 70.525
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b02",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 69.57779079675674,
+      "asrDetail": {
+        "id": 32,
+        "text": "",
+        "confidence": 0.8204512721409899,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 132762440,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 68.83,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 69.419
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "offline",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 60.8062082901597,
+      "asrDetail": {
+        "id": 33,
+        "text": "",
+        "confidence": 0.8090244513254787,
+        "memory": {
+          "activeBytes": 785656844,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "inferenceMs": 60.19,
+        "queueWaitMs": 0.001,
+        "startupMs": 0.002,
+        "ipcWallMs": 60.679
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 5187.176375184208,
+  "completedUtc": "2026-11-04T05:47:15Z"
+}

@@ -1,0 +1,241 @@
+[
+  {
+    "id": "g01",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请告诉我window中文怎么说？",
+    "target": "window",
+    "rubric": "窗户。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g01.wav",
+    "sha256": "bd9314846c02987de647602aad4a7344f38e56718b0241436b2e26266865102a",
+    "seconds": 2.71325,
+    "segments": [
+      {
+        "text": "请告诉我",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 15873,
+        "sourceSha256": "2f565a70964d8e662949317529bfb3cd8fac2db691ef1d169b01096dffa55814",
+        "pcmSha256": "4b47704da5769d2d7345c577ef7f32c248b58558516ab721e95a7eb18262a6e1"
+      },
+      {
+        "text": "window",
+        "voice": "Samantha",
+        "startFrame": 19073,
+        "frames": 7837,
+        "sourceSha256": "83dc142f62731708806f911b3c743cf4d7b550065e5a9bc8d2a487f50c2afe0f",
+        "pcmSha256": "ff26514149fea2db8f91f73d8e7ef2ad968ceb3c1fe0014214d1b86ee82ab96d"
+      },
+      {
+        "text": "中文怎么说？",
+        "voice": "Tingting",
+        "startFrame": 26910,
+        "frames": 16502,
+        "sourceSha256": "70289f996ece4995ea2d29983e08482d8fe78e1189a6f40375e02572d4832319",
+        "pcmSha256": "9c6dc196e5ed66427d88047a532d7bf62888b2835e33ac4cab52ed2e280bd908"
+      }
+    ]
+  },
+  {
+    "id": "g02",
+    "language": "zh",
+    "kind": "task",
+    "text": "请解释“房子”的中文意思。",
+    "target": "",
+    "rubric": "房屋、供人居住的建筑。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g02.wav",
+    "sha256": "e5129db3c84aee41b7659b68c218d4dd46ae1b177ed5cf664b5431f0c729795a",
+    "seconds": 2.27175,
+    "segments": [
+      {
+        "text": "请解释“房子”的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 33148,
+        "sourceSha256": "4866e1bac8adebba4497f8f20ccc15c0fac1baf709a40ed1f311dd54b2391004",
+        "pcmSha256": "f8621d5efc69d4e15298969521f0dba18284118e768550b8ad405b5e5a33ca57"
+      }
+    ]
+  },
+  {
+    "id": "g03",
+    "language": "en",
+    "kind": "task",
+    "text": "What does apple mean in Chinese?",
+    "target": "apple",
+    "rubric": "苹果。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g03.wav",
+    "sha256": "b5ff87c6469a8f582181cd7e600a9b529772bb9c9ffd6374a68f68a8e1898267",
+    "seconds": 1.9555625,
+    "segments": [
+      {
+        "text": "What does apple mean in Chinese?",
+        "voice": "Samantha",
+        "startFrame": 3200,
+        "frames": 28089,
+        "sourceSha256": "44dfd57b25a954773ac4869aefbb7c8601740b6f2143349a0be77d5a8cbbce46",
+        "pcmSha256": "5a619bcd28637ea96bd7a30e1c722eac1f6b0e6f79e9b95087503a956001077c"
+      }
+    ]
+  },
+  {
+    "id": "g04",
+    "language": "zh",
+    "kind": "task",
+    "text": "你有真实的人类生日吗？用中文回答。",
+    "target": "",
+    "rubric": "AI 没有人类生日。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g04.wav",
+    "sha256": "ed8f7d79f1bf1c5e73d5eb16537a23effbab674653ea769f6a465e9f47e80457",
+    "seconds": 3.4333125,
+    "segments": [
+      {
+        "text": "你有真实的人类生日吗？用中文回答。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 51733,
+        "sourceSha256": "51a2427cbbf173caa87980f257303fb848bc4c92e7a05d9b91d5006a0390b1dc",
+        "pcmSha256": "0bb73e4c9d6849a277907cca7c3c41485e673b2bee711222e017504e76e3e5a2"
+      }
+    ]
+  },
+  {
+    "id": "g05",
+    "language": "en",
+    "kind": "task",
+    "text": "Tell me the Chinese meaning of dog.",
+    "target": "dog",
+    "rubric": "狗。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g05.wav",
+    "sha256": "1a469c5093df4852e7997b4b87cb53f75a5278121efde58d5a4aab5d062883ba",
+    "seconds": 2.0226875,
+    "segments": [
+      {
+        "text": "Tell me the Chinese meaning of dog.",
+        "voice": "Samantha",
+        "startFrame": 3200,
+        "frames": 29163,
+        "sourceSha256": "582691a8ccd7f751eba23bc13f41c310a8adffffc21c2c44380f19c294e9ea01",
+        "pcmSha256": "908d647bb61f00042d24c7f1187b40890fdb5cac1bc2332b94095a2ab7a4763f"
+      }
+    ]
+  },
+  {
+    "id": "g06",
+    "language": "zh",
+    "kind": "missing-target",
+    "text": "我想知道这个英语单词的中文意思。",
+    "target": "",
+    "rubric": "原话缺少实际单词，必须澄清。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g06.wav",
+    "sha256": "19ef22f6829addf67842b1828c0de7b2b5e8f0cbdf61070ef34c62ea31f20187",
+    "seconds": 3.106375,
+    "segments": [
+      {
+        "text": "我想知道这个英语单词的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 46502,
+        "sourceSha256": "d2af8b99d4107249142b24c669c290566b02fa74040817569ef1c6ed3ba45ef3",
+        "pcmSha256": "94ebf6e65a61cd4a8ea3dea46498fa2a63b2459a79981735a27c30eda04860ce"
+      }
+    ]
+  },
+  {
+    "id": "g07",
+    "language": "zh",
+    "kind": "missing-target",
+    "text": "请告诉我这个词的中文含义。",
+    "target": "",
+    "rubric": "原话缺少实际单词，必须澄清。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g07.wav",
+    "sha256": "a827ef1c940379d704cf5f86ef0963d660d5d43dbd8230a324e9f4623d7a83e2",
+    "seconds": 2.7245625,
+    "segments": [
+      {
+        "text": "请告诉我这个词的中文含义。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 40393,
+        "sourceSha256": "c141a372401b2dd37a3db71dc642fe528bec6b31a6a05c0f7e7c158c68f26d67",
+        "pcmSha256": "a0e422158e393a3dd8c54500efd0184663b2a0c9b64313502252c7e9a5b0315d"
+      }
+    ]
+  },
+  {
+    "id": "g08",
+    "language": "zh",
+    "kind": "missing-target",
+    "text": "请用中文解释英文单词的意思，并给两个英语例句。",
+    "target": "",
+    "rubric": "原话缺少实际单词，必须澄清。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/g08.wav",
+    "sha256": "c1047b774f58f215a5628e6ec9d997daa2d5f0401286cc0d3e017d138347f6c1",
+    "seconds": 4.826,
+    "segments": [
+      {
+        "text": "请用中文解释英文单词的意思，并给两个英语例句。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 74016,
+        "sourceSha256": "4a36aed1035f88c9f197a89e6beb9d8a752a50e62d12121267abdccb0f0e44fe",
+        "pcmSha256": "596cd9f1921aee1c5dbb1aaa44cfed028f86959406b45502806e522e65c840d7"
+      }
+    ]
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "segments": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/quiet-noise.wav",
+    "sha256": "d0048440b6bfb0654fd79e7f7498914cf2a14951a24c45679547fd6f7c0131b6",
+    "seconds": 3,
+    "segments": []
+  },
+  {
+    "id": "loud-noise",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "history": [],
+    "audio": ".local/code-switch-target-guard/inputs/loud-noise.wav",
+    "sha256": "543f6bcd68a00f0cbbb4d6613a694b1209d8439a3725265b86a1692593ccd285",
+    "seconds": 3,
+    "segments": []
+  }
+]

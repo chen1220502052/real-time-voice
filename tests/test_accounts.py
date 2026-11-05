@@ -1,4 +1,7 @@
 import asyncio
+from types import SimpleNamespace
+
+import pytest
 
 from aiohttp import CookieJar
 from aiohttp.test_utils import TestClient, TestServer
@@ -11,6 +14,16 @@ from backend.accounts import COOKIE
 CHAPTER_OPTIONS = {'chapterId':'d2435143bdba0792312a2ecc','grade':5}
 
 
+@pytest.fixture(autouse=True)
+def textbook_scope(monkeypatch):
+    # Account ownership is independent of the locally installed textbook pack.
+    def scope(chapter_id):
+        if chapter_id != CHAPTER_OPTIONS['chapterId']:
+            raise ValueError('Unknown fixture chapter')
+        return SimpleNamespace(chapter={'grade': '5年级'})
+    monkeypatch.setattr('backend.curriculum_chat.chat_scope', scope)
+
+
 def test_accounts_login_isolation_csrf_revocation_and_persistence(monkeypatch, tmp_path):
     monkeypatch.setenv('ACCOUNT_AUTH_ENABLED', '1')
     monkeypatch.setenv('BROWSER_AUTH_ENABLED', '0')
@@ -19,6 +32,9 @@ def test_accounts_login_isolation_csrf_revocation_and_persistence(monkeypatch, t
         async with TestClient(TestServer(app), cookie_jar=CookieJar(unsafe=True)) as a:
             async with TestClient(a.server, cookie_jar=CookieJar(unsafe=True)) as b:
                 assert (await a.get('/', allow_redirects=False)).status == 302
+                redirect = await a.get('/practice.html?chapter=unit3&mode=shadow', allow_redirects=False)
+                from urllib.parse import urlsplit, parse_qs
+                assert parse_qs(urlsplit(redirect.headers['Location']).query)['next'] == ['/practice.html?chapter=unit3&mode=shadow']
                 assert (await a.get('/login.html')).status == 200
                 theme = await a.get('/theme.css?v=20261023-1')
                 assert theme.status == 200 and theme.content_type == 'text/css'

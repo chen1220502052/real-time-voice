@@ -1,0 +1,176 @@
+[
+  {
+    "id": "p01",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请告诉我英语单词teacher的中文意思。",
+    "target": "teacher",
+    "rubric": "教师或老师。",
+    "audio": ".local/code-switch-pause/inputs/p01.wav",
+    "sha256": "74431f5641ce3b4998a39f98b09c4ba2f3077f2540e35da77ce01bfd99eae875",
+    "seconds": 4.148125,
+    "history": [],
+    "segments": [
+      {
+        "text": "请告诉我英语单词",
+        "startFrame": 3200,
+        "frames": 30734,
+        "pcmSha256": "ddaf095006e6cd5f099f4d8e4382decd5f3c54e337336e006995d8f24631b5a4",
+        "sourceSha256": "f221f59dd516132a2f458d80d192e0c659e2e51b14f00dd218de80697ed3a845"
+      },
+      {
+        "text": "teacher",
+        "startFrame": 43534,
+        "frames": 7987,
+        "pcmSha256": "22cb8d8a5e4a290960204489601b9a8263598a504ad331c2f20e1b5c161c206b",
+        "sourceSha256": "8eb680adeb90e43c661c671b53d0542465e63ae707cc08b142dfa32f68c46c5e"
+      },
+      {
+        "text": "的中文意思。",
+        "startFrame": 51521,
+        "frames": 14849,
+        "pcmSha256": "0664d6dda3daf6662e3f0e0f9bfa1e52b974eefa34763977b1b02d2f78e0b154",
+        "sourceSha256": "188f85c3d1db3ece019dca7974ba0408d1fd622fc507d042ac2cc8d465eeee7a"
+      }
+    ],
+    "pauseMs": 600,
+    "targetEndMediaMs": 3220.0625
+  },
+  {
+    "id": "p02",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请用中文解释window的意思，并给一个英语例句。",
+    "target": "window",
+    "rubric": "窗户及包含 window 的完整英语例句。",
+    "audio": ".local/code-switch-pause/inputs/p02.wav",
+    "sha256": "80764bfc788588cf2e7e70d0ce41d0cb183cbb9391f4b5df2ca0f03aface800d",
+    "seconds": 5.079125,
+    "history": [],
+    "segments": [
+      {
+        "text": "请用中文解释",
+        "startFrame": 3200,
+        "frames": 22746,
+        "pcmSha256": "dd7af2d4fe2cc668dbc962db1639fbf740cd7c9d76c0a12feb9b8b025d076f1f",
+        "sourceSha256": "d776688351d68ed85c0efaf6f7fa2bd71bac243ad3b0b1cbb48a00bc9a7da3dd"
+      },
+      {
+        "text": "window",
+        "startFrame": 35546,
+        "frames": 7837,
+        "pcmSha256": "ff26514149fea2db8f91f73d8e7ef2ad968ceb3c1fe0014214d1b86ee82ab96d",
+        "sourceSha256": "83dc142f62731708806f911b3c743cf4d7b550065e5a9bc8d2a487f50c2afe0f"
+      },
+      {
+        "text": "的意思，并给一个英语例句。",
+        "startFrame": 43383,
+        "frames": 37883,
+        "pcmSha256": "d40d732a967bb174861bc49642d43aaa9ef73cd3a684383576a2142b8ebac71c",
+        "sourceSha256": "b8d93475c6091613ab15d657f2e7b7e4342ec5af7aaf26ffc8f0c359da89b8cb"
+      }
+    ],
+    "pauseMs": 600,
+    "targetEndMediaMs": 2711.4375
+  },
+  {
+    "id": "p03",
+    "language": "mixed",
+    "kind": "task",
+    "text": "我想知道英语单词monkey中文怎么说。",
+    "target": "monkey",
+    "rubric": "猴子。",
+    "audio": ".local/code-switch-pause/inputs/p03.wav",
+    "sha256": "01df19af59e8cb3bd79feda853ac43d517eb05760d66ca50366f017df0d46c23",
+    "seconds": 4.19625,
+    "history": [],
+    "segments": [
+      {
+        "text": "我想知道英语单词",
+        "startFrame": 3200,
+        "frames": 29412,
+        "pcmSha256": "208718061042ad2c2813a5f151e4a0698ad2ba327071cc8e33dec69fdb3c4f03",
+        "sourceSha256": "0b8f03e0f8036b30871d221a82da5fd2731d59eaa08bfa7fedc29437cb3f4697"
+      },
+      {
+        "text": "monkey",
+        "startFrame": 42212,
+        "frames": 8426,
+        "pcmSha256": "b4ee5adefe5f7d5650e0c164abc6b9733f68c3e8b598be7d8815c2d90648aa15",
+        "sourceSha256": "053f9b90b3c0f31715388d8bd5370ac1405934e7bea09629dffdccc07ebc0646"
+      },
+      {
+        "text": "中文怎么说。",
+        "startFrame": 50638,
+        "frames": 16502,
+        "pcmSha256": "cb8007bd75b1e9573682e236f35773ad02cfac5b43e100ea7d04d3f25d1cab43",
+        "sourceSha256": "23fd708d6dc07bfe336cfe59c7d4b978c211e087596a2c451e520f01bc6db204"
+      }
+    ],
+    "pauseMs": 600,
+    "targetEndMediaMs": 3164.875
+  },
+  {
+    "id": "p04",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请用中文说music的意思。",
+    "target": "music",
+    "rubric": "音乐。",
+    "audio": ".local/code-switch-pause/inputs/p04.wav",
+    "sha256": "adc68e79205c6a4b57f8601a0ea9ade8862edf2d9319f6c2572664a1ee2e79ea",
+    "seconds": 3.13075,
+    "history": [],
+    "segments": [
+      {
+        "text": "请用中文说",
+        "startFrame": 3200,
+        "frames": 19774,
+        "pcmSha256": "5faaff166e3888825b2adfc722633a34de0b7d4e6aeccb7f762c30bd601ebee5",
+        "sourceSha256": "a0c65bd190dbb669f434382dbed51306140f85c24861bc5bf2f82340b367456a"
+      },
+      {
+        "text": "music",
+        "startFrame": 32574,
+        "frames": 8428,
+        "pcmSha256": "d13d8873f4e8551a3eb599f321d730993a5b96c115eeb264e6bd28e96e5d8290",
+        "sourceSha256": "3c319ffcf245041d75e6d345f737b4db8a751350e4391d5ce37455b1a08c7934"
+      },
+      {
+        "text": "的意思。",
+        "startFrame": 41002,
+        "frames": 9090,
+        "pcmSha256": "99fc27112af7fdc4e6de73e95ca8de85d4a053dc225597cf4b412560c99f6e49",
+        "sourceSha256": "153482a89df39ab3c8a06ae785d9ec6fdfb666e76f0fb1d5091bd1e6e0aabf68"
+      }
+    ],
+    "pauseMs": 600,
+    "targetEndMediaMs": 2562.625
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "audio": ".local/code-switch-pause/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "history": [],
+    "segments": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "audio": ".local/code-switch-pause/inputs/quiet-noise.wav",
+    "sha256": "568c95a73e6d574e371fb9ce73f3fb1dd2ee7077210c50ff32ca9be7772be096",
+    "seconds": 3,
+    "history": [],
+    "segments": []
+  }
+]

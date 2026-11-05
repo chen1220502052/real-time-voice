@@ -31,6 +31,10 @@ def test_learning_home_and_chat_routes_in_both_service_modes():
                 async with client.get(url + '/audio/weekend/dialogue.m4a', headers={'Range':'bytes=0-100'}) as response:
                     assert response.status == 206
                     assert len(await response.read()) == 101
+                for clip in ('visit', 'badminton', 'read', 'picnic', 'usually', 'because'):
+                    async with client.get(url + f'/audio/weekend/{clip}-word.m4a', headers={'Range':'bytes=0-100'}) as response:
+                        assert response.status == 206
+                        assert len(await response.read()) == 101
                 assert app['resource_manager'].in_use == 0
         finally:
             await runner.cleanup()

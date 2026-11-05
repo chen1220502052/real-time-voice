@@ -32,7 +32,8 @@ def sentences(buffer, *, final=False):
             word = re.search(r"([A-Za-z.]+)$", before)
             if word and (word[1].lower() in ABBREVIATIONS or len(word[1]) == 1):
                 continue
-        if end < len(buffer) and not buffer[end].isspace() and buffer[end] not in '\"”’）)':
+        if (not any(c in match[0] for c in '。！？') and end < len(buffer)
+                and not buffer[end].isspace() and buffer[end] not in '\"”’）)'):
             continue
         sentence = " ".join(buffer[start:end].split()).strip('\"“” ')
         if sentence:
@@ -48,7 +49,7 @@ def complete_tail(text):
     affirmation = bool(re.search(r"\b(?:think|hope|guess|suppose|say) so$", text, re.I))
     if not text or (words and words[-1] in DANGLING and not affirmation):
         return ""
-    if words and len(words) < 3 and text.lower() not in {"hi", "hello", "yes", "no", "thanks", "great", "sure", "okay", "thank you", "of course", "sounds fun", "that's cool"}:
+    if words and len(words) < 3 and not re.search(r'[\u4e00-\u9fff]', text) and text.lower() not in {"hi", "hello", "yes", "no", "thanks", "great", "sure", "okay", "thank you", "of course", "sounds fun", "that's cool"}:
         return ""
     if text[-1:] in ",，;；:：-—":
         return ""

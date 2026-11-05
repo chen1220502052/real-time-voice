@@ -1,0 +1,205 @@
+{
+  "scope": "Fixed source, exact original prompts and guards; native MLX uses only fixed system-prefix states. Every request clones state; no question/answer caching. First and repeated requests reported separately.",
+  "models": {
+    "qwen2.5:3b": {
+      "allAudio": {
+        "n": 40,
+        "p50Ms": 488.27,
+        "p95Ms": 924.06
+      },
+      "firstExposureAudio": {
+        "n": 19,
+        "p50Ms": 475.37,
+        "p95Ms": 931.42
+      },
+      "repeatAudio": {
+        "n": 19,
+        "p50Ms": 505.85,
+        "p95Ms": 917.15
+      },
+      "textModelFirstToken": {
+        "n": 122,
+        "p50Ms": 151.05,
+        "p95Ms": 507.74
+      },
+      "textApplicationRejections": 4,
+      "audioErrors": 0,
+      "regressionRules": {
+        "pass": 77,
+        "fail": 3
+      },
+      "preparation": [
+        {
+          "phase": "text",
+          "repeat": 0,
+          "loadWarmupAndPreparationMs": 674.8686251230538,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        },
+        {
+          "phase": "text",
+          "repeat": 1,
+          "loadWarmupAndPreparationMs": 927.6331658475101,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        },
+        {
+          "phase": "audio",
+          "repeat": 0,
+          "loadWarmupAndPreparationMs": 674.2908749729395,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        },
+        {
+          "phase": "audio",
+          "repeat": 1,
+          "loadWarmupAndPreparationMs": 1462.5220000743866,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        }
+      ]
+    },
+    "qwen3.5:4b": {
+      "allAudio": {
+        "n": 40,
+        "p50Ms": 1137.82,
+        "p95Ms": 1473.79
+      },
+      "firstExposureAudio": {
+        "n": 19,
+        "p50Ms": 1165.95,
+        "p95Ms": 1487.54
+      },
+      "repeatAudio": {
+        "n": 19,
+        "p50Ms": 1145.85,
+        "p95Ms": 1434.92
+      },
+      "textModelFirstToken": {
+        "n": 114,
+        "p50Ms": 742.22,
+        "p95Ms": 933.58
+      },
+      "textApplicationRejections": 4,
+      "audioErrors": 0,
+      "regressionRules": {
+        "fail": 3,
+        "pass": 77
+      },
+      "preparation": [
+        {
+          "phase": "text",
+          "repeat": 0,
+          "loadWarmupAndPreparationMs": 2530.8650000952184,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        },
+        {
+          "phase": "text",
+          "repeat": 1,
+          "loadWarmupAndPreparationMs": 1282.9458750784397,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        },
+        {
+          "phase": "audio",
+          "repeat": 0,
+          "loadWarmupAndPreparationMs": 1522.6528751663864,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        },
+        {
+          "phase": "audio",
+          "repeat": 1,
+          "loadWarmupAndPreparationMs": 1241.0893752239645,
+          "prefixCount": 0,
+          "prefixComputeMs": 0,
+          "activeMemoryBytes": null
+        }
+      ]
+    },
+    "qwen3.5:4b-native-mlx-affine4": {
+      "allAudio": {
+        "n": 40,
+        "p50Ms": 588.26,
+        "p95Ms": 788.5
+      },
+      "firstExposureAudio": {
+        "n": 19,
+        "p50Ms": 588.24,
+        "p95Ms": 795.62
+      },
+      "repeatAudio": {
+        "n": 19,
+        "p50Ms": 594.27,
+        "p95Ms": 797.45
+      },
+      "textModelFirstToken": {
+        "n": 115,
+        "p50Ms": 202.05,
+        "p95Ms": 405.92
+      },
+      "textApplicationRejections": 5,
+      "audioErrors": 0,
+      "regressionRules": {
+        "pass": 78,
+        "fail": 2
+      },
+      "preparation": [
+        {
+          "phase": "text",
+          "repeat": 0,
+          "loadWarmupAndPreparationMs": 8450.950666796416,
+          "prefixCount": 24,
+          "prefixComputeMs": 5247.335875406861,
+          "activeMemoryBytes": 4015595066
+        },
+        {
+          "phase": "text",
+          "repeat": 1,
+          "loadWarmupAndPreparationMs": 8111.554792150855,
+          "prefixCount": 24,
+          "prefixComputeMs": 5291.752459015697,
+          "activeMemoryBytes": 4015627834
+        },
+        {
+          "phase": "audio",
+          "repeat": 0,
+          "loadWarmupAndPreparationMs": 8953.538790810853,
+          "prefixCount": 24,
+          "prefixComputeMs": 5522.449003066868,
+          "activeMemoryBytes": 4027309626
+        },
+        {
+          "phase": "audio",
+          "repeat": 1,
+          "loadWarmupAndPreparationMs": 8429.028333164752,
+          "prefixCount": 24,
+          "prefixComputeMs": 5308.095580898225,
+          "activeMemoryBytes": 4014562874
+        }
+      ]
+    }
+  },
+  "sourceFilesVerified": 414,
+  "defaultHashes": {
+    ".env.local": "75b2a918480a699cff4a059058f5fa8e813930bd0ed710b85e68877c376a12c3",
+    "scripts/run_learning_local.sh": "217bd63094c4038d2966d8ca3624b66a7949e9bfea0b3e334e2c61301839480a"
+  },
+  "rawSha256": "bd854d8736beeaa389fe2a21fdb005fd9ab2d7e9c3929e847428ac309692ca27",
+  "firstExposureDefinition": "repeat 0 after model and static-policy preparation; excludes q35-01 because that fixture is used in audio warmup. Text runs use a separately restarted model block.",
+  "latencyDefinition": "Complete input PCM and known end boundary to first output PCM; excludes live VAD, browser, network and speaker buffering.",
+  "referenceText": {
+    "path": "/Users/chenqiankun/Documents/real-time-voice/evals/voice_optimization/native-protocol-development.json",
+    "sha256": "394eb478182e00ea70245e4582bfada6eecb9882095f921f2443c7b0b1e8ed80",
+    "count": 176,
+    "scope": "Unchanged reference-model text blocks retained from the preceding run; only native adapter code was repaired."
+  }
+}

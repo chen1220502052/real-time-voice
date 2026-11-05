@@ -1,0 +1,690 @@
+[
+  {
+    "id": "n01",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请用中文解释fish的中文意思。",
+    "target": "fish",
+    "rubric": "鱼。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n01.wav",
+    "sha256": "2958ba53f8ddf2235e05b7ec03ac7ef2ab5a95705fc26b2ac2d622116e64a12d",
+    "seconds": 3.0039375,
+    "segments": [
+      {
+        "text": "请用中文解释",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 22746,
+        "sourceSha256": "d776688351d68ed85c0efaf6f7fa2bd71bac243ad3b0b1cbb48a00bc9a7da3dd",
+        "pcmSha256": "dd7af2d4fe2cc668dbc962db1639fbf740cd7c9d76c0a12feb9b8b025d076f1f"
+      },
+      {
+        "text": "fish",
+        "voice": "Samantha",
+        "startFrame": 25946,
+        "frames": 7268,
+        "sourceSha256": "fc2aa2eae2910beb8ff6dbab99e217a25cf87b4b6ab7cadd4d4be7e7779efe65",
+        "pcmSha256": "1dea43df40863a9fe664b49267ac36a0c372f72ecb0f07843f80b7cd41c3402c"
+      },
+      {
+        "text": "的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 33214,
+        "frames": 14849,
+        "sourceSha256": "188f85c3d1db3ece019dca7974ba0408d1fd622fc507d042ac2cc8d465eeee7a",
+        "pcmSha256": "0664d6dda3daf6662e3f0e0f9bfa1e52b974eefa34763977b1b02d2f78e0b154"
+      }
+    ]
+  },
+  {
+    "id": "n02",
+    "language": "mixed",
+    "kind": "task",
+    "text": "英语单词dish中文怎么说？",
+    "target": "dish",
+    "rubric": "盘子或一道菜；不能解释为 fish。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n02.wav",
+    "sha256": "e00eeb1a47d9b6e519f8300dcb9e511b6c5956151d4b13bce19e751f86addae1",
+    "seconds": 2.7,
+    "segments": [
+      {
+        "text": "英语单词",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 15285,
+        "sourceSha256": "762afe15a2c6528212d6eaf3e9e41758339d73c1b88ae13abf61b77029a180bc",
+        "pcmSha256": "66e37542497ca174125c62f3cf2d55dafc1c3fa5810bcdbff47e4d98d2f7e54a"
+      },
+      {
+        "text": "dish",
+        "voice": "Daniel",
+        "startFrame": 18485,
+        "frames": 8213,
+        "sourceSha256": "84c5647665c237d5e5afaa7a640ff0614aeaa8cd90985b8f6ff42817bfe81443",
+        "pcmSha256": "4b50f0d1d49bee6ce4dad6f6615f5c833c9630cc10fee8fd379ae09e2835ef6d"
+      },
+      {
+        "text": "中文怎么说？",
+        "voice": "Tingting",
+        "startFrame": 26698,
+        "frames": 16502,
+        "sourceSha256": "70289f996ece4995ea2d29983e08482d8fe78e1189a6f40375e02572d4832319",
+        "pcmSha256": "9c6dc196e5ed66427d88047a532d7bf62888b2835e33ac4cab52ed2e280bd908"
+      }
+    ]
+  },
+  {
+    "id": "n03",
+    "language": "mixed",
+    "kind": "task",
+    "text": "我想知道coat的中文意思。",
+    "target": "coat",
+    "rubric": "外套；不能解释为 goat。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n03.wav",
+    "sha256": "cf00fc2af8237e254cf97c4753bd19a8e21a2c343f22b05b4d4bd84ce4d3414f",
+    "seconds": 2.4786875,
+    "segments": [
+      {
+        "text": "我想知道",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 14894,
+        "sourceSha256": "1609c46f0a3f1ae61a4512bad5ad57ad14ff1af1d751d538b1f25512cf57088e",
+        "pcmSha256": "eeae61ca13ef92c7e58afae70ff7e4a7e48ef8ce5e70b0270a0b521641706dcb"
+      },
+      {
+        "text": "coat",
+        "voice": "Samantha",
+        "startFrame": 18094,
+        "frames": 6716,
+        "sourceSha256": "7bc3bb9ee3e97ca513d4a6577e13eae318834c53a789ae97c9e171e30dd7ec97",
+        "pcmSha256": "824d3bb8f82b4df02177ca5ededd49911c8ff717c7c16f2a65a6368e25b05931"
+      },
+      {
+        "text": "的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 24810,
+        "frames": 14849,
+        "sourceSha256": "188f85c3d1db3ece019dca7974ba0408d1fd622fc507d042ac2cc8d465eeee7a",
+        "pcmSha256": "0664d6dda3daf6662e3f0e0f9bfa1e52b974eefa34763977b1b02d2f78e0b154"
+      }
+    ]
+  },
+  {
+    "id": "n04",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请解释goat的意思，给一个英语例句。",
+    "target": "goat",
+    "rubric": "山羊；一个含 goat 的完整自然英文例句。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n04.wav",
+    "sha256": "f7774220f3885d69ce1186f298b2baeb18a54c3a8bad63dfa531b4fc832e4cdb",
+    "seconds": 3.6435625,
+    "segments": [
+      {
+        "text": "请解释",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 13086,
+        "sourceSha256": "3b8813bce7e67cbe6dea98461d40687703db988cc407a179e856a406888443db",
+        "pcmSha256": "a58cbbabebdcc459c30a15c3c4fa46e6f2c8ec1418c50c7e2098c53d6cae11a5"
+      },
+      {
+        "text": "goat",
+        "voice": "Daniel",
+        "startFrame": 16286,
+        "frames": 7843,
+        "sourceSha256": "4de186ce0af7891f0722b121e590908cf7a4880d22b1ccb9308e1e09f4ff6032",
+        "pcmSha256": "0c248c65c2501ae5fb9db5d7c4f797c603f1b9fc168099d47eb4c94439a53f2a"
+      },
+      {
+        "text": "的意思，给一个英语例句。",
+        "voice": "Tingting",
+        "startFrame": 24129,
+        "frames": 34168,
+        "sourceSha256": "5950be117093c996bdc8bcc9ff2fdcb32102c9cba89773cebeb4a980ceb7c14f",
+        "pcmSha256": "367ddbd0b082dd3df4e6d6194945e0a4ae749e83a47732c17fe211018d3b371e"
+      }
+    ]
+  },
+  {
+    "id": "n05",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请告诉我light的中文意思。",
+    "target": "light",
+    "rubric": "光、轻的、明亮的。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n05.wav",
+    "sha256": "0642db7d79e8a7e21e315dd1a23876ffa4a268af4b7ad9c7733203cd1441b840",
+    "seconds": 2.51925,
+    "segments": [
+      {
+        "text": "请告诉我",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 15873,
+        "sourceSha256": "2f565a70964d8e662949317529bfb3cd8fac2db691ef1d169b01096dffa55814",
+        "pcmSha256": "4b47704da5769d2d7345c577ef7f32c248b58558516ab721e95a7eb18262a6e1"
+      },
+      {
+        "text": "light",
+        "voice": "Samantha",
+        "startFrame": 19073,
+        "frames": 6386,
+        "sourceSha256": "2d439499b4e404e5eb04c0682796d0f74a6b994f35b36ca733292fd7fa739747",
+        "pcmSha256": "087b2ab1fc9149951474b9170aa76813f200757d7ec2ce9212f367ccbe1d8a83"
+      },
+      {
+        "text": "的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 25459,
+        "frames": 14849,
+        "sourceSha256": "188f85c3d1db3ece019dca7974ba0408d1fd622fc507d042ac2cc8d465eeee7a",
+        "pcmSha256": "0664d6dda3daf6662e3f0e0f9bfa1e52b974eefa34763977b1b02d2f78e0b154"
+      }
+    ]
+  },
+  {
+    "id": "n06",
+    "language": "mixed",
+    "kind": "task",
+    "text": "night的中文意思是什么？用中文回答。",
+    "target": "night",
+    "rubric": "夜晚；不能解释为 light。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n06.wav",
+    "sha256": "71b09117282db8da69956347c421d3339f6e0d50a7b5a4ba34079419186303c3",
+    "seconds": 3.46325,
+    "segments": [
+      {
+        "text": "night",
+        "voice": "Daniel",
+        "startFrame": 3200,
+        "frames": 7270,
+        "sourceSha256": "11c049d137a22524b253e177ac33549bcd54d1fbba8f34d10355793de20e1507",
+        "pcmSha256": "917e081ae2cb3b97b844a62cfe916b3a9959670ca1d7aa55b2e5e50bc138e2e3"
+      },
+      {
+        "text": "的中文意思是什么？用中文回答。",
+        "voice": "Tingting",
+        "startFrame": 10470,
+        "frames": 44942,
+        "sourceSha256": "98e0ecbbc907387479762447a3e516a17e23679c0ff64fcc6e61860665a3e346",
+        "pcmSha256": "b14e3113d55ccd2654c2479999b598d1fff30b7b9eb120643b61657366fc725c"
+      }
+    ]
+  },
+  {
+    "id": "n07",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请解释park的中文意思。",
+    "target": "park",
+    "rubric": "公园或停车；不能解释为 bark。",
+    "pauseMs": 300,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n07.wav",
+    "sha256": "1d205b7972d4028e57e0c6ad2e74a541f79eb37fc5709eabfe9595c4c6c73c89",
+    "seconds": 2.6968125,
+    "segments": [
+      {
+        "text": "请解释",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 13086,
+        "sourceSha256": "3b8813bce7e67cbe6dea98461d40687703db988cc407a179e856a406888443db",
+        "pcmSha256": "a58cbbabebdcc459c30a15c3c4fa46e6f2c8ec1418c50c7e2098c53d6cae11a5"
+      },
+      {
+        "text": "park",
+        "voice": "Samantha",
+        "startFrame": 21086,
+        "frames": 7214,
+        "sourceSha256": "1dc03cedb024e1118861de915dc668e1b95cb9314d83b922c6095e16b95e9b99",
+        "pcmSha256": "ac44383b6924b150b23cc9bd5c48355518d4bca3b30438a6b4f62704e137e2eb"
+      },
+      {
+        "text": "的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 28300,
+        "frames": 14849,
+        "sourceSha256": "188f85c3d1db3ece019dca7974ba0408d1fd622fc507d042ac2cc8d465eeee7a",
+        "pcmSha256": "0664d6dda3daf6662e3f0e0f9bfa1e52b974eefa34763977b1b02d2f78e0b154"
+      }
+    ]
+  },
+  {
+    "id": "n08",
+    "language": "mixed",
+    "kind": "task",
+    "text": "英语单词bark中文怎么说？",
+    "target": "bark",
+    "rubric": "树皮或吠叫；不能解释为 park。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n08.wav",
+    "sha256": "42fd58d6b43a3c04bc97ec12efa8c9e440bd5396331b42aa7d69ee902ac4c762",
+    "seconds": 2.72325,
+    "segments": [
+      {
+        "text": "英语单词",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 15285,
+        "sourceSha256": "762afe15a2c6528212d6eaf3e9e41758339d73c1b88ae13abf61b77029a180bc",
+        "pcmSha256": "66e37542497ca174125c62f3cf2d55dafc1c3fa5810bcdbff47e4d98d2f7e54a"
+      },
+      {
+        "text": "bark",
+        "voice": "Daniel",
+        "startFrame": 18485,
+        "frames": 8585,
+        "sourceSha256": "17463cd0e2d60388c669db909f0a160988cbfab4b41755373383b1393224e925",
+        "pcmSha256": "b203e15a66aec64c03770ec9226cf1493a8409bf7f05054fe34f02207a66184a"
+      },
+      {
+        "text": "中文怎么说？",
+        "voice": "Tingting",
+        "startFrame": 27070,
+        "frames": 16502,
+        "sourceSha256": "70289f996ece4995ea2d29983e08482d8fe78e1189a6f40375e02572d4832319",
+        "pcmSha256": "9c6dc196e5ed66427d88047a532d7bf62888b2835e33ac4cab52ed2e280bd908"
+      }
+    ]
+  },
+  {
+    "id": "n09",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请用中文告诉我desk是什么意思。",
+    "target": "desk",
+    "rubric": "书桌。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n09.wav",
+    "sha256": "34836ff581621a505de8f034c0405e86fcd57664be8d737a884b0841a58738b3",
+    "seconds": 3.1960625,
+    "segments": [
+      {
+        "text": "请用中文告诉我",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 25347,
+        "sourceSha256": "ba61244ecdaade39985b1d07b4483ee8cd2e0bada98d159ee6f8f290fb8ae6f9",
+        "pcmSha256": "8861a72e406a8afdbb15955994502f90879a4e814d5803ab0644c2d2355163ad"
+      },
+      {
+        "text": "desk",
+        "voice": "Samantha",
+        "startFrame": 28547,
+        "frames": 6966,
+        "sourceSha256": "9a03d0f2ae3e35334863ffa8b5fa14c2821db84a34920b0f01b3a0fcf1bc0362",
+        "pcmSha256": "2ffcf0a059b654e4193ad6e9e2086e93398b736cd404e217d4292f33b9b735ef"
+      },
+      {
+        "text": "是什么意思。",
+        "voice": "Tingting",
+        "startFrame": 35513,
+        "frames": 15624,
+        "sourceSha256": "f3feb78fd6eff43d25b7dcaa4928627c1804d0ceeeb74a4308600a48cdb7a5ad",
+        "pcmSha256": "0af12b0cd6339b380404cb3405bf0dd7f2f06c4e4c3e1f72f602be5e3d121654"
+      }
+    ]
+  },
+  {
+    "id": "n10",
+    "language": "mixed",
+    "kind": "task",
+    "text": "我想知道flag的中文含义。",
+    "target": "flag",
+    "rubric": "旗子。",
+    "pauseMs": 600,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n10.wav",
+    "sha256": "3dda9795f5ba9f9798a8b33a6a69c1f7d69db8f15fe832a9e4fc1b5fdea734c0",
+    "seconds": 3.2254375,
+    "segments": [
+      {
+        "text": "我想知道",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 14894,
+        "sourceSha256": "1609c46f0a3f1ae61a4512bad5ad57ad14ff1af1d751d538b1f25512cf57088e",
+        "pcmSha256": "eeae61ca13ef92c7e58afae70ff7e4a7e48ef8ce5e70b0270a0b521641706dcb"
+      },
+      {
+        "text": "flag",
+        "voice": "Daniel",
+        "startFrame": 27694,
+        "frames": 7578,
+        "sourceSha256": "9a80949273b01a400d696154133e2e4d1cde8891e2518c35e6ffa399f6ed16ae",
+        "pcmSha256": "e499d0de7dbdee91a0a9347e9b39a1c81fdd8d46aef7a0d1549d95f34dfca427"
+      },
+      {
+        "text": "的中文含义。",
+        "voice": "Tingting",
+        "startFrame": 35272,
+        "frames": 16335,
+        "sourceSha256": "f6e0b994e297978b6f50bbc197dc4d43e463a0d3833b850bfba453842b7e7fe3",
+        "pcmSha256": "8354aaa03927087239cfca36c86af2c30c53668df8500d48db297e0d44f2d3ba"
+      }
+    ]
+  },
+  {
+    "id": "n11",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请用中文解释英语单词window的意思，并给一个英语例句。",
+    "target": "window",
+    "rubric": "窗户；一个含 window 的自然完整英语例句。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n11.wav",
+    "sha256": "3f4c7416f15d7a0273a7ec19115961d4e46b656a9eb393c3e7dcb232fa07cd7a",
+    "seconds": 5.3615,
+    "segments": [
+      {
+        "text": "请用中文解释英语单词",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 36864,
+        "sourceSha256": "5451ea8482b41ce02490bd8ef9a08509ef0344c32a0b284f16d0b5e64cfcae74",
+        "pcmSha256": "cb8399dc7eb894ee0f379197afc19cb4cec19af694593fcd3b4f161ec0893083"
+      },
+      {
+        "text": "window",
+        "voice": "Samantha",
+        "startFrame": 40064,
+        "frames": 7837,
+        "sourceSha256": "83dc142f62731708806f911b3c743cf4d7b550065e5a9bc8d2a487f50c2afe0f",
+        "pcmSha256": "ff26514149fea2db8f91f73d8e7ef2ad968ceb3c1fe0014214d1b86ee82ab96d"
+      },
+      {
+        "text": "的意思，并给一个英语例句。",
+        "voice": "Tingting",
+        "startFrame": 47901,
+        "frames": 37883,
+        "sourceSha256": "b8d93475c6091613ab15d657f2e7b7e4342ec5af7aaf26ffc8f0c359da89b8cb",
+        "pcmSha256": "d40d732a967bb174861bc49642d43aaa9ef73cd3a684383576a2142b8ebac71c"
+      }
+    ]
+  },
+  {
+    "id": "n12",
+    "language": "mixed",
+    "kind": "task",
+    "text": "请告诉我英语单词window的中文意思。",
+    "target": "window",
+    "rubric": "窗户。",
+    "pauseMs": 600,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n12.wav",
+    "sha256": "9b09822354643c01da22918b3b53ecdf76695df33ecb671ab8d86e4f552aaf6a",
+    "seconds": 4.196875,
+    "segments": [
+      {
+        "text": "请告诉我英语单词",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 30734,
+        "sourceSha256": "f221f59dd516132a2f458d80d192e0c659e2e51b14f00dd218de80697ed3a845",
+        "pcmSha256": "ddaf095006e6cd5f099f4d8e4382decd5f3c54e337336e006995d8f24631b5a4"
+      },
+      {
+        "text": "window",
+        "voice": "Daniel",
+        "startFrame": 43534,
+        "frames": 8767,
+        "sourceSha256": "c8f0819f2aafc8d195d5e0df7afd612113730073ae26ca46356e6981b9175d5b",
+        "pcmSha256": "3299eb5c6f184ac8838ef11580d29199a925645a29e19647a4e4e18435af7599"
+      },
+      {
+        "text": "的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 52301,
+        "frames": 14849,
+        "sourceSha256": "188f85c3d1db3ece019dca7974ba0408d1fd622fc507d042ac2cc8d465eeee7a",
+        "pcmSha256": "0664d6dda3daf6662e3f0e0f9bfa1e52b974eefa34763977b1b02d2f78e0b154"
+      }
+    ]
+  },
+  {
+    "id": "n13",
+    "language": "zh",
+    "kind": "task",
+    "text": "你有真正的出生日期吗？用中文回答。",
+    "target": "",
+    "rubric": "AI 没有人类出生日期，不编造日期。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n13.wav",
+    "sha256": "71d9d3f905e1d821c10f9ad3fa71e71686032b497492a5348ab55678a9a36247",
+    "seconds": 3.491375,
+    "segments": [
+      {
+        "text": "你有真正的出生日期吗？用中文回答。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 52662,
+        "sourceSha256": "9969c53294689d0875088ffe84e4f78645fbc21ac061af5b04dc0be2d331586d",
+        "pcmSha256": "f3e37e9ed5ae059143a4c5500c4839f75e0bc143ce912ea0eefe3f9c8ebf4450"
+      }
+    ]
+  },
+  {
+    "id": "n14",
+    "language": "zh",
+    "kind": "task",
+    "text": "我最喜欢吃哪种水果？用中文回答。",
+    "target": "",
+    "rubric": "只提到喜欢梨，没有声明最喜欢。",
+    "pauseMs": 0,
+    "history": [
+      {
+        "role": "user",
+        "content": "我喜欢梨。"
+      }
+    ],
+    "audio": ".local/code-switch-target-final/inputs/n14.wav",
+    "sha256": "6bb22348b08e6addd1a2365e524b9648aaa22306c50a9d189e619f51bbbcbe0e",
+    "seconds": 3.628875,
+    "segments": [
+      {
+        "text": "我最喜欢吃哪种水果？用中文回答。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 54862,
+        "sourceSha256": "6ccf648d60ecb94124bd14b1a567805d9be528f24f80b7e5eca2cf7aecc085b5",
+        "pcmSha256": "7d4b89881244cbfe9f9a9b1e781f1b6ad239f68d9a3e5d1070fb4a1203861797"
+      }
+    ]
+  },
+  {
+    "id": "n15",
+    "language": "en",
+    "kind": "task",
+    "text": "What does flower mean in Chinese? Give one English example.",
+    "target": "flower",
+    "rubric": "花；一个含 flower 的自然完整英语例句。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n15.wav",
+    "sha256": "f562c7f4bdf92009c3e870e8701c769948cc8c7f5c1f22664547379f84a3bf0d",
+    "seconds": 3.708625,
+    "segments": [
+      {
+        "text": "What does flower mean in Chinese? Give one English example.",
+        "voice": "Samantha",
+        "startFrame": 3200,
+        "frames": 56138,
+        "sourceSha256": "18957b50eb6c75252c4c5827852489f3fdced01c5b3b1a33d780fa41d6513b16",
+        "pcmSha256": "f39f0c8c8f84f1672e65c70ddb97cfd6a15144eb9b1826abd6b718eb8fe84f47"
+      }
+    ]
+  },
+  {
+    "id": "n16",
+    "language": "en",
+    "kind": "task",
+    "text": "Say a short English goodbye to a friend.",
+    "target": "",
+    "rubric": "自然完整的英语告别。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n16.wav",
+    "sha256": "87ddc7831f0e1d70e88e5baa3521c14ad03167ec4e66b38a56f59107a9e30cab",
+    "seconds": 2.4061875,
+    "segments": [
+      {
+        "text": "Say a short English goodbye to a friend.",
+        "voice": "Daniel",
+        "startFrame": 3200,
+        "frames": 35299,
+        "sourceSha256": "4557e2b6194a996bf53ac02874aa8c2720f56b7447f0e6133f9a626bb36dffa0",
+        "pcmSha256": "5b7f4d18873d29411d839f9e6bbef9829ee00920956f15cfb5faa556ef59c135"
+      }
+    ]
+  },
+  {
+    "id": "n17",
+    "language": "zh",
+    "kind": "mandarin-word",
+    "text": "请解释“书包”的中文意思。",
+    "target": "",
+    "rubric": "解释中文书包，不在转写中编造英语目标词。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n17.wav",
+    "sha256": "d8407faea2872146781ff31be6431c813910c89351f2e029a96472f257e4e3c3",
+    "seconds": 2.283375,
+    "segments": [
+      {
+        "text": "请解释“书包”的中文意思。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 33334,
+        "sourceSha256": "be1faa7b3342760008859bbc0f1c26844149cb286710b4f4e3e49db7a61f8be9",
+        "pcmSha256": "2c60a25bf0b7a02632984277a5dac50ac0f06c55ec32f78488ed11e6d55dc3d8"
+      }
+    ]
+  },
+  {
+    "id": "n18",
+    "language": "zh",
+    "kind": "mandarin-word",
+    "text": "请告诉我“台灯”的意思。",
+    "target": "",
+    "rubric": "解释中文台灯，不在转写中编造英语目标词。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n18.wav",
+    "sha256": "46b2545d7b3fc6c0e7152e07b07010cbd8413f17c637c666d378c26e53f4a285",
+    "seconds": 2.1440625,
+    "segments": [
+      {
+        "text": "请告诉我“台灯”的意思。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 31105,
+        "sourceSha256": "619e2e89700fdfb82b9278316db32d126ab7740abbbe928cbbcc7e66b3c31545",
+        "pcmSha256": "acee16033997e0d3805b362fdb9faed58a255c87007977d9ebc65516b45118fa"
+      }
+    ]
+  },
+  {
+    "id": "n19",
+    "language": "zh",
+    "kind": "missing-target",
+    "text": "英文单词的中文意思是什么？",
+    "target": "",
+    "rubric": "确实缺词，应澄清，不得捏造单词。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n19.wav",
+    "sha256": "a0b1223b58e13d3d791d66820c8e83669a3e22e2265e13206c43130547d06856",
+    "seconds": 2.6184375,
+    "segments": [
+      {
+        "text": "英文单词的中文意思是什么？",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 38695,
+        "sourceSha256": "b40472f3cbbbda2c834d64752e70a28b660a1f4c675b0150e71c8c319a9f8424",
+        "pcmSha256": "aa699343b640e111f72551d66173909377a4423714a6ece50dcbbcccc466cdad"
+      }
+    ]
+  },
+  {
+    "id": "n20",
+    "language": "zh",
+    "kind": "missing-target",
+    "text": "请告诉我的中文含义。",
+    "target": "",
+    "rubric": "确实缺词，应澄清，不得捏造单词。",
+    "pauseMs": 0,
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/n20.wav",
+    "sha256": "b05dd10cabdd79439468b9f0a668bf75423a30485dbef8a5a41a8361de3a1f3a",
+    "seconds": 2.1673125,
+    "segments": [
+      {
+        "text": "请告诉我的中文含义。",
+        "voice": "Tingting",
+        "startFrame": 3200,
+        "frames": 31477,
+        "sourceSha256": "fe744bc1a54080d9c5284802590df30882cca40d5bcf8fbc36b8a7fe832f6675",
+        "pcmSha256": "c14e7e903a001d441cb3f3ceecb6b1c751cd11ff56098cedb5a61c4c322e9fad"
+      }
+    ]
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "segments": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/quiet-noise.wav",
+    "sha256": "3b4d88176bbc44a27abf37121a9a4befa118730b962cf699355136a7c3563c26",
+    "seconds": 3,
+    "segments": []
+  },
+  {
+    "id": "loud-noise",
+    "language": "control",
+    "kind": "noise",
+    "text": "",
+    "target": "",
+    "rubric": "不转写、不回复。",
+    "history": [],
+    "audio": ".local/code-switch-target-final/inputs/loud-noise.wav",
+    "sha256": "2e1e1d6f4db75db214bf2c603498ed59e38427a8c12a3cb6c4c5af8f122a4547",
+    "seconds": 3,
+    "segments": []
+  }
+]

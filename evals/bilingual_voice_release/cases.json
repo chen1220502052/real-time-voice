@@ -1,0 +1,321 @@
+[
+  {
+    "id": "b01",
+    "language": "zh",
+    "text": "请用中文回答，你现在多大了？",
+    "rubric": "AI 身份，没有人类年龄。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b01.wav",
+    "sha256": "8af112d38f5a3e31656315fc4421a33b688795e4e8da5df4c027df8a0c7c2ad0",
+    "seconds": 3.1309375,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b02",
+    "language": "zh",
+    "text": "你有真正的生日吗？用中文回答。",
+    "rubric": "没有人类生日，不报日期。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b02.wav",
+    "sha256": "c39e5463f6731f8d15dba9f57e227947e08521f99f5a68cfd22d554c34f0d98e",
+    "seconds": 3.0501875,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b03",
+    "language": "zh",
+    "text": "请用中文说，我最喜欢的水果是什么？",
+    "rubric": "只喜欢苹果，不知道最喜欢的水果。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我喜欢苹果。"
+      }
+    ],
+    "audio": ".local/bilingual-voice-release/inputs/b03.wav",
+    "sha256": "1e2a36c077e8635000820c877bf5cc1c68dfde5ff395d9109c06126c79219f38",
+    "seconds": 3.7694375,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b04",
+    "language": "zh",
+    "text": "我最喜欢的科目是什么？用中文回答。",
+    "rubric": "按最新明确偏好回答美术。",
+    "history": [
+      {
+        "role": "user",
+        "content": "我最喜欢的科目是音乐。"
+      },
+      {
+        "role": "assistant",
+        "content": "我记住了。"
+      },
+      {
+        "role": "user",
+        "content": "我最喜欢的科目是美术。"
+      }
+    ],
+    "audio": ".local/bilingual-voice-release/inputs/b04.wav",
+    "sha256": "c243f84e87d691a140c13d20214b624763176538d7fdcaaa8a8ab8f6466a6f13",
+    "seconds": 3.51275,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b05",
+    "language": "zh",
+    "text": "课文里，莉莉是九岁。请用中文回答，莉莉几岁？",
+    "rubric": "课文人物九岁，不套用 AI 身份。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b05.wav",
+    "sha256": "3fd7aa92af1de8d9adf0225893da08cbe304ac93309be257ee0a39bfba657e34",
+    "seconds": 5.11425,
+    "voices": [
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b06",
+    "language": "mixed",
+    "text": "英语单词pencil是什么意思？请用中文回答。",
+    "rubric": "铅笔，正常中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b06.wav",
+    "sha256": "1c68e4c60b0a8c43a6da74ac2fbdd52c3108cd54a4b6369b6ffa9453f140b506",
+    "seconds": 4.3095,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b07",
+    "language": "mixed",
+    "text": "告诉我tiger的中文意思。",
+    "rubric": "老虎，正常中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b07.wav",
+    "sha256": "31be9920395170324fb6761862b419dc1a30fda58a6ccdaedb7e7c8fb5b162db",
+    "seconds": 2.2993125,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b08",
+    "language": "mixed",
+    "text": "请用中文解释happy，并给一个英语例句。",
+    "rubric": "高兴，包含 happy 的完整英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b08.wav",
+    "sha256": "bf1089f1feb325c4dc3a1b6e7a3a9f7f3b9b1d65a8ad387d0c2012aa11d1f4d4",
+    "seconds": 3.626,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b09",
+    "language": "mixed",
+    "text": "请用中文解释cold，再写两个英语例句。",
+    "rubric": "寒冷或感冒等适当释义，两个正确的 cold 英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b09.wav",
+    "sha256": "44ee4a52f0549d64cef40fd07450429b4a5282d2e4b91771cd10eb9aafc9c897",
+    "seconds": 3.7556875,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b10",
+    "language": "mixed",
+    "text": "请解释tall的中文意思，并用它写一个英语句子。",
+    "rubric": "高的，有包含 tall 的完整英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b10.wav",
+    "sha256": "a7c1c8735878583b4cae13b5f475068376e8351777fe20aaab33612149f6dc11",
+    "seconds": 4.6840625,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b11",
+    "language": "mixed",
+    "text": "英语单词bread中文怎么说？",
+    "rubric": "面包，正常中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b11.wav",
+    "sha256": "f4d4ace8200b7a9515b8cd89dce92ef93261d803b8b9d5460ae87462fbc937be",
+    "seconds": 2.5465625,
+    "voices": [
+      "Tingting",
+      "Samantha",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b12",
+    "language": "mixed",
+    "text": "请用中文解释yellow的意思，再用英语造一个句子。",
+    "rubric": "黄色，有包含 yellow 的完整英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b12.wav",
+    "sha256": "2294d2f7821f67ab39200ad419dac528ce616202f8f73345118351e6183aa0e6",
+    "seconds": 4.7929375,
+    "voices": [
+      "Tingting",
+      "Daniel",
+      "Tingting"
+    ]
+  },
+  {
+    "id": "b13",
+    "language": "en",
+    "text": "Please translate the word potato into Chinese.",
+    "rubric": "土豆或马铃薯，正常中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b13.wav",
+    "sha256": "8f7e2aabe6bf3ab0cef19ee2e70c1905066f468554461b0b8faf67187e60dadf",
+    "seconds": 2.96125,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b14",
+    "language": "en",
+    "text": "How do you say banana in Chinese?",
+    "rubric": "香蕉，正常中文播报。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b14.wav",
+    "sha256": "bc275d3768673112e481d2ffbb80dd5a7117add852f0b3680c746c92650c8c4c",
+    "seconds": 2.32975,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b15",
+    "language": "en",
+    "text": "What does brave mean in Chinese? Give me an example in English.",
+    "rubric": "勇敢，包含 brave 的完整英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b15.wav",
+    "sha256": "bca744e9ff4b5c56a9db06119798300732faf347ea53a9631726d7edd98467af",
+    "seconds": 3.7899375,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b16",
+    "language": "en",
+    "text": "Tell me the Chinese meaning of friendly. Then make one English sentence.",
+    "rubric": "友好的，包含 friendly 的完整英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b16.wav",
+    "sha256": "d743ae51e819ef8fea037638fc88c32da009457acba8f4d49b91ca06ab3d9fc3",
+    "seconds": 4.3301875,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b17",
+    "language": "en",
+    "text": "What does slow mean in Chinese? Write two short English example sentences.",
+    "rubric": "缓慢，包含 slow 的两个完整正确英语例句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b17.wav",
+    "sha256": "501313a3b8f4e86711585815b4914ee2cd37d2a64b33de579c761af517d6c2dc",
+    "seconds": 4.602625,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b18",
+    "language": "en",
+    "text": "What is my favourite sport?",
+    "rubric": "只喜欢 swimming，最喜欢的运动未知。",
+    "history": [
+      {
+        "role": "user",
+        "content": "I like swimming."
+      }
+    ],
+    "audio": ".local/bilingual-voice-release/inputs/b18.wav",
+    "sha256": "d8692d2b0c7adac59c93e958f3f139df808b7b2d48286c5287d4aca71f1c8502",
+    "seconds": 1.7928125,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "b19",
+    "language": "en",
+    "text": "In a story, Jo is ten years old. How old is Jo?",
+    "rubric": "Jo 是十岁，不套用 AI 身份。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b19.wav",
+    "sha256": "62e63e145886f28fcde7db0f44bcc1e6022e0fffc5c9b8d3aa72b6cc351864f7",
+    "seconds": 3.656375,
+    "voices": [
+      "Samantha"
+    ]
+  },
+  {
+    "id": "b20",
+    "language": "en",
+    "text": "Give me a short English question inviting a friend to sing.",
+    "rubric": "完整、可用的邀请朋友唱歌的英语问句。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/b20.wav",
+    "sha256": "e5e57575cd772da105d0c529586d404d4c973f9ab0074304fd37fa92e0962eb1",
+    "seconds": 3.429625,
+    "voices": [
+      "Daniel"
+    ]
+  },
+  {
+    "id": "silence",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/silence.wav",
+    "sha256": "d303811b8c84619667cd0501342f84ec6cbe69f7aa3856dcf52fabda374c92b8",
+    "seconds": 3,
+    "voices": []
+  },
+  {
+    "id": "quiet-noise",
+    "language": "control",
+    "text": "",
+    "rubric": "不产生转写或回复。",
+    "history": [],
+    "audio": ".local/bilingual-voice-release/inputs/quiet-noise.wav",
+    "sha256": "3e957ca0c5f4eabf899088dda56bace18ed4445f15719292848a83810a248bcb",
+    "seconds": 3,
+    "voices": []
+  }
+]

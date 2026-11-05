@@ -1,0 +1,701 @@
+{
+  "variant": "baseline",
+  "mode": "live",
+  "startedUtc": "2026-11-04T05:44:05Z",
+  "frozen": {
+    "frozenUtc": "2026-11-04T05:41:44Z",
+    "casesSha256": "e9461b5f5ca84d2534ff4beaee7747c042e235c9e4ff9d4847f3a464b711d1ba",
+    "sources": {
+      "backend/voice_grounding.py": "22e673ab6a6f90d8cfe7ebcf508b9e6990812b82c0bf8b449b4340e917414995",
+      "backend/voice_prompt.py": "d906286f82b4418ecb2f183bc83b1e4c451f8a51e7992070620c4b2d080236e5",
+      "backend/providers/speech_local.py": "a14580a20660978ee4a3124fb69b59707c17ffa2d55c4078c42db30de2979255",
+      "scripts/local_speech_worker.py": "a9ba8cc03411b5f8ae409b6ff9c74219713414da4a8cd2b20d74a80e7f39328c",
+      "backend/english_chat.py": "a01316ebded0492085915341e846779f14bd419125627f7b84b96289af46df8a",
+      "backend/reply_sentences.py": "89b28deb6b270dbede46bb2883e7fdfd4f5545d54ae37d70d7e7f6ae192c2b8b",
+      "backend/curriculum_chat.py": "9451bce9b5d4147a0564a17c82002b363be68e91f6d5f8829f4cc249c6613ac9"
+    },
+    "baselineSources": {
+      ".local/bilingual-voice-release/baseline/english_chat.py": "f5072350a493b70a176c588274f92d2355de8f5b35b195211f727fdec6592eda",
+      ".local/bilingual-voice-release/baseline/local_speech_worker.py": "a5e246f6354f113546d8b19fa3be75e993bd39059476118dafed0cdcba92c47a",
+      ".local/bilingual-voice-release/baseline/voice_prompt.py": "2eb0fad679284a4993c15bc8997161418596721424038a6dfdd4e98315ee1fc2",
+      ".local/bilingual-voice-release/baseline/speech_local.py": "70182a8841692afeba1295935850c72a0c3ab6cf446de36530984566bb5fccb8",
+      ".local/bilingual-voice-release/baseline/voice_grounding.py": "f4589c73659104da550cf20fb50728c09433c3006a1c4dd4fd776a2962464509"
+    },
+    "harnessSha256": "be6682fb687fb37c2a595976f1ffe632e7e0d208fc62397abfe89dd955ea186b",
+    "model": "qwen2.5:3b Q4_K_M",
+    "measurement": "24-case first round promoted to development; this 20-case release set is fresh and frozen before inference. Both variants use identical new inputs. TTS cache disabled. Local speech synthesis, not microphone-to-speaker. Live probes include paced delivery and actual WebRTC VAD."
+  },
+  "rows": [
+    {
+      "id": "b01",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 371.75037525594234,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120298448.839625,
+        "responseReadyMs": 3120298525.7219996,
+        "workerInferenceMs": 74.76,
+        "snapshotEndMediaMs": 3200,
+        "workerQueueWaitMs": 0.006,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 76.492,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 134209084,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8033353715911019,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120298849.571291,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3100,
+        "fedMediaMs": 3600
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 0,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 432.9925421625376,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120302653.381708,
+        "responseReadyMs": 3120302759.959208,
+        "workerInferenceMs": 103.88,
+        "snapshotEndMediaMs": 3900,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.015,
+        "workerIpcWallMs": 106.086,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8214679555438792,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120303052.989666,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3800,
+        "fedMediaMs": 4300
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 402.9375412501395,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120305357.5699162,
+        "responseReadyMs": 3120305420.356916,
+        "workerInferenceMs": 60.25,
+        "snapshotEndMediaMs": 2400,
+        "workerQueueWaitMs": 0.009,
+        "workerStartupMs": 0.014,
+        "workerIpcWallMs": 62.304,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 133057600,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7791333644724598,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120305757.009291,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 4
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2300,
+        "fedMediaMs": 2800
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b10",
+      "repeat": 0,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 417.964874766767,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120310460.67375,
+        "responseReadyMs": 3120310524.392833,
+        "workerInferenceMs": 60.51,
+        "snapshotEndMediaMs": 4800,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.016,
+        "workerIpcWallMs": 62.843,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 133791640,
+          "quantizationBits": 8
+        },
+        "confidence": 0,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120310860.296875,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4700,
+        "fedMediaMs": 5200
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b15",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does brave mean in Chinese? Give me an example in English.",
+      "asrMs": 212.61304197832942,
+      "asrDetail": {
+        "text": "What does brave mean in Chinese? Give me an example in English.",
+        "requestStartedMs": 3120314663.1140413,
+        "responseReadyMs": 3120314724.2039156,
+        "workerInferenceMs": 59.52,
+        "snapshotEndMediaMs": 3900,
+        "workerQueueWaitMs": 0.003,
+        "workerStartupMs": 0.006,
+        "workerIpcWallMs": 60.84,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 134029034,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9970915885114282,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120314864.7281656,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3800,
+        "fedMediaMs": 4100
+      },
+      "text": "brave 的意思是“勇敢的”。",
+      "firstAudioMs": 516.6245829313993,
+      "totalMs": 517.3169998452067,
+      "audioSeconds": 6.805,
+      "output": ".local/bilingual-voice-release/baseline/b15-live-0.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 35.95
+      },
+      "speech": [
+        {
+          "text": "brave 的意思是“勇敢的”。",
+          "detail": {
+            "id": 3,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 265.222,
+              "postprocess": 1.436
+            },
+            "memory": {
+              "activeBytes": 164960930,
+              "cacheBytes": 131024536
+            },
+            "inferenceMs": 266.68,
+            "queueWaitMs": 0.003,
+            "startupMs": 0.003,
+            "ipcWallMs": 267.762
+          }
+        }
+      ],
+      "audioTranscript": "Brave Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "8347b3e0106eb6996a1ee790d30e7163ef270ce460969acb8673f2ae3b682879"
+    },
+    {
+      "id": "b19",
+      "repeat": 0,
+      "mode": "live",
+      "language": "en",
+      "recognized": "In a story, Joe is ten years old. How old is Joe?",
+      "asrMs": 246.1972921155393,
+      "asrDetail": {
+        "text": "In a story, Joe is ten years old. How old is Joe?",
+        "requestStartedMs": 3120318870.992125,
+        "responseReadyMs": 3120318933.339875,
+        "workerInferenceMs": 60.83,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.002,
+        "workerStartupMs": 0.003,
+        "workerIpcWallMs": 62.08,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 133582656,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9883052451697717,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120319072.490833,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4000
+      },
+      "text": "Joe is ten years old.",
+      "firstAudioMs": 696.1436672136188,
+      "totalMs": 696.5782502666116,
+      "audioSeconds": 1.72,
+      "output": ".local/bilingual-voice-release/baseline/b19-live-0.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 6.13,
+        "promptChars": 2138,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": false,
+        "connectionReadyMs": 17.46,
+        "providerHeadersMs": 278.66,
+        "providerFirstTokenMs": 278.76,
+        "firstSpeechTextReadyMs": 303.53,
+        "modelLoadMs": 17.215,
+        "promptEvalMs": 232.588,
+        "tokenGenerationMs": 68.85,
+        "promptTokens": 465,
+        "generatedTokens": 7,
+        "firstSentenceReadyMs": 348.59,
+        "firstSentenceChars": 22
+      },
+      "speech": [
+        {
+          "text": "Joe is ten years old.",
+          "detail": {
+            "id": 4,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 99.792,
+              "postprocess": 0.688
+            },
+            "memory": {
+              "activeBytes": 164469123,
+              "cacheBytes": 132698862
+            },
+            "inferenceMs": 100.52,
+            "queueWaitMs": 0.007,
+            "startupMs": 0.005,
+            "ipcWallMs": 100.98
+          }
+        }
+      ],
+      "audioTranscript": "Joe is 10 years old.",
+      "audioLanguage": "en",
+      "waveformSha256": "76e20c4d72df28a81212e0d9a4482ea8a0baabfbdc46a1f94deb1244cc90ab92"
+    },
+    {
+      "id": "silence",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1301.0903750546277,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 0,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.4303745478392,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "quiet-noise",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.2676669061184,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "silence",
+      "repeat": 1,
+      "mode": "live",
+      "language": "control",
+      "recognized": "",
+      "asrMs": 1302.21450002864,
+      "asrDetail": {
+        "text": ""
+      },
+      "endpoint": null,
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b19",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "In a story, Joe is ten years old. How old is Joe?",
+      "asrMs": 245.59858301654458,
+      "asrDetail": {
+        "text": "In a story, Joe is ten years old. How old is Joe?",
+        "requestStartedMs": 3120340442.30225,
+        "responseReadyMs": 3120340500.466333,
+        "workerInferenceMs": 56.5,
+        "snapshotEndMediaMs": 3800,
+        "workerQueueWaitMs": 0.003,
+        "workerStartupMs": 0.006,
+        "workerIpcWallMs": 57.889,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 0,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9883052451697717,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120340641.807291,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3700,
+        "fedMediaMs": 4000
+      },
+      "text": "Joe is ten years old.",
+      "firstAudioMs": 465.66279185935855,
+      "totalMs": 466.0648750141263,
+      "audioSeconds": 1.72,
+      "output": ".local/bilingual-voice-release/baseline/b19-live-1.wav",
+      "timing": {
+        "localAdmissionWaitMs": 0,
+        "providerRequestMs": 4.32,
+        "promptChars": 2138,
+        "systemPromptChars": 2089,
+        "historyMessages": 1,
+        "connectionReused": true,
+        "providerHeadersMs": 50.31,
+        "providerFirstTokenMs": 50.36,
+        "firstSpeechTextReadyMs": 72.28,
+        "modelLoadMs": 11.48,
+        "promptEvalMs": 23.668,
+        "tokenGenerationMs": 66.56,
+        "promptTokens": 465,
+        "generatedTokens": 7,
+        "firstSentenceReadyMs": 117.04,
+        "firstSentenceChars": 22
+      },
+      "speech": [
+        {
+          "text": "Joe is ten years old.",
+          "detail": {
+            "id": 5,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 101.479,
+              "postprocess": 0.665
+            },
+            "memory": {
+              "activeBytes": 164469123,
+              "cacheBytes": 132011366
+            },
+            "inferenceMs": 102.18,
+            "queueWaitMs": 0.008,
+            "startupMs": 0.006,
+            "ipcWallMs": 102.681
+          }
+        }
+      ],
+      "audioTranscript": "Joe is 10 years old.",
+      "audioLanguage": "en",
+      "waveformSha256": "3c0cb86cc8892d9a255d761d7f2508e74b4da70eeaf07fac448bf5ff589cd4e7"
+    },
+    {
+      "id": "b15",
+      "repeat": 1,
+      "mode": "live",
+      "language": "en",
+      "recognized": "What does brave mean in Chinese? Give me an example in English.",
+      "asrMs": 212.92395796626806,
+      "asrDetail": {
+        "text": "What does brave mean in Chinese? Give me an example in English.",
+        "requestStartedMs": 3120344665.32725,
+        "responseReadyMs": 3120344726.071916,
+        "workerInferenceMs": 59.15,
+        "snapshotEndMediaMs": 3900,
+        "workerQueueWaitMs": 0.002,
+        "workerStartupMs": 0.004,
+        "workerIpcWallMs": 60.452,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 134203712,
+          "quantizationBits": 8
+        },
+        "confidence": 0.9970915885114282,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120344865.69275,
+        "speculative": true,
+        "endpointSilenceMs": 300,
+        "endpointReason": "stable_transcript",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3800,
+        "fedMediaMs": 4100
+      },
+      "text": "brave 的意思是“勇敢的”。",
+      "firstAudioMs": 494.1558330319822,
+      "totalMs": 494.82820834964514,
+      "audioSeconds": 6.805,
+      "output": ".local/bilingual-voice-release/baseline/b15-live-1.wav",
+      "timing": {
+        "chatReplySource": "grounded_glossary",
+        "firstSpeechTextReadyMs": 0.25
+      },
+      "speech": [
+        {
+          "text": "brave 的意思是“勇敢的”。",
+          "detail": {
+            "id": 6,
+            "sampleRate": 16000,
+            "engine": "mlx-bf16",
+            "stageMs": {
+              "generation": 277.273,
+              "postprocess": 1.38
+            },
+            "memory": {
+              "activeBytes": 164961046,
+              "cacheBytes": 133871540
+            },
+            "inferenceMs": 278.71,
+            "queueWaitMs": 0.016,
+            "startupMs": 0.012,
+            "ipcWallMs": 280.488
+          }
+        }
+      ],
+      "audioTranscript": "Brave Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter Chinese letter",
+      "audioLanguage": "en",
+      "waveformSha256": "fec9624f6c06cdd6019c5c56428277311c982b33fb087d565612a1833c528b0c"
+    },
+    {
+      "id": "b10",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 418.40504109859467,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120349850.60475,
+        "responseReadyMs": 3120349916.558583,
+        "workerInferenceMs": 63.0,
+        "snapshotEndMediaMs": 4800,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.015,
+        "workerIpcWallMs": 65.377,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 133406698,
+          "quantizationBits": 8
+        },
+        "confidence": 0,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120350250.8087497,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 8
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 4700,
+        "fedMediaMs": 5200
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b07",
+      "repeat": 1,
+      "mode": "live",
+      "language": "mixed",
+      "recognized": "",
+      "asrMs": 402.78099989518523,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120352556.0327077,
+        "responseReadyMs": 3120352623.8775,
+        "workerInferenceMs": 66.16,
+        "snapshotEndMediaMs": 2400,
+        "workerQueueWaitMs": 0.005,
+        "workerStartupMs": 0.007,
+        "workerIpcWallMs": 67.434,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 130780974,
+          "quantizationBits": 8
+        },
+        "confidence": 0.7791333644724598,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120352955.606916,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 4
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 2300,
+        "fedMediaMs": 2800
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b03",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 432.88200022652745,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120356761.0276656,
+        "responseReadyMs": 3120356870.153,
+        "workerInferenceMs": 106.17,
+        "snapshotEndMediaMs": 3900,
+        "workerQueueWaitMs": 0.007,
+        "workerStartupMs": 0.012,
+        "workerIpcWallMs": 108.58,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 131383118,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8214679555438792,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120357160.469541,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 7
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3800,
+        "fedMediaMs": 4300
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    },
+    {
+      "id": "b01",
+      "repeat": 1,
+      "mode": "live",
+      "language": "zh",
+      "recognized": "",
+      "asrMs": 370.0349582359195,
+      "asrDetail": {
+        "text": "",
+        "requestStartedMs": 3120360267.584375,
+        "responseReadyMs": 3120360346.169875,
+        "workerInferenceMs": 76.34,
+        "snapshotEndMediaMs": 3200,
+        "workerQueueWaitMs": 0.004,
+        "workerStartupMs": 0.006,
+        "workerIpcWallMs": 78.288,
+        "workerMemory": {
+          "activeBytes": 785673228,
+          "cacheBytes": 133107506,
+          "quantizationBits": 8
+        },
+        "confidence": 0.8033353715911019,
+        "engine": "parakeet",
+        "endpointReachedMs": 3120360665.246541,
+        "speculative": true,
+        "endpointSilenceMs": 500,
+        "endpointReason": "normal_silence",
+        "snapshotRequests": 6
+      },
+      "endpoint": {
+        "startMediaMs": 100,
+        "endMediaMs": 3100,
+        "fedMediaMs": 3600
+      },
+      "text": "",
+      "firstAudioMs": null,
+      "audioSeconds": 0
+    }
+  ],
+  "workerWarmupMs": 6457.563916686922,
+  "completedUtc": "2026-11-04T05:45:17Z"
+}

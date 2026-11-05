@@ -1,6 +1,7 @@
 import asyncio
 import json
 from types import SimpleNamespace
+from dataclasses import replace
 
 from aiohttp import ClientSession, web
 import pytest
@@ -37,6 +38,41 @@ class Agent:
 def query(**kwargs):
     return BotRequest("req", "session", "turn", options={"grade": 5, "chapterId": "5-上册-10"},
                       messages=(BotMessage("user", "Tell me about the future."),), **kwargs)
+
+
+def test_default_text_transport_supports_extension_without_a_textbook():
+    async def run():
+        from backend.atomic import DemoTts, VadAsrStub
+        app = create_app(asr_factory=VadAsrStub, tts_factory=DemoTts, warmup=False,
+                         voice_enabled=False, bot_state_path=":memory:")
+        runner = web.AppRunner(app)
+        await runner.setup()
+        site = web.TCPSite(runner, "127.0.0.1", 0)
+        await site.start()
+        base = f"http://127.0.0.1:{site._server.sockets[0].getsockname()[1]}"
+        opening = {"version":2, "requestId":"opening", "sessionId":"extension", "turnId":"t1",
+                   "event":"session_start", "channel":"text", "options":{"grade":6}}
+        try:
+            async with ClientSession() as client:
+                async with client.post(base + "/api/text-bot/replies", json=opening) as response:
+                    assert response.status == 200
+                    events = [json.loads(line) for line in (await response.text()).splitlines()]
+                    assert events[-1]["type"] == "done"
+                    assert "favorite animal" in events[0]["text"]
+                goodbye = {**opening, "requestId":"bye", "turnId":"t2",
+                           "event":"user_message", "text":"Goodbye"}
+                async with client.post(base + "/api/text-bot/replies", json=goodbye) as response:
+                    assert response.status == 200
+                    events = [json.loads(line) for line in (await response.text()).splitlines()]
+                    assert any(e["type"] == "action" and e["action"] == "hang_up" for e in events)
+                    assert events[-1]["type"] == "done"
+                for options in ({}, {"grade":True}, {"grade":6, "chapterId":""}, {"grade":6, "chapterId":"missing"}):
+                    async with client.post(base + "/api/text-bot/replies", json={**opening, "options":options}) as response:
+                        assert response.status == 400
+                assert app["resource_manager"].in_use == 0
+        finally:
+            await runner.cleanup()
+    asyncio.run(run())
 
 
 def test_grade5_unit10_boundary_and_short_reply_policy():
@@ -114,6 +150,88 @@ def test_cancellation_reaches_agent_before_any_draft_is_visible():
         with pytest.raises(asyncio.CancelledError):
             await task
         assert closed.is_set()
+    asyncio.run(run())
+
+
+def test_voice_releases_stable_words_before_sentence_while_text_waits():
+    async def run():
+        release = asyncio.Event()
+        class Streaming:
+            async def astream(self, *args, **kwargs):
+                yield SimpleNamespace(content='Cats enjoy chasing butterflies '), {'langgraph_node':'model'}
+                await release.wait()
+                yield SimpleNamespace(content='outside with friends.'), {'langgraph_node':'model'}
+        bot = CurriculumChatBot(lambda _:Streaming(),lambda _:make_scope())
+        stream = stream_bot(bot,replace(query(),channel='voice'))
+        first = await asyncio.wait_for(anext(stream),.5)
+        assert first.text=='Cats enjoy chasing butterflies '
+        release.set();rest=[e async for e in stream]
+        assert ''.join(e.text for e in [first,*rest]).strip()=='Cats enjoy chasing butterflies outside with friends.'
+        assert rest[-1].type=='done'
+    asyncio.run(run())
+
+
+@pytest.mark.parametrize('width',[1,3,11,200])
+def test_voice_phrase_chunks_preserve_exact_final_answer(width):
+    text='My name is Kitty. I enjoy chatting with you!'
+    class Streaming:
+        async def astream(self,*args,**kwargs):
+            for i in range(0,len(text),width):
+                yield SimpleNamespace(content=text[i:i+width]),{'langgraph_node':'model'}
+    async def run():
+        bot=CurriculumChatBot(lambda _:Streaming(),lambda _:make_scope())
+        events=[e async for e in stream_bot(bot,replace(query(),channel='voice'))]
+        assert ''.join(e.text for e in events).strip()==text
+        assert events[-1].type=='done'
+    asyncio.run(run())
+
+
+def test_voice_cannot_report_success_after_streaming_an_incomplete_tail():
+    class Streaming:
+        async def astream(self,*args,**kwargs):
+            yield SimpleNamespace(content='I was going to '),{'langgraph_node':'model'}
+    async def run():
+        bot=CurriculumChatBot(lambda _:Streaming(),lambda _:make_scope())
+        events=[]
+        with pytest.raises(TextBotError,match='mid-sentence'):
+            async for event in stream_bot(bot,replace(query(),channel='voice')):events.append(event)
+        assert events and not any(e.type=='done' for e in events)
+    asyncio.run(run())
+
+
+def test_voice_context_keeps_delivered_history_and_latest_user_in_order():
+    async def run():
+        agent=Agent('Cats are fun.')
+        history=(BotMessage('user','I like cats.'),BotMessage('assistant','Do you have a cat?'),
+                 BotMessage('user','Why?'))
+        delivery=({'replyId':'old','generatedText':'Do you have a cat? What is its name?',
+                   'deliveredText':'Do you have a cat?','status':'interrupted'},)
+        request=replace(query(),channel='voice',messages=history,delivery_context=delivery)
+        bot=CurriculumChatBot(lambda _:agent,lambda _:make_scope())
+        _=[e async for e in stream_bot(bot,request)]
+        sent=agent.calls[0]['messages']
+        assert sent[:2]==[m.to_dict() for m in history[:2]]
+        assert sent[-1]==history[-1].to_dict()
+        notes=' '.join(m['content'] for m in sent[2:-1])
+        assert 'I like cats.' in notes and 'deliveredText' in notes
+        assert 'What is its name?' in notes  # Unheard continuation remains available.
+        assert 'recent_replies' not in notes
+    asyncio.run(run())
+
+
+@pytest.mark.parametrize('latest,keeps_draft',[('I want to be a teacher.',False),('Continue.',True),('接着说',True)])
+def test_voice_new_input_does_not_receive_unheard_drafts_but_resume_does(latest,keeps_draft):
+    async def run():
+        agent=Agent('Teachers help kids learn.')
+        heard='A teacher helps kids.';unheard='An astronaut travels in space.'
+        history=(BotMessage('user','Tell me about jobs.'),BotMessage('assistant',heard),BotMessage('user',latest))
+        request=replace(query(),channel='voice',messages=history,delivery_context=({'replyId':'old',
+            'generatedText':heard+' '+unheard,'deliveredText':heard,'status':'interrupted'},))
+        bot=CurriculumChatBot(lambda _:agent,lambda _:make_scope())
+        _=[e async for e in stream_bot(bot,request)]
+        sent=agent.calls[0]['messages'];notes=' '.join(m['content'] for m in sent if m['role']=='system')
+        assert (unheard in notes)==keeps_draft
+        assert sent[:2]==[m.to_dict() for m in history[:2]] and sent[-1]==history[-1].to_dict()
     asyncio.run(run())
 
 

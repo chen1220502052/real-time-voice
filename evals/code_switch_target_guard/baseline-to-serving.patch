@@ -1,0 +1,246 @@
+--- baseline/backend/asr_target.py
++++ serving/backend/asr_target.py
+@@ -0,0 +1,133 @@
++"""Conservative acoustic verification of one English word in a Mandarin query.
++
++No vocabulary, lesson, conversation history, or reference answer is consulted.
++The supplied decoders must return their real, thresholded ASR confidences.
++"""
++import math
++import re
++
++
++def target_slot(text, words=None):
++    """Locate an empty/ASCII-only word slot and its approximate acoustic bounds."""
++    chars = [(c, i) for i, c in enumerate(text) if c.isalnum()]
++    compact = ''.join(c for c, _ in chars)
++    prefix = re.match(
++        r'(?:(?:请|麻烦)?(?:用中文)?(?:帮我)?'
++        r'(?:解释|翻译|告诉我|说说|说|我想知道|我想问)'
++        r'(?:一下)?(?:这个)?(?:(?:英语|英文)?(?:单词|词))?'
++        r'|(?:英语|英文)单词)', compact)
++    start = prefix.end() if prefix else 0
++    suffix = re.search(
++        r'(?:(?:这个|这一个)(?:单词|词))?(?:的)?'
++        r'(?:中文(?:意思|含义|释义|怎么说|是什么意思)|意思(?:是什么)?|是什么意思)',
++        compact[start:])
++    if suffix is None:
++        return None
++    end = start + suffix.start()
++    target = compact[start:end]
++    if not re.fullmatch(r'[A-Za-z]{0,24}', target) or (not prefix and not target):
++        return None
++    if not prefix and start == 0 and not re.search(r'[\u4e00-\u9fff]', compact[end:]):
++        return None
++    lo = chars[start][1] if start < len(chars) else len(text)
++    hi = chars[end - 1][1] + 1 if target else lo
++    if len(re.findall(r'[A-Za-z]+', text[lo:hi])) > 1:
++        return None
++    if words is None:
++        return dict(target=target.lower(), start=lo, end=hi)
++    aligned = []
++    for word in words:
++        aligned.extend([word] * sum(c.isalnum() for c in word['word']))
++    if len(aligned) != len(chars) or end >= len(aligned):
++        return None  # Never infer a crop from a mismatched character alignment.
++    before = aligned[start] if target else aligned[max(0, start - 1)]
++    after = aligned[end - 1] if target else aligned[end]
++    left, right = float(before['start']), float(after['end'])
++    if not all(math.isfinite(x) for x in (left, right)) or not 0 <= left < right:
++        return None
++    return dict(target=target.lower(), start=lo, end=hi, left=left, right=right)
++
++
++def parakeet_words(tokens):
++    """Retain word-level evidence even when Mandarin lowers whole-line scores."""
++    groups = []
++    for token in tokens:
++        if not groups or token.text.startswith(' '):
++            groups.append([])
++        groups[-1].append(token)
++    result = []
++    for group in groups:
++        text = ''.join(t.text for t in group).strip().strip('.,!?')
++        if not re.fullmatch(r'[A-Za-z]{2,24}', text):
++            continue
++        score = math.exp(sum(math.log(max(1e-10, t.confidence)) for t in group) / len(group))
++        if score >= .8:
++            result.append(dict(text=text.lower(), start=group[0].start,
++                               end=group[-1].end, confidence=score))
++    return result
++
++
++def needs_verification(text, hypotheses):
++    slot = target_slot(text)
++    if slot is None:
++        return False
++    # Two recognizers already agree. Re-decoding a shorter crop can damage a
++    # correct answer; longer words retain the original serving behaviour.
++    return not (slot['target'] and (len(slot['target']) > 4 or
++                any(word['text'] == slot['target'] for word in hypotheses)))
++
++
++def verify_target(accepted, words, tokens, decode):
++    """At most two local English decodes; disagreement becomes an explicit gap.
++
++decode(start_seconds, end_seconds) receives only audio coordinates, never the
++candidate spelling. An empty slot requires agreement with the other recognizer;
++an existing word can also be supported by an independent acoustic crop.
++    """
++    text = accepted['text']
++    slot = target_slot(text, words)
++    if slot is None:
++        return accepted
++    hypotheses = [w for w in parakeet_words(tokens)
++                  if slot['left'] - .08 <= (w['start'] + w['end']) / 2 <= slot['right'] + .08]
++    # The existing word's aligned crop is always checked first. A spelling is
++    # not used as a prompt; all alternatives are derived from the same PCM.
++    crops = []
++    if slot['target']:
++        crops.append((slot['left'] - .12, slot['right'] + .08, None))
++    for word in sorted(hypotheses, key=lambda w: -w['confidence']):
++        if len(crops) >= 2:
++            break
++        crops.append((word['start'] - .08, word['end'] + .32, word['text']))
++    evidence = []
++    supported = set()
++    for left, right, other in crops:
++        left = max(0, left)
++        if not .12 <= right - left <= 2:
++            continue
++        result = decode(left, right)
++        spelling = result['text'].strip().strip('.,!?').lower()
++        evidence.append(dict(start=left, end=right, text=result['text'],
++                             confidence=result.get('confidence', 0), parakeet=other))
++        # A crop may retain a neighbouring "a" or "or" from Mandarin.
++        # Such output may confirm an existing spelling, but cannot supply a
++        # new spelling for an empty slot.
++        if slot['target'] and re.search(r'\b' + re.escape(slot['target']) + r'\b', spelling):
++            supported.add(slot['target'])
++        if not re.fullmatch(r'[a-z]{2,24}', spelling):
++            continue
++        if spelling == slot['target'] or spelling == other:
++            supported.add(spelling)
++    detail = dict(originalTarget=slot['target'], evidence=evidence)
++    if len(supported) == 1:
++        spelling = supported.pop()
++        detail['status'] = 'verified' if spelling == slot['target'] else 'recovered'
++        return {**accepted, 'text': text[:slot['start']] + spelling + text[slot['end']:],
++                'targetVerification': detail}
++    if slot['target']:
++        detail['status'] = 'uncertain'
++        return {**accepted, 'text': text[:slot['start']] + '[英语词未听清]' + text[slot['end']:],
++                'targetVerification': detail}
++    detail['status'] = 'unresolved'
++    return {**accepted, 'text': text[:slot['start']] + '[英语词未听清]' + text[slot['end']:],
++            'targetVerification': detail}
+--- baseline/scripts/local_speech_worker.py
++++ serving/scripts/local_speech_worker.py
+@@ -111,8 +111,36 @@
+         if multilingual and request.get('multilingual', True):
+             language = detect_language(samples)
+             if language == 'zh' or not accepted['text']:
+-                accepted = fallback({**request, 'language': 'zh' if language == 'zh' else 'auto'})
++                verify = (multilingual_engine == 'whisper' and
++                          os.getenv('LOCAL_ASR_TARGET_VERIFY', '0').lower() not in {'0', 'false', 'off'})
++                from backend.asr_target import parakeet_words
++                accepted = fallback({**request, 'language': 'zh' if language == 'zh' else 'auto',
++                                     'word_timestamps': verify,
++                                     'target_hypotheses': parakeet_words(result.tokens)})
+                 accepted.setdefault('engine', 'whisper')
++                words = accepted.pop('_words', [])
++                if verify and accepted['text'] and accepted.get('language') == 'zh':
++                    from backend.asr_target import verify_target
++
++                    def decode_word(start, end):
++                        # Context padding is silence, not a synthesized word or
++                        # a hotword prompt. Keep the original waveform intact.
++                        crop = samples[int(start * 16000):int(end * 16000)]
++                        crop = np.pad(crop, (3200, 3200))
++                        from mlx_whisper.decoding import decode, DecodingOptions
++                        mel = log_mel_spectrogram(crop, n_mels=detector.dims.n_mels)
++                        mel = pad_or_trim(mel, N_FRAMES, axis=-2).astype(mx.float16)
++                        decoded = decode(detector, mel, DecodingOptions(
++                            language='en', without_timestamps=True, sample_len=16))
++                        score = float(decoded.avg_logprob)
++                        reliable = (math.isfinite(score) and score <= 0 and
++                                    score > float(os.getenv('LOCAL_ASR_MIN_LOGPROB', '-1.0')) and
++                                    decoded.no_speech_prob < .6 and len(decoded.tokens) < 16)
++                        return {'text': decoded.text.strip() if reliable else '',
++                                'confidence': math.exp(score) if reliable else 0,
++                                'engine': 'whisper-tiny'}
++
++                    accepted = verify_target(accepted, words, result.tokens, decode_word)
+             else:
+                 accepted['language'] = language
+         if mx.get_cache_memory()>cache_limit:mx.clear_cache()
+@@ -221,11 +249,37 @@
+         if not raw or len(raw)%2 or len(raw)>16000*2*35:raise ValueError('Invalid ASR audio length')
+         samples=np.frombuffer(raw,dtype='<i2').astype(np.float32)/32768
+         selected = request.get('language') or language or os.getenv('LOCAL_ASR_LANGUAGE','en')
+-        result=mlx_whisper.transcribe(samples,language=None if selected=='auto' else selected,**options)
++        result=mlx_whisper.transcribe(samples,language=None if selected=='auto' else selected,
++                                     **options)
+         text = accepted_asr_text(result)
++        # Alignment is expensive. Ordinary Mandarin chat must not pay for a
++        # target-word repair, nor should it alter the decoder's text/segments.
++        from backend.asr_target import needs_verification
++        aligned = (bool(request.get('word_timestamps', False)) and text and
++                   result.get('language') == 'zh' and
++                   needs_verification(text, request.get('target_hypotheses', [])) and
++                   len(samples) <= 28 * 16000 and
++                   all(segment.get('seek', 0) == 0 for segment in result.get('segments', [])))
++        if aligned:
++            from mlx_whisper.audio import log_mel_spectrogram, pad_or_trim, N_FRAMES
++            from mlx_whisper.transcribe import ModelHolder
++            from mlx_whisper.tokenizer import get_tokenizer
++            from mlx_whisper.timing import add_word_timestamps
++            decoder = ModelHolder.get_model(str(path), mx.float16)
++            mel = log_mel_spectrogram(samples, n_mels=decoder.dims.n_mels)
++            frames = min(int(mel.shape[-2]), N_FRAMES)
++            mel = pad_or_trim(mel, N_FRAMES, axis=-2).astype(mx.float16)
++            tokenizer = get_tokenizer(decoder.is_multilingual,
++                                      num_languages=decoder.num_languages, language='zh', task='transcribe')
++            add_word_timestamps(segments=result['segments'], model=decoder, tokenizer=tokenizer,
++                                mel=mel, num_frames=frames, last_speech_timestamp=0)
+         segments = [segment for segment in result.get('segments', []) if segment.get('text', '').strip()]
+         confidence = math.exp(sum(segment.get('avg_logprob', -10) for segment in segments) / len(segments)) if segments else 0
+-        return {'text':text, 'confidence':confidence if text else 0, 'language':result.get('language')}
++        accepted = {'text':text, 'confidence':confidence if text else 0, 'language':result.get('language')}
++        if aligned:
++            accepted['_words'] = [word for segment in result.get('segments', [])
++                                  for word in segment.get('words', [])]
++        return accepted
+     return transcribe
+ 
+ 
+--- baseline/backend/providers/speech_local.py
++++ serving/backend/providers/speech_local.py
+@@ -59,6 +59,7 @@
+             'workerQueueWaitMs':result.get('queueWaitMs'),'workerStartupMs':result.get('startupMs'),
+             'workerIpcWallMs':result.get('ipcWallMs'),'workerMemory':result.get('memory'),
+             'confidence':result.get('confidence'),'engine':result.get('engine',self.model_kind),
++            'targetVerification':result.get('targetVerification'),
+             'language':result.get('language')}
+ 
+     def _prepare_final(self,speech_time):
+--- baseline/backend/voice_grounding.py
++++ serving/backend/voice_grounding.py
+@@ -398,7 +398,17 @@
+     if not messages or messages[-1].role != 'user':
+         return None
+     text = _plain(messages[-1].content)
++    if '[英语词未听清]' in text:
++        return GroundedReply('我没有听清要解释的英语单词，请把单词再说一遍或发文字。',
++                             'grounded_missing_word')
+     quoted_target = bool(re.search(r'["“\x27][\u4e00-\u9fff]{1,16}["”\x27]', text))
++    from .asr_target import target_slot
++    slot = target_slot(text)
++    if slot is not None and not slot['target'] and not quoted_target:
++        # This is an empty linguistic slot, not evidence for any particular
++        # spelling. Keep the recognizer's text intact and ask for the word.
++        return GroundedReply('我没有听清要解释的英语单词，请把单词再说一遍或发文字。',
++                             'grounded_missing_word')
+     if chinese_requested(text) and not re.search(r'[A-Za-z]', text) and not quoted_target and re.search(
+             r'解释\s*[,，。]*(?:的(?:中文)?意思)?\s*[,，。]*(?:再|并|然后|给|写|$)|'
+             r'(?:告诉我|说说)\s*的中文(?:意思|含义)|'

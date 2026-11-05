@@ -1,0 +1,468 @@
+[
+  {
+    "model": "baseline",
+    "id": "o01",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o02",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o03",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o04",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o05",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "实际音频把中文读成 Chinese letter。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o06",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "实际音频把中文读成 Chinese letter。",
+      "缺少要求的英文例句。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o07",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "实际音频把中文读成 Chinese letter。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o08",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o09",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o10",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o11",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o12",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o01",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o02",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o03",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o04",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o05",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "实际音频把中文读成 Chinese letter。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o06",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "实际音频把中文读成 Chinese letter。",
+      "缺少要求的英文例句。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o07",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "实际音频把中文读成 Chinese letter。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o08",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o09",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o10",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o11",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o12",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "baseline",
+    "id": "o13",
+    "repeat": 0,
+    "status": "excluded_ambiguous_input"
+  },
+  {
+    "model": "baseline",
+    "id": "o14",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "中文语音未产生可接受的识别结果。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o15",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "中文语音未产生可接受的识别结果。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o13",
+    "repeat": 1,
+    "status": "excluded_ambiguous_input"
+  },
+  {
+    "model": "baseline",
+    "id": "o14",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "中文语音未产生可接受的识别结果。"
+    ]
+  },
+  {
+    "model": "baseline",
+    "id": "o15",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "中文语音未产生可接受的识别结果。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o01",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o02",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o03",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "把喜欢梨推成了最喜欢梨。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o04",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o05",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "未给出要求的中文释义。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o06",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "未给出要求的中文释义。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o07",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "未给出要求的中文释义。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o08",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o09",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o10",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o11",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "把学生的简短回答当成自己的陈述或直接复述。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o12",
+    "repeat": 0,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o13",
+    "repeat": 0,
+    "status": "excluded_ambiguous_input"
+  },
+  {
+    "model": "mini",
+    "id": "o14",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "中文问年龄时声称自己六岁。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o15",
+    "repeat": 0,
+    "status": "fail",
+    "notes": [
+      "未回答最爱未知，复述问题或编造最喜欢苹果。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o01",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o02",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o03",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "把喜欢梨推成了最喜欢梨。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o04",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o05",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "未给出要求的中文释义。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o06",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "未给出要求的中文释义。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o07",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "未给出要求的中文释义。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o08",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o09",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o10",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o11",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "把学生的简短回答当成自己的陈述或直接复述。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o12",
+    "repeat": 1,
+    "status": "pass",
+    "notes": []
+  },
+  {
+    "model": "mini",
+    "id": "o13",
+    "repeat": 1,
+    "status": "excluded_ambiguous_input"
+  },
+  {
+    "model": "mini",
+    "id": "o14",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "中文问年龄时声称自己六岁。"
+    ]
+  },
+  {
+    "model": "mini",
+    "id": "o15",
+    "repeat": 1,
+    "status": "fail",
+    "notes": [
+      "未回答最爱未知，复述问题或编造最喜欢苹果。"
+    ]
+  }
+]

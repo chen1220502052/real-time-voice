@@ -91,3 +91,24 @@ def test_preexpanded_forms_match_existing_auditor():
     forms=_known_forms(words)
     for word in ['playing','studies','studied','running','making','spoke','told','replay','playfulness','future']:
         assert (word in forms)==known(word,words)
+
+
+def test_partial_curriculum_skips_other_books_but_still_checks_present_evidence(tmp_path):
+    _, library, textbook, prepared = build_fixture(tmp_path)
+    library.chapters.pop('unit2')
+    sentences = tmp_path/'sentences.json'
+    rows = [
+        {'chapterId':'unit1','text':'Good morning.','evidenceSha256':'proof','source':'page 1'},
+        {'chapterId':'unit2','text':'Other book sentence.','evidenceSha256':'unavailable','source':'page 2'},
+    ]
+    sentences.write_text(json.dumps({'sentences':rows}))
+    repo = ChatLibrary.build(library, tmp_path/'partial.sqlite3', textbook_path=textbook,
+                             prepared_path=prepared, sentences_path=sentences)
+    assert repo.stats()['chapters'] == 1
+    assert repo.stats()['textbook_sentences'] == 1
+    rows[0]['text'] = 'A forged sentence.'
+    sentences.write_text(json.dumps({'sentences':rows}))
+    with pytest.raises(ValueError, match='Unverified textbook sentence'):
+        ChatLibrary.build(library, repo.path, textbook_path=textbook,
+                          prepared_path=prepared, sentences_path=sentences)
+    assert repo.stats()['textbook_sentences'] == 1

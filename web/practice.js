@@ -35,6 +35,12 @@ function rememberChapter() {
 }
 
 function status(text) { el("practiceStatus").textContent = text; }
+function applyPlaybackRate(audio) {
+  const rate = Number(el("speed").value);
+  // Loading a new source resets playbackRate to defaultPlaybackRate in browsers.
+  audio.defaultPlaybackRate = rate;
+  audio.playbackRate = rate;
+}
 function options(id, rows, value, label = value) {
   const select = el(id);
   select.replaceChildren(...rows.map((row) => new Option(label(row), value(row))));
@@ -103,7 +109,10 @@ async function loadChapter() {
   current = null;
   render();
   el("chapterTitle").textContent = "正在加载章节…";
-  if (!el("chapter").value) { status("暂无章节资料，请先配置教材资源。"); return; }
+  if (!el("chapter").value) {
+    el("chapterTitle").textContent = "这一课的资料还在准备";
+    status("暂无章节资料，请返回首页选择已有教材。"); return;
+  }
   try {
     const response = await fetch(`/api/practice/chapters/${encodeURIComponent(el("chapter").value)}`);
     if (!response.ok) throw new Error("chapter");
@@ -111,26 +120,28 @@ async function loadChapter() {
     if (version !== loadVersion) return;
     current = item;
     el("coursePickerSummary").textContent = `${item.grade} · ${item.unit} · 换一课`;
-    el("coursePickerDetails").open = !window.matchMedia?.("(max-width: 760px)").matches;
+    // Collapse once on phones; keep an explicitly opened picker open while changing its fields.
+    if (version === 1) el("coursePickerDetails").open = !window.matchMedia?.("(max-width: 960px)").matches;
     rememberChapter();
     el("chapterTitle").textContent = item.unit;
     el("speakingQuestion").textContent = item.question;
     el("speakingExample").textContent = item.example;
-    el('wordSourceNotice').textContent = item.curriculum ? '教材原图识别并复核的单元词表；原图可在作文页的词汇范围中查看。' : (item.vocabulary.length ? '原创主题词补充，不是教材完整词表。' : '本课词表尚未完成结构化核验，请先使用教材原图和原音练习。');
+    el('wordSourceNotice').textContent = item.curriculum ? '本课单词来自教材。' : (item.vocabulary.length ? '围绕本课主题的补充词语。' : '本课单词还在整理，可以先对照课本练习。');
     el("speakingTasks").replaceChildren(...item.tasks.filter((task) => !/跟读|听音/.test(task.type)).map((task) => {
       const li = document.createElement("li"); li.textContent = task.instruction; return li;
     }));
     wordButtons = [];
-    el("words").replaceChildren(...item.vocabulary.map((word) => {
+    const wordTargets = window.KittyShadowContent.groups(item, 'words')[0]?.targets || [];
+    el("words").replaceChildren(...item.vocabulary.map((word, index) => {
       const card = document.createElement("article"); card.className = "word-practice";
       const span = document.createElement("span"); span.textContent = `${word.word} · ${word.meaning}`;
       const button = document.createElement("button"); button.type = "button"; button.textContent = "跟读";
       button.setAttribute("aria-label", `跟读单词：${word.word}`);
-      button.addEventListener("click", () => startTarget({key: `word:${word.word}`, label: word.word, source: null}));
+      button.addEventListener("click", () => startTarget(wordTargets[index]));
       wordButtons.push(button);
       card.append(span, button); return card;
     }));
-    render(); status("已切换到本章，可以开始练习。");
+    render(); status("");
   } catch {
     if (version === loadVersion) {
       el("chapterTitle").textContent = "章节暂时无法加载";
@@ -145,8 +156,8 @@ function render() {
   el("audioPractice").hidden = mode !== "listening" || !current;
   el("listeningTask").hidden = mode !== "listening" || !current;
   el("speakingTask").hidden = mode !== "speaking" || !current;
-  el("wordSupplement").hidden = mode !== "speaking" || !current;
-  el('selfRecordSection').hidden = mode === 'writing' || !current;
+  el("wordSupplement").hidden = mode !== "speaking" || !current?.vocabulary.length;
+  el('selfRecordSection').hidden = !['shadow','speaking'].includes(mode) || !current;
   el('writingTask').hidden = mode !== 'writing' || !current;
   if (mode === 'writing' && current) {
     const target = '/writing.html?embedded=1&chapter=' + encodeURIComponent(current.id);
@@ -154,12 +165,12 @@ function render() {
     el('writingFullLink').href = '/writing.html?chapter=' + encodeURIComponent(current.id);
   }
   el("recordSelf").disabled = !current || (mode === "shadow" && (!practiceTarget?.source || Boolean(practiceTarget.sampleFailed)));
-  document.querySelectorAll("[data-mode]").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.mode === mode)));
+  document.querySelectorAll("[data-mode]").forEach((button) => { button.disabled = !current; button.setAttribute("aria-pressed", String(button.dataset.mode === mode)); });
   el("instruction").textContent = {
     shadow: "先听一个词或一小段，再录下自己的声音，来回听听哪里不一样。",
     listening: "先不看课本听一遍，再记录你听到的内容。需要时重听，最后翻开课本核对。",
     speaking: "围绕本章主题回答问题，再完成拓展表达。示范可以帮助你组织自己的话。",
-    writing: '先自己写，再看看点评；也可以先搜网上范文，或生成符合本单元词汇范围的原创范文。',
+    writing: '先写下自己的想法，再请猫猫点评。需要灵感时，可以看看本单元范文。',
   }[mode];
   const playable = current?.recordings.filter((item) => item.url) || [];
   const hasWords = Boolean(current?.vocabulary?.length);
@@ -195,21 +206,59 @@ function selectRecording() {
   const item = current?.recordings.find((row) => row.id === el("recording").value);
   reference.removeAttribute("src");
   if (item?.url) reference.src = item.url;
-  reference.load(); reference.playbackRate = Number(el("speed").value);
+  applyPlaybackRate(reference);
+  reference.load();
   reference.hidden = !item?.url;
   el("speed").disabled = !item?.url;
   el("recordingPicker").hidden = !item?.url;
   el("audioPlaybackControls").hidden = !item?.url;
   const wordPractice = mode === "shadow" && el("kind").value === "words";
-  practiceTarget = {key: `material:${item?.id || el("kind").value}`, label: item?.title || (wordPractice ? "本章单词" : "本章朗读"), source: item?.url ? {url: item.url} : null};
+  practiceTarget = mode === 'speaking'
+    ? {key:`speaking:${current?.id}`,label:current?.question || '我的回答',source:null,type:'speaking'}
+    : {key: `material:${item?.id || el("kind").value}`, label: item?.title || (wordPractice ? "本章单词" : "本章朗读"), source: item?.url ? {url: item.url} : null};
+  el('recorderHeading').textContent = mode === 'speaking' ? '录下我的回答' : '听一听，再读一读';
+  el('stopRecording').textContent = mode === 'shadow' ? '结束跟读' : '结束录音';
   updateTarget();
   renderTextbook(item);
+  renderAlignedSentences(item);
   el("audioNotice").textContent = item?.url
     && wordPractice ? `官方单词录音 · ${item.availability === "local" ? "本地可播放" : "在线播放，需联网"}。可对照下方词表跟读。`
     : item?.url
-    ? `官方教材录音 · ${item.availability === "local" ? "本地可播放" : "在线播放，需联网"}。${current?.textbookPages?.some(page => page.recordingId === item.id && page.scenes?.length) ? "点下方每句话后的 ▶，只听这一句。" : ""}`
+    ? `${item.sourceLabel || '教材录音'} · ${item.availability === "local" ? "本地可播放" : "在线播放，需联网"}。${current?.textbookPages?.some(page => page.recordingId === item.id && page.scenes?.length) ? "点下方每句话后的 ▶，只听这一句。" : ""}`
     : "";
   el("audioNotice").hidden = !el("audioNotice").textContent;
+}
+function renderAlignedSentences(recording) {
+  const lines = recording?.alignedSentences || [];
+  el('alignedReader').hidden = !lines.length;
+  el('subtitleLink').hidden = !recording?.subtitleUrl;
+  if (recording?.subtitleUrl) el('subtitleLink').href = recording.subtitleUrl;
+  el('referencePageLink').hidden = !recording?.referencePage?.url;
+  if (recording?.referencePage?.url) el('referencePageLink').href = recording.referencePage.url;
+  el('alignedNotice').textContent = recording?.audioKind === 'synthetic'
+    ? '合成示范音，非教材原声。点击 ▶ 听一句，再试着跟读。'
+    : '点击 ▶ 听一句，再试着跟读；有疑问时可以对照课本。';
+  el('alignedSentences').replaceChildren(...lines.map((line, index) => {
+    const row = document.createElement('div'); row.className = 'aligned-sentence';
+    const text = document.createElement('p'); text.textContent = line.text; text.lang = 'en';
+    const controls = document.createElement('div'); controls.className = 'aligned-controls';
+    const source = {url:recording.url, start:line.start, end:line.end};
+    const play = document.createElement('button'); play.type = 'button'; play.textContent = '▶';
+    play.setAttribute('aria-label', `播放对齐句子：${line.text}`);
+    play.onclick = () => {
+      if (requestingMic || recorder?.state === 'recording') return;
+      if (play.getAttribute('aria-pressed') === 'true') { stopReference(); return; }
+      stopReference(); releaseRecording(true);
+      practiceTarget = {key:`aligned:${recording.id}:${index}`,label:line.text,source,returnTo:follow};
+      updateTarget(); applyPlaybackRate(el('sentenceAudio')); sentencePlayer.play(source, play);
+    };
+    const follow = document.createElement('button'); follow.type = 'button'; follow.textContent = '跟读';
+    follow.setAttribute('aria-label', `跟读对齐句子：${line.text}`);
+    follow.onclick = () => startTarget({key:`aligned:${recording.id}:${index}`,label:line.text,source,returnTo:follow});
+    controls.append(play,follow); row.append(text,controls);
+    if (line.chinese) { const meaning = document.createElement('p'); meaning.className = 'muted'; meaning.textContent = line.chinese; row.append(meaning); }
+    return row;
+  }));
 }
 function renderTextbook(recording) {
   const allPages = current?.textbookPages || [];
@@ -283,7 +332,7 @@ function renderDialogueScene(page) {
       button.textContent = "▶"; button.setAttribute("aria-label", `播放：${line.text}`);
       button.setAttribute("aria-pressed", "false"); button.disabled = !recording?.url;
       button.addEventListener("click", () => {
-        el("sentenceAudio").playbackRate = Number(el("speed").value);
+        applyPlaybackRate(el("sentenceAudio"));
         sentencePlayer.play({url: recording.url, start: line.start, end: line.end}, button);
       });
       const follow = document.createElement("button"); follow.type = "button"; follow.className = "sentence-follow";
@@ -341,11 +390,12 @@ function showShadowTarget() {
     button.addEventListener("click", () => { shadowIndex = i; showShadowTarget(); }); shadowWordButtons.push(button); return button;
   }));
   if (!target) { updateTarget(); return; }
+  status(target.type === "word" ? "先听单词示范，再试着读一遍。" : "先听当前片段，再试着读一遍。");
   keepValue("shadowLesson", group.id);
   el("shadowProgress").textContent = `${target.type === "word" ? "单词" : "小段"} ${shadowIndex + 1} / ${group.targets.length}`;
   el("shadowText").textContent = target.type === "excerpt" ? group.label : target.label;
   el("shadowText").lang = target.type === "excerpt" ? "zh-CN" : "en";
-  el("shadowMeaning").textContent = target.meaning || (target.type === "excerpt" ? "看着下面的课文，每次只读这一小段。" : "听听这句话，再自己读一遍。");
+  el("shadowMeaning").textContent = target.meaning || (target.type === "excerpt" ? (target.page ? "看着下面的课文，每次只读这一小段。" : "先听这一小段，再试着跟读。") : "听听这句话，再自己读一遍。");
   el("shadowSource").textContent = target.source ? `${target.sourceLabel} · ${window.KittyShadowContent.seconds(target.duration || 1)}` : "这个词的示范音暂时不可用，先练其他词吧。";
   el("shadowPrevious").disabled = shadowIndex === 0;
   el("shadowNext").disabled = shadowIndex === group.targets.length - 1;
@@ -385,11 +435,11 @@ el("kind").addEventListener("change", () => { resetPractice(); render(); remembe
 el("recording").addEventListener("change", selectRecording);
 document.querySelectorAll("[data-mode]").forEach((button) => button.addEventListener("click", () => {
   if (mode === button.dataset.mode) return;
-  resetPractice(); mode = button.dataset.mode; rememberChapter(); render(); status("练习模式已切换。");
+  resetPractice(); mode = button.dataset.mode; rememberChapter(); render(); status("");
 }));
 el("speed").addEventListener("change", () => {
-  reference.playbackRate = Number(el("speed").value);
-  el("sentenceAudio").playbackRate = Number(el("speed").value);
+  applyPlaybackRate(reference);
+  applyPlaybackRate(el("sentenceAudio"));
 });
 reference.addEventListener("error", () => {
   if (!reference.getAttribute("src")) return;
@@ -421,14 +471,14 @@ function sampleFinished() {
 }
 function setSampleState(state) { sampleState = state; renderSampleControl(); }
 function renderSampleControl() {
-  const word = mode === "shadow" && practiceTarget?.type === "word";
+  const word = practiceTarget?.type === "word";
   const subject = word ? "单词发音" : "课文原音";
-  const duration = mode === "shadow" && practiceTarget?.duration ? ` · ${window.KittyShadowContent.seconds(practiceTarget.duration)}` : "";
+  const duration = practiceTarget?.duration ? ` · ${window.KittyShadowContent.seconds(practiceTarget.duration)}` : "";
   const button = el("playOriginal");
   button.textContent = sampleState === "loading" ? "… 加载中 · 点击取消"
     : sampleState === "playing" ? "■ 正在播放 · 点击停止"
     : sampleState === "error" ? "▶ 重新播放"
-    : sampleHeard ? `▶ 再听一次${duration}` : `▶ 听${mode === "shadow" ? subject : "原音"}${duration}`;
+    : sampleHeard ? `▶ 再听一次${duration}` : `▶ 听${mode === "shadow" || word ? subject : "原音"}${duration}`;
   button.dataset.playback = sampleState;
   button.setAttribute("aria-pressed", String(sampleState === "loading" || sampleState === "playing"));
   button.setAttribute("aria-busy", String(sampleState === "loading"));
@@ -449,11 +499,12 @@ function updateTarget() {
   }
   renderSampleControl();
   el("recordSelf").disabled = !current || (mode === "shadow" && (!practiceTarget?.source || Boolean(practiceTarget.sampleFailed)));
-  el("recordTarget").hidden = mode === "shadow";
+  el('recorderHeading').textContent = practiceTarget?.type === 'speaking' ? '录下我的回答' : '听一听，再读一读';
+  el("recordTarget").hidden = mode === "shadow" || practiceTarget?.type === 'speaking';
   el("targetNotice").hidden = mode === "shadow";
   el("recordTarget").textContent = practiceTarget ? `当前跟读：${practiceTarget.label}` : "选择内容，开始跟读";
   el("playOriginal").hidden = !practiceTarget?.source;
-  el("targetNotice").textContent = practiceTarget?.source ? "先听原音 → 跟读录音 → 回听对照。可重复练习。" : "当前内容暂无独立原音，可以录下朗读并回听。";
+  el("targetNotice").textContent = practiceTarget?.type === 'speaking' ? '围绕上方问题说一说，再回听自己的表达。' : practiceTarget?.source ? "先听示范 → 跟读录音 → 回听对照。可重复练习。" : "当前内容暂无独立示范音，可以录下朗读并回听。";
 }
 function startTarget(target) {
   if (requestingMic || recorder?.state === "recording") return;
@@ -473,9 +524,10 @@ el("playOriginal").addEventListener("click", () => {
   sampleAudio = Number.isFinite(source.start) ? el("sentenceAudio") : reference;
   setSampleState("loading");
   if (Number.isFinite(source.start)) {
-    sampleAudio.playbackRate = Number(el("speed").value);
+    applyPlaybackRate(sampleAudio);
     sentencePlayer.play(source, el("compareClip"));
   } else {
+    applyPlaybackRate(reference);
     reference.src = source.url; reference.currentTime = 0;
     reference.play().catch(() => { if (attempt === sampleAttempt) sampleError(); });
   }
@@ -489,7 +541,7 @@ el("recordSelf").addEventListener("click", () => startRecording());
 async function startRecording() {
   if (requestingMic || recorder?.state === "recording" || !current || (mode === "shadow" && (!practiceTarget?.source || Boolean(practiceTarget.sampleFailed)))) return;
   if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
-    status("当前浏览器不支持录音，请使用支持录音的浏览器，并通过 HTTPS 或本机地址访问。"); return;
+    status("当前浏览器暂时无法录音，请更新浏览器后重试，也可以先写下自己的表达。"); return;
   }
   stopReference(); releaseRecording(true);
   const version = recordingVersion;
@@ -529,6 +581,7 @@ el("stopRecording").addEventListener("click", () => releaseRecording());
 document.addEventListener("visibilitychange", () => { if (document.hidden) { stopReference(); releaseRecording(true); } });
 window.addEventListener("pagehide", () => { stopReference(); releaseRecording(true); });
 async function initialize() {
+  render();
   try { await window.KittyAccount?.ready; }
   catch { status("学习档案读取失败，请检查网络后刷新重试。"); return; }
   el("recordSelf").disabled = true;
@@ -543,6 +596,7 @@ async function initialize() {
     const chapter = requested ? chapters.find(row => row.id === requested) :
       (saved.track === "textbook" ? window.KittyCourses.resolve(chapters, saved) : null);
     if (requested && !chapter) {
+      el('chapterPicker').hidden = true;
       el("chapterTitle").textContent = "所选单元暂不可用";
       status("这个单元不在当前目录中。请返回学习首页重新选择课程。");
       return;

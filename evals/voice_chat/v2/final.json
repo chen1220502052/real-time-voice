@@ -1,0 +1,2427 @@
+{
+  "version": 2,
+  "purpose": "final_validation",
+  "date": "2026-11-03",
+  "cases": [
+    {
+      "id": "final-passage-0-5",
+      "group": "passage-0",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"We study maths on Wednesday.\" Which school subject do we study? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "数学"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-0-9",
+      "group": "passage-0",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"We study maths on Wednesday.\" Which school subject do we study? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "数学"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-1-5",
+      "group": "passage-1",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The feather is light.\" What does light say about the feather? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "轻"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-1-9",
+      "group": "passage-1",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The feather is light.\" What does light say about the feather? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "轻"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-2-5",
+      "group": "passage-2",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The red apple is on the table.\" What colour is the apple? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "红"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-2-9",
+      "group": "passage-2",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The red apple is on the table.\" What colour is the apple? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "红"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-3-5",
+      "group": "passage-3",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The grey coat belongs to Ben.\" Who owns the coat? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "Ben"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-3-9",
+      "group": "passage-3",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The grey coat belongs to Ben.\" Who owns the coat? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "Ben"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-4-5",
+      "group": "passage-4",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"This is our music lesson.\" Which subject is the lesson about? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "音乐"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-4-9",
+      "group": "passage-4",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"This is our music lesson.\" Which subject is the lesson about? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "音乐"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-5-5",
+      "group": "passage-5",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"We have forty minutes for lunch.\" How many minutes do we have? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "四十|40"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-5-9",
+      "group": "passage-5",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"We have forty minutes for lunch.\" How many minutes do we have? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "四十|40"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-6-5",
+      "group": "passage-6",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"A goose is standing beside the lake.\" Which bird is beside the lake? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "鹅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-6-9",
+      "group": "passage-6",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"A goose is standing beside the lake.\" Which bird is beside the lake? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "鹅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-7-5",
+      "group": "passage-7",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The scarf is yellow and blue.\" Which two colours are in the scarf? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "黄.*蓝|蓝.*黄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-7-9",
+      "group": "passage-7",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The scarf is yellow and blue.\" Which two colours are in the scarf? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "黄.*蓝|蓝.*黄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-8-5",
+      "group": "passage-8",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The nurse is in the hospital.\" Where is the nurse? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "医院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-8-9",
+      "group": "passage-8",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The nurse is in the hospital.\" Where is the nurse? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "医院"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-9-5",
+      "group": "passage-9",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The brown leaf falls into the garden.\" Where does the leaf fall? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "花园"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-9-9",
+      "group": "passage-9",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The brown leaf falls into the garden.\" Where does the leaf fall? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "花园"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-10-5",
+      "group": "passage-10",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The classroom is quiet now.\" How is the classroom now? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "安静"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-10-9",
+      "group": "passage-10",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The classroom is quiet now.\" How is the classroom now? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "安静"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-11-5",
+      "group": "passage-11",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The farmer grows carrots.\" Which vegetable does the farmer grow? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "胡萝卜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-passage-11-9",
+      "group": "passage-11",
+      "split": "heldout",
+      "category": "chinese_passage",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Passage: \"The farmer grows carrots.\" Which vegetable does the farmer grow? 请用中文回答，保留英文名字。"
+        }
+      ],
+      "checks": {
+        "required": [
+          "胡萝卜"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-0-5",
+      "group": "preference-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like daffodils."
+        },
+        {
+          "role": "user",
+          "content": "What's my favourite flower?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-0-9",
+      "group": "preference-0",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like daffodils."
+        },
+        {
+          "role": "user",
+          "content": "What's my favourite flower?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-1-5",
+      "group": "preference-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is porridge."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "porridge"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-1-9",
+      "group": "preference-1",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite food is porridge."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite food?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "porridge"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-2-5",
+      "group": "preference-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love skipping."
+        },
+        {
+          "role": "user",
+          "content": "Did I say skipping is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-2-9",
+      "group": "preference-2",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I love skipping."
+        },
+        {
+          "role": "user",
+          "content": "Did I say skipping is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-3-5",
+      "group": "preference-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite sport is swimming."
+        },
+        {
+          "role": "user",
+          "content": "My favourite colour is black."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite colour now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "swimming"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-3-9",
+      "group": "preference-3",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite sport is swimming."
+        },
+        {
+          "role": "user",
+          "content": "My favourite colour is black."
+        },
+        {
+          "role": "user",
+          "content": "I don't have a favourite colour now."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite sport?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "swimming"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-4-5",
+      "group": "preference-4",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like boats more than trains."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite vehicle?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-4-9",
+      "group": "preference-4",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I like boats more than trains."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite vehicle?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-5-5",
+      "group": "preference-5",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My cousin says her favourite fruit is lychees."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-5-9",
+      "group": "preference-5",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My cousin says her favourite fruit is lychees."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite fruit?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "not (?:said|told)|not.*like best|not.*favou?rite|unknown|don.t know|没有|未.*最喜欢"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-6-5",
+      "group": "preference-6",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的颜色是金色。"
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite color?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "金色"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-6-9",
+      "group": "preference-6",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "我最喜欢的颜色是金色。"
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite color?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "金色"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-7-5",
+      "group": "preference-7",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite animal is a swan."
+        },
+        {
+          "role": "user",
+          "content": "A swan is no longer my favourite animal."
+        },
+        {
+          "role": "user",
+          "content": "My favourite animal is a crane."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "crane"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-preference-7-9",
+      "group": "preference-7",
+      "split": "heldout",
+      "category": "preference",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favourite animal is a swan."
+        },
+        {
+          "role": "user",
+          "content": "A swan is no longer my favourite animal."
+        },
+        {
+          "role": "user",
+          "content": "My favourite animal is a crane."
+        },
+        {
+          "role": "user",
+          "content": "What is my favourite animal?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "crane"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-0-5",
+      "group": "identity-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kitty, how old are you today?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-0-9",
+      "group": "identity-0",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Kitty, how old are you today?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-1-5",
+      "group": "identity-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really an eight-year-old AI cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-1-9",
+      "group": "identity-1",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are you really an eight-year-old AI cat?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-2-5",
+      "group": "identity-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me your actual age in human years."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-2-9",
+      "group": "identity-2",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me your actual age in human years."
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-3-5",
+      "group": "identity-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is your birthday date, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-3-9",
+      "group": "identity-3",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is your birthday date, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-4-5",
+      "group": "identity-4",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old were you before this year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-4-9",
+      "group": "identity-4",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How old were you before this year?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-5-5",
+      "group": "identity-5",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned five already, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-5-9",
+      "group": "identity-5",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Have you turned five already, Kitty?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-6-5",
+      "group": "identity-6",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文说，你今年有多少岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-6-9",
+      "group": "identity-6",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文说，你今年有多少岁？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-7-5",
+      "group": "identity-7",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你的实际年龄是多少？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-identity-7-9",
+      "group": "identity-7",
+      "split": "heldout",
+      "category": "identity",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用中文回答，你的实际年龄是多少？"
+        }
+      ],
+      "checks": {
+        "required": [
+          "AI|人工智能",
+          "no.*age|don.t.*age|not.*age|没有.*年龄"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-nurse-5",
+      "group": "word-nurse",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of nurse?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "护士"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-nurse-9",
+      "group": "word-nurse",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of nurse?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "护士"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-pilot-5",
+      "group": "word-pilot",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of pilot?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "飞行员"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-pilot-9",
+      "group": "word-pilot",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of pilot?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "飞行员"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-scarf-5",
+      "group": "word-scarf",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of scarf?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "围巾"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-scarf-9",
+      "group": "word-scarf",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of scarf?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "围巾"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-gloves-5",
+      "group": "word-gloves",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of gloves?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "手套"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-gloves-9",
+      "group": "word-gloves",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of gloves?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "手套"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-cloud-5",
+      "group": "word-cloud",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of cloud?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "云"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-cloud-9",
+      "group": "word-cloud",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of cloud?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "云"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-leaf-5",
+      "group": "word-leaf",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of leaf?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "叶"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-leaf-9",
+      "group": "word-leaf",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of leaf?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "叶"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-cherry-5",
+      "group": "word-cherry",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of cherry?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "樱桃"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-cherry-9",
+      "group": "word-cherry",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of cherry?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "樱桃"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-goose-5",
+      "group": "word-goose",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of goose?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "鹅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-word-goose-9",
+      "group": "word-goose",
+      "split": "heldout",
+      "category": "glossary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the Chinese meaning of goose?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "鹅"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-human-5",
+      "group": "control-human",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "An author in the story is sixty years old. How old is that author?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "sixty|60"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-human-9",
+      "group": "control-human",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "An author in the story is sixty years old. How old is that author?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "sixty|60"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-student-5",
+      "group": "control-student",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I just turned fifteen. How old am I now?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fifteen|15"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-student-9",
+      "group": "control-student",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I just turned fifteen. How old am I now?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "fifteen|15"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-character-5",
+      "group": "control-character",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The fictional kitten Kitty is three years old. How old is this fictional kitten?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "three|3"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-character-9",
+      "group": "control-character",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The fictional kitten Kitty is three years old. How old is this fictional kitten?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "three|3"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-quote-age-5",
+      "group": "control-quote-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"Are you ten years old now?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:十|10).*岁"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-quote-age-9",
+      "group": "control-quote-age",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"Are you ten years old now?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:十|10).*岁"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-quote-birthday-5",
+      "group": "control-quote-birthday",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"When is your birthday?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*生日.*(?:什么|哪|何)|什么.*你.*生日"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-quote-birthday-9",
+      "group": "control-quote-birthday",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"When is your birthday?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*生日.*(?:什么|哪|何)|什么.*你.*生日"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-quoted-name-5",
+      "group": "control-quoted-name",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"Is Kitty your name?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:叫|名字).*Kitty|Kitty.*你.*名字"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-quoted-name-9",
+      "group": "control-quoted-name",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate \"Is Kitty your name?\" into Chinese."
+        }
+      ],
+      "checks": {
+        "required": [
+          "你.*(?:叫|名字).*Kitty|Kitty.*你.*名字"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 1,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-word-example-5",
+      "group": "control-word-example",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does quiet mean in Chinese and give one English statement with quiet?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "安静|文静",
+          "\\b(?:it|the|I|we|she|he|this)\\b.*quiet"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-word-example-9",
+      "group": "control-word-example",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does quiet mean in Chinese and give one English statement with quiet?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "安静|文静",
+          "\\b(?:it|the|I|we|she|he|this)\\b.*quiet"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-unknown-5",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does nuravexel mean in Chinese? Do not make up a meaning."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|无法确认|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-unknown-9",
+      "group": "control-unknown",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does nuravexel mean in Chinese? Do not make up a meaning."
+        }
+      ],
+      "checks": {
+        "required": [
+          "没有可靠|不确定|不知道|无法确认|not know"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-river-5",
+      "group": "control-river",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"The river bank is wet\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "河岸|岸边"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-river-9",
+      "group": "control-river",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"The river bank is wet\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "河岸|岸边"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-money-5",
+      "group": "control-money",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"The bank keeps our savings\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "银行"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-money-9",
+      "group": "control-money",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"The bank keeps our savings\", what does bank mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "银行"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-right-5",
+      "group": "control-right",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"The teacher said my answer was right\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "正确|对"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-right-9",
+      "group": "control-right",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "In \"The teacher said my answer was right\", what does right mean in Chinese?"
+        }
+      ],
+      "checks": {
+        "required": [
+          "正确|对"
+        ],
+        "forbidden": [],
+        "chinese": true,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-smalltalk-5",
+      "group": "control-smalltalk",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 5,
+      "route": "extension",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me one simple thing about a rainbow."
+        }
+      ],
+      "checks": {
+        "required": [
+          "rainbow|colour|color"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    },
+    {
+      "id": "final-control-smalltalk-9",
+      "group": "control-smalltalk",
+      "split": "heldout",
+      "category": "boundary",
+      "grade": 9,
+      "route": "curriculum",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Please tell me one simple thing about a rainbow."
+        }
+      ],
+      "checks": {
+        "required": [
+          "rainbow|colour|color"
+        ],
+        "forbidden": [],
+        "chinese": false,
+        "max_questions": 0,
+        "max_words": 55
+      },
+      "rubric": "Check complete meaning and contradictions, not merely matching a word. Translated questions may have question marks."
+    }
+  ],
+  "scope": "96 fresh fictional cases after all previous sets became development/regression; text Bot only.",
+  "independence": "No grade/history signature shared with any previously executed set. Frozen before first run; no post-run rule repairs."
+}

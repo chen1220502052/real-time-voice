@@ -14,12 +14,15 @@ ROOT = Path(__file__).resolve().parents[1] / "英语"
 
 def test_real_chapters_keep_publisher_grade_and_edition_separate():
     lib = ChapterLibrary(ROOT)
-    chapters = lib.catalog()["chapters"]
+    # Downloaded editions added by the optional local alignment pack are separate
+    # from the original 202-unit catalog and must never replace it.
+    original = {key: value for key,value in lib.chapters.items() if value['textKind']!='第三方同步资料'}
+    chapters = [c for c in lib.catalog()["chapters"] if c['id'] in original]
     assert len(chapters) == 202
     assert len({item["id"] for item in chapters}) == 202
     assert sum(c["publisher"] == "人教版" for c in chapters) == 84
     assert sum(c["publisher"] == "科普版" for c in chapters) == 118
-    for chapter in lib.chapters.values():
+    for chapter in original.values():
         assert chapter["edition"] and chapter["unit"]
         assert chapter["textKind"].startswith("原创") or chapter.get('curriculum')
         if chapter["publisher"] == "科普版":
@@ -186,7 +189,7 @@ def test_recording_picker_names_match_verified_sections_and_paired_pages():
     lib = ChapterLibrary(ROOT)
     chapter = lib.chapters['0500d50509c2f1f6668a11d6']
     recordings = {r['id']: r for r in chapter['recordings']}
-    titles = [r['title'] for r in chapter['recordings']]
+    titles = [r['title'] for r in chapter['recordings'] if r.get('audioKind')!='synthetic']
     assert titles[0] == '整课录音'
     assert len(titles) == 11 and len(set(titles)) == 11
     assert all(not title.startswith('教材分段') for title in titles)

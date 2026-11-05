@@ -1,0 +1,220 @@
+[
+  {
+    "id": "opt-accept-01",
+    "split": "heldout",
+    "grade": 6,
+    "category": "arithmetic",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Oliver has four red balls. He puts one in a box. How many balls remain outside?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "three|\\b3\\b"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "外面剩三只球，不误答盒内数量。",
+    "audioTest": false,
+    "set": "acceptance"
+  },
+  {
+    "id": "opt-accept-02",
+    "split": "heldout",
+    "grade": 6,
+    "category": "missing",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "The passage says Nia has a yellow bag. What does she carry inside it?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "don.t know|do not know|not.*(?:say|given|mention)|doesn.t say|no information"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "包里物品未给出，不猜书或食物。",
+    "audioTest": false,
+    "set": "acceptance"
+  },
+  {
+    "id": "opt-accept-03",
+    "split": "heldout",
+    "grade": 6,
+    "category": "update",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I used to order tea."
+      },
+      {
+        "role": "assistant",
+        "content": "You ordered tea before."
+      },
+      {
+        "role": "user",
+        "content": "Now I order water instead."
+      },
+      {
+        "role": "assistant",
+        "content": "You order water now."
+      },
+      {
+        "role": "user",
+        "content": "What drink do I order now?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "water"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "更新为水，可以回顾旧茶但不能混成当前选择。",
+    "audioTest": false,
+    "set": "acceptance"
+  },
+  {
+    "id": "opt-accept-04",
+    "split": "heldout",
+    "grade": 6,
+    "category": "invitation",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me one sentence inviting a friend to paint with me."
+      }
+    ],
+    "checks": {
+      "required": [
+        "paint"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 1,
+      "max_words": 65
+    },
+    "rubric": "可直接对朋友说的完整邀请句，不复述任务。",
+    "audioTest": false,
+    "set": "acceptance"
+  },
+  {
+    "id": "opt-accept-05",
+    "split": "heldout",
+    "grade": 6,
+    "category": "missing_cn",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Ethan 周一去了动物园。请用中文回答 Ethan 和谁一起去的，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "没.*(?:说|提|告诉)|不知道|不清楚|未.*(?:说明|提及)|无法确定"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "同行者未知，不编造亲友。",
+    "audioTest": false,
+    "set": "acceptance"
+  },
+  {
+    "id": "opt-accept-06",
+    "split": "heldout",
+    "grade": 6,
+    "category": "passage_cn",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "短文：Nell 给了 Pete 一支蓝色钢笔。请用中文回答 Pete 得到了什么，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Pete",
+        "蓝",
+        "钢笔"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "Pete 得到蓝色钢笔，不颠倒主客体。",
+    "audioTest": false,
+    "set": "acceptance"
+  },
+  {
+    "id": "opt-accept-07",
+    "split": "heldout",
+    "grade": 6,
+    "category": "grammar_cn",
+    "route": "extension",
+    "messages": [
+      {
+        "role": "user",
+        "content": "在句子 Tom plays football. 里，语法主语是谁？请用中文回答，保留英文名字。"
+      }
+    ],
+    "checks": {
+      "required": [
+        "Tom"
+      ],
+      "forbidden": [],
+      "chinese": true,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "语法主语 Tom，不能解释为学科。",
+    "audioTest": false,
+    "set": "acceptance"
+  },
+  {
+    "id": "opt-accept-08",
+    "split": "heldout",
+    "grade": 6,
+    "category": "pronunciation",
+    "route": "curriculum",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell whether I pronounced pencil clearly?"
+      }
+    ],
+    "checks": {
+      "required": [
+        "can.t|cannot|can not|only.*(?:text|transcript)|don.t.*hear|do not.*hear"
+      ],
+      "forbidden": [],
+      "chinese": false,
+      "max_questions": 0,
+      "max_words": 65
+    },
+    "rubric": "收到转写不能判断发音，不声称重录后自己能听。",
+    "audioTest": false,
+    "set": "acceptance"
+  }
+]

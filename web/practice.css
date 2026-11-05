@@ -47,7 +47,7 @@
   .practice-layout .is-clean .sentence-follow { min-height: 44px; }
   .practice-layout .is-clean .sentence-play { width: 42px; height: 42px; font-size: 17px; }
 }
-@media (max-width: 760px) { .practice-layout { grid-template-columns: 1fr; padding: 0 12px; margin: 12px auto; } .chapter-picker, .practice-panel { padding: 20px; } .topbar { flex-wrap: wrap; gap: 16px; } }
+@media (max-width: 960px) { .practice-layout { grid-template-columns: 1fr; padding: 0 12px; margin: 12px auto; } .chapter-picker, .practice-panel { padding: 20px; } .topbar { flex-wrap: wrap; gap: 16px; } }
 
 .word-practice { display: grid; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 12px; }
 .word-practice button { min-height: 44px; }
@@ -87,8 +87,8 @@
   .practice-layout #shadowText { font-size: 30px; }
 }
 
-@media (min-width: 761px) { #coursePickerSummary { display: none; } }
-@media (max-width: 760px) { .practice-layout .chapter-picker { padding: 12px 18px; } .practice-layout .chapter-picker details { margin: 0; } #coursePickerSummary { font-size: 14px; color: #355d44; padding: 6px 0; } }
+@media (min-width: 961px) { #coursePickerSummary { display: none; } }
+@media (max-width: 960px) { .practice-layout .chapter-picker { padding: 12px 18px; } .practice-layout .chapter-picker details { margin: 0; } #coursePickerSummary { font-size: 14px; color: #355d44; padding: 6px 0; } }
 
 .practice-layout #shadowRecorderSlot #playOriginal[data-playback="playing"],
 .practice-layout #shadowRecorderSlot #playOriginal[data-playback="loading"] { background: #dcebd5; border: 2px solid #6f9565; color: #244632; }
@@ -105,3 +105,10 @@
 .kind-card-check { position: absolute; right: 9px; top: 7px; color: #3b7548; font-size: 16px; visibility: hidden; }
 .practice-kind-card[aria-pressed="true"] .kind-card-check { visibility: visible; }
 @media (max-width: 520px) { .practice-layout .practice-kind-card { flex-direction: column; gap: 7px; padding: 12px 8px; min-height: 100px; font-size: 16px; } }
+
+@media (max-width: 960px) { .practice-layout { grid-template-columns: minmax(0, 1fr); } }
+.aligned-reader { margin:20px 0; padding:20px; border:1px solid var(--ui-border); border-radius:18px; background:var(--ui-input); }
+.aligned-sentence { padding:14px 0; border-bottom:1px solid var(--ui-border); }
+.aligned-sentence:last-child { border-bottom:0; }
+.aligned-sentence > p:first-child { font-size:18px; line-height:1.8; margin:0 0 10px; }
+.aligned-controls { display:flex; flex-wrap:wrap; gap:8px; }
