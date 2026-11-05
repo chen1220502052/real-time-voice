@@ -20,6 +20,7 @@ import hashlib
 import hmac
 import json
 import os
+import ssl
 import sys
 import time
 import urllib.parse
@@ -106,7 +107,13 @@ def call(action, key, secret, region, endpoint, params, dry_run=False, security_
     url = f"https://{endpoint}/?{canonical}&Signature={urllib.parse.quote(signature, safe='~')}"
     request = urllib.request.Request(url, headers={"User-Agent": "ecs-power-scheduler/1"})
     try:
-        with urllib.request.urlopen(request, timeout=15) as response:
+        context = ssl.create_default_context()
+        # macOS Python may retain a removed Homebrew CA path. Use the trusted
+        # system CA bundle when no default CA file is available.
+        if sys.platform == 'darwin' and ssl.get_default_verify_paths().cafile is None:
+            if os.path.isfile('/etc/ssl/cert.pem'):
+                context.load_verify_locations(cafile='/etc/ssl/cert.pem')
+        with urllib.request.urlopen(request, timeout=15, context=context) as response:
             return json.loads(response.read().decode())
     except urllib.error.HTTPError as error:
         body = error.read().decode(errors="replace")
